@@ -1,0 +1,30 @@
+ClusterBlast scores for 258
+
+Table of genes, locations, strands and annotations of query cluster:
+PUJ_002019	556700	557998	+	hypothetical protein	
+PUJ_002020	560346	562038	-	hypothetical protein	
+PUJ_002021	562762	563971	-	hypothetical protein	
+PUJ_002022	564681	565331	-	Mitochondrial fission 1 protein	
+PUJ_002023	565624	566325	+	putative kinetochore protein spc24	
+PUJ_002024	566517	567486	-	hypothetical protein	
+PUJ_002025	567749	568444	+	Mediator of RNA polymerase II transcription subunit 21	
+PUJ_002026	571036	571632	+	hypothetical protein	
+PUJ_002027	574090	575586	+	hypothetical protein	
+PUJ_002028	582745	583192	-	Transcriptional activator of fatty acid utilization	
+PUJ_002029	586523	594958	-	hypothetical protein	
+PUJ_002030	596551	598564	-	hypothetical protein	
+PUJ_002031	599183	600989	-	hypothetical protein	
+PUJ_002032	601901	603323	-	hypothetical protein	
+PUJ_002033	604595	605769	+	hypothetical protein	
+PUJ_002034	606735	608746	+	hypothetical protein	
+PUJ_002035	612651	616044	+	hypothetical protein	
+PUJ_002037	617970	618307	-	hypothetical protein	
+PUJ_002038	619541	620262	-	hypothetical protein	
+PUJ_002039	620430	621234	+	hypothetical protein	
+PUJ_002040	622103	622826	+	hypothetical protein	
+
+
+Significant hits: 
+
+
+Details:

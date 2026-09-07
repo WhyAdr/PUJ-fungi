@@ -1,0 +1,56 @@
+ClusterBlast scores for 433
+
+Table of genes, locations, strands and annotations of query cluster:
+PUJ_003960	174964	179837	-	hypothetical protein	
+PUJ_003961	181190	187545	+	hypothetical protein	
+PUJ_003962	187937	189427	-	hypothetical protein	
+PUJ_003963	192532	196728	-	hypothetical protein	
+PUJ_003964	199420	200945	+	hypothetical protein	
+PUJ_003965	201664	209428	+	hypothetical protein	
+PUJ_003966	209786	210499	-	hypothetical protein	
+PUJ_003967	214670	215616	+	hypothetical protein	
+PUJ_003968	219639	221298	-	hypothetical protein	
+PUJ_003969	222560	223185	-	hypothetical protein	
+PUJ_003970	226473	227732	+	hypothetical protein	
+PUJ_003971	232633	233372	+	hypothetical protein	
+PUJ_003972	235317	236550	+	hypothetical protein	
+
+
+Significant hits: 
+1. BGC0000027.4	ankaflavin/monascin/rubropunctatine/monascorubrin
+2. BGC0001143.4	azanigerone A/azanigerone B/azanigerone C/azanigerone D/azanigerone E/azanigerone F
+
+
+Details:
+
+>>
+1. BGC0000027.4
+Source: ankaflavin/monascin/rubropunctatine/monascorubrin
+Type: PKS:Iterative type I
+Number of proteins with BLAST hits to this cluster: 5
+Cumulative BLAST score: 6652.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_003960	2371MpFasA2	51	1606	100.8695652173913	0.0
+PUJ_003961	2372MpFasB2	49	1875	99.13461538461539	0.0
+PUJ_003962	2381F	51	416	91.80672268907563	1.14e-142
+PUJ_003964	2363R1	46	308	84.97652582159625	4.41e-100
+PUJ_003965	2362MpPKS5	48	2447	105.48424737456243	0.0
+
+
+
+>>
+2. BGC0001143.4
+Source: azanigerone A/azanigerone B/azanigerone C/azanigerone D/azanigerone E/azanigerone F
+Type: PKS
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 2640.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_003962	ASPNIDRAFT_188800	46	371	92.43697478991596	4.17e-125
+PUJ_003965	ASPNIDRAFT_56946	47	2269	102.29482691559704	0.0
+

@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8" />
+<link rel="stylesheet" type="text/css" href="../../css/style.css">
+
+<script type="text/javascript" src="../../js/jquery.js"></script>
+<script type="text/javascript" src="../../js/jquery.tablesorter.min.js"></script>
+
+<script type="text/javascript" >
+var counter = 1;
+function addInput(divName){
+     var newdiv = document.createElement('div');
+     newdiv.innerHTML = "<b>Locus " + (counter + 1) + "</b><br> GenBank accession: <input type='text' required name='myInputs[]'> Start nt: <input type='number' name='myStartCoords[]' placeholder='N/A'> End nt: <input type='number' name='myEndCoords[]' placeholder='N/A'> <br><br>";
+     document.getElementById(divName).appendChild(newdiv);
+     counter++;
+}
+</script>
+
+<script>
+$(document).ready(function()
+    {
+        $("#myTable").tablesorter();
+    }
+);
+
+</script>
+<style>
+table {
+    border-width: thin;
+    border-spacing: 2px;
+    border-style: none;
+    border-color: black;
+}
+</style>
+</head>
+<body>
+    <table id="myTable" class="tablesorter" border=1>
+    <thead>
+    <tr>
+        <th>MIBiG Protein</th>
+        <th>Description</th>
+        <th>MIBiG Cluster</th>
+        <th>MiBiG Product</th>
+        <th>% ID</th>
+        <th>% Coverage</th>
+        <th>BLAST Score</th>
+        <th>E-value</th>
+    </tr>
+    </thead>
+    <tbody>
+    
+          <tr>
+              <td>ESU07752.1</td>
+              <td>hypothetical_protein</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0002709.2">BGC0002709.2</a></td>
+              <td>PKS</td>
+              <td>37.0</td>
+              <td>127.1</td>
+              <td>383.0</td>
+              <td>1.82e-126</td>
+          </tr>
+    
+          <tr>
+              <td>KDB16999.1</td>
+              <td>laccase</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0002177.2">BGC0002177.2</a></td>
+              <td>PKS</td>
+              <td>39.0</td>
+              <td>115.1</td>
+              <td>364.0</td>
+              <td>3.56e-120</td>
+          </tr>
+    
+          <tr>
+              <td>QKG86291.1</td>
+              <td>laccase</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0002253.3">BGC0002253.3</a></td>
+              <td>PKS</td>
+              <td>37.0</td>
+              <td>116.4</td>
+              <td>354.0</td>
+              <td>1.71e-116</td>
+          </tr>
+    
+          <tr>
+              <td>XP_028481812.1</td>
+              <td>conidial_pigment_biosynthesis_oxidase</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0001866.4">BGC0001866.4</a></td>
+              <td>PKS</td>
+              <td>36.0</td>
+              <td>127.1</td>
+              <td>352.0</td>
+              <td>1.98e-114</td>
+          </tr>
+    
+          <tr>
+              <td>QDK64758.1</td>
+              <td>AshL</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0002301.2">BGC0002301.2</a></td>
+              <td>PKS</td>
+              <td>35.0</td>
+              <td>124.7</td>
+              <td>322.0</td>
+              <td>2.15e-103</td>
+          </tr>
+    
+          <tr>
+              <td>QNT61264.1</td>
+              <td>laccase</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0002507.3">BGC0002507.3</a></td>
+              <td>PKS</td>
+              <td>38.0</td>
+              <td>96.8</td>
+              <td>321.0</td>
+              <td>9.57e-103</td>
+          </tr>
+    
+          <tr>
+              <td>PIB01155.1</td>
+              <td>Laccase-1</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0001541.3">BGC0001541.3</a></td>
+              <td>PKS</td>
+              <td>32.0</td>
+              <td>99.8</td>
+              <td>238.0</td>
+              <td>2.68e-71</td>
+          </tr>
+    
+          <tr>
+              <td>XP_001798925.1</td>
+              <td>hypothetical_protein</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0001865.4">BGC0001865.4</a></td>
+              <td>PKS:Iterative type I</td>
+              <td>31.0</td>
+              <td>97.7</td>
+              <td>238.0</td>
+              <td>2.94e-71</td>
+          </tr>
+    
+          <tr>
+              <td>AGO65983.1</td>
+              <td>putative_multicopper_oxidase</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0000992.4">BGC0000992.4</a></td>
+              <td>NRPS:Type I+PKS</td>
+              <td>29.0</td>
+              <td>92.3</td>
+              <td>178.0</td>
+              <td>1.79e-49</td>
+          </tr>
+    
+    </tbody>
+  </table>
+</body>

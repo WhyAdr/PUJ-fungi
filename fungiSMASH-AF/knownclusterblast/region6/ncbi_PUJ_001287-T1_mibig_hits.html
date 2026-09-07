@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8" />
+<link rel="stylesheet" type="text/css" href="../../css/style.css">
+
+<script type="text/javascript" src="../../js/jquery.js"></script>
+<script type="text/javascript" src="../../js/jquery.tablesorter.min.js"></script>
+
+<script type="text/javascript" >
+var counter = 1;
+function addInput(divName){
+     var newdiv = document.createElement('div');
+     newdiv.innerHTML = "<b>Locus " + (counter + 1) + "</b><br> GenBank accession: <input type='text' required name='myInputs[]'> Start nt: <input type='number' name='myStartCoords[]' placeholder='N/A'> End nt: <input type='number' name='myEndCoords[]' placeholder='N/A'> <br><br>";
+     document.getElementById(divName).appendChild(newdiv);
+     counter++;
+}
+</script>
+
+<script>
+$(document).ready(function()
+    {
+        $("#myTable").tablesorter();
+    }
+);
+
+</script>
+<style>
+table {
+    border-width: thin;
+    border-spacing: 2px;
+    border-style: none;
+    border-color: black;
+}
+</style>
+</head>
+<body>
+    <table id="myTable" class="tablesorter" border=1>
+    <thead>
+    <tr>
+        <th>MIBiG Protein</th>
+        <th>Description</th>
+        <th>MIBiG Cluster</th>
+        <th>MiBiG Product</th>
+        <th>% ID</th>
+        <th>% Coverage</th>
+        <th>BLAST Score</th>
+        <th>E-value</th>
+    </tr>
+    </thead>
+    <tbody>
+    
+          <tr>
+              <td>AYM52866.1</td>
+              <td>hypothetical_protein</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0001964.2">BGC0001964.2</a></td>
+              <td>PKS</td>
+              <td>29.0</td>
+              <td>104.8</td>
+              <td>114.0</td>
+              <td>4.9e-29</td>
+          </tr>
+    
+          <tr>
+              <td>DAC76740.1</td>
+              <td>crotonyl-CoA_reductase/alcohol_dehydrogenase</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0001885.3">BGC0001885.3</a></td>
+              <td>NRPS:Type I+PKS</td>
+              <td>29.0</td>
+              <td>92.8</td>
+              <td>105.0</td>
+              <td>1.06e-25</td>
+          </tr>
+    
+          <tr>
+              <td>AYU66256.1</td>
+              <td>TjhO5</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0002461.2">BGC0002461.2</a></td>
+              <td>PKS</td>
+              <td>28.0</td>
+              <td>80.5</td>
+              <td>94.0</td>
+              <td>9.09e-22</td>
+          </tr>
+    
+          <tr>
+              <td>QTA30614.1</td>
+              <td>NADPH:quinone_reductase-dependent_oxidoreductase</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0002143.2">BGC0002143.2</a></td>
+              <td>PKS</td>
+              <td>28.0</td>
+              <td>100.6</td>
+              <td>92.0</td>
+              <td>5.84e-21</td>
+          </tr>
+    
+          <tr>
+              <td>BAC79021.1</td>
+              <td>enoyl_reductase</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0000245.5">BGC0000245.5</a></td>
+              <td>PKS</td>
+              <td>28.0</td>
+              <td>88.9</td>
+              <td>92.0</td>
+              <td>1.32e-20</td>
+          </tr>
+    
+          <tr>
+              <td>AQM58285.1</td>
+              <td>polyketide_synthase</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0001816.4">BGC0001816.4</a></td>
+              <td>NRPS:Type I+PKS</td>
+              <td>25.0</td>
+              <td>90.1</td>
+              <td>89.0</td>
+              <td>7.77e-19</td>
+          </tr>
+    
+          <tr>
+              <td>QBK15047.1</td>
+              <td>polyketide_synthase_ClaI</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0002196.2">BGC0002196.2</a></td>
+              <td>PKS</td>
+              <td>34.0</td>
+              <td>45.5</td>
+              <td>74.0</td>
+              <td>5.38e-14</td>
+          </tr>
+    
+          <tr>
+              <td>KKP04596.1</td>
+              <td>hypothetical_protein</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0002066.3">BGC0002066.3</a></td>
+              <td>NRPS:Type I+PKS:Iterative type I</td>
+              <td>25.0</td>
+              <td>71.0</td>
+              <td>60.0</td>
+              <td>8.35e-10</td>
+          </tr>
+    
+          <tr>
+              <td>EAL85129.1</td>
+              <td>polyketide_synthase,_putative</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0001067.5">BGC0001067.5</a></td>
+              <td>PKS:Iterative type I+terpene:Sesquiterpene</td>
+              <td>25.0</td>
+              <td>90.7</td>
+              <td>60.0</td>
+              <td>2.3e-09</td>
+          </tr>
+    
+          <tr>
+              <td>AGZ20490.1</td>
+              <td>hypothetical_protein</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0001776.3">BGC0001776.3</a></td>
+              <td>terpene</td>
+              <td>26.0</td>
+              <td>84.4</td>
+              <td>54.0</td>
+              <td>8.51e-08</td>
+          </tr>
+    
+          <tr>
+              <td>ARP51714.1</td>
+              <td>NADP-dependent_dehydrogenase_/enoyl-reductase</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0001741.3">BGC0001741.3</a></td>
+              <td>NRPS:Type I+PKS</td>
+              <td>27.0</td>
+              <td>70.1</td>
+              <td>54.0</td>
+              <td>1.23e-07</td>
+          </tr>
+    
+          <tr>
+              <td>QBK15055.1</td>
+              <td>enoyl_reductase_TraG</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0002197.2">BGC0002197.2</a></td>
+              <td>PKS+NRPS:Type I</td>
+              <td>28.0</td>
+              <td>52.4</td>
+              <td>52.0</td>
+              <td>3.76e-07</td>
+          </tr>
+    
+    </tbody>
+  </table>
+</body>

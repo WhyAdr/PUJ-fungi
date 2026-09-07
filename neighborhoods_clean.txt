@@ -1,0 +1,239 @@
+===============================================================================================
+[TA-PUJ] TARGET: PUJ_004816 on Contig/Scaffold contig_1730 (Index 3/6)
+===============================================================================================
+    Rel | Locus Tag   | Str | AA     | Gene     | Pfam              | EC          | Product
+-----------------------------------------------------------------------------------------------
+     -2 | PUJ_004814  | -   | 460aa  | -        | -                 | -           | hypothetical protein
+     -1 | PUJ_004815  | -   | 353aa  | -        | PF07690           | -           | hypothetical protein
+ TARGET | PUJ_004816  | +   | 348aa  | -        | PF00291           | 3.5.99.7    | hypothetical protein
+     +1 | PUJ_004817  | -   | 1141aa | -        | PF00933,PF01915   | 3.2.1.21    | hypothetical protein
+     +2 | PUJ_004818  | -   | 210aa  | RHO3     | PF00025,PF00071   | -           | Rho GTPase
+     +3 | PUJ_004819  | +   | 72aa   | -        | -                 | -           | hypothetical protein
+
+===============================================================================================
+[TA-PUJ] TARGET: PUJ_005301 on Contig/Scaffold contig_1813 (Index 3/8)
+===============================================================================================
+    Rel | Locus Tag   | Str | AA     | Gene     | Pfam              | EC          | Product
+-----------------------------------------------------------------------------------------------
+     -2 | PUJ_005299  | +   | 406aa  | -        | -                 | 3.4.14.9    | hypothetical protein
+     -1 | PUJ_005300  | +   | 530aa  | -        | PF00004           | -           | hypothetical protein
+ TARGET | PUJ_005301  | -   | 332aa  | TATC6    | PF19086           | -           | Terpene cyclase 6
+     +1 | PUJ_005302  | +   | 120aa  | GST2_2   | PF02798,PF13409   | 2.5.1.18    | Glutathione S-transferase 2
+     +2 | PUJ_005304  | -   | 539aa  | -        | PF00106,PF05704   | -           | hypothetical protein
+     +3 | PUJ_005305  | +   | 325aa  | -        | PF00248           | -           | hypothetical protein
+     +4 | PUJ_005306  | +   | 227aa  | MRE11_1  | PF00149           | -           | meiotic recombination
+     +5 | PUJ_005307  | +   | 399aa  | MRE11_2  | PF04152           | -           | meiotic recombination
+
+===============================================================================================
+[TA-PUJ] TARGET: PUJ_004623 on Contig/Scaffold contig_1705 (Index 12/13)
+===============================================================================================
+    Rel | Locus Tag   | Str | AA     | Gene     | Pfam              | EC          | Product
+-----------------------------------------------------------------------------------------------
+    -10 | PUJ_004613  | +   | 279aa  | -        | PF07859           | -           | hypothetical protein
+     -9 | PUJ_004614  | +   | 282aa  | -        | PF00808           | -           | hypothetical protein
+     -8 | PUJ_004615  | +   | 527aa  | PIK1_1   | PF11522,PF21245   | 2.7.1.67    | Phosphatidylinositol 4-kinase pik1alpha (PI4-kinase)(PtdIns-4-kinase)
+     -7 | PUJ_004616  | +   | 412aa  | PIK1_2   | PF00454           | 2.7.1.67    | Phosphatidylinositol 4-kinase pik1alpha (PI4-kinase)(PtdIns-4-kinase)
+     -6 | PUJ_004617  | -   | 838aa  | -        | -                 | -           | hypothetical protein
+     -5 | PUJ_004618  | -   | 249aa  | VPS21    | PF00009,PF00025   | -           | Vacuolar protein sorting-associated protein 21
+     -4 | PUJ_004619  | -   | 530aa  | -        | -                 | -           | hypothetical protein
+     -3 | PUJ_004620  | +   | 454aa  | -        | -                 | -           | hypothetical protein
+     -2 | PUJ_004621  | -   | 673aa  | -        | PF11915           | -           | hypothetical protein
+     -1 | PUJ_004622  | +   | 286aa  | -        | PF02678           | -           | hypothetical protein
+ TARGET | PUJ_004623  | +   | 754aa  | CHT2_2   | -                 | 3.2.1.14    | Chitinase 2
+     +1 | PUJ_004624  | +   | 224aa  | -        | PF00132,PF12464   | -           | hypothetical protein
+
+===============================================================================================
+[TA-PUJ] TARGET: PUJ_001678 on Contig/Scaffold contig_623 (Index 7/9)
+===============================================================================================
+    Rel | Locus Tag   | Str | AA     | Gene     | Pfam              | EC          | Product
+-----------------------------------------------------------------------------------------------
+     -6 | PUJ_001672  | +   | 201aa  | -        | -                 | -           | hypothetical protein
+     -5 | PUJ_001673  | +   | 536aa  | -        | PF07690           | -           | hypothetical protein
+     -4 | PUJ_001674  | +   | 496aa  | -        | PF00171           | 1.2.1.5     | hypothetical protein
+     -3 | PUJ_001675  | +   | 234aa  | -        | -                 | 3.5.1.4     | hypothetical protein
+     -2 | PUJ_001676  | +   | 285aa  | -        | PF01425           | 3.5.1.4     | hypothetical protein
+     -1 | PUJ_001677  | -   | 301aa  | -        | PF13409,PF13410   | 1.8.5.7     | hypothetical protein
+ TARGET | PUJ_001678  | -   | 606aa  | FET3     | PF00394,PF07731   | -           | ferroxidase fet3
+     +1 | PUJ_001679  | +   | 367aa  | FTR1_1   | PF03239           | -           | high-affinity iron permease
+     +2 | PUJ_001680  | +   | 102aa  | -        | PF14200           | -           | hypothetical protein
+
+===============================================================================================
+[TA-PUJ] TARGET: PUJ_003670 on Contig/Scaffold contig_1419 (Index 8/8)
+===============================================================================================
+    Rel | Locus Tag   | Str | AA     | Gene     | Pfam              | EC          | Product
+-----------------------------------------------------------------------------------------------
+     -7 | PUJ_003663  | -   | 316aa  | BRX1     | PF04427           | -           | Ribosome bioproteinsis protein brx1
+     -6 | PUJ_003664  | -   | 212aa  | YPT31    | PF00025,PF00071   | -           | Rab GTPase ypt31
+     -5 | PUJ_003665  | +   | 185aa  | -        | PF00385           | -           | hypothetical protein
+     -4 | PUJ_003666  | -   | 372aa  | -        | PF04695           | -           | hypothetical protein
+     -3 | PUJ_003667  | +   | 443aa  | -        | PF04795           | -           | hypothetical protein
+     -2 | PUJ_003668  | +   | 324aa  | -        | -                 | -           | hypothetical protein
+     -1 | PUJ_003669  | +   | 440aa  | -        | PF13259           | -           | hypothetical protein
+ TARGET | PUJ_003670  | -   | 1415aa | -        | PF00550,PF00668   | -           | hypothetical protein
+
+===============================================================================================
+[TA-PUJ] TARGET: PUJ_003355 on Contig/Scaffold contig_1342 (Index 3/9)
+===============================================================================================
+    Rel | Locus Tag   | Str | AA     | Gene     | Pfam              | EC          | Product
+-----------------------------------------------------------------------------------------------
+     -2 | PUJ_003353  | -   | 260aa  | -        | -                 | -           | hypothetical protein
+     -1 | PUJ_003354  | -   | 121aa  | -        | -                 | -           | hypothetical protein
+ TARGET | PUJ_003355  | -   | 2143aa | -        | PF00107,PF00109   | -           | hypothetical protein
+     +1 | PUJ_003356  | +   | 314aa  | -        | -                 | -           | hypothetical protein
+     +2 | PUJ_003357  | -   | 264aa  | -        | PF01063           | 2.6.1.42    | hypothetical protein
+     +3 | PUJ_003358  | -   | 508aa  | -        | PF00067           | -           | hypothetical protein
+     +4 | PUJ_003359  | +   | 141aa  | -        | -                 | -           | hypothetical protein
+     +5 | PUJ_003360  | -   | 530aa  | -        | PF06609,PF07690   | -           | hypothetical protein
+     +6 | PUJ_003361  | +   | 1963aa | -        | PF00501,PF00550   | -           | hypothetical protein
+
+===============================================================================================
+[TA-PUJ] TARGET: PUJ_004657 on Contig/Scaffold contig_1710 (Index 8/11)
+===============================================================================================
+    Rel | Locus Tag   | Str | AA     | Gene     | Pfam              | EC          | Product
+-----------------------------------------------------------------------------------------------
+     -7 | PUJ_004649  | -   | 746aa  | -        | PF00394,PF07731   | -           | hypothetical protein
+     -6 | PUJ_004650  | +   | 447aa  | -        | PF04185           | 3.1.3.2     | hypothetical protein
+     -5 | PUJ_004652  | -   | 242aa  | -        | PF08787           | -           | hypothetical protein
+     -4 | PUJ_004653  | -   | 211aa  | -        | PF01261           | -           | hypothetical protein
+     -3 | PUJ_004654  | +   | 506aa  | -        | PF00393,PF03446   | -           | hypothetical protein
+     -2 | PUJ_004655  | -   | 86aa   | -        | -                 | -           | hypothetical protein
+     -1 | PUJ_004656  | -   | 330aa  | -        | PF00389,PF02826   | 1.1.1.29    | hypothetical protein
+ TARGET | PUJ_004657  | +   | 2204aa | -        | PF00550,PF00668   | 7.6.2.2     | hypothetical protein
+     +1 | PUJ_004658  | +   | 115aa  | -        | -                 | -           | hypothetical protein
+     +2 | PUJ_004659  | +   | 145aa  | -        | -                 | -           | hypothetical protein
+     +3 | PUJ_004660  | -   | 338aa  | -        | PF02423           | -           | hypothetical protein
+
+===============================================================================================
+[AF-PUJ] TARGET: PUJ_009393 on Contig/Scaffold 1340 (Index 81/93)
+===============================================================================================
+    Rel | Locus Tag   | Str | AA     | Gene     | Pfam              | EC          | Product
+-----------------------------------------------------------------------------------------------
+    -10 | PUJ_009383  | +   | 418aa  | -        | PF00891           | 2.1.1.110   | hypothetical protein
+     -9 | PUJ_009384  | +   | 386aa  | -        | PF00891           | 2.1.1.109   | hypothetical protein
+     -8 | PUJ_009385  | +   | 282aa  | -        | PF13460           | -           | hypothetical protein
+     -7 | PUJ_009386  | +   | 163aa  | -        | PF08592           | 1.13.12.20  | hypothetical protein
+     -6 | PUJ_009387  | +   | 947aa  | -        | PF00067           | -           | hypothetical protein
+     -5 | PUJ_009388  | -   | 129aa  | -        | PF14087           | -           | hypothetical protein
+     -4 | PUJ_009389  | -   | 742aa  | -        | PF00067,PF00106   | -           | hypothetical protein
+     -3 | PUJ_009390  | -   | 388aa  | -        | PF00248           | -           | hypothetical protein
+     -2 | PUJ_009391  | -   | 308aa  | -        | PF07859,PF20434   | 3.1.1.94    | hypothetical protein
+     -1 | PUJ_009392  | -   | 278aa  | -        | PF00106           | 1.1.1.352   | hypothetical protein
+ TARGET | PUJ_009393  | +   | 444aa  | -        | PF00172,PF08493   | -           | hypothetical protein
+     +1 | PUJ_009394  | -   | 1904aa | -        | PF00698,PF01575   | 2.3.1.86    | hypothetical protein
+     +2 | PUJ_009395  | +   | 1679aa | -        | PF00109,PF01648   | 2.3.1.86    | hypothetical protein
+     +3 | PUJ_009396  | -   | 271aa  | -        | PF00106,PF01370   | 1.1.1.349   | hypothetical protein
+     +4 | PUJ_009397  | +   | 2109aa | -        | PF00109,PF00550   | 2.3.1.221   | hypothetical protein
+     +5 | PUJ_009398  | -   | 542aa  | -        | PF07690           | -           | hypothetical protein
+     +6 | PUJ_009399  | -   | 385aa  | -        | PF00067           | -           | hypothetical protein
+     +7 | PUJ_009400  | -   | 664aa  | -        | PF00083,PF07690   | -           | hypothetical protein
+     +8 | PUJ_009401  | +   | 455aa  | -        | PF01593,PF13450   | 1.21.99.1   | hypothetical protein
+     +9 | PUJ_009402  | +   | 3867aa | -        | PF00109,PF00501   | -           | hypothetical protein
+    +10 | PUJ_009403  | +   | 395aa  | -        | -                 | -           | hypothetical protein
+
+===============================================================================================
+[AF-PUJ] TARGET: PUJ_004419 on Contig/Scaffold 471 (Index 17/457)
+===============================================================================================
+    Rel | Locus Tag   | Str | AA     | Gene     | Pfam              | EC          | Product
+-----------------------------------------------------------------------------------------------
+    -10 | PUJ_004409  | +   | 647aa  | -        | -                 | -           | hypothetical protein
+     -9 | PUJ_004410  | -   | 376aa  | -        | PF11951           | -           | hypothetical protein
+     -8 | PUJ_004411  | +   | 294aa  | -        | PF11913           | -           | hypothetical protein
+     -7 | PUJ_004412  | -   | 748aa  | -        | PF00172,PF11951   | -           | hypothetical protein
+     -6 | PUJ_004413  | +   | 305aa  | TEM1     | PF00025,PF00071   | -           | Ras GTPase tem1
+     -5 | PUJ_004414  | -   | 532aa  | -        | PF04082           | -           | hypothetical protein
+     -4 | PUJ_004415  | +   | 695aa  | -        | PF01055,PF21365   | -           | hypothetical protein
+     -3 | PUJ_004416  | +   | 183aa  | -        | -                 | -           | hypothetical protein
+     -2 | PUJ_004417  | -   | 283aa  | -        | -                 | -           | hypothetical protein
+     -1 | PUJ_004418  | -   | 265aa  | -        | PF02668           | -           | hypothetical protein
+ TARGET | PUJ_004419  | +   | 797aa  | -        | PF02668,PF04183   | -           | hypothetical protein
+     +1 | PUJ_004420  | +   | 342aa  | -        | PF00389,PF02826   | 1.1.1.29    | hypothetical protein
+     +2 | PUJ_004421  | -   | 345aa  | -        | PF11913           | -           | hypothetical protein
+     +3 | PUJ_004422  | +   | 837aa  | -        | PF02668           | -           | hypothetical protein
+     +4 | PUJ_004423  | -   | 477aa  | -        | PF00702,PF13419   | -           | hypothetical protein
+     +5 | PUJ_004424  | -   | 273aa  | CAP1     | PF01267           | -           | F-actin-capping protein subunit alpha
+     +6 | PUJ_004425  | -   | 435aa  | -        | -                 | -           | hypothetical protein
+     +7 | PUJ_004426  | -   | 298aa  | -        | PF11951           | -           | hypothetical protein
+     +8 | PUJ_004427  | -   | 673aa  | -        | -                 | -           | hypothetical protein
+     +9 | PUJ_004428  | +   | 436aa  | -        | PF01266           | -           | hypothetical protein
+    +10 | PUJ_004429  | +   | 261aa  | MED7     | PF05983           | -           | Mediator of RNA polymerase II transcription subunit 7
+
+===============================================================================================
+[AF-PUJ] TARGET: PUJ_005557 on Contig/Scaffold 482 (Index 216/422)
+===============================================================================================
+    Rel | Locus Tag   | Str | AA     | Gene     | Pfam              | EC          | Product
+-----------------------------------------------------------------------------------------------
+    -10 | PUJ_005547  | +   | 210aa  | -        | -                 | -           | hypothetical protein
+     -9 | PUJ_005548  | +   | 362aa  | -        | -                 | -           | hypothetical protein
+     -8 | PUJ_005549  | -   | 498aa  | AMY3     | PF00128,PF09260   | 3.2.1.1     | Alpha-amylase A type-3
+     -7 | PUJ_005550  | -   | 985aa  | -        | PF01055,PF21365   | 3.2.1.20    | hypothetical protein
+     -6 | PUJ_005551  | +   | 589aa  | -        | PF00172,PF04082   | -           | hypothetical protein
+     -5 | PUJ_005552  | -   | 485aa  | -        | PF02434           | -           | hypothetical protein
+     -4 | PUJ_005553  | +   | 648aa  | srp72    | PF08492,PF17004   | -           | Signal recognition particle subunit SRP72
+     -3 | PUJ_005554  | -   | 385aa  | -        | PF01408           | -           | hypothetical protein
+     -2 | PUJ_005555  | +   | 522aa  | -        | -                 | -           | hypothetical protein
+     -1 | PUJ_005556  | +   | 1696aa | DNF3     | PF00122,PF00702   | -           | drs2 neo1 protein
+ TARGET | PUJ_005557  | +   | 605aa  | PHO2     | PF00046           | -           | Transcription factor
+     +1 | PUJ_005558  | +   | 161aa  | -        | -                 | -           | hypothetical protein
+     +2 | PUJ_005559  | -   | 352aa  | -        | PF04678           | -           | hypothetical protein
+     +3 | PUJ_005560  | +   | 762aa  | -        | -                 | -           | hypothetical protein
+     +4 | PUJ_005561  | -   | 283aa  | -        | -                 | -           | hypothetical protein
+     +5 | PUJ_005562  | -   | 447aa  | -        | PF02458           | -           | hypothetical protein
+     +6 | PUJ_005563  | +   | 229aa  | -        | -                 | 2.3.2.27    | hypothetical protein
+     +7 | PUJ_005564  | +   | 392aa  | -        | PF00096           | -           | hypothetical protein
+     +8 | PUJ_005565  | -   | 663aa  | sif3     | PF02582           | -           | Sad1-interacting factor 3
+     +9 | PUJ_005566  | -   | 507aa  | -        | -                 | -           | hypothetical protein
+    +10 | PUJ_005567  | -   | 133aa  | -        | -                 | -           | hypothetical protein
+
+===============================================================================================
+[AF-PUJ] TARGET: PUJ_009297 on Contig/Scaffold 1339 (Index 66/80)
+===============================================================================================
+    Rel | Locus Tag   | Str | AA     | Gene     | Pfam              | EC          | Product
+-----------------------------------------------------------------------------------------------
+    -10 | PUJ_009287  | +   | 707aa  | -        | PF03571           | 3.4.14.4    | hypothetical protein
+     -9 | PUJ_009288  | +   | 229aa  | -        | -                 | -           | hypothetical protein
+     -8 | PUJ_009289  | +   | 559aa  | SFH1     | PF04855           | -           | Chromatin structure remodeling complex protein sfh1
+     -7 | PUJ_009290  | -   | 306aa  | -        | -                 | -           | hypothetical protein
+     -6 | PUJ_009291  | +   | 295aa  | SEC13    | -                 | -           | GTPase-activating protein S13
+     -5 | PUJ_009292  | -   | 200aa  | -        | -                 | -           | hypothetical protein
+     -4 | PUJ_009293  | -   | 751aa  | GCN20    | PF00005,PF12848   | -           | ATP-binding cassette, regulator of translational elongation
+     -3 | PUJ_009294  | +   | 648aa  | -        | PF20162           | -           | hypothetical protein
+     -2 | PUJ_009295  | +   | 444aa  | -        | -                 | -           | hypothetical protein
+     -1 | PUJ_009296  | +   | 185aa  | -        | -                 | -           | hypothetical protein
+ TARGET | PUJ_009297  | +   | 772aa  | PHO81    | PF00023,PF12796   | -           | phosphate system positive regulatory protein pho81
+     +1 | PUJ_009298  | -   | 123aa  | NAT2     | PF06916           | -           | DUF1279 super
+     +2 | PUJ_009299  | -   | 184aa  | COA1     | PF08695           | -           | cytochrome oxidase assembly protein 1
+     +3 | PUJ_009300  | +   | 60aa   | -        | -                 | -           | hypothetical protein
+     +4 | PUJ_009301  | -   | 122aa  | -        | -                 | -           | hypothetical protein
+     +5 | PUJ_009302  | +   | 267aa  | COQ2     | PF01040           | 2.5.1.39    | Para-hydroxybenzoate--polyprenyltransferase, mitochondrial precursor (PHB:polyprenyltransferase)
+     +6 | PUJ_009303  | +   | 132aa  | GRX5     | PF00462           | -           | monothiol glutaredoxin grx5
+     +7 | PUJ_009304  | -   | 292aa  | MUQ1     | -                 | 2.7.7.14    | choline phosphate cytidylyltransferase
+     +8 | PUJ_009305  | -   | 190aa  | UPS2     | PF04707           | -           | Phospholipid metabolism protein
+     +9 | PUJ_009306  | +   | 207aa  | DOT5     | PF00578,PF08534   | 1.11.1.24   | thioredoxin peroxidase dot5
+    +10 | PUJ_009307  | +   | 196aa  | -        | -                 | -           | hypothetical protein
+
+===============================================================================================
+[AF-PUJ] TARGET: PUJ_000724 on Contig/Scaffold 24 (Index 77/621)
+===============================================================================================
+    Rel | Locus Tag   | Str | AA     | Gene     | Pfam              | EC          | Product
+-----------------------------------------------------------------------------------------------
+    -10 | PUJ_000714  | +   | 488aa  | -        | PF00646,PF02373   | -           | hypothetical protein
+     -9 | PUJ_000715  | +   | 231aa  | -        | PF09340           | -           | hypothetical protein
+     -8 | PUJ_000716  | -   | 1087aa | AMS1     | PF01074,PF07748   | 3.2.1.24    | Glycoside hydrolase, 38 vacuolar alpha mannosidase
+     -7 | PUJ_000717  | -   | 445aa  | -        | -                 | -           | hypothetical protein
+     -6 | PUJ_000718  | +   | 447aa  | -        | -                 | -           | hypothetical protein
+     -5 | PUJ_000719  | +   | 543aa  | YLH47    | PF07766           | -           | LETM1 domain-containing protein ylh47
+     -4 | PUJ_000720  | +   | 136aa  | PCD1     | -                 | -           | 8-oxo-dGTP diphosphatase
+     -3 | PUJ_000721  | -   | 851aa  | SMC1     | PF02463,PF06470   | -           | Structural maintenance of chromosomes protein 1
+     -2 | PUJ_000722  | +   | 353aa  | -        | PF12697           | -           | hypothetical protein
+     -1 | PUJ_000723  | -   | 554aa  | CDH1     | PF00400,PF12894   | -           | substrate-specific activator of APC-dependent proteolysis
+ TARGET | PUJ_000724  | +   | 498aa  | -        | PF02127           | 3.4.11.21   | hypothetical protein
+     +1 | PUJ_000725  | +   | 330aa  | -        | PF08508           | -           | hypothetical protein
+     +2 | PUJ_000726  | -   | 175aa  | -        | PF00574           | 3.4.21.92   | hypothetical protein
+     +3 | PUJ_000727  | +   | 169aa  | -        | -                 | -           | hypothetical protein
+     +4 | PUJ_000728  | -   | 306aa  | PHO13    | PF00702,PF13242   | 3.1.3.41    | p-nitrophenyl phosphatase
+     +5 | PUJ_000729  | -   | 320aa  | RFC2     | PF00004,PF08542   | -           | Subunit of heteropentameric Replication factor C (RF-C)
+     +6 | PUJ_000730  | -   | 288aa  | IPP1     | PF00719           | 3.6.1.1     | Inorganic pyrophosphatase
+     +7 | PUJ_000731  | +   | 444aa  | dus2     | PF01207           | 1.3.1.91    | tRNA-dihydrouridine synthase 2
+     +8 | PUJ_000732  | -   | 1026aa | FUN30    | PF00176,PF00270   | 3.6.4.12    | DNA-dependent ATPase fun30
+     +9 | PUJ_000733  | +   | 61aa   | VMA21    | -                 | -           | vacuolar ATPase assembly integral membrane protein vma21
+    +10 | PUJ_000734  | -   | 178aa  | -        | -                 | -           | hypothetical protein

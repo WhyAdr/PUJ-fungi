@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8" />
+<link rel="stylesheet" type="text/css" href="../../css/style.css">
+
+<script type="text/javascript" src="../../js/jquery.js"></script>
+<script type="text/javascript" src="../../js/jquery.tablesorter.min.js"></script>
+
+<script type="text/javascript" >
+var counter = 1;
+function addInput(divName){
+     var newdiv = document.createElement('div');
+     newdiv.innerHTML = "<b>Locus " + (counter + 1) + "</b><br> GenBank accession: <input type='text' required name='myInputs[]'> Start nt: <input type='number' name='myStartCoords[]' placeholder='N/A'> End nt: <input type='number' name='myEndCoords[]' placeholder='N/A'> <br><br>";
+     document.getElementById(divName).appendChild(newdiv);
+     counter++;
+}
+</script>
+
+<script>
+$(document).ready(function()
+    {
+        $("#myTable").tablesorter();
+    }
+);
+
+</script>
+<style>
+table {
+    border-width: thin;
+    border-spacing: 2px;
+    border-style: none;
+    border-color: black;
+}
+</style>
+</head>
+<body>
+    <table id="myTable" class="tablesorter" border=1>
+    <thead>
+    <tr>
+        <th>MIBiG Protein</th>
+        <th>Description</th>
+        <th>MIBiG Cluster</th>
+        <th>MiBiG Product</th>
+        <th>% ID</th>
+        <th>% Coverage</th>
+        <th>BLAST Score</th>
+        <th>E-value</th>
+    </tr>
+    </thead>
+    <tbody>
+    
+          <tr>
+              <td>EED49870.1</td>
+              <td>alcohol_dehydrogenase,_putative</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0001445.5">BGC0001445.5</a></td>
+              <td>NRPS:Type I+PKS:Iterative type I</td>
+              <td>100.0</td>
+              <td>100.0</td>
+              <td>737.0</td>
+              <td>7.48e-272</td>
+          </tr>
+    
+          <tr>
+              <td>EPS34237.1</td>
+              <td>hypothetical_protein</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0002067.3">BGC0002067.3</a></td>
+              <td>NRPS:Type I+PKS:Iterative type I</td>
+              <td>51.0</td>
+              <td>96.4</td>
+              <td>363.0</td>
+              <td>8.01e-125</td>
+          </tr>
+    
+          <tr>
+              <td>KKP04596.1</td>
+              <td>hypothetical_protein</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0002066.3">BGC0002066.3</a></td>
+              <td>NRPS:Type I+PKS:Iterative type I</td>
+              <td>47.0</td>
+              <td>97.8</td>
+              <td>355.0</td>
+              <td>1.18e-121</td>
+          </tr>
+    
+          <tr>
+              <td>iliB</td>
+              <td></td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0002035.3">BGC0002035.3</a></td>
+              <td>NRPS:Type I+PKS</td>
+              <td>47.0</td>
+              <td>103.1</td>
+              <td>338.0</td>
+              <td>1.36e-114</td>
+          </tr>
+    
+          <tr>
+              <td>QBQ83710.1</td>
+              <td>trans-enoyl_reductase</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0002093.2">BGC0002093.2</a></td>
+              <td>PKS+NRPS:Type I</td>
+              <td>48.0</td>
+              <td>99.4</td>
+              <td>332.0</td>
+              <td>2.07e-112</td>
+          </tr>
+    
+          <tr>
+              <td>CAO91860.1</td>
+              <td>putative_enoyl_reductase</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0000968.5">BGC0000968.5</a></td>
+              <td>NRPS:Type I+PKS:Iterative type I</td>
+              <td>49.0</td>
+              <td>98.0</td>
+              <td>327.0</td>
+              <td>1.03e-110</td>
+          </tr>
+    
+          <tr>
+              <td>CBF80481.1</td>
+              <td>Enoyl_reductase_(Eurofung)</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0000959.5">BGC0000959.5</a></td>
+              <td>NRPS:Type I+PKS:Iterative type I</td>
+              <td>48.0</td>
+              <td>96.4</td>
+              <td>324.0</td>
+              <td>7.84e-110</td>
+          </tr>
+    
+          <tr>
+              <td>AKC54419.1</td>
+              <td>trans_enoyl-reductase</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0001218.3">BGC0001218.3</a></td>
+              <td>NRPS:Type I+PKS</td>
+              <td>45.0</td>
+              <td>102.2</td>
+              <td>309.0</td>
+              <td>4.39e-103</td>
+          </tr>
+    
+          <tr>
+              <td>QPC57091.1</td>
+              <td>enoyl_reductase</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0002230.2">BGC0002230.2</a></td>
+              <td>PKS+NRPS:Type I</td>
+              <td>39.0</td>
+              <td>120.7</td>
+              <td>307.0</td>
+              <td>1.41e-101</td>
+          </tr>
+    
+          <tr>
+              <td>CEF75882.1</td>
+              <td></td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0001600.3">BGC0001600.3</a></td>
+              <td>PKS</td>
+              <td>45.0</td>
+              <td>95.0</td>
+              <td>301.0</td>
+              <td>3.03e-100</td>
+          </tr>
+    
+          <tr>
+              <td>QBE85642.1</td>
+              <td>BuaC</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0001857.4">BGC0001857.4</a></td>
+              <td>other:other+NRPS:Type I+PKS:Iterative type I</td>
+              <td>43.0</td>
+              <td>99.2</td>
+              <td>295.0</td>
+              <td>7.38e-98</td>
+          </tr>
+    
+          <tr>
+              <td>ADN43684.1</td>
+              <td>DmbC</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0001136.4">BGC0001136.4</a></td>
+              <td>NRPS:Type I+PKS:Iterative type I</td>
+              <td>42.0</td>
+              <td>105.0</td>
+              <td>293.0</td>
+              <td>8.06e-97</td>
+          </tr>
+    
+          <tr>
+              <td>QBK15055.1</td>
+              <td>enoyl_reductase_TraG</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0002197.2">BGC0002197.2</a></td>
+              <td>PKS+NRPS:Type I</td>
+              <td>41.0</td>
+              <td>98.9</td>
+              <td>269.0</td>
+              <td>8.08e-88</td>
+          </tr>
+    
+          <tr>
+              <td>EAW09121.1</td>
+              <td>zinc-binding_dehydrogenase_family_oxidoreductase,_putative</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0000983.5">BGC0000983.5</a></td>
+              <td>NRPS:Type I+PKS:Iterative type I</td>
+              <td>40.0</td>
+              <td>94.4</td>
+              <td>267.0</td>
+              <td>6.46e-87</td>
+          </tr>
+    
+          <tr>
+              <td>EHA55871.1</td>
+              <td>hypothetical_protein</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0002235.2">BGC0002235.2</a></td>
+              <td>PKS+NRPS:Type I</td>
+              <td>39.0</td>
+              <td>98.0</td>
+              <td>266.0</td>
+              <td>9.22e-87</td>
+          </tr>
+    
+          <tr>
+              <td>ABA02243.1</td>
+              <td>dehydrogenase</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0000098.3">BGC0000098.3</a></td>
+              <td>PKS</td>
+              <td>40.0</td>
+              <td>100.0</td>
+              <td>265.0</td>
+              <td>3.23e-86</td>
+          </tr>
+    
+          <tr>
+              <td>AAD34554.1</td>
+              <td>enoyl_reductase</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0000088.4">BGC0000088.4</a></td>
+              <td>PKS</td>
+              <td>41.0</td>
+              <td>97.5</td>
+              <td>261.0</td>
+              <td>1.6e-84</td>
+          </tr>
+    
+          <tr>
+              <td>AGO86659.1</td>
+              <td>equisetin_enoylreductase</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0001255.4">BGC0001255.4</a></td>
+              <td>NRPS:Type I+PKS</td>
+              <td>41.0</td>
+              <td>91.6</td>
+              <td>255.0</td>
+              <td>1.5e-82</td>
+          </tr>
+    
+          <tr>
+              <td>KAF5858311.1</td>
+              <td>hypothetical_protein</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0002139.3">BGC0002139.3</a></td>
+              <td>PKS:Iterative type I</td>
+              <td>39.0</td>
+              <td>99.4</td>
+              <td>254.0</td>
+              <td>3.28e-82</td>
+          </tr>
+    
+          <tr>
+              <td>QCS37515.1</td>
+              <td>PyiC</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0001881.4">BGC0001881.4</a></td>
+              <td>NRPS:Type I+PKS:Iterative type I</td>
+              <td>37.0</td>
+              <td>99.7</td>
+              <td>253.0</td>
+              <td>1.36e-81</td>
+          </tr>
+    
+          <tr>
+              <td>QOJ72665.1</td>
+              <td>XenG</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0002505.3">BGC0002505.3</a></td>
+              <td>PKS+NRPS:Type I</td>
+              <td>39.0</td>
+              <td>99.7</td>
+              <td>253.0</td>
+              <td>1.41e-81</td>
+          </tr>
+    
+          <tr>
+              <td>EPS29079.1</td>
+              <td>hypothetical_protein</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0001724.4">BGC0001724.4</a></td>
+              <td>NRPS:Type I+PKS</td>
+              <td>37.0</td>
+              <td>100.8</td>
+              <td>236.0</td>
+              <td>6.97e-75</td>
+          </tr>
+    
+          <tr>
+              <td>AEO57491.1</td>
+              <td>alcohol_dehydrogenase-like_protein</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0001449.5">BGC0001449.5</a></td>
+              <td>NRPS:Type I+PKS:Iterative type I+other:other</td>
+              <td>40.0</td>
+              <td>94.1</td>
+              <td>229.0</td>
+              <td>7.42e-72</td>
+          </tr>
+    
+          <tr>
+              <td>QBC19713.1</td>
+              <td>TwmE</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0001954.2">BGC0001954.2</a></td>
+              <td>NRPS:Type I+PKS</td>
+              <td>38.0</td>
+              <td>97.2</td>
+              <td>205.0</td>
+              <td>9.05e-63</td>
+          </tr>
+    
+          <tr>
+              <td>BAQ25464.1</td>
+              <td>zinc-binding_dehydrogenase_family_protein</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0001264.3">BGC0001264.3</a></td>
+              <td>PKS</td>
+              <td>35.0</td>
+              <td>99.7</td>
+              <td>172.0</td>
+              <td>4.31e-50</td>
+          </tr>
+    
+          <tr>
+              <td>QJX57336.1</td>
+              <td>ChaC</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0002538.3">BGC0002538.3</a></td>
+              <td>PKS</td>
+              <td>29.0</td>
+              <td>74.5</td>
+              <td>127.0</td>
+              <td>2.87e-33</td>
+          </tr>
+    
+          <tr>
+              <td>AGN71610.1</td>
+              <td>putative_quinone-oxidoreductase-like_protein</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0000027.4">BGC0000027.4</a></td>
+              <td>PKS:Iterative type I</td>
+              <td>34.0</td>
+              <td>78.7</td>
+              <td>126.0</td>
+              <td>8.41e-33</td>
+          </tr>
+    
+    </tbody>
+  </table>
+</body>

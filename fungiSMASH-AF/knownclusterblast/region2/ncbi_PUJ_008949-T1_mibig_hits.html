@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8" />
+<link rel="stylesheet" type="text/css" href="../../css/style.css">
+
+<script type="text/javascript" src="../../js/jquery.js"></script>
+<script type="text/javascript" src="../../js/jquery.tablesorter.min.js"></script>
+
+<script type="text/javascript" >
+var counter = 1;
+function addInput(divName){
+     var newdiv = document.createElement('div');
+     newdiv.innerHTML = "<b>Locus " + (counter + 1) + "</b><br> GenBank accession: <input type='text' required name='myInputs[]'> Start nt: <input type='number' name='myStartCoords[]' placeholder='N/A'> End nt: <input type='number' name='myEndCoords[]' placeholder='N/A'> <br><br>";
+     document.getElementById(divName).appendChild(newdiv);
+     counter++;
+}
+</script>
+
+<script>
+$(document).ready(function()
+    {
+        $("#myTable").tablesorter();
+    }
+);
+
+</script>
+<style>
+table {
+    border-width: thin;
+    border-spacing: 2px;
+    border-style: none;
+    border-color: black;
+}
+</style>
+</head>
+<body>
+    <table id="myTable" class="tablesorter" border=1>
+    <thead>
+    <tr>
+        <th>MIBiG Protein</th>
+        <th>Description</th>
+        <th>MIBiG Cluster</th>
+        <th>MiBiG Product</th>
+        <th>% ID</th>
+        <th>% Coverage</th>
+        <th>BLAST Score</th>
+        <th>E-value</th>
+    </tr>
+    </thead>
+    <tbody>
+    
+          <tr>
+              <td>AZQ56744.1</td>
+              <td>sesterterpene_synthase</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0001969.3">BGC0001969.3</a></td>
+              <td>terpene</td>
+              <td>30.0</td>
+              <td>118.0</td>
+              <td>290.0</td>
+              <td>2.69e-88</td>
+          </tr>
+    
+          <tr>
+              <td>EMD93704.1</td>
+              <td>hypothetical_protein</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0002245.2">BGC0002245.2</a></td>
+              <td>terpene</td>
+              <td>24.0</td>
+              <td>116.0</td>
+              <td>173.0</td>
+              <td>4.48e-46</td>
+          </tr>
+    
+          <tr>
+              <td>BAT32889.1</td>
+              <td>stellatatriene_synthase</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0002610.3">BGC0002610.3</a></td>
+              <td>terpene</td>
+              <td>27.0</td>
+              <td>79.9</td>
+              <td>159.0</td>
+              <td>5.51e-41</td>
+          </tr>
+    
+          <tr>
+              <td>ANV81299.1</td>
+              <td>GGPP_synthase</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0001604.3">BGC0001604.3</a></td>
+              <td>terpene</td>
+              <td>32.0</td>
+              <td>50.0</td>
+              <td>120.0</td>
+              <td>3.03e-29</td>
+          </tr>
+    
+          <tr>
+              <td>BAV32147.1</td>
+              <td>geranylgeranyl_diphosphate_synthase</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0001373.3">BGC0001373.3</a></td>
+              <td>PKS</td>
+              <td>52.0</td>
+              <td>22.8</td>
+              <td>115.0</td>
+              <td>9.19e-27</td>
+          </tr>
+    
+          <tr>
+              <td>APY21859.1</td>
+              <td>FmsB</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0001659.3">BGC0001659.3</a></td>
+              <td>terpene</td>
+              <td>28.0</td>
+              <td>50.5</td>
+              <td>99.0</td>
+              <td>2.22e-21</td>
+          </tr>
+    
+          <tr>
+              <td>CAP86415.1</td>
+              <td></td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0002320.3">BGC0002320.3</a></td>
+              <td>terpene</td>
+              <td>39.0</td>
+              <td>22.8</td>
+              <td>98.0</td>
+              <td>6.84e-21</td>
+          </tr>
+    
+          <tr>
+              <td>EAW16201.1</td>
+              <td>geranylgeranyl_pyrophosphate_synthase</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0002162.3">BGC0002162.3</a></td>
+              <td>terpene</td>
+              <td>40.0</td>
+              <td>23.6</td>
+              <td>86.0</td>
+              <td>4.21e-17</td>
+          </tr>
+    
+          <tr>
+              <td>BBE36502.1</td>
+              <td>putative_bifunctional_terpene_synthase</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0001528.4">BGC0001528.4</a></td>
+              <td>terpene:Sesterterpene</td>
+              <td>38.0</td>
+              <td>21.8</td>
+              <td>85.0</td>
+              <td>9.33e-17</td>
+          </tr>
+    
+          <tr>
+              <td>BAD29970.1</td>
+              <td>geranylgeranyldiphosphate_synthase</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0000676.5">BGC0000676.5</a></td>
+              <td>terpene:Diterpene</td>
+              <td>37.0</td>
+              <td>23.1</td>
+              <td>82.0</td>
+              <td>1.13e-16</td>
+          </tr>
+    
+          <tr>
+              <td>OBR09788.1</td>
+              <td>Polyprenyl_synthetase</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0002429.3">BGC0002429.3</a></td>
+              <td>PKS:Type I+terpene:Diterpene</td>
+              <td>37.0</td>
+              <td>21.3</td>
+              <td>79.0</td>
+              <td>1.71e-15</td>
+          </tr>
+    
+          <tr>
+              <td>CBF85177.1</td>
+              <td>conserved_hypothetical_protein</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0000673.3">BGC0000673.3</a></td>
+              <td>terpene</td>
+              <td>39.0</td>
+              <td>20.7</td>
+              <td>77.0</td>
+              <td>1.4e-14</td>
+          </tr>
+    
+          <tr>
+              <td>EGO28829.1</td>
+              <td>hypothetical_protein</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0002221.2">BGC0002221.2</a></td>
+              <td>terpene</td>
+              <td>34.0</td>
+              <td>22.4</td>
+              <td>75.0</td>
+              <td>3.36e-14</td>
+          </tr>
+    
+    </tbody>
+  </table>
+</body>

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8" />
+<link rel="stylesheet" type="text/css" href="../../css/style.css">
+
+<script type="text/javascript" src="../../js/jquery.js"></script>
+<script type="text/javascript" src="../../js/jquery.tablesorter.min.js"></script>
+
+<script type="text/javascript" >
+var counter = 1;
+function addInput(divName){
+     var newdiv = document.createElement('div');
+     newdiv.innerHTML = "<b>Locus " + (counter + 1) + "</b><br> GenBank accession: <input type='text' required name='myInputs[]'> Start nt: <input type='number' name='myStartCoords[]' placeholder='N/A'> End nt: <input type='number' name='myEndCoords[]' placeholder='N/A'> <br><br>";
+     document.getElementById(divName).appendChild(newdiv);
+     counter++;
+}
+</script>
+
+<script>
+$(document).ready(function()
+    {
+        $("#myTable").tablesorter();
+    }
+);
+
+</script>
+<style>
+table {
+    border-width: thin;
+    border-spacing: 2px;
+    border-style: none;
+    border-color: black;
+}
+</style>
+</head>
+<body>
+    <table id="myTable" class="tablesorter" border=1>
+    <thead>
+    <tr>
+        <th>MIBiG Protein</th>
+        <th>Description</th>
+        <th>MIBiG Cluster</th>
+        <th>MiBiG Product</th>
+        <th>% ID</th>
+        <th>% Coverage</th>
+        <th>BLAST Score</th>
+        <th>E-value</th>
+    </tr>
+    </thead>
+    <tbody>
+    
+          <tr>
+              <td>AAO34680.1</td>
+              <td>reductase</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0001277.4">BGC0001277.4</a></td>
+              <td>terpene</td>
+              <td>44.0</td>
+              <td>88.4</td>
+              <td>239.0</td>
+              <td>7.7e-76</td>
+          </tr>
+    
+          <tr>
+              <td>AAO27755.1</td>
+              <td>reductase</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0001278.4">BGC0001278.4</a></td>
+              <td>terpene</td>
+              <td>44.0</td>
+              <td>88.4</td>
+              <td>232.0</td>
+              <td>2.66e-73</td>
+          </tr>
+    
+          <tr>
+              <td>CBF82301.1</td>
+              <td>conserved_hypothetical_protein</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0002180.2">BGC0002180.2</a></td>
+              <td>PKS</td>
+              <td>35.0</td>
+              <td>78.8</td>
+              <td>133.0</td>
+              <td>1.3e-35</td>
+          </tr>
+    
+          <tr>
+              <td>BBD17751.1</td>
+              <td>epoxidase_complex_component</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0001918.3">BGC0001918.3</a></td>
+              <td>NRPS:Type I+PKS</td>
+              <td>29.0</td>
+              <td>70.5</td>
+              <td>70.0</td>
+              <td>2.6e-13</td>
+          </tr>
+    
+          <tr>
+              <td>AWX24494.1</td>
+              <td>phenylacetate-CoA_oxygenase/reductase_subunit_PaaK</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0001695.5">BGC0001695.5</a></td>
+              <td>NRPS:Type I</td>
+              <td>28.0</td>
+              <td>71.6</td>
+              <td>63.0</td>
+              <td>7.52e-11</td>
+          </tr>
+    
+    </tbody>
+  </table>
+</body>

@@ -1,0 +1,24 @@
+ClusterBlast scores for 256
+
+Table of genes, locations, strands and annotations of query cluster:
+PUJ_001618	1263440	1264332	-	hypothetical protein	
+PUJ_001619	1266443	1268107	-	hypothetical protein	
+PUJ_001620	1269111	1271184	+	hypothetical protein	
+PUJ_001621	1274869	1276936	-	hypothetical protein	
+PUJ_001622	1277712	1279615	-	hypothetical protein	
+PUJ_001623	1281134	1282751	-	hypothetical protein	
+PUJ_001624	1290319	1290631	+	Aquaporin-1	
+PUJ_001625	1292808	1295496	+	hypothetical protein	
+PUJ_001626	1296697	1298845	-	hypothetical protein	
+PUJ_001627	1305211	1306208	-	hypothetical protein	
+PUJ_001628	1306838	1308309	-	cystathionine beta-lyase	
+PUJ_001629	1308833	1311493	-	Transcriptional activator of fatty acid utilization	
+PUJ_001630	1315282	1318696	-	Glycosyl phosphatidyl inositol anchor synthesis	
+PUJ_001631	1319265	1320929	-	hypothetical protein	
+PUJ_001632	1321305	1322611	+	mitochondrial dynamin GTPase Msp1	
+
+
+Significant hits: 
+
+
+Details:

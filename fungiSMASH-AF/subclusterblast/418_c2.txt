@@ -1,0 +1,29 @@
+ClusterBlast scores for 418
+
+Table of genes, locations, strands and annotations of query cluster:
+PUJ_002545	378034	378525	+	hypothetical protein	
+PUJ_002546	380947	382441	-	hypothetical protein	
+PUJ_002547	383706	384343	+	hypothetical protein	
+PUJ_002548	384486	385504	+	hypothetical protein	
+PUJ_002549	385694	386580	-	hypothetical protein	
+PUJ_002550	386848	387739	+	hypothetical protein	
+PUJ_002551	388045	389602	-	hypothetical protein	
+PUJ_002552	392062	393854	+	hypothetical protein	
+PUJ_002553	395612	397262	-	Flavin-containing monooxygenase ustF2	
+PUJ_002554	398058	398979	+	hypothetical protein	
+PUJ_002555	399086	401151	-	hypothetical protein	
+PUJ_002556	401594	402568	+	hypothetical protein	
+PUJ_002557	402668	404158	-	hypothetical protein	
+PUJ_002558	405762	406228	+	hypothetical protein	
+PUJ_002559	407909	409074	-	hypothetical protein	
+PUJ_002560	410877	411809	-	hypothetical protein	
+PUJ_002561	412160	412974	+	hypothetical protein	
+PUJ_002562	414760	418572	-	hypothetical protein	
+PUJ_002563	423218	425263	-	Vacuolar protein 8	
+PUJ_002564	429147	430589	+	hypothetical protein	
+
+
+Significant hits: 
+
+
+Details:

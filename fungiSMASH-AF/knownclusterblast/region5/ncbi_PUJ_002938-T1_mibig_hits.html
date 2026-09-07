@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8" />
+<link rel="stylesheet" type="text/css" href="../../css/style.css">
+
+<script type="text/javascript" src="../../js/jquery.js"></script>
+<script type="text/javascript" src="../../js/jquery.tablesorter.min.js"></script>
+
+<script type="text/javascript" >
+var counter = 1;
+function addInput(divName){
+     var newdiv = document.createElement('div');
+     newdiv.innerHTML = "<b>Locus " + (counter + 1) + "</b><br> GenBank accession: <input type='text' required name='myInputs[]'> Start nt: <input type='number' name='myStartCoords[]' placeholder='N/A'> End nt: <input type='number' name='myEndCoords[]' placeholder='N/A'> <br><br>";
+     document.getElementById(divName).appendChild(newdiv);
+     counter++;
+}
+</script>
+
+<script>
+$(document).ready(function()
+    {
+        $("#myTable").tablesorter();
+    }
+);
+
+</script>
+<style>
+table {
+    border-width: thin;
+    border-spacing: 2px;
+    border-style: none;
+    border-color: black;
+}
+</style>
+</head>
+<body>
+    <table id="myTable" class="tablesorter" border=1>
+    <thead>
+    <tr>
+        <th>MIBiG Protein</th>
+        <th>Description</th>
+        <th>MIBiG Cluster</th>
+        <th>MiBiG Product</th>
+        <th>% ID</th>
+        <th>% Coverage</th>
+        <th>BLAST Score</th>
+        <th>E-value</th>
+    </tr>
+    </thead>
+    <tbody>
+    
+          <tr>
+              <td>ACC40924.1</td>
+              <td>chalcone_synthase,_Pks11_1</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0001665.3">BGC0001665.3</a></td>
+              <td>PKS</td>
+              <td>26.0</td>
+              <td>93.5</td>
+              <td>114.0</td>
+              <td>4.58e-28</td>
+          </tr>
+    
+          <tr>
+              <td>ACC40920.1</td>
+              <td>chalcone_synthase,_Pks10</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0001665.3">BGC0001665.3</a></td>
+              <td>PKS</td>
+              <td>26.0</td>
+              <td>93.5</td>
+              <td>106.0</td>
+              <td>2.63e-25</td>
+          </tr>
+    
+          <tr>
+              <td>BAG17301.1</td>
+              <td>type-III_PKS</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0000282.3">BGC0000282.3</a></td>
+              <td>PKS:Type III</td>
+              <td>26.0</td>
+              <td>91.0</td>
+              <td>102.0</td>
+              <td>4.27e-24</td>
+          </tr>
+    
+          <tr>
+              <td>QZS07521.1</td>
+              <td>type_III_polyketide_synthase</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0002362.3">BGC0002362.3</a></td>
+              <td>PKS</td>
+              <td>24.0</td>
+              <td>94.8</td>
+              <td>94.0</td>
+              <td>7.33e-21</td>
+          </tr>
+    
+          <tr>
+              <td>ONK09688.1</td>
+              <td>Alpha-pyrone_synthesis_polyketide_synthase-like_Pks11</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0001647.3">BGC0001647.3</a></td>
+              <td>PKS</td>
+              <td>25.0</td>
+              <td>92.0</td>
+              <td>89.0</td>
+              <td>3.97e-19</td>
+          </tr>
+    
+          <tr>
+              <td>ACZ65477.1</td>
+              <td>3-oxoacyl-(acyl_carrier_protein)_synthase_III</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0000140.5">BGC0000140.5</a></td>
+              <td>PKS</td>
+              <td>33.0</td>
+              <td>36.6</td>
+              <td>51.0</td>
+              <td>1.2e-06</td>
+          </tr>
+    
+          <tr>
+              <td>AFI57023.1</td>
+              <td>3-oxoacyl-ACP_synthase_III_(KS)</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0000133.5">BGC0000133.5</a></td>
+              <td>PKS</td>
+              <td>34.0</td>
+              <td>32.6</td>
+              <td>49.0</td>
+              <td>4.98e-06</td>
+          </tr>
+    
+    </tbody>
+  </table>
+</body>

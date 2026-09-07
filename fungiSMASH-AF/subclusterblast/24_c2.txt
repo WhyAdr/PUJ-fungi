@@ -1,0 +1,18 @@
+ClusterBlast scores for 24
+
+Table of genes, locations, strands and annotations of query cluster:
+PUJ_000993	1257541	1258621	+	hypothetical protein	
+PUJ_000994	1262012	1264037	+	hypothetical protein	
+PUJ_000995	1267427	1268579	+	hypothetical protein	
+PUJ_000996	1269817	1271025	-	L-arabinitol 4-dehydrogenase	
+PUJ_000997	1274091	1274923	+	ATP synthase subunit G atp20	
+PUJ_000998	1275590	1277768	+	RNA-dependent ATPase rok1	
+PUJ_000999	1277851	1278610	-	hypothetical protein	
+PUJ_001000	1279166	1280335	-	Protein-lysine N-methyltransferase rrg1	
+PUJ_001001	1280740	1281587	-	Vacuolar protein-sorting-associated protein 28	
+
+
+Significant hits: 
+
+
+Details:

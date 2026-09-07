@@ -1,0 +1,41 @@
+ClusterBlast scores for 471
+
+Table of genes, locations, strands and annotations of query cluster:
+PUJ_004610	747446	749244	+	hypothetical protein	
+PUJ_004611	751825	752899	+	hypothetical protein	
+PUJ_004612	753524	755149	-	hypothetical protein	
+PUJ_004613	757901	760064	-	hypothetical protein	
+PUJ_004614	765749	767058	+	hypothetical protein	
+PUJ_004615	767400	768905	-	hypothetical protein	
+PUJ_004616	772864	774934	-	hypothetical protein	
+PUJ_004617	777334	791675	+	Non-ribosomal peptide synthetase	
+PUJ_004618	794299	795939	+	hypothetical protein	
+PUJ_004619	796108	797231	-	hypothetical protein	
+PUJ_004620	798540	801294	+	hypothetical protein	
+PUJ_004621	802568	804863	-	hypothetical protein	
+PUJ_004622	805354	806029	-	hypothetical protein	
+PUJ_004623	808224	808695	-	hypothetical protein	
+PUJ_004624	812820	815317	+	hypothetical protein	
+PUJ_004625	816056	817067	-	hypothetical protein	
+PUJ_004626	818824	819898	-	hypothetical protein	
+
+
+Significant hits: 
+1. BGC0002710.2	metachelin C/metachelin A/metachelin A-CE/metachelin B/dimerumic acid 11-mannoside/dimerumic acid
+
+
+Details:
+
+>>
+1. BGC0002710.2
+Source: metachelin C/metachelin A/metachelin A-CE/metachelin B/dimerumic acid 11-mannoside/dimerumic acid
+Type: NRPS:Type I
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 1052.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_004615	MAA_05337	46	374	95.70405727923628	5.61e-127
+PUJ_004616	MAA_05335	59	678	96.23931623931624	9.9e-242
+

@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8" />
+<link rel="stylesheet" type="text/css" href="../../css/style.css">
+
+<script type="text/javascript" src="../../js/jquery.js"></script>
+<script type="text/javascript" src="../../js/jquery.tablesorter.min.js"></script>
+
+<script type="text/javascript" >
+var counter = 1;
+function addInput(divName){
+     var newdiv = document.createElement('div');
+     newdiv.innerHTML = "<b>Locus " + (counter + 1) + "</b><br> GenBank accession: <input type='text' required name='myInputs[]'> Start nt: <input type='number' name='myStartCoords[]' placeholder='N/A'> End nt: <input type='number' name='myEndCoords[]' placeholder='N/A'> <br><br>";
+     document.getElementById(divName).appendChild(newdiv);
+     counter++;
+}
+</script>
+
+<script>
+$(document).ready(function()
+    {
+        $("#myTable").tablesorter();
+    }
+);
+
+</script>
+<style>
+table {
+    border-width: thin;
+    border-spacing: 2px;
+    border-style: none;
+    border-color: black;
+}
+</style>
+</head>
+<body>
+    <table id="myTable" class="tablesorter" border=1>
+    <thead>
+    <tr>
+        <th>MIBiG Protein</th>
+        <th>Description</th>
+        <th>MIBiG Cluster</th>
+        <th>MiBiG Product</th>
+        <th>% ID</th>
+        <th>% Coverage</th>
+        <th>BLAST Score</th>
+        <th>E-value</th>
+    </tr>
+    </thead>
+    <tbody>
+    
+          <tr>
+              <td>QPP19380.1</td>
+              <td>PenT*</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0002501.3">BGC0002501.3</a></td>
+              <td>other:other</td>
+              <td>45.0</td>
+              <td>93.9</td>
+              <td>244.0</td>
+              <td>3.89e-79</td>
+          </tr>
+    
+          <tr>
+              <td>AAS92555.1</td>
+              <td>SirT</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0001044.4">BGC0001044.4</a></td>
+              <td>NRPS:Type I</td>
+              <td>40.0</td>
+              <td>94.8</td>
+              <td>217.0</td>
+              <td>2.84e-68</td>
+          </tr>
+    
+          <tr>
+              <td>BAE56600.1</td>
+              <td></td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0001123.5">BGC0001123.5</a></td>
+              <td>NRPS:Type I</td>
+              <td>40.0</td>
+              <td>94.8</td>
+              <td>213.0</td>
+              <td>6.12e-67</td>
+          </tr>
+    
+          <tr>
+              <td>QVK45116.1</td>
+              <td>oxidoreductase</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0002438.2">BGC0002438.2</a></td>
+              <td>other:other</td>
+              <td>36.0</td>
+              <td>95.7</td>
+              <td>181.0</td>
+              <td>1.48e-54</td>
+          </tr>
+    
+          <tr>
+              <td>BAE56598.1</td>
+              <td></td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0001123.5">BGC0001123.5</a></td>
+              <td>NRPS:Type I</td>
+              <td>93.0</td>
+              <td>29.5</td>
+              <td>181.0</td>
+              <td>1.84e-52</td>
+          </tr>
+    
+          <tr>
+              <td>DAB41654.1</td>
+              <td>thioredoxin_reductase</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0001585.3">BGC0001585.3</a></td>
+              <td>other:other</td>
+              <td>34.0</td>
+              <td>101.2</td>
+              <td>145.0</td>
+              <td>1.45e-40</td>
+          </tr>
+    
+          <tr>
+              <td>AQZ42157.1</td>
+              <td>putative_thioredoxin_reductase</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0001820.3">BGC0001820.3</a></td>
+              <td>NRPS:Type I</td>
+              <td>32.0</td>
+              <td>98.5</td>
+              <td>135.0</td>
+              <td>9.74e-37</td>
+          </tr>
+    
+          <tr>
+              <td>AFR69338.1</td>
+              <td>FAD-dependent_disulfide_oxidoreductase_SpiH</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0001045.5">BGC0001045.5</a></td>
+              <td>NRPS:Type I+PKS:Type I</td>
+              <td>29.0</td>
+              <td>88.1</td>
+              <td>104.0</td>
+              <td>1.75e-25</td>
+          </tr>
+    
+          <tr>
+              <td>ctg1_orf003</td>
+              <td></td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0000321.4">BGC0000321.4</a></td>
+              <td>NRPS:Type I</td>
+              <td>40.0</td>
+              <td>41.3</td>
+              <td>95.0</td>
+              <td>6.78e-22</td>
+          </tr>
+    
+          <tr>
+              <td>ABC38333.1</td>
+              <td>pyridine_nucleotide-disulphide_oxidoreductase,_class_II</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0000964.5">BGC0000964.5</a></td>
+              <td>NRPS:Type I+PKS:Trans-AT type I</td>
+              <td>27.0</td>
+              <td>95.1</td>
+              <td>92.0</td>
+              <td>5.26e-21</td>
+          </tr>
+    
+          <tr>
+              <td>ABP57752.1</td>
+              <td>DepH</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0000993.4">BGC0000993.4</a></td>
+              <td>NRPS:Type I+PKS:Type I</td>
+              <td>29.0</td>
+              <td>95.7</td>
+              <td>91.0</td>
+              <td>2.4e-20</td>
+          </tr>
+    
+          <tr>
+              <td>WP_044620356.1</td>
+              <td>NAD(P)/FAD-dependent_oxidoreductase</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0001791.4">BGC0001791.4</a></td>
+              <td>NRPS:Type I</td>
+              <td>27.0</td>
+              <td>94.2</td>
+              <td>85.0</td>
+              <td>1.5e-18</td>
+          </tr>
+    
+    </tbody>
+  </table>
+</body>

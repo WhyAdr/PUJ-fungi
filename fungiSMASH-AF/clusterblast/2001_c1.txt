@@ -1,0 +1,76 @@
+ClusterBlast scores for 2001
+
+Table of genes, locations, strands and annotations of query cluster:
+PUJ_009804	2197	3389	+	WD repeat-containing protein 6	
+PUJ_009805	3656	5116	+	hypothetical protein	
+PUJ_009806	6143	7002	+	hypothetical protein	
+PUJ_009807	7935	9295	+	hypothetical protein	
+PUJ_009808	12597	16327	-	hypothetical protein	
+PUJ_009809	17641	24520	+	Mitochondrial distribution and morphology protein 12	
+PUJ_009810	26108	28175	-	Pyruvate kinase	
+PUJ_009811	31037	32402	-	hypothetical protein	
+
+
+Significant hits: 
+1. NC_054691	Aspergillus flavus NRRL3357 chromosome 1, complete sequence
+2. NC_036435	Aspergillus oryzae RIB40 DNA, chromosome 1
+3. NC_049561	Talaromyces rugulosus chromosome I, complete sequence
+
+
+Details:
+
+>>
+1. NC_054691
+Source: Aspergillus flavus NRRL3357 chromosome 1, complete sequence
+Type: T3PKS
+Number of proteins with BLAST hits to this cluster: 8
+Cumulative BLAST score: 11278.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_009804	G4B84_000694	98	735	102.15053763440861	1.12e-257
+PUJ_009805	G4B84_000693	95	710	87.29792147806005	2.21e-257
+PUJ_009806	G4B84_000692	93	475	98.06949806949807	1.09e-169
+PUJ_009807	G4B84_000691	100	693	100.0	4.3e-254
+PUJ_009808	G4B84_000689	100	2327	100.0	0.0
+PUJ_009809	G4B84_000688	99	4352	99.73730297723293	0.0
+PUJ_009810	G4B84_000687	100	1046	100.0	0.0
+PUJ_009811	G4B84_000685	100	940	100.0	0.0
+
+
+
+>>
+2. NC_036435
+Source: Aspergillus oryzae RIB40 DNA, chromosome 1
+Type: T3PKS
+Number of proteins with BLAST hits to this cluster: 7
+Cumulative BLAST score: 8413.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_009804	AO090005001550	97	731	102.15053763440861	5.11e-256
+PUJ_009805	AO090005001551	99	283	32.33256351039261	1.6e-93
+PUJ_009806	AO090005001552	99	367	72.2007722007722	2.55e-127
+PUJ_009807	AO090005001553	100	693	100.0	4.3e-254
+PUJ_009809	AO090005001555	100	4353	99.73730297723293	0.0
+PUJ_009810	AO090005001556	100	1046	100.0	0.0
+PUJ_009811	AO090005001558	100	940	100.0	0.0
+
+
+
+>>
+3. NC_049561
+Source: Talaromyces rugulosus chromosome I, complete sequence
+Type: NRPS
+Number of proteins with BLAST hits to this cluster: 3
+Cumulative BLAST score: 3084.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_009807	TRUGW13939_00858	66	452	96.69669669669669	8.7e-159
+PUJ_009808	TRUGW13939_00854	34	94	13.409648405560098	6.33e-17
+PUJ_009809	TRUGW13939_00853	63	2538	101.31348511383538	0.0
+

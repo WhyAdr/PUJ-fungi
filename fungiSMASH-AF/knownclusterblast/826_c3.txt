@@ -1,0 +1,38 @@
+ClusterBlast scores for 826
+
+Table of genes, locations, strands and annotations of query cluster:
+PUJ_008525	485312	485671	-	snoRNP complex protein	
+PUJ_008526	486379	487825	+	tRNA splicing endonuclease subunit sen2	
+PUJ_008527	488224	492561	+	radiation sensitive protein rad9	
+PUJ_008528	492928	493753	-	54S ribosomal protein L2 mitochondrial	
+PUJ_008529	495231	496661	+	hypothetical protein	
+PUJ_008530	497203	497791	+	ubiquitin conjugating enzyme Ubc7/UbcP3	
+PUJ_008531	498091	498421	-	endodeoxyribonuclease	
+PUJ_008532	499903	502308	+	Lanosterol synthase erg7A	
+PUJ_008533	502673	504171	+	Cochaperone protein	
+PUJ_008534	504673	505621	-	Putative vacuolar membrane transporter for cationic amino acids	
+PUJ_008535	506477	507620	+	hypothetical protein	
+PUJ_008536	508229	509396	+	negative regulator of the PHO system	
+PUJ_008537	511351	512503	+	hypothetical protein	
+PUJ_008538	513395	514192	+	hypothetical protein	
+PUJ_008539	514280	516046	-	hypothetical protein	
+
+
+Significant hits: 
+1. BGC0001248.3	clavaric acid
+
+
+Details:
+
+>>
+1. BGC0001248.3
+Source: clavaric acid
+Type: terpene
+Number of proteins with BLAST hits to this cluster: 1
+Cumulative BLAST score: 744.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_008532	ACF70484.1	51	744	96.86648501362399	4.55e-263
+

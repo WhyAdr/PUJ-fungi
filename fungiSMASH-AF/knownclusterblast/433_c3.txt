@@ -1,0 +1,16 @@
+ClusterBlast scores for 433
+
+Table of genes, locations, strands and annotations of query cluster:
+PUJ_004032	444421	446571	-	hypothetical protein	
+PUJ_004033	446898	448766	+	hypothetical protein	
+PUJ_004034	449916	451782	+	hypothetical protein	
+PUJ_004035	453948	455626	-	hypothetical protein	
+PUJ_004036	459298	460908	+	bifunctional farnesyl-diphosphate farnesyltransferase/squalene synthase	
+PUJ_004037	467193	468603	-	GPI mannosyltransferase 1	
+PUJ_004038	469164	470253	-	hypothetical protein	
+
+
+Significant hits: 
+
+
+Details:

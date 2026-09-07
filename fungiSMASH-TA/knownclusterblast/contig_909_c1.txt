@@ -1,0 +1,13 @@
+ClusterBlast scores for contig_909
+
+Table of genes, locations, strands and annotations of query cluster:
+PUJ_002251	92	416	-	hypothetical protein	
+PUJ_002252	2591	3863	+	geranylgeranyl pyrophosphate synthetase	
+PUJ_002253	6841	8347	+	Peroxisome size and maintenance regulator	
+PUJ_002254	11857	14174	+	serine/threonine protein kinase, CMGC, dual-specificity	
+
+
+Significant hits: 
+
+
+Details:

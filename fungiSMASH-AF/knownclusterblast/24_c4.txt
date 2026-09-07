@@ -1,0 +1,55 @@
+ClusterBlast scores for 24
+
+Table of genes, locations, strands and annotations of query cluster:
+PUJ_001065	1521941	1522739	+	hypothetical protein	
+PUJ_001066	1523154	1523689	-	hypothetical protein	
+PUJ_001067	1525436	1527586	-	hypothetical protein	
+PUJ_001068	1528138	1529584	+	hypothetical protein	
+PUJ_001069	1530285	1532356	+	hypothetical protein	
+PUJ_001070	1538016	1539771	-	hypothetical protein	
+PUJ_001071	1540053	1541127	+	hypothetical protein	
+PUJ_001072	1541952	1543929	+	hypothetical protein	
+PUJ_001073	1544458	1545286	+	hypothetical protein	
+PUJ_001074	1546148	1547685	+	MFS siderochrome iron transporter 1	
+PUJ_001075	1549145	1551147	+	high affinity glucose transporter	
+PUJ_001076	1551682	1556062	-	Non-reducing polyketide synthase pks27	
+PUJ_001077	1556549	1558227	-	Non-reducing polyketide synthase pks27	
+PUJ_001078	1561880	1562221	+	Transcription factor znf27	
+PUJ_001080	1571954	1575900	-	hypothetical protein	
+PUJ_001081	1576220	1580143	-	hypothetical protein	
+PUJ_001082	1580846	1582689	+	Rac GTPase-activating protein BCR/ABR	
+PUJ_001083	1582776	1583837	-	hypothetical protein	
+PUJ_001084	1584354	1585899	+	hypothetical protein	
+PUJ_001085	1586494	1589760	+	hypothetical protein	
+PUJ_001086	1591870	1592653	-	transcription factor	
+PUJ_001087	1594715	1595339	-	hypothetical protein	
+PUJ_001088	1598548	1599263	-	hypothetical protein	
+PUJ_001089	1600369	1601419	-	hypothetical protein	
+PUJ_001090	1606166	1607267	+	hypothetical protein	
+PUJ_001091	1610043	1610840	-	hypothetical protein	
+PUJ_001092	1611208	1612842	-	high-affinity Zn(2+) transporter zrt1	
+PUJ_001093	1616623	1616986	+	hypothetical protein	
+
+
+Significant hits: 
+1. BGC0001446.5	asparasone A
+
+
+Details:
+
+>>
+1. BGC0001446.5
+Source: asparasone A
+Type: PKS:Iterative type I
+Number of proteins with BLAST hits to this cluster: 5
+Cumulative BLAST score: 5862.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_001074	AFLA_082170	97	801	86.00405679513185	2.24e-294
+PUJ_001075	AFLA_082160	100	1055	100.0	0.0
+PUJ_001076	AFLA_082150	99	2801	100.0	0.0
+PUJ_001077	AFLA_082150	99	1028	100.0	0.0
+PUJ_001078	AFLA_082140	99	177	100.0	8.55e-60
+

@@ -1,0 +1,26 @@
+ClusterBlast scores for 418
+
+Table of genes, locations, strands and annotations of query cluster:
+PUJ_002929	1838509	1843581	+	hypothetical protein	
+PUJ_002930	1844812	1845649	+	hypothetical protein	
+PUJ_002931	1850556	1851607	-	hypothetical protein	
+PUJ_002932	1851990	1853406	+	homocitrate synthase lys21	
+PUJ_002933	1853553	1853985	+	hypothetical protein	
+PUJ_002934	1854136	1855090	-	hypothetical protein	
+PUJ_002935	1856784	1859091	+	hypothetical protein	
+PUJ_002936	1859621	1860152	-	hypothetical protein	
+PUJ_002938	1865644	1866968	+	hypothetical protein	
+PUJ_002939	1868900	1869416	-	hypothetical protein	
+PUJ_002940	1875126	1876787	-	hypothetical protein	
+PUJ_002941	1877384	1878455	-	hypothetical protein	
+PUJ_002942	1879287	1881039	-	hypothetical protein	
+PUJ_002943	1884332	1885844	+	hypothetical protein	
+PUJ_002944	1887705	1889029	-	Vacuolar calcium ion transporter	
+PUJ_002945	1889626	1890834	+	Vacuolar calcium ion transporter	
+PUJ_002946	1891475	1894015	+	plasma membrane calcium	
+
+
+Significant hits: 
+
+
+Details:

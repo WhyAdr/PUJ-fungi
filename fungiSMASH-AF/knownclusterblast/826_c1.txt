@@ -1,0 +1,39 @@
+ClusterBlast scores for 826
+
+Table of genes, locations, strands and annotations of query cluster:
+PUJ_008416	73040	73474	-	vacuolar ATPase V0 domain subunit c	
+PUJ_008417	76669	77709	+	hypothetical protein	
+PUJ_008418	81250	82963	+	hypothetical protein	
+PUJ_008419	85274	86886	+	hypothetical protein	
+PUJ_008420	91531	95715	-	hypothetical protein	
+PUJ_008421	96309	97385	+	hypothetical protein	
+PUJ_008422	101133	109094	-	hypothetical protein	
+PUJ_008423	110290	111462	-	hypothetical protein	
+PUJ_008424	113256	113885	-	hypothetical protein	
+PUJ_008425	118824	119424	+	hypothetical protein	
+PUJ_008426	120776	121862	+	hypothetical protein	
+PUJ_008427	127360	128686	+	hypothetical protein	
+PUJ_008428	131154	132405	+	hypothetical protein	
+PUJ_008429	132804	136786	-	hypothetical protein	
+
+
+Significant hits: 
+1. BGC0002157.2	(-)-ditryptophenaline
+
+
+Details:
+
+>>
+1. BGC0002157.2
+Source: (-)-ditryptophenaline
+Type: NRPS:Type I+other:other
+Number of proteins with BLAST hits to this cluster: 3
+Cumulative BLAST score: 6216.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_008422	F9C07_2283794	99	5180	100.0	0.0
+PUJ_008423	F9C07_1580830	99	692	98.85057471264368	6.53e-255
+PUJ_008424	F9C07_2283792	91	344	109.30232558139534	4.61e-118
+

@@ -1,0 +1,29 @@
+ClusterBlast scores for 641
+
+Table of genes, locations, strands and annotations of query cluster:
+PUJ_007733	594915	596203	-	hypothetical protein	
+PUJ_007734	597283	597835	-	hypothetical protein	
+PUJ_007735	606180	607227	-	hypothetical protein	
+PUJ_007736	607768	608941	+	hypothetical protein	
+PUJ_007737	610508	611757	+	hypothetical protein	
+PUJ_007738	620232	621264	-	hypothetical protein	
+PUJ_007739	624447	631825	-	hypothetical protein	
+PUJ_007740	634111	635564	-	hypothetical protein	
+PUJ_007741	636703	637498	+	hypothetical protein	
+PUJ_007742	638493	640017	-	hypothetical protein	
+PUJ_007743	641234	647954	+	hypothetical protein	
+PUJ_007744	649907	651168	+	hypothetical protein	
+PUJ_007745	651878	652712	-	hypothetical protein	
+PUJ_007746	656867	658994	+	Glycerol-3-phosphate/dihydroxyacetone phosphate acyltransferase	
+PUJ_007747	659887	660662	+	hypothetical protein	
+PUJ_007748	660857	661808	+	hypothetical protein	
+PUJ_007750	663845	664776	-	hypothetical protein	
+PUJ_007751	666789	668898	-	hypothetical protein	
+PUJ_007752	672570	673938	-	hypothetical protein	
+PUJ_007753	675294	676209	-	hypothetical protein	
+
+
+Significant hits: 
+
+
+Details:

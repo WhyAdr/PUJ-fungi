@@ -1,0 +1,12 @@
+ClusterBlast scores for contig_599
+
+Table of genes, locations, strands and annotations of query cluster:
+PUJ_001596	481	1484	+	hypothetical protein	
+PUJ_001597	6753	8922	+	hypothetical protein	
+PUJ_001598	11645	12269	-	GTP-binding protein Rho1	
+
+
+Significant hits: 
+
+
+Details:

@@ -1,0 +1,25 @@
+ClusterBlast scores for 702
+
+Table of genes, locations, strands and annotations of query cluster:
+PUJ_007823	28412	29566	+	hypothetical protein	
+PUJ_007824	30468	31284	+	hypothetical protein	
+PUJ_007825	35318	36380	+	hypothetical protein	
+PUJ_007826	38422	40184	+	hypothetical protein	
+PUJ_007827	46240	46933	-	hypothetical protein	
+PUJ_007828	47782	49402	-	hypothetical protein	
+PUJ_007829	49642	50779	-	hypothetical protein	
+PUJ_007830	54923	56059	-	hypothetical protein	
+PUJ_007831	56612	60723	+	hypothetical protein	
+PUJ_007832	61480	73181	-	hypothetical protein	
+PUJ_007833	74532	75775	+	hypothetical protein	
+PUJ_007834	76093	80311	-	ATP-binding cassette transporter yor1	
+PUJ_007835	81294	81990	-	hypothetical protein	
+PUJ_007836	84841	85306	+	hypothetical protein	
+PUJ_007837	97357	98218	+	hypothetical protein	
+PUJ_007838	98334	101141	-	hypothetical protein	
+
+
+Significant hits: 
+
+
+Details:

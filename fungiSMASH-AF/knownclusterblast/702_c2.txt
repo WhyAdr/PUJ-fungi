@@ -1,0 +1,24 @@
+ClusterBlast scores for 702
+
+Table of genes, locations, strands and annotations of query cluster:
+PUJ_007915	371687	372896	+	hypothetical protein	
+PUJ_007916	373306	374993	-	hypothetical protein	
+PUJ_007917	375508	380808	-	DNA topoisomerase 2	
+PUJ_007918	383262	386023	+	hypothetical protein	
+PUJ_007919	394346	396534	-	hypothetical protein	
+PUJ_007920	398311	419346	+	hypothetical protein	
+PUJ_007921	422227	423991	+	hypothetical protein	
+PUJ_007922	424434	425344	+	hypothetical protein	
+PUJ_007923	426991	427446	-	hypothetical protein	
+PUJ_007924	430012	431203	-	hypothetical protein	
+PUJ_007925	434304	435441	+	hypothetical protein	
+PUJ_007926	438525	439722	+	hypothetical protein	
+PUJ_007927	442246	443284	-	hypothetical protein	
+PUJ_007928	444152	445118	+	hypothetical protein	
+PUJ_007929	445581	446448	-	hypothetical protein	
+
+
+Significant hits: 
+
+
+Details:

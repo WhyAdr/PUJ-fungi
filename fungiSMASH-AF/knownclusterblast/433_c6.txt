@@ -1,0 +1,24 @@
+ClusterBlast scores for 433
+
+Table of genes, locations, strands and annotations of query cluster:
+PUJ_004182	974071	975728	+	hypothetical protein	
+PUJ_004183	976502	978541	+	hypothetical protein	
+PUJ_004184	978679	980299	+	Urmylation protein	
+PUJ_004185	982325	985748	+	hypothetical protein	
+PUJ_004186	986035	986524	-	hypothetical protein	
+PUJ_004187	987620	988795	+	hypothetical protein	
+PUJ_004188	989091	990613	-	hypothetical protein	
+PUJ_004189	995524	999008	-	histidine kinase osmosensor	
+PUJ_004190	1000864	1004091	-	hypothetical protein	
+PUJ_004191	1012525	1013546	+	hypothetical protein	
+PUJ_004192	1018456	1019488	+	succinate dehydrogenase complex, subunit B	
+PUJ_004193	1023022	1025234	-	hypothetical protein	
+PUJ_004194	1025742	1026993	+	hypothetical protein	
+PUJ_004195	1030171	1030870	-	hypothetical protein	
+PUJ_004196	1031577	1032776	+	hypothetical protein	
+
+
+Significant hits: 
+
+
+Details:

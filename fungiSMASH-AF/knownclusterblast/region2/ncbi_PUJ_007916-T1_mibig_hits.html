@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8" />
+<link rel="stylesheet" type="text/css" href="../../css/style.css">
+
+<script type="text/javascript" src="../../js/jquery.js"></script>
+<script type="text/javascript" src="../../js/jquery.tablesorter.min.js"></script>
+
+<script type="text/javascript" >
+var counter = 1;
+function addInput(divName){
+     var newdiv = document.createElement('div');
+     newdiv.innerHTML = "<b>Locus " + (counter + 1) + "</b><br> GenBank accession: <input type='text' required name='myInputs[]'> Start nt: <input type='number' name='myStartCoords[]' placeholder='N/A'> End nt: <input type='number' name='myEndCoords[]' placeholder='N/A'> <br><br>";
+     document.getElementById(divName).appendChild(newdiv);
+     counter++;
+}
+</script>
+
+<script>
+$(document).ready(function()
+    {
+        $("#myTable").tablesorter();
+    }
+);
+
+</script>
+<style>
+table {
+    border-width: thin;
+    border-spacing: 2px;
+    border-style: none;
+    border-color: black;
+}
+</style>
+</head>
+<body>
+    <table id="myTable" class="tablesorter" border=1>
+    <thead>
+    <tr>
+        <th>MIBiG Protein</th>
+        <th>Description</th>
+        <th>MIBiG Cluster</th>
+        <th>MiBiG Product</th>
+        <th>% ID</th>
+        <th>% Coverage</th>
+        <th>BLAST Score</th>
+        <th>E-value</th>
+    </tr>
+    </thead>
+    <tbody>
+    
+          <tr>
+              <td>BAE63187.1</td>
+              <td></td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0002195.2">BGC0002195.2</a></td>
+              <td>other:other</td>
+              <td>43.0</td>
+              <td>88.2</td>
+              <td>334.0</td>
+              <td>1.23e-108</td>
+          </tr>
+    
+          <tr>
+              <td>ALI92656.1</td>
+              <td>MRR1_Major_Facilitator_Superfamily_(MFS)_protein</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0001338.4">BGC0001338.4</a></td>
+              <td>PKS:Iterative type I</td>
+              <td>31.0</td>
+              <td>85.1</td>
+              <td>182.0</td>
+              <td>2.18e-51</td>
+          </tr>
+    
+          <tr>
+              <td>PLB34719.1</td>
+              <td>major_facilitator_superfamily_domain-containing_protein</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0002749.2">BGC0002749.2</a></td>
+              <td>NRPS:Type VI+PKS:Type I</td>
+              <td>28.0</td>
+              <td>88.8</td>
+              <td>177.0</td>
+              <td>2.51e-49</td>
+          </tr>
+    
+          <tr>
+              <td>QOV03401.1</td>
+              <td>SpoC</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0002262.2">BGC0002262.2</a></td>
+              <td>PKS</td>
+              <td>30.0</td>
+              <td>84.7</td>
+              <td>175.0</td>
+              <td>1.31e-48</td>
+          </tr>
+    
+          <tr>
+              <td>XP_023093494.1</td>
+              <td></td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0001995.3">BGC0001995.3</a></td>
+              <td>terpene</td>
+              <td>28.0</td>
+              <td>86.8</td>
+              <td>150.0</td>
+              <td>1.19e-39</td>
+          </tr>
+    
+          <tr>
+              <td>KFH44385.1</td>
+              <td>putative_transporter-like_protein</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0002190.2">BGC0002190.2</a></td>
+              <td>PKS</td>
+              <td>29.0</td>
+              <td>87.2</td>
+              <td>148.0</td>
+              <td>7.14e-39</td>
+          </tr>
+    
+          <tr>
+              <td>PIB02403.1</td>
+              <td>putative_transporter</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0001541.3">BGC0001541.3</a></td>
+              <td>PKS</td>
+              <td>31.0</td>
+              <td>65.1</td>
+              <td>144.0</td>
+              <td>2.91e-37</td>
+          </tr>
+    
+          <tr>
+              <td>CAP95407.1</td>
+              <td></td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0001404.3">BGC0001404.3</a></td>
+              <td>PKS</td>
+              <td>28.0</td>
+              <td>88.0</td>
+              <td>141.0</td>
+              <td>2.98e-36</td>
+          </tr>
+    
+    </tbody>
+  </table>
+</body>

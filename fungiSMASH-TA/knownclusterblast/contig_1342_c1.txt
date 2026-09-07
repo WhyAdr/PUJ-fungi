@@ -1,0 +1,119 @@
+ClusterBlast scores for contig_1342
+
+Table of genes, locations, strands and annotations of query cluster:
+PUJ_003353	2302	3082	-	hypothetical protein	
+PUJ_003354	4422	4788	-	hypothetical protein	
+PUJ_003355	4825	11877	-	hypothetical protein	
+PUJ_003356	13583	14634	+	hypothetical protein	
+PUJ_003357	15419	16291	-	hypothetical protein	
+PUJ_003358	17537	19583	-	hypothetical protein	
+PUJ_003359	20811	21237	+	hypothetical protein	
+PUJ_003360	21828	23630	-	hypothetical protein	
+PUJ_003361	24428	30811	+	hypothetical protein	
+
+
+Significant hits: 
+1. BGC0001358.4	leucinostatin A/leucinostatin B
+2. BGC0000337.4	destruxin A
+3. BGC0001565.4	cyclosporin C
+4. BGC0000334.4	cyclosporin A
+5. BGC0001339.5	squalestatin S1
+6. BGC0001035.5	pneumocandin B0/pneumocandin A0
+
+
+Details:
+
+>>
+1. BGC0001358.4
+Source: leucinostatin A/leucinostatin B
+Type: NRPS:Type I+PKS
+Number of proteins with BLAST hits to this cluster: 4
+Cumulative BLAST score: 3862.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_003354	VFPBJ_02527	86	194	88.42975206611571	2.94e-58
+PUJ_003354	VFPBJ_02532	52	119	95.86776859504133	3e-32
+PUJ_003355	VFPBJ_02527	65	2834	103.31311245916939	0.0
+PUJ_003356	VFPBJ_02528	57	371	102.86624203821657	5.76e-129
+PUJ_003357	VFPBJ_02530	62	344	98.10606060606061	1.97e-118
+
+
+
+>>
+2. BGC0000337.4
+Source: destruxin A
+Type: NRPS:Type I
+Number of proteins with BLAST hits to this cluster: 3
+Cumulative BLAST score: 1343.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_003354	MAA_10033	71	158	90.08264462809917	9.78e-46
+PUJ_003355	MAA_10033	50	887	46.150256649556695	3.41e-290
+PUJ_003356	MAA_10034	51	298	102.86624203821657	7.55e-98
+
+
+
+>>
+3. BGC0001565.4
+Source: cyclosporin C
+Type: NRPS:Type I
+Number of proteins with BLAST hits to this cluster: 3
+Cumulative BLAST score: 2508.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_003354	ATQ39432.1	62	148	93.38842975206612	3.18e-42
+PUJ_003355	ATQ39432.1	49	2082	104.85300979934671	0.0
+PUJ_003356	ATQ39434.1	48	278	103.82165605095541	5.35e-90
+
+
+
+>>
+4. BGC0000334.4
+Source: cyclosporin A
+Type: NRPS:Type I
+Number of proteins with BLAST hits to this cluster: 3
+Cumulative BLAST score: 2385.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_003354	simG	61	146	93.38842975206612	1.1e-41
+PUJ_003355	simG	49	1999	103.91973868408772	0.0
+PUJ_003357	simJ	48	240	99.62121212121212	9.4e-78
+
+
+
+>>
+5. BGC0001339.5
+Source: squalestatin S1
+Type: PKS:Iterative type I
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 658.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_003354	AMY15068.1	51	120	92.56198347107438	1.18e-32
+PUJ_003360	AMY15055.1	51	538	95.84905660377359	2.02e-187
+
+
+
+>>
+6. BGC0001035.5
+Source: pneumocandin B0/pneumocandin A0
+Type: PKS+NRPS:Type I
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 396.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_003354	GLAREA_10034	57	137	100.0	1.38e-38
+PUJ_003357	GLAREA_10040	50	259	99.24242424242425	2.16e-85
+

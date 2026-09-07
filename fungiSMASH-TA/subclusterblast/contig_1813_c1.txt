@@ -1,0 +1,17 @@
+ClusterBlast scores for contig_1813
+
+Table of genes, locations, strands and annotations of query cluster:
+PUJ_005299	5731	7025	+	hypothetical protein	
+PUJ_005300	10082	11675	+	hypothetical protein	
+PUJ_005301	11953	13395	-	Terpene cyclase 6	
+PUJ_005302	15920	16465	+	Glutathione S-transferase 2	
+PUJ_005304	17932	21012	-	hypothetical protein	
+PUJ_005305	22953	24123	+	hypothetical protein	
+PUJ_005306	24694	25530	+	meiotic recombination	
+PUJ_005307	25832	27085	+	meiotic recombination	
+
+
+Significant hits: 
+
+
+Details:

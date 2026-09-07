@@ -1,0 +1,13 @@
+ClusterBlast scores for 703
+
+Table of genes, locations, strands and annotations of query cluster:
+PUJ_008118	405031	408665	-	hypothetical protein	
+PUJ_008119	411373	413323	+	hypothetical protein	
+PUJ_008120	413830	414329	-	hypothetical protein	
+PUJ_008121	418394	418937	+	hypothetical protein	
+
+
+Significant hits: 
+
+
+Details:

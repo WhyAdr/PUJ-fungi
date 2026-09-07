@@ -1,0 +1,18 @@
+ClusterBlast scores for contig_1342
+
+Table of genes, locations, strands and annotations of query cluster:
+PUJ_003353	2302	3082	-	hypothetical protein	
+PUJ_003354	4422	4788	-	hypothetical protein	
+PUJ_003355	4825	11877	-	hypothetical protein	
+PUJ_003356	13583	14634	+	hypothetical protein	
+PUJ_003357	15419	16291	-	hypothetical protein	
+PUJ_003358	17537	19583	-	hypothetical protein	
+PUJ_003359	20811	21237	+	hypothetical protein	
+PUJ_003360	21828	23630	-	hypothetical protein	
+PUJ_003361	24428	30811	+	hypothetical protein	
+
+
+Significant hits: 
+
+
+Details:

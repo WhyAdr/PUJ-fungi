@@ -1,0 +1,108 @@
+ClusterBlast scores for 703
+
+Table of genes, locations, strands and annotations of query cluster:
+PUJ_008118	405031	408665	-	hypothetical protein	
+PUJ_008119	411373	413323	+	hypothetical protein	
+PUJ_008120	413830	414329	-	hypothetical protein	
+PUJ_008121	418394	418937	+	hypothetical protein	
+
+
+Significant hits: 
+1. NZ_AP018365	Streptomyces sp. SN-593 chromosome
+2. NZ_CP022753	Nocardiopsis gilva YIM 90087 chromosome, complete genome
+3. NZ_WPBY01000001	Streptomyces sp. NRRL B-1677 B1677_XRG_trimmed_paired_contig_1, whole genome shotgun sequence
+4. NZ_CP023699	Streptomyces kanamyceticus strain ATCC 12853 chromosome, complete genome
+5. NZ_CP117709	Streptomyces sp. MMBL 11-1 chromosome, complete genome
+6. NC_066264	Aspergillus nidulans FGSC A4 chromosome VIII
+
+
+Details:
+
+>>
+1. NZ_AP018365
+Source: Streptomyces sp. SN-593 chromosome
+Type: T2PKS
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 744.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_008119	RVR_RS05980	55	634	97.99691833590138	1.84e-219
+PUJ_008120	RVR_RS05985	45	110	78.76712328767124	1.32e-27
+
+
+
+>>
+2. NZ_CP022753
+Source: Nocardiopsis gilva YIM 90087 chromosome, complete genome
+Type: T1PKS
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 606.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_008119	CDO52_RS23675	46	510	97.22650231124807	6.98e-172
+PUJ_008120	CDO52_RS23670	44	96	84.24657534246576	3.65e-24
+
+
+
+>>
+3. NZ_WPBY01000001
+Source: Streptomyces sp. NRRL B-1677 B1677_XRG_trimmed_paired_contig_1, whole genome shotgun sequence
+Type: NRPS,NRPS-like,T1PKS,terpene
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 589.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_008119	GO001_RS36040	45	502	99.84591679506933	1.01e-168
+PUJ_008120	GO001_RS01065	42	87	75.34246575342466	1.3e-20
+
+
+
+>>
+4. NZ_CP023699
+Source: Streptomyces kanamyceticus strain ATCC 12853 chromosome, complete genome
+Type: NRPS,NRPS-like,T2PKS
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 759.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_008119	CP970_RS06955	55	645	98.7673343605547	1.83e-224
+PUJ_008120	CP970_RS07280	48	114	79.45205479452055	1.46e-28
+
+
+
+>>
+5. NZ_CP117709
+Source: Streptomyces sp. MMBL 11-1 chromosome, complete genome
+Type: NRPS,NRPS-like,T3PKS,ectoine,phenazine
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 419.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_008119	PSQ21_RS30565	37	312	95.22342064714945	1.43e-95
+PUJ_008120	PSQ21_RS30455	46	107	79.45205479452055	2.32e-26
+
+
+
+>>
+6. NC_066264
+Source: Aspergillus nidulans FGSC A4 chromosome VIII
+Type: NRPS
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 459.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_008118	ANIA_01243	41	306	41.21338912133891	2.21e-91
+PUJ_008120	ANIA_01252	54	153	89.72602739726028	2.46e-46
+

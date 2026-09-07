@@ -1,0 +1,25 @@
+ClusterBlast scores for 904
+
+Table of genes, locations, strands and annotations of query cluster:
+PUJ_008945	402870	404799	-	cell division cycle-related protein	
+PUJ_008946	405282	407226	-	hypothetical protein	
+PUJ_008947	410069	412800	+	hypothetical protein	
+PUJ_008948	413402	414145	-	hypothetical protein	
+PUJ_008949	415417	418032	+	hypothetical protein	
+PUJ_008950	418867	420133	+	hypothetical protein	
+PUJ_008951	420621	421707	-	hypothetical protein	
+PUJ_008952	423184	424712	+	hypothetical protein	
+PUJ_008953	425956	427321	+	hypothetical protein	
+PUJ_008954	432129	433227	+	hypothetical protein	
+PUJ_008955	435528	436776	-	hypothetical protein	
+PUJ_008956	437317	438585	-	hypothetical protein	
+PUJ_008957	441122	442094	-	hypothetical protein	
+PUJ_008958	442899	444994	+	hypothetical protein	
+PUJ_008959	446764	447612	+	hypothetical protein	
+PUJ_008960	448261	450512	-	hypothetical protein	
+
+
+Significant hits: 
+
+
+Details:

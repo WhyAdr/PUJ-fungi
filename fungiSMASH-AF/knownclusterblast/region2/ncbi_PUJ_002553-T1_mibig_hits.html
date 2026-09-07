@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8" />
+<link rel="stylesheet" type="text/css" href="../../css/style.css">
+
+<script type="text/javascript" src="../../js/jquery.js"></script>
+<script type="text/javascript" src="../../js/jquery.tablesorter.min.js"></script>
+
+<script type="text/javascript" >
+var counter = 1;
+function addInput(divName){
+     var newdiv = document.createElement('div');
+     newdiv.innerHTML = "<b>Locus " + (counter + 1) + "</b><br> GenBank accession: <input type='text' required name='myInputs[]'> Start nt: <input type='number' name='myStartCoords[]' placeholder='N/A'> End nt: <input type='number' name='myEndCoords[]' placeholder='N/A'> <br><br>";
+     document.getElementById(divName).appendChild(newdiv);
+     counter++;
+}
+</script>
+
+<script>
+$(document).ready(function()
+    {
+        $("#myTable").tablesorter();
+    }
+);
+
+</script>
+<style>
+table {
+    border-width: thin;
+    border-spacing: 2px;
+    border-style: none;
+    border-color: black;
+}
+</style>
+</head>
+<body>
+    <table id="myTable" class="tablesorter" border=1>
+    <thead>
+    <tr>
+        <th>MIBiG Protein</th>
+        <th>Description</th>
+        <th>MIBiG Cluster</th>
+        <th>MiBiG Product</th>
+        <th>% ID</th>
+        <th>% Coverage</th>
+        <th>BLAST Score</th>
+        <th>E-value</th>
+    </tr>
+    </thead>
+    <tbody>
+    
+          <tr>
+              <td>EED49424.1</td>
+              <td>dimethylaniline_monooxygenase,_putative</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0000627.4">BGC0000627.4</a></td>
+              <td>ribosomal:RiPP:Dikaritin</td>
+              <td>99.0</td>
+              <td>100.0</td>
+              <td>982.0</td>
+              <td>0.0</td>
+          </tr>
+    
+          <tr>
+              <td>EED49414.1</td>
+              <td>monooxygenase,_putative</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0000627.4">BGC0000627.4</a></td>
+              <td>ribosomal:RiPP:Dikaritin</td>
+              <td>39.0</td>
+              <td>98.6</td>
+              <td>335.0</td>
+              <td>5.59e-111</td>
+          </tr>
+    
+          <tr>
+              <td>AJQ95678.1</td>
+              <td>polyketide_synthase_modules-related_protein</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0002046.3">BGC0002046.3</a></td>
+              <td>NRPS:Type I+PKS:Trans-AT type I</td>
+              <td>29.0</td>
+              <td>28.9</td>
+              <td>73.0</td>
+              <td>5.36e-13</td>
+          </tr>
+    
+          <tr>
+              <td>AHA34038.1</td>
+              <td>Bmp5</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0000890.5">BGC0000890.5</a></td>
+              <td>other:aminocoumarin</td>
+              <td>25.0</td>
+              <td>54.0</td>
+              <td>69.0</td>
+              <td>4.49e-12</td>
+          </tr>
+    
+          <tr>
+              <td>DAD54487.1</td>
+              <td>trans-acyltransferase_polyketide_synthase</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0002059.3">BGC0002059.3</a></td>
+              <td>NRPS:Type I+PKS:Trans-AT type I</td>
+              <td>27.0</td>
+              <td>55.3</td>
+              <td>68.0</td>
+              <td>1.49e-11</td>
+          </tr>
+    
+          <tr>
+              <td>AGN11882.1</td>
+              <td>TstGH</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0001114.5">BGC0001114.5</a></td>
+              <td>NRPS:Type I+PKS</td>
+              <td>25.0</td>
+              <td>55.3</td>
+              <td>66.0</td>
+              <td>1.03e-10</td>
+          </tr>
+    
+          <tr>
+              <td>ADH01489.1</td>
+              <td>type_I_polyketide_synthase</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0000995.5">BGC0000995.5</a></td>
+              <td>NRPS:Type I+PKS</td>
+              <td>25.0</td>
+              <td>55.3</td>
+              <td>64.0</td>
+              <td>2.97e-10</td>
+          </tr>
+    
+          <tr>
+              <td>AIC32694.1</td>
+              <td>FR9GH</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0001113.5">BGC0001113.5</a></td>
+              <td>NRPS:Type I+PKS</td>
+              <td>25.0</td>
+              <td>55.3</td>
+              <td>64.0</td>
+              <td>3.1e-10</td>
+          </tr>
+    
+          <tr>
+              <td>AKL71638.1</td>
+              <td>NocE</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0001703.3">BGC0001703.3</a></td>
+              <td>other:other</td>
+              <td>22.0</td>
+              <td>103.8</td>
+              <td>62.0</td>
+              <td>5.07e-10</td>
+          </tr>
+    
+          <tr>
+              <td>QIE07362.1</td>
+              <td>polyketide_synthase_NecC</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0002050.3">BGC0002050.3</a></td>
+              <td>NRPS:Type I+PKS:Trans-AT type I</td>
+              <td>26.0</td>
+              <td>56.7</td>
+              <td>63.0</td>
+              <td>6.5e-10</td>
+          </tr>
+    
+          <tr>
+              <td>QOV09183.1</td>
+              <td>NocE</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0002597.2">BGC0002597.2</a></td>
+              <td>NRPS:Type I+PKS</td>
+              <td>22.0</td>
+              <td>104.0</td>
+              <td>55.0</td>
+              <td>1.38e-07</td>
+          </tr>
+    
+          <tr>
+              <td>AQX77682.1</td>
+              <td>NocE</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0001704.3">BGC0001704.3</a></td>
+              <td>other:other</td>
+              <td>22.0</td>
+              <td>104.0</td>
+              <td>54.0</td>
+              <td>1.83e-07</td>
+          </tr>
+    
+    </tbody>
+  </table>
+</body>

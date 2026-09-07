@@ -1,0 +1,19 @@
+ClusterBlast scores for 432
+
+Table of genes, locations, strands and annotations of query cluster:
+PUJ_003664	832212	833985	+	hypothetical protein	
+PUJ_003665	841976	842980	+	hypothetical protein	
+PUJ_003666	844619	846004	+	hypothetical protein	
+PUJ_003667	846488	848025	-	High-affinity nicotinic acid transporter	
+PUJ_003668	849079	849864	+	hypothetical protein	
+PUJ_003669	849934	850716	+	hypothetical protein	
+PUJ_003670	851664	852580	+	hypothetical protein	
+PUJ_003671	853719	854625	-	hypothetical protein	
+PUJ_003672	857949	858900	-	hypothetical protein	
+PUJ_003673	859376	860398	+	hypothetical protein	
+
+
+Significant hits: 
+
+
+Details:

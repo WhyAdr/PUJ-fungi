@@ -1,0 +1,40 @@
+ClusterBlast scores for 256
+
+Table of genes, locations, strands and annotations of query cluster:
+PUJ_001558	1038491	1039072	-	hypothetical protein	
+PUJ_001559	1041254	1042880	-	U3 small nucleolar RNA-associated protein 15	
+PUJ_001561	1045002	1046319	-	hypothetical protein	
+PUJ_001562	1047745	1048933	-	hypothetical protein	
+PUJ_001563	1050928	1051987	-	hypothetical protein	
+PUJ_001564	1052670	1054413	+	hypothetical protein	
+PUJ_001565	1055008	1056092	-	hypothetical protein	
+PUJ_001566	1056435	1058096	-	hypothetical protein	
+PUJ_001567	1060477	1061611	-	hypothetical protein	
+PUJ_001568	1067185	1070747	+	hypothetical protein	
+PUJ_001569	1071552	1072673	+	hypothetical protein	
+PUJ_001570	1080216	1081634	+	hypothetical protein	
+PUJ_001571	1088887	1089639	+	hypothetical protein	
+PUJ_001572	1092568	1094767	+	hypothetical protein	
+
+
+Significant hits: 
+1. BGC0001995.3	heptelidic acid
+
+
+Details:
+
+>>
+1. BGC0001995.3
+Source: heptelidic acid
+Type: terpene
+Number of proteins with BLAST hits to this cluster: 4
+Cumulative BLAST score: 2420.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_001566	AO090011000418	98	996	100.0	0.0
+PUJ_001567	AO090011000417	98	469	97.2	2.93e-167
+PUJ_001569	AO090011000414	97	641	100.0	3.42e-235
+PUJ_001570	AO090011000408	99	314	40.37940379403794	2.77e-108
+

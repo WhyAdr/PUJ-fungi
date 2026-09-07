@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8" />
+<link rel="stylesheet" type="text/css" href="../../css/style.css">
+
+<script type="text/javascript" src="../../js/jquery.js"></script>
+<script type="text/javascript" src="../../js/jquery.tablesorter.min.js"></script>
+
+<script type="text/javascript" >
+var counter = 1;
+function addInput(divName){
+     var newdiv = document.createElement('div');
+     newdiv.innerHTML = "<b>Locus " + (counter + 1) + "</b><br> GenBank accession: <input type='text' required name='myInputs[]'> Start nt: <input type='number' name='myStartCoords[]' placeholder='N/A'> End nt: <input type='number' name='myEndCoords[]' placeholder='N/A'> <br><br>";
+     document.getElementById(divName).appendChild(newdiv);
+     counter++;
+}
+</script>
+
+<script>
+$(document).ready(function()
+    {
+        $("#myTable").tablesorter();
+    }
+);
+
+</script>
+<style>
+table {
+    border-width: thin;
+    border-spacing: 2px;
+    border-style: none;
+    border-color: black;
+}
+</style>
+</head>
+<body>
+    <table id="myTable" class="tablesorter" border=1>
+    <thead>
+    <tr>
+        <th>MIBiG Protein</th>
+        <th>Description</th>
+        <th>MIBiG Cluster</th>
+        <th>MiBiG Product</th>
+        <th>% ID</th>
+        <th>% Coverage</th>
+        <th>BLAST Score</th>
+        <th>E-value</th>
+    </tr>
+    </thead>
+    <tbody>
+    
+          <tr>
+              <td>ctg1_orf003</td>
+              <td></td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0000321.4">BGC0000321.4</a></td>
+              <td>NRPS:Type I</td>
+              <td>60.0</td>
+              <td>39.1</td>
+              <td>60.0</td>
+              <td>3.19e-11</td>
+          </tr>
+    
+          <tr>
+              <td>AQZ42157.1</td>
+              <td>putative_thioredoxin_reductase</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0001820.3">BGC0001820.3</a></td>
+              <td>NRPS:Type I</td>
+              <td>56.0</td>
+              <td>39.1</td>
+              <td>59.0</td>
+              <td>5.84e-11</td>
+          </tr>
+    
+          <tr>
+              <td>QVK45116.1</td>
+              <td>oxidoreductase</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0002438.2">BGC0002438.2</a></td>
+              <td>other:other</td>
+              <td>60.0</td>
+              <td>37.5</td>
+              <td>57.0</td>
+              <td>1.97e-10</td>
+          </tr>
+    
+          <tr>
+              <td>CCE28990.1</td>
+              <td>uncharacterized_protein</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0001365.3">BGC0001365.3</a></td>
+              <td>NRPS:Type I</td>
+              <td>43.0</td>
+              <td>60.2</td>
+              <td>57.0</td>
+              <td>3.78e-10</td>
+          </tr>
+    
+          <tr>
+              <td>DAB41654.1</td>
+              <td>thioredoxin_reductase</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0001585.3">BGC0001585.3</a></td>
+              <td>other:other</td>
+              <td>51.0</td>
+              <td>46.1</td>
+              <td>55.0</td>
+              <td>1.36e-09</td>
+          </tr>
+    
+          <tr>
+              <td>AAS92555.1</td>
+              <td>SirT</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0001044.4">BGC0001044.4</a></td>
+              <td>NRPS:Type I</td>
+              <td>48.0</td>
+              <td>45.3</td>
+              <td>54.0</td>
+              <td>3.4e-09</td>
+          </tr>
+    
+          <tr>
+              <td>WP_044620356.1</td>
+              <td>NAD(P)/FAD-dependent_oxidoreductase</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0001791.4">BGC0001791.4</a></td>
+              <td>NRPS:Type I</td>
+              <td>54.0</td>
+              <td>39.1</td>
+              <td>53.0</td>
+              <td>8.19e-09</td>
+          </tr>
+    
+          <tr>
+              <td>QPP19380.1</td>
+              <td>PenT*</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0002501.3">BGC0002501.3</a></td>
+              <td>other:other</td>
+              <td>53.0</td>
+              <td>38.3</td>
+              <td>52.0</td>
+              <td>1.58e-08</td>
+          </tr>
+    
+          <tr>
+              <td>BAE98166.1</td>
+              <td>putative_oxidoreductase</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0000339.5">BGC0000339.5</a></td>
+              <td>NRPS:Type I</td>
+              <td>50.0</td>
+              <td>46.9</td>
+              <td>50.0</td>
+              <td>1.02e-07</td>
+          </tr>
+    
+          <tr>
+              <td>AET98909.1</td>
+              <td>putative_oxidoreductase</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0000415.5">BGC0000415.5</a></td>
+              <td>NRPS:Type I</td>
+              <td>40.0</td>
+              <td>44.5</td>
+              <td>44.0</td>
+              <td>7.8e-06</td>
+          </tr>
+    
+          <tr>
+              <td>BAH04166.1</td>
+              <td>putative_oxidoreductase</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0000450.5">BGC0000450.5</a></td>
+              <td>NRPS:Type I</td>
+              <td>40.0</td>
+              <td>44.5</td>
+              <td>44.0</td>
+              <td>7.8e-06</td>
+          </tr>
+    
+    </tbody>
+  </table>
+</body>

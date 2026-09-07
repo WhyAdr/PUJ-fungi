@@ -1,0 +1,333 @@
+ClusterBlast scores for contig_470
+
+Table of genes, locations, strands and annotations of query cluster:
+PUJ_001306	2018	2558	-	hypothetical protein	
+PUJ_001307	4117	11835	+	hypothetical protein	
+
+
+Significant hits: 
+1. NW_024469026	Aspergillus fijiensis CBS 313.89 unplaced genomic scaffold BO72scaffold_50, whole genome shotgun sequence
+2. NW_025091264	Aspergillus udagawae IFM 46973 DNA, scaffold_1, whole genome shotgun sequence
+3. NW_025091222	Aspergillus viridinutans IFM 47045 DNA, scaffold_6, whole genome shotgun sequence
+4. NW_022985440	Mytilinidion resinicola strain CBS 304.34 unplaced genomic scaffold BDZ99scaffold_4, whole genome shotgun sequence
+5. NW_023336280	Aspergillus tubingensis WU-2223L DNA, scaffold_6, whole genome shotgun sequence
+6. NW_020290894	Aspergillus niger CBS 101883 unplaced genomic scaffold BO96scaffold_11, whole genome shotgun sequence
+7. NC_054849	Aspergillus luchuensis IFO 4308 DNA, chromosome 1, nearly complete sequence
+8. NW_020291836	Aspergillus costaricaensis CBS 115574 unplaced genomic scaffold BO79scaffold_36, whole genome shotgun sequence
+9. NW_020292048	Aspergillus vadensis CBS 113365 unplaced genomic scaffold BO88scaffold_10, whole genome shotgun sequence
+10. NW_024468938	Cucurbitaria berberidis CBS 394.84 unplaced genomic scaffold K460scaffold_4, whole genome shotgun sequence
+11. NW_022987236	Trematosphaeria pertusa strain CBS 122368 unplaced genomic scaffold BU26scaffold_25, whole genome shotgun sequence
+12. NW_013550603	Rhinocladiella mackenziei CBS 650.93 unplaced genomic scaffold supercont1.2, whole genome shotgun sequence
+13. NW_020291859	Aspergillus costaricaensis CBS 115574 unplaced genomic scaffold BO79scaffold_59, whole genome shotgun sequence
+14. NW_025953803	Annulohypoxylon truncatum strain CBS 140777 unplaced genomic scaffold F4807scaffold_17, whole genome shotgun sequence
+15. NW_025953249	Annulohypoxylon maeteangense strain CBS 123835 unplaced genomic scaffold GGS22scaffold_2, whole genome shotgun sequence
+16. NW_026250020	Hypoxylon trugodes strain CBS 135444 unplaced genomic scaffold F4822scaffold_5, whole genome shotgun sequence
+17. NW_011942182	Metarhizium robertsii ARSEF 23 MAA_Scf_4, whole genome shotgun sequence
+18. NW_014574695	Metarhizium brunneum ARSEF 3297 chromosome Unknown scaffold_22, whole genome shotgun sequence
+19. NC_018209	Zymoseptoria tritici IPO323 chromosome 10, whole genome shotgun sequence
+20. NZ_JTHL01000001	Streptomyces sp. 150FB scaffold00001, whole genome shotgun sequence
+
+
+Details:
+
+>>
+1. NW_024469026
+Source: Aspergillus fijiensis CBS 313.89 unplaced genomic scaffold BO72scaffold_50, whole genome shotgun sequence
+Type: NRPS,T1PKS
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 3212.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_001306	BO72DRAFT_410571	72	240	94.97206703910615	2.95e-76
+PUJ_001307	BO72DRAFT_410575	62	2972	99.51179820992677	0.0
+
+
+
+>>
+2. NW_025091264
+Source: Aspergillus udagawae IFM 46973 DNA, scaffold_1, whole genome shotgun sequence
+Type: T1PKS
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 2504.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_001306	Aud_000153	49	134	83.24022346368714	2.77e-35
+PUJ_001307	Aud_000154	45	1985	100.44751830756712	0.0
+PUJ_001307	Aud_000124	33	385	35.35394629780309	3.4e-111
+
+
+
+>>
+3. NW_025091222
+Source: Aspergillus viridinutans IFM 47045 DNA, scaffold_6, whole genome shotgun sequence
+Type: T1PKS
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 2120.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_001306	Aspvir_008099	48	133	83.24022346368714	5.36e-35
+PUJ_001307	Aspvir_008100	45	1987	100.2847843775427	0.0
+
+
+
+>>
+4. NW_022985440
+Source: Mytilinidion resinicola strain CBS 304.34 unplaced genomic scaffold BDZ99scaffold_4, whole genome shotgun sequence
+Type: T1PKS
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 2112.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_001306	BDZ99DRAFT_460147	49	134	77.6536312849162	1.41e-35
+PUJ_001307	BDZ99DRAFT_437476	44	1978	100.65093572009765	0.0
+
+
+
+>>
+5. NW_023336280
+Source: Aspergillus tubingensis WU-2223L DNA, scaffold_6, whole genome shotgun sequence
+Type: NRPS,T1PKS,terpene
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 2111.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_001306	AtWU_03795	42	131	88.8268156424581	1.96e-34
+PUJ_001307	AtWU_03796	45	1980	100.89503661513426	0.0
+
+
+
+>>
+6. NW_020290894
+Source: Aspergillus niger CBS 101883 unplaced genomic scaffold BO96scaffold_11, whole genome shotgun sequence
+Type: NRPS-like,T1PKS
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 2110.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_001306	BO96DRAFT_433775	42	127	88.8268156424581	7.37e-33
+PUJ_001307	BO96DRAFT_500119	44	1983	101.6680227827502	0.0
+
+
+
+>>
+7. NC_054849
+Source: Aspergillus luchuensis IFO 4308 DNA, chromosome 1, nearly complete sequence
+Type: T1PKS
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 2099.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_001306	AKAW2_10042A	41	129	88.8268156424581	1.9e-33
+PUJ_001307	AKAW2_10043S	43	1253	67.7379983726607	0.0
+PUJ_001307	AKAW2_10044S	48	717	32.83157038242474	6.75e-231
+
+
+
+>>
+8. NW_020291836
+Source: Aspergillus costaricaensis CBS 115574 unplaced genomic scaffold BO79scaffold_36, whole genome shotgun sequence
+Type: NRPS,T1PKS,terpene
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 2073.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_001306	BO79DRAFT_221230	42	131	88.8268156424581	1.96e-34
+PUJ_001307	BO79DRAFT_274215	44	1942	101.54597233523191	0.0
+
+
+
+>>
+9. NW_020292048
+Source: Aspergillus vadensis CBS 113365 unplaced genomic scaffold BO88scaffold_10, whole genome shotgun sequence
+Type: T1PKS,terpene
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 2066.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_001306	BO88DRAFT_425100	42	125	84.35754189944134	5.42e-32
+PUJ_001307	BO88DRAFT_461675	44	1941	101.54597233523191	0.0
+
+
+
+>>
+10. NW_024468938
+Source: Cucurbitaria berberidis CBS 394.84 unplaced genomic scaffold K460scaffold_4, whole genome shotgun sequence
+Type: T1PKS
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 2033.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_001306	K460DRAFT_368491	50	136	77.6536312849162	2.61e-36
+PUJ_001307	K460DRAFT_316201	43	1897	100.2847843775427	0.0
+
+
+
+>>
+11. NW_022987236
+Source: Trematosphaeria pertusa strain CBS 122368 unplaced genomic scaffold BU26scaffold_25, whole genome shotgun sequence
+Type: NRPS,T1PKS
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 3031.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_001306	BU26DRAFT_182313	73	238	89.3854748603352	3.77e-75
+PUJ_001307	BU26DRAFT_525367	65	2793	87.79495524816925	0.0
+
+
+
+>>
+12. NW_013550603
+Source: Rhinocladiella mackenziei CBS 650.93 unplaced genomic scaffold supercont1.2, whole genome shotgun sequence
+Type: T1PKS
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 2672.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_001306	Z518_03336	71	225	86.59217877094973	2.49e-70
+PUJ_001307	Z518_03333	52	1880	79.65825874694875	0.0
+PUJ_001307	Z518_03334	64	567	18.185516680227828	1.92e-181
+
+
+
+>>
+13. NW_020291859
+Source: Aspergillus costaricaensis CBS 115574 unplaced genomic scaffold BO79scaffold_59, whole genome shotgun sequence
+Type: NRPS,T1PKS
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 2421.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_001306	BO79DRAFT_161236	64	203	88.8268156424581	6.15e-62
+PUJ_001307	BO79DRAFT_278151	49	2218	100.36615134255493	0.0
+
+
+
+>>
+14. NW_025953803
+Source: Annulohypoxylon truncatum strain CBS 140777 unplaced genomic scaffold F4807scaffold_17, whole genome shotgun sequence
+Type: T1PKS
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 2302.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_001306	F4807DRAFT_460565	52	137	77.6536312849162	1.82e-36
+PUJ_001307	F4807DRAFT_426419	47	2165	99.47111472742066	0.0
+
+
+
+>>
+15. NW_025953249
+Source: Annulohypoxylon maeteangense strain CBS 123835 unplaced genomic scaffold GGS22scaffold_2, whole genome shotgun sequence
+Type: T1PKS
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 2297.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_001306	GGS22DRAFT_153645	51	134	77.09497206703911	1.88e-35
+PUJ_001307	GGS22DRAFT_153647	47	2163	99.34906427990235	0.0
+
+
+
+>>
+16. NW_026250020
+Source: Hypoxylon trugodes strain CBS 135444 unplaced genomic scaffold F4822scaffold_5, whole genome shotgun sequence
+Type: T1PKS
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 2181.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_001306	F4822DRAFT_429152	53	138	80.44692737430168	6.92e-37
+PUJ_001307	F4822DRAFT_249456	45	2043	100.20341741253051	0.0
+
+
+
+>>
+17. NW_011942182
+Source: Metarhizium robertsii ARSEF 23 MAA_Scf_4, whole genome shotgun sequence
+Type: T1PKS,fungal-RiPP-like
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 2119.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_001306	MAA_08695	51	136	81.00558659217877	2.58e-36
+PUJ_001307	MAA_08699	45	1983	101.38323840520749	0.0
+
+
+
+>>
+18. NW_014574695
+Source: Metarhizium brunneum ARSEF 3297 chromosome Unknown scaffold_22, whole genome shotgun sequence
+Type: T1PKS,fungal-RiPP-like
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 2114.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_001306	MBR_09342	51	136	81.00558659217877	2.58e-36
+PUJ_001307	MBR_09346	45	1978	101.38323840520749	0.0
+
+
+
+>>
+19. NC_018209
+Source: Zymoseptoria tritici IPO323 chromosome 10, whole genome shotgun sequence
+Type: T1PKS
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 2016.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_001306	MYCGRDRAFT_48965	48	135	77.09497206703911	9.46e-36
+PUJ_001307	MYCGRDRAFT_101493	43	1881	99.75589910496339	0.0
+
+
+
+>>
+20. NZ_JTHL01000001
+Source: Streptomyces sp. 150FB scaffold00001, whole genome shotgun sequence
+Type: NRPS,T1PKS
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 444.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_001306	QR77_RS03795	36	71	78.2122905027933	4.31e-13
+PUJ_001307	QR77_RS03865	32	373	38.89340927583401	2.47e-101
+

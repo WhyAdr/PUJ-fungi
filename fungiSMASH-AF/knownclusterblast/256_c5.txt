@@ -1,0 +1,21 @@
+ClusterBlast scores for 256
+
+Table of genes, locations, strands and annotations of query cluster:
+PUJ_001750	1728004	1728655	+	hypothetical protein	
+PUJ_001751	1729522	1730422	+	hypothetical protein	
+PUJ_001752	1730621	1732120	-	hypothetical protein	
+PUJ_001753	1732955	1734419	+	hypothetical protein	
+PUJ_001754	1736524	1738276	+	hypothetical protein	
+PUJ_001755	1739870	1740751	+	hypothetical protein	
+PUJ_001756	1740945	1741630	-	hypothetical protein	
+PUJ_001757	1741761	1742576	-	hypothetical protein	
+PUJ_001758	1746757	1748149	-	hypothetical protein	
+PUJ_001759	1749009	1750645	+	hypothetical protein	
+PUJ_001760	1751342	1751884	-	hypothetical protein	
+PUJ_001761	1754813	1756031	-	hypothetical protein	
+
+
+Significant hits: 
+
+
+Details:

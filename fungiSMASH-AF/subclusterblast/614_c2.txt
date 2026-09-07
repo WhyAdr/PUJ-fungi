@@ -1,0 +1,32 @@
+ClusterBlast scores for 614
+
+Table of genes, locations, strands and annotations of query cluster:
+PUJ_007229	584599	586377	-	hypothetical protein	
+PUJ_007230	586611	587947	+	E3 ubiquitin-protein ligase rad18	
+PUJ_007231	588032	589715	-	hypothetical protein	
+PUJ_007232	590349	592033	-	hypothetical protein	
+PUJ_007233	593508	595227	+	CCA tRNA nucleotidyltransferase, mitochondrial	
+PUJ_007234	595607	596810	+	hypothetical protein	
+PUJ_007235	597242	598901	-	hypothetical protein	
+PUJ_007237	600700	601333	+	hypothetical protein	
+PUJ_007238	601782	602869	-	hypothetical protein	
+PUJ_007239	603253	604608	+	hypothetical protein	
+PUJ_007240	605054	607027	+	hypothetical protein	
+PUJ_007241	607200	610221	-	phosphatidylinositol-3,5-bisphosphate 5-phosphatase	
+PUJ_007242	611360	613153	-	hypothetical protein	
+PUJ_007243	613605	620895	-	hypothetical protein	
+PUJ_007244	622921	624881	+	hypothetical protein	
+PUJ_007245	626285	627401	-	hypothetical protein	
+PUJ_007246	628109	632981	+	hypothetical protein	
+PUJ_007247	633271	633988	-	translation elongation factor EF-1 alpha	
+PUJ_007248	635945	637659	+	hypothetical protein	
+PUJ_007249	638575	639383	+	hypothetical protein	
+PUJ_007250	641005	642455	-	hypothetical protein	
+PUJ_007251	645507	646994	-	hypothetical protein	
+PUJ_007252	647374	649597	-	hypothetical protein	
+
+
+Significant hits: 
+
+
+Details:

@@ -1,0 +1,40 @@
+ClusterBlast scores for 24
+
+Table of genes, locations, strands and annotations of query cluster:
+PUJ_001271	2286028	2295450	-	Pre-mRNA-splicing helicase BRR2	
+PUJ_001272	2296060	2299096	+	MutS protein 1	
+PUJ_001273	2300275	2301694	-	hypothetical protein	
+PUJ_001274	2302731	2304595	+	hypothetical protein	
+PUJ_001275	2305451	2306075	+	hypothetical protein	
+PUJ_001276	2306292	2308126	-	hypothetical protein	
+PUJ_001277	2308756	2312593	-	hypothetical protein	
+PUJ_001278	2314704	2315212	-	hypothetical protein	
+PUJ_001279	2316158	2319514	-	hypothetical protein	
+PUJ_001280	2320813	2322888	+	hypothetical protein	
+PUJ_001281	2328539	2329681	+	hypothetical protein	
+PUJ_001282	2331265	2333332	+	hypothetical protein	
+PUJ_001283	2333562	2333999	-	3-hydroxyanthranilic acid dioxygenase	
+PUJ_001284	2334827	2335982	+	hypothetical protein	
+PUJ_001285	2336373	2337985	+	hypothetical protein	
+PUJ_001286	2339301	2340726	+	hypothetical protein	
+PUJ_001287	2340935	2341940	-	hypothetical protein	
+
+
+Significant hits: 
+1. BGC0002276.2	choline
+
+
+Details:
+
+>>
+1. BGC0002276.2
+Source: choline
+Type: NRPS:Type I
+Number of proteins with BLAST hits to this cluster: 1
+Cumulative BLAST score: 1941.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_001277	AN5318.2	77	1941	100.0	0.0
+

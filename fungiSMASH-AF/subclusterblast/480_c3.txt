@@ -1,0 +1,53 @@
+ClusterBlast scores for 480
+
+Table of genes, locations, strands and annotations of query cluster:
+PUJ_005066	638162	639454	-	hypothetical protein	
+PUJ_005067	640747	641425	+	hypothetical protein	
+PUJ_005068	645398	646226	+	hypothetical protein	
+PUJ_005069	647794	649538	+	hypothetical protein	
+PUJ_005070	651391	652311	-	hypothetical protein	
+PUJ_005071	652404	653236	-	hypothetical protein	
+PUJ_005072	653808	655546	+	hypothetical protein	
+PUJ_005073	656644	657706	+	hypothetical protein	
+PUJ_005074	658518	661443	+	hypothetical protein	
+PUJ_005075	662296	663275	-	delta 1-pyrroline-5-carboxylate reductase	
+PUJ_005076	663945	665534	-	hypothetical protein	
+PUJ_005077	665883	667027	-	hypothetical protein	
+PUJ_005078	667377	683720	+	hypothetical protein	
+PUJ_005079	685490	686018	+	hypothetical protein	
+PUJ_005080	686434	687505	+	hypothetical protein	
+PUJ_005081	688122	688564	+	hypothetical protein	
+PUJ_005082	692168	694690	+	hypothetical protein	
+PUJ_005083	695322	698281	+	hypothetical protein	
+PUJ_005084	699703	701244	-	hypothetical protein	
+PUJ_005085	702724	703254	+	geranylgeranyl diphosphate synthase 3	
+PUJ_005086	704143	706620	+	hypothetical protein	
+PUJ_005087	709809	711130	+	hypothetical protein	
+PUJ_005088	711783	712954	+	hypothetical protein	
+PUJ_005089	714741	715890	-	hypothetical protein	
+PUJ_005090	717851	729692	-	hypothetical protein	
+PUJ_005091	729976	730276	+	hypothetical protein	
+PUJ_005092	730784	732928	-	hypothetical protein	
+PUJ_005093	733693	735204	+	hypothetical protein	
+PUJ_005094	735801	737715	-	hypothetical protein	
+PUJ_005095	740222	742528	+	hypothetical protein	
+PUJ_005096	743242	744383	-	hypothetical protein	
+PUJ_005097	744742	745884	+	hypothetical protein	
+PUJ_005098	746095	747748	-	hypothetical protein	
+PUJ_005099	748080	751396	+	hypothetical protein	
+PUJ_005100	754005	754825	-	hypothetical protein	
+PUJ_005101	755718	763111	+	hypothetical protein	
+PUJ_005102	763729	766143	+	hypothetical protein	
+PUJ_005103	770599	771641	+	hypothetical protein	
+PUJ_005104	773572	776225	+	carnitine O-acetyltransferase yat1	
+PUJ_005105	779162	783633	+	hypothetical protein	
+PUJ_005106	785684	787387	+	hypothetical protein	
+PUJ_005107	788227	789533	+	hypothetical protein	
+PUJ_005108	789867	790585	-	ndufa8, NADH-ubiquinone oxidoreductase complex I 19kd subunit	
+PUJ_005109	791174	792757	+	Nucleoporin nup57	
+
+
+Significant hits: 
+
+
+Details:

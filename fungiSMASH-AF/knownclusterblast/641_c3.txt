@@ -1,0 +1,61 @@
+ClusterBlast scores for 641
+
+Table of genes, locations, strands and annotations of query cluster:
+PUJ_007733	594915	596203	-	hypothetical protein	
+PUJ_007734	597283	597835	-	hypothetical protein	
+PUJ_007735	606180	607227	-	hypothetical protein	
+PUJ_007736	607768	608941	+	hypothetical protein	
+PUJ_007737	610508	611757	+	hypothetical protein	
+PUJ_007738	620232	621264	-	hypothetical protein	
+PUJ_007739	624447	631825	-	hypothetical protein	
+PUJ_007740	634111	635564	-	hypothetical protein	
+PUJ_007741	636703	637498	+	hypothetical protein	
+PUJ_007742	638493	640017	-	hypothetical protein	
+PUJ_007743	641234	647954	+	hypothetical protein	
+PUJ_007744	649907	651168	+	hypothetical protein	
+PUJ_007745	651878	652712	-	hypothetical protein	
+PUJ_007746	656867	658994	+	Glycerol-3-phosphate/dihydroxyacetone phosphate acyltransferase	
+PUJ_007747	659887	660662	+	hypothetical protein	
+PUJ_007748	660857	661808	+	hypothetical protein	
+PUJ_007750	663845	664776	-	hypothetical protein	
+PUJ_007751	666789	668898	-	hypothetical protein	
+PUJ_007752	672570	673938	-	hypothetical protein	
+PUJ_007753	675294	676209	-	hypothetical protein	
+
+
+Significant hits: 
+1. BGC0002267.2	azasperpyranone A/azasperpyranone B/azasperpyranone C/azasperpyranone D/azasperpyranone E/azasperpyranone F/azasperpyranone G/azasperpyranone H
+2. BGC0001405.4	chaetoviridin E/11-epichaetomugilin A
+
+
+Details:
+
+>>
+1. BGC0002267.2
+Source: azasperpyranone A/azasperpyranone B/azasperpyranone C/azasperpyranone D/azasperpyranone E/azasperpyranone F/azasperpyranone G/azasperpyranone H
+Type: PKS
+Number of proteins with BLAST hits to this cluster: 3
+Cumulative BLAST score: 2809.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_007739	ATEG_07659	49	2207	105.19587628865979	0.0
+PUJ_007740	ATEG_07662	47	384	97.2972972972973	2.51e-130
+PUJ_007741	ATEG_07663	47	218	96.5909090909091	9.15e-71
+
+
+
+>>
+2. BGC0001405.4
+Source: chaetoviridin E/11-epichaetomugilin A
+Type: PKS
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 1505.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_007740	CHGG_07644	48	391	97.52252252252252	6.52e-133
+PUJ_007743	CHGG_07645	51	1114	53.584229390681	0.0
+

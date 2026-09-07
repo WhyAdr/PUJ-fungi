@@ -1,0 +1,28 @@
+ClusterBlast scores for contig_697
+
+Table of genes, locations, strands and annotations of query cluster:
+PUJ_001843	144	2867	-	hypothetical protein	
+PUJ_001844	3632	4464	+	hypothetical protein	
+PUJ_001845	6732	7235	+	hypothetical protein	
+PUJ_001846	7989	12204	+	hypothetical protein	
+PUJ_001847	12672	13670	+	hypothetical protein	
+
+
+Significant hits: 
+1. BGC0002164.2	peramine
+
+
+Details:
+
+>>
+1. BGC0002164.2
+Source: peramine
+Type: NRPS:Type I
+Number of proteins with BLAST hits to this cluster: 1
+Cumulative BLAST score: 80.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_001845	BAE06845.2	50	80	68.51851851851852	1.44e-18
+

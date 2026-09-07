@@ -1,0 +1,30 @@
+ClusterBlast scores for 480
+
+Table of genes, locations, strands and annotations of query cluster:
+PUJ_004870	118	1696	-	hypothetical protein	
+PUJ_004871	2069	6634	+	hypothetical protein	
+PUJ_004872	19905	20703	+	hypothetical protein	
+PUJ_004873	21083	22660	+	hypothetical protein	
+PUJ_004874	24510	25809	-	hypothetical protein	
+PUJ_004875	26349	29256	+	hypothetical protein	
+PUJ_004876	29690	31217	+	hypothetical protein	
+PUJ_004877	31281	31905	+	hypothetical protein	
+PUJ_004878	32318	36691	+	hypothetical protein	
+PUJ_004879	38137	47760	-	hypothetical protein	
+PUJ_004880	48779	49187	+	hypothetical protein	
+PUJ_004881	49269	51048	+	hypothetical protein	
+PUJ_004882	51540	53470	-	peptide transporter ptr2	
+PUJ_004883	54112	55273	+	hypothetical protein	
+PUJ_004884	55812	56978	+	hypothetical protein	
+PUJ_004885	58428	59796	-	hypothetical protein	
+PUJ_004886	62806	63966	+	hypothetical protein	
+PUJ_004887	64392	65811	-	hypothetical protein	
+PUJ_004888	68156	68957	-	hypothetical protein	
+PUJ_004889	71085	72776	+	hypothetical protein	
+PUJ_004890	73618	76994	-	hypothetical protein	
+
+
+Significant hits: 
+
+
+Details:

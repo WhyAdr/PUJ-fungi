@@ -1,0 +1,17 @@
+ClusterBlast scores for 2001
+
+Table of genes, locations, strands and annotations of query cluster:
+PUJ_009804	2197	3389	+	WD repeat-containing protein 6	
+PUJ_009805	3656	5116	+	hypothetical protein	
+PUJ_009806	6143	7002	+	hypothetical protein	
+PUJ_009807	7935	9295	+	hypothetical protein	
+PUJ_009808	12597	16327	-	hypothetical protein	
+PUJ_009809	17641	24520	+	Mitochondrial distribution and morphology protein 12	
+PUJ_009810	26108	28175	-	Pyruvate kinase	
+PUJ_009811	31037	32402	-	hypothetical protein	
+
+
+Significant hits: 
+
+
+Details:

@@ -1,0 +1,188 @@
+ClusterBlast scores for 1845
+
+Table of genes, locations, strands and annotations of query cluster:
+PUJ_009506	67456	67741	+	hypothetical protein	
+PUJ_009507	72004	72912	-	hypothetical protein	
+PUJ_009508	73985	74930	+	hypothetical protein	
+PUJ_009509	75925	77501	+	hypothetical protein	
+PUJ_009510	79478	80099	+	hypothetical protein	
+PUJ_009511	80453	81448	-	hypothetical protein	
+PUJ_009512	82936	84609	+	hypothetical protein	
+PUJ_009513	85081	88546	-	hypothetical protein	
+PUJ_009514	88982	90306	+	hypothetical protein	
+PUJ_009515	90983	97055	+	hypothetical protein	
+PUJ_009516	99555	100893	-	hypothetical protein	
+PUJ_009517	101585	103358	+	hypothetical protein	
+PUJ_009518	104760	106257	-	hypothetical protein	
+PUJ_009519	107196	109008	+	hypothetical protein	
+PUJ_009520	110086	115476	-	hypothetical protein	
+PUJ_009521	118671	119589	+	hypothetical protein	
+PUJ_009522	123607	125236	-	hypothetical protein	
+PUJ_009523	125620	126248	-	hypothetical protein	
+
+
+Significant hits: 
+1. BGC0002237.3	dichlorodiaporthin
+2. BGC0000013.3	alternariol
+3. BGC0000684.4	asperthecin
+4. BGC0000156.5	TAN-1612/1-(2,3,5,10-tetrahydroxy-7-methoxy-4-oxo-1,2,3,4-tetrahydroanthracen-2-yl)pentane-2,4-dione/desmethyl TAN-1612
+5. BGC0001144.4	neosartoricin B
+6. BGC0002646.3	hancockinone A
+7. BGC0000121.3	Pestheic Acid/RES-1214-2
+8. BGC0002726.2	4-chloropinselin/pinselin/chloromonilinic acid B/chloromonilinic acid D/4-hydroxyvertixanthone
+9. BGC0002592.2	geodin
+10. BGC0002608.2	ochratoxin A
+
+
+Details:
+
+>>
+1. BGC0002237.3
+Source: dichlorodiaporthin
+Type: PKS
+Number of proteins with BLAST hits to this cluster: 5
+Cumulative BLAST score: 6738.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_009509	AO090701000525	99	979	100.0	0.0
+PUJ_009511	AO090701000526	100	451	77.41935483870968	4.87e-161
+PUJ_009512	AO090701000527	96	997	100.0	0.0
+PUJ_009514	AO090701000529	100	619	98.48484848484848	2.21e-226
+PUJ_009515	AO090701000530	98	3692	100.05291005291006	0.0
+
+
+
+>>
+2. BGC0000013.3
+Source: alternariol
+Type: PKS
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 3355.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_009514	ANIA_07070	75	472	99.69696969696969	2.63e-168
+PUJ_009515	ANIA_07071	78	2883	99.73544973544973	0.0
+
+
+
+>>
+3. BGC0000684.4
+Source: asperthecin
+Type: PKS
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 1781.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_009514	ANIA_06001	55	265	70.0	1.87e-87
+PUJ_009515	ANIA_06000	46	1516	99.84126984126985	0.0
+
+
+
+>>
+4. BGC0000156.5
+Source: TAN-1612/1-(2,3,5,10-tetrahydroxy-7-methoxy-4-oxo-1,2,3,4-tetrahydroanthracen-2-yl)pentane-2,4-dione/desmethyl TAN-1612
+Type: PKS:Iterative type I
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 1763.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_009514	AEN83888.1	55	260	70.60606060606061	3.11e-85
+PUJ_009515	AEN83889.1	46	1503	99.94708994708995	0.0
+
+
+
+>>
+5. BGC0001144.4
+Source: neosartoricin B
+Type: PKS
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 1832.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_009514	TESG_06705	55	265	73.93939393939394	7.49e-87
+PUJ_009515	TESG_06702	46	1567	99.47089947089947	0.0
+
+
+
+>>
+6. BGC0002646.3
+Source: hancockinone A
+Type: PKS
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 1798.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_009514	BBP40_009495	55	263	70.60606060606061	2.74e-86
+PUJ_009515	BBP40_009498	46	1535	99.94708994708995	0.0
+
+
+
+>>
+7. BGC0000121.3
+Source: Pestheic Acid/RES-1214-2
+Type: PKS:Type I
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 750.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_009513	AGO59046.1	50	522	54.09674234945706	2.93e-175
+PUJ_009514	AGO59041.1	52	228	68.18181818181817	6.1e-73
+
+
+
+>>
+8. BGC0002726.2
+Source: 4-chloropinselin/pinselin/chloromonilinic acid B/chloromonilinic acid D/4-hydroxyvertixanthone
+Type: PKS
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 725.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_009513	QCF41200.1	52	511	52.02369200394866	1.02e-169
+PUJ_009514	QCF41202.1	50	214	67.57575757575758	2.12e-65
+
+
+
+>>
+9. BGC0002592.2
+Source: geodin
+Type: PKS
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 707.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_009513	ATEG_08460	54	478	48.07502467917078	1.06e-158
+PUJ_009514	ATEG_08450	53	229	68.48484848484848	2.66e-73
+
+
+
+>>
+10. BGC0002608.2
+Source: ochratoxin A
+Type: NRPS:Type I+PKS
+Number of proteins with BLAST hits to this cluster: 1
+Cumulative BLAST score: 506.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_009513	AUS29501.1	53	506	51.53010858835143	7.53e-170
+

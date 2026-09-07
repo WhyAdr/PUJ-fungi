@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8" />
+<link rel="stylesheet" type="text/css" href="../../css/style.css">
+
+<script type="text/javascript" src="../../js/jquery.js"></script>
+<script type="text/javascript" src="../../js/jquery.tablesorter.min.js"></script>
+
+<script type="text/javascript" >
+var counter = 1;
+function addInput(divName){
+     var newdiv = document.createElement('div');
+     newdiv.innerHTML = "<b>Locus " + (counter + 1) + "</b><br> GenBank accession: <input type='text' required name='myInputs[]'> Start nt: <input type='number' name='myStartCoords[]' placeholder='N/A'> End nt: <input type='number' name='myEndCoords[]' placeholder='N/A'> <br><br>";
+     document.getElementById(divName).appendChild(newdiv);
+     counter++;
+}
+</script>
+
+<script>
+$(document).ready(function()
+    {
+        $("#myTable").tablesorter();
+    }
+);
+
+</script>
+<style>
+table {
+    border-width: thin;
+    border-spacing: 2px;
+    border-style: none;
+    border-color: black;
+}
+</style>
+</head>
+<body>
+    <table id="myTable" class="tablesorter" border=1>
+    <thead>
+    <tr>
+        <th>MIBiG Protein</th>
+        <th>Description</th>
+        <th>MIBiG Cluster</th>
+        <th>MiBiG Product</th>
+        <th>% ID</th>
+        <th>% Coverage</th>
+        <th>BLAST Score</th>
+        <th>E-value</th>
+    </tr>
+    </thead>
+    <tbody>
+    
+          <tr>
+              <td>BAE56597.1</td>
+              <td></td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0001123.5">BGC0001123.5</a></td>
+              <td>NRPS:Type I</td>
+              <td>99.0</td>
+              <td>58.6</td>
+              <td>488.0</td>
+              <td>1.73e-174</td>
+          </tr>
+    
+          <tr>
+              <td>QPP19372.1</td>
+              <td>Pen11</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0002501.3">BGC0002501.3</a></td>
+              <td>other:other</td>
+              <td>45.0</td>
+              <td>62.2</td>
+              <td>229.0</td>
+              <td>3.05e-72</td>
+          </tr>
+    
+          <tr>
+              <td>THU83555.1</td>
+              <td>hypothetical_protein</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0002746.3">BGC0002746.3</a></td>
+              <td>ribosomal:RiPP</td>
+              <td>36.0</td>
+              <td>63.4</td>
+              <td>127.0</td>
+              <td>9.47e-33</td>
+          </tr>
+    
+          <tr>
+              <td>THU83559.1</td>
+              <td>hypothetical_protein</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0002746.3">BGC0002746.3</a></td>
+              <td>ribosomal:RiPP</td>
+              <td>34.0</td>
+              <td>65.6</td>
+              <td>120.0</td>
+              <td>2.01e-30</td>
+          </tr>
+    
+          <tr>
+              <td>BCI98770.1</td>
+              <td>putative_acetyltransferase</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0002181.3">BGC0002181.3</a></td>
+              <td>terpene</td>
+              <td>29.0</td>
+              <td>65.9</td>
+              <td>109.0</td>
+              <td>2.52e-26</td>
+          </tr>
+    
+          <tr>
+              <td>EAL89236.1</td>
+              <td>toxin_biosynthesis_protein_Tri7-like,_putative</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0000129.3">BGC0000129.3</a></td>
+              <td>PKS</td>
+              <td>29.0</td>
+              <td>67.3</td>
+              <td>103.0</td>
+              <td>8.88e-24</td>
+          </tr>
+    
+          <tr>
+              <td>BAX01958.1</td>
+              <td>trichothecene_4-O-acetyltransferase</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0001811.3">BGC0001811.3</a></td>
+              <td>terpene</td>
+              <td>27.0</td>
+              <td>71.7</td>
+              <td>98.0</td>
+              <td>5.09e-22</td>
+          </tr>
+    
+          <tr>
+              <td>AAK53575.1</td>
+              <td>TRI7</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0000930.4">BGC0000930.4</a></td>
+              <td>terpene</td>
+              <td>26.0</td>
+              <td>71.4</td>
+              <td>98.0</td>
+              <td>6.89e-22</td>
+          </tr>
+    
+          <tr>
+              <td>EAU36740.1</td>
+              <td>predicted_protein</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0000292.4">BGC0000292.4</a></td>
+              <td>NRPS:Type I</td>
+              <td>30.0</td>
+              <td>65.1</td>
+              <td>95.0</td>
+              <td>1.73e-21</td>
+          </tr>
+    
+          <tr>
+              <td>AAK33076.1</td>
+              <td>Tri7</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0001278.4">BGC0001278.4</a></td>
+              <td>terpene</td>
+              <td>26.0</td>
+              <td>67.1</td>
+              <td>92.0</td>
+              <td>6.18e-20</td>
+          </tr>
+    
+          <tr>
+              <td>QIQ51362.1</td>
+              <td>hypothetical_protein</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0002199.2">BGC0002199.2</a></td>
+              <td>other:other</td>
+              <td>25.0</td>
+              <td>71.4</td>
+              <td>85.0</td>
+              <td>1.12e-17</td>
+          </tr>
+    
+          <tr>
+              <td>QBC75446.1</td>
+              <td>MacI</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0002615.2">BGC0002615.2</a></td>
+              <td>terpene</td>
+              <td>27.0</td>
+              <td>59.1</td>
+              <td>82.0</td>
+              <td>1.7e-16</td>
+          </tr>
+    
+          <tr>
+              <td>BBG28482.1</td>
+              <td>acetyltransferase_CdmC</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0001926.3">BGC0001926.3</a></td>
+              <td>PKS</td>
+              <td>24.0</td>
+              <td>67.6</td>
+              <td>76.0</td>
+              <td>9.46e-15</td>
+          </tr>
+    
+          <tr>
+              <td>EHA22198.1</td>
+              <td>hypothetical_protein</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0000170.3">BGC0000170.3</a></td>
+              <td>PKS</td>
+              <td>26.0</td>
+              <td>59.6</td>
+              <td>74.0</td>
+              <td>6.03e-14</td>
+          </tr>
+    
+    </tbody>
+  </table>
+</body>

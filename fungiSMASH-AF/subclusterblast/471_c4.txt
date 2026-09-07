@@ -1,0 +1,26 @@
+ClusterBlast scores for 471
+
+Table of genes, locations, strands and annotations of query cluster:
+PUJ_004610	747446	749244	+	hypothetical protein	
+PUJ_004611	751825	752899	+	hypothetical protein	
+PUJ_004612	753524	755149	-	hypothetical protein	
+PUJ_004613	757901	760064	-	hypothetical protein	
+PUJ_004614	765749	767058	+	hypothetical protein	
+PUJ_004615	767400	768905	-	hypothetical protein	
+PUJ_004616	772864	774934	-	hypothetical protein	
+PUJ_004617	777334	791675	+	Non-ribosomal peptide synthetase	
+PUJ_004618	794299	795939	+	hypothetical protein	
+PUJ_004619	796108	797231	-	hypothetical protein	
+PUJ_004620	798540	801294	+	hypothetical protein	
+PUJ_004621	802568	804863	-	hypothetical protein	
+PUJ_004622	805354	806029	-	hypothetical protein	
+PUJ_004623	808224	808695	-	hypothetical protein	
+PUJ_004624	812820	815317	+	hypothetical protein	
+PUJ_004625	816056	817067	-	hypothetical protein	
+PUJ_004626	818824	819898	-	hypothetical protein	
+
+
+Significant hits: 
+
+
+Details:

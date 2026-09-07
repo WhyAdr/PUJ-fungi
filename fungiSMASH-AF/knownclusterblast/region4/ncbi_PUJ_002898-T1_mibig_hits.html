@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8" />
+<link rel="stylesheet" type="text/css" href="../../css/style.css">
+
+<script type="text/javascript" src="../../js/jquery.js"></script>
+<script type="text/javascript" src="../../js/jquery.tablesorter.min.js"></script>
+
+<script type="text/javascript" >
+var counter = 1;
+function addInput(divName){
+     var newdiv = document.createElement('div');
+     newdiv.innerHTML = "<b>Locus " + (counter + 1) + "</b><br> GenBank accession: <input type='text' required name='myInputs[]'> Start nt: <input type='number' name='myStartCoords[]' placeholder='N/A'> End nt: <input type='number' name='myEndCoords[]' placeholder='N/A'> <br><br>";
+     document.getElementById(divName).appendChild(newdiv);
+     counter++;
+}
+</script>
+
+<script>
+$(document).ready(function()
+    {
+        $("#myTable").tablesorter();
+    }
+);
+
+</script>
+<style>
+table {
+    border-width: thin;
+    border-spacing: 2px;
+    border-style: none;
+    border-color: black;
+}
+</style>
+</head>
+<body>
+    <table id="myTable" class="tablesorter" border=1>
+    <thead>
+    <tr>
+        <th>MIBiG Protein</th>
+        <th>Description</th>
+        <th>MIBiG Cluster</th>
+        <th>MiBiG Product</th>
+        <th>% ID</th>
+        <th>% Coverage</th>
+        <th>BLAST Score</th>
+        <th>E-value</th>
+    </tr>
+    </thead>
+    <tbody>
+    
+          <tr>
+              <td>OJJ96435.1</td>
+              <td>hypothetical_protein</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0002226.3">BGC0002226.3</a></td>
+              <td>NRPS:Type I</td>
+              <td>40.0</td>
+              <td>95.2</td>
+              <td>301.0</td>
+              <td>3.95e-99</td>
+          </tr>
+    
+          <tr>
+              <td>QIQ51364.1</td>
+              <td>hypothetical_protein</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0002199.2">BGC0002199.2</a></td>
+              <td>other:other</td>
+              <td>40.0</td>
+              <td>96.7</td>
+              <td>287.0</td>
+              <td>2.97e-93</td>
+          </tr>
+    
+          <tr>
+              <td>BAK26561.1</td>
+              <td>dimethylallyltryptophan_synthase</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0000977.4">BGC0000977.4</a></td>
+              <td>NRPS:Type I+PKS</td>
+              <td>35.0</td>
+              <td>95.4</td>
+              <td>233.0</td>
+              <td>2.53e-72</td>
+          </tr>
+    
+          <tr>
+              <td>AFA26385.1</td>
+              <td>dimethylallyl_tryptophan_synthase</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0001874.4">BGC0001874.4</a></td>
+              <td>NRPS:Type I+PKS</td>
+              <td>34.0</td>
+              <td>95.9</td>
+              <td>230.0</td>
+              <td>3.9e-71</td>
+          </tr>
+    
+          <tr>
+              <td>ABV57826.1</td>
+              <td>dimethylallyltryptophan_synthase</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0001267.3">BGC0001267.3</a></td>
+              <td>terpene</td>
+              <td>34.0</td>
+              <td>96.5</td>
+              <td>212.0</td>
+              <td>5.5e-64</td>
+          </tr>
+    
+          <tr>
+              <td>AET79188.1</td>
+              <td>dimethylallyl_tryptophan_synthase</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0001241.4">BGC0001241.4</a></td>
+              <td>terpene</td>
+              <td>32.0</td>
+              <td>94.7</td>
+              <td>203.0</td>
+              <td>8.05e-61</td>
+          </tr>
+    
+          <tr>
+              <td>CCE30228.1</td>
+              <td>uncharacterized_protein</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0002232.2">BGC0002232.2</a></td>
+              <td>other:other</td>
+              <td>32.0</td>
+              <td>94.7</td>
+              <td>203.0</td>
+              <td>8.05e-61</td>
+          </tr>
+    
+          <tr>
+              <td>AGA37268.1</td>
+              <td>prenyltransferase</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0000819.5">BGC0000819.5</a></td>
+              <td>NRPS:Type I+other:other</td>
+              <td>30.0</td>
+              <td>95.9</td>
+              <td>195.0</td>
+              <td>4.93e-58</td>
+          </tr>
+    
+          <tr>
+              <td>BAM84051.1</td>
+              <td>aromatic_prenyl_transferase</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0001260.3">BGC0001260.3</a></td>
+              <td>terpene</td>
+              <td>25.0</td>
+              <td>94.2</td>
+              <td>87.0</td>
+              <td>2.35e-18</td>
+          </tr>
+    
+          <tr>
+              <td>PLB46277.1</td>
+              <td>aromatic_prenyltransferase</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0001712.3">BGC0001712.3</a></td>
+              <td>other:other</td>
+              <td>24.0</td>
+              <td>83.3</td>
+              <td>79.0</td>
+              <td>8.62e-16</td>
+          </tr>
+    
+          <tr>
+              <td>CBF80712.1</td>
+              <td>Putative_uncharacterized_proteinTdiB;_[Source:UniProtKB/TrEMBL;Acc:Q5AT66]</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0000442.5">BGC0000442.5</a></td>
+              <td>NRPS:Type I</td>
+              <td>25.0</td>
+              <td>86.1</td>
+              <td>78.0</td>
+              <td>1.94e-15</td>
+          </tr>
+    
+    </tbody>
+  </table>
+</body>

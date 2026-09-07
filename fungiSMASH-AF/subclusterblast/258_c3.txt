@@ -1,0 +1,28 @@
+ClusterBlast scores for 258
+
+Table of genes, locations, strands and annotations of query cluster:
+PUJ_002083	794528	795811	-	hypothetical protein	
+PUJ_002084	797213	799067	-	hypothetical protein	
+PUJ_002085	802250	803105	+	Required for respiratory growth protein 9 mitochondrial	
+PUJ_002086	804734	806570	+	Golgi membrane exchange factor (Ric1p-Rgp1p) subunit	
+PUJ_002087	807383	808405	+	Mitotic exit network component	
+PUJ_002088	808818	809839	+	ATP synthase F0 subcomplex subunit OSCP atp5	
+PUJ_002089	810998	814587	-	hypothetical protein	
+PUJ_002090	816616	817180	-	hypothetical protein	
+PUJ_002091	818374	819960	+	hypothetical protein	
+PUJ_002092	823070	826286	-	hypothetical protein	
+PUJ_002093	830931	832245	+	hypothetical protein	
+PUJ_002094	833554	834727	-	hypothetical protein	
+PUJ_002095	835331	837186	+	hypothetical protein	
+PUJ_002096	838046	839776	+	hypothetical protein	
+PUJ_002097	840083	841185	-	hypothetical protein	
+PUJ_002098	842157	844629	+	hypothetical protein	
+PUJ_002099	847988	849633	+	hypothetical protein	
+PUJ_002100	850440	850944	-	hypothetical protein	
+PUJ_002101	853242	856020	+	hypothetical protein	
+
+
+Significant hits: 
+
+
+Details:

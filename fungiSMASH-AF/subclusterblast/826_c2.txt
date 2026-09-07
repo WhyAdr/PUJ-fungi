@@ -1,0 +1,26 @@
+ClusterBlast scores for 826
+
+Table of genes, locations, strands and annotations of query cluster:
+PUJ_008470	307729	308227	-	hypothetical protein	
+PUJ_008471	308828	311409	+	DNA repair helicase RAD25	
+PUJ_008472	315204	318633	+	hypothetical protein	
+PUJ_008473	319027	321949	-	glutamine-dependent NAD(+) synthetase	
+PUJ_008474	322412	323767	+	NADH pyrophosphatase	
+PUJ_008475	324039	327642	-	hypothetical protein	
+PUJ_008476	328986	330514	+	monooxygenase	
+PUJ_008477	332225	334544	+	hypothetical protein	
+PUJ_008478	335152	341803	-	hypothetical protein	
+PUJ_008479	343263	345378	-	hypothetical protein	
+PUJ_008480	348262	351142	+	hypothetical protein	
+PUJ_008481	351752	353141	-	Exopolyphosphatase	
+PUJ_008483	353598	354804	+	hypothetical protein	
+PUJ_008484	355591	361096	-	hypothetical protein	
+PUJ_008485	363886	365016	+	Slx4p interacting protein	
+PUJ_008486	366101	367677	+	hypothetical protein	
+PUJ_008487	368027	369839	-	methylenetetrahydrofolate reductase 1	
+
+
+Significant hits: 
+
+
+Details:

@@ -1,0 +1,59 @@
+ClusterBlast scores for contig_1144
+
+Table of genes, locations, strands and annotations of query cluster:
+PUJ_002690	1212	2109	-	Short chain dehydrogenase/reductase dmxR12	
+PUJ_002691	2816	4298	+	hypothetical protein	
+PUJ_002692	6396	10660	+	Atrochrysone carboxylic acid synthase Agnpks1	
+
+
+Significant hits: 
+1. NC_072348	Talaromyces marneffei chromosome 1, complete sequence
+2. NC_058399	Fusarium poae strain DAOMC 252244 chromosome 1, whole genome shotgun sequence
+3. NC_026474	Fusarium graminearum PH-1 chromosome 1, whole genome shotgun sequence
+
+
+Details:
+
+>>
+1. NC_072348
+Source: Talaromyces marneffei chromosome 1, complete sequence
+Type: T1PKS
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 2116.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_002690	EYB26_001627	59	275	97.23320158102767	1.3e-91
+PUJ_002692	EYB26_001619	66	1841	100.14471780028944	0.0
+
+
+
+>>
+2. NC_058399
+Source: Fusarium poae strain DAOMC 252244 chromosome 1, whole genome shotgun sequence
+Type: NRPS,NRPS-like,T1PKS,isocyanide
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 1200.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_002690	FPOAC1_002500	38	151	97.23320158102767	3.51e-43
+PUJ_002692	FPOAC1_002477	44	1049	100.94066570188134	0.0
+
+
+
+>>
+3. NC_026474
+Source: Fusarium graminearum PH-1 chromosome 1, whole genome shotgun sequence
+Type: NRPS,T1PKS
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 755.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_002690	FGSG_02385	40	157	98.41897233201581	2.17e-45
+PUJ_002692	FGSG_02395	42	598	57.88712011577424	4.86e-185
+

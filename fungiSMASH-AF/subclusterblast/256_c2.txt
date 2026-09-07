@@ -1,0 +1,18 @@
+ClusterBlast scores for 256
+
+Table of genes, locations, strands and annotations of query cluster:
+PUJ_001527	935361	936837	-	hypothetical protein	
+PUJ_001528	937281	938795	-	hypothetical protein	
+PUJ_001529	939269	940919	+	hypothetical protein	
+PUJ_001530	942386	944988	+	suppressor of glycerol defect	
+PUJ_001531	948795	949863	+	hypothetical protein	
+PUJ_001532	950486	952619	-	hypothetical protein	
+PUJ_001533	953497	954951	-	hypothetical protein	
+PUJ_001534	955511	956693	-	hypothetical protein	
+PUJ_001535	957731	959312	-	hypothetical protein	
+
+
+Significant hits: 
+
+
+Details:

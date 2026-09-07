@@ -1,0 +1,12 @@
+ClusterBlast scores for contig_703
+
+Table of genes, locations, strands and annotations of query cluster:
+PUJ_001853	804	2656	+	hypothetical protein	
+PUJ_001854	3931	11582	+	hypothetical protein	
+PUJ_001855	12529	14423	+	hypothetical protein	
+
+
+Significant hits: 
+
+
+Details:

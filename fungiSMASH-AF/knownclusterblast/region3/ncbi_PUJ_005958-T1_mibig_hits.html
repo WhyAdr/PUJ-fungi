@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8" />
+<link rel="stylesheet" type="text/css" href="../../css/style.css">
+
+<script type="text/javascript" src="../../js/jquery.js"></script>
+<script type="text/javascript" src="../../js/jquery.tablesorter.min.js"></script>
+
+<script type="text/javascript" >
+var counter = 1;
+function addInput(divName){
+     var newdiv = document.createElement('div');
+     newdiv.innerHTML = "<b>Locus " + (counter + 1) + "</b><br> GenBank accession: <input type='text' required name='myInputs[]'> Start nt: <input type='number' name='myStartCoords[]' placeholder='N/A'> End nt: <input type='number' name='myEndCoords[]' placeholder='N/A'> <br><br>";
+     document.getElementById(divName).appendChild(newdiv);
+     counter++;
+}
+</script>
+
+<script>
+$(document).ready(function()
+    {
+        $("#myTable").tablesorter();
+    }
+);
+
+</script>
+<style>
+table {
+    border-width: thin;
+    border-spacing: 2px;
+    border-style: none;
+    border-color: black;
+}
+</style>
+</head>
+<body>
+    <table id="myTable" class="tablesorter" border=1>
+    <thead>
+    <tr>
+        <th>MIBiG Protein</th>
+        <th>Description</th>
+        <th>MIBiG Cluster</th>
+        <th>MiBiG Product</th>
+        <th>% ID</th>
+        <th>% Coverage</th>
+        <th>BLAST Score</th>
+        <th>E-value</th>
+    </tr>
+    </thead>
+    <tbody>
+    
+          <tr>
+              <td>BBM05078.1</td>
+              <td>putative_bifunctional_cytochrome_P450/NADPH-P450_reductase</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0002170.2">BGC0002170.2</a></td>
+              <td>PKS</td>
+              <td>38.0</td>
+              <td>101.4</td>
+              <td>301.0</td>
+              <td>4.9e-92</td>
+          </tr>
+    
+          <tr>
+              <td>QQW45471.1</td>
+              <td>bifunctional_cytochrome_P450/NADPH-P450_reductase_CalG&#39;</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0002168.3">BGC0002168.3</a></td>
+              <td>PKS</td>
+              <td>38.0</td>
+              <td>101.4</td>
+              <td>300.0</td>
+              <td>6.8e-92</td>
+          </tr>
+    
+          <tr>
+              <td>AEA35017.1</td>
+              <td>hypothetical_protein</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0002502.3">BGC0002502.3</a></td>
+              <td>PKS</td>
+              <td>37.0</td>
+              <td>102.7</td>
+              <td>265.0</td>
+              <td>1.29e-78</td>
+          </tr>
+    
+          <tr>
+              <td>BBF25317.1</td>
+              <td>bifunctional_P-450:NADPH-P450_reductase</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0001923.3">BGC0001923.3</a></td>
+              <td>terpene+PKS</td>
+              <td>37.0</td>
+              <td>102.5</td>
+              <td>264.0</td>
+              <td>1.6e-78</td>
+          </tr>
+    
+          <tr>
+              <td>AAG27132.1</td>
+              <td>Fum6p</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0000062.4">BGC0000062.4</a></td>
+              <td>PKS</td>
+              <td>37.0</td>
+              <td>103.2</td>
+              <td>258.0</td>
+              <td>2.14e-76</td>
+          </tr>
+    
+          <tr>
+              <td>ACB12553.1</td>
+              <td>Fum6</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0000063.3">BGC0000063.3</a></td>
+              <td>PKS</td>
+              <td>36.0</td>
+              <td>105.9</td>
+              <td>254.0</td>
+              <td>9.79e-75</td>
+          </tr>
+    
+          <tr>
+              <td>KON97023.1</td>
+              <td>NADPH--cytochrome_P450_reductase</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0002122.2">BGC0002122.2</a></td>
+              <td>NRPS:Type I</td>
+              <td>35.0</td>
+              <td>93.9</td>
+              <td>215.0</td>
+              <td>3.31e-61</td>
+          </tr>
+    
+          <tr>
+              <td>AAM54108.1</td>
+              <td>cytochrome_P450</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0000020.3">BGC0000020.3</a></td>
+              <td>PKS</td>
+              <td>31.0</td>
+              <td>98.9</td>
+              <td>167.0</td>
+              <td>1.32e-44</td>
+          </tr>
+    
+    </tbody>
+  </table>
+</body>

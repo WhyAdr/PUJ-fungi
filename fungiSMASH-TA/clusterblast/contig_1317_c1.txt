@@ -1,0 +1,10 @@
+ClusterBlast scores for contig_1317
+
+Table of genes, locations, strands and annotations of query cluster:
+PUJ_003260	8566	12309	+	hypothetical protein	
+
+
+Significant hits: 
+
+
+Details:

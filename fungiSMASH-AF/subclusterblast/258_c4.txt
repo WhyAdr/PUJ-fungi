@@ -1,0 +1,29 @@
+ClusterBlast scores for 258
+
+Table of genes, locations, strands and annotations of query cluster:
+PUJ_002222	1326619	1327582	-	hypothetical protein	
+PUJ_002223	1328115	1330796	-	hypothetical protein	
+PUJ_002224	1334699	1335068	+	hypothetical protein	
+PUJ_002225	1336222	1338055	+	hypothetical protein	
+PUJ_002226	1338931	1339455	+	hypothetical protein	
+PUJ_002227	1340214	1340805	-	hypothetical protein	
+PUJ_002228	1341248	1342910	+	hypothetical protein	
+PUJ_002229	1344088	1345906	-	hypothetical protein	
+PUJ_002230	1348654	1350178	+	hypothetical protein	
+PUJ_002231	1350596	1351382	-	hypothetical protein	
+PUJ_002232	1352501	1354343	-	hypothetical protein	
+PUJ_002233	1355177	1356808	+	hypothetical protein	
+PUJ_002234	1357618	1359157	+	hypothetical protein	
+PUJ_002235	1360065	1364082	+	hypothetical protein	
+PUJ_002236	1364264	1366478	-	hypothetical protein	
+PUJ_002237	1368041	1369976	-	hypothetical protein	
+PUJ_002238	1371001	1372389	+	hypothetical protein	
+PUJ_002239	1376547	1381156	-	Target of rapamycin complex 1 subunit kog1	
+PUJ_002240	1385288	1389457	+	Negative regulator of mitotic exit	
+PUJ_002241	1392328	1393797	+	serine/threonine protein kinase	
+
+
+Significant hits: 
+
+
+Details:

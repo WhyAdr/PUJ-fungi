@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8" />
+<link rel="stylesheet" type="text/css" href="../../css/style.css">
+
+<script type="text/javascript" src="../../js/jquery.js"></script>
+<script type="text/javascript" src="../../js/jquery.tablesorter.min.js"></script>
+
+<script type="text/javascript" >
+var counter = 1;
+function addInput(divName){
+     var newdiv = document.createElement('div');
+     newdiv.innerHTML = "<b>Locus " + (counter + 1) + "</b><br> GenBank accession: <input type='text' required name='myInputs[]'> Start nt: <input type='number' name='myStartCoords[]' placeholder='N/A'> End nt: <input type='number' name='myEndCoords[]' placeholder='N/A'> <br><br>";
+     document.getElementById(divName).appendChild(newdiv);
+     counter++;
+}
+</script>
+
+<script>
+$(document).ready(function()
+    {
+        $("#myTable").tablesorter();
+    }
+);
+
+</script>
+<style>
+table {
+    border-width: thin;
+    border-spacing: 2px;
+    border-style: none;
+    border-color: black;
+}
+</style>
+</head>
+<body>
+    <table id="myTable" class="tablesorter" border=1>
+    <thead>
+    <tr>
+        <th>MIBiG Protein</th>
+        <th>Description</th>
+        <th>MIBiG Cluster</th>
+        <th>MiBiG Product</th>
+        <th>% ID</th>
+        <th>% Coverage</th>
+        <th>BLAST Score</th>
+        <th>E-value</th>
+    </tr>
+    </thead>
+    <tbody>
+    
+          <tr>
+              <td>BAE62228.1</td>
+              <td></td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0002237.3">BGC0002237.3</a></td>
+              <td>PKS</td>
+              <td>100.0</td>
+              <td>98.5</td>
+              <td>619.0</td>
+              <td>2.21e-226</td>
+          </tr>
+    
+          <tr>
+              <td>CBF79145.1</td>
+              <td>conserved_hypothetical_protein</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0000013.3">BGC0000013.3</a></td>
+              <td>PKS</td>
+              <td>75.0</td>
+              <td>99.7</td>
+              <td>472.0</td>
+              <td>2.63e-168</td>
+          </tr>
+    
+          <tr>
+              <td>CBF70385.1</td>
+              <td>metallo-beta-lactamase_domain_protein_(AFU_orthologue;_AFUA_7G00120)</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0000684.4">BGC0000684.4</a></td>
+              <td>PKS</td>
+              <td>55.0</td>
+              <td>70.0</td>
+              <td>265.0</td>
+              <td>1.87e-87</td>
+          </tr>
+    
+          <tr>
+              <td>EGD99351.1</td>
+              <td>metallo-beta-lactamase</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0001144.4">BGC0001144.4</a></td>
+              <td>PKS</td>
+              <td>55.0</td>
+              <td>73.9</td>
+              <td>265.0</td>
+              <td>7.49e-87</td>
+          </tr>
+    
+          <tr>
+              <td>KAF7597156.1</td>
+              <td>hypothetical_protein</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0002646.3">BGC0002646.3</a></td>
+              <td>PKS</td>
+              <td>55.0</td>
+              <td>70.6</td>
+              <td>263.0</td>
+              <td>2.74e-86</td>
+          </tr>
+    
+          <tr>
+              <td>AEN83888.1</td>
+              <td>AdaB</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0000156.5">BGC0000156.5</a></td>
+              <td>PKS:Iterative type I</td>
+              <td>55.0</td>
+              <td>70.6</td>
+              <td>260.0</td>
+              <td>3.11e-85</td>
+          </tr>
+    
+          <tr>
+              <td>ADI24932.1</td>
+              <td>VrtG</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0000168.5">BGC0000168.5</a></td>
+              <td>PKS:Iterative type I</td>
+              <td>45.0</td>
+              <td>96.7</td>
+              <td>256.0</td>
+              <td>5.17e-84</td>
+          </tr>
+    
+          <tr>
+              <td>QBG38881.1</td>
+              <td>hydrolase</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0002062.2">BGC0002062.2</a></td>
+              <td>PKS</td>
+              <td>55.0</td>
+              <td>68.2</td>
+              <td>240.0</td>
+              <td>1.37e-77</td>
+          </tr>
+    
+          <tr>
+              <td>CBF90099.1</td>
+              <td>metallo-beta-lactamase_domain_protein,_putative_(AFU_orthologue;_AFUA_4G14570)</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0000101.5">BGC0000101.5</a></td>
+              <td>PKS:Iterative type I</td>
+              <td>54.0</td>
+              <td>68.2</td>
+              <td>234.0</td>
+              <td>3.99e-75</td>
+          </tr>
+    
+          <tr>
+              <td>QLM00043.1</td>
+              <td>metallo-beta-lactamase</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0002257.2">BGC0002257.2</a></td>
+              <td>PKS</td>
+              <td>43.0</td>
+              <td>95.5</td>
+              <td>232.0</td>
+              <td>2.55e-74</td>
+          </tr>
+    
+          <tr>
+              <td>EAL89338.1</td>
+              <td>metallo-beta-lactamase_domain_protein,_putative</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0001403.3">BGC0001403.3</a></td>
+              <td>PKS</td>
+              <td>50.0</td>
+              <td>74.2</td>
+              <td>235.0</td>
+              <td>2.69e-74</td>
+          </tr>
+    
+          <tr>
+              <td>QCL09092.1</td>
+              <td>DmxR1</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0002063.3">BGC0002063.3</a></td>
+              <td>PKS:Iterative type I</td>
+              <td>53.0</td>
+              <td>67.6</td>
+              <td>232.0</td>
+              <td>3.55e-74</td>
+          </tr>
+    
+          <tr>
+              <td>EAL84396.1</td>
+              <td>metallo-beta-lactamase_domain_protein</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0001118.5">BGC0001118.5</a></td>
+              <td>PKS:Iterative type I</td>
+              <td>52.0</td>
+              <td>69.7</td>
+              <td>230.0</td>
+              <td>1.62e-73</td>
+          </tr>
+    
+          <tr>
+              <td>EAU31623.1</td>
+              <td>conserved_hypothetical_protein</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0002592.2">BGC0002592.2</a></td>
+              <td>PKS</td>
+              <td>53.0</td>
+              <td>68.5</td>
+              <td>229.0</td>
+              <td>2.66e-73</td>
+          </tr>
+    
+          <tr>
+              <td>AGO59041.1</td>
+              <td>PtaB</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0000121.3">BGC0000121.3</a></td>
+              <td>PKS:Type I</td>
+              <td>52.0</td>
+              <td>68.2</td>
+              <td>228.0</td>
+              <td>6.1e-73</td>
+          </tr>
+    
+          <tr>
+              <td>PKX92307.1</td>
+              <td>metallo-beta-lactamase_superfamily_protein</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0001988.3">BGC0001988.3</a></td>
+              <td>PKS</td>
+              <td>50.0</td>
+              <td>71.8</td>
+              <td>225.0</td>
+              <td>1.27e-71</td>
+          </tr>
+    
+          <tr>
+              <td>CCE31583.1</td>
+              <td>uncharacterized_protein</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0001886.2">BGC0001886.2</a></td>
+              <td>PKS</td>
+              <td>51.0</td>
+              <td>69.4</td>
+              <td>224.0</td>
+              <td>1.77e-71</td>
+          </tr>
+    
+          <tr>
+              <td>ADM34149.1</td>
+              <td>metallo-beta-lactamase_domain_protein</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0001084.5">BGC0001084.5</a></td>
+              <td>NRPS:Type I+terpene:Hemiterpene+other:other</td>
+              <td>50.0</td>
+              <td>68.5</td>
+              <td>221.0</td>
+              <td>7.78e-70</td>
+          </tr>
+    
+          <tr>
+              <td>QCF41202.1</td>
+              <td>CcxK</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0002726.2">BGC0002726.2</a></td>
+              <td>PKS</td>
+              <td>50.0</td>
+              <td>67.6</td>
+              <td>214.0</td>
+              <td>2.12e-65</td>
+          </tr>
+    
+          <tr>
+              <td>KAF7526530.1</td>
+              <td>hypothetical_protein</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0002244.3">BGC0002244.3</a></td>
+              <td>PKS</td>
+              <td>57.0</td>
+              <td>55.2</td>
+              <td>204.0</td>
+              <td>6.17e-65</td>
+          </tr>
+    
+          <tr>
+              <td>QNT61261.1</td>
+              <td>metallo-beta-lactamase</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0002507.3">BGC0002507.3</a></td>
+              <td>PKS</td>
+              <td>46.0</td>
+              <td>67.9</td>
+              <td>202.0</td>
+              <td>1.01e-62</td>
+          </tr>
+    
+    </tbody>
+  </table>
+</body>

@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8" />
+<link rel="stylesheet" type="text/css" href="../../css/style.css">
+
+<script type="text/javascript" src="../../js/jquery.js"></script>
+<script type="text/javascript" src="../../js/jquery.tablesorter.min.js"></script>
+
+<script type="text/javascript" >
+var counter = 1;
+function addInput(divName){
+     var newdiv = document.createElement('div');
+     newdiv.innerHTML = "<b>Locus " + (counter + 1) + "</b><br> GenBank accession: <input type='text' required name='myInputs[]'> Start nt: <input type='number' name='myStartCoords[]' placeholder='N/A'> End nt: <input type='number' name='myEndCoords[]' placeholder='N/A'> <br><br>";
+     document.getElementById(divName).appendChild(newdiv);
+     counter++;
+}
+</script>
+
+<script>
+$(document).ready(function()
+    {
+        $("#myTable").tablesorter();
+    }
+);
+
+</script>
+<style>
+table {
+    border-width: thin;
+    border-spacing: 2px;
+    border-style: none;
+    border-color: black;
+}
+</style>
+</head>
+<body>
+    <table id="myTable" class="tablesorter" border=1>
+    <thead>
+    <tr>
+        <th>MIBiG Protein</th>
+        <th>Description</th>
+        <th>MIBiG Cluster</th>
+        <th>MiBiG Product</th>
+        <th>% ID</th>
+        <th>% Coverage</th>
+        <th>BLAST Score</th>
+        <th>E-value</th>
+    </tr>
+    </thead>
+    <tbody>
+    
+          <tr>
+              <td>BAE71333.1</td>
+              <td>putative_monooxygenase</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0000004.3">BGC0000004.3</a></td>
+              <td>PKS</td>
+              <td>35.0</td>
+              <td>77.3</td>
+              <td>138.0</td>
+              <td>5.17e-37</td>
+          </tr>
+    
+          <tr>
+              <td>AAS90037.1</td>
+              <td>MoxY</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0000008.3">BGC0000008.3</a></td>
+              <td>PKS</td>
+              <td>35.0</td>
+              <td>77.3</td>
+              <td>136.0</td>
+              <td>2.63e-36</td>
+          </tr>
+    
+          <tr>
+              <td>AAS90015.1</td>
+              <td>MoxY</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0000007.3">BGC0000007.3</a></td>
+              <td>PKS</td>
+              <td>34.0</td>
+              <td>77.3</td>
+              <td>136.0</td>
+              <td>3.69e-36</td>
+          </tr>
+    
+          <tr>
+              <td>AAS90108.1</td>
+              <td>MoxY</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0000006.3">BGC0000006.3</a></td>
+              <td>PKS</td>
+              <td>36.0</td>
+              <td>66.8</td>
+              <td>135.0</td>
+              <td>1.29e-35</td>
+          </tr>
+    
+          <tr>
+              <td>AAS90083.1</td>
+              <td>MoxY</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0000010.3">BGC0000010.3</a></td>
+              <td>PKS</td>
+              <td>34.0</td>
+              <td>77.3</td>
+              <td>135.0</td>
+              <td>1.78e-35</td>
+          </tr>
+    
+          <tr>
+              <td>AAS90063.1</td>
+              <td>MoxY</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0000009.3">BGC0000009.3</a></td>
+              <td>PKS</td>
+              <td>33.0</td>
+              <td>80.5</td>
+              <td>132.0</td>
+              <td>1.91e-34</td>
+          </tr>
+    
+          <tr>
+              <td>EAW09116.1</td>
+              <td>cyclohexanone_monooxygenase,_putative</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0000983.5">BGC0000983.5</a></td>
+              <td>NRPS:Type I+PKS:Iterative type I</td>
+              <td>33.0</td>
+              <td>69.6</td>
+              <td>112.0</td>
+              <td>3.93e-27</td>
+          </tr>
+    
+          <tr>
+              <td>BAV69312.1</td>
+              <td>PrhK</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0001729.3">BGC0001729.3</a></td>
+              <td>PKS+terpene</td>
+              <td>30.0</td>
+              <td>72.5</td>
+              <td>103.0</td>
+              <td>2.33e-24</td>
+          </tr>
+    
+    </tbody>
+  </table>
+</body>

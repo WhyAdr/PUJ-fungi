@@ -1,0 +1,33 @@
+ClusterBlast scores for 815
+
+Table of genes, locations, strands and annotations of query cluster:
+PUJ_008248	166334	167838	-	hypothetical protein	
+PUJ_008249	169843	170497	-	hypothetical protein	
+PUJ_008250	172438	173583	-	hypothetical protein	
+PUJ_008251	174239	174728	-	hypothetical protein	
+PUJ_008252	179531	180667	-	geranylgeranyl pyrophosphate synthetase	
+PUJ_008253	183443	184986	-	hypothetical protein	
+PUJ_008254	185901	188863	+	hypothetical protein	
+PUJ_008255	190335	190757	+	hypothetical protein	
+PUJ_008256	193534	194432	+	hypothetical protein	
+PUJ_008257	194834	196434	-	hypothetical protein	
+PUJ_008258	197242	198904	+	hypothetical protein	
+PUJ_008259	199965	200517	+	hypothetical protein	
+PUJ_008260	201232	202005	+	hypothetical protein	
+PUJ_008261	203842	205586	+	hypothetical protein	
+PUJ_008262	208074	209536	-	hypothetical protein	
+PUJ_008263	212902	216229	+	hypothetical protein	
+PUJ_008264	216794	218798	-	hypothetical protein	
+PUJ_008265	222664	223450	-	hypothetical protein	
+PUJ_008266	223896	224855	-	hypothetical protein	
+PUJ_008267	227732	228017	+	hypothetical protein	
+PUJ_008268	228614	231285	-	hypothetical protein	
+PUJ_008269	235380	237222	-	hypothetical protein	
+PUJ_008270	241708	243343	-	Phosphoserine transaminase	
+PUJ_008271	243581	244672	+	hypothetical protein	
+
+
+Significant hits: 
+
+
+Details:

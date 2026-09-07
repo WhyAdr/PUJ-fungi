@@ -1,0 +1,34 @@
+ClusterBlast scores for 486
+
+Table of genes, locations, strands and annotations of query cluster:
+PUJ_006341	630940	633331	-	Mitochondrial intermediate peptidase	
+PUJ_006342	633661	634547	+	hypothetical protein	
+PUJ_006343	634899	636083	-	hypothetical protein	
+PUJ_006344	636360	637262	+	putative diacylglycerol O-acyltransferase tgs1	
+PUJ_006345	639167	642900	+	hypothetical protein	
+PUJ_006346	643281	644892	-	hypothetical protein	
+PUJ_006347	646932	648529	-	peptidylprolyl isomerase fpr3	
+PUJ_006348	648994	652499	+	deoxycytidyl transferase	
+PUJ_006349	653597	655274	-	hypothetical protein	
+PUJ_006350	655751	659057	-	hypothetical protein	
+PUJ_006351	660100	662587	-	hypothetical protein	
+PUJ_006352	664418	665102	-	hypothetical protein	
+PUJ_006353	667836	670129	-	inner nuclear membrane protein enriched at telomere/subtelomere region	
+PUJ_006354	671091	678083	-	hypothetical protein	
+PUJ_006355	682835	684212	+	transglycosylase	
+PUJ_006356	685387	686522	-	glycerol channel	
+PUJ_006357	688289	690305	+	Glycerol kinase	
+PUJ_006358	695179	696529	+	hypothetical protein	
+PUJ_006359	697638	699884	-	hypothetical protein	
+PUJ_006360	700411	706212	-	hypothetical protein	
+PUJ_006361	708464	709687	+	hypothetical protein	
+PUJ_006362	711104	711854	-	hypothetical protein	
+PUJ_006363	712863	714421	+	hypothetical protein	
+PUJ_006364	714872	716804	+	oxygen-dependent protoporphyrinogen oxidase	
+PUJ_006365	719755	726253	+	E3 ubiquitin-protein ligase ubr1	
+
+
+Significant hits: 
+
+
+Details:

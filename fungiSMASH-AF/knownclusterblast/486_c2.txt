@@ -1,0 +1,124 @@
+ClusterBlast scores for 486
+
+Table of genes, locations, strands and annotations of query cluster:
+PUJ_006434	969022	969907	+	hypothetical protein	
+PUJ_006435	978967	979727	+	hypothetical protein	
+PUJ_006436	981307	984306	+	hypothetical protein	
+PUJ_006437	984366	985382	-	hypothetical protein	
+PUJ_006438	987314	988826	+	hypothetical protein	
+PUJ_006439	991544	992051	+	hypothetical protein	
+PUJ_006440	994448	1001875	-	hypothetical protein	
+PUJ_006441	1003859	1004767	+	hypothetical protein	
+PUJ_006442	1005216	1006323	-	hypothetical protein	
+PUJ_006443	1007683	1008985	-	hypothetical protein	
+PUJ_006444	1009861	1010665	+	hypothetical protein	
+PUJ_006445	1011311	1012770	+	hypothetical protein	
+PUJ_006446	1012998	1013457	-	hypothetical protein	
+PUJ_006447	1019792	1021610	-	hypothetical protein	
+PUJ_006448	1023391	1023643	-	hypothetical protein	
+PUJ_006449	1024674	1025379	-	hypothetical protein	
+PUJ_006450	1029222	1030314	-	hypothetical protein	
+
+
+Significant hits: 
+1. BGC0000027.4	ankaflavin/monascin/rubropunctatine/monascorubrin
+2. BGC0001338.4	citrinin
+3. BGC0002196.2	clavatol
+4. BGC0001976.3	eupenifeldin
+5. BGC0000154.4	stipitatic acid
+6. BGC0001827.3	xenovulene A
+
+
+Details:
+
+>>
+1. BGC0000027.4
+Source: ankaflavin/monascin/rubropunctatine/monascorubrin
+Type: PKS:Iterative type I
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 2440.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_006440	2362MpPKS5	47	2189	104.4788273615635	0.0
+PUJ_006444	2367B	51	251	101.87265917602997	3.63e-78
+
+
+
+>>
+2. BGC0001338.4
+Source: citrinin
+Type: PKS:Iterative type I
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 2428.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_006440	ALI92655.1	47	2204	101.91368078175896	0.0
+PUJ_006444	ALI92654.1	49	224	97.75280898876404	4.69e-73
+
+
+
+>>
+3. BGC0002196.2
+Source: clavatol
+Type: PKS
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 2359.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_006440	QBK15044.1	47	2136	100.4071661237785	0.0
+PUJ_006444	QBK15043.1	46	223	96.25468164794007	3.03e-72
+
+
+
+>>
+4. BGC0001976.3
+Source: eupenifeldin
+Type: terpene
+Number of proteins with BLAST hits to this cluster: 4
+Cumulative BLAST score: 1291.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_006441	QCO93107.1	47	223	102.65151515151516	2.04e-72
+PUJ_006442	QCO93106.1	54	344	93.97590361445783	2.15e-118
+PUJ_006443	QCO93108.1	56	254	50.80831408775982	7.41e-82
+PUJ_006445	QCO93109.1	54	470	93.97849462365592	9.89e-164
+
+
+
+>>
+5. BGC0000154.4
+Source: stipitatic acid
+Type: PKS:Iterative type I
+Number of proteins with BLAST hits to this cluster: 3
+Cumulative BLAST score: 1081.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_006442	TSTA_117800	58	391	94.87951807228916	9.87e-137
+PUJ_006444	TSTA_117780	46	219	97.00374531835206	2.41e-70
+PUJ_006445	TSTA_117740	52	471	94.40860215053763	5.09e-164
+
+
+
+>>
+6. BGC0001827.3
+Source: xenovulene A
+Type: PKS
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 872.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_006442	AWM95787.1	58	390	94.57831325301204	3.34e-136
+PUJ_006445	AWM95796.1	54	482	98.70967741935483	6.37e-168
+

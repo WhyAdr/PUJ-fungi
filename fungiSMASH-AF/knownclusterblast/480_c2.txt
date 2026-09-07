@@ -1,0 +1,145 @@
+ClusterBlast scores for 480
+
+Table of genes, locations, strands and annotations of query cluster:
+PUJ_004895	86549	88369	+	hypothetical protein	
+PUJ_004896	88472	89954	-	hypothetical protein	
+PUJ_004897	91258	92157	-	hypothetical protein	
+PUJ_004898	92623	94279	+	hypothetical protein	
+PUJ_004899	94879	97674	-	hypothetical protein	
+PUJ_004900	97911	99343	+	hypothetical protein	
+PUJ_004901	99497	100852	+	hypothetical protein	
+PUJ_004902	101045	102900	-	hypothetical protein	
+PUJ_004903	103089	104139	-	hypothetical protein	
+PUJ_004904	104414	105484	+	hypothetical protein	
+PUJ_004905	105910	106908	-	hypothetical protein	
+PUJ_004906	107881	108939	-	hypothetical protein	
+PUJ_004907	109202	110559	+	hypothetical protein	
+PUJ_004908	110699	111607	+	hypothetical protein	
+PUJ_004909	111737	113594	-	hypothetical protein	
+PUJ_004910	113616	114987	+	hypothetical protein	
+PUJ_004911	115289	120072	-	hypothetical protein	
+PUJ_004912	121658	122321	-	hypothetical protein	
+PUJ_004913	123126	124345	+	hypothetical protein	
+PUJ_004914	124607	125964	-	hypothetical protein	
+PUJ_004915	126198	127640	+	hypothetical protein	
+PUJ_004916	127882	128813	-	hypothetical protein	
+PUJ_004917	131301	132774	-	hypothetical protein	
+PUJ_004918	133741	135709	-	hypothetical protein	
+PUJ_004919	136465	137523	-	hypothetical protein	
+PUJ_004920	140937	141625	-	hypothetical protein	
+PUJ_004921	145910	147010	-	hypothetical protein	
+PUJ_004922	149015	151097	+	hypothetical protein	
+PUJ_004923	153601	155448	+	hypothetical protein	
+
+
+Significant hits: 
+1. BGC0001123.5	aspirochlorine
+2. BGC0002501.3	penigainamide A/penigainamide B/penigainamide C/adametizine A/FA2097/outovirin A/outovirin C/pretrichodermamide C
+3. BGC0002438.2	sporidesmin A
+4. BGC0000292.4	acetylaranotin
+5. BGC0001820.3	verticillin
+
+
+Details:
+
+>>
+1. BGC0001123.5
+Source: aspirochlorine
+Type: NRPS:Type I
+Number of proteins with BLAST hits to this cluster: 19
+Cumulative BLAST score: 17383.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_004895	AO090001000028	99	978	100.0	0.0
+PUJ_004896	AO090001000029	99	886	97.58771929824562	0.0
+PUJ_004897	AO090001000030	100	578	100.0	2.1e-212
+PUJ_004898	AO090001000031	100	1091	100.0	0.0
+PUJ_004899	AO090001000032	99	1532	100.0	0.0
+PUJ_004900	AO090001000033	100	835	100.0	4.23e-309
+PUJ_004901	AO090001000034	99	488	58.595641646489106	1.73e-174
+PUJ_004902	AO090001000035	95	896	90.32882011605416	0.0
+PUJ_004904	AO090001000036	99	307	50.174216027874564	1.17e-105
+PUJ_004905	AO090001000037	99	632	100.0	3.28e-232
+PUJ_004906	AO090001000038	99	647	100.0	1.24e-237
+PUJ_004907	AO090001000039	97	852	102.36406619385343	2.19e-315
+PUJ_004908	AO090001000040	97	453	92.6829268292683	3.72e-164
+PUJ_004909	AO090001000041	100	964	91.92913385826772	0.0
+PUJ_004910	AO090001000042	100	862	100.0	0.0
+PUJ_004911	AO090001000043	99	3094	100.25429116338206	0.0
+PUJ_004912	AO090001000044	94	392	100.0	7.99e-135
+PUJ_004913	AO090001000045	97	711	100.0	7.49e-262
+PUJ_004914	AO090001000046	99	818	100.0	8.82e-302
+PUJ_004914	AO090001000039	48	367	90.09661835748793	1.82e-124
+
+
+
+>>
+2. BGC0002501.3
+Source: penigainamide A/penigainamide B/penigainamide C/adametizine A/FA2097/outovirin A/outovirin C/pretrichodermamide C
+Type: other:other
+Number of proteins with BLAST hits to this cluster: 9
+Cumulative BLAST score: 3615.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_004899	QPP19365.1	56	746	88.55721393034825	1.27e-262
+PUJ_004900	QPP19382.1	49	416	98.80952380952381	2.56e-143
+PUJ_004905	QPP19380.1	49	281	98.40764331210191	5.31e-94
+PUJ_004907	QPP19383.1	50	434	101.89125295508275	2.03e-150
+PUJ_004908	QPP19385.1	71	366	97.5609756097561	2.39e-129
+PUJ_004909	QPP19381.1	52	494	91.53543307086615	2.26e-171
+PUJ_004910	QPP19386.1	62	355	69.19431279620854	6.94e-119
+PUJ_004912	QPP19375.1	49	166	77.72727272727272	8.87e-50
+PUJ_004914	QPP19383.1	46	357	94.20289855072464	2.61e-120
+
+
+
+>>
+3. BGC0002438.2
+Source: sporidesmin A
+Type: other:other
+Number of proteins with BLAST hits to this cluster: 5
+Cumulative BLAST score: 2054.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_004898	QVK45121.1	48	526	95.82577132486388	6.41e-183
+PUJ_004899	QVK45109.1	52	593	71.26865671641791	5.28e-202
+PUJ_004904	QVK45115.1	55	307	95.47038327526133	7.69e-105
+PUJ_004907	QVK45124.1	46	345	89.36170212765957	8.4e-116
+PUJ_004908	QVK45108.1	55	283	93.4959349593496	1.12e-96
+
+
+
+>>
+4. BGC0000292.4
+Source: acetylaranotin
+Type: NRPS:Type I
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 784.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_004908	ATEG_03472	69	301	87.39837398373984	1.6e-96
+PUJ_004909	ATEG_03474	51	483	92.32283464566929	1.6e-164
+
+
+
+>>
+5. BGC0001820.3
+Source: verticillin
+Type: NRPS:Type I
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 616.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_004907	AQZ42159.1	47	356	91.01654846335697	3.62e-120
+PUJ_004910	AQZ42165.1	50	260	66.82464454976304	5.99e-84
+

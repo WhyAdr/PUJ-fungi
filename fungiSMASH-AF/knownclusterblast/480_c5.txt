@@ -1,0 +1,56 @@
+ClusterBlast scores for 480
+
+Table of genes, locations, strands and annotations of query cluster:
+PUJ_005266	1349960	1352603	-	hypothetical protein	
+PUJ_005267	1354233	1356393	-	Pumilio y domain member 6	
+PUJ_005268	1356925	1357799	-	hypothetical protein	
+PUJ_005269	1359065	1359537	+	hypothetical protein	
+PUJ_005270	1363301	1363898	+	RecA recombinase Rhp51	
+PUJ_005271	1364357	1368412	+	hypothetical protein	
+PUJ_005272	1369322	1373415	-	hypothetical protein	
+PUJ_005273	1379580	1394987	+	hypothetical protein	
+PUJ_005274	1395555	1397443	-	hypothetical protein	
+PUJ_005275	1398419	1400868	-	Mitochondrial outer membrane protein iml2	
+PUJ_005276	1405100	1406016	-	hypothetical protein	
+PUJ_005277	1406916	1407629	-	hypothetical protein	
+PUJ_005278	1409139	1411733	+	U1 snRNP protein	
+PUJ_005279	1413022	1415271	-	Fe-S cluster-binding ribosome biosynthesis protein	
+PUJ_005280	1416387	1420981	+	ATP-dependent DNA helicase Hrp3	
+PUJ_005281	1422103	1423292	-	hypothetical protein	
+
+
+Significant hits: 
+1. BGC0001699.4	nidulanin A
+2. BGC0000357.5	cyclo-(D-Phe-L-Phe-D-Val-L-Val)/cyclo-(D-Tyr-L-Phe-D-Val-L-Val)/cyclo-(D-Tyr-L-Trp-D-Val-L-Val)/cyclo-(D-Phe-L-Trp-D-Val-L-Val)/cyclo-(D-Phe-L-Phe-D-Val-L-Ile)/cyclo-(D-Phe-L-Phe-D-Ile-L-Val)/cyclo-(D-Tyr-L-Trp-D-Val-L-Ile)/cyclo-(D-Tyr-L-Trp-D-Ile-L-Val)/cyclo-(D-Tyr-L-Phe-D-Val-L-Ile)/cyclo-(D-Tyr-L-Phe-D-Ile-L-Val)
+
+
+Details:
+
+>>
+1. BGC0001699.4
+Source: nidulanin A
+Type: NRPS:Type I
+Number of proteins with BLAST hits to this cluster: 3
+Cumulative BLAST score: 7357.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_005272	ANIA_01240	62	1318	101.27737226277371	0.0
+PUJ_005273	ANIA_01242	47	5167	119.64570063694266	0.0
+PUJ_005274	ANIA_01243	80	872	97.45454545454545	4.51e-319
+
+
+
+>>
+2. BGC0000357.5
+Source: cyclo-(D-Phe-L-Phe-D-Val-L-Val)/cyclo-(D-Tyr-L-Phe-D-Val-L-Val)/cyclo-(D-Tyr-L-Trp-D-Val-L-Val)/cyclo-(D-Phe-L-Trp-D-Val-L-Val)/cyclo-(D-Phe-L-Phe-D-Val-L-Ile)/cyclo-(D-Phe-L-Phe-D-Ile-L-Val)/cyclo-(D-Tyr-L-Trp-D-Val-L-Ile)/cyclo-(D-Tyr-L-Trp-D-Ile-L-Val)/cyclo-(D-Tyr-L-Phe-D-Val-L-Ile)/cyclo-(D-Tyr-L-Phe-D-Ile-L-Val)
+Type: NRPS:Type I
+Number of proteins with BLAST hits to this cluster: 1
+Cumulative BLAST score: 5649.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_005273	PCH_Pc16g04690	51	5649	117.25716560509554	0.0
+

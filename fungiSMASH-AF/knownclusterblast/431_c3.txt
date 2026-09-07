@@ -1,0 +1,74 @@
+ClusterBlast scores for 431
+
+Table of genes, locations, strands and annotations of query cluster:
+PUJ_003405	1659508	1660025	+	hypothetical protein	
+PUJ_003406	1663975	1666030	+	hypothetical protein	
+PUJ_003407	1666161	1666995	-	hypothetical protein	
+PUJ_003408	1672531	1674801	-	hypothetical protein	
+PUJ_003409	1676404	1680737	-	hypothetical protein	
+PUJ_003411	1685016	1685334	+	hypothetical protein	
+PUJ_003412	1686309	1687725	+	hypothetical protein	
+PUJ_003413	1688157	1688979	-	hypothetical protein	
+PUJ_003414	1689376	1695856	-	hypothetical protein	
+PUJ_003415	1696572	1697349	-	hypothetical protein	
+PUJ_003416	1700119	1700989	-	hypothetical protein	
+PUJ_003417	1704150	1706667	+	hypothetical protein	
+PUJ_003419	1708265	1709865	+	hypothetical protein	
+PUJ_003420	1710947	1711460	+	hypothetical protein	
+PUJ_003421	1712852	1713766	+	hypothetical protein	
+PUJ_003422	1721656	1723150	+	hypothetical protein	
+PUJ_003423	1723989	1726087	-	hypothetical protein	
+PUJ_003424	1732175	1733241	-	hypothetical protein	
+PUJ_003426	1736692	1737280	-	hypothetical protein	
+PUJ_003427	1738748	1739755	+	hypothetical protein	
+PUJ_003428	1740817	1742591	+	hypothetical protein	
+PUJ_003429	1743052	1746863	-	hypothetical protein	
+PUJ_003430	1749392	1750430	-	hypothetical protein	
+PUJ_003431	1751236	1752965	+	hypothetical protein	
+PUJ_003432	1753255	1754776	-	hypothetical protein	
+PUJ_003433	1757531	1758309	+	hypothetical protein	
+PUJ_003434	1758766	1759479	+	hypothetical protein	
+PUJ_003435	1759911	1761024	+	hypothetical protein	
+PUJ_003436	1761669	1762860	+	hypothetical protein	
+PUJ_003437	1763551	1764632	-	hypothetical protein	
+PUJ_003438	1765972	1767008	+	hypothetical protein	
+PUJ_003439	1769559	1770921	+	D-amino acid oxidase	
+PUJ_003440	1772237	1773882	+	hypothetical protein	
+PUJ_003441	1775579	1776830	+	hypothetical protein	
+
+
+Significant hits: 
+1. BGC0002222.2	zopfiellin
+2. BGC0001340.3	byssochlamic acid/agnestadride A/agnestadride B/Triketide maleidride monomer type A
+
+
+Details:
+
+>>
+1. BGC0002222.2
+Source: zopfiellin
+Type: PKS
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 528.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_003413	BBU42026.1	54	267	96.96969696969697	2.2e-81
+PUJ_003415	BBU42027.1	55	261	99.10714285714286	1.5e-88
+
+
+
+>>
+2. BGC0001340.3
+Source: byssochlamic acid/agnestadride A/agnestadride B/Triketide maleidride monomer type A
+Type: PKS:Type I
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 514.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_003413	ANF07288.1	53	271	97.72727272727273	7.34e-83
+PUJ_003415	ANF07287.1	53	243	96.875	1.45e-81
+

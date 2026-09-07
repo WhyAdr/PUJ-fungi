@@ -1,0 +1,59 @@
+ClusterBlast scores for 485
+
+Table of genes, locations, strands and annotations of query cluster:
+PUJ_005809	139521	142286	+	hypothetical protein	
+PUJ_005810	143412	145719	+	hypothetical protein	
+PUJ_005811	152282	153237	+	hypothetical protein	
+PUJ_005813	155692	156078	+	hypothetical protein	
+PUJ_005814	162551	164409	-	hypothetical protein	
+PUJ_005815	166279	168402	+	hypothetical protein	
+PUJ_005816	168584	170415	-	hypothetical protein	
+PUJ_005817	170690	171207	-	hypothetical protein	
+PUJ_005818	173513	175303	+	hypothetical protein	
+PUJ_005819	175426	176811	-	hypothetical protein	
+PUJ_005820	177927	179821	+	hypothetical protein	
+PUJ_005821	180398	181069	-	hypothetical protein	
+PUJ_005822	183182	185187	+	hypothetical protein	
+PUJ_005823	185431	188052	-	hypothetical protein	
+PUJ_005824	190895	191528	-	hypothetical protein	
+PUJ_005825	192547	193666	-	hypothetical protein	
+PUJ_005826	194842	195194	+	hypothetical protein	
+PUJ_005827	197487	197838	+	hypothetical protein	
+PUJ_005828	199522	201140	-	hypothetical protein	
+PUJ_005829	201873	205495	-	hypothetical protein	
+PUJ_005830	208811	210706	-	hypothetical protein	
+PUJ_005831	211277	212069	-	hypothetical protein	
+PUJ_005832	215790	216814	-	Cu-binding protein	
+PUJ_005833	219278	220681	+	hypothetical protein	
+PUJ_005834	223662	224529	-	hypothetical protein	
+PUJ_005835	225144	233178	+	hypothetical protein	
+PUJ_005836	234543	236322	-	hypothetical protein	
+PUJ_005837	241175	242852	+	hypothetical protein	
+PUJ_005838	244951	247982	-	hypothetical protein	
+PUJ_005839	251159	251960	+	hypothetical protein	
+PUJ_005840	253970	257450	-	hypothetical protein	
+PUJ_005841	259429	261691	+	Lanosterol synthase erg7B	
+PUJ_005842	264933	265963	+	hypothetical protein	
+PUJ_005843	269086	269749	-	hypothetical protein	
+PUJ_005844	271192	272400	+	hypothetical protein	
+PUJ_005845	273844	275123	+	Phosphopantothenate--cysteine ligase cab2	
+
+
+Significant hits: 
+1. BGC0001248.3	clavaric acid
+
+
+Details:
+
+>>
+1. BGC0001248.3
+Source: clavaric acid
+Type: terpene
+Number of proteins with BLAST hits to this cluster: 1
+Cumulative BLAST score: 704.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_005841	ACF70484.1	48	704	98.60724233983287	1.41e-247
+

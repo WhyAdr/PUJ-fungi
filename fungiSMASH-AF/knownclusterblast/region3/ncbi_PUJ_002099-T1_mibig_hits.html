@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8" />
+<link rel="stylesheet" type="text/css" href="../../css/style.css">
+
+<script type="text/javascript" src="../../js/jquery.js"></script>
+<script type="text/javascript" src="../../js/jquery.tablesorter.min.js"></script>
+
+<script type="text/javascript" >
+var counter = 1;
+function addInput(divName){
+     var newdiv = document.createElement('div');
+     newdiv.innerHTML = "<b>Locus " + (counter + 1) + "</b><br> GenBank accession: <input type='text' required name='myInputs[]'> Start nt: <input type='number' name='myStartCoords[]' placeholder='N/A'> End nt: <input type='number' name='myEndCoords[]' placeholder='N/A'> <br><br>";
+     document.getElementById(divName).appendChild(newdiv);
+     counter++;
+}
+</script>
+
+<script>
+$(document).ready(function()
+    {
+        $("#myTable").tablesorter();
+    }
+);
+
+</script>
+<style>
+table {
+    border-width: thin;
+    border-spacing: 2px;
+    border-style: none;
+    border-color: black;
+}
+</style>
+</head>
+<body>
+    <table id="myTable" class="tablesorter" border=1>
+    <thead>
+    <tr>
+        <th>MIBiG Protein</th>
+        <th>Description</th>
+        <th>MIBiG Cluster</th>
+        <th>MiBiG Product</th>
+        <th>% ID</th>
+        <th>% Coverage</th>
+        <th>BLAST Score</th>
+        <th>E-value</th>
+    </tr>
+    </thead>
+    <tbody>
+    
+          <tr>
+              <td>CDM31316.1</td>
+              <td>FAD-binding,_type_2</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0000667.3">BGC0000667.3</a></td>
+              <td>terpene</td>
+              <td>33.0</td>
+              <td>95.7</td>
+              <td>238.0</td>
+              <td>3.47e-72</td>
+          </tr>
+    
+          <tr>
+              <td>OAG05541.1</td>
+              <td>FAD-binding_domain-containing_protein</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0002211.3">BGC0002211.3</a></td>
+              <td>PKS</td>
+              <td>29.0</td>
+              <td>96.4</td>
+              <td>186.0</td>
+              <td>1.5e-52</td>
+          </tr>
+    
+          <tr>
+              <td>BAJ09785.1</td>
+              <td>oxidase/Diels-Alderase</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0000146.3">BGC0000146.3</a></td>
+              <td>PKS</td>
+              <td>29.0</td>
+              <td>90.3</td>
+              <td>177.0</td>
+              <td>2.44e-49</td>
+          </tr>
+    
+          <tr>
+              <td>KAF9708867.1</td>
+              <td>hypothetical_protein</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0002515.2">BGC0002515.2</a></td>
+              <td>PKS</td>
+              <td>29.0</td>
+              <td>90.3</td>
+              <td>176.0</td>
+              <td>6.48e-49</td>
+          </tr>
+    
+          <tr>
+              <td>EMD93705.1</td>
+              <td>hypothetical_protein</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0002245.2">BGC0002245.2</a></td>
+              <td>terpene</td>
+              <td>31.0</td>
+              <td>92.3</td>
+              <td>174.0</td>
+              <td>4.81e-48</td>
+          </tr>
+    
+          <tr>
+              <td>QGW49096.1</td>
+              <td>putative_FAD-binding_oxidoreductase</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0002731.2">BGC0002731.2</a></td>
+              <td>PKS</td>
+              <td>27.0</td>
+              <td>91.3</td>
+              <td>171.0</td>
+              <td>4.74e-47</td>
+          </tr>
+    
+          <tr>
+              <td>QMS79053.1</td>
+              <td>bifunctional_solanapyrone_synthase</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0002198.3">BGC0002198.3</a></td>
+              <td>NRPS:Type I</td>
+              <td>26.0</td>
+              <td>99.4</td>
+              <td>150.0</td>
+              <td>3.24e-39</td>
+          </tr>
+    
+          <tr>
+              <td>XP_659391.1</td>
+              <td>hypothetical_protein</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0001998.2">BGC0001998.2</a></td>
+              <td>PKS</td>
+              <td>29.0</td>
+              <td>89.7</td>
+              <td>130.0</td>
+              <td>2.4e-32</td>
+          </tr>
+    
+          <tr>
+              <td>BDA39154.1</td>
+              <td>oxidoreductase</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0001398.2">BGC0001398.2</a></td>
+              <td>ribosomal:RiPP</td>
+              <td>28.0</td>
+              <td>78.9</td>
+              <td>117.0</td>
+              <td>1.5e-27</td>
+          </tr>
+    
+          <tr>
+              <td>EFY96954.1</td>
+              <td>FAD-binding,_type_2</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0002427.2">BGC0002427.2</a></td>
+              <td>terpene+PKS</td>
+              <td>28.0</td>
+              <td>33.7</td>
+              <td>61.0</td>
+              <td>2.25e-09</td>
+          </tr>
+    
+    </tbody>
+  </table>
+</body>

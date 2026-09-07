@@ -1,0 +1,18 @@
+ClusterBlast scores for contig_1778
+
+Table of genes, locations, strands and annotations of query cluster:
+PUJ_005107	449	923	+	hypothetical protein	
+PUJ_005108	2440	4135	-	DnaJ-like protein	
+PUJ_005109	4755	5709	-	hypothetical protein	
+PUJ_005110	7709	9065	+	bifunctional farnesyl-diphosphate farnesyltransferase/squalene synthase	
+PUJ_005111	9965	11493	-	hypothetical protein	
+PUJ_005112	17284	19174	+	hypothetical protein	
+PUJ_005113	19832	21233	-	GPI mannosyltransferase 1	
+PUJ_005114	21685	22626	+	hypothetical protein	
+PUJ_005115	23096	24008	+	hypothetical protein	
+
+
+Significant hits: 
+
+
+Details:

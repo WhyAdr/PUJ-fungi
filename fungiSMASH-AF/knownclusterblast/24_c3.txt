@@ -1,0 +1,27 @@
+ClusterBlast scores for 24
+
+Table of genes, locations, strands and annotations of query cluster:
+PUJ_001038	1437048	1438266	+	Sideroflexin FSF1	
+PUJ_001039	1440161	1441775	-	hypothetical protein	
+PUJ_001040	1442794	1445072	-	serine threonine protein kinase CMGC group	
+PUJ_001041	1447874	1449347	-	hypothetical protein	
+PUJ_001042	1450270	1453377	+	endoribonuclease ysh1	
+PUJ_001043	1453593	1455158	-	hypothetical protein	
+PUJ_001044	1456282	1457190	+	signal recognition particle subunit	
+PUJ_001045	1457911	1461534	+	hypothetical protein	
+PUJ_001046	1464028	1465369	+	Sphingolipid C4-hydroxylase sur2	
+PUJ_001047	1465893	1472256	-	hypothetical protein	
+PUJ_001048	1472422	1473674	-	hypothetical protein	
+PUJ_001049	1474079	1474880	+	hypothetical protein	
+PUJ_001050	1475157	1476111	+	hypothetical protein	
+PUJ_001051	1476295	1477634	-	hypothetical protein	
+PUJ_001052	1481783	1482287	-	hypothetical protein	
+PUJ_001053	1485924	1487074	+	hypothetical protein	
+PUJ_001054	1487599	1492313	+	hypothetical protein	
+PUJ_001055	1492516	1494913	-	hypothetical protein	
+
+
+Significant hits: 
+
+
+Details:

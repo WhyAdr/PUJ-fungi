@@ -1,0 +1,12 @@
+ClusterBlast scores for contig_675
+
+Table of genes, locations, strands and annotations of query cluster:
+PUJ_001792	730	2518	+	hypothetical protein	
+PUJ_001793	3112	5483	-	Lanosterol synthase (Oxidosqualene--lanosterol cyclase)	
+PUJ_001794	9883	12061	+	hypothetical protein	
+
+
+Significant hits: 
+
+
+Details:

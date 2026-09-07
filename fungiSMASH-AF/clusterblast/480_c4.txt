@@ -1,0 +1,65 @@
+ClusterBlast scores for 480
+
+Table of genes, locations, strands and annotations of query cluster:
+PUJ_005162	971498	973625	-	hypothetical protein	
+PUJ_005163	976856	978504	+	hypothetical protein	
+PUJ_005164	979428	980877	-	hypothetical protein	
+PUJ_005165	985396	986232	-	hypothetical protein	
+PUJ_005166	987208	988982	-	hypothetical protein	
+PUJ_005167	989399	991898	-	hypothetical protein	
+PUJ_005168	992858	993200	-	hypothetical protein	
+PUJ_005169	995170	996372	-	hypothetical protein	
+PUJ_005170	999232	1000538	-	hypothetical protein	
+
+
+Significant hits: 
+1. NW_020292052	Aspergillus vadensis CBS 113365 unplaced genomic scaffold BO88scaffold_14, whole genome shotgun sequence
+2. NW_020194479	Amorphotheca resinae ATCC 22711 unplaced genomic scaffold M430scaffold_9, whole genome shotgun sequence
+3. NW_023336283	Aspergillus tubingensis WU-2223L DNA, scaffold_9, whole genome shotgun sequence
+
+
+Details:
+
+>>
+1. NW_020292052
+Source: Aspergillus vadensis CBS 113365 unplaced genomic scaffold BO88scaffold_14, whole genome shotgun sequence
+Type: RCDPS
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 865.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_005169	BO88DRAFT_405675	65	304	73.42105263157895	1.84e-100
+PUJ_005170	BO88DRAFT_405672	83	561	85.94164456233422	2.32e-201
+
+
+
+>>
+2. NW_020194479
+Source: Amorphotheca resinae ATCC 22711 unplaced genomic scaffold M430scaffold_9, whole genome shotgun sequence
+Type: NRPS
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 609.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_005166	M430DRAFT_60023	36	287	94.98069498069498	5.99e-89
+PUJ_005167	M430DRAFT_60024	33	322	103.74331550802138	3.09e-97
+
+
+
+>>
+3. NW_023336283
+Source: Aspergillus tubingensis WU-2223L DNA, scaffold_9, whole genome shotgun sequence
+Type: RCDPS
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 1001.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_005169	AtWU_08781	60	337	100.26315789473684	1.07e-111
+PUJ_005170	AtWU_08783	85	664	99.46949602122017	2.58e-240
+

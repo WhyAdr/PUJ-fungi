@@ -1,0 +1,870 @@
+ClusterBlast scores for contig_909
+
+Table of genes, locations, strands and annotations of query cluster:
+PUJ_002251	92	416	-	hypothetical protein	
+PUJ_002252	2591	3863	+	geranylgeranyl pyrophosphate synthetase	
+PUJ_002253	6841	8347	+	Peroxisome size and maintenance regulator	
+PUJ_002254	11857	14174	+	serine/threonine protein kinase, CMGC, dual-specificity	
+
+
+Significant hits: 
+1. NC_070533	Fusarium keratoplasticum isolate Fu6.1 chromosome 5, whole genome shotgun sequence
+2. NW_006711170	Trichoderma reesei QM6a unplaced genomic scaffold TRIREscaffold_23, whole genome shotgun sequence
+3. NW_011942182	Metarhizium robertsii ARSEF 23 MAA_Scf_4, whole genome shotgun sequence
+4. NW_014574713	Metarhizium brunneum ARSEF 3297 chromosome Unknown scaffold_4, whole genome shotgun sequence
+5. NW_024065901	Colletotrichum karsti strain CkLH20 chromosome Unknown Scaffold1, whole genome shotgun sequence
+6. NC_043743	Pyricularia pennisetigena strain Br36 chromosome 5, whole genome shotgun sequence
+7. NW_021167089	Sodiomyces alkalinus F11 unplaced genomic scaffold SODALscaffold_11, whole genome shotgun sequence
+8. NW_022156719	Pyricularia grisea strain NI907 chromosome V map unlocalized Pyricularia_grisea_NI907_Scaffold_6, whole genome shotgun sequence
+9. NC_016457	Thermothielavioides terrestris NRRL 8126 chromosome 1, complete sequence
+10. NC_070548	Fusarium falciforme chromosome 5, complete sequence
+11. NW_009276924	Verticillium dahliae VdLs.17 supercont1.21 genomic scaffold, whole genome shotgun sequence
+12. NC_072844	Fusarium oxysporum Fo47 chromosome V, complete sequence
+13. NC_036626	Fusarium fujikuroi IMI 58289 draft genome, chromosome FFUJ_chr05
+14. NC_058399	Fusarium poae strain DAOMC 252244 chromosome 1, whole genome shotgun sequence
+15. NC_026474	Fusarium graminearum PH-1 chromosome 1, whole genome shotgun sequence
+16. NC_058390	Fusarium musae strain F31 chromosome 4, whole genome shotgun sequence
+17. NC_035796	Pochonia chlamydosporia 170 chromosome 7, whole genome shotgun sequence
+18. NC_054389	Drechmeria coniospora strain ARSEF 6962 chromosome 01, whole genome shotgun sequence
+19. NC_057321	Ustilaginoidea virens chromosome 6, complete sequence
+20. NC_030959	Colletotrichum higginsianum IMI 349063 chromosome 6, whole genome shotgun sequence
+21. NC_016473	Thermothelomyces thermophilus ATCC 42464 chromosome 2, complete sequence
+22. NW_009799099	Neurospora tetrasperma FGSC 2508 unplaced genomic scaffold NEUTE1scaffold_1, whole genome shotgun sequence
+23. NW_006917094	Pestalotiopsis fici W106-1 unplaced genomic scaffold PFICI_Scf_4, whole genome shotgun sequence
+24. NC_063073	Purpureocillium takamizusanense chromosome 6, complete sequence
+25. NC_038012	Fusarium venenatum strain A3/5 genome assembly, chromosome: I
+26. NW_006271971	Cordyceps militaris CM01 unplaced genomic scaffold CCM_S00003, whole genome shotgun sequence
+27. NC_064678	Colletotrichum lupini chromosome 5, complete sequence
+28. NW_025953795	Annulohypoxylon truncatum strain CBS 140777 unplaced genomic scaffold F4807scaffold_9, whole genome shotgun sequence
+29. NW_025953044	Daldinia caldariorum strain CBS 122874 unplaced genomic scaffold F4812scaffold_8, whole genome shotgun sequence
+30. NW_026054544	Daldinia decipiens strain CBS 113046 unplaced genomic scaffold F4813scaffold_1, whole genome shotgun sequence
+31. NW_026250019	Hypoxylon trugodes strain CBS 135444 unplaced genomic scaffold F4822scaffold_4, whole genome shotgun sequence
+32. NW_025953254	Annulohypoxylon maeteangense strain CBS 123835 unplaced genomic scaffold GGS22scaffold_7, whole genome shotgun sequence
+33. NW_025408678	Hirsutella rhossiliensis strain HR02 chromosome Unknown scaffold00012, whole genome shotgun sequence
+34. NW_025764714	Emericellopsis atlantica unplaced genomic scaffold F5Z01scaffold_12, whole genome shotgun sequence
+35. NW_023336187	Geosmithia morbida isolate 1262 chromosome Unknown scaffold_0, whole genome shotgun sequence
+36. NW_017263590	Mollisia scopiformis unplaced genomic scaffold LY89scaffold_10, whole genome shotgun sequence
+37. NW_020194475	Amorphotheca resinae ATCC 22711 unplaced genomic scaffold M430scaffold_5, whole genome shotgun sequence
+38. NW_001820821	Sclerotinia sclerotiorum 1980 UF-70 scaffold_15 genomic scaffold, whole genome shotgun sequence
+39. NW_022474206	Venustampulla echinocandica strain BP 5553 chromosome Unknown scaffold_1, whole genome shotgun sequence
+40. NW_006763048	Drepanopeziza brunnea f. sp. 'multigermtubi' MB_m1 unplaced genomic scaffold M6_S00010, whole genome shotgun sequence
+41. NW_024468917	Cryphonectria parasitica EP155 unplaced genomic scaffold M406scaffold_9, whole genome shotgun sequence
+42. NW_017264196	Xylona heveae TC161 unplaced genomic scaffold L228scaffold_4, whole genome shotgun sequence
+43. NW_015622518	Exophiala spinifera strain CBS 89968 unplaced genomic scaffold supercont1.6, whole genome shotgun sequence
+44. NW_013550612	Fonsecaea pedrosoi CBS 271.37 unplaced genomic scaffold supercont1.4, whole genome shotgun sequence
+45. NW_015971642	Fonsecaea multimorphosa CBS 102226 unplaced genomic scaffold supercont1.8, whole genome shotgun sequence
+46. NW_013550593	Rhinocladiella mackenziei CBS 650.93 unplaced genomic scaffold supercont1.12, whole genome shotgun sequence
+47. NW_006912944	Cladophialophora psammophila CBS 110553 aczJe-supercont1.23, whole genome shotgun sequence
+48. NW_006913047	Cladophialophora yegresii CBS 114405 aczIN-supercont1.3, whole genome shotgun sequence
+49. NW_006912910	Capronia epimyces CBS 606.96 aczIQ-supercont1.7, whole genome shotgun sequence
+50. NW_025091282	Aspergillus pseudoviridinutans IFM 55266 DNA, scaffold_2, whole genome shotgun sequence
+
+
+Details:
+
+>>
+1. NC_070533
+Source: Fusarium keratoplasticum isolate Fu6.1 chromosome 5, whole genome shotgun sequence
+Type: terpene
+Number of proteins with BLAST hits to this cluster: 4
+Cumulative BLAST score: 2367.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_002251	NCS57_00750300	84	119	63.55140186915887	3.6e-32
+PUJ_002252	NCS57_00750400	78	513	74.70449172576832	6.13e-180
+PUJ_002253	NCS57_00750500	71	688	103.54166666666667	5.77e-247
+PUJ_002254	NCS57_00750600	74	1047	100.94086021505377	0.0
+
+
+
+>>
+2. NW_006711170
+Source: Trichoderma reesei QM6a unplaced genomic scaffold TRIREscaffold_23, whole genome shotgun sequence
+Type: terpene
+Number of proteins with BLAST hits to this cluster: 4
+Cumulative BLAST score: 2290.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_002251	TRIREDRAFT_110948	82	85	47.66355140186916	5.19e-19
+PUJ_002252	TRIREDRAFT_68022	87	571	76.35933806146572	2.15e-204
+PUJ_002253	TRIREDRAFT_68026	87	825	99.16666666666667	2.94e-301
+PUJ_002254	TRIREDRAFT_81219	96	809	56.451612903225815	1.3e-291
+
+
+
+>>
+3. NW_011942182
+Source: Metarhizium robertsii ARSEF 23 MAA_Scf_4, whole genome shotgun sequence
+Type: NRPS-like,terpene
+Number of proteins with BLAST hits to this cluster: 4
+Cumulative BLAST score: 2207.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_002251	MAA_03019	85	120	63.55140186915887	1.82e-32
+PUJ_002252	MAA_03020	76	509	76.8321513002364	4.38e-178
+PUJ_002253	MAA_03021	61	582	100.0	1.76e-205
+PUJ_002254	MAA_11120	72	996	101.47849462365592	0.0
+
+
+
+>>
+4. NW_014574713
+Source: Metarhizium brunneum ARSEF 3297 chromosome Unknown scaffold_4, whole genome shotgun sequence
+Type: NRPS-like,terpene
+Number of proteins with BLAST hits to this cluster: 4
+Cumulative BLAST score: 2151.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_002251	MBR_04223	85	120	63.55140186915887	1.82e-32
+PUJ_002252	MBR_04222	75	494	76.8321513002364	2.57e-172
+PUJ_002253	MBR_04221	61	582	100.0	2.49e-205
+PUJ_002254	MBR_04220	70	955	104.16666666666667	0.0
+
+
+
+>>
+5. NW_024065901
+Source: Colletotrichum karsti strain CkLH20 chromosome Unknown Scaffold1, whole genome shotgun sequence
+Type: terpene
+Number of proteins with BLAST hits to this cluster: 4
+Cumulative BLAST score: 2080.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_002251	CkaCkLH20_00366	78	112	63.55140186915887	1.22e-29
+PUJ_002252	CkaCkLH20_00365	72	456	73.28605200945626	3.51e-155
+PUJ_002253	CkaCkLH20_00364	63	602	104.16666666666667	5.05e-213
+PUJ_002254	CkaCkLH20_00363	69	910	101.88172043010752	2.71e-317
+
+
+
+>>
+6. NC_043743
+Source: Pyricularia pennisetigena strain Br36 chromosome 5, whole genome shotgun sequence
+Type: terpene
+Number of proteins with BLAST hits to this cluster: 4
+Cumulative BLAST score: 2009.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_002251	PpBr36_08375	43	84	89.7196261682243	9.42e-19
+PUJ_002252	PpBr36_08376	61	488	99.76359338061465	3.55e-170
+PUJ_002253	PpBr36_08377	53	481	102.29166666666667	5.05e-165
+PUJ_002254	PpBr36_08378	69	956	102.15053763440861	0.0
+
+
+
+>>
+7. NW_021167089
+Source: Sodiomyces alkalinus F11 unplaced genomic scaffold SODALscaffold_11, whole genome shotgun sequence
+Type: terpene
+Number of proteins with BLAST hits to this cluster: 4
+Cumulative BLAST score: 1998.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_002251	SODALDRAFT_328631	77	109	63.55140186915887	4.12e-28
+PUJ_002252	SODALDRAFT_337349	70	461	73.28605200945626	1.6e-159
+PUJ_002253	SODALDRAFT_353038	66	511	83.33333333333334	5.44e-177
+PUJ_002254	SODALDRAFT_61306	66	917	103.2258064516129	0.0
+
+
+
+>>
+8. NW_022156719
+Source: Pyricularia grisea strain NI907 chromosome V map unlocalized Pyricularia_grisea_NI907_Scaffold_6, whole genome shotgun sequence
+Type: terpene
+Number of proteins with BLAST hits to this cluster: 4
+Cumulative BLAST score: 1961.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_002251	PgNI_08548	53	85	63.55140186915887	4.84e-19
+PUJ_002252	PgNI_08547	60	476	98.81796690307328	1.8e-165
+PUJ_002253	PgNI_08546	54	474	98.125	3.78e-162
+PUJ_002254	PgNI_08545	68	926	102.01612903225808	0.0
+
+
+
+>>
+9. NC_016457
+Source: Thermothielavioides terrestris NRRL 8126 chromosome 1, complete sequence
+Type: terpene
+Number of proteins with BLAST hits to this cluster: 4
+Cumulative BLAST score: 1924.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_002251	THITE_2106348	58	94	79.43925233644859	3.6e-22
+PUJ_002252	THITE_2106347	70	465	74.23167848699764	4.83e-161
+PUJ_002253	THITE_2106346	52	475	104.16666666666667	2.9e-162
+PUJ_002254	THITE_2106343	71	890	90.86021505376344	4.07e-308
+
+
+
+>>
+10. NC_070548
+Source: Fusarium falciforme chromosome 5, complete sequence
+Type: terpene
+Number of proteins with BLAST hits to this cluster: 4
+Cumulative BLAST score: 2364.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_002251	NCS54_00710200	84	119	63.55140186915887	5.07e-32
+PUJ_002252	NCS54_00710300	78	513	74.70449172576832	6.35e-180
+PUJ_002253	NCS54_00710400	71	686	102.70833333333333	3.32e-246
+PUJ_002254	NCS54_00710600	74	1046	100.94086021505377	0.0
+
+
+
+>>
+11. NW_009276924
+Source: Verticillium dahliae VdLs.17 supercont1.21 genomic scaffold, whole genome shotgun sequence
+Type: terpene
+Number of proteins with BLAST hits to this cluster: 4
+Cumulative BLAST score: 1990.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_002251	VDAG_08572	79	110	63.55140186915887	1.53e-28
+PUJ_002252	VDAG_08571	72	465	73.75886524822694	3.19e-161
+PUJ_002253	VDAG_08570	55	454	96.25	1.22e-154
+PUJ_002254	VDAG_08568	70	961	102.95698924731182	0.0
+
+
+
+>>
+12. NC_072844
+Source: Fusarium oxysporum Fo47 chromosome V, complete sequence
+Type: terpene
+Number of proteins with BLAST hits to this cluster: 4
+Cumulative BLAST score: 2319.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_002251	FOBC_08511	84	115	63.55140186915887	8.48e-31
+PUJ_002252	FOBC_08514	77	508	75.177304964539	7.91e-178
+PUJ_002253	FOBC_08515	68	668	102.08333333333333	4.04e-239
+PUJ_002254	FOBC_08516	73	1028	100.94086021505377	0.0
+
+
+
+>>
+13. NC_036626
+Source: Fusarium fujikuroi IMI 58289 draft genome, chromosome FFUJ_chr05
+Type: terpene
+Number of proteins with BLAST hits to this cluster: 4
+Cumulative BLAST score: 2318.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_002251	FFUJ_07349	82	114	63.55140186915887	2.36e-30
+PUJ_002252	FFUJ_07352	63	507	98.81796690307328	1.12e-177
+PUJ_002253	FFUJ_07353	67	667	103.54166666666667	1.64e-238
+PUJ_002254	FFUJ_07354	73	1030	100.94086021505377	0.0
+
+
+
+>>
+14. NC_058399
+Source: Fusarium poae strain DAOMC 252244 chromosome 1, whole genome shotgun sequence
+Type: terpene
+Number of proteins with BLAST hits to this cluster: 4
+Cumulative BLAST score: 2299.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_002251	FPOAC1_003183	81	113	63.55140186915887	7.82e-30
+PUJ_002252	FPOAC1_003180	64	516	99.52718676122932	2.37e-181
+PUJ_002253	FPOAC1_003179	72	669	92.91666666666667	3.17e-239
+PUJ_002254	FPOAC1_003178	73	1001	101.0752688172043	0.0
+
+
+
+>>
+15. NC_026474
+Source: Fusarium graminearum PH-1 chromosome 1, whole genome shotgun sequence
+Type: terpene
+Number of proteins with BLAST hits to this cluster: 4
+Cumulative BLAST score: 2296.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_002251	FGSG_10100	72	114	79.43925233644859	5.35e-30
+PUJ_002252	FGSG_10097	76	514	77.54137115839244	3.76e-179
+PUJ_002253	FGSG_10096	66	665	104.16666666666667	1.35e-237
+PUJ_002254	FGSG_10095	73	1003	101.0752688172043	0.0
+
+
+
+>>
+16. NC_058390
+Source: Fusarium musae strain F31 chromosome 4, whole genome shotgun sequence
+Type: terpene
+Number of proteins with BLAST hits to this cluster: 4
+Cumulative BLAST score: 2290.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_002251	J7337_005735	84	115	63.55140186915887	8.48e-31
+PUJ_002252	J7337_005732	76	504	75.177304964539	2.61e-176
+PUJ_002253	J7337_005731	67	654	103.95833333333333	2.25e-233
+PUJ_002254	J7337_005730	72	1017	100.94086021505377	0.0
+
+
+
+>>
+17. NC_035796
+Source: Pochonia chlamydosporia 170 chromosome 7, whole genome shotgun sequence
+Type: terpene
+Number of proteins with BLAST hits to this cluster: 4
+Cumulative BLAST score: 2206.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_002251	VFPPC_09605	77	121	79.43925233644859	4.52e-33
+PUJ_002252	VFPPC_09603	75	506	76.59574468085107	3.32e-176
+PUJ_002253	VFPPC_09602	62	583	99.375	8.13e-206
+PUJ_002254	VFPPC_09601	72	996	102.15053763440861	0.0
+
+
+
+>>
+18. NC_054389
+Source: Drechmeria coniospora strain ARSEF 6962 chromosome 01, whole genome shotgun sequence
+Type: terpene
+Number of proteins with BLAST hits to this cluster: 4
+Cumulative BLAST score: 2167.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_002251	DCS_01578	78	115	66.35514018691589	1.67e-30
+PUJ_002252	DCS_01580	61	491	101.65484633569739	6.18e-171
+PUJ_002253	DCS_01581	66	630	100.41666666666667	1.44e-224
+PUJ_002254	DCS_01582	68	931	101.88172043010752	0.0
+
+
+
+>>
+19. NC_057321
+Source: Ustilaginoidea virens chromosome 6, complete sequence
+Type: terpene
+Number of proteins with BLAST hits to this cluster: 4
+Cumulative BLAST score: 2109.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_002251	UV8b_07499	74	121	79.43925233644859	4.62e-33
+PUJ_002252	UV8b_07497	62	503	99.29078014184397	6.96e-176
+PUJ_002253	UV8b_07496	61	578	102.08333333333333	1.13e-203
+PUJ_002254	UV8b_07495	67	907	104.03225806451613	3.61e-317
+
+
+
+>>
+20. NC_030959
+Source: Colletotrichum higginsianum IMI 349063 chromosome 6, whole genome shotgun sequence
+Type: terpene
+Number of proteins with BLAST hits to this cluster: 4
+Cumulative BLAST score: 2095.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_002251	CH63R_09299	78	112	63.55140186915887	1.09e-29
+PUJ_002252	CH63R_09297	71	449	72.81323877068559	2.84e-154
+PUJ_002253	CH63R_09296	63	609	105.20833333333333	1.07e-215
+PUJ_002254	CH63R_09295	68	925	101.74731182795699	0.0
+
+
+
+>>
+21. NC_016473
+Source: Thermothelomyces thermophilus ATCC 42464 chromosome 2, complete sequence
+Type: terpene
+Number of proteins with BLAST hits to this cluster: 4
+Cumulative BLAST score: 1946.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_002251	MYCTH_2300230	70	92	58.87850467289719	8.76e-22
+PUJ_002252	MYCTH_2300227	71	473	73.5224586288416	8.12e-163
+PUJ_002253	MYCTH_2300225	52	488	109.16666666666666	3.21e-167
+PUJ_002254	MYCTH_2300221	70	893	90.99462365591397	2.05e-309
+
+
+
+>>
+22. NW_009799099
+Source: Neurospora tetrasperma FGSC 2508 unplaced genomic scaffold NEUTE1scaffold_1, whole genome shotgun sequence
+Type: terpene
+Number of proteins with BLAST hits to this cluster: 4
+Cumulative BLAST score: 1912.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_002251	NEUTE1DRAFT_144036	69	95	63.55140186915887	6.62e-23
+PUJ_002252	NEUTE1DRAFT_115818	68	468	74.70449172576832	7.84e-162
+PUJ_002253	NEUTE1DRAFT_119792	55	507	99.16666666666667	4.46e-175
+PUJ_002254	NEUTE1DRAFT_119791	68	842	91.12903225806451	3.09e-291
+
+
+
+>>
+23. NW_006917094
+Source: Pestalotiopsis fici W106-1 unplaced genomic scaffold PFICI_Scf_4, whole genome shotgun sequence
+Type: terpene
+Number of proteins with BLAST hits to this cluster: 3
+Cumulative BLAST score: 1131.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_002251	PFICI_06392	66	113	85.98130841121495	8.2e-30
+PUJ_002252	PFICI_06391	61	483	98.10874704491725	2.11e-168
+PUJ_002253	PFICI_06390	61	535	92.91666666666667	3.31e-186
+
+
+
+>>
+24. NC_063073
+Source: Purpureocillium takamizusanense chromosome 6, complete sequence
+Type: terpene
+Number of proteins with BLAST hits to this cluster: 4
+Cumulative BLAST score: 2823.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_002251	JDV02_006829	78	122	79.43925233644859	4.14e-33
+PUJ_002252	JDV02_006830	60	483	102.12765957446808	1.25e-167
+PUJ_002253	JDV02_006831	65	627	106.04166666666666	1.68e-222
+PUJ_002253	JDV02_006831_c1fa141	68	551	84.58333333333333	2.34e-194
+PUJ_002254	JDV02_006832	73	1040	101.34408602150538	0.0
+
+
+
+>>
+25. NC_038012
+Source: Fusarium venenatum strain A3/5 genome assembly, chromosome: I
+Type: terpene
+Number of proteins with BLAST hits to this cluster: 4
+Cumulative BLAST score: 2303.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_002251	FVRRES_03522	81	113	63.55140186915887	7.52e-30
+PUJ_002252	FVRRES_03520	78	514	74.70449172576832	1.36e-180
+PUJ_002253	FVRRES_03519	67	671	104.58333333333334	3.53e-240
+PUJ_002254	FVRRES_03517	73	1005	101.0752688172043	0.0
+
+
+
+>>
+26. NW_006271971
+Source: Cordyceps militaris CM01 unplaced genomic scaffold CCM_S00003, whole genome shotgun sequence
+Type: terpene
+Number of proteins with BLAST hits to this cluster: 4
+Cumulative BLAST score: 2040.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_002251	CCM_03691	79	107	58.87850467289719	1.19e-27
+PUJ_002252	CCM_03697	63	486	99.76359338061465	1.24e-168
+PUJ_002253	CCM_03698	59	518	95.0	6.09e-180
+PUJ_002254	CCM_03700	69	929	100.53763440860214	0.0
+
+
+
+>>
+27. NC_064678
+Source: Colletotrichum lupini chromosome 5, complete sequence
+Type: terpene
+Number of proteins with BLAST hits to this cluster: 3
+Cumulative BLAST score: 1172.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_002251	CLUP02_10299	78	112	63.55140186915887	1.3e-29
+PUJ_002252	CLUP02_10297	71	461	73.5224586288416	1.89e-157
+PUJ_002253	CLUP02_10296	63	599	105.41666666666667	1.06e-211
+
+
+
+>>
+28. NW_025953795
+Source: Annulohypoxylon truncatum strain CBS 140777 unplaced genomic scaffold F4807scaffold_9, whole genome shotgun sequence
+Type: terpene
+Number of proteins with BLAST hits to this cluster: 3
+Cumulative BLAST score: 1154.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_002251	F4807DRAFT_398615	75	101	58.87850467289719	2.91e-25
+PUJ_002252	F4807DRAFT_418703	58	464	97.87234042553192	4.37e-161
+PUJ_002253	F4807DRAFT_418702	63	589	102.08333333333333	1.21e-207
+
+
+
+>>
+29. NW_025953044
+Source: Daldinia caldariorum strain CBS 122874 unplaced genomic scaffold F4812scaffold_8, whole genome shotgun sequence
+Type: terpene
+Number of proteins with BLAST hits to this cluster: 3
+Cumulative BLAST score: 1146.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_002251	F4812DRAFT_384108	79	107	58.87850467289719	1.92e-27
+PUJ_002252	F4812DRAFT_428325	58	466	97.87234042553192	5.37e-162
+PUJ_002253	F4812DRAFT_428327	62	573	102.70833333333333	1.37e-201
+
+
+
+>>
+30. NW_026054544
+Source: Daldinia decipiens strain CBS 113046 unplaced genomic scaffold F4813scaffold_1, whole genome shotgun sequence
+Type: T1PKS,terpene
+Number of proteins with BLAST hits to this cluster: 3
+Cumulative BLAST score: 1145.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_002251	F4813DRAFT_1095	79	108	58.87850467289719	8.31e-28
+PUJ_002252	F4813DRAFT_1091	69	463	73.99527186761229	8.79e-161
+PUJ_002253	F4813DRAFT_1085	60	574	102.49999999999999	4.79e-202
+
+
+
+>>
+31. NW_026250019
+Source: Hypoxylon trugodes strain CBS 135444 unplaced genomic scaffold F4822scaffold_4, whole genome shotgun sequence
+Type: NRPS-like,terpene
+Number of proteins with BLAST hits to this cluster: 3
+Cumulative BLAST score: 1144.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_002251	F4822DRAFT_400128	64	106	79.43925233644859	5.59e-27
+PUJ_002252	F4822DRAFT_400129	57	453	97.87234042553192	1.06e-156
+PUJ_002253	F4822DRAFT_400131	62	585	101.66666666666666	4.23e-206
+
+
+
+>>
+32. NW_025953254
+Source: Annulohypoxylon maeteangense strain CBS 123835 unplaced genomic scaffold GGS22scaffold_7, whole genome shotgun sequence
+Type: terpene
+Number of proteins with BLAST hits to this cluster: 3
+Cumulative BLAST score: 1141.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_002251	GGS22DRAFT_187824	75	101	58.87850467289719	2.68e-25
+PUJ_002252	GGS22DRAFT_161174	59	468	98.10874704491725	1.37e-162
+PUJ_002253	GGS22DRAFT_161173	61	572	101.45833333333334	4.04e-201
+
+
+
+>>
+33. NW_025408678
+Source: Hirsutella rhossiliensis strain HR02 chromosome Unknown scaffold00012, whole genome shotgun sequence
+Type: terpene
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 1156.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_002252	HRG_09246	60	485	98.58156028368793	1.02e-168
+PUJ_002253	HRG_09245	68	671	101.66666666666666	4.76e-240
+
+
+
+>>
+34. NW_025764714
+Source: Emericellopsis atlantica unplaced genomic scaffold F5Z01scaffold_12, whole genome shotgun sequence
+Type: terpene
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 636.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_002251	F5Z01DRAFT_636053	78	110	63.55140186915887	1.19e-28
+PUJ_002252	F5Z01DRAFT_673721	65	526	101.89125295508275	3.9e-185
+
+
+
+>>
+35. NW_023336187
+Source: Geosmithia morbida isolate 1262 chromosome Unknown scaffold_0, whole genome shotgun sequence
+Type: terpene
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 565.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_002251	GMORB2_0015	79	115	63.55140186915887	1.64e-30
+PUJ_002252	GMORB2_0016	70	450	77.77777777777779	2.05e-154
+
+
+
+>>
+36. NW_017263590
+Source: Mollisia scopiformis unplaced genomic scaffold LY89scaffold_10, whole genome shotgun sequence
+Type: terpene
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 556.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_002251	LY89DRAFT_614571	60	95	78.50467289719626	7.52e-23
+PUJ_002252	LY89DRAFT_37328	68	461	78.01418439716312	4.71e-160
+
+
+
+>>
+37. NW_020194475
+Source: Amorphotheca resinae ATCC 22711 unplaced genomic scaffold M430scaffold_5, whole genome shotgun sequence
+Type: terpene
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 554.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_002251	M430DRAFT_18726	69	97	62.616822429906534	9.64e-24
+PUJ_002252	M430DRAFT_50235	70	457	73.28605200945626	1.98e-158
+
+
+
+>>
+38. NW_001820821
+Source: Sclerotinia sclerotiorum 1980 UF-70 scaffold_15 genomic scaffold, whole genome shotgun sequence
+Type: fungal-RiPP-like,terpene
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 554.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_002251	SS1G_10114	65	97	67.28971962616822	1.86e-23
+PUJ_002252	SS1G_10113	68	457	77.06855791962175	1.49e-158
+
+
+
+>>
+39. NW_022474206
+Source: Venustampulla echinocandica strain BP 5553 chromosome Unknown scaffold_1, whole genome shotgun sequence
+Type: terpene
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 545.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_002251	BP5553_03507	69	97	62.616822429906534	1.01e-23
+PUJ_002252	BP5553_03506	68	448	77.77777777777779	4.31e-155
+
+
+
+>>
+40. NW_006763048
+Source: Drepanopeziza brunnea f. sp. 'multigermtubi' MB_m1 unplaced genomic scaffold M6_S00010, whole genome shotgun sequence
+Type: terpene
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 534.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_002251	MBM_04688	69	97	62.616822429906534	1.33e-23
+PUJ_002252	MBM_04689	65	437	77.77777777777779	4.93e-149
+
+
+
+>>
+41. NW_024468917
+Source: Cryphonectria parasitica EP155 unplaced genomic scaffold M406scaffold_9, whole genome shotgun sequence
+Type: terpene
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 523.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_002251	M406DRAFT_268597	62	90	63.55140186915887	8.03e-21
+PUJ_002252	M406DRAFT_343212	69	433	75.177304964539	1.43e-149
+
+
+
+>>
+42. NW_017264196
+Source: Xylona heveae TC161 unplaced genomic scaffold L228scaffold_4, whole genome shotgun sequence
+Type: terpene
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 517.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_002251	L228DRAFT_120974	65	95	63.55140186915887	6.51e-23
+PUJ_002252	L228DRAFT_238164	65	422	73.5224586288416	1.29e-144
+
+
+
+>>
+43. NW_015622518
+Source: Exophiala spinifera strain CBS 89968 unplaced genomic scaffold supercont1.6, whole genome shotgun sequence
+Type: T1PKS,terpene
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 517.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_002251	PV08_08625	57	86	63.55140186915887	2.4e-19
+PUJ_002252	PV08_08626	69	431	73.04964539007092	4.08e-148
+
+
+
+>>
+44. NW_013550612
+Source: Fonsecaea pedrosoi CBS 271.37 unplaced genomic scaffold supercont1.4, whole genome shotgun sequence
+Type: terpene
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 512.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_002251	Z517_05802	51	91	85.04672897196261	3.58e-21
+PUJ_002252	Z517_05803	68	421	73.04964539007092	6.42e-144
+
+
+
+>>
+45. NW_015971642
+Source: Fonsecaea multimorphosa CBS 102226 unplaced genomic scaffold supercont1.8, whole genome shotgun sequence
+Type: terpene
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 512.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_002251	Z520_04723	50	89	85.04672897196261	1.36e-20
+PUJ_002252	Z520_04724	68	423	73.04964539007092	6.62e-145
+
+
+
+>>
+46. NW_013550593
+Source: Rhinocladiella mackenziei CBS 650.93 unplaced genomic scaffold supercont1.12, whole genome shotgun sequence
+Type: terpene
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 511.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_002251	Z518_11209	52	88	83.17757009345794	3.24e-20
+PUJ_002252	Z518_11208	63	423	80.1418439716312	4.7e-145
+
+
+
+>>
+47. NW_006912944
+Source: Cladophialophora psammophila CBS 110553 aczJe-supercont1.23, whole genome shotgun sequence
+Type: terpene
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 508.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_002251	A1O5_11097	52	92	85.04672897196261	1.31e-21
+PUJ_002252	A1O5_11096	57	416	92.43498817966903	3.53e-142
+
+
+
+>>
+48. NW_006913047
+Source: Cladophialophora yegresii CBS 114405 aczIN-supercont1.3, whole genome shotgun sequence
+Type: terpene
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 507.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_002251	A1O7_05284	55	87	68.22429906542055	1.33e-19
+PUJ_002252	A1O7_05285	67	420	73.99527186761229	1.68e-143
+
+
+
+>>
+49. NW_006912910
+Source: Capronia epimyces CBS 606.96 aczIQ-supercont1.7, whole genome shotgun sequence
+Type: terpene
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 506.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_002251	A1O3_08382	54	86	71.02803738317756	3.26e-19
+PUJ_002252	A1O3_08381	67	420	76.35933806146572	8.21e-144
+
+
+
+>>
+50. NW_025091282
+Source: Aspergillus pseudoviridinutans IFM 55266 DNA, scaffold_2, whole genome shotgun sequence
+Type: terpene
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 505.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_002251	Asppvi_002546	66	92	63.55140186915887	1.11e-21
+PUJ_002252	Asppvi_002547	69	413	68.08510638297872	3.69e-141
+

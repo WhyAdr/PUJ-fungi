@@ -1,0 +1,26 @@
+ClusterBlast scores for 24
+
+Table of genes, locations, strands and annotations of query cluster:
+PUJ_001192	1954785	1957481	-	Transcription initiation factor TFIID subunit 5	
+PUJ_001193	1957786	1958399	+	hypothetical protein	
+PUJ_001194	1958901	1960030	-	F-actin-capping protein subunit beta	
+PUJ_001195	1962844	1963483	-	hypothetical protein	
+PUJ_001196	1966554	1969944	-	3'-5' DNA helicase	
+PUJ_001197	1971163	1971888	+	hypothetical protein	
+PUJ_001198	1972632	1973892	-	hypothetical protein	
+PUJ_001199	1974440	1975604	-	hypothetical protein	
+PUJ_001200	1978461	1982250	+	plasma membrane calcium	
+PUJ_001201	1982977	1991074	+	Mycolipanoate synthase	
+PUJ_001202	1991653	1992409	+	hypothetical protein	
+PUJ_001203	1992818	1996151	-	hypothetical protein	
+PUJ_001204	1998496	2001161	+	pre-mRNA-splicing factor cwc22	
+PUJ_001205	2001505	2003191	-	hypothetical protein	
+PUJ_001206	2004579	2004984	-	hypothetical protein	
+PUJ_001207	2008499	2012162	-	hypothetical protein	
+PUJ_001208	2014160	2015195	-	hypothetical protein	
+
+
+Significant hits: 
+
+
+Details:

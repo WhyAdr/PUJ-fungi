@@ -1,0 +1,51 @@
+ClusterBlast scores for 480
+
+Table of genes, locations, strands and annotations of query cluster:
+PUJ_004870	118	1696	-	hypothetical protein	
+PUJ_004871	2069	6634	+	hypothetical protein	
+PUJ_004872	19905	20703	+	hypothetical protein	
+PUJ_004873	21083	22660	+	hypothetical protein	
+PUJ_004874	24510	25809	-	hypothetical protein	
+PUJ_004875	26349	29256	+	hypothetical protein	
+PUJ_004876	29690	31217	+	hypothetical protein	
+PUJ_004877	31281	31905	+	hypothetical protein	
+PUJ_004878	32318	36691	+	hypothetical protein	
+PUJ_004879	38137	47760	-	hypothetical protein	
+PUJ_004880	48779	49187	+	hypothetical protein	
+PUJ_004881	49269	51048	+	hypothetical protein	
+PUJ_004882	51540	53470	-	peptide transporter ptr2	
+PUJ_004883	54112	55273	+	hypothetical protein	
+PUJ_004884	55812	56978	+	hypothetical protein	
+PUJ_004885	58428	59796	-	hypothetical protein	
+PUJ_004886	62806	63966	+	hypothetical protein	
+PUJ_004887	64392	65811	-	hypothetical protein	
+PUJ_004888	68156	68957	-	hypothetical protein	
+PUJ_004889	71085	72776	+	hypothetical protein	
+PUJ_004890	73618	76994	-	hypothetical protein	
+
+
+Significant hits: 
+1. BGC0001621.4	imizoquin A/imizoquin B/imizoquin C/imizoquin D/TMC-2A/TMC-2B
+
+
+Details:
+
+>>
+1. BGC0001621.4
+Source: imizoquin A/imizoquin B/imizoquin C/imizoquin D/TMC-2A/TMC-2B
+Type: NRPS:Type I
+Number of proteins with BLAST hits to this cluster: 8
+Cumulative BLAST score: 8477.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_004879	AFLA_064240	99	3707	60.04464285714286	0.0
+PUJ_004881	AFLA_064250	96	420	43.13725490196079	9.25e-147
+PUJ_004882	AFLA_064260	85	648	118.36734693877551	1.29e-236
+PUJ_004883	AFLA_064270	100	744	99.72527472527473	4.97e-275
+PUJ_004884	AFLA_064280	99	733	100.0	1.36e-270
+PUJ_004885	AFLA_064300	98	905	100.21978021978022	0.0
+PUJ_004886	AFLA_064320	100	417	57.909604519774014	1.1e-143
+PUJ_004887	AFLA_064330	100	903	100.0	0.0
+

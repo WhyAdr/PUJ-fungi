@@ -1,0 +1,12 @@
+ClusterBlast scores for contig_76
+
+Table of genes, locations, strands and annotations of query cluster:
+PUJ_000148	357	1430	+	hypothetical protein	
+PUJ_000149	5573	6899	+	hypothetical protein	
+PUJ_000150	7132	8461	-	hypothetical protein	
+
+
+Significant hits: 
+
+
+Details:

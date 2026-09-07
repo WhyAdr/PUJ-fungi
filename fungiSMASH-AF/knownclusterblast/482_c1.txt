@@ -1,0 +1,28 @@
+ClusterBlast scores for 482
+
+Table of genes, locations, strands and annotations of query cluster:
+PUJ_005730	1484357	1486321	+	signal recognition particle subunit srp68	
+PUJ_005731	1488567	1490401	+	RNA polymerase C-22 sterol desaturase	
+PUJ_005732	1492581	1494453	-	eukaryotic translation initiation factor 5B	
+PUJ_005733	1498218	1500323	-	hypothetical protein	
+PUJ_005734	1501895	1503262	+	GTPase-activating protein gyp8	
+PUJ_005735	1503595	1504693	+	hypothetical protein	
+PUJ_005736	1508009	1508768	+	hypothetical protein	
+PUJ_005737	1510008	1513044	-	hypothetical protein	
+PUJ_005738	1515513	1516060	-	hypothetical protein	
+PUJ_005739	1516918	1518743	-	hypothetical protein	
+PUJ_005740	1520527	1523436	+	hypothetical protein	
+PUJ_005741	1523840	1524458	-	hypothetical protein	
+PUJ_005742	1525093	1526465	-	hypothetical protein	
+PUJ_005743	1526861	1529052	-	Vacuolar protein sorting-associated protein 52	
+PUJ_005744	1529640	1530406	+	translation initiation factor eIF5A	
+PUJ_005745	1531059	1533117	+	hypothetical protein	
+PUJ_005746	1533683	1534610	+	hypothetical protein	
+PUJ_005747	1535547	1539736	-	hypothetical protein	
+PUJ_005748	1541749	1542892	-	hypothetical protein	
+
+
+Significant hits: 
+
+
+Details:

@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8" />
+<link rel="stylesheet" type="text/css" href="../../css/style.css">
+
+<script type="text/javascript" src="../../js/jquery.js"></script>
+<script type="text/javascript" src="../../js/jquery.tablesorter.min.js"></script>
+
+<script type="text/javascript" >
+var counter = 1;
+function addInput(divName){
+     var newdiv = document.createElement('div');
+     newdiv.innerHTML = "<b>Locus " + (counter + 1) + "</b><br> GenBank accession: <input type='text' required name='myInputs[]'> Start nt: <input type='number' name='myStartCoords[]' placeholder='N/A'> End nt: <input type='number' name='myEndCoords[]' placeholder='N/A'> <br><br>";
+     document.getElementById(divName).appendChild(newdiv);
+     counter++;
+}
+</script>
+
+<script>
+$(document).ready(function()
+    {
+        $("#myTable").tablesorter();
+    }
+);
+
+</script>
+<style>
+table {
+    border-width: thin;
+    border-spacing: 2px;
+    border-style: none;
+    border-color: black;
+}
+</style>
+</head>
+<body>
+    <table id="myTable" class="tablesorter" border=1>
+    <thead>
+    <tr>
+        <th>MIBiG Protein</th>
+        <th>Description</th>
+        <th>MIBiG Cluster</th>
+        <th>MiBiG Product</th>
+        <th>% ID</th>
+        <th>% Coverage</th>
+        <th>BLAST Score</th>
+        <th>E-value</th>
+    </tr>
+    </thead>
+    <tbody>
+    
+          <tr>
+              <td>AVW82946.1</td>
+              <td>aminotransferase</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0002040.3">BGC0002040.3</a></td>
+              <td>other:other</td>
+              <td>34.0</td>
+              <td>96.7</td>
+              <td>222.0</td>
+              <td>5.19e-68</td>
+          </tr>
+    
+          <tr>
+              <td>AVW82906.1</td>
+              <td>aminotransferase</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0002039.3">BGC0002039.3</a></td>
+              <td>other:other</td>
+              <td>33.0</td>
+              <td>96.7</td>
+              <td>218.0</td>
+              <td>2.84e-66</td>
+          </tr>
+    
+          <tr>
+              <td>MQS11307.1</td>
+              <td>aminotransferase_class_III-fold_pyridoxal_phosphate-dependent_enzyme</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0002282.2">BGC0002282.2</a></td>
+              <td>other:other</td>
+              <td>34.0</td>
+              <td>93.8</td>
+              <td>215.0</td>
+              <td>2.21e-65</td>
+          </tr>
+    
+          <tr>
+              <td>ABU41515.1</td>
+              <td>HemL</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0000906.3">BGC0000906.3</a></td>
+              <td>other:other</td>
+              <td>31.0</td>
+              <td>98.6</td>
+              <td>187.0</td>
+              <td>1.29e-54</td>
+          </tr>
+    
+          <tr>
+              <td>ABT18049.1</td>
+              <td>glutamate-1-semialdehyde_2,1-aminotransferase</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0000905.5">BGC0000905.5</a></td>
+              <td>other:other</td>
+              <td>30.0</td>
+              <td>100.0</td>
+              <td>174.0</td>
+              <td>1.03e-49</td>
+          </tr>
+    
+          <tr>
+              <td>AXG46169.1</td>
+              <td>glutamate-1-semialdehyde_2,1-aminomutase</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0002713.2">BGC0002713.2</a></td>
+              <td>NRPS:Type I</td>
+              <td>29.0</td>
+              <td>99.3</td>
+              <td>168.0</td>
+              <td>2.5e-47</td>
+          </tr>
+    
+          <tr>
+              <td>KYC42614.1</td>
+              <td>hypothetical_protein</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0002484.3">BGC0002484.3</a></td>
+              <td>NRPS:Type I+PKS</td>
+              <td>30.0</td>
+              <td>95.2</td>
+              <td>145.0</td>
+              <td>1.77e-37</td>
+          </tr>
+    
+          <tr>
+              <td>CAD17792.1</td>
+              <td>probable_non_ribosomal_peptide_synthetase_protein</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0001363.5">BGC0001363.5</a></td>
+              <td>NRPS:Type I+PKS</td>
+              <td>29.0</td>
+              <td>105.7</td>
+              <td>142.0</td>
+              <td>4.72e-36</td>
+          </tr>
+    
+          <tr>
+              <td>AQX77683.1</td>
+              <td>NocF</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0001704.3">BGC0001704.3</a></td>
+              <td>other:other</td>
+              <td>28.0</td>
+              <td>104.5</td>
+              <td>135.0</td>
+              <td>6.71e-34</td>
+          </tr>
+    
+          <tr>
+              <td>AEU11006.1</td>
+              <td>NpnB</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0001029.5">BGC0001029.5</a></td>
+              <td>NRPS:Type I+PKS</td>
+              <td>28.0</td>
+              <td>104.8</td>
+              <td>135.0</td>
+              <td>1.01e-33</td>
+          </tr>
+    
+          <tr>
+              <td>QOV09184.1</td>
+              <td>NocF</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0002597.2">BGC0002597.2</a></td>
+              <td>NRPS:Type I+PKS</td>
+              <td>28.0</td>
+              <td>104.5</td>
+              <td>134.0</td>
+              <td>1.65e-33</td>
+          </tr>
+    
+          <tr>
+              <td>KJY85282.1</td>
+              <td>glutamate-1-semialdehyde_aminotransferase</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0002491.3">BGC0002491.3</a></td>
+              <td>NRPS:Type I</td>
+              <td>29.0</td>
+              <td>89.5</td>
+              <td>129.0</td>
+              <td>6.88e-33</td>
+          </tr>
+    
+          <tr>
+              <td>AKL71639.1</td>
+              <td>NocF</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0001703.3">BGC0001703.3</a></td>
+              <td>other:other</td>
+              <td>28.0</td>
+              <td>101.9</td>
+              <td>129.0</td>
+              <td>4.4e-32</td>
+          </tr>
+    
+          <tr>
+              <td>AAC25608.1</td>
+              <td>unknown</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0000919.5">BGC0000919.5</a></td>
+              <td>other:other</td>
+              <td>30.0</td>
+              <td>79.0</td>
+              <td>97.0</td>
+              <td>1.24e-21</td>
+          </tr>
+    
+          <tr>
+              <td>CAF34038.1</td>
+              <td>glutamate-1-semialdehyde_aminotransferase-like_protein</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0000689.3">BGC0000689.3</a></td>
+              <td>saccharide</td>
+              <td>27.0</td>
+              <td>85.5</td>
+              <td>79.0</td>
+              <td>1.49e-15</td>
+          </tr>
+    
+          <tr>
+              <td>ARV75716.1</td>
+              <td>C-6&#39;_aminotransferase</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0001603.3">BGC0001603.3</a></td>
+              <td>saccharide</td>
+              <td>27.0</td>
+              <td>85.5</td>
+              <td>79.0</td>
+              <td>1.49e-15</td>
+          </tr>
+    
+          <tr>
+              <td>CAF31439.1</td>
+              <td>putative_gentamicin_aminotransferase_III</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0000696.5">BGC0000696.5</a></td>
+              <td>saccharide</td>
+              <td>27.0</td>
+              <td>85.5</td>
+              <td>79.0</td>
+              <td>1.69e-15</td>
+          </tr>
+    
+          <tr>
+              <td>CAF31437.2</td>
+              <td>putative_gentamicin_aminotransferase_IV</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0000696.5">BGC0000696.5</a></td>
+              <td>saccharide</td>
+              <td>25.0</td>
+              <td>76.4</td>
+              <td>75.0</td>
+              <td>3.52e-14</td>
+          </tr>
+    
+          <tr>
+              <td>ARV75714.1</td>
+              <td>C-6&#39;_aminotransferase</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0001603.3">BGC0001603.3</a></td>
+              <td>saccharide</td>
+              <td>25.0</td>
+              <td>76.4</td>
+              <td>75.0</td>
+              <td>3.52e-14</td>
+          </tr>
+    
+          <tr>
+              <td>CAF34040.1</td>
+              <td>glutamate-1-semialdehyde_aminotransferase-like_protein</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0000689.3">BGC0000689.3</a></td>
+              <td>saccharide</td>
+              <td>26.0</td>
+              <td>76.7</td>
+              <td>71.0</td>
+              <td>6.23e-13</td>
+          </tr>
+    
+    </tbody>
+  </table>
+</body>

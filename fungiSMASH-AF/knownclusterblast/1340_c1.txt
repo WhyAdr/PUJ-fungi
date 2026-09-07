@@ -1,0 +1,248 @@
+ClusterBlast scores for 1340
+
+Table of genes, locations, strands and annotations of query cluster:
+PUJ_009389	201428	204891	-	hypothetical protein	
+PUJ_009390	205704	206989	-	hypothetical protein	
+PUJ_009391	207279	208794	-	hypothetical protein	
+PUJ_009392	209200	210037	-	hypothetical protein	
+PUJ_009393	212797	214132	+	hypothetical protein	
+PUJ_009394	215402	221249	-	hypothetical protein	
+PUJ_009395	221938	227083	+	hypothetical protein	
+PUJ_009396	228397	229387	-	hypothetical protein	
+PUJ_009397	231073	237697	+	hypothetical protein	
+PUJ_009398	239293	241274	-	hypothetical protein	
+PUJ_009399	241887	243317	-	hypothetical protein	
+PUJ_009400	247517	250216	-	hypothetical protein	
+PUJ_009401	252213	253581	+	hypothetical protein	
+PUJ_009402	256427	268148	+	hypothetical protein	
+PUJ_009403	269196	270445	+	hypothetical protein	
+PUJ_009404	271795	272554	-	hypothetical protein	
+PUJ_009405	278152	279235	-	hypothetical protein	
+
+
+Significant hits: 
+1. BGC0000007.3	aflatoxin G1/aflatoxin B1
+2. BGC0000009.3	aflatoxin B1/aflatoxin G1
+3. BGC0000008.3	aflatoxin B1/aflatoxin B2
+4. BGC0000006.3	aflatoxin B1/aflatoxin B2
+5. BGC0000004.3	aflatoxin G1
+6. BGC0000010.3	aflatoxin
+7. BGC0000011.3	Sterigmatocystin/Aflatoxin B1/Aflatoxin B2
+8. BGC0000977.4	cyclopiazonic acid/2-oxocyclopiazonic acid
+9. BGC0000152.3	sterigmatocystin
+10. BGC0001874.4	α-cyclopiazonic acid
+
+
+Details:
+
+>>
+1. BGC0000007.3
+Source: aflatoxin G1/aflatoxin B1
+Type: PKS
+Number of proteins with BLAST hits to this cluster: 11
+Cumulative BLAST score: 16946.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_009389	AAS90009.1	95	962	66.57681940700809	0.0
+PUJ_009390	AAS90007.1	97	774	100.0	4.19e-286
+PUJ_009390	AAS89996.1	51	364	97.42268041237114	2.2e-124
+PUJ_009391	AAS90006.1	96	585	94.15584415584416	5.05e-214
+PUJ_009392	AAS90005.1	95	519	99.28057553956835	6.08e-189
+PUJ_009393	AAS90003.1	94	789	100.0	3.65e-290
+PUJ_009394	AAS90002.1	96	3675	100.05252100840336	0.0
+PUJ_009395	AAS90001.1	96	3130	99.52352590827874	0.0
+PUJ_009396	AAS90000.1	97	521	100.0	4.65e-190
+PUJ_009397	AAS89999.1	97	4108	99.95258416311049	0.0
+PUJ_009398	AAS89998.1	97	997	100.0	0.0
+PUJ_009399	AAS89997.1	71	522	106.23376623376623	1.03e-184
+
+
+
+>>
+2. BGC0000009.3
+Source: aflatoxin B1/aflatoxin G1
+Type: PKS
+Number of proteins with BLAST hits to this cluster: 11
+Cumulative BLAST score: 16191.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_009389	AAS90057.1	94	950	66.30727762803235	0.0
+PUJ_009390	AAS90055.1	94	751	100.0	8.32e-277
+PUJ_009390	AAS90044.1	51	365	97.42268041237114	7.73e-125
+PUJ_009391	AAS90054.1	93	568	94.15584415584416	3.64e-207
+PUJ_009392	AAS90053.1	93	496	96.0431654676259	4.62e-180
+PUJ_009393	AAS90051.1	82	672	102.02702702702702	9.66e-244
+PUJ_009394	AAS90050.1	90	3476	100.05252100840336	0.0
+PUJ_009395	AAS90049.1	92	2984	99.5830851697439	0.0
+PUJ_009396	AAS90048.1	95	510	100.0	1.68e-185
+PUJ_009397	AAS90047.1	93	3964	99.95258416311049	0.0
+PUJ_009398	AAS90046.1	94	971	100.0	0.0
+PUJ_009399	AAS90045.1	63	484	114.54545454545455	3.16e-169
+
+
+
+>>
+3. BGC0000008.3
+Source: aflatoxin B1/aflatoxin B2
+Type: PKS
+Number of proteins with BLAST hits to this cluster: 10
+Cumulative BLAST score: 16592.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_009389	AAS90031.1	99	1006	66.44204851752022	0.0
+PUJ_009390	AAS90040.1	99	790	100.0	3.34e-292
+PUJ_009391	AAS90029.1	100	605	94.15584415584416	1.21e-221
+PUJ_009392	AAS90028.1	100	552	100.0	7.22e-202
+PUJ_009393	AAS90026.1	100	822	100.0	4.2e-303
+PUJ_009394	AAS90025.1	99	3798	100.0	0.0
+PUJ_009395	AAS90024.1	100	3239	99.52352590827874	0.0
+PUJ_009396	AAS90023.1	99	532	100.0	2.5e-194
+PUJ_009397	AAS90022.1	100	4232	100.0	0.0
+PUJ_009398	AAS90021.1	99	1016	100.0	0.0
+
+
+
+>>
+4. BGC0000006.3
+Source: aflatoxin B1/aflatoxin B2
+Type: PKS
+Number of proteins with BLAST hits to this cluster: 10
+Cumulative BLAST score: 16568.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_009389	AAS90100.1	96	976	66.44204851752022	0.0
+PUJ_009390	AAS90094.1	99	787	100.0	3.9e-291
+PUJ_009391	AAS90098.1	100	605	94.15584415584416	1.21e-221
+PUJ_009392	AAS90097.1	99	551	100.0	1.03e-201
+PUJ_009393	AAS90091.1	100	822	100.0	4.2e-303
+PUJ_009394	AAS90095.1	99	3801	100.0	0.0
+PUJ_009395	AAS90111.1	100	3239	99.52352590827874	0.0
+PUJ_009396	AAS90110.1	100	535	100.0	2.14e-195
+PUJ_009397	AAS90093.1	100	4234	100.0	0.0
+PUJ_009398	AAS90092.1	99	1018	100.0	0.0
+
+
+
+>>
+5. BGC0000004.3
+Source: aflatoxin G1
+Type: PKS
+Number of proteins with BLAST hits to this cluster: 10
+Cumulative BLAST score: 15953.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_009389	BAE71324.1	93	946	66.30727762803235	0.0
+PUJ_009390	BAE71322.1	100	615	76.80412371134021	3.33e-224
+PUJ_009391	BAE71321.1	99	598	94.15584415584416	3.32e-219
+PUJ_009392	BAE71320.1	99	547	100.0	6.93e-200
+PUJ_009393	BAE71318.1	100	816	100.0	5.71e-301
+PUJ_009394	BAE71317.1	99	3792	100.0	0.0
+PUJ_009395	BAE71316.1	99	3236	100.0	0.0
+PUJ_009396	BAE71315.1	100	535	100.0	2.14e-195
+PUJ_009397	BAE71314.1	100	3992	94.45234708392604	0.0
+PUJ_009398	BAE71313.1	100	876	84.13284132841329	0.0
+
+
+
+>>
+6. BGC0000010.3
+Source: aflatoxin
+Type: PKS
+Number of proteins with BLAST hits to this cluster: 9
+Cumulative BLAST score: 12372.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_009389	AAS90077.1	99	1006	66.44204851752022	0.0
+PUJ_009390	AAS90074.1	99	787	100.0	3.9e-291
+PUJ_009391	AAS90075.1	100	605	94.15584415584416	1.21e-221
+PUJ_009392	AAS90073.1	100	552	100.0	7.22e-202
+PUJ_009393	AAS90086.1	100	822	100.0	4.2e-303
+PUJ_009394	AAS90085.1	99	3798	100.0	0.0
+PUJ_009395	AAS90071.1	100	3238	99.52352590827874	0.0
+PUJ_009396	AAS90070.1	100	537	100.0	3.71e-196
+PUJ_009398	AAS90069.1	99	1027	100.0	0.0
+
+
+
+>>
+7. BGC0000011.3
+Source: Sterigmatocystin/Aflatoxin B1/Aflatoxin B2
+Type: PKS
+Number of proteins with BLAST hits to this cluster: 8
+Cumulative BLAST score: 8163.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_009389	ACH72913.2	76	796	66.30727762803235	2.75e-287
+PUJ_009390	ACI31321.1	68	555	97.9381443298969	2.65e-199
+PUJ_009391	ACH72902.1	52	323	97.40259740259741	1.38e-110
+PUJ_009392	ACH72904.1	68	348	96.0431654676259	7.35e-121
+PUJ_009394	ACH72900.1	47	1672	101.15546218487394	0.0
+PUJ_009395	ACH72901.1	49	1435	99.5830851697439	0.0
+PUJ_009396	ACH72908.1	65	320	93.72693726937268	1.04e-110
+PUJ_009397	ACH72912.1	62	2714	104.9312470365102	0.0
+
+
+
+>>
+8. BGC0000977.4
+Source: cyclopiazonic acid/2-oxocyclopiazonic acid
+Type: NRPS:Type I+PKS
+Number of proteins with BLAST hits to this cluster: 4
+Cumulative BLAST score: 9573.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_009400	BAK26557.1	97	932	74.69879518072288	0.0
+PUJ_009401	BAK26560.1	94	884	100.0	0.0
+PUJ_009402	BAK26562.1	90	6998	101.03439358675976	0.0
+PUJ_009403	BAK26563.1	94	759	105.0632911392405	1.66e-276
+
+
+
+>>
+9. BGC0000152.3
+Source: sterigmatocystin
+Type: PKS
+Number of proteins with BLAST hits to this cluster: 6
+Cumulative BLAST score: 5754.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_009389	AAC49203.1	66	690	68.59838274932615	4.5e-245
+PUJ_009390	AAC49206.1	67	547	98.4536082474227	2.92e-196
+PUJ_009391	AAC49197.1	51	293	92.53246753246754	7.45e-99
+PUJ_009395	AAC49198.1	48	1376	100.35735556879095	0.0
+PUJ_009396	AAC49194.1	57	285	94.4649446494465	6.17e-97
+PUJ_009397	AAC49191.1	60	2563	105.35798956851588	0.0
+
+
+
+>>
+10. BGC0001874.4
+Source: α-cyclopiazonic acid
+Type: NRPS:Type I+PKS
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 8441.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_009401	AFA26383.1	99	924	100.0	0.0
+PUJ_009402	AFA26384.1	97	7517	101.00853374709078	0.0
+

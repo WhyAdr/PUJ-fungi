@@ -1,0 +1,57 @@
+ClusterBlast scores for 904
+
+Table of genes, locations, strands and annotations of query cluster:
+PUJ_008905	211375	216265	+	Tricalbin-2	
+PUJ_008906	222073	224627	+	hypothetical protein	
+PUJ_008907	225040	227566	+	hypothetical protein	
+PUJ_008908	232600	233858	-	Plasma membrane sulfite pump involved in sulfite metabolism	
+PUJ_008909	238273	239815	+	hypothetical protein	
+PUJ_008910	240785	243812	-	hypothetical protein	
+PUJ_008911	249313	250416	-	hypothetical protein	
+PUJ_008912	252240	253525	-	hypothetical protein	
+PUJ_008913	256277	267602	+	hypothetical protein	
+PUJ_008914	268140	269519	+	hypothetical protein	
+PUJ_008915	269637	271433	-	hypothetical protein	
+PUJ_008916	272052	277542	-	hypothetical protein	
+PUJ_008917	278002	279199	-	hypothetical protein	
+PUJ_008918	280744	281830	-	hypothetical protein	
+PUJ_008919	285046	287230	+	hypothetical protein	
+PUJ_008920	287770	289417	-	hypothetical protein	
+PUJ_008921	292959	294893	+	hypothetical protein	
+
+
+Significant hits: 
+1. BGC0000404.4	penicillin
+2. BGC0000405.5	δ-(L-α-aminoadipyl)-L-cysteine-D-valine/isopenicillin N/benzylpenicillin/phenoxymethylpenicillin
+
+
+Details:
+
+>>
+1. BGC0000404.4
+Source: penicillin
+Type: NRPS:Type I
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 6518.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_008912	ABA70584.1	85	630	100.0	5.32e-230
+PUJ_008913	ABA70582.1	79	5888	100.85265121236344	0.0
+
+
+
+>>
+2. BGC0000405.5
+Source: δ-(L-α-aminoadipyl)-L-cysteine-D-valine/isopenicillin N/benzylpenicillin/phenoxymethylpenicillin
+Type: NRPS:Type I
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 6444.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_008912	ABR12617.1	85	630	100.0	5.32e-230
+PUJ_008913	ABR12615.1	79	5814	99.65361044497735	0.0
+

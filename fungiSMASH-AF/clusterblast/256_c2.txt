@@ -1,0 +1,188 @@
+ClusterBlast scores for 256
+
+Table of genes, locations, strands and annotations of query cluster:
+PUJ_001527	935361	936837	-	hypothetical protein	
+PUJ_001528	937281	938795	-	hypothetical protein	
+PUJ_001529	939269	940919	+	hypothetical protein	
+PUJ_001530	942386	944988	+	suppressor of glycerol defect	
+PUJ_001531	948795	949863	+	hypothetical protein	
+PUJ_001532	950486	952619	-	hypothetical protein	
+PUJ_001533	953497	954951	-	hypothetical protein	
+PUJ_001534	955511	956693	-	hypothetical protein	
+PUJ_001535	957731	959312	-	hypothetical protein	
+
+
+Significant hits: 
+1. NC_064656	Penicillium oxalicum strain HP7-1 chromosome VII, whole genome shotgun sequence
+2. NW_024467301	Aspergillus ruber CBS 135680 unplaced genomic scaffold scaffold00005, whole genome shotgun sequence
+3. NC_057365	Aspergillus chevalieri M1 DNA, chromosome 4, nearly complete sequence
+4. NW_019170467	Aspergillus glaucus CBS 516.65 unplaced genomic scaffold ASPGLscaffold_15, whole genome shotgun sequence
+5. NW_025953041	Daldinia caldariorum strain CBS 122874 unplaced genomic scaffold F4812scaffold_5, whole genome shotgun sequence
+6. NW_026054552	Daldinia decipiens strain CBS 113046 unplaced genomic scaffold F4813scaffold_9, whole genome shotgun sequence
+7. NW_017253366	Paraphaeosphaeria sporulosa strain AP3s5-JAC2a unplaced genomic scaffold CC84scaffold_7, whole genome shotgun sequence
+8. NW_025953811	Annulohypoxylon truncatum strain CBS 140777 unplaced genomic scaffold F4807scaffold_25, whole genome shotgun sequence
+9. NW_026250023	Hypoxylon trugodes strain CBS 135444 unplaced genomic scaffold F4822scaffold_8, whole genome shotgun sequence
+10. NC_026474	Fusarium graminearum PH-1 chromosome 1, whole genome shotgun sequence
+
+
+Details:
+
+>>
+1. NC_064656
+Source: Penicillium oxalicum strain HP7-1 chromosome VII, whole genome shotgun sequence
+Type: terpene
+Number of proteins with BLAST hits to this cluster: 4
+Cumulative BLAST score: 2531.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_001527	POX_g08927	89	764	100.0	1.3e-279
+PUJ_001528	POX_g08926	68	495	99.18032786885246	3.13e-174
+PUJ_001529	POX_g08925	36	317	129.87249544626593	1.16e-97
+PUJ_001530	POX_g08919	65	955	104.47058823529412	0.0
+
+
+
+>>
+2. NW_024467301
+Source: Aspergillus ruber CBS 135680 unplaced genomic scaffold scaffold00005, whole genome shotgun sequence
+Type: NI-siderophore
+Number of proteins with BLAST hits to this cluster: 5
+Cumulative BLAST score: 3555.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_001529	EURHEDRAFT_293790	54	471	97.44990892531877	5.36e-160
+PUJ_001530	EURHEDRAFT_409665	66	981	103.29411764705883	0.0
+PUJ_001532	EURHEDRAFT_528983	71	891	97.3561430793157	0.0
+PUJ_001533	EURHEDRAFT_473256	78	705	100.0	3.9e-255
+PUJ_001535	EURHEDRAFT_528986	54	507	94.29657794676805	1.87e-174
+
+
+
+>>
+3. NC_057365
+Source: Aspergillus chevalieri M1 DNA, chromosome 4, nearly complete sequence
+Type: NI-siderophore
+Number of proteins with BLAST hits to this cluster: 4
+Cumulative BLAST score: 3132.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_001530	ACHE_40476S	67	1012	102.82352941176471	0.0
+PUJ_001532	ACHE_40479A	74	898	93.62363919129082	0.0
+PUJ_001533	ACHE_40481A	80	711	99.77375565610859	2.03e-257
+PUJ_001535	ACHE_40482A	55	511	92.77566539923954	7.05e-176
+
+
+
+>>
+4. NW_019170467
+Source: Aspergillus glaucus CBS 516.65 unplaced genomic scaffold ASPGLscaffold_15, whole genome shotgun sequence
+Type: NI-siderophore
+Number of proteins with BLAST hits to this cluster: 4
+Cumulative BLAST score: 3095.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_001530	ASPGLDRAFT_130596	67	992	104.11764705882354	0.0
+PUJ_001532	ASPGLDRAFT_175223	71	895	97.3561430793157	0.0
+PUJ_001533	ASPGLDRAFT_37265	78	704	100.0	7.86e-255
+PUJ_001535	ASPGLDRAFT_49335	54	504	92.58555133079848	2.55e-173
+
+
+
+>>
+5. NW_025953041
+Source: Daldinia caldariorum strain CBS 122874 unplaced genomic scaffold F4812scaffold_5, whole genome shotgun sequence
+Type: NRPS-like
+Number of proteins with BLAST hits to this cluster: 3
+Cumulative BLAST score: 1200.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_001527	F4812DRAFT_457758	77	680	99.27184466019418	1.07e-245
+PUJ_001528	F4812DRAFT_322562	56	391	94.53551912568307	2.16e-133
+PUJ_001529	F4812DRAFT_322674	41	129	32.42258652094718	3.39e-29
+
+
+
+>>
+6. NW_026054552
+Source: Daldinia decipiens strain CBS 113046 unplaced genomic scaffold F4813scaffold_9, whole genome shotgun sequence
+Type: NRPS-like
+Number of proteins with BLAST hits to this cluster: 3
+Cumulative BLAST score: 1196.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_001527	F4813DRAFT_379742	76	674	99.75728155339806	1.16e-237
+PUJ_001528	F4813DRAFT_379742	58	394	94.53551912568307	6.37e-129
+PUJ_001529	F4813DRAFT_401512	40	128	32.42258652094718	5.41e-29
+
+
+
+>>
+7. NW_017253366
+Source: Paraphaeosphaeria sporulosa strain AP3s5-JAC2a unplaced genomic scaffold CC84scaffold_7, whole genome shotgun sequence
+Type: T1PKS
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 1097.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_001527	CC84DRAFT_1149260	79	683	100.24271844660196	2.56e-247
+PUJ_001528	CC84DRAFT_1260787	57	414	94.26229508196722	1.23e-142
+
+
+
+>>
+8. NW_025953811
+Source: Annulohypoxylon truncatum strain CBS 140777 unplaced genomic scaffold F4807scaffold_25, whole genome shotgun sequence
+Type: NRPS-like
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 1066.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_001527	F4807DRAFT_165911	78	679	99.27184466019418	4.43e-245
+PUJ_001528	F4807DRAFT_433230	56	387	93.44262295081968	4.06e-131
+
+
+
+>>
+9. NW_026250023
+Source: Hypoxylon trugodes strain CBS 135444 unplaced genomic scaffold F4822scaffold_8, whole genome shotgun sequence
+Type: NRPS-like
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 1057.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_001527	F4822DRAFT_340834	76	668	99.75728155339806	8.71e-241
+PUJ_001528	F4822DRAFT_340948	56	389	93.98907103825137	1.28e-132
+
+
+
+>>
+10. NC_026474
+Source: Fusarium graminearum PH-1 chromosome 1, whole genome shotgun sequence
+Type: NRPS-like
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 466.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_001532	FGSG_10627	34	224	67.80715396578539	2.57e-60
+PUJ_001533	FGSG_10612	37	242	99.09502262443439	2.84e-73
+

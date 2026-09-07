@@ -1,0 +1,30 @@
+ClusterBlast scores for 485
+
+Table of genes, locations, strands and annotations of query cluster:
+PUJ_005954	668386	669082	+	hypothetical protein	
+PUJ_005955	669917	671404	+	hypothetical protein	
+PUJ_005956	671537	671897	-	hypothetical protein	
+PUJ_005957	673543	674741	-	hypothetical protein	
+PUJ_005958	675510	676904	-	hypothetical protein	
+PUJ_005959	676972	678522	-	hypothetical protein	
+PUJ_005960	680239	681733	-	hypothetical protein	
+PUJ_005961	682299	683763	+	hypothetical protein	
+PUJ_005962	683810	685542	-	hypothetical protein	
+PUJ_005963	687914	689252	-	hypothetical protein	
+PUJ_005964	689553	690026	+	hypothetical protein	
+PUJ_005965	690237	691560	+	hypothetical protein	
+PUJ_005966	691848	693657	+	hypothetical protein	
+PUJ_005967	693900	695463	+	hypothetical protein	
+PUJ_005968	697839	709803	-	hypothetical protein	
+PUJ_005969	713557	714925	+	hypothetical protein	
+PUJ_005970	717956	719669	-	hypothetical protein	
+PUJ_005971	722529	723624	-	hypothetical protein	
+PUJ_005972	732126	733954	-	catalase A	
+PUJ_005973	734853	736755	+	hypothetical protein	
+PUJ_005974	737233	739732	-	hypothetical protein	
+
+
+Significant hits: 
+
+
+Details:

@@ -1,0 +1,90 @@
+ClusterBlast scores for 485
+
+Table of genes, locations, strands and annotations of query cluster:
+PUJ_005866	347503	348880	-	Chitinase 2	
+PUJ_005867	356080	357514	-	hypothetical protein	
+PUJ_005868	359881	362159	+	hypothetical protein	
+PUJ_005869	362887	363205	+	hypothetical protein	
+PUJ_005870	363996	365592	+	hypothetical protein	
+PUJ_005871	365948	367707	-	hypothetical protein	
+PUJ_005872	368697	370139	+	hypothetical protein	
+PUJ_005873	371667	372785	-	hypothetical protein	
+PUJ_005874	373467	376596	+	hypothetical protein	
+PUJ_005875	377992	379093	+	hypothetical protein	
+PUJ_005876	383974	385090	-	hypothetical protein	
+PUJ_005877	386271	387537	-	hypothetical protein	
+PUJ_005878	393636	395613	-	hypothetical protein	
+PUJ_005879	402774	404888	-	hypothetical protein	
+
+
+Significant hits: 
+1. BGC0002167.2	actinopolymorphol C/morpholine containing hemiacetal piperazine compound/piperazine compound 2/piperazine compound 1/3-(p-hydroxyphenyl)-1,2-propanediol/N,N-dioxide containing derivate/O-sulfonated actinopolymorphol C/C-3 sulfonylated derivative
+2. BGC0002146.2	FR901483
+3. BGC0002264.3	hancockiamide E/hancockiamide B/hancockiamide C/hancockiamide D/hancockiamide A/hancockiamide F
+4. BGC0002278.3	brasiliamide I/brasiliamide A/brasiliamide B/2,2-dibenzylpiperazine/brasiliamide D
+
+
+Details:
+
+>>
+1. BGC0002167.2
+Source: actinopolymorphol C/morpholine containing hemiacetal piperazine compound/piperazine compound 2/piperazine compound 1/3-(p-hydroxyphenyl)-1,2-propanediol/N,N-dioxide containing derivate/O-sulfonated actinopolymorphol C/C-3 sulfonylated derivative
+Type: NRPS:Type I
+Number of proteins with BLAST hits to this cluster: 6
+Cumulative BLAST score: 6338.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_005870	G4B84_009370	100	962	100.0	0.0
+PUJ_005871	G4B84_009369	99	1012	100.0	0.0
+PUJ_005872	G4B84_009368	99	887	100.0	0.0
+PUJ_005873	G4B84_009367	100	692	100.0	2.57e-255
+PUJ_005874	G4B84_009366	99	2066	100.0	0.0
+PUJ_005875	G4B84_009365	100	719	100.0	6.69e-265
+
+
+
+>>
+2. BGC0002146.2
+Source: FR901483
+Type: NRPS:Type I
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 1643.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_005873	QQO98486.1	65	461	98.80239520958084	3.4e-164
+PUJ_005874	QQO98485.1	59	1182	99.42418426103646	0.0
+
+
+
+>>
+3. BGC0002264.3
+Source: hancockiamide E/hancockiamide B/hancockiamide C/hancockiamide D/hancockiamide A/hancockiamide F
+Type: NRPS:Type I
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 1560.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_005873	BBP40_009479	61	417	99.40119760479041	7.05e-147
+PUJ_005874	BBP40_009478	57	1143	98.17658349328215	0.0
+
+
+
+>>
+4. BGC0002278.3
+Source: brasiliamide I/brasiliamide A/brasiliamide B/2,2-dibenzylpiperazine/brasiliamide D
+Type: other:other+NRPS:Type I
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 1545.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_005873	PMG11_03955	63	428	97.60479041916167	3.65e-151
+PUJ_005874	PMG11_03954	56	1117	98.75239923224568	0.0
+

@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8" />
+<link rel="stylesheet" type="text/css" href="../../css/style.css">
+
+<script type="text/javascript" src="../../js/jquery.js"></script>
+<script type="text/javascript" src="../../js/jquery.tablesorter.min.js"></script>
+
+<script type="text/javascript" >
+var counter = 1;
+function addInput(divName){
+     var newdiv = document.createElement('div');
+     newdiv.innerHTML = "<b>Locus " + (counter + 1) + "</b><br> GenBank accession: <input type='text' required name='myInputs[]'> Start nt: <input type='number' name='myStartCoords[]' placeholder='N/A'> End nt: <input type='number' name='myEndCoords[]' placeholder='N/A'> <br><br>";
+     document.getElementById(divName).appendChild(newdiv);
+     counter++;
+}
+</script>
+
+<script>
+$(document).ready(function()
+    {
+        $("#myTable").tablesorter();
+    }
+);
+
+</script>
+<style>
+table {
+    border-width: thin;
+    border-spacing: 2px;
+    border-style: none;
+    border-color: black;
+}
+</style>
+</head>
+<body>
+    <table id="myTable" class="tablesorter" border=1>
+    <thead>
+    <tr>
+        <th>MIBiG Protein</th>
+        <th>Description</th>
+        <th>MIBiG Cluster</th>
+        <th>MiBiG Product</th>
+        <th>% ID</th>
+        <th>% Coverage</th>
+        <th>BLAST Score</th>
+        <th>E-value</th>
+    </tr>
+    </thead>
+    <tbody>
+    
+          <tr>
+              <td>AGO65988.1</td>
+              <td>putative_cytochrome_p450</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0000992.4">BGC0000992.4</a></td>
+              <td>NRPS:Type I+PKS</td>
+              <td>27.0</td>
+              <td>123.3</td>
+              <td>159.0</td>
+              <td>4.14e-43</td>
+          </tr>
+    
+          <tr>
+              <td>QNH68019.1</td>
+              <td>PfpB</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0002268.3">BGC0002268.3</a></td>
+              <td>PKS+NRPS:Type I</td>
+              <td>27.0</td>
+              <td>83.4</td>
+              <td>141.0</td>
+              <td>9.25e-37</td>
+          </tr>
+    
+          <tr>
+              <td>QBQ83705.1</td>
+              <td>ring_expansion_P450</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0002093.2">BGC0002093.2</a></td>
+              <td>PKS+NRPS:Type I</td>
+              <td>26.0</td>
+              <td>84.8</td>
+              <td>139.0</td>
+              <td>4.49e-36</td>
+          </tr>
+    
+          <tr>
+              <td>EPS34235.1</td>
+              <td>hypothetical_protein</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0002067.3">BGC0002067.3</a></td>
+              <td>NRPS:Type I+PKS:Iterative type I</td>
+              <td>25.0</td>
+              <td>83.4</td>
+              <td>135.0</td>
+              <td>1.28e-34</td>
+          </tr>
+    
+          <tr>
+              <td>AKC54420.1</td>
+              <td>cytochrome_P450_monooxygenase</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0001218.3">BGC0001218.3</a></td>
+              <td>NRPS:Type I+PKS</td>
+              <td>24.0</td>
+              <td>83.4</td>
+              <td>111.0</td>
+              <td>3.39e-26</td>
+          </tr>
+    
+          <tr>
+              <td>ADN43682.1</td>
+              <td>DmbA</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0001136.4">BGC0001136.4</a></td>
+              <td>NRPS:Type I+PKS:Iterative type I</td>
+              <td>22.0</td>
+              <td>78.8</td>
+              <td>102.0</td>
+              <td>4.58e-23</td>
+          </tr>
+    
+          <tr>
+              <td>XP_011392749.1</td>
+              <td>Cytochrome_P450_enzyme_invovled_in_Glycolipid_production</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0001281.3">BGC0001281.3</a></td>
+              <td>PKS</td>
+              <td>22.0</td>
+              <td>81.1</td>
+              <td>56.0</td>
+              <td>4.09e-08</td>
+          </tr>
+    
+          <tr>
+              <td>CBF77085.1</td>
+              <td>cytochrome_P450,_putative_(Eurofung)</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0001679.3">BGC0001679.3</a></td>
+              <td>NRPS:Type I</td>
+              <td>25.0</td>
+              <td>79.7</td>
+              <td>49.0</td>
+              <td>9.84e-06</td>
+          </tr>
+    
+    </tbody>
+  </table>
+</body>

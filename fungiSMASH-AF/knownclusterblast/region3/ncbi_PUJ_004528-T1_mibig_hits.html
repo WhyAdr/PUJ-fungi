@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8" />
+<link rel="stylesheet" type="text/css" href="../../css/style.css">
+
+<script type="text/javascript" src="../../js/jquery.js"></script>
+<script type="text/javascript" src="../../js/jquery.tablesorter.min.js"></script>
+
+<script type="text/javascript" >
+var counter = 1;
+function addInput(divName){
+     var newdiv = document.createElement('div');
+     newdiv.innerHTML = "<b>Locus " + (counter + 1) + "</b><br> GenBank accession: <input type='text' required name='myInputs[]'> Start nt: <input type='number' name='myStartCoords[]' placeholder='N/A'> End nt: <input type='number' name='myEndCoords[]' placeholder='N/A'> <br><br>";
+     document.getElementById(divName).appendChild(newdiv);
+     counter++;
+}
+</script>
+
+<script>
+$(document).ready(function()
+    {
+        $("#myTable").tablesorter();
+    }
+);
+
+</script>
+<style>
+table {
+    border-width: thin;
+    border-spacing: 2px;
+    border-style: none;
+    border-color: black;
+}
+</style>
+</head>
+<body>
+    <table id="myTable" class="tablesorter" border=1>
+    <thead>
+    <tr>
+        <th>MIBiG Protein</th>
+        <th>Description</th>
+        <th>MIBiG Cluster</th>
+        <th>MiBiG Product</th>
+        <th>% ID</th>
+        <th>% Coverage</th>
+        <th>BLAST Score</th>
+        <th>E-value</th>
+    </tr>
+    </thead>
+    <tbody>
+    
+          <tr>
+              <td>EED53480.1</td>
+              <td>O-methyltransferase,_putative</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0001304.3">BGC0001304.3</a></td>
+              <td>PKS</td>
+              <td>99.0</td>
+              <td>100.0</td>
+              <td>822.0</td>
+              <td>2.94e-304</td>
+          </tr>
+    
+          <tr>
+              <td>KIA75453.1</td>
+              <td>O-methyltransferase</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0002208.3">BGC0002208.3</a></td>
+              <td>NRPS:Type I</td>
+              <td>36.0</td>
+              <td>93.2</td>
+              <td>255.0</td>
+              <td>8.2e-81</td>
+          </tr>
+    
+          <tr>
+              <td>ACH72896.1</td>
+              <td>AflO</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0000011.3">BGC0000011.3</a></td>
+              <td>PKS</td>
+              <td>31.0</td>
+              <td>82.0</td>
+              <td>160.0</td>
+              <td>5.53e-45</td>
+          </tr>
+    
+          <tr>
+              <td>ACD39755.1</td>
+              <td>O-methyltransferase</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0000076.3">BGC0000076.3</a></td>
+              <td>PKS</td>
+              <td>31.0</td>
+              <td>90.2</td>
+              <td>153.0</td>
+              <td>4.54e-42</td>
+          </tr>
+    
+          <tr>
+              <td>ACD39764.1</td>
+              <td>O-methyltransferase</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0000077.3">BGC0000077.3</a></td>
+              <td>PKS</td>
+              <td>31.0</td>
+              <td>90.2</td>
+              <td>153.0</td>
+              <td>4.54e-42</td>
+          </tr>
+    
+          <tr>
+              <td>KKP04593.1</td>
+              <td>hypothetical_protein</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0002066.3">BGC0002066.3</a></td>
+              <td>NRPS:Type I+PKS:Iterative type I</td>
+              <td>32.0</td>
+              <td>79.5</td>
+              <td>150.0</td>
+              <td>3.49e-41</td>
+          </tr>
+    
+          <tr>
+              <td>AAS90065.1</td>
+              <td>OmtA</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0000009.3">BGC0000009.3</a></td>
+              <td>PKS</td>
+              <td>29.0</td>
+              <td>82.9</td>
+              <td>135.0</td>
+              <td>2.42e-35</td>
+          </tr>
+    
+          <tr>
+              <td>QPP19361.1</td>
+              <td>Pen4-1</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0002501.3">BGC0002501.3</a></td>
+              <td>other:other</td>
+              <td>28.0</td>
+              <td>83.4</td>
+              <td>134.0</td>
+              <td>5.24e-35</td>
+          </tr>
+    
+          <tr>
+              <td>AAS90041.1</td>
+              <td>OmtA</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0000008.3">BGC0000008.3</a></td>
+              <td>PKS</td>
+              <td>29.0</td>
+              <td>87.3</td>
+              <td>134.0</td>
+              <td>5.98e-35</td>
+          </tr>
+    
+          <tr>
+              <td>AAS90087.1</td>
+              <td>OmtA</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0000010.3">BGC0000010.3</a></td>
+              <td>PKS</td>
+              <td>28.0</td>
+              <td>87.3</td>
+              <td>134.0</td>
+              <td>8.25e-35</td>
+          </tr>
+    
+          <tr>
+              <td>BAE71329.1</td>
+              <td>o-methyltransferase_A</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0000004.3">BGC0000004.3</a></td>
+              <td>PKS</td>
+              <td>28.0</td>
+              <td>87.3</td>
+              <td>133.0</td>
+              <td>1.57e-34</td>
+          </tr>
+    
+          <tr>
+              <td>AAS90104.1</td>
+              <td>OmtA</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0000006.3">BGC0000006.3</a></td>
+              <td>PKS</td>
+              <td>28.0</td>
+              <td>87.3</td>
+              <td>131.0</td>
+              <td>5.72e-34</td>
+          </tr>
+    
+          <tr>
+              <td>AAS90018.1</td>
+              <td>OmtA</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0000007.3">BGC0000007.3</a></td>
+              <td>PKS</td>
+              <td>28.0</td>
+              <td>87.3</td>
+              <td>130.0</td>
+              <td>2.07e-33</td>
+          </tr>
+    
+          <tr>
+              <td>PKY07889.1</td>
+              <td>S-adenosyl-L-methionine-dependent_methyltransferase</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0001544.3">BGC0001544.3</a></td>
+              <td>NRPS:Type I+PKS</td>
+              <td>29.0</td>
+              <td>92.4</td>
+              <td>129.0</td>
+              <td>2.37e-33</td>
+          </tr>
+    
+          <tr>
+              <td>QPP19362.1</td>
+              <td>PenK</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0002501.3">BGC0002501.3</a></td>
+              <td>other:other</td>
+              <td>29.0</td>
+              <td>77.3</td>
+              <td>131.0</td>
+              <td>3.58e-33</td>
+          </tr>
+    
+          <tr>
+              <td>ACZ66252.1</td>
+              <td>APS6</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0000304.4">BGC0000304.4</a></td>
+              <td>NRPS:Type I</td>
+              <td>27.0</td>
+              <td>90.5</td>
+              <td>102.0</td>
+              <td>1.07e-23</td>
+          </tr>
+    
+          <tr>
+              <td>WP_078845185.1</td>
+              <td>methyltransferase</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0001596.3">BGC0001596.3</a></td>
+              <td>PKS:Type II aromatic</td>
+              <td>24.0</td>
+              <td>76.3</td>
+              <td>65.0</td>
+              <td>3.24e-11</td>
+          </tr>
+    
+          <tr>
+              <td>AKQ20697.1</td>
+              <td>O-methyltransferase</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0001337.5">BGC0001337.5</a></td>
+              <td>other:other</td>
+              <td>26.0</td>
+              <td>72.4</td>
+              <td>54.0</td>
+              <td>1.21e-07</td>
+          </tr>
+    
+    </tbody>
+  </table>
+</body>

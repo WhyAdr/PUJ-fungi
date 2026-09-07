@@ -1,0 +1,875 @@
+ClusterBlast scores for 482
+
+Table of genes, locations, strands and annotations of query cluster:
+PUJ_005730	1484357	1486321	+	signal recognition particle subunit srp68	
+PUJ_005731	1488567	1490401	+	RNA polymerase C-22 sterol desaturase	
+PUJ_005732	1492581	1494453	-	eukaryotic translation initiation factor 5B	
+PUJ_005733	1498218	1500323	-	hypothetical protein	
+PUJ_005734	1501895	1503262	+	GTPase-activating protein gyp8	
+PUJ_005735	1503595	1504693	+	hypothetical protein	
+PUJ_005736	1508009	1508768	+	hypothetical protein	
+PUJ_005737	1510008	1513044	-	hypothetical protein	
+PUJ_005738	1515513	1516060	-	hypothetical protein	
+PUJ_005739	1516918	1518743	-	hypothetical protein	
+PUJ_005740	1520527	1523436	+	hypothetical protein	
+PUJ_005741	1523840	1524458	-	hypothetical protein	
+PUJ_005742	1525093	1526465	-	hypothetical protein	
+PUJ_005743	1526861	1529052	-	Vacuolar protein sorting-associated protein 52	
+PUJ_005744	1529640	1530406	+	translation initiation factor eIF5A	
+PUJ_005745	1531059	1533117	+	hypothetical protein	
+PUJ_005746	1533683	1534610	+	hypothetical protein	
+PUJ_005747	1535547	1539736	-	hypothetical protein	
+PUJ_005748	1541749	1542892	-	hypothetical protein	
+
+
+Significant hits: 
+1. NC_054692	Aspergillus flavus NRRL3357 chromosome 2, complete sequence
+2. NC_036436	Aspergillus oryzae RIB40 DNA, chromosome 2
+3. NC_058399	Fusarium poae strain DAOMC 252244 chromosome 1, whole genome shotgun sequence
+4. NC_038012	Fusarium venenatum strain A3/5 genome assembly, chromosome: I
+5. NZ_CP114039	Corallococcus sp. NCRR chromosome, complete genome
+6. NC_017030	Corallococcus coralloides DSM 2259, complete sequence
+7. NW_025091268	Aspergillus udagawae IFM 46973 DNA, scaffold_5, whole genome shotgun sequence
+8. NW_020292122	Aspergillus ibericus CBS 121593 unplaced genomic scaffold BO80scaffold_24, whole genome shotgun sequence
+9. NW_024468981	Aspergillus fijiensis CBS 313.89 unplaced genomic scaffold BO72scaffold_5, whole genome shotgun sequence
+10. NW_025091266	Aspergillus udagawae IFM 46973 DNA, scaffold_3, whole genome shotgun sequence
+11. NW_025091270	Aspergillus udagawae IFM 46973 DNA, scaffold_7, whole genome shotgun sequence
+12. NW_020290646	Aspergillus saccharolyticus JOP 1030-1 unplaced genomic scaffold BP01scaffold_36, whole genome shotgun sequence
+13. NC_054858	Aspergillus puulaauensis MK2 DNA, chromosome 2, nearly complete sequence
+14. NZ_CP009684	Bacillus subtilis strain B-1 chromosome
+15. NZ_CP070223	Hydrogenophaga sp. YM1 chromosome, complete genome
+16. NZ_MIYM01000002	Hydrogenophaga sp. PML113 NODE_2_length_564035_cov_276.707_ID_485, whole genome shotgun sequence
+17. NZ_KB913022	Salinispora pacifica DSM 45543 = CNS-863 strain DSM 45543 SALPACDRAFT_scaffold1.1, whole genome shotgun sequence
+18. NZ_KB913027	Salinispora pacifica DSM 45546 = CNT-133 strain DSM 45546 Salpac5DRAFT_scaffold1.1, whole genome shotgun sequence
+19. NZ_SLXS01000006	Tumebacillus sp. BK434 Ga0307714_106, whole genome shotgun sequence
+20. NZ_CP012673	Sorangium cellulosum strain So ce26 chromosome, complete genome
+21. NZ_CP073656	Bacillus velezensis strain Y816 chromosome, complete genome
+22. NZ_CP066337	Bacillus velezensis strain Mr12 chromosome, complete genome
+23. NZ_CP107556	Bacillus velezensis strain Bacillus velezensis F3A chromosome, complete genome
+24. NZ_CP053764	Bacillus velezensis strain B268 chromosome, complete genome
+25. NZ_CP063768	Bacillus velezensis strain KMU01 chromosome, complete genome
+26. NZ_CP017747	Bacillus velezensis strain SYBC H47 chromosome, complete genome
+27. NZ_CP061087	Bacillus velezensis strain CLA178 chromosome, complete genome
+28. NZ_CP021011	Bacillus velezensis strain GFP-2 chromosome, complete genome
+29. NZ_CP040672	Bacillus amyloliquefaciens strain X030 chromosome, complete genome
+30. NZ_CP068563	Bacillus velezensis strain GUMT319 chromosome, complete genome
+31. NZ_CP069391	Bacillus velezensis strain Sam8H1 chromosome, complete genome
+32. NZ_CP016371	Bacillus velezensis strain S3-1 chromosome, complete genome
+33. NZ_CP083764	Bacillus velezensis strain DMB07 chromosome, complete genome
+34. NZ_CP116013	Bacillus velezensis strain SRCM124349 chromosome, complete genome
+35. NZ_CP014990	Bacillus velezensis strain KD1 chromosome, complete genome
+36. NZ_CP087957	Bacillus velezensis strain B-001 chromosome, complete genome
+37. NZ_CP047119	Bacillus velezensis strain AK-0 chromosome, complete genome
+38. NZ_CP082243	Bacillus amyloliquefaciens strain JP3042 chromosome, complete genome
+39. NZ_CP027429	Bacillus velezensis strain VCC-2003 chromosome
+40. NZ_CP061938	Bacillus velezensis strain FIO1408 chromosome, complete genome
+41. NZ_CP022654	Bacillus velezensis strain SCDB 291 chromosome, complete genome
+42. NZ_CP023748	Bacillus velezensis strain LABIM40 chromosome, complete genome
+43. NZ_CP072563	Bacillus sp. LJBV19 chromosome, complete genome
+44. NC_017912	Bacillus velezensis YAU B9601-Y2, complete sequence
+45. NZ_CP018133	Bacillus velezensis strain ATR2 chromosome, complete genome
+46. NZ_CP023431	Bacillus velezensis strain SCGB 574 chromosome, complete genome
+47. NZ_CP027868	Bacillus velezensis strain SGAir0473 chromosome
+48. NZ_CP033576	Bacillus velezensis strain NY12-2 chromosome, complete genome
+49. NZ_CP036527	Bacillus velezensis strain UTB96 chromosome
+50. NZ_CP043809	Bacillus velezensis strain ZeaDK315Endobac16 chromosome
+
+
+Details:
+
+>>
+1. NC_054692
+Source: Aspergillus flavus NRRL3357 chromosome 2, complete sequence
+Type: NRPS-like
+Number of proteins with BLAST hits to this cluster: 18
+Cumulative BLAST score: 16216.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_005730	G4B84_003636	100	1150	100.0	0.0
+PUJ_005731	G4B84_003635	100	1082	100.0	0.0
+PUJ_005732	G4B84_003633	100	1167	100.0	0.0
+PUJ_005733	G4B84_003632	100	1291	97.60479041916167	0.0
+PUJ_005734	G4B84_003631	81	627	123.46041055718476	3.61e-226
+PUJ_005735	G4B84_003630	100	583	100.0	1.42e-211
+PUJ_005736	G4B84_003628	100	490	100.0	1.76e-176
+PUJ_005737	G4B84_003627	98	1992	101.50602409638554	0.0
+PUJ_005738	G4B84_003626	100	293	93.82716049382715	1.16e-96
+PUJ_005739	G4B84_003625	99	407	86.99551569506725	8.82e-143
+PUJ_005740	G4B84_003624	98	1616	100.0	0.0
+PUJ_005741	G4B84_003623	98	332	88.39779005524862	1.28e-104
+PUJ_005742	G4B84_003623	96	785	99.04306220095694	1.97e-274
+PUJ_005743	G4B84_003623	100	1296	100.0	0.0
+PUJ_005744	G4B84_003622	81	265	98.76543209876543	3.62e-90
+PUJ_005745	G4B84_003621	96	1053	100.0	0.0
+PUJ_005746	G4B84_003620	99	625	100.0	5.91e-228
+PUJ_005747	G4B84_003619	97	1162	93.26186830015314	0.0
+
+
+
+>>
+2. NC_036436
+Source: Aspergillus oryzae RIB40 DNA, chromosome 2
+Type: NRPS-like
+Number of proteins with BLAST hits to this cluster: 18
+Cumulative BLAST score: 14640.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_005730	AO090003000956	100	1150	100.0	0.0
+PUJ_005731	AO090003000954	100	1082	100.0	0.0
+PUJ_005732	AO090003000953	100	1167	100.0	0.0
+PUJ_005733	AO090003000950	100	175	13.023952095808383	5.27e-49
+PUJ_005734	AO090003000949	81	627	123.46041055718476	3.61e-226
+PUJ_005735	AO090003000948	100	583	100.0	1.42e-211
+PUJ_005736	AO090003000946	100	488	100.0	1.44e-175
+PUJ_005737	AO090003000945	98	1932	99.29718875502009	0.0
+PUJ_005738	AO090003000943	100	293	93.82716049382715	1.16e-96
+PUJ_005739	AO090003000942	99	405	86.99551569506725	2.91e-142
+PUJ_005740	AO090003000941	86	1370	100.0	0.0
+PUJ_005742	AO090003000940	97	798	100.0	5.1e-293
+PUJ_005743	AO090003000939	100	1301	100.0	0.0
+PUJ_005744	AO090003000938	99	331	100.0	1.68e-116
+PUJ_005745	AO090003000936	100	712	65.69343065693431	1.92e-257
+PUJ_005745	AO090003000937	66	232	33.394160583941606	1.99e-72
+PUJ_005746	AO090003000935	100	630	100.0	6.16e-230
+PUJ_005747	AO090003000933	97	695	53.59877488514548	7.08e-248
+PUJ_005748	AO090003000932	99	669	90.26315789473685	1.17e-243
+
+
+
+>>
+3. NC_058399
+Source: Fusarium poae strain DAOMC 252244 chromosome 1, whole genome shotgun sequence
+Type: NRPS,T1PKS
+Number of proteins with BLAST hits to this cluster: 6
+Cumulative BLAST score: 2263.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_005731	FPOAC1_002075	67	686	93.75	1.32e-244
+PUJ_005734	FPOAC1_002069	39	223	110.26392961876832	9.39e-68
+PUJ_005735	FPOAC1_002073	63	350	94.01993355481729	6.44e-120
+PUJ_005743	FPOAC1_002070	47	543	99.5575221238938	3.14e-184
+PUJ_005744	FPOAC1_002071	75	244	96.91358024691358	7.24e-82
+PUJ_005745	FPOAC1_002072	32	217	95.98540145985402	1.56e-61
+
+
+
+>>
+4. NC_038012
+Source: Fusarium venenatum strain A3/5 genome assembly, chromosome: I
+Type: NRPS,T1PKS
+Number of proteins with BLAST hits to this cluster: 6
+Cumulative BLAST score: 2258.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_005731	FVRRES_02319	67	689	93.75	3.37e-245
+PUJ_005734	FVRRES_02313	39	222	110.26392961876832	2.63e-67
+PUJ_005735	FVRRES_02317	65	355	94.01993355481729	1e-121
+PUJ_005743	FVRRES_02314	47	544	99.70501474926253	1.68e-184
+PUJ_005744	FVRRES_02315	75	243	96.91358024691358	1.03e-81
+PUJ_005745	FVRRES_02316	32	205	96.53284671532847	4.13e-57
+
+
+
+>>
+5. NZ_CP114039
+Source: Corallococcus sp. NCRR chromosome, complete genome
+Type: NRPS,T1PKS
+Number of proteins with BLAST hits to this cluster: 3
+Cumulative BLAST score: 530.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_005737	O0N60_RS28250	31	241	59.63855421686747	5.24e-63
+PUJ_005738	O0N60_RS28310	48	116	77.77777777777779	7.86e-31
+PUJ_005748	O0N60_RS28200	34	173	94.73684210526315	8.39e-48
+
+
+
+>>
+6. NC_017030
+Source: Corallococcus coralloides DSM 2259, complete sequence
+Type: NRPS,T1PKS
+Number of proteins with BLAST hits to this cluster: 3
+Cumulative BLAST score: 530.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_005737	COCOR_RS44075	31	241	59.63855421686747	5.3e-63
+PUJ_005738	COCOR_RS20975	48	116	77.77777777777779	7.86e-31
+PUJ_005748	COCOR_RS21080	34	173	94.73684210526315	1.17e-47
+
+
+
+>>
+7. NW_025091268
+Source: Aspergillus udagawae IFM 46973 DNA, scaffold_5, whole genome shotgun sequence
+Type: NRPS-like,T1PKS
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 2471.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_005737	Aud_007405	73	1495	101.70682730923694	0.0
+PUJ_005737	Aud_007403	44	837	103.21285140562249	2.79e-289
+PUJ_005747	Aud_007400	34	139	49.004594180704444	3.49e-32
+
+
+
+>>
+8. NW_020292122
+Source: Aspergillus ibericus CBS 121593 unplaced genomic scaffold BO80scaffold_24, whole genome shotgun sequence
+Type: NRPS-like,T1PKS,fungal-RiPP-like
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 1368.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_005737	BO80DRAFT_502758	57	1117	99.09638554216868	0.0
+PUJ_005747	BO80DRAFT_502727	31	251	94.64012251148544	2.55e-69
+
+
+
+>>
+9. NW_024468981
+Source: Aspergillus fijiensis CBS 313.89 unplaced genomic scaffold BO72scaffold_5, whole genome shotgun sequence
+Type: NRPS,NRPS-like,T1PKS
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 1039.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_005737	BO72DRAFT_369156	45	851	102.51004016064257	3.87e-295
+PUJ_005747	BO72DRAFT_465318	31	97	39.50995405819295	9.65e-19
+PUJ_005747	BO72DRAFT_369056	31	91	37.05972434915773	1.26e-16
+
+
+
+>>
+10. NW_025091266
+Source: Aspergillus udagawae IFM 46973 DNA, scaffold_3, whole genome shotgun sequence
+Type: NRPS-like,T1PKS,terpene
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 940.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_005737	Aud_004183	35	560	102.00803212851406	2.31e-181
+PUJ_005737	Aud_004232	34	238	44.07630522088353	3.01e-62
+PUJ_005747	Aud_004226	34	142	51.76110260336907	5.77e-33
+
+
+
+>>
+11. NW_025091270
+Source: Aspergillus udagawae IFM 46973 DNA, scaffold_7, whole genome shotgun sequence
+Type: NRPS-like,T1PKS
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 781.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_005737	Aud_008870	35	544	99.09638554216868	1.83e-175
+PUJ_005747	Aud_008848	35	171	53.59877488514548	2.19e-45
+PUJ_005747	Aud_008847	41	66	15.773353751914243	1.46e-10
+
+
+
+>>
+12. NW_020290646
+Source: Aspergillus saccharolyticus JOP 1030-1 unplaced genomic scaffold BP01scaffold_36, whole genome shotgun sequence
+Type: NRPS,NRPS-like
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 608.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_005737	BP01DRAFT_405223	33	518	101.30522088353413	1.56e-165
+PUJ_005747	BP01DRAFT_359525	32	90	38.59111791730474	1.95e-17
+
+
+
+>>
+13. NC_054858
+Source: Aspergillus puulaauensis MK2 DNA, chromosome 2, nearly complete sequence
+Type: NRPS-like
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 595.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_005731	APUU_21608S	34	86	32.57575757575758	1.13e-15
+PUJ_005737	APUU_21601S	32	509	101.50602409638554	1.78e-162
+
+
+
+>>
+14. NZ_CP009684
+Source: Bacillus subtilis strain B-1 chromosome
+Type: NRPS,betalactone,transAT-PKS
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 589.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_005737	MA22_RS20440	31	232	57.329317269076306	3.83e-61
+PUJ_005737	MA22_RS12030	32	228	58.23293172690763	2.35e-59
+PUJ_005738	MA22_RS11930	54	129	76.5432098765432	1.27e-35
+
+
+
+>>
+15. NZ_CP070223
+Source: Hydrogenophaga sp. YM1 chromosome, complete genome
+Type: NRPS,T1PKS,terpene
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 504.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_005737	JNX00_RS09315	31	231	59.93975903614458	7.77e-60
+PUJ_005742	JNX00_RS09370	46	273	89.95215311004785	1.24e-86
+
+
+
+>>
+16. NZ_MIYM01000002
+Source: Hydrogenophaga sp. PML113 NODE_2_length_564035_cov_276.707_ID_485, whole genome shotgun sequence
+Type: NRPS,T1PKS,terpene
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 503.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_005737	BHU06_RS04855	31	230	59.93975903614458	1.83e-59
+PUJ_005742	BHU06_RS04800	46	273	89.95215311004785	2.47e-86
+
+
+
+>>
+17. NZ_KB913022
+Source: Salinispora pacifica DSM 45543 = CNS-863 strain DSM 45543 SALPACDRAFT_scaffold1.1, whole genome shotgun sequence
+Type: NRPS,T1PKS,indole
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 434.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_005737	SALPAC_RS0111095	32	257	59.738955823293175	2.12e-68
+PUJ_005748	SALPAC_RS0111110	34	177	97.63157894736842	1.11e-49
+
+
+
+>>
+18. NZ_KB913027
+Source: Salinispora pacifica DSM 45546 = CNT-133 strain DSM 45546 Salpac5DRAFT_scaffold1.1, whole genome shotgun sequence
+Type: NRPS,T1PKS,indole
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 428.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_005737	SALPAC5_RS0120960	32	253	59.53815261044176	2.85e-67
+PUJ_005748	SALPAC5_RS0120975	34	175	97.63157894736842	8.39e-49
+
+
+
+>>
+19. NZ_SLXS01000006
+Source: Tumebacillus sp. BK434 Ga0307714_106, whole genome shotgun sequence
+Type: NRPS
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 411.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_005737	EV586_RS15625	31	275	64.7590361445783	5.46e-74
+PUJ_005738	EV586_RS15745	52	136	77.77777777777779	1.65e-38
+
+
+
+>>
+20. NZ_CP012673
+Source: Sorangium cellulosum strain So ce26 chromosome, complete genome
+Type: NRPS,T1PKS
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 402.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_005737	SOCE26_RS35110	32	265	59.738955823293175	7.34e-71
+PUJ_005738	SOCE26_RS35210	56	137	77.77777777777779	7.38e-39
+
+
+
+>>
+21. NZ_CP073656
+Source: Bacillus velezensis strain Y816 chromosome, complete genome
+Type: NRPS,betalactone,transAT-PKS
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 361.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_005737	KEC47_RS09140	32	232	58.032128514056225	1.77e-60
+PUJ_005738	KEC47_RS09040	54	129	76.5432098765432	1.27e-35
+
+
+
+>>
+22. NZ_CP066337
+Source: Bacillus velezensis strain Mr12 chromosome, complete genome
+Type: NRPS,betalactone,transAT-PKS
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 360.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_005737	JFU10_RS00880	32	231	58.032128514056225	3.14e-60
+PUJ_005738	JFU10_RS00780	54	129	76.5432098765432	1.27e-35
+
+
+
+>>
+23. NZ_CP107556
+Source: Bacillus velezensis strain Bacillus velezensis F3A chromosome, complete genome
+Type: NRPS,betalactone,transAT-PKS
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 360.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_005737	OF857_RS09335	32	231	58.032128514056225	3.14e-60
+PUJ_005738	OF857_RS09235	54	129	76.5432098765432	1.27e-35
+
+
+
+>>
+24. NZ_CP053764
+Source: Bacillus velezensis strain B268 chromosome, complete genome
+Type: NRPS,betalactone,transAT-PKS
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 360.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_005737	HPQ66_RS09165	32	231	58.032128514056225	4.19e-60
+PUJ_005738	HPQ66_RS09065	54	129	76.5432098765432	1.27e-35
+
+
+
+>>
+25. NZ_CP063768
+Source: Bacillus velezensis strain KMU01 chromosome, complete genome
+Type: NRPS,betalactone,transAT-PKS
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 360.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_005737	IM712_RS14480	32	231	58.032128514056225	4.19e-60
+PUJ_005738	IM712_RS14580	54	129	76.5432098765432	1.27e-35
+
+
+
+>>
+26. NZ_CP017747
+Source: Bacillus velezensis strain SYBC H47 chromosome, complete genome
+Type: NRPS,betalactone,transAT-PKS
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 360.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_005737	BI197_RS06040	32	230	58.032128514056225	5.59e-60
+PUJ_005738	BI197_RS06140	55	130	76.5432098765432	3.2e-36
+
+
+
+>>
+27. NZ_CP061087
+Source: Bacillus velezensis strain CLA178 chromosome, complete genome
+Type: NRPS,RiPP-like,betalactone,transAT-PKS
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 360.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_005737	IAR44_RS09750	32	230	58.032128514056225	5.59e-60
+PUJ_005738	IAR44_RS09650	55	130	76.5432098765432	3.2e-36
+
+
+
+>>
+28. NZ_CP021011
+Source: Bacillus velezensis strain GFP-2 chromosome, complete genome
+Type: NRPS,betalactone,transAT-PKS
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 359.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_005737	B6257_RS19325	32	230	58.032128514056225	5.59e-60
+PUJ_005738	B6257_RS19225	54	129	76.5432098765432	1.27e-35
+
+
+
+>>
+29. NZ_CP040672
+Source: Bacillus amyloliquefaciens strain X030 chromosome, complete genome
+Type: NRPS,betalactone,transAT-PKS
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 359.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_005737	FGE23_RS14335	32	230	58.032128514056225	5.59e-60
+PUJ_005738	FGE23_RS14235	54	129	76.5432098765432	1.27e-35
+
+
+
+>>
+30. NZ_CP068563
+Source: Bacillus velezensis strain GUMT319 chromosome, complete genome
+Type: NRPS,betalactone,transAT-PKS
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 359.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_005737	JKJ03_RS09430	32	230	58.032128514056225	5.59e-60
+PUJ_005738	JKJ03_RS09330	54	129	76.5432098765432	1.27e-35
+
+
+
+>>
+31. NZ_CP069391
+Source: Bacillus velezensis strain Sam8H1 chromosome, complete genome
+Type: NRPS,betalactone,transAT-PKS
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 359.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_005737	JR311_RS10260	32	230	58.032128514056225	5.59e-60
+PUJ_005738	JR311_RS10160	54	129	76.5432098765432	1.27e-35
+
+
+
+>>
+32. NZ_CP016371
+Source: Bacillus velezensis strain S3-1 chromosome, complete genome
+Type: NRPS,betalactone,transAT-PKS
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 359.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_005737	A5891_RS09170	31	229	58.032128514056225	1.32e-59
+PUJ_005738	A5891_RS09070	55	130	76.5432098765432	3.04e-36
+
+
+
+>>
+33. NZ_CP083764
+Source: Bacillus velezensis strain DMB07 chromosome, complete genome
+Type: NRPS,betalactone,transAT-PKS
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 358.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_005737	LAZ98_RS10650	31	229	58.032128514056225	9.93e-60
+PUJ_005738	LAZ98_RS10550	54	129	76.5432098765432	1.27e-35
+
+
+
+>>
+34. NZ_CP116013
+Source: Bacillus velezensis strain SRCM124349 chromosome, complete genome
+Type: NRPS,betalactone,transAT-PKS
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 358.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_005737	PF986_RS04850	31	229	58.032128514056225	9.93e-60
+PUJ_005738	PF986_RS04750	55	129	76.5432098765432	6.38e-36
+
+
+
+>>
+35. NZ_CP014990
+Source: Bacillus velezensis strain KD1 chromosome, complete genome
+Type: NRPS,betalactone,transAT-PKS
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 358.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_005737	A2I97_RS09215	31	229	58.032128514056225	1.32e-59
+PUJ_005738	A2I97_RS09110	54	129	76.5432098765432	1.27e-35
+
+
+
+>>
+36. NZ_CP087957
+Source: Bacillus velezensis strain B-001 chromosome, complete genome
+Type: NRPS,betalactone,transAT-PKS
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 358.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_005737	LOC77_RS09335	31	228	58.13253012048193	3.16e-59
+PUJ_005738	LOC77_RS09235	55	130	76.5432098765432	3.2e-36
+
+
+
+>>
+37. NZ_CP047119
+Source: Bacillus velezensis strain AK-0 chromosome, complete genome
+Type: NRPS,betalactone,transAT-PKS
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 358.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_005737	GE573_RS19170	31	228	58.032128514056225	4.18e-59
+PUJ_005738	GE573_RS19070	55	130	76.5432098765432	3.2e-36
+
+
+
+>>
+38. NZ_CP082243
+Source: Bacillus amyloliquefaciens strain JP3042 chromosome, complete genome
+Type: NRPS,betalactone,transAT-PKS
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 358.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_005737	BAJP3042_RS09700	31	228	58.032128514056225	4.18e-59
+PUJ_005738	BAJP3042_RS09600	55	130	76.5432098765432	3.2e-36
+
+
+
+>>
+39. NZ_CP027429
+Source: Bacillus velezensis strain VCC-2003 chromosome
+Type: NRPS,betalactone,transAT-PKS
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 357.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_005737	C6P48_RS09675	31	228	58.032128514056225	3.14e-59
+PUJ_005738	C6P48_RS09775	55	129	76.5432098765432	1.21e-35
+
+
+
+>>
+40. NZ_CP061938
+Source: Bacillus velezensis strain FIO1408 chromosome, complete genome
+Type: NRPS,betalactone,transAT-PKS
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 357.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_005737	IEN91_RS10320	31	228	58.23293172690763	3.14e-59
+PUJ_005738	IEN91_RS10220	54	129	76.5432098765432	1.27e-35
+
+
+
+>>
+41. NZ_CP022654
+Source: Bacillus velezensis strain SCDB 291 chromosome, complete genome
+Type: NRPS,betalactone,transAT-PKS
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 357.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_005737	CHN56_RS01485	31	228	58.032128514056225	4.18e-59
+PUJ_005738	CHN56_RS01585	54	129	76.5432098765432	1.27e-35
+
+
+
+>>
+42. NZ_CP023748
+Source: Bacillus velezensis strain LABIM40 chromosome, complete genome
+Type: NRPS,betalactone,transAT-PKS
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 357.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_005737	CQJ38_RS09480	31	227	58.032128514056225	5.57e-59
+PUJ_005738	CQJ38_RS09380	55	130	76.5432098765432	3.2e-36
+
+
+
+>>
+43. NZ_CP072563
+Source: Bacillus sp. LJBV19 chromosome, complete genome
+Type: NRPS,betalactone,transAT-PKS
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 357.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_005737	J6600_RS09405	31	227	58.032128514056225	5.57e-59
+PUJ_005738	J6600_RS09305	55	130	76.5432098765432	3.2e-36
+
+
+
+>>
+44. NC_017912
+Source: Bacillus velezensis YAU B9601-Y2, complete sequence
+Type: NRPS,betalactone,transAT-PKS
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 357.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_005737	MUS_RS10480	31	227	58.032128514056225	7.42e-59
+PUJ_005738	MUS_RS10380	55	130	76.5432098765432	3.2e-36
+
+
+
+>>
+45. NZ_CP018133
+Source: Bacillus velezensis strain ATR2 chromosome, complete genome
+Type: NRPS,betalactone,transAT-PKS
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 357.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_005737	BMJ37_RS09765	31	227	58.032128514056225	7.42e-59
+PUJ_005738	BMJ37_RS09665	55	130	76.5432098765432	3.2e-36
+
+
+
+>>
+46. NZ_CP023431
+Source: Bacillus velezensis strain SCGB 574 chromosome, complete genome
+Type: NRPS,betalactone,transAT-PKS
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 357.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_005737	CLI98_RS19195	31	227	58.032128514056225	7.42e-59
+PUJ_005738	CLI98_RS19095	55	130	76.5432098765432	3.2e-36
+
+
+
+>>
+47. NZ_CP027868
+Source: Bacillus velezensis strain SGAir0473 chromosome
+Type: NRPS,betalactone,transAT-PKS
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 357.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_005737	C1N92_RS00930	31	227	58.032128514056225	7.42e-59
+PUJ_005738	C1N92_RS00830	55	130	76.5432098765432	3.2e-36
+
+
+
+>>
+48. NZ_CP033576
+Source: Bacillus velezensis strain NY12-2 chromosome, complete genome
+Type: NRPS,betalactone,transAT-PKS
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 357.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_005737	EEB07_RS19615	31	227	58.032128514056225	7.42e-59
+PUJ_005738	EEB07_RS19515	55	130	76.5432098765432	3.2e-36
+
+
+
+>>
+49. NZ_CP036527
+Source: Bacillus velezensis strain UTB96 chromosome
+Type: NRPS,betalactone,transAT-PKS
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 357.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_005737	E0E07_RS08875	31	227	58.23293172690763	7.42e-59
+PUJ_005738	E0E07_RS08775	55	130	76.5432098765432	3.2e-36
+
+
+
+>>
+50. NZ_CP043809
+Source: Bacillus velezensis strain ZeaDK315Endobac16 chromosome
+Type: NRPS,betalactone,transAT-PKS
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 357.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_005737	ETZ92_RS04905	31	227	58.032128514056225	7.42e-59
+PUJ_005738	ETZ92_RS04805	55	130	76.5432098765432	3.04e-36
+

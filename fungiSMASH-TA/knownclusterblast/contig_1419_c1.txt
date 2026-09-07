@@ -1,0 +1,47 @@
+ClusterBlast scores for contig_1419
+
+Table of genes, locations, strands and annotations of query cluster:
+PUJ_003663	946	1998	-	Ribosome bioproteinsis protein brx1	
+PUJ_003664	2645	3571	-	Rab GTPase ypt31	
+PUJ_003665	4586	5590	+	hypothetical protein	
+PUJ_003666	8785	9942	-	hypothetical protein	
+PUJ_003667	11970	13559	+	hypothetical protein	
+PUJ_003668	14621	15596	+	hypothetical protein	
+PUJ_003669	21462	22785	+	hypothetical protein	
+PUJ_003670	23394	27642	-	hypothetical protein	
+
+
+Significant hits: 
+1. BGC0002710.2	metachelin C/metachelin A/metachelin A-CE/metachelin B/dimerumic acid 11-mannoside/dimerumic acid
+2. BGC0001249.5	dimethylcoprogen
+
+
+Details:
+
+>>
+1. BGC0002710.2
+Source: metachelin C/metachelin A/metachelin A-CE/metachelin B/dimerumic acid 11-mannoside/dimerumic acid
+Type: NRPS:Type I
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 2034.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_003669	MAA_05333	50	371	106.5909090909091	1.72e-122
+PUJ_003670	MAA_05334	62	1663	100.35335689045937	0.0
+
+
+
+>>
+2. BGC0001249.5
+Source: dimethylcoprogen
+Type: NRPS:Type I
+Number of proteins with BLAST hits to this cluster: 1
+Cumulative BLAST score: 1165.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_003670	AFN69082.1	47	1165	100.2826855123675	0.0
+

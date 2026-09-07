@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8" />
+<link rel="stylesheet" type="text/css" href="../../css/style.css">
+
+<script type="text/javascript" src="../../js/jquery.js"></script>
+<script type="text/javascript" src="../../js/jquery.tablesorter.min.js"></script>
+
+<script type="text/javascript" >
+var counter = 1;
+function addInput(divName){
+     var newdiv = document.createElement('div');
+     newdiv.innerHTML = "<b>Locus " + (counter + 1) + "</b><br> GenBank accession: <input type='text' required name='myInputs[]'> Start nt: <input type='number' name='myStartCoords[]' placeholder='N/A'> End nt: <input type='number' name='myEndCoords[]' placeholder='N/A'> <br><br>";
+     document.getElementById(divName).appendChild(newdiv);
+     counter++;
+}
+</script>
+
+<script>
+$(document).ready(function()
+    {
+        $("#myTable").tablesorter();
+    }
+);
+
+</script>
+<style>
+table {
+    border-width: thin;
+    border-spacing: 2px;
+    border-style: none;
+    border-color: black;
+}
+</style>
+</head>
+<body>
+    <table id="myTable" class="tablesorter" border=1>
+    <thead>
+    <tr>
+        <th>MIBiG Protein</th>
+        <th>Description</th>
+        <th>MIBiG Cluster</th>
+        <th>MiBiG Product</th>
+        <th>% ID</th>
+        <th>% Coverage</th>
+        <th>BLAST Score</th>
+        <th>E-value</th>
+    </tr>
+    </thead>
+    <tbody>
+    
+          <tr>
+              <td>BAE56596.1</td>
+              <td></td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0001123.5">BGC0001123.5</a></td>
+              <td>NRPS:Type I</td>
+              <td>100.0</td>
+              <td>100.0</td>
+              <td>835.0</td>
+              <td>4.23e-309</td>
+          </tr>
+    
+          <tr>
+              <td>QPP19382.1</td>
+              <td>PenI</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0002501.3">BGC0002501.3</a></td>
+              <td>other:other</td>
+              <td>49.0</td>
+              <td>98.8</td>
+              <td>416.0</td>
+              <td>2.56e-143</td>
+          </tr>
+    
+          <tr>
+              <td>QVK45119.1</td>
+              <td>amino_transferase</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0002438.2">BGC0002438.2</a></td>
+              <td>other:other</td>
+              <td>38.0</td>
+              <td>97.9</td>
+              <td>288.0</td>
+              <td>2.5e-93</td>
+          </tr>
+    
+          <tr>
+              <td>EHK22001.1</td>
+              <td>hypothetical_protein</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0001609.4">BGC0001609.4</a></td>
+              <td>NRPS:Type I</td>
+              <td>40.0</td>
+              <td>94.3</td>
+              <td>280.0</td>
+              <td>7.46e-90</td>
+          </tr>
+    
+          <tr>
+              <td>ctg1_orf12</td>
+              <td></td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0000321.4">BGC0000321.4</a></td>
+              <td>NRPS:Type I</td>
+              <td>33.0</td>
+              <td>102.1</td>
+              <td>240.0</td>
+              <td>1.57e-74</td>
+          </tr>
+    
+          <tr>
+              <td>AAS92541.1</td>
+              <td>SirI</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0001044.4">BGC0001044.4</a></td>
+              <td>NRPS:Type I</td>
+              <td>35.0</td>
+              <td>98.1</td>
+              <td>234.0</td>
+              <td>1.42e-72</td>
+          </tr>
+    
+          <tr>
+              <td>DAB41663.1</td>
+              <td>PLP-dependent_carbon-sulfur_bond_lyase</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0001585.3">BGC0001585.3</a></td>
+              <td>other:other</td>
+              <td>32.0</td>
+              <td>99.5</td>
+              <td>219.0</td>
+              <td>2.06e-66</td>
+          </tr>
+    
+          <tr>
+              <td>AQZ42161.1</td>
+              <td>putative_aminotransferase</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0001820.3">BGC0001820.3</a></td>
+              <td>NRPS:Type I</td>
+              <td>31.0</td>
+              <td>93.8</td>
+              <td>213.0</td>
+              <td>1.48e-64</td>
+          </tr>
+    
+          <tr>
+              <td>CCE28988.1</td>
+              <td>related_to_1-aminocyclopropane-1-carboxylate_synthase</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0001365.3">BGC0001365.3</a></td>
+              <td>NRPS:Type I</td>
+              <td>32.0</td>
+              <td>91.4</td>
+              <td>193.0</td>
+              <td>6.03e-57</td>
+          </tr>
+    
+          <tr>
+              <td>EAU36746.1</td>
+              <td>conserved_hypothetical_protein</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0000292.4">BGC0000292.4</a></td>
+              <td>NRPS:Type I</td>
+              <td>42.0</td>
+              <td>60.0</td>
+              <td>191.0</td>
+              <td>1.92e-53</td>
+          </tr>
+    
+    </tbody>
+  </table>
+</body>

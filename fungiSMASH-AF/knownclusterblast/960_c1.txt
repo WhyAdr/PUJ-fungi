@@ -1,0 +1,85 @@
+ClusterBlast scores for 960
+
+Table of genes, locations, strands and annotations of query cluster:
+PUJ_009077	109599	110983	+	hypothetical protein	
+PUJ_009078	112883	114314	-	bud emergence protein 1	
+PUJ_009079	119736	121288	-	hypothetical protein	
+PUJ_009080	121871	123759	+	Vacuolar protein-sorting-associated protein 36	
+PUJ_009081	124176	125422	+	hypothetical protein	
+PUJ_009082	126448	130126	-	Chitin synthase, class 2	
+PUJ_009083	131257	132360	-	hypothetical protein	
+PUJ_009084	133151	134210	-	hypothetical protein	
+PUJ_009085	134857	136317	-	hypothetical protein	
+PUJ_009086	138752	144099	+	hypothetical protein	
+PUJ_009087	144639	145918	-	Leucine aminopeptidase 1	
+PUJ_009088	147876	148937	+	hypothetical protein	
+PUJ_009091	154684	155728	+	hypothetical protein	
+PUJ_009092	161219	161778	-	hypothetical protein	
+PUJ_009093	163486	164964	+	hypothetical protein	
+PUJ_009094	166575	167508	-	hypothetical protein	
+PUJ_009095	168004	170893	-	histone deacetylase	
+
+
+Significant hits: 
+1. BGC0001276.3	6-methylsalicyclic acid
+2. BGC0001275.3	6-methylsalicyclic acid
+3. BGC0001244.3	(-)-Mellein
+4. BGC0001273.3	asperlactone
+
+
+Details:
+
+>>
+1. BGC0001276.3
+Source: 6-methylsalicyclic acid
+Type: PKS
+Number of proteins with BLAST hits to this cluster: 1
+Cumulative BLAST score: 2075.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_009086	BAA20102.2	60	2075	100.05678591709255	0.0
+
+
+
+>>
+2. BGC0001275.3
+Source: 6-methylsalicyclic acid
+Type: PKS
+Number of proteins with BLAST hits to this cluster: 1
+Cumulative BLAST score: 1670.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_009086	AAX35547.1	50	1670	100.56785917092562	0.0
+
+
+
+>>
+3. BGC0001244.3
+Source: (-)-Mellein
+Type: PKS
+Number of proteins with BLAST hits to this cluster: 1
+Cumulative BLAST score: 1660.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_009086	SNOG_00477	49	1660	99.82964224872232	0.0
+
+
+
+>>
+4. BGC0001273.3
+Source: asperlactone
+Type: PKS
+Number of proteins with BLAST hits to this cluster: 1
+Cumulative BLAST score: 1628.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_009086	AAS98200.1	47	1628	99.94321408290745	0.0
+

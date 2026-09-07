@@ -1,0 +1,488 @@
+ClusterBlast scores for contig_1364
+
+Table of genes, locations, strands and annotations of query cluster:
+PUJ_003446	4948	6661	-	hypothetical protein	
+PUJ_003447	8140	8851	+	hypothetical protein	
+PUJ_003448	9851	10598	+	hypothetical protein	
+PUJ_003449	15285	18349	+	hypothetical protein	
+PUJ_003450	18972	22676	-	hypothetical protein	
+PUJ_003451	25785	26691	+	hypothetical protein	
+
+
+Significant hits: 
+1. NW_024469026	Aspergillus fijiensis CBS 313.89 unplaced genomic scaffold BO72scaffold_50, whole genome shotgun sequence
+2. NW_025091271	Aspergillus udagawae IFM 46973 DNA, scaffold_8, whole genome shotgun sequence
+3. NW_022987236	Trematosphaeria pertusa strain CBS 122368 unplaced genomic scaffold BU26scaffold_25, whole genome shotgun sequence
+4. NW_025091281	Aspergillus pseudoviridinutans IFM 55266 DNA, scaffold_1, whole genome shotgun sequence
+5. NZ_CP042266	Streptomyces qinzhouensis strain SSL-25 chromosome, complete genome
+6. NW_014013668	Trichoderma virens Gv29-8 chromosome Unknown TRIVIscaffold_81, whole genome shotgun sequence
+7. NZ_CP015098	Streptomyces qaidamensis strain S10 chromosome, complete genome
+8. NZ_CP106793	Streptomyces sp. HUAS 13-4 chromosome unmamed1, complete sequence
+9. NZ_CP084681	Streptomyces inhibens strain NRRL30439 chromosome, complete genome
+10. NZ_CP015726	Streptomyces sp. RTd22 chromosome, complete genome
+11. NZ_BMNC01000015	Lentzea pudingi strain CGMCC 4.7319 sequence15, whole genome shotgun sequence
+12. NZ_GG657754	Streptomyces himastatinicus ATCC 53653 supercont1.1, whole genome shotgun sequence
+13. NZ_CP016793	Lentzea guizhouensis strain DHS C013 chromosome, complete genome
+14. NZ_CP034550	Saccharothrix syringae strain NRRL B-16468 chromosome, complete genome
+15. NZ_KB912942	Amycolatopsis benzoatilytica AK 16/65 AmybeDRAFT_scaffold1.1, whole genome shotgun sequence
+16. NZ_CP029188	Streptomyces tirandamycinicus strain HNM0039 chromosome, complete genome
+17. NZ_CP043638	Streptomyces sp. INR7 chromosome, complete genome
+18. NZ_CP082945	Streptomyces angustmyceticus strain JCM 4053 chromosome, complete genome
+19. NZ_CP081673	Mycolicibacterium farcinogenes strain BKK/CU-MFGFA-001 chromosome, complete genome
+20. NZ_ML123100	Streptomyces sp. ADI97-07 scaffold003, whole genome shotgun sequence
+21. NZ_LDPU01000001	Mycobacterium senegalense strain CK2 M4421_contig000001, whole genome shotgun sequence
+22. NZ_CP041610	Streptomyces sp. RLB3-17 chromosome, complete genome
+23. NZ_CP059322	Micromonospora ferruginea strain 28ISP2-46 chromosome
+24. NZ_JACOJJ010000001	Serratia marcescens strain UCI157 scaffold00001, whole genome shotgun sequence
+25. NZ_JACHGN010000011	Thermocatellispora tengchongensis strain DSM 45615 Ga0415383_11, whole genome shotgun sequence
+26. NW_025091283	Aspergillus pseudoviridinutans IFM 55266 DNA, scaffold_3, whole genome shotgun sequence
+27. NW_015971635	Fonsecaea multimorphosa CBS 102226 unplaced genomic scaffold supercont1.1, whole genome shotgun sequence
+28. NW_026054545	Daldinia decipiens strain CBS 113046 unplaced genomic scaffold F4813scaffold_2, whole genome shotgun sequence
+29. NW_015971597	Cladophialophora bantiana CBS 173.52 unplaced genomic scaffold supercont1.23, whole genome shotgun sequence
+
+
+Details:
+
+>>
+1. NW_024469026
+Source: Aspergillus fijiensis CBS 313.89 unplaced genomic scaffold BO72scaffold_50, whole genome shotgun sequence
+Type: NRPS,T1PKS
+Number of proteins with BLAST hits to this cluster: 3
+Cumulative BLAST score: 2246.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_003449	BO72DRAFT_450836	54	1047	103.5425101214575	0.0
+PUJ_003450	BO72DRAFT_385021	47	879	130.66666666666666	8.92e-301
+PUJ_003451	BO72DRAFT_516846	51	320	118.5430463576159	4.11e-102
+
+
+
+>>
+2. NW_025091271
+Source: Aspergillus udagawae IFM 46973 DNA, scaffold_8, whole genome shotgun sequence
+Type: NRPS,indole
+Number of proteins with BLAST hits to this cluster: 3
+Cumulative BLAST score: 2138.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_003449	Aud_010229	56	1081	103.03643724696356	0.0
+PUJ_003450	Aud_010228	48	894	129.66666666666666	7.76e-307
+PUJ_003451	Aud_010227	59	163	44.03973509933775	3.05e-47
+
+
+
+>>
+3. NW_022987236
+Source: Trematosphaeria pertusa strain CBS 122368 unplaced genomic scaffold BU26scaffold_25, whole genome shotgun sequence
+Type: NRPS,T1PKS
+Number of proteins with BLAST hits to this cluster: 3
+Cumulative BLAST score: 2370.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_003449	BU26DRAFT_496583	56	1092	102.83400809716599	0.0
+PUJ_003450	BU26DRAFT_611018	50	903	124.77777777777779	6.61e-311
+PUJ_003451	BU26DRAFT_586322	60	375	100.99337748344371	1.41e-124
+
+
+
+>>
+4. NW_025091281
+Source: Aspergillus pseudoviridinutans IFM 55266 DNA, scaffold_1, whole genome shotgun sequence
+Type: NRPS,T1PKS
+Number of proteins with BLAST hits to this cluster: 3
+Cumulative BLAST score: 1323.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_003446	Asppvi_001707	31	159	67.36842105263158	5.27e-40
+PUJ_003449	Asppvi_001733	39	270	46.05263157894737	9.28e-79
+PUJ_003450	Asppvi_001734	48	894	129.66666666666666	2.53e-306
+
+
+
+>>
+5. NZ_CP042266
+Source: Streptomyces qinzhouensis strain SSL-25 chromosome, complete genome
+Type: NRPS,T1PKS
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 259.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_003448	FQU76_RS32560	32	57	85.48387096774194	3.15e-07
+PUJ_003449	FQU76_RS32565	31	202	62.75303643724697	8.76e-51
+
+
+
+>>
+6. NW_014013668
+Source: Trichoderma virens Gv29-8 chromosome Unknown TRIVIscaffold_81, whole genome shotgun sequence
+Type: NRPS,fungal-RiPP-like
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 747.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_003449	TRIVIDRAFT_224342	33	427	93.0161943319838	1.29e-125
+PUJ_003450	TRIVIDRAFT_155403	31	320	92.44444444444444	1.25e-90
+
+
+
+>>
+7. NZ_CP015098
+Source: Streptomyces qaidamensis strain S10 chromosome, complete genome
+Type: NRPS
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 685.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_003448	A4E84_RS32930	32	63	77.82258064516128	1.22e-09
+PUJ_003449	A4E84_RS32730	31	214	60.627530364372475	2.74e-54
+PUJ_003449	A4E84_RS32725	32	206	57.38866396761133	7.48e-52
+PUJ_003449	A4E84_RS32860	31	202	61.23481781376518	2.75e-51
+
+
+
+>>
+8. NZ_CP106793
+Source: Streptomyces sp. HUAS 13-4 chromosome unmamed1, complete sequence
+Type: NRPS,T3PKS
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 496.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_003448	N8I84_RS03025	32	77	83.87096774193549	1.81e-14
+PUJ_003449	N8I84_RS02985	31	213	62.854251012145745	4.5e-54
+PUJ_003449	N8I84_RS02980	31	206	63.76518218623482	5.63e-52
+
+
+
+>>
+9. NZ_CP084681
+Source: Streptomyces inhibens strain NRRL30439 chromosome, complete genome
+Type: NRPS,NRPS-like,PKS-like,T2PKS,oligosaccharide
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 303.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_003446	KI385_RS25120	31	99	42.98245614035088	8.61e-20
+PUJ_003449	KI385_RS25350	31	204	62.955465587044536	1.97e-51
+
+
+
+>>
+10. NZ_CP015726
+Source: Streptomyces sp. RTd22 chromosome, complete genome
+Type: NRP-metallophore,NRPS,NRPS-like,other
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 298.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_003448	A7B19_RS07230	34	86	83.87096774193549	6.77e-18
+PUJ_003449	A7B19_RS07335	31	212	65.18218623481782	6e-54
+
+
+
+>>
+11. NZ_BMNC01000015
+Source: Lentzea pudingi strain CGMCC 4.7319 sequence15, whole genome shotgun sequence
+Type: PKS-like,RiPP-like,T2PKS
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 291.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_003448	IEY88_RS35160	33	87	85.08064516129032	1.91e-18
+PUJ_003449	IEY88_RS35215	33	204	51.61943319838057	1.38e-54
+
+
+
+>>
+12. NZ_GG657754
+Source: Streptomyces himastatinicus ATCC 53653 supercont1.1, whole genome shotgun sequence
+Type: NRP-metallophore,NRPS,NRPS-like,other
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 291.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_003448	SSOG_RS38560	34	84	85.88709677419355	2.51e-17
+PUJ_003449	SSOG_RS54335	35	207	43.92712550607287	1.17e-52
+
+
+
+>>
+13. NZ_CP016793
+Source: Lentzea guizhouensis strain DHS C013 chromosome, complete genome
+Type: PKS-like,RRE-containing,T2PKS
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 287.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_003448	BBK82_RS02545	34	88	85.08064516129032	9.91e-19
+PUJ_003449	BBK82_RS02600	32	199	51.11336032388664	5.76e-53
+
+
+
+>>
+14. NZ_CP034550
+Source: Saccharothrix syringae strain NRRL B-16468 chromosome, complete genome
+Type: NRPS,NRPS-like,other
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 283.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_003448	EKG83_RS26000	31	69	85.88709677419355	7.69e-12
+PUJ_003449	EKG83_RS25970	33	214	58.097165991902834	1.4e-54
+
+
+
+>>
+15. NZ_KB912942
+Source: Amycolatopsis benzoatilytica AK 16/65 AmybeDRAFT_scaffold1.1, whole genome shotgun sequence
+Type: NRPS
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 281.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_003448	AMYBE_RS0100635	32	78	82.66129032258065	6.68e-15
+PUJ_003449	AMYBE_RS40760	32	203	61.1336032388664	6.67e-51
+
+
+
+>>
+16. NZ_CP029188
+Source: Streptomyces tirandamycinicus strain HNM0039 chromosome, complete genome
+Type: NRPS,PKS-like,T2PKS,oligosaccharide
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 279.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_003448	DDW44_RS27845	34	67	82.66129032258065	4.62e-11
+PUJ_003449	DDW44_RS27545	33	212	59.61538461538461	6.34e-54
+
+
+
+>>
+17. NZ_CP043638
+Source: Streptomyces sp. INR7 chromosome, complete genome
+Type: NRPS,T1PKS,other
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 272.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_003448	F1D59_RS08455	32	67	78.62903225806451	6.19e-11
+PUJ_003449	F1D59_RS08385	31	205	60.93117408906883	3.79e-52
+
+
+
+>>
+18. NZ_CP082945
+Source: Streptomyces angustmyceticus strain JCM 4053 chromosome, complete genome
+Type: NRPS,T3PKS,terpene
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 272.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_003448	K7396_RS32885	32	64	79.03225806451613	4.25e-10
+PUJ_003449	K7396_RS33075	31	208	61.8421052631579	1.92e-52
+
+
+
+>>
+19. NZ_CP081673
+Source: Mycolicibacterium farcinogenes strain BKK/CU-MFGFA-001 chromosome, complete genome
+Type: NRPS
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 272.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_003448	K6L26_RS21315	31	60	68.14516129032258	2e-08
+PUJ_003449	K6L26_RS21335	32	212	59.10931174089069	6.78e-54
+
+
+
+>>
+20. NZ_ML123100
+Source: Streptomyces sp. ADI97-07 scaffold003, whole genome shotgun sequence
+Type: NRP-metallophore,NRPS
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 270.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_003448	EES45_RS31945	34	63	87.90322580645162	1.83e-09
+PUJ_003449	EES45_RS31785	32	207	57.99595141700404	3.51e-52
+
+
+
+>>
+21. NZ_LDPU01000001
+Source: Mycobacterium senegalense strain CK2 M4421_contig000001, whole genome shotgun sequence
+Type: NRPS
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 270.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_003448	ABW05_RS06250	31	60	68.14516129032258	2e-08
+PUJ_003449	ABW05_RS06270	32	210	59.0080971659919	3.69e-53
+
+
+
+>>
+22. NZ_CP041610
+Source: Streptomyces sp. RLB3-17 chromosome, complete genome
+Type: NRPS-like,T2PKS,indole,other
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 268.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_003448	FNV62_RS43965	32	74	81.04838709677419	1.1e-13
+PUJ_003449	FNV62_RS44075	33	194	50.91093117408907	1.47e-50
+
+
+
+>>
+23. NZ_CP059322
+Source: Micromonospora ferruginea strain 28ISP2-46 chromosome
+Type: NRPS,T1PKS,T2PKS,ectoine,other
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 268.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_003448	H1D33_RS25715	31	66	84.2741935483871	1.42e-10
+PUJ_003449	H1D33_RS25995	31	202	61.43724696356275	5.44e-51
+
+
+
+>>
+24. NZ_JACOJJ010000001
+Source: Serratia marcescens strain UCI157 scaffold00001, whole genome shotgun sequence
+Type: NRPS,NRPS-like
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 265.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_003448	CXL50_RS00740	31	65	81.04838709677419	3.28e-10
+PUJ_003449	CXL50_RS00660	31	200	59.0080971659919	1.07e-50
+
+
+
+>>
+25. NZ_JACHGN010000011
+Source: Thermocatellispora tengchongensis strain DSM 45615 Ga0415383_11, whole genome shotgun sequence
+Type: NRPS,NRPS-like
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 264.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_003448	HNP84_RS25620	33	60	69.75806451612904	2.27e-08
+PUJ_003449	HNP84_RS51255	32	204	60.82995951417004	1.83e-51
+
+
+
+>>
+26. NW_025091283
+Source: Aspergillus pseudoviridinutans IFM 55266 DNA, scaffold_3, whole genome shotgun sequence
+Type: NRPS,NRPS-like,T1PKS
+Number of proteins with BLAST hits to this cluster: 3
+Cumulative BLAST score: 1222.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_003446	Asppvi_005391	38	341	85.96491228070175	4.77e-108
+PUJ_003446	Asppvi_005340	32	205	82.80701754385966	2.68e-56
+PUJ_003448	Asppvi_005397	33	106	88.70967741935483	3.99e-25
+PUJ_003450	Asppvi_005350	39	331	59.66666666666667	6.86e-100
+PUJ_003450	Asppvi_005349	44	239	38.0	6.72e-69
+
+
+
+>>
+27. NW_015971635
+Source: Fonsecaea multimorphosa CBS 102226 unplaced genomic scaffold supercont1.1, whole genome shotgun sequence
+Type: T1PKS
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 340.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_003447	Z520_00803	34	126	104.23728813559323	1.91e-31
+PUJ_003448	Z520_00802	51	214	89.51612903225806	3.75e-67
+
+
+
+>>
+28. NW_026054545
+Source: Daldinia decipiens strain CBS 113046 unplaced genomic scaffold F4813scaffold_2, whole genome shotgun sequence
+Type: T1PKS,fungal-RiPP-like
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 1132.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_003446	F4813DRAFT_396927	37	353	89.12280701754386	3.77e-113
+PUJ_003450	F4813DRAFT_344056	44	779	125.1111111111111	2.27e-262
+
+
+
+>>
+29. NW_015971597
+Source: Cladophialophora bantiana CBS 173.52 unplaced genomic scaffold supercont1.23, whole genome shotgun sequence
+Type: fungal-RiPP-like
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 364.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_003446	Z519_11732	31	214	80.35087719298247	7.92e-60
+PUJ_003448	Z519_11711	39	150	91.12903225806451	6.36e-42
+

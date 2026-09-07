@@ -1,0 +1,25 @@
+ClusterBlast scores for 258
+
+Table of genes, locations, strands and annotations of query cluster:
+PUJ_001909	108876	109895	+	NADH-cytochrome b5 reductase	
+PUJ_001910	112009	114170	+	arginyl-tRNA synthetase	
+PUJ_001911	114613	116337	+	GMP synthase (glutamine-hydrolyzing)	
+PUJ_001912	123000	124798	+	hypothetical protein	
+PUJ_001913	125045	126250	-	hypothetical protein	
+PUJ_001914	135358	136150	+	hypothetical protein	
+PUJ_001915	137665	145005	-	hypothetical protein	
+PUJ_001916	145944	147276	-	hypothetical protein	
+PUJ_001917	148524	149687	+	hypothetical protein	
+PUJ_001918	153491	155318	-	hypothetical protein	
+PUJ_001919	155870	157530	+	hypothetical protein	
+PUJ_001920	159533	160137	-	hypothetical protein	
+PUJ_001921	160724	163001	-	hypothetical protein	
+PUJ_001922	165534	166446	-	hypothetical protein	
+PUJ_001923	167097	168429	+	hypothetical protein	
+PUJ_001924	170321	172238	-	hypothetical protein	
+
+
+Significant hits: 
+
+
+Details:

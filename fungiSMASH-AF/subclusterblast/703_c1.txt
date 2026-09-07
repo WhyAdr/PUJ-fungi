@@ -1,0 +1,33 @@
+ClusterBlast scores for 703
+
+Table of genes, locations, strands and annotations of query cluster:
+PUJ_008066	232017	232569	-	hypothetical protein	
+PUJ_008067	233596	234863	-	hypothetical protein	
+PUJ_008068	236606	237770	-	hypothetical protein	
+PUJ_008069	238542	239233	-	hypothetical protein	
+PUJ_008070	239750	243794	-	hypothetical protein	
+PUJ_008071	244240	248286	-	hypothetical protein	
+PUJ_008072	248813	249944	+	hypothetical protein	
+PUJ_008073	250628	251661	-	Very-long-chain enoyl-CoA reductase	
+PUJ_008074	252430	252754	+	hypothetical protein	
+PUJ_008075	257903	258947	+	hypothetical protein	
+PUJ_008076	259004	260815	-	hypothetical protein	
+PUJ_008077	261784	263711	+	hypothetical protein	
+PUJ_008078	264304	265551	-	hypothetical protein	
+PUJ_008079	266890	270219	-	hypothetical protein	
+PUJ_008080	273289	273698	-	hypothetical protein	
+PUJ_008082	277760	285251	+	hypothetical protein	
+PUJ_008083	289046	289726	-	hypothetical protein	
+PUJ_008084	289857	290863	-	hypothetical protein	
+PUJ_008085	291241	293211	+	hypothetical protein	
+PUJ_008086	294733	295526	-	hypothetical protein	
+PUJ_008087	296716	297885	+	hypothetical protein	
+PUJ_008088	305899	306976	-	hypothetical protein	
+PUJ_008089	310612	311715	+	Guanine nucleotide-binding protein alpha-2 subunit	
+PUJ_008090	313479	314969	+	hypothetical protein	
+
+
+Significant hits: 
+
+
+Details:

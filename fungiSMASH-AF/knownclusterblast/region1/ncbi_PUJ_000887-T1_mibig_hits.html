@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8" />
+<link rel="stylesheet" type="text/css" href="../../css/style.css">
+
+<script type="text/javascript" src="../../js/jquery.js"></script>
+<script type="text/javascript" src="../../js/jquery.tablesorter.min.js"></script>
+
+<script type="text/javascript" >
+var counter = 1;
+function addInput(divName){
+     var newdiv = document.createElement('div');
+     newdiv.innerHTML = "<b>Locus " + (counter + 1) + "</b><br> GenBank accession: <input type='text' required name='myInputs[]'> Start nt: <input type='number' name='myStartCoords[]' placeholder='N/A'> End nt: <input type='number' name='myEndCoords[]' placeholder='N/A'> <br><br>";
+     document.getElementById(divName).appendChild(newdiv);
+     counter++;
+}
+</script>
+
+<script>
+$(document).ready(function()
+    {
+        $("#myTable").tablesorter();
+    }
+);
+
+</script>
+<style>
+table {
+    border-width: thin;
+    border-spacing: 2px;
+    border-style: none;
+    border-color: black;
+}
+</style>
+</head>
+<body>
+    <table id="myTable" class="tablesorter" border=1>
+    <thead>
+    <tr>
+        <th>MIBiG Protein</th>
+        <th>Description</th>
+        <th>MIBiG Cluster</th>
+        <th>MiBiG Product</th>
+        <th>% ID</th>
+        <th>% Coverage</th>
+        <th>BLAST Score</th>
+        <th>E-value</th>
+    </tr>
+    </thead>
+    <tbody>
+    
+          <tr>
+              <td>QTA30612.1</td>
+              <td>sorbitol_utilization_protein_SOU2</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0002143.2">BGC0002143.2</a></td>
+              <td>PKS</td>
+              <td>36.0</td>
+              <td>95.9</td>
+              <td>124.0</td>
+              <td>1.47e-34</td>
+          </tr>
+    
+          <tr>
+              <td>BAL90266.1</td>
+              <td>putative_short-chain_dehydrogenase</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0002021.3">BGC0002021.3</a></td>
+              <td>PKS</td>
+              <td>33.0</td>
+              <td>97.2</td>
+              <td>100.0</td>
+              <td>1.98e-25</td>
+          </tr>
+    
+          <tr>
+              <td>ADB23395.1</td>
+              <td>dehydrogenase</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0001062.5">BGC0001062.5</a></td>
+              <td>PKS</td>
+              <td>28.0</td>
+              <td>101.6</td>
+              <td>69.0</td>
+              <td>1.84e-13</td>
+          </tr>
+    
+          <tr>
+              <td>AHL46681.1</td>
+              <td>ketoreductase</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0001177.4">BGC0001177.4</a></td>
+              <td>PKS:Type II</td>
+              <td>29.0</td>
+              <td>98.4</td>
+              <td>68.0</td>
+              <td>3.43e-13</td>
+          </tr>
+    
+          <tr>
+              <td>ACX35428.1</td>
+              <td>BacC</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0000888.5">BGC0000888.5</a></td>
+              <td>other:other</td>
+              <td>28.0</td>
+              <td>98.4</td>
+              <td>67.0</td>
+              <td>4.98e-13</td>
+          </tr>
+    
+          <tr>
+              <td>AIG62141.1</td>
+              <td>isoepoxydon_dehydrogenase</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0000120.5">BGC0000120.5</a></td>
+              <td>PKS:Iterative type I</td>
+              <td>25.0</td>
+              <td>100.8</td>
+              <td>64.0</td>
+              <td>8.95e-12</td>
+          </tr>
+    
+          <tr>
+              <td>KJA16712.1</td>
+              <td>hypothetical_protein</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0002246.3">BGC0002246.3</a></td>
+              <td>terpene</td>
+              <td>31.0</td>
+              <td>73.2</td>
+              <td>63.0</td>
+              <td>1.7e-11</td>
+          </tr>
+    
+          <tr>
+              <td>WP_029025960.1</td>
+              <td>SDR_family_NAD(P)-dependent_oxidoreductase</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0000198.5">BGC0000198.5</a></td>
+              <td>PKS:Type II+saccharide:hybrid/tailoring</td>
+              <td>25.0</td>
+              <td>100.0</td>
+              <td>61.0</td>
+              <td>1.24e-10</td>
+          </tr>
+    
+          <tr>
+              <td>CAD18969.1</td>
+              <td>putative_oxidoreductase</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0000847.4">BGC0000847.4</a></td>
+              <td>other:non-nrp beta-lactam</td>
+              <td>32.0</td>
+              <td>73.2</td>
+              <td>61.0</td>
+              <td>1.46e-10</td>
+          </tr>
+    
+    </tbody>
+  </table>
+</body>

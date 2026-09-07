@@ -1,0 +1,612 @@
+ClusterBlast scores for 641
+
+Table of genes, locations, strands and annotations of query cluster:
+PUJ_007587	48147	50415	-	hypothetical protein	
+PUJ_007588	50762	54308	-	hypothetical protein	
+PUJ_007589	54955	57098	-	Glutaminyl-tRNA synthetase	
+PUJ_007590	57541	59325	-	hypothetical protein	
+PUJ_007591	60161	60929	-	hypothetical protein	
+PUJ_007592	61982	63423	-	hypothetical protein	
+PUJ_007593	63592	65360	+	hypothetical protein	
+PUJ_007594	65920	68173	+	hypothetical protein	
+PUJ_007595	68662	70066	+	hypothetical protein	
+PUJ_007596	70713	72145	+	hypothetical protein	
+PUJ_007597	72676	73321	-	Suppressor protein stp22 of temperature-sensitive alpha-factor receptor and arginine permease	
+PUJ_007598	74101	74622	-	Suppressor protein stp22 of temperature-sensitive alpha-factor receptor and arginine permease	
+PUJ_007599	74968	76143	-	pheromone alpha factor receptor	
+
+
+Significant hits: 
+1. NC_054695	Aspergillus flavus NRRL3357 chromosome 5, complete sequence
+2. NC_036439	Aspergillus oryzae RIB40 DNA, chromosome 5
+3. NW_020290675	Aspergillus saccharolyticus JOP 1030-1 unplaced genomic scaffold BP01scaffold_65, whole genome shotgun sequence
+4. NW_020291470	Aspergillus aculeatinus CBS 121060 unplaced genomic scaffold BO66scaffold_1, whole genome shotgun sequence
+5. NW_022983476	Aaosphaeria arxii CBS 175.79 unplaced genomic scaffold BU24scaffold_3, whole genome shotgun sequence
+6. NW_022987222	Trematosphaeria pertusa strain CBS 122368 unplaced genomic scaffold BU26scaffold_11, whole genome shotgun sequence
+7. NW_021940923	Pyricularia pennisetigena strain Br36 chromosome 4 map unlocalized Pyricularia_pennisetigena_Br36_Scf_11, whole genome shotgun sequence
+8. NW_026054645	Ophidiomyces ophidiicola strain CBS 122913 chromosome Unknown scaffold_5, whole genome shotgun sequence
+9. NW_025091220	Aspergillus viridinutans IFM 47045 DNA, scaffold_4, whole genome shotgun sequence
+10. NC_072351	Talaromyces marneffei chromosome 4, complete sequence
+11. NZ_SHKP01000004	Rivibacter subsaxonicus strain DSM 19570 Ga0310521_101, whole genome shotgun sequence
+12. NC_049565	Talaromyces rugulosus chromosome V, complete sequence
+13. NZ_CP028899	Stenotrophomonas maltophilia strain AB550 chromosome, complete genome
+14. NZ_CP039255	Stenotrophomonas sp. PAMC25021 chromosome, complete genome
+15. NZ_CP060022	Stenotrophomonas maltophilia strain UHH_PC240 chromosome
+16. NZ_CP104323	Stenotrophomonas maltophilia strain ACYCc.3B chromosome, complete genome
+17. NZ_LR134324	Stenotrophomonas maltophilia strain NCTC10259 chromosome 1, complete sequence
+18. NZ_CP021768	Stenotrophomonas sp. WZN-1 chromosome, complete genome
+19. NZ_JANJYM010000004	Stenotrophomonas maltophilia strain pD1b Scaffold4, whole genome shotgun sequence
+20. NC_017671	Stenotrophomonas maltophilia D457, complete sequence
+21. NZ_VFPC01000002	Stenotrophomonas maltophilia strain 1190 Ga0310717_12, whole genome shotgun sequence
+22. NC_015947	Stenotrophomonas maltophilia JV3, complete sequence
+23. NZ_CP025298	Stenotrophomonas maltophilia strain CSM2 chromosome, complete genome
+24. NZ_CP025780	Stenotrophomonas sp. Pemsol chromosome
+25. NZ_CP088244	Stenotrophomonas maltophilia strain 2013-SM4 chromosome, complete genome
+26. NZ_CP104289	Stenotrophomonas maltophilia strain ACYCd.9D chromosome, complete genome
+27. NZ_JACLBH010000005	Stenotrophomonas maltophilia strain G1P11 NODE_5_length_198898_cov_35.349221, whole genome shotgun sequence
+28. NZ_ML626539	Stenotrophomonas maltophilia strain SMYN43 scaffold6, whole genome shotgun sequence
+29. NZ_QXDB01000001	Stenotrophomonas sp. AG209 Ga0222399_11, whole genome shotgun sequence
+30. NZ_CP040433	Stenotrophomonas maltophilia strain SKK55 chromosome, complete genome
+31. NZ_CP049368	Stenotrophomonas maltophilia strain MER1 chromosome, complete genome
+32. NZ_CP054931	Stenotrophomonas sp. NA06056 chromosome, complete genome
+33. NZ_CP033877	Stenotrophomonas maltophilia strain 291 chromosome
+34. NZ_JAHXNI010000011	Stenotrophomonas indicatrix strain EYE_224 Seq_11, whole genome shotgun sequence
+35. NW_020291511	Aspergillus aculeatinus CBS 121060 unplaced genomic scaffold BO66scaffold_42, whole genome shotgun sequence
+
+
+Details:
+
+>>
+1. NC_054695
+Source: Aspergillus flavus NRRL3357 chromosome 5, complete sequence
+Type: indole
+Number of proteins with BLAST hits to this cluster: 13
+Cumulative BLAST score: 12483.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_007587	G4B84_007702	99	1460	99.73509933774835	0.0
+PUJ_007588	G4B84_007702	99	2206	100.54894784995425	0.0
+PUJ_007589	G4B84_007701	100	1257	100.0	0.0
+PUJ_007590	G4B84_007700	100	1099	100.0	0.0
+PUJ_007591	G4B84_007700	98	426	100.88495575221239	4.9e-143
+PUJ_007592	G4B84_007699	100	931	100.0	0.0
+PUJ_007593	G4B84_007698	82	816	120.51282051282051	3.57e-298
+PUJ_007594	G4B84_007697	97	1331	102.59740259740259	0.0
+PUJ_007595	G4B84_007696	91	762	109.04392764857882	8.06e-279
+PUJ_007596	G4B84_007695	100	909	100.0	0.0
+PUJ_007597	G4B84_007694	100	359	100.0	7.58e-117
+PUJ_007598	G4B84_007694	100	281	98.52941176470588	1.67e-88
+PUJ_007599	G4B84_007694	100	646	92.74193548387096	1.4e-225
+
+
+
+>>
+2. NC_036439
+Source: Aspergillus oryzae RIB40 DNA, chromosome 5
+Type: indole
+Number of proteins with BLAST hits to this cluster: 12
+Cumulative BLAST score: 10404.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_007587	AO090701000595	99	1372	94.03973509933775	0.0
+PUJ_007588	AO090701000596	99	1848	84.53796889295518	0.0
+PUJ_007589	AO090701000597	99	1248	100.0	0.0
+PUJ_007590	AO090701000598	100	835	74.90706319702602	1.78e-305
+PUJ_007591	AO090701000599	98	425	100.88495575221239	1.57e-149
+PUJ_007592	AO090701000600	100	934	100.0	0.0
+PUJ_007594	AO090701000601	99	1252	93.36219336219335	0.0
+PUJ_007595	AO090701000602	91	764	109.04392764857882	1.39e-279
+PUJ_007596	AO090701000603	100	412	45.414847161572055	1.27e-142
+PUJ_007597	AO090701000604	100	359	100.0	1.14e-120
+PUJ_007598	AO090701000604	95	258	98.52941176470588	9.99e-83
+PUJ_007599	AO090701000605	100	697	99.19354838709677	1.7e-254
+
+
+
+>>
+3. NW_020290675
+Source: Aspergillus saccharolyticus JOP 1030-1 unplaced genomic scaffold BP01scaffold_65, whole genome shotgun sequence
+Type: indole
+Number of proteins with BLAST hits to this cluster: 6
+Cumulative BLAST score: 3089.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_007590	BP01DRAFT_395784	67	762	100.55762081784387	2.05e-274
+PUJ_007591	BP01DRAFT_272576	58	252	96.90265486725663	2.32e-82
+PUJ_007592	BP01DRAFT_409801	53	407	90.6318082788671	4.13e-137
+PUJ_007593	BP01DRAFT_409802	42	351	107.6923076923077	1.72e-115
+PUJ_007594	BP01DRAFT_208268	66	910	103.31890331890332	0.0
+PUJ_007595	BP01DRAFT_351098	51	407	114.72868217054264	2.6e-138
+
+
+
+>>
+4. NW_020291470
+Source: Aspergillus aculeatinus CBS 121060 unplaced genomic scaffold BO66scaffold_1, whole genome shotgun sequence
+Type: indole
+Number of proteins with BLAST hits to this cluster: 6
+Cumulative BLAST score: 2887.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_007590	BO66DRAFT_387423	69	791	99.25650557620817	5.45e-286
+PUJ_007591	BO66DRAFT_387422	59	256	96.46017699115043	3.26e-83
+PUJ_007592	BO66DRAFT_467234	56	436	89.10675381263616	1.15e-148
+PUJ_007593	BO66DRAFT_416789	57	129	27.73892773892774	3.81e-30
+PUJ_007594	BO66DRAFT_416789	69	866	94.66089466089466	1.13e-307
+PUJ_007595	BO66DRAFT_467237	52	409	114.21188630490957	3.43e-139
+
+
+
+>>
+5. NW_022983476
+Source: Aaosphaeria arxii CBS 175.79 unplaced genomic scaffold BU24scaffold_3, whole genome shotgun sequence
+Type: indole
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 649.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_007590	BU24DRAFT_420959	43	449	98.69888475836431	2.01e-151
+PUJ_007592	BU24DRAFT_479145	31	200	87.58169934640523	5.97e-57
+
+
+
+>>
+6. NW_022987222
+Source: Trematosphaeria pertusa strain CBS 122368 unplaced genomic scaffold BU26scaffold_11, whole genome shotgun sequence
+Type: NRPS,indole,terpene
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 427.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_007589	BU26DRAFT_461664	31	238	77.4960380348653	7.97e-68
+PUJ_007592	BU26DRAFT_431541	32	189	85.40305010893246	4.23e-53
+
+
+
+>>
+7. NW_021940923
+Source: Pyricularia pennisetigena strain Br36 chromosome 4 map unlocalized Pyricularia_pennisetigena_Br36_Scf_11, whole genome shotgun sequence
+Type: indole
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 350.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_007592	PpBr36_10871	31	171	93.4640522875817	1.83e-45
+PUJ_007595	PpBr36_10879	31	179	101.80878552971578	3.65e-50
+
+
+
+>>
+8. NW_026054645
+Source: Ophidiomyces ophidiicola strain CBS 122913 chromosome Unknown scaffold_5, whole genome shotgun sequence
+Type: fungal-RiPP-like
+Number of proteins with BLAST hits to this cluster: 4
+Cumulative BLAST score: 1327.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_007589	LOZ57_002122	56	665	94.13629160063391	3.42e-233
+PUJ_007597	LOZ57_002112	54	201	99.06542056074767	1.51e-59
+PUJ_007598	LOZ57_002112	73	204	97.05882352941177	3.64e-62
+PUJ_007599	LOZ57_002111	50	257	75.80645161290323	5.25e-81
+
+
+
+>>
+9. NW_025091220
+Source: Aspergillus viridinutans IFM 47045 DNA, scaffold_4, whole genome shotgun sequence
+Type: T1PKS
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 1114.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_007590	Aspvir_006060	58	639	100.0	4.09e-226
+PUJ_007595	Aspvir_006062	58	475	107.75193798449611	1.29e-165
+
+
+
+>>
+10. NC_072351
+Source: Talaromyces marneffei chromosome 4, complete sequence
+Type: NRPS,fungal-RiPP-like
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 667.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_007590	EYB26_006220	31	258	107.99256505576209	4.4e-76
+PUJ_007594	EYB26_006196	38	409	101.73160173160174	2.19e-131
+
+
+
+>>
+11. NZ_SHKP01000004
+Source: Rivibacter subsaxonicus strain DSM 19570 Ga0310521_101, whole genome shotgun sequence
+Type: arylpolyene
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 514.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_007589	EV670_RS05165	37	330	90.80824088748018	1.07e-102
+PUJ_007594	EV670_RS05225	36	184	53.96825396825397	1.55e-48
+
+
+
+>>
+12. NC_049565
+Source: Talaromyces rugulosus chromosome V, complete sequence
+Type: NRPS,NRPS-like,T1PKS
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 438.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_007590	TRUGW13939_10336	31	251	100.92936802973978	5.42e-71
+PUJ_007593	TRUGW13939_10314	35	187	82.28438228438229	7.81e-52
+
+
+
+>>
+13. NZ_CP028899
+Source: Stenotrophomonas maltophilia strain AB550 chromosome, complete genome
+Type: arylpolyene
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 241.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_007587	B7H26_RS22230	33	57	23.576158940397352	7.08e-06
+PUJ_007594	B7H26_RS22290	35	184	52.81385281385281	1.61e-48
+
+
+
+>>
+14. NZ_CP039255
+Source: Stenotrophomonas sp. PAMC25021 chromosome, complete genome
+Type: arylpolyene
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 240.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_007587	E5790_RS10580	33	57	23.576158940397352	7.08e-06
+PUJ_007594	E5790_RS10520	35	183	52.81385281385281	3.03e-48
+
+
+
+>>
+15. NZ_CP060022
+Source: Stenotrophomonas maltophilia strain UHH_PC240 chromosome
+Type: arylpolyene
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 240.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_007587	IMCGPPIG_RS11875	33	57	23.576158940397352	7.08e-06
+PUJ_007594	IMCGPPIG_RS11935	35	183	52.81385281385281	3.03e-48
+
+
+
+>>
+16. NZ_CP104323
+Source: Stenotrophomonas maltophilia strain ACYCc.3B chromosome, complete genome
+Type: arylpolyene
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 240.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_007587	K7564_RS19690	33	57	23.576158940397352	7.08e-06
+PUJ_007594	K7564_RS19750	35	183	52.81385281385281	3.03e-48
+
+
+
+>>
+17. NZ_LR134324
+Source: Stenotrophomonas maltophilia strain NCTC10259 chromosome 1, complete sequence
+Type: arylpolyene
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 240.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_007587	EL248_RS07455	33	57	23.576158940397352	7.08e-06
+PUJ_007594	EL248_RS07515	35	183	52.81385281385281	3.03e-48
+
+
+
+>>
+18. NZ_CP021768
+Source: Stenotrophomonas sp. WZN-1 chromosome, complete genome
+Type: arylpolyene
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 240.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_007587	CCR98_RS20240	32	56	23.576158940397352	9.29e-06
+PUJ_007594	CCR98_RS20300	35	184	52.81385281385281	2.21e-48
+
+
+
+>>
+19. NZ_JANJYM010000004
+Source: Stenotrophomonas maltophilia strain pD1b Scaffold4, whole genome shotgun sequence
+Type: arylpolyene
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 240.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_007587	NR511_RS04985	32	56	23.576158940397352	9.29e-06
+PUJ_007594	NR511_RS04925	35	184	52.81385281385281	1.17e-48
+
+
+
+>>
+20. NC_017671
+Source: Stenotrophomonas maltophilia D457, complete sequence
+Type: arylpolyene
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 239.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_007587	SMD_RS21220	33	57	23.576158940397352	7.08e-06
+PUJ_007594	SMD_RS21280	35	182	52.81385281385281	7.86e-48
+
+
+
+>>
+21. NZ_VFPC01000002
+Source: Stenotrophomonas maltophilia strain 1190 Ga0310717_12, whole genome shotgun sequence
+Type: arylpolyene
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 239.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_007587	FB552_RS10585	33	57	23.576158940397352	7.08e-06
+PUJ_007594	FB552_RS10525	35	182	52.81385281385281	5.73e-48
+
+
+
+>>
+22. NC_015947
+Source: Stenotrophomonas maltophilia JV3, complete sequence
+Type: arylpolyene
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 239.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_007587	BURJV3_RS19930	32	56	23.576158940397352	9.29e-06
+PUJ_007594	BURJV3_RS19995	35	183	52.81385281385281	4.17e-48
+
+
+
+>>
+23. NZ_CP025298
+Source: Stenotrophomonas maltophilia strain CSM2 chromosome, complete genome
+Type: arylpolyene
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 239.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_007587	SmaCSM2_RS21045	32	56	23.576158940397352	9.29e-06
+PUJ_007594	SmaCSM2_RS21105	35	183	52.81385281385281	3.03e-48
+
+
+
+>>
+24. NZ_CP025780
+Source: Stenotrophomonas sp. Pemsol chromosome
+Type: arylpolyene
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 239.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_007587	PEM_RS17685	32	56	23.576158940397352	9.29e-06
+PUJ_007594	PEM_RS17745	35	183	52.81385281385281	4.17e-48
+
+
+
+>>
+25. NZ_CP088244
+Source: Stenotrophomonas maltophilia strain 2013-SM4 chromosome, complete genome
+Type: arylpolyene
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 239.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_007587	LQ335_RS20600	32	56	23.576158940397352	9.29e-06
+PUJ_007594	LQ335_RS20660	35	183	52.81385281385281	4.17e-48
+
+
+
+>>
+26. NZ_CP104289
+Source: Stenotrophomonas maltophilia strain ACYCd.9D chromosome, complete genome
+Type: arylpolyene
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 239.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_007587	K7563_RS19550	32	56	23.576158940397352	9.29e-06
+PUJ_007594	K7563_RS19610	35	183	52.81385281385281	4.17e-48
+
+
+
+>>
+27. NZ_JACLBH010000005
+Source: Stenotrophomonas maltophilia strain G1P11 NODE_5_length_198898_cov_35.349221, whole genome shotgun sequence
+Type: arylpolyene
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 239.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_007587	ID824_RS16895	32	56	23.576158940397352	9.29e-06
+PUJ_007594	ID824_RS16955	35	183	52.81385281385281	3.03e-48
+
+
+
+>>
+28. NZ_ML626539
+Source: Stenotrophomonas maltophilia strain SMYN43 scaffold6, whole genome shotgun sequence
+Type: arylpolyene
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 239.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_007587	E4418_RS18405	32	56	23.576158940397352	9.29e-06
+PUJ_007594	E4418_RS18345	35	183	52.81385281385281	4.17e-48
+
+
+
+>>
+29. NZ_QXDB01000001
+Source: Stenotrophomonas sp. AG209 Ga0222399_11, whole genome shotgun sequence
+Type: arylpolyene
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 239.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_007587	DFO63_RS11275	32	56	23.576158940397352	9.29e-06
+PUJ_007594	DFO63_RS11335	35	183	52.81385281385281	3.03e-48
+
+
+
+>>
+30. NZ_CP040433
+Source: Stenotrophomonas maltophilia strain SKK55 chromosome, complete genome
+Type: arylpolyene
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 238.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_007587	FEO94_RS20680	32	56	23.576158940397352	9.29e-06
+PUJ_007594	FEO94_RS20740	35	182	52.81385281385281	5.73e-48
+
+
+
+>>
+31. NZ_CP049368
+Source: Stenotrophomonas maltophilia strain MER1 chromosome, complete genome
+Type: arylpolyene
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 238.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_007587	G6052_RS20000	32	56	23.576158940397352	9.29e-06
+PUJ_007594	G6052_RS20060	36	182	52.95815295815296	1.08e-47
+
+
+
+>>
+32. NZ_CP054931
+Source: Stenotrophomonas sp. NA06056 chromosome, complete genome
+Type: arylpolyene
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 238.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_007587	HUT07_RS19620	32	56	23.576158940397352	9.29e-06
+PUJ_007594	HUT07_RS19685	35	182	52.81385281385281	7.86e-48
+
+
+
+>>
+33. NZ_CP033877
+Source: Stenotrophomonas maltophilia strain 291 chromosome
+Type: arylpolyene
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 237.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_007587	EGM71_RS20090	32	56	23.576158940397352	9.29e-06
+PUJ_007594	EGM71_RS20150	35	181	52.81385281385281	1.48e-47
+
+
+
+>>
+34. NZ_JAHXNI010000011
+Source: Stenotrophomonas indicatrix strain EYE_224 Seq_11, whole genome shotgun sequence
+Type: arylpolyene
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 237.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_007587	KZX71_RS16505	32	56	23.576158940397352	9.29e-06
+PUJ_007594	KZX71_RS16445	35	181	52.95815295815296	2.79e-47
+
+
+
+>>
+35. NW_020291511
+Source: Aspergillus aculeatinus CBS 121060 unplaced genomic scaffold BO66scaffold_42, whole genome shotgun sequence
+Type: T1PKS
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 232.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_007587	BO66DRAFT_393825	40	97	21.059602649006624	4.45e-21
+PUJ_007588	BO66DRAFT_403834	46	135	12.625800548947849	2.82e-34
+

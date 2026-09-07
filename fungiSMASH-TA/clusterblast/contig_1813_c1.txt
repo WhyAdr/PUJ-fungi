@@ -1,0 +1,176 @@
+ClusterBlast scores for contig_1813
+
+Table of genes, locations, strands and annotations of query cluster:
+PUJ_005299	5731	7025	+	hypothetical protein	
+PUJ_005300	10082	11675	+	hypothetical protein	
+PUJ_005301	11953	13395	-	Terpene cyclase 6	
+PUJ_005302	15920	16465	+	Glutathione S-transferase 2	
+PUJ_005304	17932	21012	-	hypothetical protein	
+PUJ_005305	22953	24123	+	hypothetical protein	
+PUJ_005306	24694	25530	+	meiotic recombination	
+PUJ_005307	25832	27085	+	meiotic recombination	
+
+
+Significant hits: 
+1. NW_006711178	Trichoderma reesei QM6a unplaced genomic scaffold TRIREscaffold_31, whole genome shotgun sequence
+2. NC_035794	Pochonia chlamydosporia 170 chromosome 5, whole genome shotgun sequence
+3. NW_025953250	Annulohypoxylon maeteangense strain CBS 123835 unplaced genomic scaffold GGS22scaffold_3, whole genome shotgun sequence
+4. NW_025953807	Annulohypoxylon truncatum strain CBS 140777 unplaced genomic scaffold F4807scaffold_21, whole genome shotgun sequence
+5. NC_072353	Talaromyces marneffei chromosome 6, complete sequence
+6. NW_017971433	Talaromyces atroroseus strain IBT 11181 chromosome Unknown scaffold_1, whole genome shotgun sequence
+7. NC_035792	Pochonia chlamydosporia 170 chromosome 3, whole genome shotgun sequence
+8. NW_025091221	Aspergillus viridinutans IFM 47045 DNA, scaffold_5, whole genome shotgun sequence
+9. NC_007197	Aspergillus fumigatus Af293 chromosome 4, whole genome shotgun sequence
+10. NW_006271970	Cordyceps militaris CM01 unplaced genomic scaffold CCM_S00002, whole genome shotgun sequence
+
+
+Details:
+
+>>
+1. NW_006711178
+Source: Trichoderma reesei QM6a unplaced genomic scaffold TRIREscaffold_31, whole genome shotgun sequence
+Type: isocyanide,terpene
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 974.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_005301	TRIREDRAFT_112028	68	520	113.55421686746988	1.04e-184
+PUJ_005304	TRIREDRAFT_69926	58	454	66.79035250463822	4.03e-155
+
+
+
+>>
+2. NC_035794
+Source: Pochonia chlamydosporia 170 chromosome 5, whole genome shotgun sequence
+Type: terpene
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 935.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_005301	VFPPC_10827	66	481	105.12048192771084	2.09e-169
+PUJ_005304	VFPPC_14832	58	454	67.16141001855289	6.35e-155
+
+
+
+>>
+3. NW_025953250
+Source: Annulohypoxylon maeteangense strain CBS 123835 unplaced genomic scaffold GGS22scaffold_3, whole genome shotgun sequence
+Type: T1PKS,terpene
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 917.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_005301	GGS22DRAFT_96867	61	454	108.43373493975903	5.03e-159
+PUJ_005304	GGS22DRAFT_96868	59	463	67.16141001855289	1.7e-158
+
+
+
+>>
+4. NW_025953807
+Source: Annulohypoxylon truncatum strain CBS 140777 unplaced genomic scaffold F4807scaffold_21, whole genome shotgun sequence
+Type: T1PKS,terpene
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 903.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_005301	F4807DRAFT_461503	61	454	108.43373493975903	7.13e-159
+PUJ_005304	F4807DRAFT_141418	57	449	67.16141001855289	8.88e-153
+
+
+
+>>
+5. NC_072353
+Source: Talaromyces marneffei chromosome 6, complete sequence
+Type: terpene
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 715.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_005301	EYB26_008595	51	363	105.42168674698796	7.32e-123
+PUJ_005304	EYB26_008593	48	352	67.16141001855289	4.21e-115
+
+
+
+>>
+6. NW_017971433
+Source: Talaromyces atroroseus strain IBT 11181 chromosome Unknown scaffold_1, whole genome shotgun sequence
+Type: NRPS-like,fungal-RiPP-like,terpene
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 707.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_005301	UA08_01835	49	340	105.42168674698796	7.56e-114
+PUJ_005304	UA08_01833	48	367	68.08905380333951	7.31e-121
+
+
+
+>>
+7. NC_035792
+Source: Pochonia chlamydosporia 170 chromosome 3, whole genome shotgun sequence
+Type: NRPS-like
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 348.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_005299	VFPPC_04178	35	199	103.44827586206897	8.07e-56
+PUJ_005302	VFPPC_15743	68	149	90.0	3.21e-44
+
+
+
+>>
+8. NW_025091221
+Source: Aspergillus viridinutans IFM 47045 DNA, scaffold_5, whole genome shotgun sequence
+Type: T1PKS,fungal-RiPP-like
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 344.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_005299	Aspvir_007046	33	164	105.41871921182266	3.99e-43
+PUJ_005304	Aspvir_007044	54	180	34.32282003710575	1.9e-50
+
+
+
+>>
+9. NC_007197
+Source: Aspergillus fumigatus Af293 chromosome 4, whole genome shotgun sequence
+Type: fungal-RiPP-like
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 313.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_005299	AFUA_4G14000	36	155	75.61576354679804	6.44e-40
+PUJ_005304	AFUA_4G14010	57	158	27.458256029684602	4.62e-43
+
+
+
+>>
+10. NW_006271970
+Source: Cordyceps militaris CM01 unplaced genomic scaffold CCM_S00002, whole genome shotgun sequence
+Type: fungal-RiPP-like
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 225.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_005299	CCM_02560	37	160	70.19704433497537	1.81e-41
+PUJ_005302	CCM_02549	43	65	75.83333333333333	1.32e-11
+

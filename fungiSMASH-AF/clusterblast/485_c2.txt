@@ -1,0 +1,526 @@
+ClusterBlast scores for 485
+
+Table of genes, locations, strands and annotations of query cluster:
+PUJ_005866	347503	348880	-	Chitinase 2	
+PUJ_005867	356080	357514	-	hypothetical protein	
+PUJ_005868	359881	362159	+	hypothetical protein	
+PUJ_005869	362887	363205	+	hypothetical protein	
+PUJ_005870	363996	365592	+	hypothetical protein	
+PUJ_005871	365948	367707	-	hypothetical protein	
+PUJ_005872	368697	370139	+	hypothetical protein	
+PUJ_005873	371667	372785	-	hypothetical protein	
+PUJ_005874	373467	376596	+	hypothetical protein	
+PUJ_005875	377992	379093	+	hypothetical protein	
+PUJ_005876	383974	385090	-	hypothetical protein	
+PUJ_005877	386271	387537	-	hypothetical protein	
+PUJ_005878	393636	395613	-	hypothetical protein	
+PUJ_005879	402774	404888	-	hypothetical protein	
+
+
+Significant hits: 
+1. NC_036440	Aspergillus oryzae RIB40 DNA, chromosome 6
+2. NC_054696	Aspergillus flavus NRRL3357 chromosome 6, complete sequence
+3. NW_025408682	Hirsutella rhossiliensis strain HR02 chromosome Unknown scaffold00016, whole genome shotgun sequence
+4. NC_057365	Aspergillus chevalieri M1 DNA, chromosome 4, nearly complete sequence
+5. NW_019170475	Aspergillus glaucus CBS 516.65 unplaced genomic scaffold ASPGLscaffold_23, whole genome shotgun sequence
+6. NW_025091230	Aspergillus viridinutans IFM 47045 DNA, scaffold_14, whole genome shotgun sequence
+7. NW_025091290	Aspergillus pseudoviridinutans IFM 55266 DNA, scaffold_10, whole genome shotgun sequence
+8. NW_026054644	Ophidiomyces ophidiicola strain CBS 122913 chromosome Unknown scaffold_4, whole genome shotgun sequence
+9. NW_015440949	Paracoccidioides lutzii Pb01 unplaced genomic scaffold supercont2.3, whole genome shotgun sequence
+10. NW_011371358	Paracoccidioides brasiliensis Pb18 unplaced genomic scaffold supercont2.1, whole genome shotgun sequence
+11. NW_024467301	Aspergillus ruber CBS 135680 unplaced genomic scaffold scaffold00005, whole genome shotgun sequence
+12. NW_025408676	Hirsutella rhossiliensis strain HR02 chromosome Unknown scaffold00010, whole genome shotgun sequence
+13. NW_003052499	Uncinocarpus reesii 1704 scaffold_2 genomic scaffold, whole genome shotgun sequence
+14. NW_025091270	Aspergillus udagawae IFM 46973 DNA, scaffold_7, whole genome shotgun sequence
+15. NC_054698	Aspergillus flavus NRRL3357 chromosome 8, complete sequence
+16. NW_025091266	Aspergillus udagawae IFM 46973 DNA, scaffold_3, whole genome shotgun sequence
+17. NW_024467839	Aspergillus wentii DTO 134E9 unplaced genomic scaffold ASPWEscaffold_8, whole genome shotgun sequence
+18. NW_020291806	Aspergillus costaricaensis CBS 115574 unplaced genomic scaffold BO79scaffold_6, whole genome shotgun sequence
+19. NW_020291610	Aspergillus piperis CBS 112811 unplaced genomic scaffold BO85scaffold_20, whole genome shotgun sequence
+20. NZ_CP033464	Brevibacillus laterosporus strain 1821L chromosome, complete genome
+21. NZ_CP024646	Pseudomonas syringae isolate inb918 chromosome, complete genome
+22. NZ_CP054128	Pseudomonas sp. MPDS chromosome, complete genome
+23. NZ_CP087204	Pseudomonas sp. B21-054 chromosome, complete genome
+24. NZ_CP077080	Pseudomonas alvandae strain SWRI17 chromosome, complete genome
+25. NC_019757	Cylindrospermum stagnale PCC 7417, complete sequence
+26. NZ_CP017705	Brevibacillus laterosporus DSM 25 chromosome, complete genome
+27. NZ_CP032410	Brevibacillus laterosporus strain E7593-50 chromosome, complete genome
+28. NZ_CP104694	Tahibacter sp. W38 chromosome
+29. NW_006711178	Trichoderma reesei QM6a unplaced genomic scaffold TRIREscaffold_31, whole genome shotgun sequence
+
+
+Details:
+
+>>
+1. NC_036440
+Source: Aspergillus oryzae RIB40 DNA, chromosome 6
+Type: NRPS-like
+Number of proteins with BLAST hits to this cluster: 14
+Cumulative BLAST score: 12664.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_005866	AO090020000231	100	629	85.0828729281768	4.18e-226
+PUJ_005867	AO090020000233	100	915	100.0	0.0
+PUJ_005868	AO090020000234	98	1347	100.0	0.0
+PUJ_005869	AO090020000235	100	196	96.19047619047619	9.39e-65
+PUJ_005870	AO090020000236	100	962	100.0	0.0
+PUJ_005871	AO090020000237	95	969	102.13178294573643	0.0
+PUJ_005871	AO090020000238	44	416	96.51162790697676	1.18e-138
+PUJ_005872	AO090020000238	100	889	100.0	0.0
+PUJ_005872	AO090020000237	40	339	102.04545454545455	6.33e-110
+PUJ_005873	AO090020000239	99	530	76.34730538922156	5.55e-190
+PUJ_005874	AO090020000240	99	2066	100.0	0.0
+PUJ_005875	AO090020000241	100	719	100.0	4.93e-263
+PUJ_005876	AO090020000242	87	615	99.73045822102425	1.14e-221
+PUJ_005877	AO090020000244	98	327	38.95486935866984	3.42e-110
+PUJ_005877	AO090020000242	33	86	42.517814726840854	5.22e-16
+PUJ_005878	AO090020000247	99	665	96.3380281690141	2.18e-242
+PUJ_005879	AO090020000251	99	580	48.073701842546065	1.24e-203
+PUJ_005879	AO090020000252	98	414	35.00837520938023	4.9e-141
+
+
+
+>>
+2. NC_054696
+Source: Aspergillus flavus NRRL3357 chromosome 6, complete sequence
+Type: NRPS-like
+Number of proteins with BLAST hits to this cluster: 13
+Cumulative BLAST score: 12986.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_005866	G4B84_009375	89	584	91.4364640883978	3.01e-208
+PUJ_005867	G4B84_009373	100	919	100.0	0.0
+PUJ_005868	G4B84_009371	99	1347	99.85775248933145	0.0
+PUJ_005870	G4B84_009370	100	962	100.0	0.0
+PUJ_005871	G4B84_009369	99	1012	100.0	0.0
+PUJ_005871	G4B84_009368	44	417	96.51162790697676	2.09e-139
+PUJ_005872	G4B84_009368	99	887	100.0	0.0
+PUJ_005872	G4B84_009369	43	376	99.54545454545455	1.56e-124
+PUJ_005873	G4B84_009367	100	692	100.0	1.89e-253
+PUJ_005874	G4B84_009366	99	2066	100.0	0.0
+PUJ_005875	G4B84_009365	100	719	100.0	4.93e-263
+PUJ_005876	G4B84_009363	96	719	101.61725067385446	4.52e-263
+PUJ_005877	G4B84_009362	98	323	38.95486935866984	7.89e-109
+PUJ_005877	G4B84_009364	35	171	77.19714964370546	4.33e-47
+PUJ_005878	G4B84_009359	91	652	104.50704225352112	1.38e-236
+PUJ_005879	G4B84_009356	89	1140	108.37520938023451	0.0
+
+
+
+>>
+3. NW_025408682
+Source: Hirsutella rhossiliensis strain HR02 chromosome Unknown scaffold00016, whole genome shotgun sequence
+Type: NRPS-like
+Number of proteins with BLAST hits to this cluster: 4
+Cumulative BLAST score: 3007.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_005871	HRG_10616	62	546	86.62790697674419	8.25e-192
+PUJ_005871	HRG_10617	36	310	95.73643410852713	5.78e-99
+PUJ_005872	HRG_10617	45	397	99.54545454545455	6.24e-134
+PUJ_005872	HRG_10616	37	293	100.68181818181819	1.27e-93
+PUJ_005873	HRG_10615	72	201	40.7185628742515	1.85e-62
+PUJ_005874	HRG_10614	62	1260	99.23224568138195	0.0
+
+
+
+>>
+4. NC_057365
+Source: Aspergillus chevalieri M1 DNA, chromosome 4, nearly complete sequence
+Type: NRPS-like
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 1876.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_005873	ACHE_40898S	66	473	98.20359281437125	8.72e-167
+PUJ_005874	ACHE_40897A	69	1403	99.23224568138195	0.0
+
+
+
+>>
+5. NW_019170475
+Source: Aspergillus glaucus CBS 516.65 unplaced genomic scaffold ASPGLscaffold_23, whole genome shotgun sequence
+Type: NRPS-like
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 1833.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_005873	ASPGLDRAFT_134645	65	460	98.20359281437125	9.13e-162
+PUJ_005874	ASPGLDRAFT_69278	68	1373	98.84836852207293	0.0
+
+
+
+>>
+6. NW_025091230
+Source: Aspergillus viridinutans IFM 47045 DNA, scaffold_14, whole genome shotgun sequence
+Type: NRPS-like,T1PKS,indole
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 1580.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_005873	Aspvir_003358	61	428	99.40119760479041	2.69e-149
+PUJ_005874	Aspvir_003357	58	1152	98.2725527831094	0.0
+
+
+
+>>
+7. NW_025091290
+Source: Aspergillus pseudoviridinutans IFM 55266 DNA, scaffold_10, whole genome shotgun sequence
+Type: NRPS-like
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 1561.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_005873	Asppvi_001773	60	425	99.40119760479041	6.27e-148
+PUJ_005874	Asppvi_001774	57	1136	98.36852207293666	0.0
+
+
+
+>>
+8. NW_026054644
+Source: Ophidiomyces ophidiicola strain CBS 122913 chromosome Unknown scaffold_4, whole genome shotgun sequence
+Type: NRPS,NRPS-like
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 1543.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_005873	LOZ57_001566	66	444	97.60479041916167	2.08e-155
+PUJ_005874	LOZ57_001567	55	1099	98.9443378119002	0.0
+
+
+
+>>
+9. NW_015440949
+Source: Paracoccidioides lutzii Pb01 unplaced genomic scaffold supercont2.3, whole genome shotgun sequence
+Type: NRPS-like
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 1496.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_005873	PAAG_01546	64	453	98.20359281437125	6.4e-159
+PUJ_005874	PAAG_01545	54	1043	97.69673704414588	0.0
+
+
+
+>>
+10. NW_011371358
+Source: Paracoccidioides brasiliensis Pb18 unplaced genomic scaffold supercont2.1, whole genome shotgun sequence
+Type: NRPS-like
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 1486.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_005873	PADG_00232	63	449	98.20359281437125	3.01e-157
+PUJ_005874	PADG_00233	54	1037	97.98464491362763	0.0
+
+
+
+>>
+11. NW_024467301
+Source: Aspergillus ruber CBS 135680 unplaced genomic scaffold scaffold00005, whole genome shotgun sequence
+Type: NRPS-like
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 1307.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_005873	EURHEDRAFT_513534	66	468	97.90419161676647	8.29e-165
+PUJ_005874	EURHEDRAFT_409919	67	839	60.172744721689064	2.01e-295
+
+
+
+>>
+12. NW_025408676
+Source: Hirsutella rhossiliensis strain HR02 chromosome Unknown scaffold00010, whole genome shotgun sequence
+Type: NRPS-like
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 1305.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_005873	HRG_08383	70	486	97.30538922155688	2.9e-172
+PUJ_005874	HRG_08384	55	819	74.85604606525912	5.31e-287
+
+
+
+>>
+13. NW_003052499
+Source: Uncinocarpus reesii 1704 scaffold_2 genomic scaffold, whole genome shotgun sequence
+Type: NRPS,NRPS-like
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 1226.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_005873	UREG_04221	63	424	98.50299401197606	1.31e-147
+PUJ_005874	UREG_04220	51	802	80.80614203454894	6.13e-278
+
+
+
+>>
+14. NW_025091270
+Source: Aspergillus udagawae IFM 46973 DNA, scaffold_7, whole genome shotgun sequence
+Type: NRPS-like,T1PKS
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 944.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_005873	Aud_008871	39	240	94.01197604790418	2.9e-75
+PUJ_005874	Aud_008870	41	704	95.77735124760078	8.84e-237
+
+
+
+>>
+15. NC_054698
+Source: Aspergillus flavus NRRL3357 chromosome 8, complete sequence
+Type: NRPS-like
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 1843.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_005873	G4B84_011783	49	321	100.0	1.51e-103
+PUJ_005873	G4B84_011782	47	305	99.10179640718563	9.97e-101
+PUJ_005874	G4B84_011779	60	1217	99.04030710172745	0.0
+
+
+
+>>
+16. NW_025091266
+Source: Aspergillus udagawae IFM 46973 DNA, scaffold_3, whole genome shotgun sequence
+Type: NRPS-like,T1PKS,terpene
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 1754.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_005873	Aud_004181	60	402	99.40119760479041	5.78e-139
+PUJ_005874	Aud_004183	53	1071	99.04030710172745	0.0
+PUJ_005874	Aud_004232	40	281	38.67562380038388	6.54e-76
+
+
+
+>>
+17. NW_024467839
+Source: Aspergillus wentii DTO 134E9 unplaced genomic scaffold ASPWEscaffold_8, whole genome shotgun sequence
+Type: NRPS-like
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 835.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_005874	ASPWEDRAFT_118398	37	565	98.65642994241843	4.25e-183
+PUJ_005875	ASPWEDRAFT_119548	41	270	95.62841530054644	2.04e-86
+
+
+
+>>
+18. NW_020291806
+Source: Aspergillus costaricaensis CBS 115574 unplaced genomic scaffold BO79scaffold_6, whole genome shotgun sequence
+Type: NRPS-like,terpene
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 817.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_005873	BO79DRAFT_285445	31	110	87.12574850299401	6.5e-26
+PUJ_005874	BO79DRAFT_243460	39	707	95.87332053742801	4.36e-238
+
+
+
+>>
+19. NW_020291610
+Source: Aspergillus piperis CBS 112811 unplaced genomic scaffold BO85scaffold_20, whole genome shotgun sequence
+Type: NRPS-like,terpene
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 815.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_005873	BO85DRAFT_480511	32	110	79.64071856287424	9.02e-26
+PUJ_005874	BO85DRAFT_480508	39	705	95.96928982725528	3.45e-237
+
+
+
+>>
+20. NZ_CP033464
+Source: Brevibacillus laterosporus strain 1821L chromosome, complete genome
+Type: NRPS,T1PKS,prodigiosin,transAT-PKS
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 648.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_005874	EEL30_RS18545	31	251	56.62188099808061	4.85e-66
+PUJ_005874	EEL30_RS18785	31	250	57.00575815738963	8.66e-66
+PUJ_005875	EEL30_RS18560	32	147	87.43169398907104	4.99e-39
+
+
+
+>>
+21. NZ_CP024646
+Source: Pseudomonas syringae isolate inb918 chromosome, complete genome
+Type: NRPS-like
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 632.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_005868	CT157_RS11370	35	70	20.483641536273115	1.2e-11
+PUJ_005874	CT157_RS11440	35	562	97.69673704414588	2.86e-182
+
+
+
+>>
+22. NZ_CP054128
+Source: Pseudomonas sp. MPDS chromosome, complete genome
+Type: NRPS
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 432.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_005868	HQ912_RS19240	32	130	51.920341394025606	2.08e-30
+PUJ_005868	HQ912_RS19245	36	69	15.078236130867708	3.01e-11
+PUJ_005874	HQ912_RS19150	34	233	55.470249520153544	3.93e-60
+
+
+
+>>
+23. NZ_CP087204
+Source: Pseudomonas sp. B21-054 chromosome, complete genome
+Type: NRPS
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 429.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_005868	LOY70_RS09180	32	129	51.778093883357045	5.17e-30
+PUJ_005868	LOY70_RS09175	36	68	15.078236130867708	5.55e-11
+PUJ_005874	LOY70_RS09250	33	232	55.08637236084453	5.22e-60
+
+
+
+>>
+24. NZ_CP077080
+Source: Pseudomonas alvandae strain SWRI17 chromosome, complete genome
+Type: NRP-metallophore,NRPS
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 424.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_005868	KSS97_RS20245	31	125	54.19630156472262	7.98e-29
+PUJ_005868	KSS97_RS20250	36	67	15.078236130867708	1.39e-10
+PUJ_005874	KSS97_RS20050	31	232	56.4299424184261	5.32e-60
+
+
+
+>>
+25. NC_019757
+Source: Cylindrospermum stagnale PCC 7417, complete sequence
+Type: NRPS,betalactone
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 418.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_005868	CYLST_RS29225	34	140	51.635846372688476	1e-33
+PUJ_005874	CYLST_RS29285	32	278	60.076775431861805	3.2e-76
+
+
+
+>>
+26. NZ_CP017705
+Source: Brevibacillus laterosporus DSM 25 chromosome, complete genome
+Type: NRPS,T1PKS
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 388.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_005874	BrL25_RS22550	32	244	56.90978886756238	6.25e-64
+PUJ_005875	BrL25_RS22635	32	144	87.43169398907104	1.01e-37
+
+
+
+>>
+27. NZ_CP032410
+Source: Brevibacillus laterosporus strain E7593-50 chromosome, complete genome
+Type: NRPS,T1PKS
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 388.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_005874	D5F52_RS07300	32	244	56.90978886756238	8.32e-64
+PUJ_005875	D5F52_RS07225	32	144	87.43169398907104	5.18e-38
+
+
+
+>>
+28. NZ_CP104694
+Source: Tahibacter sp. W38 chromosome
+Type: NRPS,hglE-KS,transAT-PKS
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 322.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_005871	N4264_RS14290	31	74	30.813953488372093	6.22e-12
+PUJ_005874	N4264_RS14310	32	248	57.77351247600768	4.52e-65
+
+
+
+>>
+29. NW_006711178
+Source: Trichoderma reesei QM6a unplaced genomic scaffold TRIREscaffold_31, whole genome shotgun sequence
+Type: isocyanide,terpene
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 345.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_005866	TRIREDRAFT_124043	34	139	87.29281767955801	1.49e-35
+PUJ_005871	TRIREDRAFT_82133	31	206	93.6046511627907	1.44e-57
+

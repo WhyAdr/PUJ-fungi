@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8" />
+<link rel="stylesheet" type="text/css" href="../../css/style.css">
+
+<script type="text/javascript" src="../../js/jquery.js"></script>
+<script type="text/javascript" src="../../js/jquery.tablesorter.min.js"></script>
+
+<script type="text/javascript" >
+var counter = 1;
+function addInput(divName){
+     var newdiv = document.createElement('div');
+     newdiv.innerHTML = "<b>Locus " + (counter + 1) + "</b><br> GenBank accession: <input type='text' required name='myInputs[]'> Start nt: <input type='number' name='myStartCoords[]' placeholder='N/A'> End nt: <input type='number' name='myEndCoords[]' placeholder='N/A'> <br><br>";
+     document.getElementById(divName).appendChild(newdiv);
+     counter++;
+}
+</script>
+
+<script>
+$(document).ready(function()
+    {
+        $("#myTable").tablesorter();
+    }
+);
+
+</script>
+<style>
+table {
+    border-width: thin;
+    border-spacing: 2px;
+    border-style: none;
+    border-color: black;
+}
+</style>
+</head>
+<body>
+    <table id="myTable" class="tablesorter" border=1>
+    <thead>
+    <tr>
+        <th>MIBiG Protein</th>
+        <th>Description</th>
+        <th>MIBiG Cluster</th>
+        <th>MiBiG Product</th>
+        <th>% ID</th>
+        <th>% Coverage</th>
+        <th>BLAST Score</th>
+        <th>E-value</th>
+    </tr>
+    </thead>
+    <tbody>
+    
+          <tr>
+              <td>AUW31182.1</td>
+              <td>putative_monooxygenase</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0001489.3">BGC0001489.3</a></td>
+              <td>PKS</td>
+              <td>57.0</td>
+              <td>95.5</td>
+              <td>665.0</td>
+              <td>2.23e-236</td>
+          </tr>
+    
+          <tr>
+              <td>EAU38788.1</td>
+              <td>conserved_hypothetical_protein</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0000161.4">BGC0000161.4</a></td>
+              <td>PKS:Iterative type I</td>
+              <td>55.0</td>
+              <td>100.8</td>
+              <td>662.0</td>
+              <td>1.49e-234</td>
+          </tr>
+    
+          <tr>
+              <td>CEO59274.1</td>
+              <td>Putative_FAD_binding_domain_protein</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0002278.3">BGC0002278.3</a></td>
+              <td>other:other+NRPS:Type I</td>
+              <td>33.0</td>
+              <td>75.5</td>
+              <td>224.0</td>
+              <td>1.69e-66</td>
+          </tr>
+    
+          <tr>
+              <td>KAF7597143.1</td>
+              <td>hypothetical_protein</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0002264.3">BGC0002264.3</a></td>
+              <td>NRPS:Type I</td>
+              <td>28.0</td>
+              <td>92.3</td>
+              <td>219.0</td>
+              <td>6.53e-64</td>
+          </tr>
+    
+          <tr>
+              <td>ESK96612.1</td>
+              <td>phenol_2-monooxygenase</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0002212.3">BGC0002212.3</a></td>
+              <td>PKS</td>
+              <td>31.0</td>
+              <td>85.6</td>
+              <td>218.0</td>
+              <td>6.6e-62</td>
+          </tr>
+    
+          <tr>
+              <td>EAU35437.1</td>
+              <td>conserved_hypothetical_protein</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0002734.2">BGC0002734.2</a></td>
+              <td>PKS</td>
+              <td>26.0</td>
+              <td>108.8</td>
+              <td>162.0</td>
+              <td>5.3e-42</td>
+          </tr>
+    
+          <tr>
+              <td>XP_002379985.1</td>
+              <td>phenol_2-monooxygenase,_putative</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0001621.4">BGC0001621.4</a></td>
+              <td>NRPS:Type I</td>
+              <td>39.0</td>
+              <td>35.6</td>
+              <td>151.0</td>
+              <td>5.34e-42</td>
+          </tr>
+    
+          <tr>
+              <td>ABX71099.1</td>
+              <td>Lct16</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0000238.5">BGC0000238.5</a></td>
+              <td>PKS</td>
+              <td>32.0</td>
+              <td>60.4</td>
+              <td>137.0</td>
+              <td>2.12e-34</td>
+          </tr>
+    
+          <tr>
+              <td>AEI98648.1</td>
+              <td>CtcE</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0000209.5">BGC0000209.5</a></td>
+              <td>PKS</td>
+              <td>30.0</td>
+              <td>62.4</td>
+              <td>136.0</td>
+              <td>8.39e-34</td>
+          </tr>
+    
+          <tr>
+              <td>WP_078870630.1</td>
+              <td>FAD-dependent_oxidoreductase</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0002137.3">BGC0002137.3</a></td>
+              <td>PKS</td>
+              <td>30.0</td>
+              <td>59.4</td>
+              <td>133.0</td>
+              <td>8.91e-33</td>
+          </tr>
+    
+          <tr>
+              <td>BBA97256.1</td>
+              <td>putative_oxygenase</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0002383.3">BGC0002383.3</a></td>
+              <td>PKS</td>
+              <td>28.0</td>
+              <td>63.6</td>
+              <td>121.0</td>
+              <td>7.62e-29</td>
+          </tr>
+    
+          <tr>
+              <td>AAL33754.1</td>
+              <td>putative_monooxygenase/hydroxylase</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0000421.5">BGC0000421.5</a></td>
+              <td>NRPS:Type I</td>
+              <td>27.0</td>
+              <td>77.1</td>
+              <td>120.0</td>
+              <td>1.32e-28</td>
+          </tr>
+    
+          <tr>
+              <td>UPN68079.1</td>
+              <td>putative_FAD-dependent_monooxygenase</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0002672.2">BGC0002672.2</a></td>
+              <td>PKS</td>
+              <td>28.0</td>
+              <td>72.3</td>
+              <td>116.0</td>
+              <td>2.7e-27</td>
+          </tr>
+    
+          <tr>
+              <td>QSV12648.1</td>
+              <td>AvmO2</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0002456.3">BGC0002456.3</a></td>
+              <td>PKS+NRPS:Type I</td>
+              <td>27.0</td>
+              <td>65.8</td>
+              <td>114.0</td>
+              <td>1.49e-26</td>
+          </tr>
+    
+          <tr>
+              <td>OKI81337.1</td>
+              <td>monooxygenase</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0002478.3">BGC0002478.3</a></td>
+              <td>PKS</td>
+              <td>30.0</td>
+              <td>62.3</td>
+              <td>112.0</td>
+              <td>4.06e-26</td>
+          </tr>
+    
+          <tr>
+              <td>AAK06782.1</td>
+              <td>putative_oxygenase_SimA7</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0001072.5">BGC0001072.5</a></td>
+              <td>PKS:Type I+saccharide+other:aminocoumarin</td>
+              <td>29.0</td>
+              <td>63.1</td>
+              <td>110.0</td>
+              <td>3.22e-25</td>
+          </tr>
+    
+          <tr>
+              <td>AAD13534.1</td>
+              <td>oxygenase_homolog</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0000239.5">BGC0000239.5</a></td>
+              <td>PKS:Type II+saccharide:hybrid/tailoring</td>
+              <td>28.0</td>
+              <td>63.8</td>
+              <td>109.0</td>
+              <td>5.78e-25</td>
+          </tr>
+    
+          <tr>
+              <td>UMP03502.1</td>
+              <td>NmvL</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0002649.2">BGC0002649.2</a></td>
+              <td>NRPS:Type I+PKS</td>
+              <td>30.0</td>
+              <td>61.6</td>
+              <td>109.0</td>
+              <td>6.42e-25</td>
+          </tr>
+    
+          <tr>
+              <td>AHX24715.1</td>
+              <td>FAD-binding_monooxygenase</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0000200.5">BGC0000200.5</a></td>
+              <td>PKS:Type II+saccharide:hybrid/tailoring</td>
+              <td>29.0</td>
+              <td>61.6</td>
+              <td>109.0</td>
+              <td>7.5e-25</td>
+          </tr>
+    
+          <tr>
+              <td>QDG00828.1</td>
+              <td>FAD-binding_protein</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0002028.4">BGC0002028.4</a></td>
+              <td>PKS</td>
+              <td>29.0</td>
+              <td>62.6</td>
+              <td>108.0</td>
+              <td>8.9e-25</td>
+          </tr>
+    
+          <tr>
+              <td>SEG87429.1</td>
+              <td>bifunctional_hydroxylase/dehydrase</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0002712.2">BGC0002712.2</a></td>
+              <td>PKS</td>
+              <td>28.0</td>
+              <td>67.1</td>
+              <td>108.0</td>
+              <td>1.14e-24</td>
+          </tr>
+    
+          <tr>
+              <td>OWA25247.1</td>
+              <td>monooxygenase</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0001438.5">BGC0001438.5</a></td>
+              <td>PKS+saccharide:hybrid/tailoring</td>
+              <td>27.0</td>
+              <td>71.6</td>
+              <td>108.0</td>
+              <td>1.37e-24</td>
+          </tr>
+    
+          <tr>
+              <td>QSV12649.1</td>
+              <td>AvmO3</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0002456.3">BGC0002456.3</a></td>
+              <td>PKS+NRPS:Type I</td>
+              <td>28.0</td>
+              <td>70.1</td>
+              <td>108.0</td>
+              <td>1.39e-24</td>
+          </tr>
+    
+          <tr>
+              <td>BAJ07857.1</td>
+              <td>putative_oxygenase</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0000232.5">BGC0000232.5</a></td>
+              <td>PKS</td>
+              <td>32.0</td>
+              <td>46.4</td>
+              <td>107.0</td>
+              <td>1.92e-24</td>
+          </tr>
+    
+          <tr>
+              <td>AAM97364.1</td>
+              <td>RubN</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0000266.5">BGC0000266.5</a></td>
+              <td>PKS</td>
+              <td>29.0</td>
+              <td>62.3</td>
+              <td>107.0</td>
+              <td>3e-24</td>
+          </tr>
+    
+          <tr>
+              <td>ACP19351.1</td>
+              <td>SaqE</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0000267.5">BGC0000267.5</a></td>
+              <td>PKS:Type II+saccharide:oligosaccharide</td>
+              <td>28.0</td>
+              <td>62.9</td>
+              <td>106.0</td>
+              <td>5.92e-24</td>
+          </tr>
+    
+          <tr>
+              <td>EHM27503.1</td>
+              <td>monooxygenase_FAD-binding</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0000235.5">BGC0000235.5</a></td>
+              <td>PKS</td>
+              <td>27.0</td>
+              <td>73.5</td>
+              <td>106.0</td>
+              <td>6.36e-24</td>
+          </tr>
+    
+          <tr>
+              <td>OKI59864.1</td>
+              <td>monooxygenase</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0002477.3">BGC0002477.3</a></td>
+              <td>PKS</td>
+              <td>27.0</td>
+              <td>73.5</td>
+              <td>105.0</td>
+              <td>1.52e-23</td>
+          </tr>
+    
+          <tr>
+              <td>ADB02842.1</td>
+              <td>AzicO4</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0000202.5">BGC0000202.5</a></td>
+              <td>PKS</td>
+              <td>27.0</td>
+              <td>68.1</td>
+              <td>105.0</td>
+              <td>1.55e-23</td>
+          </tr>
+    
+          <tr>
+              <td>AAK57522.1</td>
+              <td>PgaE</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0000262.5">BGC0000262.5</a></td>
+              <td>PKS:Type II+saccharide:hybrid/tailoring</td>
+              <td>28.0</td>
+              <td>62.6</td>
+              <td>104.0</td>
+              <td>2.55e-23</td>
+          </tr>
+    
+          <tr>
+              <td>ADQ55479.1</td>
+              <td>FAD-binding_monooxygenase</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0000350.5">BGC0000350.5</a></td>
+              <td>NRPS:Type I</td>
+              <td>24.0</td>
+              <td>59.8</td>
+              <td>104.0</td>
+              <td>2.66e-23</td>
+          </tr>
+    
+          <tr>
+              <td>QOP59268.1</td>
+              <td>FAD-binding_monooxygenase</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0002504.2">BGC0002504.2</a></td>
+              <td>PKS</td>
+              <td>28.0</td>
+              <td>63.4</td>
+              <td>103.0</td>
+              <td>6.18e-23</td>
+          </tr>
+    
+          <tr>
+              <td>AKJ15842.1</td>
+              <td>hypothetical_protein</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0002735.2">BGC0002735.2</a></td>
+              <td>PKS+NRPS:Type I</td>
+              <td>29.0</td>
+              <td>63.6</td>
+              <td>102.0</td>
+              <td>8.58e-23</td>
+          </tr>
+    
+          <tr>
+              <td>POM23760.1</td>
+              <td>Pentachlorophenol_4-monooxygenase</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0002369.2">BGC0002369.2</a></td>
+              <td>PKS</td>
+              <td>27.0</td>
+              <td>63.4</td>
+              <td>101.0</td>
+              <td>1.94e-22</td>
+          </tr>
+    
+          <tr>
+              <td>ADB02837.1</td>
+              <td>AzicO3</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0000202.5">BGC0000202.5</a></td>
+              <td>PKS</td>
+              <td>26.0</td>
+              <td>67.6</td>
+              <td>100.0</td>
+              <td>4.56e-22</td>
+          </tr>
+    
+          <tr>
+              <td>ABB88524.1</td>
+              <td>Baeyer-Villiger_monooxygenase</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0000050.5">BGC0000050.5</a></td>
+              <td>PKS</td>
+              <td>27.0</td>
+              <td>58.6</td>
+              <td>100.0</td>
+              <td>5e-22</td>
+          </tr>
+    
+          <tr>
+              <td>AGI99493.1</td>
+              <td>FAD-dependent_oxidoreductase</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0001004.5">BGC0001004.5</a></td>
+              <td>PKS:Type I</td>
+              <td>27.0</td>
+              <td>59.9</td>
+              <td>98.0</td>
+              <td>3.5e-21</td>
+          </tr>
+    
+          <tr>
+              <td>QFU80897.1</td>
+              <td>FAD-dependent_oxidoreductase</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0002550.2">BGC0002550.2</a></td>
+              <td>PKS</td>
+              <td>27.0</td>
+              <td>59.9</td>
+              <td>98.0</td>
+              <td>3.5e-21</td>
+          </tr>
+    
+          <tr>
+              <td>AGC09488.1</td>
+              <td>LobA</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0001183.5">BGC0001183.5</a></td>
+              <td>PKS</td>
+              <td>26.0</td>
+              <td>60.1</td>
+              <td>97.0</td>
+              <td>4.67e-21</td>
+          </tr>
+    
+          <tr>
+              <td>AQW35055.1</td>
+              <td>bifunctional_monooxygenase-dehydratase</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0001675.5">BGC0001675.5</a></td>
+              <td>PKS</td>
+              <td>36.0</td>
+              <td>31.4</td>
+              <td>97.0</td>
+              <td>5.46e-21</td>
+          </tr>
+    
+          <tr>
+              <td>ACR50781.1</td>
+              <td>putative_FAD-dependent_oxygenase</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0000163.5">BGC0000163.5</a></td>
+              <td>PKS</td>
+              <td>26.0</td>
+              <td>74.0</td>
+              <td>97.0</td>
+              <td>6.51e-21</td>
+          </tr>
+    
+          <tr>
+              <td>ACB37744.1</td>
+              <td>FAD-dependent_oxygenase</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0000162.5">BGC0000162.5</a></td>
+              <td>PKS</td>
+              <td>28.0</td>
+              <td>57.8</td>
+              <td>97.0</td>
+              <td>8.25e-21</td>
+          </tr>
+    
+          <tr>
+              <td>AGZ15446.1</td>
+              <td>putative_polyketide_oxygenase/hydroxylase</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0001036.5">BGC0001036.5</a></td>
+              <td>NRPS:Type I+PKS</td>
+              <td>27.0</td>
+              <td>72.5</td>
+              <td>96.0</td>
+              <td>2.05e-20</td>
+          </tr>
+    
+          <tr>
+              <td>AAP69582.1</td>
+              <td>putative_FAD-dependent_oxygenase</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0000226.5">BGC0000226.5</a></td>
+              <td>PKS</td>
+              <td>25.0</td>
+              <td>62.6</td>
+              <td>96.0</td>
+              <td>2.05e-20</td>
+          </tr>
+    
+          <tr>
+              <td>AHZ61847.1</td>
+              <td>Lom13</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0000240.5">BGC0000240.5</a></td>
+              <td>PKS:Type II+saccharide:hybrid/tailoring</td>
+              <td>26.0</td>
+              <td>63.1</td>
+              <td>94.0</td>
+              <td>1.21e-19</td>
+          </tr>
+    
+          <tr>
+              <td>ABP54636.1</td>
+              <td>monooxygenase,_FAD-binding</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0000241.5">BGC0000241.5</a></td>
+              <td>PKS:Type II+saccharide:hybrid/tailoring</td>
+              <td>26.0</td>
+              <td>63.1</td>
+              <td>87.0</td>
+              <td>1.93e-17</td>
+          </tr>
+    
+          <tr>
+              <td>CCE31578.1</td>
+              <td>related_to_phenol_2-monooxygenase</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0001886.2">BGC0001886.2</a></td>
+              <td>PKS</td>
+              <td>28.0</td>
+              <td>59.6</td>
+              <td>84.0</td>
+              <td>1.45e-16</td>
+          </tr>
+    
+          <tr>
+              <td>RLV71184.1</td>
+              <td>2-polyprenyl-6-methoxyphenol_hydroxylase-like_oxidoreductase</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0001846.4">BGC0001846.4</a></td>
+              <td>saccharide:hybrid/tailoring+NRPS:Type I</td>
+              <td>26.0</td>
+              <td>59.4</td>
+              <td>74.0</td>
+              <td>2.65e-13</td>
+          </tr>
+    
+    </tbody>
+  </table>
+</body>

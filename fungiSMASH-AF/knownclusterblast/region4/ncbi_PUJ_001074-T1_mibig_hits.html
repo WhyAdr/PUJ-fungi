@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8" />
+<link rel="stylesheet" type="text/css" href="../../css/style.css">
+
+<script type="text/javascript" src="../../js/jquery.js"></script>
+<script type="text/javascript" src="../../js/jquery.tablesorter.min.js"></script>
+
+<script type="text/javascript" >
+var counter = 1;
+function addInput(divName){
+     var newdiv = document.createElement('div');
+     newdiv.innerHTML = "<b>Locus " + (counter + 1) + "</b><br> GenBank accession: <input type='text' required name='myInputs[]'> Start nt: <input type='number' name='myStartCoords[]' placeholder='N/A'> End nt: <input type='number' name='myEndCoords[]' placeholder='N/A'> <br><br>";
+     document.getElementById(divName).appendChild(newdiv);
+     counter++;
+}
+</script>
+
+<script>
+$(document).ready(function()
+    {
+        $("#myTable").tablesorter();
+    }
+);
+
+</script>
+<style>
+table {
+    border-width: thin;
+    border-spacing: 2px;
+    border-style: none;
+    border-color: black;
+}
+</style>
+</head>
+<body>
+    <table id="myTable" class="tablesorter" border=1>
+    <thead>
+    <tr>
+        <th>MIBiG Protein</th>
+        <th>Description</th>
+        <th>MIBiG Cluster</th>
+        <th>MiBiG Product</th>
+        <th>% ID</th>
+        <th>% Coverage</th>
+        <th>BLAST Score</th>
+        <th>E-value</th>
+    </tr>
+    </thead>
+    <tbody>
+    
+          <tr>
+              <td>EED57520.1</td>
+              <td>efflux_pump_antibiotic_resistance_protein,_putative</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0001446.5">BGC0001446.5</a></td>
+              <td>PKS:Iterative type I</td>
+              <td>97.0</td>
+              <td>86.0</td>
+              <td>801.0</td>
+              <td>2.24e-294</td>
+          </tr>
+    
+          <tr>
+              <td>ADI24938.1</td>
+              <td>VrtL</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0000168.5">BGC0000168.5</a></td>
+              <td>PKS:Iterative type I</td>
+              <td>37.0</td>
+              <td>95.9</td>
+              <td>315.0</td>
+              <td>4.22e-102</td>
+          </tr>
+    
+          <tr>
+              <td>XP_001827204.1</td>
+              <td></td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0001996.2">BGC0001996.2</a></td>
+              <td>other:other</td>
+              <td>36.0</td>
+              <td>93.1</td>
+              <td>281.0</td>
+              <td>2.88e-89</td>
+          </tr>
+    
+          <tr>
+              <td>BAK26557.1</td>
+              <td>putative_MFS_multidrug_transporter</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0000977.4">BGC0000977.4</a></td>
+              <td>NRPS:Type I+PKS</td>
+              <td>32.0</td>
+              <td>90.9</td>
+              <td>254.0</td>
+              <td>1.48e-78</td>
+          </tr>
+    
+          <tr>
+              <td>ACD39772.1</td>
+              <td>major_facilitator_superfamily_transporter</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0000134.3">BGC0000134.3</a></td>
+              <td>PKS</td>
+              <td>32.0</td>
+              <td>98.6</td>
+              <td>253.0</td>
+              <td>8.59e-78</td>
+          </tr>
+    
+          <tr>
+              <td>OAQ63053.2</td>
+              <td>major_facilitator_superfamily_protein</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0002187.3">BGC0002187.3</a></td>
+              <td>PKS</td>
+              <td>33.0</td>
+              <td>93.7</td>
+              <td>252.0</td>
+              <td>2.2e-77</td>
+          </tr>
+    
+          <tr>
+              <td>XP_023093494.1</td>
+              <td></td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0001995.3">BGC0001995.3</a></td>
+              <td>terpene</td>
+              <td>32.0</td>
+              <td>93.7</td>
+              <td>247.0</td>
+              <td>6.71e-76</td>
+          </tr>
+    
+          <tr>
+              <td>AGO86666.1</td>
+              <td>putative_MFS_transporter</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0001255.4">BGC0001255.4</a></td>
+              <td>NRPS:Type I+PKS</td>
+              <td>30.0</td>
+              <td>97.4</td>
+              <td>204.0</td>
+              <td>1.58e-59</td>
+          </tr>
+    
+          <tr>
+              <td>KFH44385.1</td>
+              <td>putative_transporter-like_protein</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0002190.2">BGC0002190.2</a></td>
+              <td>PKS</td>
+              <td>28.0</td>
+              <td>95.3</td>
+              <td>197.0</td>
+              <td>7.27e-57</td>
+          </tr>
+    
+          <tr>
+              <td>CBF87867.1</td>
+              <td>MFS_multidrug_transporter,_putative_(AFU_orthologue;_AFUA_1G10370)</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0001699.4">BGC0001699.4</a></td>
+              <td>NRPS:Type I</td>
+              <td>31.0</td>
+              <td>95.1</td>
+              <td>197.0</td>
+              <td>2.63e-56</td>
+          </tr>
+    
+          <tr>
+              <td>ALI92656.1</td>
+              <td>MRR1_Major_Facilitator_Superfamily_(MFS)_protein</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0001338.4">BGC0001338.4</a></td>
+              <td>PKS:Iterative type I</td>
+              <td>29.0</td>
+              <td>99.8</td>
+              <td>195.0</td>
+              <td>3.53e-56</td>
+          </tr>
+    
+          <tr>
+              <td>XP_001827195.1</td>
+              <td></td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0001996.2">BGC0001996.2</a></td>
+              <td>other:other</td>
+              <td>27.0</td>
+              <td>97.6</td>
+              <td>180.0</td>
+              <td>1.54e-50</td>
+          </tr>
+    
+          <tr>
+              <td>ABS57485.1</td>
+              <td>putative_MFS_multidrug_transporter</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0000048.3">BGC0000048.3</a></td>
+              <td>PKS</td>
+              <td>25.0</td>
+              <td>102.2</td>
+              <td>123.0</td>
+              <td>7.13e-30</td>
+          </tr>
+    
+          <tr>
+              <td>XP_011392678.1</td>
+              <td>uncharacterized_protein</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0001281.3">BGC0001281.3</a></td>
+              <td>PKS</td>
+              <td>37.0</td>
+              <td>27.8</td>
+              <td>98.0</td>
+              <td>3.21e-21</td>
+          </tr>
+    
+          <tr>
+              <td>AMY15073.1</td>
+              <td>MFS_transporter</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0001339.5">BGC0001339.5</a></td>
+              <td>PKS:Iterative type I</td>
+              <td>24.0</td>
+              <td>92.1</td>
+              <td>92.0</td>
+              <td>2.32e-19</td>
+          </tr>
+    
+          <tr>
+              <td>BBU42023.1</td>
+              <td>putative_transporter</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0002222.2">BGC0002222.2</a></td>
+              <td>PKS</td>
+              <td>21.0</td>
+              <td>92.7</td>
+              <td>89.0</td>
+              <td>1.21e-18</td>
+          </tr>
+    
+          <tr>
+              <td>QQZ01653.1</td>
+              <td>MFS_transporter</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0002497.3">BGC0002497.3</a></td>
+              <td>other:other</td>
+              <td>29.0</td>
+              <td>28.8</td>
+              <td>71.0</td>
+              <td>1.1e-12</td>
+          </tr>
+    
+    </tbody>
+  </table>
+</body>

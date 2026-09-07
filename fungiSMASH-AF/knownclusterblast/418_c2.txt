@@ -1,0 +1,73 @@
+ClusterBlast scores for 418
+
+Table of genes, locations, strands and annotations of query cluster:
+PUJ_002545	378034	378525	+	hypothetical protein	
+PUJ_002546	380947	382441	-	hypothetical protein	
+PUJ_002547	383706	384343	+	hypothetical protein	
+PUJ_002548	384486	385504	+	hypothetical protein	
+PUJ_002549	385694	386580	-	hypothetical protein	
+PUJ_002550	386848	387739	+	hypothetical protein	
+PUJ_002551	388045	389602	-	hypothetical protein	
+PUJ_002552	392062	393854	+	hypothetical protein	
+PUJ_002553	395612	397262	-	Flavin-containing monooxygenase ustF2	
+PUJ_002554	398058	398979	+	hypothetical protein	
+PUJ_002555	399086	401151	-	hypothetical protein	
+PUJ_002556	401594	402568	+	hypothetical protein	
+PUJ_002557	402668	404158	-	hypothetical protein	
+PUJ_002558	405762	406228	+	hypothetical protein	
+PUJ_002559	407909	409074	-	hypothetical protein	
+PUJ_002560	410877	411809	-	hypothetical protein	
+PUJ_002561	412160	412974	+	hypothetical protein	
+PUJ_002562	414760	418572	-	hypothetical protein	
+PUJ_002563	423218	425263	-	Vacuolar protein 8	
+PUJ_002564	429147	430589	+	hypothetical protein	
+
+
+Significant hits: 
+1. BGC0000627.4	ustiloxin B
+2. BGC0001398.2	phomopsin A/phomopsin B/phomopsin E
+
+
+Details:
+
+>>
+1. BGC0000627.4
+Source: ustiloxin B
+Type: ribosomal:RiPP:Dikaritin
+Number of proteins with BLAST hits to this cluster: 13
+Cumulative BLAST score: 7477.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_002549	AFLA_095110	100	498	88.04347826086956	4.04e-181
+PUJ_002550	AFLA_095100	100	317	54.729729729729726	1.62e-110
+PUJ_002551	AFLA_095090	100	598	61.24497991967871	7.88e-216
+PUJ_002552	AFLA_095070	84	778	119.5754716981132	4.64e-285
+PUJ_002553	AFLA_095050	99	982	100.0	0.0
+PUJ_002554	AFLA_095040	98	610	100.0	8.14e-222
+PUJ_002555	AFLA_095030	99	1160	100.0	0.0
+PUJ_002556	AFLA_095020	46	111	69.62616822429906	7.2e-32
+PUJ_002557	AFLA_095010	98	967	100.0	0.0
+PUJ_002558	AFLA_094990	99	275	93.28358208955224	5.35e-96
+PUJ_002559	AFLA_094960	99	449	63.68563685636857	1.41e-157
+PUJ_002560	AFLA_094950	55	167	174.07407407407408	1.78e-51
+PUJ_002560	AFLA_095050	59	75	47.22222222222222	7.41e-17
+PUJ_002561	AFLA_094940	96	490	99.59839357429718	1.9e-178
+
+
+
+>>
+2. BGC0001398.2
+Source: phomopsin A/phomopsin B/phomopsin E
+Type: ribosomal:RiPP
+Number of proteins with BLAST hits to this cluster: 3
+Cumulative BLAST score: 736.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_002547	BDA39136.1	48	144	77.17391304347827	3.38e-40
+PUJ_002557	BDA39140.1	46	396	100.41666666666667	1.59e-131
+PUJ_002558	BDA39141.1	62	196	99.25373134328358	5.4e-64
+

@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8" />
+<link rel="stylesheet" type="text/css" href="../../css/style.css">
+
+<script type="text/javascript" src="../../js/jquery.js"></script>
+<script type="text/javascript" src="../../js/jquery.tablesorter.min.js"></script>
+
+<script type="text/javascript" >
+var counter = 1;
+function addInput(divName){
+     var newdiv = document.createElement('div');
+     newdiv.innerHTML = "<b>Locus " + (counter + 1) + "</b><br> GenBank accession: <input type='text' required name='myInputs[]'> Start nt: <input type='number' name='myStartCoords[]' placeholder='N/A'> End nt: <input type='number' name='myEndCoords[]' placeholder='N/A'> <br><br>";
+     document.getElementById(divName).appendChild(newdiv);
+     counter++;
+}
+</script>
+
+<script>
+$(document).ready(function()
+    {
+        $("#myTable").tablesorter();
+    }
+);
+
+</script>
+<style>
+table {
+    border-width: thin;
+    border-spacing: 2px;
+    border-style: none;
+    border-color: black;
+}
+</style>
+</head>
+<body>
+    <table id="myTable" class="tablesorter" border=1>
+    <thead>
+    <tr>
+        <th>MIBiG Protein</th>
+        <th>Description</th>
+        <th>MIBiG Cluster</th>
+        <th>MiBiG Product</th>
+        <th>% ID</th>
+        <th>% Coverage</th>
+        <th>BLAST Score</th>
+        <th>E-value</th>
+    </tr>
+    </thead>
+    <tbody>
+    
+          <tr>
+              <td>OAQ83763.1</td>
+              <td>branched-chain_amino_acid_aminotransferase</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0001358.4">BGC0001358.4</a></td>
+              <td>NRPS:Type I+PKS</td>
+              <td>62.0</td>
+              <td>98.1</td>
+              <td>344.0</td>
+              <td>1.97e-118</td>
+          </tr>
+    
+          <tr>
+              <td>EPS29075.1</td>
+              <td>hypothetical_protein</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0001724.4">BGC0001724.4</a></td>
+              <td>NRPS:Type I+PKS</td>
+              <td>55.0</td>
+              <td>98.9</td>
+              <td>295.0</td>
+              <td>1.67e-99</td>
+          </tr>
+    
+          <tr>
+              <td>CBF73436.1</td>
+              <td>branched-chain_amino-acid_transaminase,_putative_(Eurofung)</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0001515.4">BGC0001515.4</a></td>
+              <td>NRPS:Type I</td>
+              <td>52.0</td>
+              <td>101.5</td>
+              <td>277.0</td>
+              <td>1.26e-92</td>
+          </tr>
+    
+          <tr>
+              <td>QIW91872.1</td>
+              <td>HtyB</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0002543.3">BGC0002543.3</a></td>
+              <td>NRPS:Type I</td>
+              <td>51.0</td>
+              <td>98.9</td>
+              <td>260.0</td>
+              <td>1.64e-85</td>
+          </tr>
+    
+          <tr>
+              <td>EPE34346.1</td>
+              <td>D-aminoacid_aminotransferase-like_PLP-dependent_enzyme</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0001035.5">BGC0001035.5</a></td>
+              <td>PKS+NRPS:Type I</td>
+              <td>50.0</td>
+              <td>99.2</td>
+              <td>259.0</td>
+              <td>2.16e-85</td>
+          </tr>
+    
+          <tr>
+              <td>ACZ66250.1</td>
+              <td>APS4</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0000304.4">BGC0000304.4</a></td>
+              <td>NRPS:Type I</td>
+              <td>53.0</td>
+              <td>98.9</td>
+              <td>257.0</td>
+              <td>2.27e-84</td>
+          </tr>
+    
+          <tr>
+              <td>QJY30863.1</td>
+              <td>aminotransferase</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0002539.3">BGC0002539.3</a></td>
+              <td>other:other</td>
+              <td>45.0</td>
+              <td>107.6</td>
+              <td>243.0</td>
+              <td>9.9e-79</td>
+          </tr>
+    
+          <tr>
+              <td>simJ</td>
+              <td></td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0000334.4">BGC0000334.4</a></td>
+              <td>NRPS:Type I</td>
+              <td>48.0</td>
+              <td>99.6</td>
+              <td>240.0</td>
+              <td>9.4e-78</td>
+          </tr>
+    
+          <tr>
+              <td>AMM63171.1</td>
+              <td>AniD</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0001371.4">BGC0001371.4</a></td>
+              <td>NRPS:Type I</td>
+              <td>46.0</td>
+              <td>101.9</td>
+              <td>240.0</td>
+              <td>9.68e-78</td>
+          </tr>
+    
+          <tr>
+              <td>AKJ70938.1</td>
+              <td>transaminase</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0002611.2">BGC0002611.2</a></td>
+              <td>NRPS:Type I</td>
+              <td>42.0</td>
+              <td>111.0</td>
+              <td>232.0</td>
+              <td>1.74e-74</td>
+          </tr>
+    
+          <tr>
+              <td>MAA_10039</td>
+              <td></td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0000337.4">BGC0000337.4</a></td>
+              <td>NRPS:Type I</td>
+              <td>45.0</td>
+              <td>101.5</td>
+              <td>231.0</td>
+              <td>3.73e-74</td>
+          </tr>
+    
+          <tr>
+              <td>ATQ39435.1</td>
+              <td>aminotransferase</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0001565.4">BGC0001565.4</a></td>
+              <td>NRPS:Type I</td>
+              <td>44.0</td>
+              <td>100.0</td>
+              <td>212.0</td>
+              <td>6.17e-67</td>
+          </tr>
+    
+    </tbody>
+  </table>
+</body>

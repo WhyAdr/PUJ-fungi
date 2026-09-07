@@ -1,0 +1,2 @@
+*.gbk filter=lfs diff=lfs merge=lfs -text
+*Funannotate* filter=lfs diff=lfs merge=lfs -text

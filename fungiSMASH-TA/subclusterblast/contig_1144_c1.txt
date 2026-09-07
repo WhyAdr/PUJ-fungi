@@ -1,0 +1,12 @@
+ClusterBlast scores for contig_1144
+
+Table of genes, locations, strands and annotations of query cluster:
+PUJ_002690	1212	2109	-	Short chain dehydrogenase/reductase dmxR12	
+PUJ_002691	2816	4298	+	hypothetical protein	
+PUJ_002692	6396	10660	+	Atrochrysone carboxylic acid synthase Agnpks1	
+
+
+Significant hits: 
+
+
+Details:

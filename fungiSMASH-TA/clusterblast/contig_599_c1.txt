@@ -1,0 +1,27 @@
+ClusterBlast scores for contig_599
+
+Table of genes, locations, strands and annotations of query cluster:
+PUJ_001596	481	1484	+	hypothetical protein	
+PUJ_001597	6753	8922	+	hypothetical protein	
+PUJ_001598	11645	12269	-	GTP-binding protein Rho1	
+
+
+Significant hits: 
+1. NW_006917098	Pestalotiopsis fici W106-1 unplaced genomic scaffold PFICI_Scf_8, whole genome shotgun sequence
+
+
+Details:
+
+>>
+1. NW_006917098
+Source: Pestalotiopsis fici W106-1 unplaced genomic scaffold PFICI_Scf_8, whole genome shotgun sequence
+Type: NRPS-like
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 931.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_001597	PFICI_11330	71	657	92.95238095238095	1.72e-232
+PUJ_001598	PFICI_11329	81	274	100.0	2.83e-93
+

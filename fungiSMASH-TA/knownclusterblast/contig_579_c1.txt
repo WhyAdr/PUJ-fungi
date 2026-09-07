@@ -1,0 +1,10 @@
+ClusterBlast scores for contig_579
+
+Table of genes, locations, strands and annotations of query cluster:
+PUJ_001555	516	11827	-	hypothetical protein	
+
+
+Significant hits: 
+
+
+Details:

@@ -1,0 +1,83 @@
+ClusterBlast scores for 485
+
+Table of genes, locations, strands and annotations of query cluster:
+PUJ_006068	1092349	1093441	+	Superoxide dismutase [Cu-Zn]	
+PUJ_006069	1094045	1096882	+	hypothetical protein	
+PUJ_006070	1097477	1098913	+	hypothetical protein	
+PUJ_006071	1101997	1102573	+	hypothetical protein	
+PUJ_006072	1103623	1104751	-	hypothetical protein	
+PUJ_006073	1106253	1108127	-	hypothetical protein	
+PUJ_006074	1108738	1111677	-	hypothetical protein	
+PUJ_006075	1112045	1113537	-	hypothetical protein	
+PUJ_006076	1114289	1115195	+	hypothetical protein	
+PUJ_006077	1116148	1116881	-	hypothetical protein	
+
+
+Significant hits: 
+1. NC_054696	Aspergillus flavus NRRL3357 chromosome 6, complete sequence
+2. NC_036440	Aspergillus oryzae RIB40 DNA, chromosome 6
+3. NW_025091218	Aspergillus viridinutans IFM 47045 DNA, scaffold_2, whole genome shotgun sequence
+
+
+Details:
+
+>>
+1. NC_054696
+Source: Aspergillus flavus NRRL3357 chromosome 6, complete sequence
+Type: fungal-RiPP-like,indole
+Number of proteins with BLAST hits to this cluster: 10
+Cumulative BLAST score: 8663.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_006068	G4B84_009129	100	301	97.40259740259741	6.49e-105
+PUJ_006069	G4B84_009128	99	1673	100.0	0.0
+PUJ_006070	G4B84_009127	100	847	100.0	9.74e-312
+PUJ_006071	G4B84_009125	98	323	100.0	3.35e-113
+PUJ_006072	G4B84_009124	100	756	100.0	2.31e-277
+PUJ_006073	G4B84_009123	94	1049	100.0	0.0
+PUJ_006074	G4B84_009122	99	1811	100.0	0.0
+PUJ_006075	G4B84_009121	99	967	100.0	0.0
+PUJ_006076	G4B84_009120	89	553	100.0	1.1e-199
+PUJ_006077	G4B84_009119	99	383	95.06726457399103	3.34e-131
+
+
+
+>>
+2. NC_036440
+Source: Aspergillus oryzae RIB40 DNA, chromosome 6
+Type: fungal-RiPP-like,indole
+Number of proteins with BLAST hits to this cluster: 10
+Cumulative BLAST score: 8618.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_006068	AO090020000521	100	308	100.0	9.16e-108
+PUJ_006069	AO090020000522	100	1699	100.0	0.0
+PUJ_006070	AO090020000523	100	847	100.0	4.83e-312
+PUJ_006071	AO090020000526	98	323	100.0	3.35e-113
+PUJ_006072	AO090020000527	100	754	99.73333333333333	5.54e-276
+PUJ_006073	AO090020000529	100	779	68.30601092896174	1.75e-283
+PUJ_006073	AO090020000528	99	257	21.493624772313296	6.07e-82
+PUJ_006074	AO090020000530	100	1825	100.0	0.0
+PUJ_006075	AO090020000531	100	818	81.72268907563026	7.58e-300
+PUJ_006076	AO090020000532	99	597	97.34219269102991	3.37e-217
+PUJ_006077	AO090020000533	100	411	100.0	2.25e-143
+
+
+
+>>
+3. NW_025091218
+Source: Aspergillus viridinutans IFM 47045 DNA, scaffold_2, whole genome shotgun sequence
+Type: NRPS-like,T1PKS,indole
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 423.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_006072	Aspvir_003633	34	204	110.13333333333333	1.09e-59
+PUJ_006073	Aspvir_003645	43	219	56.284153005464475	1.27e-59
+

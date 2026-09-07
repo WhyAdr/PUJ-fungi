@@ -1,0 +1,15 @@
+ClusterBlast scores for 614
+
+Table of genes, locations, strands and annotations of query cluster:
+PUJ_007102	110198	112071	+	hypothetical protein	
+PUJ_007103	113361	117881	-	hypothetical protein	
+PUJ_007104	119281	123725	+	hypothetical protein	
+PUJ_007105	124763	126284	-	MFS transporter (Seo1)	
+PUJ_007106	128149	130513	-	ATP-binding cassette-type vacuolar membrane transporter Hmt1	
+PUJ_007107	131480	135089	-	hypothetical protein	
+
+
+Significant hits: 
+
+
+Details:

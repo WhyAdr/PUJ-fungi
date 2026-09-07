@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8" />
+<link rel="stylesheet" type="text/css" href="../../css/style.css">
+
+<script type="text/javascript" src="../../js/jquery.js"></script>
+<script type="text/javascript" src="../../js/jquery.tablesorter.min.js"></script>
+
+<script type="text/javascript" >
+var counter = 1;
+function addInput(divName){
+     var newdiv = document.createElement('div');
+     newdiv.innerHTML = "<b>Locus " + (counter + 1) + "</b><br> GenBank accession: <input type='text' required name='myInputs[]'> Start nt: <input type='number' name='myStartCoords[]' placeholder='N/A'> End nt: <input type='number' name='myEndCoords[]' placeholder='N/A'> <br><br>";
+     document.getElementById(divName).appendChild(newdiv);
+     counter++;
+}
+</script>
+
+<script>
+$(document).ready(function()
+    {
+        $("#myTable").tablesorter();
+    }
+);
+
+</script>
+<style>
+table {
+    border-width: thin;
+    border-spacing: 2px;
+    border-style: none;
+    border-color: black;
+}
+</style>
+</head>
+<body>
+    <table id="myTable" class="tablesorter" border=1>
+    <thead>
+    <tr>
+        <th>MIBiG Protein</th>
+        <th>Description</th>
+        <th>MIBiG Cluster</th>
+        <th>MiBiG Product</th>
+        <th>% ID</th>
+        <th>% Coverage</th>
+        <th>BLAST Score</th>
+        <th>E-value</th>
+    </tr>
+    </thead>
+    <tbody>
+    
+          <tr>
+              <td>EWG54271.1</td>
+              <td>hypothetical_protein</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0001190.3">BGC0001190.3</a></td>
+              <td>PKS</td>
+              <td>72.0</td>
+              <td>104.6</td>
+              <td>402.0</td>
+              <td>1.33e-142</td>
+          </tr>
+    
+          <tr>
+              <td>CEG06582.1</td>
+              <td>Ribulose_5-phosphate_4_epimerase</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0001928.2">BGC0001928.2</a></td>
+              <td>other:other</td>
+              <td>42.0</td>
+              <td>94.3</td>
+              <td>171.0</td>
+              <td>4.02e-52</td>
+          </tr>
+    
+          <tr>
+              <td>AFV52183.1</td>
+              <td>aldolase</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0000081.5">BGC0000081.5</a></td>
+              <td>NRPS:Type I+PKS:Iterative type I</td>
+              <td>40.0</td>
+              <td>87.8</td>
+              <td>168.0</td>
+              <td>2.4e-51</td>
+          </tr>
+    
+          <tr>
+              <td>AAF67511.1</td>
+              <td>NovR</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0000834.5">BGC0000834.5</a></td>
+              <td>saccharide:hybrid/tailoring+other:aminocoumarin</td>
+              <td>41.0</td>
+              <td>93.1</td>
+              <td>165.0</td>
+              <td>7.7e-50</td>
+          </tr>
+    
+          <tr>
+              <td>AAN65240.1</td>
+              <td>putative_aldolase</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0000832.4">BGC0000832.4</a></td>
+              <td>saccharide:hybrid/tailoring+other:aminocoumarin</td>
+              <td>41.0</td>
+              <td>92.0</td>
+              <td>162.0</td>
+              <td>1.04e-48</td>
+          </tr>
+    
+          <tr>
+              <td>ADY16691.1</td>
+              <td>TqaM</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0001142.4">BGC0001142.4</a></td>
+              <td>NRPS:Type I</td>
+              <td>37.0</td>
+              <td>79.0</td>
+              <td>136.0</td>
+              <td>4.2e-38</td>
+          </tr>
+    
+    </tbody>
+  </table>
+</body>

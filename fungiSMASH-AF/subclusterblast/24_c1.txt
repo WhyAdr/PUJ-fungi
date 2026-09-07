@@ -1,0 +1,22 @@
+ClusterBlast scores for 24
+
+Table of genes, locations, strands and annotations of query cluster:
+PUJ_000882	859770	861019	-	hypothetical protein	
+PUJ_000883	865085	866816	+	hypothetical protein	
+PUJ_000884	867677	870177	+	nucleolar DEAD-box protein required for synthesis of 60S ribosomal subunit	
+PUJ_000885	871089	873285	+	2-isopropylmalate synthase (Alpha-isopropylmalate synthase) (Alpha-IPM synthetase)	
+PUJ_000887	875764	876883	+	hypothetical protein	
+PUJ_000888	877061	877603	-	hypothetical protein	
+PUJ_000889	880884	886894	-	hypothetical protein	
+PUJ_000890	887919	888817	+	ribosomal protein S5	
+PUJ_000891	889438	891893	+	Severe Depolymerization of Actin	
+PUJ_000892	892684	893284	+	hypothetical protein	
+PUJ_000893	893938	896896	-	lumenal Hsp70 protein	
+PUJ_000894	897478	899179	-	mtDNA inheritance, partitioning of the mitochondrial organelle	
+PUJ_000895	899757	901653	+	hypothetical protein	
+
+
+Significant hits: 
+
+
+Details:

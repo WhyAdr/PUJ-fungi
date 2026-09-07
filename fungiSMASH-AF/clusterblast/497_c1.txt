@@ -1,0 +1,83 @@
+ClusterBlast scores for 497
+
+Table of genes, locations, strands and annotations of query cluster:
+PUJ_006630	545174	547294	+	NAPDH-dependent diflavin reductase	
+PUJ_006631	553130	555143	+	hypothetical protein	
+PUJ_006632	555926	556451	+	hypothetical protein	
+PUJ_006633	559733	562029	+	hypothetical protein	
+PUJ_006634	563072	564967	+	hypothetical protein	
+PUJ_006635	565825	567093	+	Molecular chaperone (DnaJ super)	
+PUJ_006636	568545	570367	+	protease B nonderepressible form	
+PUJ_006637	570528	571992	-	hypothetical protein	
+PUJ_006638	575117	575980	-	hypothetical protein	
+
+
+Significant hits: 
+1. NW_025091267	Aspergillus udagawae IFM 46973 DNA, scaffold_4, whole genome shotgun sequence
+2. NC_049564	Talaromyces rugulosus chromosome IV, complete sequence
+3. NC_064650	Penicillium oxalicum strain HP7-1 chromosome I, whole genome shotgun sequence
+4. NW_006763066	Drepanopeziza brunnea f. sp. 'multigermtubi' MB_m1 unplaced genomic scaffold M6_S00028, whole genome shotgun sequence
+
+
+Details:
+
+>>
+1. NW_025091267
+Source: Aspergillus udagawae IFM 46973 DNA, scaffold_4, whole genome shotgun sequence
+Type: T1PKS
+Number of proteins with BLAST hits to this cluster: 3
+Cumulative BLAST score: 1737.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_006636	Aud_006237	62	641	115.49893842887474	3.55e-228
+PUJ_006637	Aud_006238	69	662	103.08008213552363	4.01e-235
+PUJ_006638	Aud_006239	77	434	100.75471698113208	6.16e-154
+
+
+
+>>
+2. NC_049564
+Source: Talaromyces rugulosus chromosome IV, complete sequence
+Type: NRPS,T1PKS
+Number of proteins with BLAST hits to this cluster: 3
+Cumulative BLAST score: 1499.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_006631	TRUGW13939_08026	59	561	82.08955223880598	1.14e-191
+PUJ_006635	TRUGW13939_08028	71	486	101.8918918918919	6.45e-171
+PUJ_006636	TRUGW13939_08038	46	452	116.98513800424628	8.84e-154
+
+
+
+>>
+3. NC_064650
+Source: Penicillium oxalicum strain HP7-1 chromosome I, whole genome shotgun sequence
+Type: indole
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 1484.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_006630	POX_a00260	65	828	105.26315789473684	6.91e-298
+PUJ_006631	POX_a00258	68	656	80.14925373134328	2e-228
+
+
+
+>>
+4. NW_006763066
+Source: Drepanopeziza brunnea f. sp. 'multigermtubi' MB_m1 unplaced genomic scaffold M6_S00028, whole genome shotgun sequence
+Type: terpene
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 164.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_006634	MBM_09227	46	79	13.911620294599016	2.8e-13
+PUJ_006635	MBM_09221	55	85	20.54054054054054	1.04e-15
+

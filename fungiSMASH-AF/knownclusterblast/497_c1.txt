@@ -1,0 +1,18 @@
+ClusterBlast scores for 497
+
+Table of genes, locations, strands and annotations of query cluster:
+PUJ_006630	545174	547294	+	NAPDH-dependent diflavin reductase	
+PUJ_006631	553130	555143	+	hypothetical protein	
+PUJ_006632	555926	556451	+	hypothetical protein	
+PUJ_006633	559733	562029	+	hypothetical protein	
+PUJ_006634	563072	564967	+	hypothetical protein	
+PUJ_006635	565825	567093	+	Molecular chaperone (DnaJ super)	
+PUJ_006636	568545	570367	+	protease B nonderepressible form	
+PUJ_006637	570528	571992	-	hypothetical protein	
+PUJ_006638	575117	575980	-	hypothetical protein	
+
+
+Significant hits: 
+
+
+Details:

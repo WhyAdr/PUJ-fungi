@@ -1,0 +1,33 @@
+ClusterBlast scores for contig_1778
+
+Table of genes, locations, strands and annotations of query cluster:
+PUJ_005107	449	923	+	hypothetical protein	
+PUJ_005108	2440	4135	-	DnaJ-like protein	
+PUJ_005109	4755	5709	-	hypothetical protein	
+PUJ_005110	7709	9065	+	bifunctional farnesyl-diphosphate farnesyltransferase/squalene synthase	
+PUJ_005111	9965	11493	-	hypothetical protein	
+PUJ_005112	17284	19174	+	hypothetical protein	
+PUJ_005113	19832	21233	-	GPI mannosyltransferase 1	
+PUJ_005114	21685	22626	+	hypothetical protein	
+PUJ_005115	23096	24008	+	hypothetical protein	
+
+
+Significant hits: 
+1. BGC0001839.3	squalestatin S1
+
+
+Details:
+
+>>
+1. BGC0001839.3
+Source: squalestatin S1
+Type: terpene:Hemiterpene
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 863.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_005108	gene3	60	484	94.77911646586345	1.83e-168
+PUJ_005110	gene2	61	379	86.70360110803324	1.46e-130
+

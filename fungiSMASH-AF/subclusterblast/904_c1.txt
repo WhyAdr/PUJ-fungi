@@ -1,0 +1,26 @@
+ClusterBlast scores for 904
+
+Table of genes, locations, strands and annotations of query cluster:
+PUJ_008905	211375	216265	+	Tricalbin-2	
+PUJ_008906	222073	224627	+	hypothetical protein	
+PUJ_008907	225040	227566	+	hypothetical protein	
+PUJ_008908	232600	233858	-	Plasma membrane sulfite pump involved in sulfite metabolism	
+PUJ_008909	238273	239815	+	hypothetical protein	
+PUJ_008910	240785	243812	-	hypothetical protein	
+PUJ_008911	249313	250416	-	hypothetical protein	
+PUJ_008912	252240	253525	-	hypothetical protein	
+PUJ_008913	256277	267602	+	hypothetical protein	
+PUJ_008914	268140	269519	+	hypothetical protein	
+PUJ_008915	269637	271433	-	hypothetical protein	
+PUJ_008916	272052	277542	-	hypothetical protein	
+PUJ_008917	278002	279199	-	hypothetical protein	
+PUJ_008918	280744	281830	-	hypothetical protein	
+PUJ_008919	285046	287230	+	hypothetical protein	
+PUJ_008920	287770	289417	-	hypothetical protein	
+PUJ_008921	292959	294893	+	hypothetical protein	
+
+
+Significant hits: 
+
+
+Details:

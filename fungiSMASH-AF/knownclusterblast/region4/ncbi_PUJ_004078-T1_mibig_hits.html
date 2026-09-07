@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8" />
+<link rel="stylesheet" type="text/css" href="../../css/style.css">
+
+<script type="text/javascript" src="../../js/jquery.js"></script>
+<script type="text/javascript" src="../../js/jquery.tablesorter.min.js"></script>
+
+<script type="text/javascript" >
+var counter = 1;
+function addInput(divName){
+     var newdiv = document.createElement('div');
+     newdiv.innerHTML = "<b>Locus " + (counter + 1) + "</b><br> GenBank accession: <input type='text' required name='myInputs[]'> Start nt: <input type='number' name='myStartCoords[]' placeholder='N/A'> End nt: <input type='number' name='myEndCoords[]' placeholder='N/A'> <br><br>";
+     document.getElementById(divName).appendChild(newdiv);
+     counter++;
+}
+</script>
+
+<script>
+$(document).ready(function()
+    {
+        $("#myTable").tablesorter();
+    }
+);
+
+</script>
+<style>
+table {
+    border-width: thin;
+    border-spacing: 2px;
+    border-style: none;
+    border-color: black;
+}
+</style>
+</head>
+<body>
+    <table id="myTable" class="tablesorter" border=1>
+    <thead>
+    <tr>
+        <th>MIBiG Protein</th>
+        <th>Description</th>
+        <th>MIBiG Cluster</th>
+        <th>MiBiG Product</th>
+        <th>% ID</th>
+        <th>% Coverage</th>
+        <th>BLAST Score</th>
+        <th>E-value</th>
+    </tr>
+    </thead>
+    <tbody>
+    
+          <tr>
+              <td>EAU36093.1</td>
+              <td>predicted_protein</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0002273.2">BGC0002273.2</a></td>
+              <td>NRPS:Type I</td>
+              <td>49.0</td>
+              <td>91.2</td>
+              <td>452.0</td>
+              <td>4.63e-156</td>
+          </tr>
+    
+          <tr>
+              <td>KGO40471.1</td>
+              <td>Pyridoxal_phosphate-dependent_decarboxylase</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0001205.3">BGC0001205.3</a></td>
+              <td>PKS</td>
+              <td>47.0</td>
+              <td>89.1</td>
+              <td>378.0</td>
+              <td>3.72e-127</td>
+          </tr>
+    
+          <tr>
+              <td>QHG11726.1</td>
+              <td>putative_pyridoxal-dependent_decarboxylase</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0002620.2">BGC0002620.2</a></td>
+              <td>other:other</td>
+              <td>29.0</td>
+              <td>88.7</td>
+              <td>185.0</td>
+              <td>2.99e-52</td>
+          </tr>
+    
+          <tr>
+              <td>PHM29819.1</td>
+              <td>putative_decarboxylase_involved_in_desferrioxamine_biosynthesis</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0001870.3">BGC0001870.3</a></td>
+              <td>other:other</td>
+              <td>29.0</td>
+              <td>81.7</td>
+              <td>179.0</td>
+              <td>4.7e-50</td>
+          </tr>
+    
+          <tr>
+              <td>RUP78901.1</td>
+              <td>aminotransferase_class_V-fold_PLP-dependent_enzyme</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0002073.3">BGC0002073.3</a></td>
+              <td>NRPS:Type I</td>
+              <td>29.0</td>
+              <td>93.0</td>
+              <td>176.0</td>
+              <td>7.82e-49</td>
+          </tr>
+    
+          <tr>
+              <td>CZF84011.1</td>
+              <td>Diaminobutyrate--2-oxoglutarate_aminotransferase</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0002382.3">BGC0002382.3</a></td>
+              <td>ribosomal:RiPP</td>
+              <td>27.0</td>
+              <td>89.3</td>
+              <td>177.0</td>
+              <td>1.22e-47</td>
+          </tr>
+    
+          <tr>
+              <td>ACB01064.1</td>
+              <td>L-2,4-diaminobutyrate_decarboxylase</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0002470.2">BGC0002470.2</a></td>
+              <td>other:other</td>
+              <td>26.0</td>
+              <td>87.1</td>
+              <td>158.0</td>
+              <td>5.74e-43</td>
+          </tr>
+    
+          <tr>
+              <td>AFY40273.1</td>
+              <td>L-2,4-diaminobutyrate_decarboxylase</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0002633.2">BGC0002633.2</a></td>
+              <td>other:other</td>
+              <td>29.0</td>
+              <td>76.4</td>
+              <td>157.0</td>
+              <td>2.75e-42</td>
+          </tr>
+    
+          <tr>
+              <td>CDG17983.1</td>
+              <td>Pyridoxal-dependent_decarboxylase</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0000464.5">BGC0000464.5</a></td>
+              <td>NRPS:Type I</td>
+              <td>27.0</td>
+              <td>59.1</td>
+              <td>115.0</td>
+              <td>3.41e-27</td>
+          </tr>
+    
+          <tr>
+              <td>CDG17988.1</td>
+              <td>Pyridoxal-dependent_decarboxylase</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0000464.5">BGC0000464.5</a></td>
+              <td>NRPS:Type I</td>
+              <td>27.0</td>
+              <td>57.7</td>
+              <td>113.0</td>
+              <td>1.44e-26</td>
+          </tr>
+    
+          <tr>
+              <td>AAF81243.1</td>
+              <td>amino_acid_decarboxylase-like_protein</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0000244.4">BGC0000244.4</a></td>
+              <td>PKS</td>
+              <td>28.0</td>
+              <td>60.4</td>
+              <td>82.0</td>
+              <td>2.9e-16</td>
+          </tr>
+    
+    </tbody>
+  </table>
+</body>

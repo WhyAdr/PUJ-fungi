@@ -1,0 +1,1590 @@
+{
+  "PUJ_004816": {
+    "target_locus": "PUJ_004816",
+    "target_gene": "",
+    "contig": "contig_1730",
+    "target_idx": 2,
+    "total_genes_on_contig": 6,
+    "window": 10,
+    "flanking": [
+      {
+        "locus_tag": "PUJ_004814",
+        "gene": "",
+        "product": "hypothetical protein",
+        "protein_id": "ncbi_PUJ_004814-T1",
+        "ec": [],
+        "db_xref": [
+          "InterPro:IPR011045",
+          "InterPro:IPR015943"
+        ],
+        "note": [
+          "COG:S; EggNog:ENOG503PBIW; GO_function: GO:0005515 - protein binding [Evidence IEA]"
+        ],
+        "length_aa": 460,
+        "start": 408,
+        "end": 1862,
+        "strand": -1,
+        "contig": "contig_1730",
+        "index_rel": -2,
+        "is_target": false
+      },
+      {
+        "locus_tag": "PUJ_004815",
+        "gene": "",
+        "product": "hypothetical protein",
+        "protein_id": "ncbi_PUJ_004815-T1",
+        "ec": [],
+        "db_xref": [
+          "InterPro:IPR011701",
+          "InterPro:IPR036259",
+          "PFAM:PF07690"
+        ],
+        "note": [
+          "COG:S; EggNog:ENOG503NWUI; GO_function: GO:0022857 - transmembrane transporter activity [Evidence IEA]; GO_process: GO:0055085 - transmembrane transport [Evidence IEA]"
+        ],
+        "length_aa": 353,
+        "start": 3170,
+        "end": 4492,
+        "strand": -1,
+        "contig": "contig_1730",
+        "index_rel": -1,
+        "is_target": false
+      },
+      {
+        "locus_tag": "PUJ_004816",
+        "gene": "",
+        "product": "hypothetical protein",
+        "protein_id": "ncbi_PUJ_004816-T1",
+        "ec": [
+          "3.5.99.7"
+        ],
+        "db_xref": [
+          "InterPro:IPR001926",
+          "InterPro:IPR005965",
+          "InterPro:IPR027278",
+          "InterPro:IPR036052",
+          "PFAM:PF00291"
+        ],
+        "note": [
+          "EggNog:ENOG503NXU2; COG:E; GO_function: GO:0003824 - catalytic activity [Evidence IEA]; GO_function: GO:0008660 - 1-aminocyclopropane-1-carboxylate deaminase activity [Evidence IEA]; GO_function: GO:0030170 - pyridoxal phosphate binding [Evidence IEA]; GO_function: GO:0016829 - lyase activity [Evidence IEA]; GO_process: GO:0009310 - amine catabolic process [Evidence IEA]"
+        ],
+        "length_aa": 348,
+        "start": 7640,
+        "end": 8753,
+        "strand": 1,
+        "contig": "contig_1730",
+        "index_rel": 0,
+        "is_target": true
+      },
+      {
+        "locus_tag": "PUJ_004817",
+        "gene": "",
+        "product": "hypothetical protein",
+        "protein_id": "ncbi_PUJ_004817-T1",
+        "ec": [
+          "3.2.1.21"
+        ],
+        "db_xref": [
+          "InterPro:IPR001764",
+          "InterPro:IPR002772",
+          "InterPro:IPR013783",
+          "InterPro:IPR017853",
+          "InterPro:IPR019800",
+          "InterPro:IPR026891",
+          "InterPro:IPR036881",
+          "InterPro:IPR036962",
+          "PFAM:PF00933",
+          "PFAM:PF01915",
+          "PFAM:PF14310"
+        ],
+        "note": [
+          "EggNog:ENOG503NVBN; CAZy:GH3; COG:G; GO_function: GO:0003824 - catalytic activity [Evidence IEA]; GO_function: GO:0016787 - hydrolase activity [Evidence IEA]; GO_function: GO:0015926 - glucosidase activity [Evidence IEA]; GO_function: GO:0004553 - hydrolase activity, hydrolyzing O-glycosyl compounds [Evidence IEA]; GO_function: GO:0016798 - hydrolase activity, acting on glycosyl bonds [Evidence IEA]; GO_process: GO:0044238 - primary metabolic process [Evidence IEA]; GO_process: GO:0043170 - macromolecule metabolic process [Evidence IEA]; GO_process: GO:0071704 - organic substance metabolic process [Evidence IEA]; GO_process: GO:0044042 - glucan metabolic process [Evidence IEA]; GO_process: GO:0009056 - catabolic process [Evidence IEA]; GO_process: GO:0016052 - carbohydrate catabolic process [Evidence IEA]; GO_process: GO:1901575 - organic substance catabolic process [Evidence IEA]; GO_process: GO:0005976 - polysaccharide metabolic process [Evidence IEA]; GO_process: GO:0009057 - macromolecule catabolic process [Evidence IEA]; GO_process: GO:0005975 - carbohydrate metabolic process [Evidence IEA]; GO_process: GO:0008152 - metabolic process [Evidence IEA]"
+        ],
+        "length_aa": 1141,
+        "start": 8930,
+        "end": 12912,
+        "strand": -1,
+        "contig": "contig_1730",
+        "index_rel": 1,
+        "is_target": false
+      },
+      {
+        "locus_tag": "PUJ_004818",
+        "gene": "RHO3",
+        "product": "Rho GTPase",
+        "protein_id": "ncbi_PUJ_004818-T1",
+        "ec": [],
+        "db_xref": [
+          "InterPro:IPR001806",
+          "InterPro:IPR003578",
+          "InterPro:IPR005225",
+          "InterPro:IPR027417",
+          "PFAM:PF00025",
+          "PFAM:PF00071",
+          "PFAM:PF08477"
+        ],
+        "note": [
+          "BUSCO:EOG09264YNR; COG:U; EggNog:ENOG503NVUG; GO_function: GO:0016787 - hydrolase activity [Evidence IEA]; GO_function: GO:0097159 - organic cyclic compound binding [Evidence IEA]; GO_function: GO:0043168 - anion binding [Evidence IEA]; GO_function: GO:1901265 - nucleoside phosphate binding [Evidence IEA]; GO_function: GO:0000166 - nucleotide binding [Evidence IEA]; GO_function: GO:0016817 - hydrolase activity, acting on acid anhydrides [Evidence IEA]; GO_function: GO:0016818 - hydrolase activity, acting on acid anhydrides, in phosphorus-containing anhydrides [Evidence IEA]; GO_function: GO:0019001 - guanyl nucleotide binding [Evidence IEA]; GO_function: GO:0017111 - ribonucleoside triphosphate phosphatase activity [Evidence IEA]; GO_function: GO:0017076 - purine nucleotide binding [Evidence IEA]; GO_function: GO:0003824 - catalytic activity [Evidence IEA]; GO_function: GO:0036094 - small molecule binding [Evidence IEA]; GO_function: GO:0016462 - pyrophosphatase activity [Evidence IEA]; GO_function: GO:0035639 - purine ribonucleoside triphosphate binding [Evidence IEA]; GO_function: GO:0032555 - purine ribonucleotide binding [Evidence IEA]; GO_function: GO:0032561 - guanyl ribonucleotide binding [Evidence IEA]; GO_function: GO:0003924 - GTPase activity [Evidence IEA]; GO_function: GO:0043167 - ion binding [Evidence IEA]; GO_function: GO:0005488 - binding [Evidence IEA]; GO_function: GO:0097367 - carbohydrate derivative binding [Evidence IEA]; GO_function: GO:0005525 - GTP binding [Evidence IEA]; GO_function: GO:1901363 - heterocyclic compound binding [Evidence IEA]; GO_function: GO:0032553 - ribonucleotide binding [Evidence IEA]; GO_process: GO:0007264 - small GTPase mediated signal transduction [Evidence IEA]"
+        ],
+        "length_aa": 210,
+        "start": 14136,
+        "end": 15111,
+        "strand": -1,
+        "contig": "contig_1730",
+        "index_rel": 2,
+        "is_target": false
+      },
+      {
+        "locus_tag": "PUJ_004819",
+        "gene": "",
+        "product": "hypothetical protein",
+        "protein_id": "ncbi_PUJ_004819-T1",
+        "ec": [],
+        "db_xref": [
+          "InterPro:IPR002938",
+          "InterPro:IPR036188"
+        ],
+        "note": [
+          "COG:C; EggNog:ENOG503NVII; GO_function: GO:0071949 - FAD binding [Evidence IEA]"
+        ],
+        "length_aa": 72,
+        "start": 17636,
+        "end": 17854,
+        "strand": 1,
+        "contig": "contig_1730",
+        "index_rel": 3,
+        "is_target": false
+      }
+    ]
+  },
+  "PUJ_005301": {
+    "target_locus": "PUJ_005301",
+    "target_gene": "TATC6",
+    "contig": "contig_1813",
+    "target_idx": 2,
+    "total_genes_on_contig": 8,
+    "window": 10,
+    "flanking": [
+      {
+        "locus_tag": "PUJ_005299",
+        "gene": "",
+        "product": "hypothetical protein",
+        "protein_id": "ncbi_PUJ_005299-T1",
+        "ec": [
+          "3.4.14.9"
+        ],
+        "db_xref": [
+          "InterPro:IPR030400",
+          "InterPro:IPR036852"
+        ],
+        "note": [
+          "MEROPS:MER0005329; COG:O; EggNog:ENOG503Q3UA; GO_function: GO:0003824 - catalytic activity [Evidence IEA]; GO_function: GO:0016787 - hydrolase activity [Evidence IEA]; GO_function: GO:0008236 - serine-type peptidase activity [Evidence IEA]; GO_function: GO:0008233 - peptidase activity [Evidence IEA]; GO_function: GO:0140096 - catalytic activity, acting on a protein [Evidence IEA]; GO_function: GO:0004175 - endopeptidase activity [Evidence IEA]; GO_function: GO:0008238 - exopeptidase activity [Evidence IEA]; GO_function: GO:0004252 - serine-type endopeptidase activity [Evidence IEA]; GO_function: GO:0017171 - serine hydrolase activity [Evidence IEA]; GO_process: GO:0008152 - metabolic process [Evidence IEA]; GO_process: GO:0044238 - primary metabolic process [Evidence IEA]; GO_process: GO:0071704 - organic substance metabolic process [Evidence IEA]; GO_process: GO:0006508 - proteolysis [Evidence IEA]; GO_process: GO:1901564 - organonitrogen compound metabolic process [Evidence IEA]; GO_process: GO:0043170 - macromolecule metabolic process [Evidence IEA]; GO_process: GO:0006807 - nitrogen compound metabolic process [Evidence IEA]; GO_process: GO:0019538 - protein metabolic process [Evidence IEA]"
+        ],
+        "length_aa": 406,
+        "start": 5731,
+        "end": 7025,
+        "strand": 1,
+        "contig": "contig_1813",
+        "index_rel": -2,
+        "is_target": false
+      },
+      {
+        "locus_tag": "PUJ_005300",
+        "gene": "",
+        "product": "hypothetical protein",
+        "protein_id": "ncbi_PUJ_005300-T1",
+        "ec": [],
+        "db_xref": [
+          "InterPro:IPR003593",
+          "InterPro:IPR003959",
+          "InterPro:IPR027417",
+          "PFAM:PF00004"
+        ],
+        "note": [
+          "COG:O; EggNog:ENOG503P0E1; GO_component: GO:0043231 - intracellular membrane-bounded organelle [Evidence IEA]; GO_component: GO:0005777 - peroxisome [Evidence IEA]; GO_component: GO:0016020 - membrane [Evidence IEA]; GO_component: GO:0031903 - microbody membrane [Evidence IEA]; GO_component: GO:0031090 - organelle membrane [Evidence IEA]; GO_component: GO:0005829 - cytosol [Evidence IEA]; GO_component: GO:0098588 - bounding membrane of organelle [Evidence IEA]; GO_component: GO:0043226 - organelle [Evidence IEA]; GO_component: GO:0005778 - peroxisomal membrane [Evidence IEA]; GO_component: GO:0042579 - microbody [Evidence IEA]; GO_component: GO:0043229 - intracellular organelle [Evidence IEA]; GO_component: GO:0005737 - cytoplasm [Evidence IEA]; GO_component: GO:0043227 - membrane-bounded organelle [Evidence IEA]; GO_component: GO:0110165 - cellular anatomical entity [Evidence IEA]; GO_component: GO:0005622 - intracellular anatomical structure [Evidence IEA]; GO_function: GO:0003824 - catalytic activity [Evidence IEA]; GO_function: GO:0016887 - ATP hydrolysis activity [Evidence IEA]; GO_function: GO:0016787 - hydrolase activity [Evidence IEA]; GO_function: GO:0016462 - pyrophosphatase activity [Evidence IEA]; GO_function: GO:0140657 - ATP-dependent activity [Evidence IEA]; GO_function: GO:0005524 - ATP binding [Evidence IEA]; GO_function: GO:0017111 - ribonucleoside triphosphate phosphatase activity [Evidence IEA]; GO_function: GO:0016817 - hydrolase activity, acting on acid anhydrides [Evidence IEA]; GO_function: GO:0016818 - hydrolase activity, acting on acid anhydrides, in phosphorus-containing anhydrides [Evidence IEA]; GO_process: GO:0055085 - transmembrane transport [Evidence IEA]; GO_process: GO:0007031 - peroxisome organization [Evidence IEA]; GO_process: GO:0015031 - protein transport [Evidence IEA]; GO_process: GO:0072594 - establishment of protein localization to organelle [Evidence IEA]; GO_process: GO:0034613 - protein localization [Evidence IEA]; GO_process: GO:0071840 - cellular component organization or biogenesis [Evidence IEA]; GO_process: GO:0071705 - nitrogen compound transport [Evidence IEA]; GO_process: GO:0071702 - organic substance transport [Evidence IEA]; GO_process: GO:0006625 - protein targeting to peroxisome [Evidence IEA]; GO_process: GO:0006886 - intracellular protein transport [Evidence IEA]; GO_process: GO:0070727 - cellular macromolecule localization [Evidence IEA]; GO_process: GO:0051649 - establishment of localization in cell [Evidence IEA]; GO_process: GO:0045184 - establishment of protein localization [Evidence IEA]; GO_process: GO:0046907 - intracellular transport [Evidence IEA]; GO_process: GO:0072663 - establishment of protein localization to peroxisome [Evidence IEA]; GO_process: GO:0072662 - protein localization to peroxisome [Evidence IEA]; GO_process: GO:0016558 - protein import into peroxisome matrix [Evidence IEA]; GO_process: GO:0033365 - protein localization to organelle [Evidence IEA]; GO_process: GO:0051179 - localization [Evidence IEA]; GO_process: GO:0043574 - peroxisomal transport [Evidence IEA]; GO_process: GO:0071806 - protein transmembrane transport [Evidence IEA]; GO_process: GO:0006605 - protein targeting [Evidence IEA]; GO_process: GO:0044743 - protein transmembrane import into intracellular organelle [Evidence IEA]; GO_process: GO:0008104 - protein localization [Evidence IEA]; GO_process: GO:0033036 - macromolecule localization [Evidence IEA]; GO_process: GO:0016043 - cellular component organization [Evidence IEA]; GO_process: GO:0065002 - intracellular protein transmembrane transport [Evidence IEA]; GO_process: GO:0006996 - organelle organization [Evidence IEA]; GO_process: GO:0009987 - cellular process [Evidence IEA]; GO_process: GO:0051234 - establishment of localization [Evidence IEA]; GO_process: GO:0017038 - protein import [Evidence IEA]; GO_process: GO:0006810 - transport [Evidence IEA]; GO_process: GO:0051641 - cellular localization [Evidence IEA]"
+        ],
+        "length_aa": 530,
+        "start": 10082,
+        "end": 11675,
+        "strand": 1,
+        "contig": "contig_1813",
+        "index_rel": -1,
+        "is_target": false
+      },
+      {
+        "locus_tag": "PUJ_005301",
+        "gene": "TATC6",
+        "product": "Terpene cyclase 6",
+        "protein_id": "ncbi_PUJ_005301-T1",
+        "ec": [],
+        "db_xref": [
+          "InterPro:IPR008949",
+          "InterPro:IPR034686",
+          "PFAM:PF19086"
+        ],
+        "note": [
+          "COG:S; EggNog:ENOG503P3HC"
+        ],
+        "length_aa": 332,
+        "start": 11953,
+        "end": 13395,
+        "strand": -1,
+        "contig": "contig_1813",
+        "index_rel": 0,
+        "is_target": true
+      },
+      {
+        "locus_tag": "PUJ_005302",
+        "gene": "GST2_2",
+        "product": "Glutathione S-transferase 2",
+        "protein_id": "ncbi_PUJ_005302-T1",
+        "ec": [
+          "2.5.1.18"
+        ],
+        "db_xref": [
+          "InterPro:IPR004045",
+          "InterPro:IPR036249",
+          "PFAM:PF02798",
+          "PFAM:PF13409",
+          "PFAM:PF13417"
+        ],
+        "note": [
+          "COG:O; EggNog:ENOG503NZ93"
+        ],
+        "length_aa": 120,
+        "start": 15920,
+        "end": 16465,
+        "strand": 1,
+        "contig": "contig_1813",
+        "index_rel": 1,
+        "is_target": false
+      },
+      {
+        "locus_tag": "PUJ_005304",
+        "gene": "",
+        "product": "hypothetical protein",
+        "protein_id": "ncbi_PUJ_005304-T1",
+        "ec": [],
+        "db_xref": [
+          "InterPro:IPR002347",
+          "InterPro:IPR008441",
+          "InterPro:IPR020904",
+          "InterPro:IPR029044",
+          "InterPro:IPR036291",
+          "PFAM:PF00106",
+          "PFAM:PF05704",
+          "PFAM:PF13561"
+        ],
+        "note": [
+          "COG:S; EggNog:ENOG503P0H8; GO_function: GO:0016757 - glycosyltransferase activity [Evidence IEA]; GO_function: GO:0016491 - oxidoreductase activity [Evidence IEA]"
+        ],
+        "length_aa": 539,
+        "start": 17932,
+        "end": 21012,
+        "strand": -1,
+        "contig": "contig_1813",
+        "index_rel": 2,
+        "is_target": false
+      },
+      {
+        "locus_tag": "PUJ_005305",
+        "gene": "",
+        "product": "hypothetical protein",
+        "protein_id": "ncbi_PUJ_005305-T1",
+        "ec": [],
+        "db_xref": [
+          "InterPro:IPR020471",
+          "InterPro:IPR023210",
+          "InterPro:IPR036812",
+          "PFAM:PF00248"
+        ],
+        "note": [
+          "EggNog:ENOG503P15S; COG:C; GO_function: GO:0016491 - oxidoreductase activity [Evidence IEA]"
+        ],
+        "length_aa": 325,
+        "start": 22953,
+        "end": 24123,
+        "strand": 1,
+        "contig": "contig_1813",
+        "index_rel": 3,
+        "is_target": false
+      },
+      {
+        "locus_tag": "PUJ_005306",
+        "gene": "MRE11_1",
+        "product": "meiotic recombination",
+        "protein_id": "ncbi_PUJ_005306-T1",
+        "ec": [],
+        "db_xref": [
+          "InterPro:IPR004843",
+          "InterPro:IPR029052",
+          "InterPro:IPR041796",
+          "PFAM:PF00149"
+        ],
+        "note": [
+          "COG:L; EggNog:ENOG503NUJ4; GO_component: GO:0140513 - nuclear protein-containing complex [Evidence IEA]; GO_component: GO:0043231 - intracellular membrane-bounded organelle [Evidence IEA]; GO_component: GO:0016020 - membrane [Evidence IEA]; GO_component: GO:0043226 - organelle [Evidence IEA]; GO_component: GO:0043229 - intracellular organelle [Evidence IEA]; GO_component: GO:0043227 - membrane-bounded organelle [Evidence IEA]; GO_component: GO:0110165 - cellular anatomical entity [Evidence IEA]; GO_component: GO:0032991 - protein-containing complex [Evidence IEA]; GO_component: GO:0005634 - nucleus [Evidence IEA]; GO_component: GO:0005622 - intracellular anatomical structure [Evidence IEA]; GO_function: GO:0016787 - hydrolase activity [Evidence IEA]; GO_process: GO:0098763 - mitotic cell cycle phase [Evidence IEA]; GO_process: GO:0000725 - recombinational repair [Evidence IEA]; GO_process: GO:0050789 - regulation of biological process [Evidence IEA]; GO_process: GO:0006259 - DNA metabolic process [Evidence IEA]; GO_process: GO:0031570 - DNA integrity checkpoint signaling [Evidence IEA]; GO_process: GO:0071840 - cellular component organization or biogenesis [Evidence IEA]; GO_process: GO:0035556 - intracellular signal transduction [Evidence IEA]; GO_process: GO:0044774 - mitotic DNA integrity checkpoint signaling [Evidence IEA]; GO_process: GO:0044260 - obsolete cellular macromolecule metabolic process [Evidence IEA]; GO_process: GO:0007095 - mitotic G2 DNA damage checkpoint signaling [Evidence IEA]; GO_process: GO:0051276 - chromosome organization [Evidence IEA]; GO_process: GO:0043170 - macromolecule metabolic process [Evidence IEA]; GO_process: GO:0022402 - cell cycle process [Evidence IEA]; GO_process: GO:0007346 - regulation of mitotic cell cycle [Evidence IEA]; GO_process: GO:1901987 - regulation of cell cycle phase transition [Evidence IEA]; GO_process: GO:0046483 - heterocycle metabolic process [Evidence IEA]; GO_process: GO:0000280 - nuclear division [Evidence IEA]; GO_process: GO:0000723 - telomere maintenance [Evidence IEA]; GO_process: GO:0048519 - negative regulation of biological process [Evidence IEA]; GO_process: GO:1901360 - organic cyclic compound metabolic process [Evidence IEA]; GO_process: GO:0000075 - cell cycle checkpoint signaling [Evidence IEA]; GO_process: GO:0061982 - meiosis I cell cycle process [Evidence IEA]; GO_process: GO:0031573 - mitotic intra-S DNA damage checkpoint signaling [Evidence IEA]; GO_process: GO:0044839 - cell cycle G2/M phase transition [Evidence IEA]; GO_process: GO:0006725 - cellular aromatic compound metabolic process [Evidence IEA]; GO_process: GO:0006996 - organelle organization [Evidence IEA]; GO_process: GO:0010564 - regulation of cell cycle process [Evidence IEA]; GO_process: GO:0051325 - interphase [Evidence IEA]; GO_process: GO:0000278 - mitotic cell cycle [Evidence IEA]; GO_process: GO:1902749 - regulation of cell cycle G2/M phase transition [Evidence IEA]; GO_process: GO:1901991 - negative regulation of mitotic cell cycle phase transition [Evidence IEA]; GO_process: GO:0006310 - DNA recombination [Evidence IEA]; GO_process: GO:0042138 - meiotic DNA double-strand break formation [Evidence IEA]; GO_process: GO:0000003 - reproduction [Evidence IEA]; GO_process: GO:0008152 - metabolic process [Evidence IEA]; GO_process: GO:0000724 - double-strand break repair via homologous recombination [Evidence IEA]; GO_process: GO:1901988 - negative regulation of cell cycle phase transition [Evidence IEA]; GO_process: GO:0044770 - cell cycle phase transition [Evidence IEA]; GO_process: GO:0007093 - mitotic cell cycle checkpoint signaling [Evidence IEA]; GO_process: GO:0006950 - response to stress [Evidence IEA]; GO_process: GO:0051329 - mitotic interphase [Evidence IEA]; GO_process: GO:0140014 - mitotic nuclear division [Evidence IEA]; GO_process: GO:0044772 - mitotic cell cycle phase transition [Evidence IEA]; GO_process: GO:0044848 - biological phase [Evidence IEA]; GO_process: GO:0071704 - organic substance metabolic process [Evidence IEA]; GO_process: GO:0022414 - reproductive process [Evidence IEA]; GO_process: GO:0051726 - regulation of cell cycle [Evidence IEA]; GO_process: GO:0044237 - cellular metabolic process [Evidence IEA]; GO_process: GO:0016043 - cellular component organization [Evidence IEA]; GO_process: GO:0007165 - signal transduction [Evidence IEA]; GO_process: GO:0044773 - mitotic DNA damage checkpoint signaling [Evidence IEA]; GO_process: GO:0090304 - nucleic acid metabolic process [Evidence IEA]; GO_process: GO:0010389 - regulation of G2/M transition of mitotic cell cycle [Evidence IEA]; GO_process: GO:0090305 - nucleic acid phosphodiester bond hydrolysis [Evidence IEA]; GO_process: GO:1903047 - mitotic cell cycle process [Evidence IEA]; GO_process: GO:0050896 - response to stimulus [Evidence IEA]; GO_process: GO:0044238 - primary metabolic process [Evidence IEA]; GO_process: GO:0034641 - cellular nitrogen compound metabolic process [Evidence IEA]; GO_process: GO:0006281 - DNA repair [Evidence IEA]; GO_process: GO:0045786 - negative regulation of cell cycle [Evidence IEA]; GO_process: GO:0033554 - cellular response to stress [Evidence IEA]; GO_process: GO:0044818 - mitotic G2/M transition checkpoint [Evidence IEA]; GO_process: GO:0048523 - negative regulation of cellular process [Evidence IEA]; GO_process: GO:0006302 - double-strand break repair [Evidence IEA]; GO_process: GO:0006974 - DNA damage response [Evidence IEA]; GO_process: GO:1901990 - regulation of mitotic cell cycle phase transition [Evidence IEA]; GO_process: GO:1902750 - negative regulation of cell cycle G2/M phase transition [Evidence IEA]; GO_process: GO:0007154 - cell communication [Evidence IEA]; GO_process: GO:0010948 - negative regulation of cell cycle process [Evidence IEA]; GO_process: GO:0051716 - cellular response to stimulus [Evidence IEA]; GO_process: GO:0010972 - negative regulation of G2/M transition of mitotic cell cycle [Evidence IEA]; GO_process: GO:0000086 - G2/M transition of mitotic cell cycle [Evidence IEA]; GO_process: GO:0006139 - nucleobase-containing compound metabolic process [Evidence IEA]; GO_process: GO:0045930 - negative regulation of mitotic cell cycle [Evidence IEA]; GO_process: GO:0007049 - cell cycle [Evidence IEA]; GO_process: GO:0000077 - DNA damage checkpoint signaling [Evidence IEA]; GO_process: GO:0032200 - telomere organization [Evidence IEA]; GO_process: GO:1903046 - meiotic cell cycle process [Evidence IEA]; GO_process: GO:0006303 - double-strand break repair via nonhomologous end joining [Evidence IEA]; GO_process: GO:0051321 - meiotic cell cycle [Evidence IEA]; GO_process: GO:0050794 - regulation of cellular process [Evidence IEA]; GO_process: GO:0048285 - organelle fission [Evidence IEA]; GO_process: GO:0042770 - signal transduction in response to DNA damage [Evidence IEA]; GO_process: GO:0006807 - nitrogen compound metabolic process [Evidence IEA]; GO_process: GO:0022403 - cell cycle phase [Evidence IEA]; GO_process: GO:0009987 - cellular process [Evidence IEA]; GO_process: GO:0023052 - signaling [Evidence IEA]; GO_process: GO:0140013 - meiotic nuclear division [Evidence IEA]; GO_process: GO:0065007 - biological regulation [Evidence IEA]"
+        ],
+        "length_aa": 227,
+        "start": 24694,
+        "end": 25530,
+        "strand": 1,
+        "contig": "contig_1813",
+        "index_rel": 4,
+        "is_target": false
+      },
+      {
+        "locus_tag": "PUJ_005307",
+        "gene": "MRE11_2",
+        "product": "meiotic recombination",
+        "protein_id": "ncbi_PUJ_005307-T1",
+        "ec": [],
+        "db_xref": [
+          "InterPro:IPR007281",
+          "InterPro:IPR038487",
+          "PFAM:PF04152"
+        ],
+        "note": [
+          "COG:L; EggNog:ENOG503NUJ4; GO_component: GO:0140513 - nuclear protein-containing complex [Evidence IEA]; GO_component: GO:0043231 - intracellular membrane-bounded organelle [Evidence IEA]; GO_component: GO:0016020 - membrane [Evidence IEA]; GO_component: GO:0043226 - organelle [Evidence IEA]; GO_component: GO:0043229 - intracellular organelle [Evidence IEA]; GO_component: GO:0043227 - membrane-bounded organelle [Evidence IEA]; GO_component: GO:0110165 - cellular anatomical entity [Evidence IEA]; GO_component: GO:0032991 - protein-containing complex [Evidence IEA]; GO_component: GO:0005634 - nucleus [Evidence IEA]; GO_component: GO:0005622 - intracellular anatomical structure [Evidence IEA]; GO_function: GO:0030145 - manganese ion binding [Evidence IEA]; GO_function: GO:0004519 - endonuclease activity [Evidence IEA]; GO_process: GO:0098763 - mitotic cell cycle phase [Evidence IEA]; GO_process: GO:0000725 - recombinational repair [Evidence IEA]; GO_process: GO:0050789 - regulation of biological process [Evidence IEA]; GO_process: GO:0006259 - DNA metabolic process [Evidence IEA]; GO_process: GO:0031570 - DNA integrity checkpoint signaling [Evidence IEA]; GO_process: GO:0071840 - cellular component organization or biogenesis [Evidence IEA]; GO_process: GO:0035556 - intracellular signal transduction [Evidence IEA]; GO_process: GO:0044774 - mitotic DNA integrity checkpoint signaling [Evidence IEA]; GO_process: GO:0044260 - obsolete cellular macromolecule metabolic process [Evidence IEA]; GO_process: GO:0007095 - mitotic G2 DNA damage checkpoint signaling [Evidence IEA]; GO_process: GO:0051276 - chromosome organization [Evidence IEA]; GO_process: GO:0043170 - macromolecule metabolic process [Evidence IEA]; GO_process: GO:0022402 - cell cycle process [Evidence IEA]; GO_process: GO:0007346 - regulation of mitotic cell cycle [Evidence IEA]; GO_process: GO:1901987 - regulation of cell cycle phase transition [Evidence IEA]; GO_process: GO:0046483 - heterocycle metabolic process [Evidence IEA]; GO_process: GO:0000280 - nuclear division [Evidence IEA]; GO_process: GO:0000723 - telomere maintenance [Evidence IEA]; GO_process: GO:0048519 - negative regulation of biological process [Evidence IEA]; GO_process: GO:1901360 - organic cyclic compound metabolic process [Evidence IEA]; GO_process: GO:0000075 - cell cycle checkpoint signaling [Evidence IEA]; GO_process: GO:0061982 - meiosis I cell cycle process [Evidence IEA]; GO_process: GO:0031573 - mitotic intra-S DNA damage checkpoint signaling [Evidence IEA]; GO_process: GO:0044839 - cell cycle G2/M phase transition [Evidence IEA]; GO_process: GO:0006725 - cellular aromatic compound metabolic process [Evidence IEA]; GO_process: GO:0006996 - organelle organization [Evidence IEA]; GO_process: GO:0010564 - regulation of cell cycle process [Evidence IEA]; GO_process: GO:0051325 - interphase [Evidence IEA]; GO_process: GO:0000278 - mitotic cell cycle [Evidence IEA]; GO_process: GO:1902749 - regulation of cell cycle G2/M phase transition [Evidence IEA]; GO_process: GO:1901991 - negative regulation of mitotic cell cycle phase transition [Evidence IEA]; GO_process: GO:0006310 - DNA recombination [Evidence IEA]; GO_process: GO:0042138 - meiotic DNA double-strand break formation [Evidence IEA]; GO_process: GO:0000003 - reproduction [Evidence IEA]; GO_process: GO:0008152 - metabolic process [Evidence IEA]; GO_process: GO:0000724 - double-strand break repair via homologous recombination [Evidence IEA]; GO_process: GO:1901988 - negative regulation of cell cycle phase transition [Evidence IEA]; GO_process: GO:0044770 - cell cycle phase transition [Evidence IEA]; GO_process: GO:0007093 - mitotic cell cycle checkpoint signaling [Evidence IEA]; GO_process: GO:0006950 - response to stress [Evidence IEA]; GO_process: GO:0051329 - mitotic interphase [Evidence IEA]; GO_process: GO:0140014 - mitotic nuclear division [Evidence IEA]; GO_process: GO:0044772 - mitotic cell cycle phase transition [Evidence IEA]; GO_process: GO:0044848 - biological phase [Evidence IEA]; GO_process: GO:0071704 - organic substance metabolic process [Evidence IEA]; GO_process: GO:0022414 - reproductive process [Evidence IEA]; GO_process: GO:0051726 - regulation of cell cycle [Evidence IEA]; GO_process: GO:0044237 - cellular metabolic process [Evidence IEA]; GO_process: GO:0016043 - cellular component organization [Evidence IEA]; GO_process: GO:0007165 - signal transduction [Evidence IEA]; GO_process: GO:0044773 - mitotic DNA damage checkpoint signaling [Evidence IEA]; GO_process: GO:0090304 - nucleic acid metabolic process [Evidence IEA]; GO_process: GO:0010389 - regulation of G2/M transition of mitotic cell cycle [Evidence IEA]; GO_process: GO:0090305 - nucleic acid phosphodiester bond hydrolysis [Evidence IEA]; GO_process: GO:1903047 - mitotic cell cycle process [Evidence IEA]; GO_process: GO:0050896 - response to stimulus [Evidence IEA]; GO_process: GO:0044238 - primary metabolic process [Evidence IEA]; GO_process: GO:0034641 - cellular nitrogen compound metabolic process [Evidence IEA]; GO_process: GO:0006281 - DNA repair [Evidence IEA]; GO_process: GO:0045786 - negative regulation of cell cycle [Evidence IEA]; GO_process: GO:0033554 - cellular response to stress [Evidence IEA]; GO_process: GO:0044818 - mitotic G2/M transition checkpoint [Evidence IEA]; GO_process: GO:0048523 - negative regulation of cellular process [Evidence IEA]; GO_process: GO:0006302 - double-strand break repair [Evidence IEA]; GO_process: GO:0006974 - DNA damage response [Evidence IEA]; GO_process: GO:1901990 - regulation of mitotic cell cycle phase transition [Evidence IEA]; GO_process: GO:1902750 - negative regulation of cell cycle G2/M phase transition [Evidence IEA]; GO_process: GO:0007154 - cell communication [Evidence IEA]; GO_process: GO:0010948 - negative regulation of cell cycle process [Evidence IEA]; GO_process: GO:0051716 - cellular response to stimulus [Evidence IEA]; GO_process: GO:0010972 - negative regulation of G2/M transition of mitotic cell cycle [Evidence IEA]; GO_process: GO:0000086 - G2/M transition of mitotic cell cycle [Evidence IEA]; GO_process: GO:0006139 - nucleobase-containing compound metabolic process [Evidence IEA]; GO_process: GO:0045930 - negative regulation of mitotic cell cycle [Evidence IEA]; GO_process: GO:0007049 - cell cycle [Evidence IEA]; GO_process: GO:0000077 - DNA damage checkpoint signaling [Evidence IEA]; GO_process: GO:0032200 - telomere organization [Evidence IEA]; GO_process: GO:1903046 - meiotic cell cycle process [Evidence IEA]; GO_process: GO:0006303 - double-strand break repair via nonhomologous end joining [Evidence IEA]; GO_process: GO:0051321 - meiotic cell cycle [Evidence IEA]; GO_process: GO:0050794 - regulation of cellular process [Evidence IEA]; GO_process: GO:0048285 - organelle fission [Evidence IEA]; GO_process: GO:0042770 - signal transduction in response to DNA damage [Evidence IEA]; GO_process: GO:0006807 - nitrogen compound metabolic process [Evidence IEA]; GO_process: GO:0022403 - cell cycle phase [Evidence IEA]; GO_process: GO:0009987 - cellular process [Evidence IEA]; GO_process: GO:0023052 - signaling [Evidence IEA]; GO_process: GO:0140013 - meiotic nuclear division [Evidence IEA]; GO_process: GO:0065007 - biological regulation [Evidence IEA]"
+        ],
+        "length_aa": 399,
+        "start": 25832,
+        "end": 27085,
+        "strand": 1,
+        "contig": "contig_1813",
+        "index_rel": 5,
+        "is_target": false
+      }
+    ]
+  },
+  "PUJ_004623": {
+    "target_locus": "PUJ_004623",
+    "target_gene": "CHT2_2",
+    "contig": "contig_1705",
+    "target_idx": 11,
+    "total_genes_on_contig": 13,
+    "window": 10,
+    "flanking": [
+      {
+        "locus_tag": "PUJ_004613",
+        "gene": "",
+        "product": "hypothetical protein",
+        "protein_id": "ncbi_PUJ_004613-T1",
+        "ec": [],
+        "db_xref": [
+          "InterPro:IPR013094",
+          "InterPro:IPR029058",
+          "PFAM:PF07859"
+        ],
+        "note": [
+          "MEROPS:MER0033274; EggNog:ENOG503Q3YW; COG:I; GO_function: GO:0016787 - hydrolase activity [Evidence IEA]"
+        ],
+        "length_aa": 279,
+        "start": 2761,
+        "end": 3817,
+        "strand": 1,
+        "contig": "contig_1705",
+        "index_rel": -10,
+        "is_target": false
+      },
+      {
+        "locus_tag": "PUJ_004614",
+        "gene": "",
+        "product": "hypothetical protein",
+        "protein_id": "ncbi_PUJ_004614-T1",
+        "ec": [],
+        "db_xref": [
+          "InterPro:IPR003958",
+          "InterPro:IPR009072",
+          "PFAM:PF00808"
+        ],
+        "note": [
+          "EggNog:ENOG503P5D9; COG:K; GO_component: GO:0140513 - nuclear protein-containing complex [Evidence IEA]; GO_component: GO:0043231 - intracellular membrane-bounded organelle [Evidence IEA]; GO_component: GO:0016020 - membrane [Evidence IEA]; GO_component: GO:0005667 - transcription regulator complex [Evidence IEA]; GO_component: GO:0043226 - organelle [Evidence IEA]; GO_component: GO:0043229 - intracellular organelle [Evidence IEA]; GO_component: GO:0043227 - membrane-bounded organelle [Evidence IEA]; GO_component: GO:0110165 - cellular anatomical entity [Evidence IEA]; GO_component: GO:0032991 - protein-containing complex [Evidence IEA]; GO_component: GO:0005634 - nucleus [Evidence IEA]; GO_component: GO:0005622 - intracellular anatomical structure [Evidence IEA]; GO_function: GO:0003690 - double-stranded DNA binding [Evidence IEA]; GO_function: GO:0097159 - organic cyclic compound binding [Evidence IEA]; GO_function: GO:0000976 - transcription cis-regulatory region binding [Evidence IEA]; GO_function: GO:0003676 - nucleic acid binding [Evidence IEA]; GO_function: GO:1990837 - sequence-specific double-stranded DNA binding [Evidence IEA]; GO_function: GO:0003713 - transcription coactivator activity [Evidence IEA]; GO_function: GO:0046982 - protein heterodimerization activity [Evidence IEA]; GO_function: GO:0140110 - transcription regulator activity [Evidence IEA]; GO_function: GO:0043565 - sequence-specific DNA binding [Evidence IEA]; GO_function: GO:1901363 - heterocyclic compound binding [Evidence IEA]; GO_function: GO:0003714 - transcription corepressor activity [Evidence IEA]; GO_function: GO:0001067 - transcription regulatory region nucleic acid binding [Evidence IEA]; GO_function: GO:0003712 - transcription coregulator activity [Evidence IEA]; GO_function: GO:0003677 - DNA binding [Evidence IEA]; GO_function: GO:0005488 - binding [Evidence IEA]; GO_process: GO:0045944 - positive regulation of transcription by RNA polymerase II [Evidence IEA]; GO_process: GO:0050789 - regulation of biological process [Evidence IEA]; GO_process: GO:0048522 - positive regulation of cellular process [Evidence IEA]; GO_process: GO:0097659 - obsolete nucleic acid-templated transcription [Evidence IEA]; GO_process: GO:0009889 - regulation of biosynthetic process [Evidence IEA]; GO_process: GO:0080090 - regulation of primary metabolic process [Evidence IEA]; GO_process: GO:0044260 - obsolete cellular macromolecule metabolic process [Evidence IEA]; GO_process: GO:0043170 - macromolecule metabolic process [Evidence IEA]; GO_process: GO:0046483 - heterocycle metabolic process [Evidence IEA]; GO_process: GO:0031324 - negative regulation of cellular metabolic process [Evidence IEA]; GO_process: GO:0031327 - negative regulation of cellular biosynthetic process [Evidence IEA]; GO_process: GO:0048519 - negative regulation of biological process [Evidence IEA]; GO_process: GO:1901360 - organic cyclic compound metabolic process [Evidence IEA]; GO_process: GO:1903507 - obsolete negative regulation of nucleic acid-templated transcription [Evidence IEA]; GO_process: GO:0006355 - regulation of DNA-templated transcription [Evidence IEA]; GO_process: GO:0045934 - negative regulation of nucleobase-containing compound metabolic process [Evidence IEA]; GO_process: GO:0032774 - RNA biosynthetic process [Evidence IEA]; GO_process: GO:0006725 - cellular aromatic compound metabolic process [Evidence IEA]; GO_process: GO:0009892 - negative regulation of metabolic process [Evidence IEA]; GO_process: GO:0009891 - positive regulation of biosynthetic process [Evidence IEA]; GO_process: GO:0010556 - regulation of macromolecule biosynthetic process [Evidence IEA]; GO_process: GO:0018130 - heterocycle biosynthetic process [Evidence IEA]; GO_process: GO:0051254 - positive regulation of RNA metabolic process [Evidence IEA]; GO_process: GO:0009059 - macromolecule biosynthetic process [Evidence IEA]; GO_process: GO:0009058 - biosynthetic process [Evidence IEA]; GO_process: GO:0008152 - metabolic process [Evidence IEA]; GO_process: GO:0010468 - regulation of gene expression [Evidence IEA]; GO_process: GO:0006357 - regulation of transcription by RNA polymerase II [Evidence IEA]; GO_process: GO:2000112 - obsolete regulation of cellular macromolecule biosynthetic process [Evidence IEA]; GO_process: GO:0000122 - negative regulation of transcription by RNA polymerase II [Evidence IEA]; GO_process: GO:1902679 - negative regulation of RNA biosynthetic process [Evidence IEA]; GO_process: GO:1902680 - positive regulation of RNA biosynthetic process [Evidence IEA]; GO_process: GO:0071704 - organic substance metabolic process [Evidence IEA]; GO_process: GO:0051171 - regulation of nitrogen compound metabolic process [Evidence IEA]; GO_process: GO:0045893 - positive regulation of DNA-templated transcription [Evidence IEA]; GO_process: GO:0010558 - negative regulation of macromolecule biosynthetic process [Evidence IEA]; GO_process: GO:0044237 - cellular metabolic process [Evidence IEA]; GO_process: GO:0009893 - positive regulation of metabolic process [Evidence IEA]; GO_process: GO:0051253 - negative regulation of RNA metabolic process [Evidence IEA]; GO_process: GO:0044271 - cellular nitrogen compound biosynthetic process [Evidence IEA]; GO_process: GO:0045935 - positive regulation of nucleobase-containing compound metabolic process [Evidence IEA]; GO_process: GO:0051173 - positive regulation of nitrogen compound metabolic process [Evidence IEA]; GO_process: GO:0051252 - regulation of RNA metabolic process [Evidence IEA]; GO_process: GO:0010605 - negative regulation of macromolecule metabolic process [Evidence IEA]; GO_process: GO:0031326 - regulation of cellular biosynthetic process [Evidence IEA]; GO_process: GO:0090304 - nucleic acid metabolic process [Evidence IEA]; GO_process: GO:1901576 - organic substance biosynthetic process [Evidence IEA]; GO_process: GO:0031325 - positive regulation of cellular metabolic process [Evidence IEA]; GO_process: GO:0034645 - obsolete cellular macromolecule biosynthetic process [Evidence IEA]; GO_process: GO:0006351 - DNA-templated transcription [Evidence IEA]; GO_process: GO:0044238 - primary metabolic process [Evidence IEA]; GO_process: GO:0034641 - cellular nitrogen compound metabolic process [Evidence IEA]; GO_process: GO:0009890 - negative regulation of biosynthetic process [Evidence IEA]; GO_process: GO:1903506 - obsolete regulation of nucleic acid-templated transcription [Evidence IEA]; GO_process: GO:0045892 - negative regulation of DNA-templated transcription [Evidence IEA]; GO_process: GO:0051172 - negative regulation of nitrogen compound metabolic process [Evidence IEA]; GO_process: GO:0010557 - positive regulation of macromolecule biosynthetic process [Evidence IEA]; GO_process: GO:0048523 - negative regulation of cellular process [Evidence IEA]; GO_process: GO:0019438 - aromatic compound biosynthetic process [Evidence IEA]; GO_process: GO:0060255 - regulation of macromolecule metabolic process [Evidence IEA]; GO_process: GO:0031328 - positive regulation of cellular biosynthetic process [Evidence IEA]; GO_process: GO:2000113 - obsolete negative regulation of cellular macromolecule biosynthetic process [Evidence IEA]; GO_process: GO:0006139 - nucleobase-containing compound metabolic process [Evidence IEA]; GO_process: GO:0048518 - positive regulation of biological process [Evidence IEA]; GO_process: GO:1901362 - organic cyclic compound biosynthetic process [Evidence IEA]; GO_process: GO:0019222 - regulation of metabolic process [Evidence IEA]; GO_process: GO:0010604 - positive regulation of macromolecule metabolic process [Evidence IEA]; GO_process: GO:0034654 - nucleobase-containing compound biosynthetic process [Evidence IEA]; GO_process: GO:0019219 - regulation of nucleobase-containing compound metabolic process [Evidence IEA]; GO_process: GO:0016070 - RNA metabolic process [Evidence IEA]; GO_process: GO:0050794 - regulation of cellular process [Evidence IEA]; GO_process: GO:0031323 - regulation of cellular metabolic process [Evidence IEA]; GO_process: GO:0044249 - cellular biosynthetic process [Evidence IEA]; GO_process: GO:0006807 - nitrogen compound metabolic process [Evidence IEA]; GO_process: GO:0010467 - gene expression [Evidence IEA]; GO_process: GO:0006366 - transcription by RNA polymerase II [Evidence IEA]; GO_process: GO:0009987 - cellular process [Evidence IEA]; GO_process: GO:2001141 - regulation of RNA biosynthetic process [Evidence IEA]; GO_process: GO:1903508 - obsolete positive regulation of nucleic acid-templated transcription [Evidence IEA]; GO_process: GO:0065007 - biological regulation [Evidence IEA]"
+        ],
+        "length_aa": 282,
+        "start": 5978,
+        "end": 6827,
+        "strand": 1,
+        "contig": "contig_1705",
+        "index_rel": -9,
+        "is_target": false
+      },
+      {
+        "locus_tag": "PUJ_004615",
+        "gene": "PIK1_1",
+        "product": "Phosphatidylinositol 4-kinase pik1alpha (PI4-kinase)(PtdIns-4-kinase)",
+        "protein_id": "ncbi_PUJ_004615-T1",
+        "ec": [
+          "2.7.1.67"
+        ],
+        "db_xref": [
+          "InterPro:IPR001263",
+          "InterPro:IPR015433",
+          "InterPro:IPR016024",
+          "InterPro:IPR021601",
+          "PFAM:PF11522",
+          "PFAM:PF21245"
+        ],
+        "note": [
+          "EggNog:ENOG503NTYJ; COG:G; GO_component: GO:0016020 - membrane [Evidence IEA]; GO_component: GO:0005622 - intracellular anatomical structure [Evidence IEA]; GO_component: GO:0110165 - cellular anatomical entity [Evidence IEA]; GO_component: GO:0005737 - cytoplasm [Evidence IEA]; GO_function: GO:0003824 - catalytic activity [Evidence IEA]; GO_function: GO:0016740 - transferase activity [Evidence IEA]; GO_function: GO:0016773 - phosphotransferase activity, alcohol group as acceptor [Evidence IEA]; GO_function: GO:0016772 - transferase activity, transferring phosphorus-containing groups [Evidence IEA]; GO_function: GO:0016301 - kinase activity [Evidence IEA]; GO_process: GO:0048017 - obsolete inositol lipid-mediated signaling [Evidence IEA]; GO_process: GO:1901576 - organic substance biosynthetic process [Evidence IEA]; GO_process: GO:0050789 - regulation of biological process [Evidence IEA]; GO_process: GO:0009058 - biosynthetic process [Evidence IEA]; GO_process: GO:0008152 - metabolic process [Evidence IEA]; GO_process: GO:0048015 - phosphatidylinositol-mediated signaling [Evidence IEA]; GO_process: GO:0008610 - lipid biosynthetic process [Evidence IEA]; GO_process: GO:0046854 - phosphatidylinositol phosphate biosynthetic process [Evidence IEA]; GO_process: GO:0035556 - intracellular signal transduction [Evidence IEA]; GO_process: GO:0044238 - primary metabolic process [Evidence IEA]; GO_process: GO:0050896 - response to stimulus [Evidence IEA]; GO_process: GO:0046474 - glycerophospholipid biosynthetic process [Evidence IEA]; GO_process: GO:0006644 - phospholipid metabolic process [Evidence IEA]; GO_process: GO:0006661 - phosphatidylinositol biosynthetic process [Evidence IEA]; GO_process: GO:0050794 - regulation of cellular process [Evidence IEA]; GO_process: GO:0071704 - organic substance metabolic process [Evidence IEA]; GO_process: GO:0046488 - phosphatidylinositol metabolic process [Evidence IEA]; GO_process: GO:0044249 - cellular biosynthetic process [Evidence IEA]; GO_process: GO:0044237 - cellular metabolic process [Evidence IEA]; GO_process: GO:0044255 - cellular lipid metabolic process [Evidence IEA]; GO_process: GO:0008654 - phospholipid biosynthetic process [Evidence IEA]; GO_process: GO:0007154 - cell communication [Evidence IEA]; GO_process: GO:0006793 - phosphorus metabolic process [Evidence IEA]; GO_process: GO:0045017 - glycerolipid biosynthetic process [Evidence IEA]; GO_process: GO:0006650 - glycerophospholipid metabolic process [Evidence IEA]; GO_process: GO:0046486 - glycerolipid metabolic process [Evidence IEA]; GO_process: GO:0019637 - organophosphate metabolic process [Evidence IEA]; GO_process: GO:0051716 - cellular response to stimulus [Evidence IEA]; GO_process: GO:0006629 - lipid metabolic process [Evidence IEA]; GO_process: GO:0006796 - phosphate-containing compound metabolic process [Evidence IEA]; GO_process: GO:0009987 - cellular process [Evidence IEA]; GO_process: GO:0090407 - organophosphate biosynthetic process [Evidence IEA]; GO_process: GO:0023052 - signaling [Evidence IEA]; GO_process: GO:0007165 - signal transduction [Evidence IEA]; GO_process: GO:0065007 - biological regulation [Evidence IEA]"
+        ],
+        "length_aa": 527,
+        "start": 8590,
+        "end": 10398,
+        "strand": 1,
+        "contig": "contig_1705",
+        "index_rel": -8,
+        "is_target": false
+      },
+      {
+        "locus_tag": "PUJ_004616",
+        "gene": "PIK1_2",
+        "product": "Phosphatidylinositol 4-kinase pik1alpha (PI4-kinase)(PtdIns-4-kinase)",
+        "protein_id": "ncbi_PUJ_004616-T1",
+        "ec": [
+          "2.7.1.67"
+        ],
+        "db_xref": [
+          "InterPro:IPR000403",
+          "InterPro:IPR011009",
+          "InterPro:IPR015433",
+          "InterPro:IPR018936",
+          "InterPro:IPR036940",
+          "PFAM:PF00454"
+        ],
+        "note": [
+          "EggNog:ENOG503NTYJ; COG:G; GO_component: GO:0016020 - membrane [Evidence IEA]; GO_component: GO:0005622 - intracellular anatomical structure [Evidence IEA]; GO_component: GO:0110165 - cellular anatomical entity [Evidence IEA]; GO_component: GO:0005737 - cytoplasm [Evidence IEA]; GO_function: GO:0003824 - catalytic activity [Evidence IEA]; GO_function: GO:0016740 - transferase activity [Evidence IEA]; GO_function: GO:0016773 - phosphotransferase activity, alcohol group as acceptor [Evidence IEA]; GO_function: GO:0016772 - transferase activity, transferring phosphorus-containing groups [Evidence IEA]; GO_function: GO:0016301 - kinase activity [Evidence IEA]; GO_process: GO:0048017 - obsolete inositol lipid-mediated signaling [Evidence IEA]; GO_process: GO:1901576 - organic substance biosynthetic process [Evidence IEA]; GO_process: GO:0050789 - regulation of biological process [Evidence IEA]; GO_process: GO:0009058 - biosynthetic process [Evidence IEA]; GO_process: GO:0008152 - metabolic process [Evidence IEA]; GO_process: GO:0048015 - phosphatidylinositol-mediated signaling [Evidence IEA]; GO_process: GO:0008610 - lipid biosynthetic process [Evidence IEA]; GO_process: GO:0046854 - phosphatidylinositol phosphate biosynthetic process [Evidence IEA]; GO_process: GO:0035556 - intracellular signal transduction [Evidence IEA]; GO_process: GO:0044238 - primary metabolic process [Evidence IEA]; GO_process: GO:0050896 - response to stimulus [Evidence IEA]; GO_process: GO:0046474 - glycerophospholipid biosynthetic process [Evidence IEA]; GO_process: GO:0006644 - phospholipid metabolic process [Evidence IEA]; GO_process: GO:0006661 - phosphatidylinositol biosynthetic process [Evidence IEA]; GO_process: GO:0050794 - regulation of cellular process [Evidence IEA]; GO_process: GO:0071704 - organic substance metabolic process [Evidence IEA]; GO_process: GO:0046488 - phosphatidylinositol metabolic process [Evidence IEA]; GO_process: GO:0044249 - cellular biosynthetic process [Evidence IEA]; GO_process: GO:0044237 - cellular metabolic process [Evidence IEA]; GO_process: GO:0044255 - cellular lipid metabolic process [Evidence IEA]; GO_process: GO:0008654 - phospholipid biosynthetic process [Evidence IEA]; GO_process: GO:0007154 - cell communication [Evidence IEA]; GO_process: GO:0006793 - phosphorus metabolic process [Evidence IEA]; GO_process: GO:0045017 - glycerolipid biosynthetic process [Evidence IEA]; GO_process: GO:0006650 - glycerophospholipid metabolic process [Evidence IEA]; GO_process: GO:0046486 - glycerolipid metabolic process [Evidence IEA]; GO_process: GO:0019637 - organophosphate metabolic process [Evidence IEA]; GO_process: GO:0051716 - cellular response to stimulus [Evidence IEA]; GO_process: GO:0006629 - lipid metabolic process [Evidence IEA]; GO_process: GO:0006796 - phosphate-containing compound metabolic process [Evidence IEA]; GO_process: GO:0009987 - cellular process [Evidence IEA]; GO_process: GO:0090407 - organophosphate biosynthetic process [Evidence IEA]; GO_process: GO:0023052 - signaling [Evidence IEA]; GO_process: GO:0007165 - signal transduction [Evidence IEA]; GO_process: GO:0065007 - biological regulation [Evidence IEA]"
+        ],
+        "length_aa": 412,
+        "start": 10469,
+        "end": 11801,
+        "strand": 1,
+        "contig": "contig_1705",
+        "index_rel": -7,
+        "is_target": false
+      },
+      {
+        "locus_tag": "PUJ_004617",
+        "gene": "",
+        "product": "hypothetical protein",
+        "protein_id": "ncbi_PUJ_004617-T1",
+        "ec": [],
+        "db_xref": [
+          "InterPro:IPR013083"
+        ],
+        "note": [
+          "COG:S; EggNog:ENOG503Q4SH"
+        ],
+        "length_aa": 838,
+        "start": 13117,
+        "end": 15896,
+        "strand": -1,
+        "contig": "contig_1705",
+        "index_rel": -6,
+        "is_target": false
+      },
+      {
+        "locus_tag": "PUJ_004618",
+        "gene": "VPS21",
+        "product": "Vacuolar protein sorting-associated protein 21",
+        "protein_id": "ncbi_PUJ_004618-T1",
+        "ec": [],
+        "db_xref": [
+          "InterPro:IPR001806",
+          "InterPro:IPR005225",
+          "InterPro:IPR027417",
+          "PFAM:PF00009",
+          "PFAM:PF00025",
+          "PFAM:PF00071",
+          "PFAM:PF08477"
+        ],
+        "note": [
+          "COG:U; EggNog:ENOG503NY6F; GO_function: GO:0005525 - GTP binding [Evidence IEA]; GO_function: GO:0003924 - GTPase activity [Evidence IEA]"
+        ],
+        "length_aa": 249,
+        "start": 16874,
+        "end": 17734,
+        "strand": -1,
+        "contig": "contig_1705",
+        "index_rel": -5,
+        "is_target": false
+      },
+      {
+        "locus_tag": "PUJ_004619",
+        "gene": "",
+        "product": "hypothetical protein",
+        "protein_id": "ncbi_PUJ_004619-T1",
+        "ec": [],
+        "db_xref": [],
+        "note": [
+          "EggNog:ENOG503NVTX"
+        ],
+        "length_aa": 530,
+        "start": 21779,
+        "end": 23468,
+        "strand": -1,
+        "contig": "contig_1705",
+        "index_rel": -4,
+        "is_target": false
+      },
+      {
+        "locus_tag": "PUJ_004620",
+        "gene": "",
+        "product": "hypothetical protein",
+        "protein_id": "ncbi_PUJ_004620-T1",
+        "ec": [],
+        "db_xref": [],
+        "note": [
+          "EggNog:ENOG503PHXP"
+        ],
+        "length_aa": 454,
+        "start": 29757,
+        "end": 31122,
+        "strand": 1,
+        "contig": "contig_1705",
+        "index_rel": -3,
+        "is_target": false
+      },
+      {
+        "locus_tag": "PUJ_004621",
+        "gene": "",
+        "product": "hypothetical protein",
+        "protein_id": "ncbi_PUJ_004621-T1",
+        "ec": [],
+        "db_xref": [
+          "InterPro:IPR021840",
+          "PFAM:PF11915"
+        ],
+        "note": [
+          "EggNog:ENOG503P0U4; COG:S"
+        ],
+        "length_aa": 673,
+        "start": 31999,
+        "end": 34571,
+        "strand": -1,
+        "contig": "contig_1705",
+        "index_rel": -2,
+        "is_target": false
+      },
+      {
+        "locus_tag": "PUJ_004622",
+        "gene": "",
+        "product": "hypothetical protein",
+        "protein_id": "ncbi_PUJ_004622-T1",
+        "ec": [],
+        "db_xref": [
+          "InterPro:IPR003829",
+          "InterPro:IPR011051",
+          "InterPro:IPR012093",
+          "InterPro:IPR014710",
+          "PFAM:PF02678"
+        ],
+        "note": [
+          "COG:S; EggNog:ENOG503P25M"
+        ],
+        "length_aa": 286,
+        "start": 36519,
+        "end": 37380,
+        "strand": 1,
+        "contig": "contig_1705",
+        "index_rel": -1,
+        "is_target": false
+      },
+      {
+        "locus_tag": "PUJ_004623",
+        "gene": "CHT2_2",
+        "product": "Chitinase 2",
+        "protein_id": "ncbi_PUJ_004623-T1",
+        "ec": [
+          "3.2.1.14"
+        ],
+        "db_xref": [
+          "InterPro:IPR001223",
+          "InterPro:IPR017853"
+        ],
+        "note": [
+          "EggNog:ENOG503NVBP; CAZy:GH18; COG:G; GO_component: GO:0005576 - extracellular region [Evidence IEA]; GO_component: GO:0110165 - cellular anatomical entity [Evidence IEA]; GO_function: GO:0003824 - catalytic activity [Evidence IEA]; GO_function: GO:0016787 - hydrolase activity [Evidence IEA]; GO_function: GO:0004553 - hydrolase activity, hydrolyzing O-glycosyl compounds [Evidence IEA]; GO_function: GO:0016798 - hydrolase activity, acting on glycosyl bonds [Evidence IEA]; GO_function: GO:0004568 - chitinase activity [Evidence IEA]; GO_process: GO:0005975 - carbohydrate metabolic process [Evidence IEA]"
+        ],
+        "length_aa": 754,
+        "start": 39731,
+        "end": 42710,
+        "strand": 1,
+        "contig": "contig_1705",
+        "index_rel": 0,
+        "is_target": true
+      },
+      {
+        "locus_tag": "PUJ_004624",
+        "gene": "",
+        "product": "hypothetical protein",
+        "protein_id": "ncbi_PUJ_004624-T1",
+        "ec": [],
+        "db_xref": [
+          "InterPro:IPR001451",
+          "InterPro:IPR011004",
+          "InterPro:IPR018357",
+          "InterPro:IPR024688",
+          "PFAM:PF00132",
+          "PFAM:PF12464",
+          "PFAM:PF14602"
+        ],
+        "note": [
+          "EggNog:ENOG503NZB6; COG:E; GO_function: GO:0003824 - catalytic activity [Evidence IEA]; GO_function: GO:0016746 - acyltransferase activity [Evidence IEA]; GO_function: GO:0016740 - transferase activity [Evidence IEA]; GO_function: GO:0016747 - acyltransferase activity, transferring groups other than amino-acyl groups [Evidence IEA]; GO_function: GO:0016407 - acetyltransferase activity [Evidence IEA]; GO_function: GO:0008374 - O-acyltransferase activity [Evidence IEA]"
+        ],
+        "length_aa": 224,
+        "start": 43516,
+        "end": 44447,
+        "strand": 1,
+        "contig": "contig_1705",
+        "index_rel": 1,
+        "is_target": false
+      }
+    ]
+  },
+  "PUJ_001678": {
+    "target_locus": "PUJ_001678",
+    "target_gene": "FET3",
+    "contig": "contig_623",
+    "target_idx": 6,
+    "total_genes_on_contig": 9,
+    "window": 10,
+    "flanking": [
+      {
+        "locus_tag": "PUJ_001672",
+        "gene": "",
+        "product": "hypothetical protein",
+        "protein_id": "ncbi_PUJ_001672-T1",
+        "ec": [],
+        "db_xref": [],
+        "note": [
+          "COG:B; EggNog:ENOG503NXMS"
+        ],
+        "length_aa": 201,
+        "start": 72,
+        "end": 738,
+        "strand": 1,
+        "contig": "contig_623",
+        "index_rel": -6,
+        "is_target": false
+      },
+      {
+        "locus_tag": "PUJ_001673",
+        "gene": "",
+        "product": "hypothetical protein",
+        "protein_id": "ncbi_PUJ_001673-T1",
+        "ec": [],
+        "db_xref": [
+          "InterPro:IPR003663",
+          "InterPro:IPR005828",
+          "InterPro:IPR005829",
+          "InterPro:IPR020846",
+          "InterPro:IPR036259",
+          "PFAM:PF07690"
+        ],
+        "note": [
+          "COG:P; EggNog:ENOG503NUJH; GO_component: GO:0016020 - membrane [Evidence IEA]; GO_component: GO:0110165 - cellular anatomical entity [Evidence IEA]; GO_function: GO:0015078 - proton transmembrane transporter activity [Evidence IEA]; GO_function: GO:0015144 - carbohydrate transmembrane transporter activity [Evidence IEA]; GO_function: GO:0008324 - monoatomic cation transmembrane transporter activity [Evidence IEA]; GO_function: GO:0022857 - transmembrane transporter activity [Evidence IEA]; GO_function: GO:0015293 - symporter activity [Evidence IEA]; GO_function: GO:0022804 - active transmembrane transporter activity [Evidence IEA]; GO_function: GO:0005215 - transporter activity [Evidence IEA]; GO_function: GO:0022853 - active monoatomic ion transmembrane transporter activity [Evidence IEA]; GO_function: GO:0015318 - inorganic molecular entity transmembrane transporter activity [Evidence IEA]; GO_function: GO:0015075 - monoatomic ion transmembrane transporter activity [Evidence IEA]; GO_function: GO:0015291 - secondary active transmembrane transporter activity [Evidence IEA]; GO_function: GO:0015295 - solute:proton symporter activity [Evidence IEA]; GO_function: GO:0022890 - inorganic cation transmembrane transporter activity [Evidence IEA]; GO_function: GO:0015294 - solute:monoatomic cation symporter activity [Evidence IEA]; GO_process: GO:0071702 - organic substance transport [Evidence IEA]; GO_process: GO:0055085 - transmembrane transport [Evidence IEA]; GO_process: GO:0051179 - localization [Evidence IEA]; GO_process: GO:0051234 - establishment of localization [Evidence IEA]; GO_process: GO:0006810 - transport [Evidence IEA]; GO_process: GO:0008643 - carbohydrate transport [Evidence IEA]"
+        ],
+        "length_aa": 536,
+        "start": 2386,
+        "end": 4560,
+        "strand": 1,
+        "contig": "contig_623",
+        "index_rel": -5,
+        "is_target": false
+      },
+      {
+        "locus_tag": "PUJ_001674",
+        "gene": "",
+        "product": "hypothetical protein",
+        "protein_id": "ncbi_PUJ_001674-T1",
+        "ec": [
+          "1.2.1.5"
+        ],
+        "db_xref": [
+          "InterPro:IPR015590",
+          "InterPro:IPR016161",
+          "InterPro:IPR016162",
+          "InterPro:IPR016163",
+          "InterPro:IPR029510",
+          "PFAM:PF00171"
+        ],
+        "note": [
+          "EggNog:ENOG503NW4N; COG:E; GO_function: GO:0003824 - catalytic activity [Evidence IEA]; GO_function: GO:0016491 - oxidoreductase activity [Evidence IEA]; GO_function: GO:0016620 - oxidoreductase activity, acting on the aldehyde or oxo group of donors, NAD or NADP as acceptor [Evidence IEA]"
+        ],
+        "length_aa": 496,
+        "start": 5556,
+        "end": 7353,
+        "strand": 1,
+        "contig": "contig_623",
+        "index_rel": -4,
+        "is_target": false
+      },
+      {
+        "locus_tag": "PUJ_001675",
+        "gene": "",
+        "product": "hypothetical protein",
+        "protein_id": "ncbi_PUJ_001675-T1",
+        "ec": [
+          "3.5.1.4"
+        ],
+        "db_xref": [
+          "InterPro:IPR023631",
+          "InterPro:IPR036928"
+        ],
+        "note": [
+          "COG:I,J,T; EggNog:ENOG503NTYP"
+        ],
+        "length_aa": 234,
+        "start": 7990,
+        "end": 8768,
+        "strand": 1,
+        "contig": "contig_623",
+        "index_rel": -3,
+        "is_target": false
+      },
+      {
+        "locus_tag": "PUJ_001676",
+        "gene": "",
+        "product": "hypothetical protein",
+        "protein_id": "ncbi_PUJ_001676-T1",
+        "ec": [
+          "3.5.1.4"
+        ],
+        "db_xref": [
+          "InterPro:IPR023631",
+          "InterPro:IPR036928",
+          "PFAM:PF01425"
+        ],
+        "note": [
+          "COG:I,J,T; EggNog:ENOG503NTYP"
+        ],
+        "length_aa": 285,
+        "start": 8956,
+        "end": 9882,
+        "strand": 1,
+        "contig": "contig_623",
+        "index_rel": -2,
+        "is_target": false
+      },
+      {
+        "locus_tag": "PUJ_001677",
+        "gene": "",
+        "product": "hypothetical protein",
+        "protein_id": "ncbi_PUJ_001677-T1",
+        "ec": [
+          "1.8.5.7"
+        ],
+        "db_xref": [
+          "InterPro:IPR004045",
+          "InterPro:IPR016639",
+          "InterPro:IPR036249",
+          "InterPro:IPR036282",
+          "PFAM:PF13409",
+          "PFAM:PF13410"
+        ],
+        "note": [
+          "COG:O; EggNog:ENOG503NUQH; GO_component: GO:0005622 - intracellular anatomical structure [Evidence IEA]; GO_component: GO:0110165 - cellular anatomical entity [Evidence IEA]; GO_component: GO:0005737 - cytoplasm [Evidence IEA]; GO_function: GO:0003824 - catalytic activity [Evidence IEA]; GO_function: GO:0004364 - glutathione transferase activity [Evidence IEA]; GO_function: GO:0016765 - transferase activity, transferring alkyl or aryl (other than methyl) groups [Evidence IEA]; GO_function: GO:0016740 - transferase activity [Evidence IEA]"
+        ],
+        "length_aa": 301,
+        "start": 10178,
+        "end": 11084,
+        "strand": -1,
+        "contig": "contig_623",
+        "index_rel": -1,
+        "is_target": false
+      },
+      {
+        "locus_tag": "PUJ_001678",
+        "gene": "FET3",
+        "product": "ferroxidase fet3",
+        "protein_id": "ncbi_PUJ_001678-T1",
+        "ec": [],
+        "db_xref": [
+          "InterPro:IPR001117",
+          "InterPro:IPR002355",
+          "InterPro:IPR008972",
+          "InterPro:IPR011706",
+          "InterPro:IPR011707",
+          "InterPro:IPR033138",
+          "InterPro:IPR044130",
+          "InterPro:IPR045087",
+          "PFAM:PF00394",
+          "PFAM:PF07731",
+          "PFAM:PF07732"
+        ],
+        "note": [
+          "COG:Q; CAZy:AA1; EggNog:ENOG503NVG2; GO_component: GO:0016021 - membrane [Evidence IEA]; GO_component: GO:0098796 - membrane protein complex [Evidence IEA]; GO_component: GO:0098797 - plasma membrane protein complex [Evidence IEA]; GO_component: GO:0031224 - obsolete intrinsic component of membrane [Evidence IEA]; GO_component: GO:1902495 - transmembrane transporter complex [Evidence IEA]; GO_component: GO:1990204 - oxidoreductase complex [Evidence IEA]; GO_component: GO:0016020 - membrane [Evidence IEA]; GO_component: GO:1990351 - transporter complex [Evidence IEA]; GO_component: GO:0071944 - cell periphery [Evidence IEA]; GO_component: GO:0110165 - cellular anatomical entity [Evidence IEA]; GO_component: GO:0032991 - protein-containing complex [Evidence IEA]; GO_component: GO:1902494 - catalytic complex [Evidence IEA]; GO_component: GO:0005886 - plasma membrane [Evidence IEA]; GO_function: GO:0003824 - catalytic activity [Evidence IEA]; GO_function: GO:0005507 - copper ion binding [Evidence IEA]; GO_function: GO:0016491 - oxidoreductase activity [Evidence IEA]; GO_function: GO:0016722 - oxidoreductase activity, acting on metal ions [Evidence IEA]; GO_process: GO:0098662 - inorganic cation transmembrane transport [Evidence IEA]; GO_process: GO:0055080 - monoatomic cation homeostasis [Evidence IEA]; GO_process: GO:0055085 - transmembrane transport [Evidence IEA]; GO_process: GO:0098660 - inorganic ion transmembrane transport [Evidence IEA]; GO_process: GO:0034220 - monoatomic ion transmembrane transport [Evidence IEA]; GO_process: GO:0098771 - inorganic ion homeostasis [Evidence IEA]; GO_process: GO:0055076 - obsolete transition metal ion homeostasis [Evidence IEA]; GO_process: GO:0050896 - response to stimulus [Evidence IEA]; GO_process: GO:0098655 - monoatomic cation transmembrane transport [Evidence IEA]; GO_process: GO:0006950 - response to stress [Evidence IEA]; GO_process: GO:0006873 - intracellular monoatomic ion homeostasis [Evidence IEA]; GO_process: GO:0042594 - response to starvation [Evidence IEA]; GO_process: GO:0042592 - homeostatic process [Evidence IEA]; GO_process: GO:0051649 - establishment of localization in cell [Evidence IEA]; GO_process: GO:0033554 - cellular response to stress [Evidence IEA]; GO_process: GO:0030003 - intracellular monoatomic cation homeostasis [Evidence IEA]; GO_process: GO:0031669 - cellular response to nutrient levels [Evidence IEA]; GO_process: GO:0009267 - cellular response to starvation [Evidence IEA]; GO_process: GO:0071496 - cellular response to external stimulus [Evidence IEA]; GO_process: GO:0031668 - cellular response to extracellular stimulus [Evidence IEA]; GO_process: GO:0006875 - obsolete intracellular metal ion homeostasis [Evidence IEA]; GO_process: GO:0050801 - monoatomic ion homeostasis [Evidence IEA]; GO_process: GO:0030001 - metal ion transport [Evidence IEA]; GO_process: GO:0055065 - obsolete metal ion homeostasis [Evidence IEA]; GO_process: GO:0006812 - monoatomic cation transport [Evidence IEA]; GO_process: GO:0051179 - localization [Evidence IEA]; GO_process: GO:0019725 - cellular homeostasis [Evidence IEA]; GO_process: GO:0034755 - iron ion transmembrane transport [Evidence IEA]; GO_process: GO:0031667 - response to nutrient levels [Evidence IEA]; GO_process: GO:0065008 - regulation of biological quality [Evidence IEA]; GO_process: GO:0046916 - obsolete intracellular transition metal ion homeostasis [Evidence IEA]; GO_process: GO:0000041 - transition metal ion transport [Evidence IEA]; GO_process: GO:0009991 - response to extracellular stimulus [Evidence IEA]; GO_process: GO:0006811 - monoatomic ion transport [Evidence IEA]; GO_process: GO:0055072 - obsolete iron ion homeostasis [Evidence IEA]; GO_process: GO:0007154 - cell communication [Evidence IEA]; GO_process: GO:0006879 - intracellular iron ion homeostasis [Evidence IEA]; GO_process: GO:0006826 - iron ion transport [Evidence IEA]; GO_process: GO:0055082 - intracellular chemical homeostasis [Evidence IEA]; GO_process: GO:0051716 - cellular response to stimulus [Evidence IEA]; GO_process: GO:0009987 - cellular process [Evidence IEA]; GO_process: GO:0051234 - establishment of localization [Evidence IEA]; GO_process: GO:0006810 - transport [Evidence IEA]; GO_process: GO:0009605 - response to external stimulus [Evidence IEA]; GO_process: GO:0048878 - chemical homeostasis [Evidence IEA]; GO_process: GO:0051641 - cellular localization [Evidence IEA]; GO_process: GO:0065007 - biological regulation [Evidence IEA]"
+        ],
+        "length_aa": 606,
+        "start": 11711,
+        "end": 13559,
+        "strand": -1,
+        "contig": "contig_623",
+        "index_rel": 0,
+        "is_target": true
+      },
+      {
+        "locus_tag": "PUJ_001679",
+        "gene": "FTR1_1",
+        "product": "high-affinity iron permease",
+        "protein_id": "ncbi_PUJ_001679-T1",
+        "ec": [],
+        "db_xref": [
+          "InterPro:IPR004923",
+          "InterPro:IPR036259",
+          "PFAM:PF03239"
+        ],
+        "note": [
+          "COG:P; EggNog:ENOG503NWZY; GO_component: GO:0016021 - membrane [Evidence IEA]; GO_component: GO:0031224 - obsolete intrinsic component of membrane [Evidence IEA]; GO_component: GO:0098796 - membrane protein complex [Evidence IEA]; GO_component: GO:0098797 - plasma membrane protein complex [Evidence IEA]; GO_component: GO:0016020 - membrane [Evidence IEA]; GO_component: GO:1990204 - oxidoreductase complex [Evidence IEA]; GO_component: GO:0033573 - high-affinity iron permease complex [Evidence IEA]; GO_component: GO:1990351 - transporter complex [Evidence IEA]; GO_component: GO:0071944 - cell periphery [Evidence IEA]; GO_component: GO:1902495 - transmembrane transporter complex [Evidence IEA]; GO_component: GO:0032991 - protein-containing complex [Evidence IEA]; GO_component: GO:1902494 - catalytic complex [Evidence IEA]; GO_component: GO:0110165 - cellular anatomical entity [Evidence IEA]; GO_component: GO:0005886 - plasma membrane [Evidence IEA]; GO_function: GO:0008324 - monoatomic cation transmembrane transporter activity [Evidence IEA]; GO_function: GO:0022857 - transmembrane transporter activity [Evidence IEA]; GO_function: GO:0046873 - metal ion transmembrane transporter activity [Evidence IEA]; GO_function: GO:0005215 - transporter activity [Evidence IEA]; GO_function: GO:0005381 - iron ion transmembrane transporter activity [Evidence IEA]; GO_function: GO:0015318 - inorganic molecular entity transmembrane transporter activity [Evidence IEA]; GO_function: GO:0015075 - monoatomic ion transmembrane transporter activity [Evidence IEA]; GO_function: GO:0022890 - inorganic cation transmembrane transporter activity [Evidence IEA]; GO_process: GO:0000041 - transition metal ion transport [Evidence IEA]; GO_process: GO:0006811 - monoatomic ion transport [Evidence IEA]; GO_process: GO:0006826 - iron ion transport [Evidence IEA]; GO_process: GO:0098655 - monoatomic cation transmembrane transport [Evidence IEA]; GO_process: GO:0098662 - inorganic cation transmembrane transport [Evidence IEA]; GO_process: GO:0030001 - metal ion transport [Evidence IEA]; GO_process: GO:0006812 - monoatomic cation transport [Evidence IEA]; GO_process: GO:0055085 - transmembrane transport [Evidence IEA]; GO_process: GO:0051179 - localization [Evidence IEA]; GO_process: GO:0034755 - iron ion transmembrane transport [Evidence IEA]; GO_process: GO:0098660 - inorganic ion transmembrane transport [Evidence IEA]; GO_process: GO:0009987 - cellular process [Evidence IEA]; GO_process: GO:0034220 - monoatomic ion transmembrane transport [Evidence IEA]; GO_process: GO:0051234 - establishment of localization [Evidence IEA]; GO_process: GO:0006810 - transport [Evidence IEA]"
+        ],
+        "length_aa": 367,
+        "start": 14572,
+        "end": 15676,
+        "strand": 1,
+        "contig": "contig_623",
+        "index_rel": 1,
+        "is_target": false
+      },
+      {
+        "locus_tag": "PUJ_001680",
+        "gene": "",
+        "product": "hypothetical protein",
+        "protein_id": "ncbi_PUJ_001680-T1",
+        "ec": [],
+        "db_xref": [
+          "InterPro:IPR000772",
+          "InterPro:IPR035992",
+          "PFAM:PF14200"
+        ],
+        "note": [
+          "EggNog:ENOG503PW5D; COG:S"
+        ],
+        "length_aa": 102,
+        "start": 19957,
+        "end": 20419,
+        "strand": 1,
+        "contig": "contig_623",
+        "index_rel": 2,
+        "is_target": false
+      }
+    ]
+  },
+  "PUJ_003670": {
+    "target_locus": "PUJ_003670",
+    "target_gene": "",
+    "contig": "contig_1419",
+    "target_idx": 7,
+    "total_genes_on_contig": 8,
+    "window": 10,
+    "flanking": [
+      {
+        "locus_tag": "PUJ_003663",
+        "gene": "BRX1",
+        "product": "Ribosome bioproteinsis protein brx1",
+        "protein_id": "ncbi_PUJ_003663-T1",
+        "ec": [],
+        "db_xref": [
+          "InterPro:IPR007109",
+          "InterPro:IPR026532",
+          "PFAM:PF04427"
+        ],
+        "note": [
+          "EggNog:ENOG503NUGV; COG:J; GO_component: GO:0070013 - intracellular organelle lumen [Evidence IEA]; GO_component: GO:0031974 - membrane-enclosed lumen [Evidence IEA]; GO_component: GO:0043231 - intracellular membrane-bounded organelle [Evidence IEA]; GO_component: GO:0016020 - membrane [Evidence IEA]; GO_component: GO:0005634 - nucleus [Evidence IEA]; GO_component: GO:0043226 - organelle [Evidence IEA]; GO_component: GO:0043232 - intracellular non-membrane-bounded organelle [Evidence IEA]; GO_component: GO:0043229 - intracellular organelle [Evidence IEA]; GO_component: GO:0031981 - nuclear lumen [Evidence IEA]; GO_component: GO:0043227 - membrane-bounded organelle [Evidence IEA]; GO_component: GO:0110165 - cellular anatomical entity [Evidence IEA]; GO_component: GO:0043228 - non-membrane-bounded organelle [Evidence IEA]; GO_component: GO:0005730 - nucleolus [Evidence IEA]; GO_component: GO:0043233 - organelle lumen [Evidence IEA]; GO_component: GO:0005622 - intracellular anatomical structure [Evidence IEA]; GO_function: GO:0097159 - organic cyclic compound binding [Evidence IEA]; GO_function: GO:0003676 - nucleic acid binding [Evidence IEA]; GO_function: GO:0019843 - rRNA binding [Evidence IEA]; GO_function: GO:1901363 - heterocyclic compound binding [Evidence IEA]; GO_function: GO:0003723 - RNA binding [Evidence IEA]; GO_function: GO:0005488 - binding [Evidence IEA]; GO_process: GO:0000027 - ribosomal large subunit assembly [Evidence IEA]; GO_process: GO:0006364 - rRNA processing [Evidence IEA]; GO_process: GO:0071840 - cellular component organization or biogenesis [Evidence IEA]; GO_process: GO:0071826 - protein-RNA complex organization [Evidence IEA]; GO_process: GO:0042254 - ribosome biogenesis [Evidence IEA]; GO_process: GO:0022618 - protein-RNA complex assembly [Evidence IEA]; GO_process: GO:0044085 - cellular component biogenesis [Evidence IEA]; GO_process: GO:0006996 - organelle organization [Evidence IEA]; GO_process: GO:0034622 - protein-containing complex assembly [Evidence IEA]; GO_process: GO:0022607 - cellular component assembly [Evidence IEA]; GO_process: GO:0065003 - protein-containing complex assembly [Evidence IEA]; GO_process: GO:0043933 - protein-containing complex organization [Evidence IEA]; GO_process: GO:0009987 - cellular process [Evidence IEA]; GO_process: GO:0042273 - ribosomal large subunit biogenesis [Evidence IEA]; GO_process: GO:0070925 - organelle assembly [Evidence IEA]; GO_process: GO:0140694 - non-membrane-bounded organelle assembly [Evidence IEA]; GO_process: GO:0016043 - cellular component organization [Evidence IEA]; GO_process: GO:0022613 - ribonucleoprotein complex biogenesis [Evidence IEA]"
+        ],
+        "length_aa": 316,
+        "start": 946,
+        "end": 1998,
+        "strand": -1,
+        "contig": "contig_1419",
+        "index_rel": -7,
+        "is_target": false
+      },
+      {
+        "locus_tag": "PUJ_003664",
+        "gene": "YPT31",
+        "product": "Rab GTPase ypt31",
+        "protein_id": "ncbi_PUJ_003664-T1",
+        "ec": [],
+        "db_xref": [
+          "InterPro:IPR001806",
+          "InterPro:IPR005225",
+          "InterPro:IPR027417",
+          "PFAM:PF00025",
+          "PFAM:PF00071",
+          "PFAM:PF01926",
+          "PFAM:PF08477"
+        ],
+        "note": [
+          "BUSCO:EOG09264HHW; EggNog:ENOG503NV4U; COG:U; GO_component: GO:0031410 - cytoplasmic vesicle [Evidence IEA]; GO_component: GO:0055037 - recycling endosome [Evidence IEA]; GO_component: GO:0043231 - intracellular membrane-bounded organelle [Evidence IEA]; GO_component: GO:0031982 - vesicle [Evidence IEA]; GO_component: GO:0016020 - membrane [Evidence IEA]; GO_component: GO:0110165 - cellular anatomical entity [Evidence IEA]; GO_component: GO:0043226 - organelle [Evidence IEA]; GO_component: GO:0043229 - intracellular organelle [Evidence IEA]; GO_component: GO:0097708 - intracellular vesicle [Evidence IEA]; GO_component: GO:0043227 - membrane-bounded organelle [Evidence IEA]; GO_component: GO:0071944 - cell periphery [Evidence IEA]; GO_component: GO:0005773 - vacuole [Evidence IEA]; GO_component: GO:0005737 - cytoplasm [Evidence IEA]; GO_component: GO:0005622 - intracellular anatomical structure [Evidence IEA]; GO_component: GO:0012505 - endomembrane system [Evidence IEA]; GO_component: GO:0005768 - endosome [Evidence IEA]; GO_component: GO:0005886 - plasma membrane [Evidence IEA]; GO_function: GO:0005525 - GTP binding [Evidence IEA]; GO_function: GO:0003924 - GTPase activity [Evidence IEA]; GO_process: GO:0061024 - membrane organization [Evidence IEA]; GO_process: GO:0006887 - exocytosis [Evidence IEA]; GO_process: GO:0048284 - organelle fusion [Evidence IEA]; GO_process: GO:0032940 - secretion by cell [Evidence IEA]; GO_process: GO:0071840 - cellular component organization or biogenesis [Evidence IEA]; GO_process: GO:0046903 - secretion [Evidence IEA]; GO_process: GO:0061025 - membrane fusion [Evidence IEA]; GO_process: GO:0016192 - vesicle-mediated transport [Evidence IEA]; GO_process: GO:0099500 - vesicle fusion to plasma membrane [Evidence IEA]; GO_process: GO:0051179 - localization [Evidence IEA]; GO_process: GO:0140029 - exocytic process [Evidence IEA]; GO_process: GO:0006906 - vesicle fusion [Evidence IEA]; GO_process: GO:0016043 - cellular component organization [Evidence IEA]; GO_process: GO:0016050 - vesicle organization [Evidence IEA]; GO_process: GO:0006996 - organelle organization [Evidence IEA]; GO_process: GO:0090174 - organelle membrane fusion [Evidence IEA]; GO_process: GO:0009987 - cellular process [Evidence IEA]; GO_process: GO:0140352 - export from cell [Evidence IEA]; GO_process: GO:0051234 - establishment of localization [Evidence IEA]; GO_process: GO:0006810 - transport [Evidence IEA]"
+        ],
+        "length_aa": 212,
+        "start": 2645,
+        "end": 3571,
+        "strand": -1,
+        "contig": "contig_1419",
+        "index_rel": -6,
+        "is_target": false
+      },
+      {
+        "locus_tag": "PUJ_003665",
+        "gene": "",
+        "product": "hypothetical protein",
+        "protein_id": "ncbi_PUJ_003665-T1",
+        "ec": [],
+        "db_xref": [
+          "InterPro:IPR000953",
+          "InterPro:IPR016197",
+          "InterPro:IPR023780",
+          "PFAM:PF00385"
+        ],
+        "note": [
+          "EggNog:ENOG503Q4M6; COG:B; GO_component: GO:0005694 - chromosome [Evidence IEA]; GO_component: GO:0043226 - organelle [Evidence IEA]; GO_component: GO:0043232 - intracellular non-membrane-bounded organelle [Evidence IEA]; GO_component: GO:0043229 - intracellular organelle [Evidence IEA]; GO_component: GO:0000785 - chromatin [Evidence IEA]; GO_component: GO:0098687 - chromosomal region [Evidence IEA]; GO_component: GO:0000775 - chromosome, centromeric region [Evidence IEA]; GO_component: GO:0110165 - cellular anatomical entity [Evidence IEA]; GO_component: GO:0043228 - non-membrane-bounded organelle [Evidence IEA]; GO_component: GO:0000792 - heterochromatin [Evidence IEA]; GO_component: GO:0005622 - intracellular anatomical structure [Evidence IEA]; GO_function: GO:0035064 - methylated histone binding [Evidence IEA]; GO_function: GO:0042393 - histone binding [Evidence IEA]; GO_function: GO:0003682 - chromatin binding [Evidence IEA]; GO_function: GO:0005515 - protein binding [Evidence IEA]; GO_function: GO:0140030 - modification-dependent protein binding [Evidence IEA]; GO_function: GO:0005488 - binding [Evidence IEA]; GO_process: GO:0010605 - negative regulation of macromolecule metabolic process [Evidence IEA]; GO_process: GO:0009059 - macromolecule biosynthetic process [Evidence IEA]; GO_process: GO:0031326 - regulation of cellular biosynthetic process [Evidence IEA]; GO_process: GO:0090304 - nucleic acid metabolic process [Evidence IEA]; GO_process: GO:1901362 - organic cyclic compound biosynthetic process [Evidence IEA]; GO_process: GO:0019222 - regulation of metabolic process [Evidence IEA]; GO_process: GO:1901576 - organic substance biosynthetic process [Evidence IEA]; GO_process: GO:0050789 - regulation of biological process [Evidence IEA]; GO_process: GO:0034645 - obsolete cellular macromolecule biosynthetic process [Evidence IEA]; GO_process: GO:0034654 - nucleobase-containing compound biosynthetic process [Evidence IEA]; GO_process: GO:0019219 - regulation of nucleobase-containing compound metabolic process [Evidence IEA]; GO_process: GO:0009058 - biosynthetic process [Evidence IEA]; GO_process: GO:0008152 - metabolic process [Evidence IEA]; GO_process: GO:0006351 - DNA-templated transcription [Evidence IEA]; GO_process: GO:0071840 - cellular component organization or biogenesis [Evidence IEA]; GO_process: GO:0016070 - RNA metabolic process [Evidence IEA]; GO_process: GO:0044238 - primary metabolic process [Evidence IEA]; GO_process: GO:0097659 - obsolete nucleic acid-templated transcription [Evidence IEA]; GO_process: GO:0009889 - regulation of biosynthetic process [Evidence IEA]; GO_process: GO:0080090 - regulation of primary metabolic process [Evidence IEA]; GO_process: GO:0010468 - regulation of gene expression [Evidence IEA]; GO_process: GO:0044260 - obsolete cellular macromolecule metabolic process [Evidence IEA]; GO_process: GO:0006357 - regulation of transcription by RNA polymerase II [Evidence IEA]; GO_process: GO:0006325 - chromatin organization [Evidence IEA]; GO_process: GO:0009890 - negative regulation of biosynthetic process [Evidence IEA]; GO_process: GO:0034641 - cellular nitrogen compound metabolic process [Evidence IEA]; GO_process: GO:0045892 - negative regulation of DNA-templated transcription [Evidence IEA]; GO_process: GO:0051172 - negative regulation of nitrogen compound metabolic process [Evidence IEA]; GO_process: GO:2000112 - obsolete regulation of cellular macromolecule biosynthetic process [Evidence IEA]; GO_process: GO:1903506 - obsolete regulation of nucleic acid-templated transcription [Evidence IEA]; GO_process: GO:0051276 - chromosome organization [Evidence IEA]; GO_process: GO:0043170 - macromolecule metabolic process [Evidence IEA]; GO_process: GO:0000122 - negative regulation of transcription by RNA polymerase II [Evidence IEA]; GO_process: GO:1902679 - negative regulation of RNA biosynthetic process [Evidence IEA]; GO_process: GO:0046483 - heterocycle metabolic process [Evidence IEA]; GO_process: GO:0031324 - negative regulation of cellular metabolic process [Evidence IEA]; GO_process: GO:0050794 - regulation of cellular process [Evidence IEA]; GO_process: GO:0031323 - regulation of cellular metabolic process [Evidence IEA]; GO_process: GO:0071704 - organic substance metabolic process [Evidence IEA]; GO_process: GO:0048519 - negative regulation of biological process [Evidence IEA]; GO_process: GO:0031327 - negative regulation of cellular biosynthetic process [Evidence IEA]; GO_process: GO:0048523 - negative regulation of cellular process [Evidence IEA]; GO_process: GO:0051171 - regulation of nitrogen compound metabolic process [Evidence IEA]; GO_process: GO:1901360 - organic cyclic compound metabolic process [Evidence IEA]; GO_process: GO:1903507 - obsolete negative regulation of nucleic acid-templated transcription [Evidence IEA]; GO_process: GO:0010556 - regulation of macromolecule biosynthetic process [Evidence IEA]; GO_process: GO:0006355 - regulation of DNA-templated transcription [Evidence IEA]; GO_process: GO:0019438 - aromatic compound biosynthetic process [Evidence IEA]; GO_process: GO:0010558 - negative regulation of macromolecule biosynthetic process [Evidence IEA]; GO_process: GO:0044237 - cellular metabolic process [Evidence IEA]; GO_process: GO:0045934 - negative regulation of nucleobase-containing compound metabolic process [Evidence IEA]; GO_process: GO:0006807 - nitrogen compound metabolic process [Evidence IEA]; GO_process: GO:0044249 - cellular biosynthetic process [Evidence IEA]; GO_process: GO:0060255 - regulation of macromolecule metabolic process [Evidence IEA]; GO_process: GO:0051253 - negative regulation of RNA metabolic process [Evidence IEA]; GO_process: GO:0016043 - cellular component organization [Evidence IEA]; GO_process: GO:0010467 - gene expression [Evidence IEA]; GO_process: GO:0032774 - RNA biosynthetic process [Evidence IEA]; GO_process: GO:0006366 - transcription by RNA polymerase II [Evidence IEA]; GO_process: GO:0006996 - organelle organization [Evidence IEA]; GO_process: GO:0006725 - cellular aromatic compound metabolic process [Evidence IEA]; GO_process: GO:0009892 - negative regulation of metabolic process [Evidence IEA]; GO_process: GO:0009987 - cellular process [Evidence IEA]; GO_process: GO:0044271 - cellular nitrogen compound biosynthetic process [Evidence IEA]; GO_process: GO:2001141 - regulation of RNA biosynthetic process [Evidence IEA]; GO_process: GO:2000113 - obsolete negative regulation of cellular macromolecule biosynthetic process [Evidence IEA]; GO_process: GO:0018130 - heterocycle biosynthetic process [Evidence IEA]; GO_process: GO:0006139 - nucleobase-containing compound metabolic process [Evidence IEA]; GO_process: GO:0051252 - regulation of RNA metabolic process [Evidence IEA]; GO_process: GO:0065007 - biological regulation [Evidence IEA]"
+        ],
+        "length_aa": 185,
+        "start": 4586,
+        "end": 5590,
+        "strand": 1,
+        "contig": "contig_1419",
+        "index_rel": -5,
+        "is_target": false
+      },
+      {
+        "locus_tag": "PUJ_003666",
+        "gene": "",
+        "product": "hypothetical protein",
+        "protein_id": "ncbi_PUJ_003666-T1",
+        "ec": [],
+        "db_xref": [
+          "InterPro:IPR006785",
+          "InterPro:IPR025655",
+          "InterPro:IPR036388",
+          "PFAM:PF04695"
+        ],
+        "note": [
+          "EggNog:ENOG503P30P; COG:S; GO_component: GO:0043231 - intracellular membrane-bounded organelle [Evidence IEA]; GO_component: GO:0005777 - peroxisome [Evidence IEA]; GO_component: GO:0016020 - membrane [Evidence IEA]; GO_component: GO:0031903 - microbody membrane [Evidence IEA]; GO_component: GO:0031090 - organelle membrane [Evidence IEA]; GO_component: GO:0098588 - bounding membrane of organelle [Evidence IEA]; GO_component: GO:0043226 - organelle [Evidence IEA]; GO_component: GO:0005778 - peroxisomal membrane [Evidence IEA]; GO_component: GO:0042579 - microbody [Evidence IEA]; GO_component: GO:0043229 - intracellular organelle [Evidence IEA]; GO_component: GO:1990351 - transporter complex [Evidence IEA]; GO_component: GO:0005737 - cytoplasm [Evidence IEA]; GO_component: GO:0043227 - membrane-bounded organelle [Evidence IEA]; GO_component: GO:0110165 - cellular anatomical entity [Evidence IEA]; GO_component: GO:0032991 - protein-containing complex [Evidence IEA]; GO_component: GO:0005622 - intracellular anatomical structure [Evidence IEA]; GO_function: GO:0005102 - signaling receptor binding [Evidence IEA]; GO_function: GO:0005515 - protein binding [Evidence IEA]; GO_function: GO:0005488 - binding [Evidence IEA]; GO_process: GO:0055085 - transmembrane transport [Evidence IEA]; GO_process: GO:0007031 - peroxisome organization [Evidence IEA]; GO_process: GO:0015031 - protein transport [Evidence IEA]; GO_process: GO:0072594 - establishment of protein localization to organelle [Evidence IEA]; GO_process: GO:0034613 - protein localization [Evidence IEA]; GO_process: GO:0071840 - cellular component organization or biogenesis [Evidence IEA]; GO_process: GO:0071705 - nitrogen compound transport [Evidence IEA]; GO_process: GO:0071702 - organic substance transport [Evidence IEA]; GO_process: GO:0006625 - protein targeting to peroxisome [Evidence IEA]; GO_process: GO:0006886 - intracellular protein transport [Evidence IEA]; GO_process: GO:0070727 - cellular macromolecule localization [Evidence IEA]; GO_process: GO:0051649 - establishment of localization in cell [Evidence IEA]; GO_process: GO:0016560 - protein import into peroxisome matrix, docking [Evidence IEA]; GO_process: GO:0045184 - establishment of protein localization [Evidence IEA]; GO_process: GO:0046907 - intracellular transport [Evidence IEA]; GO_process: GO:0072663 - establishment of protein localization to peroxisome [Evidence IEA]; GO_process: GO:0072662 - protein localization to peroxisome [Evidence IEA]; GO_process: GO:0016558 - protein import into peroxisome matrix [Evidence IEA]; GO_process: GO:0033365 - protein localization to organelle [Evidence IEA]; GO_process: GO:0051179 - localization [Evidence IEA]; GO_process: GO:0043574 - peroxisomal transport [Evidence IEA]; GO_process: GO:0071806 - protein transmembrane transport [Evidence IEA]; GO_process: GO:0006605 - protein targeting [Evidence IEA]; GO_process: GO:0044743 - protein transmembrane import into intracellular organelle [Evidence IEA]; GO_process: GO:0008104 - protein localization [Evidence IEA]; GO_process: GO:0033036 - macromolecule localization [Evidence IEA]; GO_process: GO:0016043 - cellular component organization [Evidence IEA]; GO_process: GO:0065002 - intracellular protein transmembrane transport [Evidence IEA]; GO_process: GO:0006996 - organelle organization [Evidence IEA]; GO_process: GO:0009987 - cellular process [Evidence IEA]; GO_process: GO:0051234 - establishment of localization [Evidence IEA]; GO_process: GO:0017038 - protein import [Evidence IEA]; GO_process: GO:0006810 - transport [Evidence IEA]; GO_process: GO:0051641 - cellular localization [Evidence IEA]"
+        ],
+        "length_aa": 372,
+        "start": 8785,
+        "end": 9942,
+        "strand": -1,
+        "contig": "contig_1419",
+        "index_rel": -4,
+        "is_target": false
+      },
+      {
+        "locus_tag": "PUJ_003667",
+        "gene": "",
+        "product": "hypothetical protein",
+        "protein_id": "ncbi_PUJ_003667-T1",
+        "ec": [],
+        "db_xref": [
+          "InterPro:IPR006880",
+          "InterPro:IPR029523",
+          "PFAM:PF04795"
+        ],
+        "note": [
+          "EggNog:ENOG503P0R3; COG:S; GO_component: GO:0005694 - chromosome [Evidence IEA]; GO_component: GO:0031011 - Ino80 complex [Evidence IEA]; GO_component: GO:0043229 - intracellular organelle [Evidence IEA]; GO_component: GO:0000228 - nuclear chromosome [Evidence IEA]; GO_component: GO:0070013 - intracellular organelle lumen [Evidence IEA]; GO_component: GO:1902494 - catalytic complex [Evidence IEA]; GO_component: GO:0043231 - intracellular membrane-bounded organelle [Evidence IEA]; GO_component: GO:1904949 - ATPase complex [Evidence IEA]; GO_component: GO:0005634 - nucleus [Evidence IEA]; GO_component: GO:0070603 - SWI/SNF superfamily-type complex [Evidence IEA]; GO_component: GO:0031974 - membrane-enclosed lumen [Evidence IEA]; GO_component: GO:0043232 - intracellular non-membrane-bounded organelle [Evidence IEA]; GO_component: GO:0043227 - membrane-bounded organelle [Evidence IEA]; GO_component: GO:0097346 - INO80-type complex [Evidence IEA]; GO_component: GO:0110165 - cellular anatomical entity [Evidence IEA]; GO_component: GO:0032991 - protein-containing complex [Evidence IEA]; GO_component: GO:0140513 - nuclear protein-containing complex [Evidence IEA]; GO_component: GO:0016020 - membrane [Evidence IEA]; GO_component: GO:0043226 - organelle [Evidence IEA]; GO_component: GO:0031981 - nuclear lumen [Evidence IEA]; GO_component: GO:0000785 - chromatin [Evidence IEA]; GO_component: GO:0043228 - non-membrane-bounded organelle [Evidence IEA]; GO_component: GO:0043233 - organelle lumen [Evidence IEA]; GO_component: GO:0005622 - intracellular anatomical structure [Evidence IEA]; GO_process: GO:0006338 - chromatin remodeling [Evidence IEA]"
+        ],
+        "length_aa": 443,
+        "start": 11970,
+        "end": 13559,
+        "strand": 1,
+        "contig": "contig_1419",
+        "index_rel": -3,
+        "is_target": false
+      },
+      {
+        "locus_tag": "PUJ_003668",
+        "gene": "",
+        "product": "hypothetical protein",
+        "protein_id": "ncbi_PUJ_003668-T1",
+        "ec": [],
+        "db_xref": [],
+        "note": [],
+        "length_aa": 324,
+        "start": 14621,
+        "end": 15596,
+        "strand": 1,
+        "contig": "contig_1419",
+        "index_rel": -2,
+        "is_target": false
+      },
+      {
+        "locus_tag": "PUJ_003669",
+        "gene": "",
+        "product": "hypothetical protein",
+        "protein_id": "ncbi_PUJ_003669-T1",
+        "ec": [],
+        "db_xref": [
+          "InterPro:IPR025124",
+          "PFAM:PF13259"
+        ],
+        "note": [
+          "COG:S; EggNog:ENOG503P3VG"
+        ],
+        "length_aa": 440,
+        "start": 21462,
+        "end": 22785,
+        "strand": 1,
+        "contig": "contig_1419",
+        "index_rel": -1,
+        "is_target": false
+      },
+      {
+        "locus_tag": "PUJ_003670",
+        "gene": "",
+        "product": "hypothetical protein",
+        "protein_id": "ncbi_PUJ_003670-T1",
+        "ec": [],
+        "db_xref": [
+          "InterPro:IPR000873",
+          "InterPro:IPR001242",
+          "InterPro:IPR006162",
+          "InterPro:IPR009081",
+          "InterPro:IPR020806",
+          "InterPro:IPR023213",
+          "InterPro:IPR036736",
+          "InterPro:IPR045851",
+          "PFAM:PF00550",
+          "PFAM:PF00668"
+        ],
+        "note": [
+          "EggNog:ENOG503NX8T; COG:Q; GO_component: GO:0005622 - intracellular anatomical structure [Evidence IEA]; GO_component: GO:0110165 - cellular anatomical entity [Evidence IEA]; GO_component: GO:0005737 - cytoplasm [Evidence IEA]; GO_function: GO:0031177 - phosphopantetheine binding [Evidence IEA]; GO_function: GO:0003824 - catalytic activity [Evidence IEA]; GO_function: GO:0036094 - small molecule binding [Evidence IEA]; GO_function: GO:0033218 - amide binding [Evidence IEA]; GO_function: GO:0005488 - binding [Evidence IEA]; GO_process: GO:0006518 - peptide metabolic process [Evidence IEA]; GO_process: GO:0043436 - oxoacid metabolic process [Evidence IEA]; GO_process: GO:0043043 - peptide biosynthetic process [Evidence IEA]; GO_process: GO:1901576 - organic substance biosynthetic process [Evidence IEA]; GO_process: GO:1901566 - organonitrogen compound biosynthetic process [Evidence IEA]; GO_process: GO:1901564 - organonitrogen compound metabolic process [Evidence IEA]; GO_process: GO:0044281 - small molecule metabolic process [Evidence IEA]; GO_process: GO:0009058 - biosynthetic process [Evidence IEA]; GO_process: GO:0006520 - amino acid metabolic process [Evidence IEA]; GO_process: GO:0008152 - metabolic process [Evidence IEA]; GO_process: GO:0019748 - secondary metabolic process [Evidence IEA]; GO_process: GO:0044238 - primary metabolic process [Evidence IEA]; GO_process: GO:0019752 - carboxylic acid metabolic process [Evidence IEA]; GO_process: GO:0034641 - cellular nitrogen compound metabolic process [Evidence IEA]; GO_process: GO:0044550 - secondary metabolite biosynthetic process [Evidence IEA]; GO_process: GO:0071704 - organic substance metabolic process [Evidence IEA]; GO_process: GO:0044249 - cellular biosynthetic process [Evidence IEA]; GO_process: GO:0044237 - cellular metabolic process [Evidence IEA]; GO_process: GO:0006807 - nitrogen compound metabolic process [Evidence IEA]; GO_process: GO:0043604 - amide biosynthetic process [Evidence IEA]; GO_process: GO:0006082 - organic acid metabolic process [Evidence IEA]; GO_process: GO:0043603 - amide metabolic process [Evidence IEA]; GO_process: GO:0009987 - cellular process [Evidence IEA]; GO_process: GO:0044271 - cellular nitrogen compound biosynthetic process [Evidence IEA]"
+        ],
+        "length_aa": 1415,
+        "start": 23394,
+        "end": 27642,
+        "strand": -1,
+        "contig": "contig_1419",
+        "index_rel": 0,
+        "is_target": true
+      }
+    ]
+  },
+  "PUJ_003355": {
+    "target_locus": "PUJ_003355",
+    "target_gene": "",
+    "contig": "contig_1342",
+    "target_idx": 2,
+    "total_genes_on_contig": 9,
+    "window": 10,
+    "flanking": [
+      {
+        "locus_tag": "PUJ_003353",
+        "gene": "",
+        "product": "hypothetical protein",
+        "protein_id": "ncbi_PUJ_003353-T1",
+        "ec": [],
+        "db_xref": [],
+        "note": [
+          "EggNog:ENOG503PZIF"
+        ],
+        "length_aa": 260,
+        "start": 2302,
+        "end": 3082,
+        "strand": -1,
+        "contig": "contig_1342",
+        "index_rel": -2,
+        "is_target": false
+      },
+      {
+        "locus_tag": "PUJ_003354",
+        "gene": "",
+        "product": "hypothetical protein",
+        "protein_id": "ncbi_PUJ_003354-T1",
+        "ec": [],
+        "db_xref": [
+          "InterPro:IPR013968",
+          "InterPro:IPR036291"
+        ],
+        "note": [
+          "COG:I; EggNog:ENOG503NWH8; GO_function: GO:0016747 - acyltransferase activity, transferring groups other than amino-acyl groups [Evidence IEA]; GO_function: GO:0003824 - catalytic activity [Evidence IEA]; GO_function: GO:0016746 - acyltransferase activity [Evidence IEA]; GO_function: GO:0016740 - transferase activity [Evidence IEA]; GO_process: GO:0043436 - oxoacid metabolic process [Evidence IEA]; GO_process: GO:0006633 - fatty acid biosynthetic process [Evidence IEA]; GO_process: GO:1901576 - organic substance biosynthetic process [Evidence IEA]; GO_process: GO:0044281 - small molecule metabolic process [Evidence IEA]; GO_process: GO:0044283 - small molecule biosynthetic process [Evidence IEA]; GO_process: GO:0009058 - biosynthetic process [Evidence IEA]; GO_process: GO:0072330 - monocarboxylic acid biosynthetic process [Evidence IEA]; GO_process: GO:0008610 - lipid biosynthetic process [Evidence IEA]; GO_process: GO:0008152 - metabolic process [Evidence IEA]; GO_process: GO:0019748 - secondary metabolic process [Evidence IEA]; GO_process: GO:0044238 - primary metabolic process [Evidence IEA]; GO_process: GO:0019752 - carboxylic acid metabolic process [Evidence IEA]; GO_process: GO:0044550 - secondary metabolite biosynthetic process [Evidence IEA]; GO_process: GO:0071704 - organic substance metabolic process [Evidence IEA]; GO_process: GO:0006631 - fatty acid metabolic process [Evidence IEA]; GO_process: GO:0016053 - organic acid biosynthetic process [Evidence IEA]; GO_process: GO:0044249 - cellular biosynthetic process [Evidence IEA]; GO_process: GO:0044237 - cellular metabolic process [Evidence IEA]; GO_process: GO:0044255 - cellular lipid metabolic process [Evidence IEA]; GO_process: GO:0006082 - organic acid metabolic process [Evidence IEA]; GO_process: GO:0006629 - lipid metabolic process [Evidence IEA]; GO_process: GO:0009987 - cellular process [Evidence IEA]; GO_process: GO:0032787 - monocarboxylic acid metabolic process [Evidence IEA]; GO_process: GO:0046394 - carboxylic acid biosynthetic process [Evidence IEA]"
+        ],
+        "length_aa": 121,
+        "start": 4422,
+        "end": 4788,
+        "strand": -1,
+        "contig": "contig_1342",
+        "index_rel": -1,
+        "is_target": false
+      },
+      {
+        "locus_tag": "PUJ_003355",
+        "gene": "",
+        "product": "hypothetical protein",
+        "protein_id": "ncbi_PUJ_003355-T1",
+        "ec": [],
+        "db_xref": [
+          "InterPro:IPR001227",
+          "InterPro:IPR011032",
+          "InterPro:IPR013154",
+          "InterPro:IPR013217",
+          "InterPro:IPR013968",
+          "InterPro:IPR014030",
+          "InterPro:IPR014031",
+          "InterPro:IPR014043",
+          "InterPro:IPR016035",
+          "InterPro:IPR016036",
+          "InterPro:IPR016039",
+          "InterPro:IPR020807",
+          "InterPro:IPR020841",
+          "InterPro:IPR020843",
+          "InterPro:IPR029063",
+          "InterPro:IPR032821",
+          "InterPro:IPR036291",
+          "InterPro:IPR042104",
+          "PFAM:PF00107",
+          "PFAM:PF00109",
+          "PFAM:PF00698",
+          "PFAM:PF02801",
+          "PFAM:PF08240",
+          "PFAM:PF08241",
+          "PFAM:PF08242",
+          "PFAM:PF13489",
+          "PFAM:PF13602",
+          "PFAM:PF13649",
+          "PFAM:PF13847",
+          "PFAM:PF14765",
+          "PFAM:PF16197",
+          "PFAM:PF21089"
+        ],
+        "note": [
+          "COG:I; EggNog:ENOG503NWH8; GO_function: GO:0003824 - catalytic activity [Evidence IEA]; GO_function: GO:0016746 - acyltransferase activity [Evidence IEA]; GO_function: GO:0016740 - transferase activity [Evidence IEA]; GO_function: GO:0016747 - acyltransferase activity, transferring groups other than amino-acyl groups [Evidence IEA]; GO_function: GO:0016491 - oxidoreductase activity [Evidence IEA]; GO_process: GO:0043436 - oxoacid metabolic process [Evidence IEA]; GO_process: GO:0006633 - fatty acid biosynthetic process [Evidence IEA]; GO_process: GO:1901576 - organic substance biosynthetic process [Evidence IEA]; GO_process: GO:0044281 - small molecule metabolic process [Evidence IEA]; GO_process: GO:0044283 - small molecule biosynthetic process [Evidence IEA]; GO_process: GO:0009058 - biosynthetic process [Evidence IEA]; GO_process: GO:0072330 - monocarboxylic acid biosynthetic process [Evidence IEA]; GO_process: GO:0008610 - lipid biosynthetic process [Evidence IEA]; GO_process: GO:0008152 - metabolic process [Evidence IEA]; GO_process: GO:0019748 - secondary metabolic process [Evidence IEA]; GO_process: GO:0044238 - primary metabolic process [Evidence IEA]; GO_process: GO:0019752 - carboxylic acid metabolic process [Evidence IEA]; GO_process: GO:0044550 - secondary metabolite biosynthetic process [Evidence IEA]; GO_process: GO:0071704 - organic substance metabolic process [Evidence IEA]; GO_process: GO:0006631 - fatty acid metabolic process [Evidence IEA]; GO_process: GO:0016053 - organic acid biosynthetic process [Evidence IEA]; GO_process: GO:0044249 - cellular biosynthetic process [Evidence IEA]; GO_process: GO:0044237 - cellular metabolic process [Evidence IEA]; GO_process: GO:0044255 - cellular lipid metabolic process [Evidence IEA]; GO_process: GO:0006082 - organic acid metabolic process [Evidence IEA]; GO_process: GO:0006629 - lipid metabolic process [Evidence IEA]; GO_process: GO:0009987 - cellular process [Evidence IEA]; GO_process: GO:0032787 - monocarboxylic acid metabolic process [Evidence IEA]; GO_process: GO:0046394 - carboxylic acid biosynthetic process [Evidence IEA]"
+        ],
+        "length_aa": 2143,
+        "start": 4825,
+        "end": 11877,
+        "strand": -1,
+        "contig": "contig_1342",
+        "index_rel": 0,
+        "is_target": true
+      },
+      {
+        "locus_tag": "PUJ_003356",
+        "gene": "",
+        "product": "hypothetical protein",
+        "protein_id": "ncbi_PUJ_003356-T1",
+        "ec": [],
+        "db_xref": [
+          "InterPro:IPR001128",
+          "InterPro:IPR002401",
+          "InterPro:IPR017972",
+          "InterPro:IPR036396"
+        ],
+        "note": [
+          "COG:Q; EggNog:ENOG503PBCM; GO_function: GO:0016705 - oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen [Evidence IEA]; GO_function: GO:0005506 - iron ion binding [Evidence IEA]; GO_function: GO:0020037 - heme binding [Evidence IEA]; GO_function: GO:0004497 - monooxygenase activity [Evidence IEA]"
+        ],
+        "length_aa": 314,
+        "start": 13583,
+        "end": 14634,
+        "strand": 1,
+        "contig": "contig_1342",
+        "index_rel": 1,
+        "is_target": false
+      },
+      {
+        "locus_tag": "PUJ_003357",
+        "gene": "",
+        "product": "hypothetical protein",
+        "protein_id": "ncbi_PUJ_003357-T1",
+        "ec": [
+          "2.6.1.42"
+        ],
+        "db_xref": [
+          "InterPro:IPR001544",
+          "InterPro:IPR005786",
+          "InterPro:IPR036038",
+          "InterPro:IPR043131",
+          "InterPro:IPR043132",
+          "PFAM:PF01063"
+        ],
+        "note": [
+          "EggNog:ENOG503P0A5; COG:E; GO_function: GO:0008483 - transaminase activity [Evidence IEA]; GO_function: GO:0003824 - catalytic activity [Evidence IEA]; GO_function: GO:0004084 - branched-chain-amino-acid transaminase activity [Evidence IEA]; GO_function: GO:0016740 - transferase activity [Evidence IEA]; GO_process: GO:0009081 - branched-chain amino acid metabolic process [Evidence IEA]"
+        ],
+        "length_aa": 264,
+        "start": 15419,
+        "end": 16291,
+        "strand": -1,
+        "contig": "contig_1342",
+        "index_rel": 2,
+        "is_target": false
+      },
+      {
+        "locus_tag": "PUJ_003358",
+        "gene": "",
+        "product": "hypothetical protein",
+        "protein_id": "ncbi_PUJ_003358-T1",
+        "ec": [],
+        "db_xref": [
+          "InterPro:IPR001128",
+          "InterPro:IPR002401",
+          "InterPro:IPR017972",
+          "InterPro:IPR036396",
+          "PFAM:PF00067"
+        ],
+        "note": [
+          "COG:Q; EggNog:ENOG503Q5JC; GO_function: GO:0016705 - oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen [Evidence IEA]; GO_function: GO:0005506 - iron ion binding [Evidence IEA]; GO_function: GO:0020037 - heme binding [Evidence IEA]; GO_function: GO:0004497 - monooxygenase activity [Evidence IEA]"
+        ],
+        "length_aa": 508,
+        "start": 17537,
+        "end": 19583,
+        "strand": -1,
+        "contig": "contig_1342",
+        "index_rel": 3,
+        "is_target": false
+      },
+      {
+        "locus_tag": "PUJ_003359",
+        "gene": "",
+        "product": "hypothetical protein",
+        "protein_id": "ncbi_PUJ_003359-T1",
+        "ec": [],
+        "db_xref": [
+          "InterPro:IPR029058"
+        ],
+        "note": [
+          "EggNog:ENOG503P2FN; COG:S"
+        ],
+        "length_aa": 141,
+        "start": 20811,
+        "end": 21237,
+        "strand": 1,
+        "contig": "contig_1342",
+        "index_rel": 4,
+        "is_target": false
+      },
+      {
+        "locus_tag": "PUJ_003360",
+        "gene": "",
+        "product": "hypothetical protein",
+        "protein_id": "ncbi_PUJ_003360-T1",
+        "ec": [],
+        "db_xref": [
+          "InterPro:IPR011701",
+          "InterPro:IPR020846",
+          "InterPro:IPR036259",
+          "PFAM:PF06609",
+          "PFAM:PF07690"
+        ],
+        "note": [
+          "EggNog:ENOG503NW5M; COG:U; GO_component: GO:0016021 - membrane [Evidence IEA]; GO_component: GO:0031226 - obsolete intrinsic component of plasma membrane [Evidence IEA]; GO_component: GO:0016020 - membrane [Evidence IEA]; GO_component: GO:0071944 - cell periphery [Evidence IEA]; GO_component: GO:0005886 - plasma membrane [Evidence IEA]; GO_component: GO:0110165 - cellular anatomical entity [Evidence IEA]; GO_component: GO:0005887 - plasma membrane [Evidence IEA]; GO_component: GO:0031224 - obsolete intrinsic component of membrane [Evidence IEA]; GO_function: GO:0005215 - transporter activity [Evidence IEA]; GO_function: GO:0022857 - transmembrane transporter activity [Evidence IEA]; GO_process: GO:0055085 - transmembrane transport [Evidence IEA]; GO_process: GO:0051179 - localization [Evidence IEA]; GO_process: GO:0009987 - cellular process [Evidence IEA]; GO_process: GO:0051234 - establishment of localization [Evidence IEA]; GO_process: GO:0006810 - transport [Evidence IEA]"
+        ],
+        "length_aa": 530,
+        "start": 21828,
+        "end": 23630,
+        "strand": -1,
+        "contig": "contig_1342",
+        "index_rel": 5,
+        "is_target": false
+      },
+      {
+        "locus_tag": "PUJ_003361",
+        "gene": "",
+        "product": "hypothetical protein",
+        "protein_id": "ncbi_PUJ_003361-T1",
+        "ec": [],
+        "db_xref": [
+          "InterPro:IPR000873",
+          "InterPro:IPR001242",
+          "InterPro:IPR006162",
+          "InterPro:IPR009081",
+          "InterPro:IPR020845",
+          "InterPro:IPR023213",
+          "InterPro:IPR036736",
+          "InterPro:IPR042099",
+          "InterPro:IPR045851",
+          "PFAM:PF00501",
+          "PFAM:PF00550",
+          "PFAM:PF00668"
+        ],
+        "note": [
+          "EggNog:ENOG503NXPX; COG:Q; GO_component: GO:0005622 - intracellular anatomical structure [Evidence IEA]; GO_component: GO:0110165 - cellular anatomical entity [Evidence IEA]; GO_component: GO:0005737 - cytoplasm [Evidence IEA]; GO_function: GO:0033218 - amide binding [Evidence IEA]; GO_function: GO:0003824 - catalytic activity [Evidence IEA]; GO_function: GO:0005488 - binding [Evidence IEA]; GO_function: GO:0036094 - small molecule binding [Evidence IEA]; GO_process: GO:0006518 - peptide metabolic process [Evidence IEA]; GO_process: GO:0043436 - oxoacid metabolic process [Evidence IEA]; GO_process: GO:0043043 - peptide biosynthetic process [Evidence IEA]; GO_process: GO:1901576 - organic substance biosynthetic process [Evidence IEA]; GO_process: GO:1901566 - organonitrogen compound biosynthetic process [Evidence IEA]; GO_process: GO:1901564 - organonitrogen compound metabolic process [Evidence IEA]; GO_process: GO:0044281 - small molecule metabolic process [Evidence IEA]; GO_process: GO:0009058 - biosynthetic process [Evidence IEA]; GO_process: GO:0006520 - amino acid metabolic process [Evidence IEA]; GO_process: GO:0008152 - metabolic process [Evidence IEA]; GO_process: GO:0019748 - secondary metabolic process [Evidence IEA]; GO_process: GO:0044238 - primary metabolic process [Evidence IEA]; GO_process: GO:0019752 - carboxylic acid metabolic process [Evidence IEA]; GO_process: GO:0034641 - cellular nitrogen compound metabolic process [Evidence IEA]; GO_process: GO:0044550 - secondary metabolite biosynthetic process [Evidence IEA]; GO_process: GO:0071704 - organic substance metabolic process [Evidence IEA]; GO_process: GO:0044249 - cellular biosynthetic process [Evidence IEA]; GO_process: GO:0044237 - cellular metabolic process [Evidence IEA]; GO_process: GO:0006807 - nitrogen compound metabolic process [Evidence IEA]; GO_process: GO:0043604 - amide biosynthetic process [Evidence IEA]; GO_process: GO:0006082 - organic acid metabolic process [Evidence IEA]; GO_process: GO:0043603 - amide metabolic process [Evidence IEA]; GO_process: GO:0009987 - cellular process [Evidence IEA]; GO_process: GO:0044271 - cellular nitrogen compound biosynthetic process [Evidence IEA]"
+        ],
+        "length_aa": 1963,
+        "start": 24428,
+        "end": 30811,
+        "strand": 1,
+        "contig": "contig_1342",
+        "index_rel": 6,
+        "is_target": false
+      }
+    ]
+  },
+  "PUJ_004657": {
+    "target_locus": "PUJ_004657",
+    "target_gene": "",
+    "contig": "contig_1710",
+    "target_idx": 7,
+    "total_genes_on_contig": 11,
+    "window": 10,
+    "flanking": [
+      {
+        "locus_tag": "PUJ_004649",
+        "gene": "",
+        "product": "hypothetical protein",
+        "protein_id": "ncbi_PUJ_004649-T1",
+        "ec": [],
+        "db_xref": [
+          "InterPro:IPR001117",
+          "InterPro:IPR002355",
+          "InterPro:IPR008972",
+          "InterPro:IPR011706",
+          "InterPro:IPR011707",
+          "InterPro:IPR033138",
+          "InterPro:IPR045087",
+          "PFAM:PF00394",
+          "PFAM:PF07731",
+          "PFAM:PF07732"
+        ],
+        "note": [
+          "COG:Q; EggNog:ENOG503NVTT; CAZy:AA1; GO_function: GO:0003824 - catalytic activity [Evidence IEA]; GO_function: GO:0005507 - copper ion binding [Evidence IEA]; GO_function: GO:0016491 - oxidoreductase activity [Evidence IEA]"
+        ],
+        "length_aa": 746,
+        "start": 679,
+        "end": 2920,
+        "strand": -1,
+        "contig": "contig_1710",
+        "index_rel": -7,
+        "is_target": false
+      },
+      {
+        "locus_tag": "PUJ_004650",
+        "gene": "",
+        "product": "hypothetical protein",
+        "protein_id": "ncbi_PUJ_004650-T1",
+        "ec": [
+          "3.1.3.2"
+        ],
+        "db_xref": [
+          "InterPro:IPR007312",
+          "InterPro:IPR017850",
+          "PFAM:PF04185"
+        ],
+        "note": [
+          "COG:S; EggNog:ENOG503NVJR; GO_function: GO:0016788 - hydrolase activity, acting on ester bonds [Evidence IEA]; GO_process: GO:0006793 - phosphorus metabolic process [Evidence IEA]; GO_process: GO:0046434 - organophosphate catabolic process [Evidence IEA]; GO_process: GO:0044238 - primary metabolic process [Evidence IEA]; GO_process: GO:0071704 - organic substance metabolic process [Evidence IEA]; GO_process: GO:0009056 - catabolic process [Evidence IEA]; GO_process: GO:0016042 - lipid catabolic process [Evidence IEA]; GO_process: GO:1901575 - organic substance catabolic process [Evidence IEA]; GO_process: GO:0019637 - organophosphate metabolic process [Evidence IEA]; GO_process: GO:0006629 - lipid metabolic process [Evidence IEA]; GO_process: GO:0006796 - phosphate-containing compound metabolic process [Evidence IEA]; GO_process: GO:0009395 - phospholipid catabolic process [Evidence IEA]; GO_process: GO:0006644 - phospholipid metabolic process [Evidence IEA]; GO_process: GO:0009987 - cellular process [Evidence IEA]; GO_process: GO:0044248 - cellular catabolic process [Evidence IEA]; GO_process: GO:0044237 - cellular metabolic process [Evidence IEA]; GO_process: GO:0044255 - cellular lipid metabolic process [Evidence IEA]; GO_process: GO:0044242 - cellular lipid catabolic process [Evidence IEA]; GO_process: GO:0008152 - metabolic process [Evidence IEA]"
+        ],
+        "length_aa": 447,
+        "start": 4206,
+        "end": 5561,
+        "strand": 1,
+        "contig": "contig_1710",
+        "index_rel": -6,
+        "is_target": false
+      },
+      {
+        "locus_tag": "PUJ_004652",
+        "gene": "",
+        "product": "hypothetical protein",
+        "protein_id": "ncbi_PUJ_004652-T1",
+        "ec": [],
+        "db_xref": [
+          "InterPro:IPR013320",
+          "InterPro:IPR014895",
+          "PFAM:PF08787"
+        ],
+        "note": [
+          "EggNog:ENOG503PAXK; COG:G; CAZy:PL7"
+        ],
+        "length_aa": 242,
+        "start": 12250,
+        "end": 13039,
+        "strand": -1,
+        "contig": "contig_1710",
+        "index_rel": -5,
+        "is_target": false
+      },
+      {
+        "locus_tag": "PUJ_004653",
+        "gene": "",
+        "product": "hypothetical protein",
+        "protein_id": "ncbi_PUJ_004653-T1",
+        "ec": [],
+        "db_xref": [
+          "InterPro:IPR013022",
+          "InterPro:IPR036237",
+          "PFAM:PF01261"
+        ],
+        "note": [
+          "COG:S; EggNog:ENOG503NU34"
+        ],
+        "length_aa": 211,
+        "start": 16826,
+        "end": 17518,
+        "strand": -1,
+        "contig": "contig_1710",
+        "index_rel": -4,
+        "is_target": false
+      },
+      {
+        "locus_tag": "PUJ_004654",
+        "gene": "",
+        "product": "hypothetical protein",
+        "protein_id": "ncbi_PUJ_004654-T1",
+        "ec": [],
+        "db_xref": [
+          "InterPro:IPR006113",
+          "InterPro:IPR006114",
+          "InterPro:IPR006115",
+          "InterPro:IPR006183",
+          "InterPro:IPR008927",
+          "InterPro:IPR013328",
+          "InterPro:IPR036291",
+          "PFAM:PF00393",
+          "PFAM:PF03446"
+        ],
+        "note": [
+          "BUSCO:EOG09261W3X; COG:G; EggNog:ENOG503NVGP; GO_component: GO:0005829 - cytosol [Evidence IEA]; GO_component: GO:0005622 - intracellular anatomical structure [Evidence IEA]; GO_component: GO:0110165 - cellular anatomical entity [Evidence IEA]; GO_component: GO:0005737 - cytoplasm [Evidence IEA]; GO_function: GO:0003824 - catalytic activity [Evidence IEA]; GO_function: GO:0004616 - phosphogluconate dehydrogenase (decarboxylating) activity [Evidence IEA]; GO_function: GO:0097159 - organic cyclic compound binding [Evidence IEA]; GO_function: GO:0036094 - small molecule binding [Evidence IEA]; GO_function: GO:1901363 - heterocyclic compound binding [Evidence IEA]; GO_function: GO:0016491 - oxidoreductase activity [Evidence IEA]; GO_function: GO:0050661 - NADP binding [Evidence IEA]; GO_function: GO:1901265 - nucleoside phosphate binding [Evidence IEA]; GO_function: GO:0000166 - nucleotide binding [Evidence IEA]; GO_function: GO:0016616 - oxidoreductase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor [Evidence IEA]; GO_function: GO:0005488 - binding [Evidence IEA]; GO_process: GO:0043436 - oxoacid metabolic process [Evidence IEA]; GO_process: GO:0044281 - small molecule metabolic process [Evidence IEA]; GO_process: GO:0006091 - generation of precursor metabolites and energy [Evidence IEA]; GO_process: GO:0008152 - metabolic process [Evidence IEA]; GO_process: GO:0046395 - carboxylic acid catabolic process [Evidence IEA]; GO_process: GO:0044282 - small molecule catabolic process [Evidence IEA]; GO_process: GO:0044238 - primary metabolic process [Evidence IEA]; GO_process: GO:0019752 - carboxylic acid metabolic process [Evidence IEA]; GO_process: GO:0006098 - pentose-phosphate shunt [Evidence IEA]; GO_process: GO:0016054 - organic acid catabolic process [Evidence IEA]; GO_process: GO:0005975 - carbohydrate metabolic process [Evidence IEA]; GO_process: GO:0006739 - NADP metabolic process [Evidence IEA]; GO_process: GO:0072329 - monocarboxylic acid catabolic process [Evidence IEA]; GO_process: GO:0071704 - organic substance metabolic process [Evidence IEA]; GO_process: GO:0009056 - catabolic process [Evidence IEA]; GO_process: GO:0051156 - glucose 6-phosphate metabolic process [Evidence IEA]; GO_process: GO:0044262 - obsolete cellular carbohydrate metabolic process [Evidence IEA]; GO_process: GO:0016052 - carbohydrate catabolic process [Evidence IEA]; GO_process: GO:1901575 - organic substance catabolic process [Evidence IEA]; GO_process: GO:0044237 - cellular metabolic process [Evidence IEA]; GO_process: GO:0044275 - obsolete cellular carbohydrate catabolic process [Evidence IEA]; GO_process: GO:0006082 - organic acid metabolic process [Evidence IEA]; GO_process: GO:0006793 - phosphorus metabolic process [Evidence IEA]; GO_process: GO:0019637 - organophosphate metabolic process [Evidence IEA]; GO_process: GO:1901135 - carbohydrate derivative metabolic process [Evidence IEA]; GO_process: GO:0006796 - phosphate-containing compound metabolic process [Evidence IEA]; GO_process: GO:0009987 - cellular process [Evidence IEA]; GO_process: GO:0032787 - monocarboxylic acid metabolic process [Evidence IEA]; GO_process: GO:0044248 - cellular catabolic process [Evidence IEA]"
+        ],
+        "length_aa": 506,
+        "start": 18270,
+        "end": 19791,
+        "strand": 1,
+        "contig": "contig_1710",
+        "index_rel": -3,
+        "is_target": false
+      },
+      {
+        "locus_tag": "PUJ_004655",
+        "gene": "",
+        "product": "hypothetical protein",
+        "protein_id": "ncbi_PUJ_004655-T1",
+        "ec": [],
+        "db_xref": [],
+        "note": [
+          "EggNog:ENOG503PFZF"
+        ],
+        "length_aa": 86,
+        "start": 25103,
+        "end": 25478,
+        "strand": -1,
+        "contig": "contig_1710",
+        "index_rel": -2,
+        "is_target": false
+      },
+      {
+        "locus_tag": "PUJ_004656",
+        "gene": "",
+        "product": "hypothetical protein",
+        "protein_id": "ncbi_PUJ_004656-T1",
+        "ec": [
+          "1.1.1.29"
+        ],
+        "db_xref": [
+          "InterPro:IPR006139",
+          "InterPro:IPR006140",
+          "InterPro:IPR029753",
+          "InterPro:IPR036291",
+          "PFAM:PF00389",
+          "PFAM:PF02826"
+        ],
+        "note": [
+          "COG:E; EggNog:ENOG503PB3E; GO_function: GO:0051287 - NAD binding [Evidence IEA]; GO_function: GO:0016616 - oxidoreductase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor [Evidence IEA]"
+        ],
+        "length_aa": 330,
+        "start": 26965,
+        "end": 28018,
+        "strand": -1,
+        "contig": "contig_1710",
+        "index_rel": -1,
+        "is_target": false
+      },
+      {
+        "locus_tag": "PUJ_004657",
+        "gene": "",
+        "product": "hypothetical protein",
+        "protein_id": "ncbi_PUJ_004657-T1",
+        "ec": [
+          "7.6.2.2"
+        ],
+        "db_xref": [
+          "InterPro:IPR000873",
+          "InterPro:IPR001242",
+          "InterPro:IPR006162",
+          "InterPro:IPR009081",
+          "InterPro:IPR010071",
+          "InterPro:IPR020806",
+          "InterPro:IPR020845",
+          "InterPro:IPR023213",
+          "InterPro:IPR029058",
+          "InterPro:IPR029063",
+          "InterPro:IPR036736",
+          "InterPro:IPR042099",
+          "InterPro:IPR045851",
+          "PFAM:PF00550",
+          "PFAM:PF00668"
+        ],
+        "note": [
+          "COG:Q; EggNog:ENOG503NWBA; GO_component: GO:0005622 - intracellular anatomical structure [Evidence IEA]; GO_component: GO:0110165 - cellular anatomical entity [Evidence IEA]; GO_component: GO:0005737 - cytoplasm [Evidence IEA]; GO_function: GO:0031177 - phosphopantetheine binding [Evidence IEA]; GO_function: GO:0003824 - catalytic activity [Evidence IEA]; GO_function: GO:0036094 - small molecule binding [Evidence IEA]; GO_function: GO:0033218 - amide binding [Evidence IEA]; GO_function: GO:0005488 - binding [Evidence IEA]; GO_process: GO:0006518 - peptide metabolic process [Evidence IEA]; GO_process: GO:0043436 - oxoacid metabolic process [Evidence IEA]; GO_process: GO:0043043 - peptide biosynthetic process [Evidence IEA]; GO_process: GO:1901576 - organic substance biosynthetic process [Evidence IEA]; GO_process: GO:1901566 - organonitrogen compound biosynthetic process [Evidence IEA]; GO_process: GO:1901564 - organonitrogen compound metabolic process [Evidence IEA]; GO_process: GO:0044281 - small molecule metabolic process [Evidence IEA]; GO_process: GO:0009058 - biosynthetic process [Evidence IEA]; GO_process: GO:0006520 - amino acid metabolic process [Evidence IEA]; GO_process: GO:0008152 - metabolic process [Evidence IEA]; GO_process: GO:0019748 - secondary metabolic process [Evidence IEA]; GO_process: GO:0044238 - primary metabolic process [Evidence IEA]; GO_process: GO:0019752 - carboxylic acid metabolic process [Evidence IEA]; GO_process: GO:0034641 - cellular nitrogen compound metabolic process [Evidence IEA]; GO_process: GO:0044550 - secondary metabolite biosynthetic process [Evidence IEA]; GO_process: GO:0071704 - organic substance metabolic process [Evidence IEA]; GO_process: GO:0044249 - cellular biosynthetic process [Evidence IEA]; GO_process: GO:0044237 - cellular metabolic process [Evidence IEA]; GO_process: GO:0006807 - nitrogen compound metabolic process [Evidence IEA]; GO_process: GO:0043604 - amide biosynthetic process [Evidence IEA]; GO_process: GO:0006082 - organic acid metabolic process [Evidence IEA]; GO_process: GO:0043603 - amide metabolic process [Evidence IEA]; GO_process: GO:0009987 - cellular process [Evidence IEA]; GO_process: GO:0044271 - cellular nitrogen compound biosynthetic process [Evidence IEA]"
+        ],
+        "length_aa": 2204,
+        "start": 30664,
+        "end": 37860,
+        "strand": 1,
+        "contig": "contig_1710",
+        "index_rel": 0,
+        "is_target": true
+      },
+      {
+        "locus_tag": "PUJ_004658",
+        "gene": "",
+        "product": "hypothetical protein",
+        "protein_id": "ncbi_PUJ_004658-T1",
+        "ec": [],
+        "db_xref": [
+          "InterPro:IPR006140",
+          "InterPro:IPR036291"
+        ],
+        "note": [
+          "EggNog:ENOG503P0JE; COG:C; GO_function: GO:0051287 - NAD binding [Evidence IEA]"
+        ],
+        "length_aa": 115,
+        "start": 42929,
+        "end": 43842,
+        "strand": 1,
+        "contig": "contig_1710",
+        "index_rel": 1,
+        "is_target": false
+      },
+      {
+        "locus_tag": "PUJ_004659",
+        "gene": "",
+        "product": "hypothetical protein",
+        "protein_id": "ncbi_PUJ_004659-T1",
+        "ec": [],
+        "db_xref": [],
+        "note": [
+          "EggNog:ENOG503NXDQ"
+        ],
+        "length_aa": 145,
+        "start": 45320,
+        "end": 45758,
+        "strand": 1,
+        "contig": "contig_1710",
+        "index_rel": 2,
+        "is_target": false
+      },
+      {
+        "locus_tag": "PUJ_004660",
+        "gene": "",
+        "product": "hypothetical protein",
+        "protein_id": "ncbi_PUJ_004660-T1",
+        "ec": [],
+        "db_xref": [
+          "InterPro:IPR003462",
+          "InterPro:IPR023401",
+          "InterPro:IPR036291",
+          "PFAM:PF02423"
+        ],
+        "note": [
+          "EggNog:ENOG503PXA9; COG:E"
+        ],
+        "length_aa": 338,
+        "start": 45945,
+        "end": 46962,
+        "strand": -1,
+        "contig": "contig_1710",
+        "index_rel": 3,
+        "is_target": false
+      }
+    ]
+  }
+}

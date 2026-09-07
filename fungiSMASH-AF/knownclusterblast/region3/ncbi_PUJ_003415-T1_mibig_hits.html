@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8" />
+<link rel="stylesheet" type="text/css" href="../../css/style.css">
+
+<script type="text/javascript" src="../../js/jquery.js"></script>
+<script type="text/javascript" src="../../js/jquery.tablesorter.min.js"></script>
+
+<script type="text/javascript" >
+var counter = 1;
+function addInput(divName){
+     var newdiv = document.createElement('div');
+     newdiv.innerHTML = "<b>Locus " + (counter + 1) + "</b><br> GenBank accession: <input type='text' required name='myInputs[]'> Start nt: <input type='number' name='myStartCoords[]' placeholder='N/A'> End nt: <input type='number' name='myEndCoords[]' placeholder='N/A'> <br><br>";
+     document.getElementById(divName).appendChild(newdiv);
+     counter++;
+}
+</script>
+
+<script>
+$(document).ready(function()
+    {
+        $("#myTable").tablesorter();
+    }
+);
+
+</script>
+<style>
+table {
+    border-width: thin;
+    border-spacing: 2px;
+    border-style: none;
+    border-color: black;
+}
+</style>
+</head>
+<body>
+    <table id="myTable" class="tablesorter" border=1>
+    <thead>
+    <tr>
+        <th>MIBiG Protein</th>
+        <th>Description</th>
+        <th>MIBiG Cluster</th>
+        <th>MiBiG Product</th>
+        <th>% ID</th>
+        <th>% Coverage</th>
+        <th>BLAST Score</th>
+        <th>E-value</th>
+    </tr>
+    </thead>
+    <tbody>
+    
+          <tr>
+              <td>BBU42027.1</td>
+              <td>putative_hydrolase</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0002222.2">BGC0002222.2</a></td>
+              <td>PKS</td>
+              <td>55.0</td>
+              <td>99.1</td>
+              <td>261.0</td>
+              <td>1.5e-88</td>
+          </tr>
+    
+          <tr>
+              <td>ANF07287.1</td>
+              <td>hydrolase_341</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0001340.3">BGC0001340.3</a></td>
+              <td>PKS:Type I</td>
+              <td>53.0</td>
+              <td>96.9</td>
+              <td>243.0</td>
+              <td>1.45e-81</td>
+          </tr>
+    
+          <tr>
+              <td>BBG28510.1</td>
+              <td>putative_DUF341_family_protein</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0001913.3">BGC0001913.3</a></td>
+              <td>PKS</td>
+              <td>37.0</td>
+              <td>98.7</td>
+              <td>152.0</td>
+              <td>6.91e-46</td>
+          </tr>
+    
+          <tr>
+              <td>CBF82302.1</td>
+              <td>conserved_hypothetical_protein</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0002180.2">BGC0002180.2</a></td>
+              <td>PKS</td>
+              <td>34.0</td>
+              <td>61.2</td>
+              <td>81.0</td>
+              <td>8.84e-18</td>
+          </tr>
+    
+          <tr>
+              <td>EWG54261.1</td>
+              <td>hypothetical_protein</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0001190.3">BGC0001190.3</a></td>
+              <td>PKS</td>
+              <td>33.0</td>
+              <td>64.7</td>
+              <td>77.0</td>
+              <td>1.31e-16</td>
+          </tr>
+    
+    </tbody>
+  </table>
+</body>

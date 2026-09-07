@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8" />
+<link rel="stylesheet" type="text/css" href="../../css/style.css">
+
+<script type="text/javascript" src="../../js/jquery.js"></script>
+<script type="text/javascript" src="../../js/jquery.tablesorter.min.js"></script>
+
+<script type="text/javascript" >
+var counter = 1;
+function addInput(divName){
+     var newdiv = document.createElement('div');
+     newdiv.innerHTML = "<b>Locus " + (counter + 1) + "</b><br> GenBank accession: <input type='text' required name='myInputs[]'> Start nt: <input type='number' name='myStartCoords[]' placeholder='N/A'> End nt: <input type='number' name='myEndCoords[]' placeholder='N/A'> <br><br>";
+     document.getElementById(divName).appendChild(newdiv);
+     counter++;
+}
+</script>
+
+<script>
+$(document).ready(function()
+    {
+        $("#myTable").tablesorter();
+    }
+);
+
+</script>
+<style>
+table {
+    border-width: thin;
+    border-spacing: 2px;
+    border-style: none;
+    border-color: black;
+}
+</style>
+</head>
+<body>
+    <table id="myTable" class="tablesorter" border=1>
+    <thead>
+    <tr>
+        <th>MIBiG Protein</th>
+        <th>Description</th>
+        <th>MIBiG Cluster</th>
+        <th>MiBiG Product</th>
+        <th>% ID</th>
+        <th>% Coverage</th>
+        <th>BLAST Score</th>
+        <th>E-value</th>
+    </tr>
+    </thead>
+    <tbody>
+    
+          <tr>
+              <td>AGO86664.1</td>
+              <td>putative_SDR_family_protein</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0001255.4">BGC0001255.4</a></td>
+              <td>NRPS:Type I+PKS</td>
+              <td>39.0</td>
+              <td>87.8</td>
+              <td>196.0</td>
+              <td>1.35e-57</td>
+          </tr>
+    
+          <tr>
+              <td>AQV04221.1</td>
+              <td>SwnN</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0001793.4">BGC0001793.4</a></td>
+              <td>NRPS:Type I+PKS</td>
+              <td>33.0</td>
+              <td>105.1</td>
+              <td>166.0</td>
+              <td>5.01e-49</td>
+          </tr>
+    
+          <tr>
+              <td>AQV04227.1</td>
+              <td>SwnN</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0001794.4">BGC0001794.4</a></td>
+              <td>NRPS:Type I+PKS</td>
+              <td>32.0</td>
+              <td>105.8</td>
+              <td>162.0</td>
+              <td>3.74e-47</td>
+          </tr>
+    
+          <tr>
+              <td>EFY95967.1</td>
+              <td>nmrA-like_family_protein</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0002270.2">BGC0002270.2</a></td>
+              <td>NRPS:Type I+PKS</td>
+              <td>31.0</td>
+              <td>109.3</td>
+              <td>160.0</td>
+              <td>2.6e-46</td>
+          </tr>
+    
+    </tbody>
+  </table>
+</body>

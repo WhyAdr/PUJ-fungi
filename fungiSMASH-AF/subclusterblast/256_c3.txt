@@ -1,0 +1,23 @@
+ClusterBlast scores for 256
+
+Table of genes, locations, strands and annotations of query cluster:
+PUJ_001558	1038491	1039072	-	hypothetical protein	
+PUJ_001559	1041254	1042880	-	U3 small nucleolar RNA-associated protein 15	
+PUJ_001561	1045002	1046319	-	hypothetical protein	
+PUJ_001562	1047745	1048933	-	hypothetical protein	
+PUJ_001563	1050928	1051987	-	hypothetical protein	
+PUJ_001564	1052670	1054413	+	hypothetical protein	
+PUJ_001565	1055008	1056092	-	hypothetical protein	
+PUJ_001566	1056435	1058096	-	hypothetical protein	
+PUJ_001567	1060477	1061611	-	hypothetical protein	
+PUJ_001568	1067185	1070747	+	hypothetical protein	
+PUJ_001569	1071552	1072673	+	hypothetical protein	
+PUJ_001570	1080216	1081634	+	hypothetical protein	
+PUJ_001571	1088887	1089639	+	hypothetical protein	
+PUJ_001572	1092568	1094767	+	hypothetical protein	
+
+
+Significant hits: 
+
+
+Details:

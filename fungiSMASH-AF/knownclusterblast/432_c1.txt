@@ -1,0 +1,29 @@
+ClusterBlast scores for 432
+
+Table of genes, locations, strands and annotations of query cluster:
+PUJ_003545	394213	394912	-	hypothetical protein	
+PUJ_003546	398460	400690	+	hypothetical protein	
+PUJ_003547	401136	402193	+	hypothetical protein	
+PUJ_003548	402906	405000	+	OPT super	
+PUJ_003549	405823	407902	-	hypothetical protein	
+PUJ_003550	409997	411360	-	mitogen-activated protein kinase	
+PUJ_003551	411885	414953	+	Suppressor of Profilin deletion	
+PUJ_003552	415750	418066	-	coiled-coil domain-containing protein mad1	
+PUJ_003553	418540	419413	+	hypothetical protein	
+PUJ_003554	420460	423814	+	hypothetical protein	
+PUJ_003555	424696	425503	-	hypothetical protein	
+PUJ_003556	426710	427195	-	hypothetical protein	
+PUJ_003557	430804	431803	+	hypothetical protein	
+PUJ_003558	432824	434534	+	hypothetical protein	
+PUJ_003559	437628	440451	+	DNA-binding transcription factor cat8	
+PUJ_003560	442633	445247	+	Transketolase	
+PUJ_003561	445788	447300	-	putrescine aminopropyltransferase	
+PUJ_003562	448594	449658	+	hypothetical protein	
+PUJ_003563	450849	451422	-	hypothetical protein	
+PUJ_003564	452335	453076	-	Cytochrome b-c1 complex subunit 8, mitochondrial	
+
+
+Significant hits: 
+
+
+Details:

@@ -1,0 +1,159 @@
+ClusterBlast scores for contig_675
+
+Table of genes, locations, strands and annotations of query cluster:
+PUJ_001792	730	2518	+	hypothetical protein	
+PUJ_001793	3112	5483	-	Lanosterol synthase (Oxidosqualene--lanosterol cyclase)	
+PUJ_001794	9883	12061	+	hypothetical protein	
+
+
+Significant hits: 
+1. NW_006711154	Trichoderma reesei QM6a unplaced genomic scaffold TRIREscaffold_7, whole genome shotgun sequence
+2. NW_014013668	Trichoderma virens Gv29-8 chromosome Unknown TRIVIscaffold_81, whole genome shotgun sequence
+3. NW_014574706	Metarhizium brunneum ARSEF 3297 chromosome Unknown scaffold_11, whole genome shotgun sequence
+4. NC_054389	Drechmeria coniospora strain ARSEF 6962 chromosome 01, whole genome shotgun sequence
+5. NC_035794	Pochonia chlamydosporia 170 chromosome 5, whole genome shotgun sequence
+6. NW_006271977	Cordyceps militaris CM01 unplaced genomic scaffold CCM_S00009, whole genome shotgun sequence
+7. NW_025408667	Hirsutella rhossiliensis strain HR02 chromosome Unknown scaffold00001, whole genome shotgun sequence
+8. NC_057320	Ustilaginoidea virens chromosome 5, complete sequence
+9. NC_043740	Pyricularia pennisetigena strain Br36 chromosome 1, whole genome shotgun sequence
+
+
+Details:
+
+>>
+1. NW_006711154
+Source: Trichoderma reesei QM6a unplaced genomic scaffold TRIREscaffold_7, whole genome shotgun sequence
+Type: T1PKS
+Number of proteins with BLAST hits to this cluster: 3
+Cumulative BLAST score: 3104.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_001792	TRIREDRAFT_3568	79	905	101.40597539543057	0.0
+PUJ_001793	TRIREDRAFT_59846	80	1258	101.3550135501355	0.0
+PUJ_001794	TRIREDRAFT_77234	92	941	68.65248226950355	0.0
+
+
+
+>>
+2. NW_014013668
+Source: Trichoderma virens Gv29-8 chromosome Unknown TRIVIscaffold_81, whole genome shotgun sequence
+Type: T1PKS
+Number of proteins with BLAST hits to this cluster: 3
+Cumulative BLAST score: 3411.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_001792	TRIVIDRAFT_47993	85	981	100.52724077328648	0.0
+PUJ_001793	TRIVIDRAFT_89890	80	1256	101.0840108401084	0.0
+PUJ_001794	TRIVIDRAFT_203114	88	1174	100.0	0.0
+
+
+
+>>
+3. NW_014574706
+Source: Metarhizium brunneum ARSEF 3297 chromosome Unknown scaffold_11, whole genome shotgun sequence
+Type: terpene
+Number of proteins with BLAST hits to this cluster: 3
+Cumulative BLAST score: 2887.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_001792	MBR_07245	68	770	97.01230228471002	9.02e-277
+PUJ_001793	MBR_07238	76	1176	101.0840108401084	0.0
+PUJ_001794	MBR_07241	75	941	94.7517730496454	0.0
+
+
+
+>>
+4. NC_054389
+Source: Drechmeria coniospora strain ARSEF 6962 chromosome 01, whole genome shotgun sequence
+Type: terpene
+Number of proteins with BLAST hits to this cluster: 3
+Cumulative BLAST score: 2495.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_001792	DCS_02821	66	688	93.14586994727593	2.23e-244
+PUJ_001793	DCS_02826	74	1167	100.67750677506776	0.0
+PUJ_001794	DCS_02823	54	640	92.05673758865248	9.85e-220
+
+
+
+>>
+5. NC_035794
+Source: Pochonia chlamydosporia 170 chromosome 5, whole genome shotgun sequence
+Type: terpene
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 1989.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_001793	VFPPC_14013	76	1189	101.0840108401084	0.0
+PUJ_001794	VFPPC_06335	82	800	66.09929078014184	1.35e-284
+
+
+
+>>
+6. NW_006271977
+Source: Cordyceps militaris CM01 unplaced genomic scaffold CCM_S00009, whole genome shotgun sequence
+Type: terpene
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 1939.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_001793	CCM_09526	71	1119	100.94850948509486	0.0
+PUJ_001794	CCM_09529	65	820	94.60992907801419	2.49e-290
+
+
+
+>>
+7. NW_025408667
+Source: Hirsutella rhossiliensis strain HR02 chromosome Unknown scaffold00001, whole genome shotgun sequence
+Type: terpene
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 1916.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_001793	HRG_00661	73	1132	99.59349593495935	0.0
+PUJ_001794	HRG_00664	65	784	92.76595744680851	2.61e-277
+
+
+
+>>
+8. NC_057320
+Source: Ustilaginoidea virens chromosome 5, complete sequence
+Type: terpene
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 1826.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_001792	UV8b_06629	64	708	95.78207381370825	2.52e-252
+PUJ_001793	UV8b_06632	71	1118	101.0840108401084	0.0
+
+
+
+>>
+9. NC_043740
+Source: Pyricularia pennisetigena strain Br36 chromosome 1, whole genome shotgun sequence
+Type: terpene
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 1662.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_001793	PpBr36_07763	68	1042	97.69647696476966	0.0
+PUJ_001794	PpBr36_07760	54	620	96.45390070921985	7.26e-210
+

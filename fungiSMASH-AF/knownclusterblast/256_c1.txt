@@ -1,0 +1,71 @@
+ClusterBlast scores for 256
+
+Table of genes, locations, strands and annotations of query cluster:
+PUJ_001348	230436	231473	+	hypothetical protein	
+PUJ_001349	232179	233948	-	hypothetical protein	
+PUJ_001350	235938	237774	-	hypothetical protein	
+PUJ_001351	238248	239415	-	hypothetical protein	
+PUJ_001352	239777	240413	+	hypothetical protein	
+PUJ_001353	241909	243400	+	hypothetical protein	
+PUJ_001354	244286	245447	+	hypothetical protein	
+PUJ_001355	245997	246866	-	hypothetical protein	
+PUJ_001356	248947	249775	+	hypothetical protein	
+PUJ_001357	250630	251599	-	hypothetical protein	
+PUJ_001358	253016	255079	+	low affinity potassium transporter	
+PUJ_001359	255933	256947	+	low affinity potassium transporter	
+
+
+Significant hits: 
+1. BGC0002149.2	14-(N,N-dimethylleucyloxy)paspalinine/14-(leucyloxy)paspalinine/14-hydroxypaspalinine
+2. BGC0001776.3	shearinine D
+3. BGC0001082.4	Paxilline/21,22-diprenylated paxilline
+
+
+Details:
+
+>>
+1. BGC0002149.2
+Source: 14-(N,N-dimethylleucyloxy)paspalinine/14-(leucyloxy)paspalinine/14-hydroxypaspalinine
+Type: NRPS:Type I+terpene:Diterpene
+Number of proteins with BLAST hits to this cluster: 3
+Cumulative BLAST score: 1482.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_001350	UOH28369.1	64	666	95.37572254335261	3e-239
+PUJ_001352	UOH28368.1	72	278	97.83783783783784	1.51e-95
+PUJ_001353	UOH28366.1	62	538	102.97766749379653	6.77e-191
+
+
+
+>>
+2. BGC0001776.3
+Source: shearinine D
+Type: terpene
+Number of proteins with BLAST hits to this cluster: 3
+Cumulative BLAST score: 1477.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_001350	AGZ20476.1	66	666	92.67822736030828	3.35e-239
+PUJ_001352	AGZ20474.1	73	271	94.05405405405406	5.45e-93
+PUJ_001353	AGZ20487.1	64	540	98.01488833746899	2.29e-191
+
+
+
+>>
+3. BGC0001082.4
+Source: Paxilline/21,22-diprenylated paxilline
+Type: terpene:Hemiterpene
+Number of proteins with BLAST hits to this cluster: 3
+Cumulative BLAST score: 1434.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_001350	AAK11528.1	63	660	95.37572254335261	1.28e-236
+PUJ_001352	ADO29934.1	67	255	93.51351351351352	1.32e-86
+PUJ_001353	AAK11527.1	62	519	98.26302729528535	3.7e-183
+

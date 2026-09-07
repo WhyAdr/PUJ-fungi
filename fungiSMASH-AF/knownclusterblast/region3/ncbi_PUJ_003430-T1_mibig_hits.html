@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8" />
+<link rel="stylesheet" type="text/css" href="../../css/style.css">
+
+<script type="text/javascript" src="../../js/jquery.js"></script>
+<script type="text/javascript" src="../../js/jquery.tablesorter.min.js"></script>
+
+<script type="text/javascript" >
+var counter = 1;
+function addInput(divName){
+     var newdiv = document.createElement('div');
+     newdiv.innerHTML = "<b>Locus " + (counter + 1) + "</b><br> GenBank accession: <input type='text' required name='myInputs[]'> Start nt: <input type='number' name='myStartCoords[]' placeholder='N/A'> End nt: <input type='number' name='myEndCoords[]' placeholder='N/A'> <br><br>";
+     document.getElementById(divName).appendChild(newdiv);
+     counter++;
+}
+</script>
+
+<script>
+$(document).ready(function()
+    {
+        $("#myTable").tablesorter();
+    }
+);
+
+</script>
+<style>
+table {
+    border-width: thin;
+    border-spacing: 2px;
+    border-style: none;
+    border-color: black;
+}
+</style>
+</head>
+<body>
+    <table id="myTable" class="tablesorter" border=1>
+    <thead>
+    <tr>
+        <th>MIBiG Protein</th>
+        <th>Description</th>
+        <th>MIBiG Cluster</th>
+        <th>MiBiG Product</th>
+        <th>% ID</th>
+        <th>% Coverage</th>
+        <th>BLAST Score</th>
+        <th>E-value</th>
+    </tr>
+    </thead>
+    <tbody>
+    
+          <tr>
+              <td>EIN09898.1</td>
+              <td>Aldo/keto_reductase</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0002220.2">BGC0002220.2</a></td>
+              <td>terpene</td>
+              <td>43.0</td>
+              <td>86.7</td>
+              <td>235.0</td>
+              <td>1.61e-75</td>
+          </tr>
+    
+          <tr>
+              <td>AIE54174.1</td>
+              <td>Pau7</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0001731.5">BGC0001731.5</a></td>
+              <td>other:other</td>
+              <td>40.0</td>
+              <td>85.8</td>
+              <td>204.0</td>
+              <td>4.09e-64</td>
+          </tr>
+    
+          <tr>
+              <td>AIE54227.1</td>
+              <td>PauY7</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0001732.5">BGC0001732.5</a></td>
+              <td>other:other</td>
+              <td>39.0</td>
+              <td>85.8</td>
+              <td>199.0</td>
+              <td>2.59e-62</td>
+          </tr>
+    
+          <tr>
+              <td>AVY05504.1</td>
+              <td>alcohol_dehydrogenase</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0001571.3">BGC0001571.3</a></td>
+              <td>terpene</td>
+              <td>35.0</td>
+              <td>89.2</td>
+              <td>166.0</td>
+              <td>3.59e-49</td>
+          </tr>
+    
+          <tr>
+              <td>EIW83694.1</td>
+              <td>aldo-keto_reductase</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0002707.2">BGC0002707.2</a></td>
+              <td>terpene</td>
+              <td>32.0</td>
+              <td>89.8</td>
+              <td>152.0</td>
+              <td>7.29e-44</td>
+          </tr>
+    
+          <tr>
+              <td>AHI59116.1</td>
+              <td>putative_2,5-diketo-D-gluconic_acid_reductase</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0001005.5">BGC0001005.5</a></td>
+              <td>NRPS:Type I+PKS</td>
+              <td>32.0</td>
+              <td>79.3</td>
+              <td>142.0</td>
+              <td>4.83e-40</td>
+          </tr>
+    
+          <tr>
+              <td>QQZ01631.1</td>
+              <td>aldo/keto_reductase</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0002497.3">BGC0002497.3</a></td>
+              <td>other:other</td>
+              <td>24.0</td>
+              <td>89.8</td>
+              <td>78.0</td>
+              <td>4.23e-16</td>
+          </tr>
+    
+          <tr>
+              <td>ABC02798.1</td>
+              <td>putative_dTDP-4-keto-6-deoxy-L-hexose_2,3-reductase</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0000809.3">BGC0000809.3</a></td>
+              <td>other:other</td>
+              <td>26.0</td>
+              <td>65.6</td>
+              <td>54.0</td>
+              <td>9.84e-08</td>
+          </tr>
+    
+          <tr>
+              <td>AIE54209.1</td>
+              <td>Pau42</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0001731.5">BGC0001731.5</a></td>
+              <td>other:other</td>
+              <td>24.0</td>
+              <td>70.6</td>
+              <td>48.0</td>
+              <td>7.89e-06</td>
+          </tr>
+    
+    </tbody>
+  </table>
+</body>

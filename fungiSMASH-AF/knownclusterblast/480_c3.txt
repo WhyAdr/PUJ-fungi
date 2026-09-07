@@ -1,0 +1,155 @@
+ClusterBlast scores for 480
+
+Table of genes, locations, strands and annotations of query cluster:
+PUJ_005066	638162	639454	-	hypothetical protein	
+PUJ_005067	640747	641425	+	hypothetical protein	
+PUJ_005068	645398	646226	+	hypothetical protein	
+PUJ_005069	647794	649538	+	hypothetical protein	
+PUJ_005070	651391	652311	-	hypothetical protein	
+PUJ_005071	652404	653236	-	hypothetical protein	
+PUJ_005072	653808	655546	+	hypothetical protein	
+PUJ_005073	656644	657706	+	hypothetical protein	
+PUJ_005074	658518	661443	+	hypothetical protein	
+PUJ_005075	662296	663275	-	delta 1-pyrroline-5-carboxylate reductase	
+PUJ_005076	663945	665534	-	hypothetical protein	
+PUJ_005077	665883	667027	-	hypothetical protein	
+PUJ_005078	667377	683720	+	hypothetical protein	
+PUJ_005079	685490	686018	+	hypothetical protein	
+PUJ_005080	686434	687505	+	hypothetical protein	
+PUJ_005081	688122	688564	+	hypothetical protein	
+PUJ_005082	692168	694690	+	hypothetical protein	
+PUJ_005083	695322	698281	+	hypothetical protein	
+PUJ_005084	699703	701244	-	hypothetical protein	
+PUJ_005085	702724	703254	+	geranylgeranyl diphosphate synthase 3	
+PUJ_005086	704143	706620	+	hypothetical protein	
+PUJ_005087	709809	711130	+	hypothetical protein	
+PUJ_005088	711783	712954	+	hypothetical protein	
+PUJ_005089	714741	715890	-	hypothetical protein	
+PUJ_005090	717851	729692	-	hypothetical protein	
+PUJ_005091	729976	730276	+	hypothetical protein	
+PUJ_005092	730784	732928	-	hypothetical protein	
+PUJ_005093	733693	735204	+	hypothetical protein	
+PUJ_005094	735801	737715	-	hypothetical protein	
+PUJ_005095	740222	742528	+	hypothetical protein	
+PUJ_005096	743242	744383	-	hypothetical protein	
+PUJ_005097	744742	745884	+	hypothetical protein	
+PUJ_005098	746095	747748	-	hypothetical protein	
+PUJ_005099	748080	751396	+	hypothetical protein	
+PUJ_005100	754005	754825	-	hypothetical protein	
+PUJ_005101	755718	763111	+	hypothetical protein	
+PUJ_005102	763729	766143	+	hypothetical protein	
+PUJ_005103	770599	771641	+	hypothetical protein	
+PUJ_005104	773572	776225	+	carnitine O-acetyltransferase yat1	
+PUJ_005105	779162	783633	+	hypothetical protein	
+PUJ_005106	785684	787387	+	hypothetical protein	
+PUJ_005107	788227	789533	+	hypothetical protein	
+PUJ_005108	789867	790585	-	ndufa8, NADH-ubiquinone oxidoreductase complex I 19kd subunit	
+PUJ_005109	791174	792757	+	Nucleoporin nup57	
+
+
+Significant hits: 
+1. BGC0001445.5	leporin B
+2. BGC0001254.3	ACT-Toxin II
+3. BGC0002067.3	atpenin B
+4. BGC0002066.3	harzianopyridone
+5. BGC0000959.5	aspyridone A/aspyridone B
+6. BGC0002093.2	ilicicolin H
+
+
+Details:
+
+>>
+1. BGC0001445.5
+Source: leporin B
+Type: NRPS:Type I+PKS:Iterative type I
+Number of proteins with BLAST hits to this cluster: 10
+Cumulative BLAST score: 15512.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_005090	AFLA_066840	100	7729	100.0	0.0
+PUJ_005091	AFLA_066850	100	188	96.96969696969697	1.45e-63
+PUJ_005092	AFLA_066860	100	1132	85.47655068078669	0.0
+PUJ_005093	AFLA_066880	85	748	110.72261072261071	1.85e-273
+PUJ_005094	AFLA_066890	99	1003	100.0	0.0
+PUJ_005095	AFLA_066900	98	1460	102.31607629427792	0.0
+PUJ_005096	AFLA_066910	99	708	100.0	5.91e-261
+PUJ_005097	AFLA_066920	100	737	100.0	7.48e-272
+PUJ_005098	AFLA_066930	100	1044	100.0	0.0
+PUJ_005099	AFLA_066940	99	763	51.47849462365591	6.16e-276
+
+
+
+>>
+2. BGC0001254.3
+Source: ACT-Toxin II
+Type: PKS
+Number of proteins with BLAST hits to this cluster: 1
+Cumulative BLAST score: 2091.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_005090	BAJ14522.1	47	2091	63.07653319817537	0.0
+
+
+
+>>
+3. BGC0002067.3
+Source: atpenin B
+Type: NRPS:Type I+PKS:Iterative type I
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 865.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_005097	PDE_09201	51	363	96.35854341736695	8.01e-125
+PUJ_005098	PDE_09199	50	502	94.0828402366864	1.52e-174
+
+
+
+>>
+4. BGC0002066.3
+Source: harzianopyridone
+Type: NRPS:Type I+PKS:Iterative type I
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 852.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_005097	THAR02_03286	47	355	97.75910364145658	1.18e-121
+PUJ_005098	THAR02_03288	48	497	98.42209072978304	5.77e-173
+
+
+
+>>
+5. BGC0000959.5
+Source: aspyridone A/aspyridone B
+Type: NRPS:Type I+PKS:Iterative type I
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 826.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_005097	ANIA_08409	48	324	96.35854341736695	7.84e-110
+PUJ_005098	ANIA_08411	49	502	93.88560157790927	1.47e-174
+
+
+
+>>
+6. BGC0002093.2
+Source: ilicicolin H
+Type: PKS+NRPS:Type I
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 788.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_005097	QBQ83710.1	48	332	99.43977591036415	2.07e-112
+PUJ_005098	QBQ83705.1	47	456	93.88560157790927	1.25e-156
+

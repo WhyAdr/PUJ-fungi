@@ -1,0 +1,19 @@
+ClusterBlast scores for 485
+
+Table of genes, locations, strands and annotations of query cluster:
+PUJ_006068	1092349	1093441	+	Superoxide dismutase [Cu-Zn]	
+PUJ_006069	1094045	1096882	+	hypothetical protein	
+PUJ_006070	1097477	1098913	+	hypothetical protein	
+PUJ_006071	1101997	1102573	+	hypothetical protein	
+PUJ_006072	1103623	1104751	-	hypothetical protein	
+PUJ_006073	1106253	1108127	-	hypothetical protein	
+PUJ_006074	1108738	1111677	-	hypothetical protein	
+PUJ_006075	1112045	1113537	-	hypothetical protein	
+PUJ_006076	1114289	1115195	+	hypothetical protein	
+PUJ_006077	1116148	1116881	-	hypothetical protein	
+
+
+Significant hits: 
+
+
+Details:

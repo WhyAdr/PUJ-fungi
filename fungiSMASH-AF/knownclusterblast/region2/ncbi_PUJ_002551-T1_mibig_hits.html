@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8" />
+<link rel="stylesheet" type="text/css" href="../../css/style.css">
+
+<script type="text/javascript" src="../../js/jquery.js"></script>
+<script type="text/javascript" src="../../js/jquery.tablesorter.min.js"></script>
+
+<script type="text/javascript" >
+var counter = 1;
+function addInput(divName){
+     var newdiv = document.createElement('div');
+     newdiv.innerHTML = "<b>Locus " + (counter + 1) + "</b><br> GenBank accession: <input type='text' required name='myInputs[]'> Start nt: <input type='number' name='myStartCoords[]' placeholder='N/A'> End nt: <input type='number' name='myEndCoords[]' placeholder='N/A'> <br><br>";
+     document.getElementById(divName).appendChild(newdiv);
+     counter++;
+}
+</script>
+
+<script>
+$(document).ready(function()
+    {
+        $("#myTable").tablesorter();
+    }
+);
+
+</script>
+<style>
+table {
+    border-width: thin;
+    border-spacing: 2px;
+    border-style: none;
+    border-color: black;
+}
+</style>
+</head>
+<body>
+    <table id="myTable" class="tablesorter" border=1>
+    <thead>
+    <tr>
+        <th>MIBiG Protein</th>
+        <th>Description</th>
+        <th>MIBiG Cluster</th>
+        <th>MiBiG Product</th>
+        <th>% ID</th>
+        <th>% Coverage</th>
+        <th>BLAST Score</th>
+        <th>E-value</th>
+    </tr>
+    </thead>
+    <tbody>
+    
+          <tr>
+              <td>EED49428.1</td>
+              <td>C6_transcription_factor,_putative</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0000627.4">BGC0000627.4</a></td>
+              <td>ribosomal:RiPP:Dikaritin</td>
+              <td>100.0</td>
+              <td>61.2</td>
+              <td>598.0</td>
+              <td>7.88e-216</td>
+          </tr>
+    
+          <tr>
+              <td>EED49427.1</td>
+              <td>conserved_hypothetical_protein</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0000627.4">BGC0000627.4</a></td>
+              <td>ribosomal:RiPP:Dikaritin</td>
+              <td>100.0</td>
+              <td>37.8</td>
+              <td>368.0</td>
+              <td>2.33e-125</td>
+          </tr>
+    
+          <tr>
+              <td>BDA39143.1</td>
+              <td>transcriptional_regulator</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0001398.2">BGC0001398.2</a></td>
+              <td>ribosomal:RiPP</td>
+              <td>34.0</td>
+              <td>61.4</td>
+              <td>160.0</td>
+              <td>1.5e-42</td>
+          </tr>
+    
+          <tr>
+              <td>XP_023093495.1</td>
+              <td></td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0001995.3">BGC0001995.3</a></td>
+              <td>terpene</td>
+              <td>29.0</td>
+              <td>77.3</td>
+              <td>123.0</td>
+              <td>2.65e-30</td>
+          </tr>
+    
+          <tr>
+              <td>AAK33079.1</td>
+              <td>TRI10</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0001277.4">BGC0001277.4</a></td>
+              <td>terpene</td>
+              <td>26.0</td>
+              <td>87.8</td>
+              <td>114.0</td>
+              <td>2.1e-27</td>
+          </tr>
+    
+          <tr>
+              <td>AAK33069.1</td>
+              <td>putative_trichothecene_biosynthetic_gene</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0001278.4">BGC0001278.4</a></td>
+              <td>terpene</td>
+              <td>26.0</td>
+              <td>88.2</td>
+              <td>114.0</td>
+              <td>2.86e-27</td>
+          </tr>
+    
+          <tr>
+              <td>BAX01963.1</td>
+              <td>regulatory_protein</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0001811.3">BGC0001811.3</a></td>
+              <td>terpene</td>
+              <td>26.0</td>
+              <td>87.8</td>
+              <td>112.0</td>
+              <td>1.32e-26</td>
+          </tr>
+    
+    </tbody>
+  </table>
+</body>

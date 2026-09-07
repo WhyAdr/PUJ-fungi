@@ -1,0 +1,202 @@
+ClusterBlast scores for 256
+
+Table of genes, locations, strands and annotations of query cluster:
+PUJ_001750	1728004	1728655	+	hypothetical protein	
+PUJ_001751	1729522	1730422	+	hypothetical protein	
+PUJ_001752	1730621	1732120	-	hypothetical protein	
+PUJ_001753	1732955	1734419	+	hypothetical protein	
+PUJ_001754	1736524	1738276	+	hypothetical protein	
+PUJ_001755	1739870	1740751	+	hypothetical protein	
+PUJ_001756	1740945	1741630	-	hypothetical protein	
+PUJ_001757	1741761	1742576	-	hypothetical protein	
+PUJ_001758	1746757	1748149	-	hypothetical protein	
+PUJ_001759	1749009	1750645	+	hypothetical protein	
+PUJ_001760	1751342	1751884	-	hypothetical protein	
+PUJ_001761	1754813	1756031	-	hypothetical protein	
+
+
+Significant hits: 
+1. NW_020290907	Aspergillus niger CBS 101883 unplaced genomic scaffold BO96scaffold_24, whole genome shotgun sequence
+2. NW_023336276	Aspergillus tubingensis WU-2223L DNA, scaffold_2, whole genome shotgun sequence
+3. NW_020291616	Aspergillus piperis CBS 112811 unplaced genomic scaffold BO85scaffold_26, whole genome shotgun sequence
+4. NW_020291830	Aspergillus costaricaensis CBS 115574 unplaced genomic scaffold BO79scaffold_30, whole genome shotgun sequence
+5. NC_054852	Aspergillus luchuensis IFO 4308 DNA, chromosome 4, nearly complete sequence
+6. NW_020292041	Aspergillus vadensis CBS 113365 unplaced genomic scaffold BO88scaffold_3, whole genome shotgun sequence
+7. NW_006917101	Pestalotiopsis fici W106-1 unplaced genomic scaffold PFICI_Scf_11, whole genome shotgun sequence
+8. NW_024468915	Cryphonectria parasitica EP155 unplaced genomic scaffold M406scaffold_7, whole genome shotgun sequence
+9. NW_024467860	Aspergillus sydowii CBS 593.65 unplaced genomic scaffold ASPSYscaffold_2, whole genome shotgun sequence
+10. NW_024468982	Aspergillus fijiensis CBS 313.89 unplaced genomic scaffold BO72scaffold_6, whole genome shotgun sequence
+11. NZ_QCZE01000006	Zobellella maritima strain 102-Py4 scaffold_6, whole genome shotgun sequence
+
+
+Details:
+
+>>
+1. NW_020290907
+Source: Aspergillus niger CBS 101883 unplaced genomic scaffold BO96scaffold_24, whole genome shotgun sequence
+Type: NRPS,T1PKS,terpene
+Number of proteins with BLAST hits to this cluster: 3
+Cumulative BLAST score: 1322.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_001754	BO96DRAFT_399247	57	483	101.22549019607843	9.06e-169
+PUJ_001756	BO96DRAFT_468285	44	153	91.98113207547169	3.2e-42
+PUJ_001759	BO96DRAFT_414506	73	397	57.01357466063348	1.87e-136
+PUJ_001759	BO96DRAFT_468277	71	289	43.21266968325792	9.36e-92
+
+
+
+>>
+2. NW_023336276
+Source: Aspergillus tubingensis WU-2223L DNA, scaffold_2, whole genome shotgun sequence
+Type: NRPS,T1PKS,terpene
+Number of proteins with BLAST hits to this cluster: 3
+Cumulative BLAST score: 1134.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_001754	AtWU_00771	66	575	98.77450980392157	4.96e-205
+PUJ_001756	AtWU_00770	43	169	103.30188679245282	9.85e-49
+PUJ_001759	AtWU_00765	71	390	57.01357466063348	1.42e-133
+
+
+
+>>
+3. NW_020291616
+Source: Aspergillus piperis CBS 112811 unplaced genomic scaffold BO85scaffold_26, whole genome shotgun sequence
+Type: NRPS,T1PKS,terpene
+Number of proteins with BLAST hits to this cluster: 3
+Cumulative BLAST score: 1132.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_001754	BO85DRAFT_492466	65	565	99.75490196078431	5.16e-201
+PUJ_001756	BO85DRAFT_453468	48	169	97.16981132075472	7e-49
+PUJ_001759	BO85DRAFT_453472	72	398	57.01357466063348	1.32e-136
+
+
+
+>>
+4. NW_020291830
+Source: Aspergillus costaricaensis CBS 115574 unplaced genomic scaffold BO79scaffold_30, whole genome shotgun sequence
+Type: NRPS,T1PKS,terpene
+Number of proteins with BLAST hits to this cluster: 3
+Cumulative BLAST score: 1107.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_001754	BO79DRAFT_289672	65	572	98.77450980392157	1.16e-203
+PUJ_001756	BO79DRAFT_272862	44	170	102.8301886792453	4.87e-49
+PUJ_001759	BO79DRAFT_247381	71	365	53.16742081447964	7.37e-124
+
+
+
+>>
+5. NC_054852
+Source: Aspergillus luchuensis IFO 4308 DNA, chromosome 4, nearly complete sequence
+Type: NRPS,T1PKS,terpene
+Number of proteins with BLAST hits to this cluster: 3
+Cumulative BLAST score: 968.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_001754	AKAW2_40895A	67	401	64.95098039215686	1.95e-138
+PUJ_001756	AKAW2_40894S	45	172	103.77358490566037	9.25e-50
+PUJ_001759	AKAW2_40888S	71	395	57.01357466063348	2.16e-135
+
+
+
+>>
+6. NW_020292041
+Source: Aspergillus vadensis CBS 113365 unplaced genomic scaffold BO88scaffold_3, whole genome shotgun sequence
+Type: NRPS,T1PKS
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 557.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_001756	BO88DRAFT_358710	43	165	103.30188679245282	2.97e-47
+PUJ_001759	BO88DRAFT_485111	71	392	57.01357466063348	2.48e-134
+
+
+
+>>
+7. NW_006917101
+Source: Pestalotiopsis fici W106-1 unplaced genomic scaffold PFICI_Scf_11, whole genome shotgun sequence
+Type: NRPS
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 1181.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_001752	PFICI_13709	61	584	100.86393088552916	1.17e-206
+PUJ_001753	PFICI_13710	66	597	93.37748344370861	3.31e-211
+
+
+
+>>
+8. NW_024468915
+Source: Cryphonectria parasitica EP155 unplaced genomic scaffold M406scaffold_7, whole genome shotgun sequence
+Type: fungal-RiPP-like
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 1121.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_001752	M406DRAFT_294467	61	571	98.92008639308855	3.33e-201
+PUJ_001753	M406DRAFT_264149	62	550	92.93598233995584	4.99e-194
+
+
+
+>>
+9. NW_024467860
+Source: Aspergillus sydowii CBS 593.65 unplaced genomic scaffold ASPSYscaffold_2, whole genome shotgun sequence
+Type: NRPS
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 418.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_001750	ASPSYDRAFT_76423	84	319	100.0	1.21e-109
+PUJ_001753	ASPSYDRAFT_76422	31	99	45.6953642384106	4.95e-20
+
+
+
+>>
+10. NW_024468982
+Source: Aspergillus fijiensis CBS 313.89 unplaced genomic scaffold BO72scaffold_6, whole genome shotgun sequence
+Type: NRPS-like,T3PKS,indole
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 402.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_001755	BO72DRAFT_369823	42	137	69.10569105691057	2.18e-35
+PUJ_001759	BO72DRAFT_444784	50	265	57.23981900452488	2.75e-84
+
+
+
+>>
+11. NZ_QCZE01000006
+Source: Zobellella maritima strain 102-Py4 scaffold_6, whole genome shotgun sequence
+Type: NI-siderophore
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 150.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_001750	DCS96_RS16995	38	86	74.58563535911603	2.02e-18
+PUJ_001758	DCS96_RS16980	37	64	24.190064794816415	1.09e-08
+

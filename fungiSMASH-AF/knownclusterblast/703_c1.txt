@@ -1,0 +1,66 @@
+ClusterBlast scores for 703
+
+Table of genes, locations, strands and annotations of query cluster:
+PUJ_008066	232017	232569	-	hypothetical protein	
+PUJ_008067	233596	234863	-	hypothetical protein	
+PUJ_008068	236606	237770	-	hypothetical protein	
+PUJ_008069	238542	239233	-	hypothetical protein	
+PUJ_008070	239750	243794	-	hypothetical protein	
+PUJ_008071	244240	248286	-	hypothetical protein	
+PUJ_008072	248813	249944	+	hypothetical protein	
+PUJ_008073	250628	251661	-	Very-long-chain enoyl-CoA reductase	
+PUJ_008074	252430	252754	+	hypothetical protein	
+PUJ_008075	257903	258947	+	hypothetical protein	
+PUJ_008076	259004	260815	-	hypothetical protein	
+PUJ_008077	261784	263711	+	hypothetical protein	
+PUJ_008078	264304	265551	-	hypothetical protein	
+PUJ_008079	266890	270219	-	hypothetical protein	
+PUJ_008080	273289	273698	-	hypothetical protein	
+PUJ_008082	277760	285251	+	hypothetical protein	
+PUJ_008083	289046	289726	-	hypothetical protein	
+PUJ_008084	289857	290863	-	hypothetical protein	
+PUJ_008085	291241	293211	+	hypothetical protein	
+PUJ_008086	294733	295526	-	hypothetical protein	
+PUJ_008087	296716	297885	+	hypothetical protein	
+PUJ_008088	305899	306976	-	hypothetical protein	
+PUJ_008089	310612	311715	+	Guanine nucleotide-binding protein alpha-2 subunit	
+PUJ_008090	313479	314969	+	hypothetical protein	
+
+
+Significant hits: 
+1. BGC0000045.3	dehydrocurvularin
+2. BGC0001246.3	trans-resorcylide
+
+
+Details:
+
+>>
+1. BGC0000045.3
+Source: dehydrocurvularin
+Type: PKS
+Number of proteins with BLAST hits to this cluster: 3
+Cumulative BLAST score: 1043.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_008083	AGC95323.1	51	203	99.52153110047847	3.66e-62
+PUJ_008084	AGC95323.1	54	344	89.90536277602523	4.09e-115
+PUJ_008085	AGC95322.1	47	496	94.52054794520548	3.99e-167
+
+
+
+>>
+2. BGC0001246.3
+Source: trans-resorcylide
+Type: PKS
+Number of proteins with BLAST hits to this cluster: 3
+Cumulative BLAST score: 958.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_008083	AHV78251.1	47	192	96.65071770334929	4.15e-58
+PUJ_008084	AHV78251.1	55	358	91.16719242902208	1.86e-120
+PUJ_008085	AHV78250.1	47	408	75.79908675799086	9.02e-133
+

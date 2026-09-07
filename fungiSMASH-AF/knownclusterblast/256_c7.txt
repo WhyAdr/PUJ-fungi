@@ -1,0 +1,112 @@
+ClusterBlast scores for 256
+
+Table of genes, locations, strands and annotations of query cluster:
+PUJ_001852	2092305	2094168	+	hypothetical protein	
+PUJ_001853	2095040	2096217	-	hypothetical protein	
+PUJ_001854	2096928	2098044	-	hypothetical protein	
+PUJ_001855	2103008	2104706	-	hypothetical protein	
+PUJ_001856	2107023	2107578	+	hypothetical protein	
+PUJ_001857	2108228	2109551	-	Leucine aminopeptidase 1	
+PUJ_001858	2110618	2111166	-	hypothetical protein	
+PUJ_001859	2113468	2115097	-	hypothetical protein	
+PUJ_001860	2116777	2118013	-	hypothetical protein	
+PUJ_001861	2119049	2124179	-	hypothetical protein	
+PUJ_001862	2124897	2125236	+	Cytochrome P450 monooxygenase akt7	
+PUJ_001863	2125419	2126755	+	hypothetical protein	
+PUJ_001864	2127413	2128762	-	hypothetical protein	
+PUJ_001865	2134970	2154668	+	hypothetical protein	
+PUJ_001866	2157272	2158441	+	hypothetical protein	
+PUJ_001867	2158828	2160203	-	hypothetical protein	
+PUJ_001868	2160715	2167348	+	hypothetical protein	
+PUJ_001869	2167650	2168607	+	hypothetical protein	
+PUJ_001870	2169007	2174484	+	hypothetical protein	
+PUJ_001871	2175817	2177947	+	hypothetical protein	
+PUJ_001872	2178855	2180229	-	hypothetical protein	
+PUJ_001873	2181498	2182451	+	hypothetical protein	
+
+
+Significant hits: 
+1. BGC0001515.4	aspercryptins
+2. BGC0000304.4	apicidin
+3. BGC0001724.4	oxaleimide C
+4. BGC0000334.4	cyclosporin A
+5. BGC0001565.4	cyclosporin C
+
+
+Details:
+
+>>
+1. BGC0001515.4
+Source: aspercryptins
+Type: NRPS:Type I
+Number of proteins with BLAST hits to this cluster: 3
+Cumulative BLAST score: 1800.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_001861	ANIA_07880	47	1341	102.66089108910892	0.0
+PUJ_001862	ANIA_07881	67	84	52.68817204301075	3.26e-20
+PUJ_001864	ANIA_07876	56	375	91.2568306010929	2.57e-129
+
+
+
+>>
+2. BGC0000304.4
+Source: apicidin
+Type: NRPS:Type I
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 480.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_001862	ACZ66254.1	60	76	53.76344086021505	3.11e-17
+PUJ_001862	ACZ66253.1	61	75	54.83870967741935	4.31e-17
+PUJ_001864	ACZ66250.1	50	329	96.44808743169399	3.56e-111
+
+
+
+>>
+3. BGC0001724.4
+Source: oxaleimide C
+Type: NRPS:Type I+PKS
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 451.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_001862	PDE_04025	60	82	56.98924731182796	1.13e-19
+PUJ_001864	PDE_04024	53	369	94.26229508196722	1.22e-126
+
+
+
+>>
+4. BGC0000334.4
+Source: cyclosporin A
+Type: NRPS:Type I
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 426.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_001862	simI	71	86	51.61290322580645	2.76e-21
+PUJ_001864	simJ	50	340	95.08196721311475	2.01e-115
+
+
+
+>>
+5. BGC0001565.4
+Source: cyclosporin C
+Type: NRPS:Type I
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 400.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_001862	ATQ39434.1	72	84	49.46236559139785	4.46e-20
+PUJ_001864	ATQ39435.1	47	316	95.08196721311475	6.7e-106
+

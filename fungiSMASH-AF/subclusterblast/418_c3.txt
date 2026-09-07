@@ -1,0 +1,17 @@
+ClusterBlast scores for 418
+
+Table of genes, locations, strands and annotations of query cluster:
+PUJ_002874	1617885	1619053	+	hypothetical protein	
+PUJ_002875	1624456	1626238	-	hypothetical protein	
+PUJ_002876	1629310	1630117	+	hypothetical protein	
+PUJ_002877	1631924	1634447	+	geranylgeranyl pyrophosphate synthetase	
+PUJ_002878	1635480	1636199	+	hypothetical protein	
+PUJ_002879	1636924	1637664	-	hypothetical protein	
+PUJ_002880	1638548	1640246	+	hypothetical protein	
+PUJ_002881	1643884	1646232	-	hypothetical protein	
+
+
+Significant hits: 
+
+
+Details:

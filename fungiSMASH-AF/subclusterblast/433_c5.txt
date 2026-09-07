@@ -1,0 +1,42 @@
+ClusterBlast scores for 433
+
+Table of genes, locations, strands and annotations of query cluster:
+PUJ_004112	725029	726179	-	hypothetical protein	
+PUJ_004113	727171	728316	-	hypothetical protein	
+PUJ_004114	729969	731467	+	hypothetical protein	
+PUJ_004115	731932	732677	-	hypothetical protein	
+PUJ_004116	736982	738005	-	hypothetical protein	
+PUJ_004117	743438	744254	+	hypothetical protein	
+PUJ_004118	745963	747355	+	hypothetical protein	
+PUJ_004119	750697	752194	+	hypothetical protein	
+PUJ_004120	754090	761679	-	Mycolipanoate synthase	
+PUJ_004121	762510	763308	-	hypothetical protein	
+PUJ_004122	763624	770386	-	hypothetical protein	
+PUJ_004123	771107	772269	+	hypothetical protein	
+PUJ_004124	775777	776693	+	hypothetical protein	
+PUJ_004125	778498	779938	+	hypothetical protein	
+PUJ_004126	785720	786483	-	hypothetical protein	
+PUJ_004127	788817	790233	-	hypothetical protein	
+PUJ_004128	793240	793833	+	hypothetical protein	
+PUJ_004130	797515	798187	-	hypothetical protein	
+PUJ_004131	799277	799695	+	hypothetical protein	
+PUJ_004132	803673	803941	+	hypothetical protein	
+PUJ_004133	808392	809491	-	hypothetical protein	
+PUJ_004134	811225	813745	+	hypothetical protein	
+PUJ_004135	814303	815709	+	hypothetical protein	
+PUJ_004136	816177	816905	+	hypothetical protein	
+PUJ_004137	819311	820412	+	hypothetical protein	
+PUJ_004138	820855	821668	-	hypothetical protein	
+PUJ_004139	822460	823309	-	hypothetical protein	
+PUJ_004140	824282	825375	+	hypothetical protein	
+PUJ_004141	828575	828974	+	hypothetical protein	
+PUJ_004142	832809	833826	+	hypothetical protein	
+PUJ_004143	837146	837772	+	hypothetical protein	
+PUJ_004144	838217	838829	-	hypothetical protein	
+PUJ_004145	839809	842892	-	MCM DNA helicase complex subunit mcm6	
+
+
+Significant hits: 
+
+
+Details:

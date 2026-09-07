@@ -1,0 +1,12 @@
+ClusterBlast scores for contig_1170
+
+Table of genes, locations, strands and annotations of query cluster:
+PUJ_002736	982	2576	+	lysine permease	
+PUJ_002737	4219	5086	+	hypothetical protein	
+PUJ_002738	5184	7920	+	hypothetical protein	
+
+
+Significant hits: 
+
+
+Details:

@@ -1,0 +1,167 @@
+ClusterBlast scores for 418
+
+Table of genes, locations, strands and annotations of query cluster:
+PUJ_002451	61739	63179	-	hypothetical protein	
+PUJ_002452	63736	65118	-	hypothetical protein	
+PUJ_002453	68282	69072	+	hypothetical protein	
+PUJ_002454	69686	71331	-	hypothetical protein	
+PUJ_002455	73600	74719	+	hypothetical protein	
+PUJ_002456	75574	76691	+	geranylgeranyl pyrophosphate synthetase	
+PUJ_002457	77327	78554	-	hypothetical protein	
+PUJ_002458	79005	81524	-	hypothetical protein	
+PUJ_002459	84235	84550	+	hypothetical protein	
+PUJ_002460	84950	87976	-	hypothetical protein	
+PUJ_002461	88263	88815	-	hypothetical protein	
+PUJ_002462	89094	90986	-	hypothetical protein	
+
+
+Significant hits: 
+1. BGC0002149.2	14-(N,N-dimethylleucyloxy)paspalinine/14-(leucyloxy)paspalinine/14-hydroxypaspalinine
+2. BGC0001776.3	shearinine D
+3. BGC0001082.4	Paxilline/21,22-diprenylated paxilline
+4. BGC0001706.3	nodulisporic acid F
+5. BGC0002604.2	sartorypyrone A
+6. BGC0002759.2	brevione E/isobrevione E
+7. BGC0002603.2	chevalone E
+8. BGC0002614.2	subglutinol A/sesquicillin A/colletotrichin/metarhizin A
+9. BGC0002427.2	subglutinol A/subglutinol B
+
+
+Details:
+
+>>
+1. BGC0002149.2
+Source: 14-(N,N-dimethylleucyloxy)paspalinine/14-(leucyloxy)paspalinine/14-hydroxypaspalinine
+Type: NRPS:Type I+terpene:Diterpene
+Number of proteins with BLAST hits to this cluster: 3
+Cumulative BLAST score: 1274.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_002454	UOH28371.1	52	470	97.07724425887265	4.52e-163
+PUJ_002455	UOH28370.1	67	434	91.01796407185628	7.39e-154
+PUJ_002456	UOH28373.1	66	370	98.52941176470588	1.59e-128
+
+
+
+>>
+2. BGC0001776.3
+Source: shearinine D
+Type: terpene
+Number of proteins with BLAST hits to this cluster: 3
+Cumulative BLAST score: 1247.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_002454	AGZ20480.1	55	480	90.39665970772442	3.6e-167
+PUJ_002455	AGZ20475.1	66	410	86.82634730538922	4.11e-144
+PUJ_002456	AGZ20472.2	65	357	96.32352941176471	1.75e-123
+
+
+
+>>
+3. BGC0001082.4
+Source: Paxilline/21,22-diprenylated paxilline
+Type: terpene:Hemiterpene
+Number of proteins with BLAST hits to this cluster: 3
+Cumulative BLAST score: 1219.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_002454	AAK11530.1	54	489	95.19832985386222	1.79e-170
+PUJ_002455	AAK11529.1	61	387	87.72455089820359	3.78e-135
+PUJ_002456	AAK11531.1	62	343	96.32352941176471	6.4e-118
+
+
+
+>>
+4. BGC0001706.3
+Source: nodulisporic acid F
+Type: terpene
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 868.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_002454	AUM60051.1	55	489	92.48434237995825	5.52e-171
+PUJ_002455	AUM60067.1	65	379	82.03592814371258	7.97e-132
+
+
+
+>>
+5. BGC0002604.2
+Source: sartorypyrone A
+Type: PKS
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 827.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_002454	BBG67006.1	51	431	91.8580375782881	1.22e-147
+PUJ_002456	BBG67004.1	70	396	99.26470588235294	4.01e-139
+
+
+
+>>
+6. BGC0002759.2
+Source: brevione E/isobrevione E
+Type: terpene:Sesquiterpene+PKS:Iterative type I
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 810.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_002454	BDO47155.1	51	441	95.61586638830897	1.26e-151
+PUJ_002456	BDO47153.1	67	369	96.32352941176471	1.5e-128
+
+
+
+>>
+7. BGC0002603.2
+Source: chevalone E
+Type: PKS
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 794.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_002454	BBG28473.1	50	435	91.8580375782881	4.37e-149
+PUJ_002456	BBG28476.1	64	359	100.36764705882352	2.59e-124
+
+
+
+>>
+8. BGC0002614.2
+Source: subglutinol A/sesquicillin A/colletotrichin/metarhizin A
+Type: NRPS:Type I+PKS
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 791.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_002454	BCP96881.1	46	417	95.19832985386222	2.88e-142
+PUJ_002456	BCP96882.1	65	374	105.88235294117648	3.46e-130
+
+
+
+>>
+9. BGC0002427.2
+Source: subglutinol A/subglutinol B
+Type: terpene+PKS
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 653.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_002454	MAA_07499	47	298	66.80584551148226	5.7e-98
+PUJ_002456	MAA_07498	64	355	100.36764705882352	2.02e-123
+

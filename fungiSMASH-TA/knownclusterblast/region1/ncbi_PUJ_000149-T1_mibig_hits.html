@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8" />
+<link rel="stylesheet" type="text/css" href="../../css/style.css">
+
+<script type="text/javascript" src="../../js/jquery.js"></script>
+<script type="text/javascript" src="../../js/jquery.tablesorter.min.js"></script>
+
+<script type="text/javascript" >
+var counter = 1;
+function addInput(divName){
+     var newdiv = document.createElement('div');
+     newdiv.innerHTML = "<b>Locus " + (counter + 1) + "</b><br> GenBank accession: <input type='text' required name='myInputs[]'> Start nt: <input type='number' name='myStartCoords[]' placeholder='N/A'> End nt: <input type='number' name='myEndCoords[]' placeholder='N/A'> <br><br>";
+     document.getElementById(divName).appendChild(newdiv);
+     counter++;
+}
+</script>
+
+<script>
+$(document).ready(function()
+    {
+        $("#myTable").tablesorter();
+    }
+);
+
+</script>
+<style>
+table {
+    border-width: thin;
+    border-spacing: 2px;
+    border-style: none;
+    border-color: black;
+}
+</style>
+</head>
+<body>
+    <table id="myTable" class="tablesorter" border=1>
+    <thead>
+    <tr>
+        <th>MIBiG Protein</th>
+        <th>Description</th>
+        <th>MIBiG Cluster</th>
+        <th>MiBiG Product</th>
+        <th>% ID</th>
+        <th>% Coverage</th>
+        <th>BLAST Score</th>
+        <th>E-value</th>
+    </tr>
+    </thead>
+    <tbody>
+    
+          <tr>
+              <td>CAG44632.1</td>
+              <td>SriL03.9</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0000712.5">BGC0000712.5</a></td>
+              <td>saccharide</td>
+              <td>40.0</td>
+              <td>89.6</td>
+              <td>135.0</td>
+              <td>9.64e-38</td>
+          </tr>
+    
+          <tr>
+              <td>KDN80075.1</td>
+              <td>3-ketoacyl-ACP_reductase</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0001074.5">BGC0001074.5</a></td>
+              <td>saccharide+PKS</td>
+              <td>36.0</td>
+              <td>97.2</td>
+              <td>130.0</td>
+              <td>8.9e-36</td>
+          </tr>
+    
+          <tr>
+              <td>QTA30590.1</td>
+              <td>short_chain_dehydrogenase</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0002143.2">BGC0002143.2</a></td>
+              <td>PKS</td>
+              <td>34.0</td>
+              <td>100.3</td>
+              <td>129.0</td>
+              <td>1.4e-35</td>
+          </tr>
+    
+          <tr>
+              <td>AGY62761.1</td>
+              <td>reductase</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0000051.5">BGC0000051.5</a></td>
+              <td>PKS</td>
+              <td>33.0</td>
+              <td>97.2</td>
+              <td>116.0</td>
+              <td>2.23e-30</td>
+          </tr>
+    
+          <tr>
+              <td>SCN11955.1</td>
+              <td>short-chain_alcohol_dehydrogenase</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0001580.3">BGC0001580.3</a></td>
+              <td>PKS</td>
+              <td>33.0</td>
+              <td>97.2</td>
+              <td>116.0</td>
+              <td>2.23e-30</td>
+          </tr>
+    
+          <tr>
+              <td>QQW45476.1</td>
+              <td>short-chain_dehydrogenase/reductase_CalM&#39;</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0002168.3">BGC0002168.3</a></td>
+              <td>PKS</td>
+              <td>32.0</td>
+              <td>95.5</td>
+              <td>100.0</td>
+              <td>2.96e-24</td>
+          </tr>
+    
+          <tr>
+              <td>BBM05072.1</td>
+              <td>putative_oxidoreductase</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0002170.2">BGC0002170.2</a></td>
+              <td>PKS</td>
+              <td>32.0</td>
+              <td>95.5</td>
+              <td>100.0</td>
+              <td>2.96e-24</td>
+          </tr>
+    
+          <tr>
+              <td>QGA70091.1</td>
+              <td>putative_oxidoreductase</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0002517.3">BGC0002517.3</a></td>
+              <td>PKS</td>
+              <td>35.0</td>
+              <td>64.7</td>
+              <td>87.0</td>
+              <td>1.41e-19</td>
+          </tr>
+    
+          <tr>
+              <td>AMK92578.1</td>
+              <td>oxidoreductase</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0001377.5">BGC0001377.5</a></td>
+              <td>PKS</td>
+              <td>33.0</td>
+              <td>69.6</td>
+              <td>74.0</td>
+              <td>6.89e-15</td>
+          </tr>
+    
+          <tr>
+              <td>ANY57970.1</td>
+              <td>Short_chain_dehydrogenase</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0001369.3">BGC0001369.3</a></td>
+              <td>PKS</td>
+              <td>29.0</td>
+              <td>66.8</td>
+              <td>50.0</td>
+              <td>9.81e-07</td>
+          </tr>
+    
+    </tbody>
+  </table>
+</body>

@@ -1,0 +1,25 @@
+ClusterBlast scores for 1334
+
+Table of genes, locations, strands and annotations of query cluster:
+PUJ_009183	136599	140271	-	hypothetical protein	
+PUJ_009184	142379	143879	+	hypothetical protein	
+PUJ_009185	144043	145831	-	hypothetical protein	
+PUJ_009186	146440	148111	+	hypothetical protein	
+PUJ_009187	150340	150706	-	hypothetical protein	
+PUJ_009188	153071	159455	-	hypothetical protein	
+PUJ_009189	160380	163559	-	hypothetical protein	
+PUJ_009190	166074	182207	+	hypothetical protein	
+PUJ_009191	183405	184864	+	stearoyl-CoA 9-desaturase	
+PUJ_009194	189925	191222	-	hypothetical protein	
+PUJ_009195	192309	192651	-	hypothetical protein	
+PUJ_009196	195145	197608	-	low affinity potassium transporter	
+PUJ_009197	199489	200239	-	hypothetical protein	
+PUJ_009198	200620	201813	-	hypothetical protein	
+PUJ_009199	206361	208865	-	vacuolar protein sorting-associated protein 1	
+PUJ_009200	209498	211621	-	H(+)-transporting V1 sector ATPase subunit A	
+
+
+Significant hits: 
+
+
+Details:

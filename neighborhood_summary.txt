@@ -1,0 +1,224 @@
+
+==========================================
+=== TRICHODERMA ASPERELLUM (TA-PUJ) GENE NEIGHBORHOODS ===
+==========================================
+
+>>> TARGET: PUJ_004816 on contig_1730 (Gene 3 of 6 on contig) <<<
+Rel  | Locus Tag   | Gene     | Str | AA    | Product                             | Key Annotation / Pfam / EC
+--------------------------------------------------------------------------------------------------------------
+ -2  | PUJ_004814  |          | -   | 460   | hypothetical protein                | COG:S; EggNog:ENOG503PBIW; GO_function: GO:00
+ -1  | PUJ_004815  |          | -   | 353   | hypothetical protein                | PFAM:PF07690 
+*TARGET | PUJ_004816  |          | +   | 348   | hypothetical protein                | EC:['3.5.99.7'] PFAM:PF00291 
+ +1  | PUJ_004817  |          | -   | 1141  | hypothetical protein                | EC:['3.2.1.21'] PFAM:PF00933,PFAM:PF01915 
+ +2  | PUJ_004818  | RHO3     | -   | 210   | Rho GTPase                          | PFAM:PF00025,PFAM:PF00071 
+ +3  | PUJ_004819  |          | +   | 72    | hypothetical protein                | COG:C; EggNog:ENOG503NVII; GO_function: GO:00
+
+>>> TARGET: PUJ_005301 on contig_1813 (Gene 3 of 8 on contig) <<<
+Rel  | Locus Tag   | Gene     | Str | AA    | Product                             | Key Annotation / Pfam / EC
+--------------------------------------------------------------------------------------------------------------
+ -2  | PUJ_005299  |          | +   | 406   | hypothetical protein                | EC:['3.4.14.9'] 
+ -1  | PUJ_005300  |          | +   | 530   | hypothetical protein                | PFAM:PF00004 
+*TARGET | PUJ_005301  | TATC6    | -   | 332   | Terpene cyclase 6                   | PFAM:PF19086 
+ +1  | PUJ_005302  | GST2_2   | +   | 120   | Glutathione S-transferase 2         | EC:['2.5.1.18'] PFAM:PF02798,PFAM:PF13409 
+ +2  | PUJ_005304  |          | -   | 539   | hypothetical protein                | PFAM:PF00106,PFAM:PF05704 
+ +3  | PUJ_005305  |          | +   | 325   | hypothetical protein                | PFAM:PF00248 
+ +4  | PUJ_005306  | MRE11_1  | +   | 227   | meiotic recombination               | PFAM:PF00149 
+ +5  | PUJ_005307  | MRE11_2  | +   | 399   | meiotic recombination               | PFAM:PF04152 
+
+>>> TARGET: PUJ_004623 on contig_1705 (Gene 12 of 13 on contig) <<<
+Rel  | Locus Tag   | Gene     | Str | AA    | Product                             | Key Annotation / Pfam / EC
+--------------------------------------------------------------------------------------------------------------
+ -10 | PUJ_004613  |          | +   | 279   | hypothetical protein                | PFAM:PF07859 
+ -9  | PUJ_004614  |          | +   | 282   | hypothetical protein                | PFAM:PF00808 
+ -8  | PUJ_004615  | PIK1_1   | +   | 527   | Phosphatidylinositol 4-kinase pik1a | EC:['2.7.1.67'] PFAM:PF11522,PFAM:PF21245 
+ -7  | PUJ_004616  | PIK1_2   | +   | 412   | Phosphatidylinositol 4-kinase pik1a | EC:['2.7.1.67'] PFAM:PF00454 
+ -6  | PUJ_004617  |          | -   | 838   | hypothetical protein                | COG:S; EggNog:ENOG503Q4SH
+ -5  | PUJ_004618  | VPS21    | -   | 249   | Vacuolar protein sorting-associated | PFAM:PF00009,PFAM:PF00025 
+ -4  | PUJ_004619  |          | -   | 530   | hypothetical protein                | EggNog:ENOG503NVTX
+ -3  | PUJ_004620  |          | +   | 454   | hypothetical protein                | EggNog:ENOG503PHXP
+ -2  | PUJ_004621  |          | -   | 673   | hypothetical protein                | PFAM:PF11915 
+ -1  | PUJ_004622  |          | +   | 286   | hypothetical protein                | PFAM:PF02678 
+*TARGET | PUJ_004623  | CHT2_2   | +   | 754   | Chitinase 2                         | EC:['3.2.1.14'] 
+ +1  | PUJ_004624  |          | +   | 224   | hypothetical protein                | PFAM:PF00132,PFAM:PF12464 
+
+>>> TARGET: PUJ_001678 on contig_623 (Gene 7 of 9 on contig) <<<
+Rel  | Locus Tag   | Gene     | Str | AA    | Product                             | Key Annotation / Pfam / EC
+--------------------------------------------------------------------------------------------------------------
+ -6  | PUJ_001672  |          | +   | 201   | hypothetical protein                | COG:B; EggNog:ENOG503NXMS
+ -5  | PUJ_001673  |          | +   | 536   | hypothetical protein                | PFAM:PF07690 
+ -4  | PUJ_001674  |          | +   | 496   | hypothetical protein                | EC:['1.2.1.5'] PFAM:PF00171 
+ -3  | PUJ_001675  |          | +   | 234   | hypothetical protein                | EC:['3.5.1.4'] 
+ -2  | PUJ_001676  |          | +   | 285   | hypothetical protein                | EC:['3.5.1.4'] PFAM:PF01425 
+ -1  | PUJ_001677  |          | -   | 301   | hypothetical protein                | EC:['1.8.5.7'] PFAM:PF13409,PFAM:PF13410 
+*TARGET | PUJ_001678  | FET3     | -   | 606   | ferroxidase fet3                    | PFAM:PF00394,PFAM:PF07731 
+ +1  | PUJ_001679  | FTR1_1   | +   | 367   | high-affinity iron permease         | PFAM:PF03239 
+ +2  | PUJ_001680  |          | +   | 102   | hypothetical protein                | PFAM:PF14200 
+
+>>> TARGET: PUJ_003670 on contig_1419 (Gene 8 of 8 on contig) <<<
+Rel  | Locus Tag   | Gene     | Str | AA    | Product                             | Key Annotation / Pfam / EC
+--------------------------------------------------------------------------------------------------------------
+ -7  | PUJ_003663  | BRX1     | -   | 316   | Ribosome bioproteinsis protein brx1 | PFAM:PF04427 
+ -6  | PUJ_003664  | YPT31    | -   | 212   | Rab GTPase ypt31                    | PFAM:PF00025,PFAM:PF00071 
+ -5  | PUJ_003665  |          | +   | 185   | hypothetical protein                | PFAM:PF00385 
+ -4  | PUJ_003666  |          | -   | 372   | hypothetical protein                | PFAM:PF04695 
+ -3  | PUJ_003667  |          | +   | 443   | hypothetical protein                | PFAM:PF04795 
+ -2  | PUJ_003668  |          | +   | 324   | hypothetical protein                | 
+ -1  | PUJ_003669  |          | +   | 440   | hypothetical protein                | PFAM:PF13259 
+*TARGET | PUJ_003670  |          | -   | 1415  | hypothetical protein                | PFAM:PF00550,PFAM:PF00668 
+
+>>> TARGET: PUJ_003355 on contig_1342 (Gene 3 of 9 on contig) <<<
+Rel  | Locus Tag   | Gene     | Str | AA    | Product                             | Key Annotation / Pfam / EC
+--------------------------------------------------------------------------------------------------------------
+ -2  | PUJ_003353  |          | -   | 260   | hypothetical protein                | EggNog:ENOG503PZIF
+ -1  | PUJ_003354  |          | -   | 121   | hypothetical protein                | COG:I; EggNog:ENOG503NWH8; GO_function: GO:00
+*TARGET | PUJ_003355  |          | -   | 2143  | hypothetical protein                | PFAM:PF00107,PFAM:PF00109 
+ +1  | PUJ_003356  |          | +   | 314   | hypothetical protein                | COG:Q; EggNog:ENOG503PBCM; GO_function: GO:00
+ +2  | PUJ_003357  |          | -   | 264   | hypothetical protein                | EC:['2.6.1.42'] PFAM:PF01063 
+ +3  | PUJ_003358  |          | -   | 508   | hypothetical protein                | PFAM:PF00067 
+ +4  | PUJ_003359  |          | +   | 141   | hypothetical protein                | EggNog:ENOG503P2FN; COG:S
+ +5  | PUJ_003360  |          | -   | 530   | hypothetical protein                | PFAM:PF06609,PFAM:PF07690 
+ +6  | PUJ_003361  |          | +   | 1963  | hypothetical protein                | PFAM:PF00501,PFAM:PF00550 
+
+>>> TARGET: PUJ_004657 on contig_1710 (Gene 8 of 11 on contig) <<<
+Rel  | Locus Tag   | Gene     | Str | AA    | Product                             | Key Annotation / Pfam / EC
+--------------------------------------------------------------------------------------------------------------
+ -7  | PUJ_004649  |          | -   | 746   | hypothetical protein                | PFAM:PF00394,PFAM:PF07731 
+ -6  | PUJ_004650  |          | +   | 447   | hypothetical protein                | EC:['3.1.3.2'] PFAM:PF04185 
+ -5  | PUJ_004652  |          | -   | 242   | hypothetical protein                | PFAM:PF08787 
+ -4  | PUJ_004653  |          | -   | 211   | hypothetical protein                | PFAM:PF01261 
+ -3  | PUJ_004654  |          | +   | 506   | hypothetical protein                | PFAM:PF00393,PFAM:PF03446 
+ -2  | PUJ_004655  |          | -   | 86    | hypothetical protein                | EggNog:ENOG503PFZF
+ -1  | PUJ_004656  |          | -   | 330   | hypothetical protein                | EC:['1.1.1.29'] PFAM:PF00389,PFAM:PF02826 
+*TARGET | PUJ_004657  |          | +   | 2204  | hypothetical protein                | EC:['7.6.2.2'] PFAM:PF00550,PFAM:PF00668 
+ +1  | PUJ_004658  |          | +   | 115   | hypothetical protein                | EggNog:ENOG503P0JE; COG:C; GO_function: GO:00
+ +2  | PUJ_004659  |          | +   | 145   | hypothetical protein                | EggNog:ENOG503NXDQ
+ +3  | PUJ_004660  |          | -   | 338   | hypothetical protein                | PFAM:PF02423 
+
+==========================================
+=== ASPERGILLUS FLAVUS (AF-PUJ) GENE NEIGHBORHOODS ===
+==========================================
+
+>>> TARGET: PUJ_009393 on 1340 (Gene 81 of 93 on contig) <<<
+Rel  | Locus Tag   | Gene     | Str | AA    | Product                             | Key Annotation / Pfam / EC
+--------------------------------------------------------------------------------------------------------------
+ -10 | PUJ_009383  |          | +   | 418   | hypothetical protein                | EC:['2.1.1.110'] PFAM:PF00891 
+ -9  | PUJ_009384  |          | +   | 386   | hypothetical protein                | EC:['2.1.1.109'] PFAM:PF00891 
+ -8  | PUJ_009385  |          | +   | 282   | hypothetical protein                | PFAM:PF13460 
+ -7  | PUJ_009386  |          | +   | 163   | hypothetical protein                | EC:['1.13.12.20'] PFAM:PF08592 
+ -6  | PUJ_009387  |          | +   | 947   | hypothetical protein                | PFAM:PF00067 
+ -5  | PUJ_009388  |          | -   | 129   | hypothetical protein                | PFAM:PF14087 
+ -4  | PUJ_009389  |          | -   | 742   | hypothetical protein                | PFAM:PF00067,PFAM:PF00106 
+ -3  | PUJ_009390  |          | -   | 388   | hypothetical protein                | PFAM:PF00248 
+ -2  | PUJ_009391  |          | -   | 308   | hypothetical protein                | EC:['3.1.1.94'] PFAM:PF07859,PFAM:PF20434 
+ -1  | PUJ_009392  |          | -   | 278   | hypothetical protein                | EC:['1.1.1.352'] PFAM:PF00106 
+*TARGET | PUJ_009393  |          | +   | 444   | hypothetical protein                | PFAM:PF00172,PFAM:PF08493 
+ +1  | PUJ_009394  |          | -   | 1904  | hypothetical protein                | EC:['2.3.1.86'] PFAM:PF00698,PFAM:PF01575 
+ +2  | PUJ_009395  |          | +   | 1679  | hypothetical protein                | EC:['2.3.1.86'] PFAM:PF00109,PFAM:PF01648 
+ +3  | PUJ_009396  |          | -   | 271   | hypothetical protein                | EC:['1.1.1.349'] PFAM:PF00106,PFAM:PF01370 
+ +4  | PUJ_009397  |          | +   | 2109  | hypothetical protein                | EC:['2.3.1.221'] PFAM:PF00109,PFAM:PF00550 
+ +5  | PUJ_009398  |          | -   | 542   | hypothetical protein                | PFAM:PF07690 
+ +6  | PUJ_009399  |          | -   | 385   | hypothetical protein                | PFAM:PF00067 
+ +7  | PUJ_009400  |          | -   | 664   | hypothetical protein                | PFAM:PF00083,PFAM:PF07690 
+ +8  | PUJ_009401  |          | +   | 455   | hypothetical protein                | EC:['1.21.99.1'] PFAM:PF01593,PFAM:PF13450 
+ +9  | PUJ_009402  |          | +   | 3867  | hypothetical protein                | PFAM:PF00109,PFAM:PF00501 
+ +10 | PUJ_009403  |          | +   | 395   | hypothetical protein                | EggNog:ENOG503P04M; COG:K
+
+>>> TARGET: PUJ_004419 on 471 (Gene 17 of 457 on contig) <<<
+Rel  | Locus Tag   | Gene     | Str | AA    | Product                             | Key Annotation / Pfam / EC
+--------------------------------------------------------------------------------------------------------------
+ -10 | PUJ_004409  |          | +   | 647   | hypothetical protein                | EggNog:ENOG503NTWC
+ -9  | PUJ_004410  |          | -   | 376   | hypothetical protein                | PFAM:PF11951 
+ -8  | PUJ_004411  |          | +   | 294   | hypothetical protein                | PFAM:PF11913 
+ -7  | PUJ_004412  |          | -   | 748   | hypothetical protein                | PFAM:PF00172,PFAM:PF11951 
+ -6  | PUJ_004413  | TEM1     | +   | 305   | Ras GTPase tem1                     | PFAM:PF00025,PFAM:PF00071 
+ -5  | PUJ_004414  |          | -   | 532   | hypothetical protein                | PFAM:PF04082 
+ -4  | PUJ_004415  |          | +   | 695   | hypothetical protein                | PFAM:PF01055,PFAM:PF21365 
+ -3  | PUJ_004416  |          | +   | 183   | hypothetical protein                | EggNog:ENOG503NVNU
+ -2  | PUJ_004417  |          | -   | 283   | hypothetical protein                | COG:S; EggNog:ENOG503P108
+ -1  | PUJ_004418  |          | -   | 265   | hypothetical protein                | PFAM:PF02668 
+*TARGET | PUJ_004419  |          | +   | 797   | hypothetical protein                | PFAM:PF02668,PFAM:PF04183 
+ +1  | PUJ_004420  |          | +   | 342   | hypothetical protein                | EC:['1.1.1.29'] PFAM:PF00389,PFAM:PF02826 
+ +2  | PUJ_004421  |          | -   | 345   | hypothetical protein                | PFAM:PF11913 
+ +3  | PUJ_004422  |          | +   | 837   | hypothetical protein                | PFAM:PF02668 
+ +4  | PUJ_004423  |          | -   | 477   | hypothetical protein                | PFAM:PF00702,PFAM:PF13419 
+ +5  | PUJ_004424  | CAP1     | -   | 273   | F-actin-capping protein subunit alp | PFAM:PF01267 
+ +6  | PUJ_004425  |          | -   | 435   | hypothetical protein                | EggNog:ENOG503Q6X5; GO_component: GO:0043226 
+ +7  | PUJ_004426  |          | -   | 298   | hypothetical protein                | PFAM:PF11951 
+ +8  | PUJ_004427  |          | -   | 673   | hypothetical protein                | COG:T; EggNog:ENOG503NUA6; GO_component: GO:0
+ +9  | PUJ_004428  |          | +   | 436   | hypothetical protein                | PFAM:PF01266 
+ +10 | PUJ_004429  | MED7     | +   | 261   | Mediator of RNA polymerase II trans | PFAM:PF05983 
+
+>>> TARGET: PUJ_005557 on 482 (Gene 216 of 422 on contig) <<<
+Rel  | Locus Tag   | Gene     | Str | AA    | Product                             | Key Annotation / Pfam / EC
+--------------------------------------------------------------------------------------------------------------
+ -10 | PUJ_005547  |          | +   | 210   | hypothetical protein                | COG:K; EggNog:ENOG503NX50
+ -9  | PUJ_005548  |          | +   | 362   | hypothetical protein                | COG:K; EggNog:ENOG503NX50; GO_component: GO:0
+ -8  | PUJ_005549  | AMY3     | -   | 498   | Alpha-amylase A type-3              | EC:['3.2.1.1'] PFAM:PF00128,PFAM:PF09260 
+ -7  | PUJ_005550  |          | -   | 985   | hypothetical protein                | EC:['3.2.1.20'] PFAM:PF01055,PFAM:PF21365 
+ -6  | PUJ_005551  |          | +   | 589   | hypothetical protein                | PFAM:PF00172,PFAM:PF04082 
+ -5  | PUJ_005552  |          | -   | 485   | hypothetical protein                | PFAM:PF02434 
+ -4  | PUJ_005553  | srp72    | +   | 648   | Signal recognition particle subunit | PFAM:PF08492,PFAM:PF17004 
+ -3  | PUJ_005554  |          | -   | 385   | hypothetical protein                | PFAM:PF01408 
+ -2  | PUJ_005555  |          | +   | 522   | hypothetical protein                | COG:S; EggNog:ENOG503NZ44
+ -1  | PUJ_005556  | DNF3     | +   | 1696  | drs2 neo1 protein                   | PFAM:PF00122,PFAM:PF00702 
+*TARGET | PUJ_005557  | PHO2     | +   | 605   | Transcription factor                | PFAM:PF00046 
+ +1  | PUJ_005558  |          | +   | 161   | hypothetical protein                | EggNog:ENOG503P6FZ
+ +2  | PUJ_005559  |          | -   | 352   | hypothetical protein                | PFAM:PF04678 
+ +3  | PUJ_005560  |          | +   | 762   | hypothetical protein                | COG:S; EggNog:ENOG503P0EU; GO_function: GO:00
+ +4  | PUJ_005561  |          | -   | 283   | hypothetical protein                | EggNog:ENOG503P77M
+ +5  | PUJ_005562  |          | -   | 447   | hypothetical protein                | PFAM:PF02458 
+ +6  | PUJ_005563  |          | +   | 229   | hypothetical protein                | EC:['2.3.2.27'] 
+ +7  | PUJ_005564  |          | +   | 392   | hypothetical protein                | PFAM:PF00096 
+ +8  | PUJ_005565  | sif3     | -   | 663   | Sad1-interacting factor 3           | PFAM:PF02582 
+ +9  | PUJ_005566  |          | -   | 507   | hypothetical protein                | EggNog:ENOG503PBEB
+ +10 | PUJ_005567  |          | -   | 133   | hypothetical protein                | EggNog:ENOG503PBEB
+
+>>> TARGET: PUJ_009297 on 1339 (Gene 66 of 80 on contig) <<<
+Rel  | Locus Tag   | Gene     | Str | AA    | Product                             | Key Annotation / Pfam / EC
+--------------------------------------------------------------------------------------------------------------
+ -10 | PUJ_009287  |          | +   | 707   | hypothetical protein                | EC:['3.4.14.4'] PFAM:PF03571 
+ -9  | PUJ_009288  |          | +   | 229   | hypothetical protein                | COG:S; EggNog:ENOG503NXBE; GO_component: GO:0
+ -8  | PUJ_009289  | SFH1     | +   | 559   | Chromatin structure remodeling comp | PFAM:PF04855 
+ -7  | PUJ_009290  |          | -   | 306   | hypothetical protein                | COG:S; EggNog:ENOG503P48Y
+ -6  | PUJ_009291  | SEC13    | +   | 295   | GTPase-activating protein S13       | EggNog:ENOG503NU25; COG:U; GO_component: GO:0
+ -5  | PUJ_009292  |          | -   | 200   | hypothetical protein                | EggNog:ENOG503NU7Y; COG:P; GO_component: GO:0
+ -4  | PUJ_009293  | GCN20    | -   | 751   | ATP-binding cassette, regulator of  | PFAM:PF00005,PFAM:PF12848 
+ -3  | PUJ_009294  |          | +   | 648   | hypothetical protein                | PFAM:PF20162 
+ -2  | PUJ_009295  |          | +   | 444   | hypothetical protein                | EggNog:ENOG503NY7V
+ -1  | PUJ_009296  |          | +   | 185   | hypothetical protein                | COG:S; EggNog:ENOG503P22P
+*TARGET | PUJ_009297  | PHO81    | +   | 772   | phosphate system positive regulator | PFAM:PF00023,PFAM:PF12796 
+ +1  | PUJ_009298  | NAT2     | -   | 123   | DUF1279 super                       | PFAM:PF06916 
+ +2  | PUJ_009299  | COA1     | -   | 184   | cytochrome oxidase assembly protein | PFAM:PF08695 
+ +3  | PUJ_009300  |          | +   | 60    | hypothetical protein                | EggNog:ENOG503P7VK
+ +4  | PUJ_009301  |          | -   | 122   | hypothetical protein                | COG:S; EggNog:ENOG503NXHM
+ +5  | PUJ_009302  | COQ2     | +   | 267   | Para-hydroxybenzoate--polyprenyltra | EC:['2.5.1.39'] PFAM:PF01040 
+ +6  | PUJ_009303  | GRX5     | +   | 132   | monothiol glutaredoxin grx5         | PFAM:PF00462 
+ +7  | PUJ_009304  | MUQ1     | -   | 292   | choline phosphate cytidylyltransfer | EC:['2.7.7.14'] 
+ +8  | PUJ_009305  | UPS2     | -   | 190   | Phospholipid metabolism protein     | PFAM:PF04707 
+ +9  | PUJ_009306  | DOT5     | +   | 207   | thioredoxin peroxidase dot5         | EC:['1.11.1.24'] PFAM:PF00578,PFAM:PF08534 
+ +10 | PUJ_009307  |          | +   | 196   | hypothetical protein                | COG:C; EggNog:ENOG503P30I
+
+>>> TARGET: PUJ_000724 on 24 (Gene 77 of 621 on contig) <<<
+Rel  | Locus Tag   | Gene     | Str | AA    | Product                             | Key Annotation / Pfam / EC
+--------------------------------------------------------------------------------------------------------------
+ -10 | PUJ_000714  |          | +   | 488   | hypothetical protein                | PFAM:PF00646,PFAM:PF02373 
+ -9  | PUJ_000715  |          | +   | 231   | hypothetical protein                | PFAM:PF09340 
+ -8  | PUJ_000716  | AMS1     | -   | 1087  | Glycoside hydrolase, 38 vacuolar al | EC:['3.2.1.24'] PFAM:PF01074,PFAM:PF07748 
+ -7  | PUJ_000717  |          | -   | 445   | hypothetical protein                | EggNog:ENOG503PG9S
+ -6  | PUJ_000718  |          | +   | 447   | hypothetical protein                | COG:S; BUSCO:EOG09263JCT; EggNog:ENOG503NV8P;
+ -5  | PUJ_000719  | YLH47    | +   | 543   | LETM1 domain-containing protein ylh | PFAM:PF07766 
+ -4  | PUJ_000720  | PCD1     | +   | 136   | 8-oxo-dGTP diphosphatase            | COG:L; EggNog:ENOG503NXJP
+ -3  | PUJ_000721  | SMC1     | -   | 851   | Structural maintenance of chromosom | PFAM:PF02463,PFAM:PF06470 
+ -2  | PUJ_000722  |          | +   | 353   | hypothetical protein                | PFAM:PF12697 
+ -1  | PUJ_000723  | CDH1     | -   | 554   | substrate-specific activator of APC | PFAM:PF00400,PFAM:PF12894 
+*TARGET | PUJ_000724  |          | +   | 498   | hypothetical protein                | EC:['3.4.11.21'] PFAM:PF02127 
+ +1  | PUJ_000725  |          | +   | 330   | hypothetical protein                | PFAM:PF08508 
+ +2  | PUJ_000726  |          | -   | 175   | hypothetical protein                | EC:['3.4.21.92'] PFAM:PF00574 
+ +3  | PUJ_000727  |          | +   | 169   | hypothetical protein                | EggNog:ENOG503P51C
+ +4  | PUJ_000728  | PHO13    | -   | 306   | p-nitrophenyl phosphatase           | EC:['3.1.3.41'] PFAM:PF00702,PFAM:PF13242 
+ +5  | PUJ_000729  | RFC2     | -   | 320   | Subunit of heteropentameric Replica | PFAM:PF00004,PFAM:PF08542 
+ +6  | PUJ_000730  | IPP1     | -   | 288   | Inorganic pyrophosphatase           | EC:['3.6.1.1'] PFAM:PF00719 
+ +7  | PUJ_000731  | dus2     | +   | 444   | tRNA-dihydrouridine synthase 2      | EC:['1.3.1.91'] PFAM:PF01207 
+ +8  | PUJ_000732  | FUN30    | -   | 1026  | DNA-dependent ATPase fun30          | EC:['3.6.4.12'] PFAM:PF00176,PFAM:PF00270 
+ +9  | PUJ_000733  | VMA21    | +   | 61    | vacuolar ATPase assembly integral m | EggNog:ENOG503P580; COG:U
+ +10 | PUJ_000734  |          | -   | 178   | hypothetical protein                | COG:S; EggNog:ENOG503P34X

@@ -1,0 +1,15 @@
+ClusterBlast scores for contig_1801
+
+Table of genes, locations, strands and annotations of query cluster:
+PUJ_005223	525	11991	+	hypothetical protein	
+PUJ_005224	12400	14372	-	retrograde regulation protein 2	
+PUJ_005225	19613	21324	+	hypothetical protein	
+PUJ_005226	22600	23128	+	hypothetical protein	
+PUJ_005227	23563	25177	-	hypothetical protein	
+PUJ_005228	27004	27810	+	hypothetical protein	
+
+
+Significant hits: 
+
+
+Details:

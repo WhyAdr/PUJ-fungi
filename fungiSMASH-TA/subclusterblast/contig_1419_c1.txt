@@ -1,0 +1,17 @@
+ClusterBlast scores for contig_1419
+
+Table of genes, locations, strands and annotations of query cluster:
+PUJ_003663	946	1998	-	Ribosome bioproteinsis protein brx1	
+PUJ_003664	2645	3571	-	Rab GTPase ypt31	
+PUJ_003665	4586	5590	+	hypothetical protein	
+PUJ_003666	8785	9942	-	hypothetical protein	
+PUJ_003667	11970	13559	+	hypothetical protein	
+PUJ_003668	14621	15596	+	hypothetical protein	
+PUJ_003669	21462	22785	+	hypothetical protein	
+PUJ_003670	23394	27642	-	hypothetical protein	
+
+
+Significant hits: 
+
+
+Details:

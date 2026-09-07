@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8" />
+<link rel="stylesheet" type="text/css" href="../../css/style.css">
+
+<script type="text/javascript" src="../../js/jquery.js"></script>
+<script type="text/javascript" src="../../js/jquery.tablesorter.min.js"></script>
+
+<script type="text/javascript" >
+var counter = 1;
+function addInput(divName){
+     var newdiv = document.createElement('div');
+     newdiv.innerHTML = "<b>Locus " + (counter + 1) + "</b><br> GenBank accession: <input type='text' required name='myInputs[]'> Start nt: <input type='number' name='myStartCoords[]' placeholder='N/A'> End nt: <input type='number' name='myEndCoords[]' placeholder='N/A'> <br><br>";
+     document.getElementById(divName).appendChild(newdiv);
+     counter++;
+}
+</script>
+
+<script>
+$(document).ready(function()
+    {
+        $("#myTable").tablesorter();
+    }
+);
+
+</script>
+<style>
+table {
+    border-width: thin;
+    border-spacing: 2px;
+    border-style: none;
+    border-color: black;
+}
+</style>
+</head>
+<body>
+    <table id="myTable" class="tablesorter" border=1>
+    <thead>
+    <tr>
+        <th>MIBiG Protein</th>
+        <th>Description</th>
+        <th>MIBiG Cluster</th>
+        <th>MiBiG Product</th>
+        <th>% ID</th>
+        <th>% Coverage</th>
+        <th>BLAST Score</th>
+        <th>E-value</th>
+    </tr>
+    </thead>
+    <tbody>
+    
+          <tr>
+              <td>EWG54274.1</td>
+              <td>hypothetical_protein</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0001190.3">BGC0001190.3</a></td>
+              <td>PKS</td>
+              <td>31.0</td>
+              <td>97.9</td>
+              <td>349.0</td>
+              <td>1.92e-105</td>
+          </tr>
+    
+          <tr>
+              <td>CEF75881.1</td>
+              <td></td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0001600.3">BGC0001600.3</a></td>
+              <td>PKS</td>
+              <td>26.0</td>
+              <td>91.8</td>
+              <td>202.0</td>
+              <td>1.08e-53</td>
+          </tr>
+    
+          <tr>
+              <td>KIA75587.1</td>
+              <td>NRPS-like_enzyme</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0002209.2">BGC0002209.2</a></td>
+              <td>PKS</td>
+              <td>25.0</td>
+              <td>105.0</td>
+              <td>198.0</td>
+              <td>3.72e-52</td>
+          </tr>
+    
+          <tr>
+              <td>ESK96610.1</td>
+              <td>hypothetical_protein</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0002212.3">BGC0002212.3</a></td>
+              <td>PKS</td>
+              <td>27.0</td>
+              <td>103.6</td>
+              <td>194.0</td>
+              <td>6.27e-51</td>
+          </tr>
+    
+          <tr>
+              <td>EAU35432.1</td>
+              <td>predicted_protein</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0002734.2">BGC0002734.2</a></td>
+              <td>PKS</td>
+              <td>27.0</td>
+              <td>76.0</td>
+              <td>177.0</td>
+              <td>1.4e-45</td>
+          </tr>
+    
+          <tr>
+              <td>BBF25314.1</td>
+              <td>NRPS-like_oxidoreductase</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0001923.3">BGC0001923.3</a></td>
+              <td>terpene+PKS</td>
+              <td>25.0</td>
+              <td>91.4</td>
+              <td>176.0</td>
+              <td>3.42e-45</td>
+          </tr>
+    
+          <tr>
+              <td>KFA69336.1</td>
+              <td>hypothetical_protein</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0001626.3">BGC0001626.3</a></td>
+              <td>PKS</td>
+              <td>27.0</td>
+              <td>83.9</td>
+              <td>174.0</td>
+              <td>1.84e-44</td>
+          </tr>
+    
+          <tr>
+              <td>OBR09778.1</td>
+              <td>Gluconate_kinase</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0002812.2">BGC0002812.2</a></td>
+              <td>PKS:Type I+terpene:Monoterpene</td>
+              <td>25.0</td>
+              <td>81.0</td>
+              <td>169.0</td>
+              <td>9.84e-43</td>
+          </tr>
+    
+          <tr>
+              <td>BAV19380.1</td>
+              <td>NRPS-like_enzyme</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0001390.3">BGC0001390.3</a></td>
+              <td>NRPS:Type I+PKS</td>
+              <td>25.0</td>
+              <td>91.3</td>
+              <td>164.0</td>
+              <td>3.79e-41</td>
+          </tr>
+    
+          <tr>
+              <td>ABF87167.1</td>
+              <td>non-ribosomal_peptide_synthase_MxcG</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0002492.3">BGC0002492.3</a></td>
+              <td>NRPS:Type I</td>
+              <td>26.0</td>
+              <td>48.9</td>
+              <td>87.0</td>
+              <td>6.98e-17</td>
+          </tr>
+    
+          <tr>
+              <td>CBF83139.1</td>
+              <td>polyketide_synthase,_putative_(JCVI)</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0001722.3">BGC0001722.3</a></td>
+              <td>PKS</td>
+              <td>33.0</td>
+              <td>20.2</td>
+              <td>79.0</td>
+              <td>1.79e-14</td>
+          </tr>
+    
+          <tr>
+              <td>ACN39015.1</td>
+              <td>putative_nonribosomal_peptide_synthetase_TomB</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0000448.5">BGC0000448.5</a></td>
+              <td>NRPS:Type I</td>
+              <td>28.0</td>
+              <td>27.2</td>
+              <td>56.0</td>
+              <td>2.01e-07</td>
+          </tr>
+    
+          <tr>
+              <td>QXF14600.1</td>
+              <td>PydA</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0002239.2">BGC0002239.2</a></td>
+              <td>PKS+NRPS:Type I</td>
+              <td>26.0</td>
+              <td>30.8</td>
+              <td>56.0</td>
+              <td>2.91e-07</td>
+          </tr>
+    
+    </tbody>
+  </table>
+</body>

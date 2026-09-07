@@ -1,0 +1,80 @@
+ClusterBlast scores for 258
+
+Table of genes, locations, strands and annotations of query cluster:
+PUJ_002083	794528	795811	-	hypothetical protein	
+PUJ_002084	797213	799067	-	hypothetical protein	
+PUJ_002085	802250	803105	+	Required for respiratory growth protein 9 mitochondrial	
+PUJ_002086	804734	806570	+	Golgi membrane exchange factor (Ric1p-Rgp1p) subunit	
+PUJ_002087	807383	808405	+	Mitotic exit network component	
+PUJ_002088	808818	809839	+	ATP synthase F0 subcomplex subunit OSCP atp5	
+PUJ_002089	810998	814587	-	hypothetical protein	
+PUJ_002090	816616	817180	-	hypothetical protein	
+PUJ_002091	818374	819960	+	hypothetical protein	
+PUJ_002092	823070	826286	-	hypothetical protein	
+PUJ_002093	830931	832245	+	hypothetical protein	
+PUJ_002094	833554	834727	-	hypothetical protein	
+PUJ_002095	835331	837186	+	hypothetical protein	
+PUJ_002096	838046	839776	+	hypothetical protein	
+PUJ_002097	840083	841185	-	hypothetical protein	
+PUJ_002098	842157	844629	+	hypothetical protein	
+PUJ_002099	847988	849633	+	hypothetical protein	
+PUJ_002100	850440	850944	-	hypothetical protein	
+PUJ_002101	853242	856020	+	hypothetical protein	
+
+
+Significant hits: 
+1. BGC0002248.3	flavunoidine
+2. BGC0001475.4	aspterric acid
+3. BGC0001278.4	T-2 toxin
+
+
+Details:
+
+>>
+1. BGC0002248.3
+Source: flavunoidine
+Type: terpene+NRPS:Type I
+Number of proteins with BLAST hits to this cluster: 7
+Cumulative BLAST score: 7818.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_002092	G4B84_005468	99	2131	100.0	0.0
+PUJ_002093	G4B84_005465	99	751	98.90710382513662	6.34e-278
+PUJ_002094	G4B84_005464	100	795	100.0	2.02e-294
+PUJ_002095	G4B84_005463	100	1021	100.0	0.0
+PUJ_002096	G4B84_005463	93	981	100.0	0.0
+PUJ_002097	G4B84_005462	98	575	96.38157894736842	3.66e-210
+PUJ_002098	G4B84_005461	99	1564	100.0	0.0
+
+
+
+>>
+2. BGC0001475.4
+Source: aspterric acid
+Type: terpene
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 841.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_002094	ATEG_04416	46	335	88.46153846153845	1.23e-112
+PUJ_002095	ATEG_04417	48	506	97.84735812133071	2.04e-176
+
+
+
+>>
+3. BGC0001278.4
+Source: T-2 toxin
+Type: terpene
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 809.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_002094	AAK33074.1	46	333	88.46153846153845	3.2e-112
+PUJ_002095	AAK33073.1	47	476	98.04305283757338	3.38e-164
+

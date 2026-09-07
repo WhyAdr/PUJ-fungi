@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8" />
+<link rel="stylesheet" type="text/css" href="../../css/style.css">
+
+<script type="text/javascript" src="../../js/jquery.js"></script>
+<script type="text/javascript" src="../../js/jquery.tablesorter.min.js"></script>
+
+<script type="text/javascript" >
+var counter = 1;
+function addInput(divName){
+     var newdiv = document.createElement('div');
+     newdiv.innerHTML = "<b>Locus " + (counter + 1) + "</b><br> GenBank accession: <input type='text' required name='myInputs[]'> Start nt: <input type='number' name='myStartCoords[]' placeholder='N/A'> End nt: <input type='number' name='myEndCoords[]' placeholder='N/A'> <br><br>";
+     document.getElementById(divName).appendChild(newdiv);
+     counter++;
+}
+</script>
+
+<script>
+$(document).ready(function()
+    {
+        $("#myTable").tablesorter();
+    }
+);
+
+</script>
+<style>
+table {
+    border-width: thin;
+    border-spacing: 2px;
+    border-style: none;
+    border-color: black;
+}
+</style>
+</head>
+<body>
+    <table id="myTable" class="tablesorter" border=1>
+    <thead>
+    <tr>
+        <th>MIBiG Protein</th>
+        <th>Description</th>
+        <th>MIBiG Cluster</th>
+        <th>MiBiG Product</th>
+        <th>% ID</th>
+        <th>% Coverage</th>
+        <th>BLAST Score</th>
+        <th>E-value</th>
+    </tr>
+    </thead>
+    <tbody>
+    
+          <tr>
+              <td>UOH28370.1</td>
+              <td>AceC</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0002149.2">BGC0002149.2</a></td>
+              <td>NRPS:Type I+terpene:Diterpene</td>
+              <td>67.0</td>
+              <td>91.0</td>
+              <td>434.0</td>
+              <td>7.39e-154</td>
+          </tr>
+    
+          <tr>
+              <td>AGZ20475.1</td>
+              <td>prenyl_transferase</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0001776.3">BGC0001776.3</a></td>
+              <td>terpene</td>
+              <td>66.0</td>
+              <td>86.8</td>
+              <td>410.0</td>
+              <td>4.11e-144</td>
+          </tr>
+    
+          <tr>
+              <td>AAK11529.1</td>
+              <td>PaxC</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0001082.4">BGC0001082.4</a></td>
+              <td>terpene:Hemiterpene</td>
+              <td>61.0</td>
+              <td>87.7</td>
+              <td>387.0</td>
+              <td>3.78e-135</td>
+          </tr>
+    
+          <tr>
+              <td>AUM60067.1</td>
+              <td>geranylgeranyl_transferase</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0001706.3">BGC0001706.3</a></td>
+              <td>terpene</td>
+              <td>65.0</td>
+              <td>82.0</td>
+              <td>379.0</td>
+              <td>7.97e-132</td>
+          </tr>
+    
+          <tr>
+              <td>BAM84046.1</td>
+              <td>prenyl_transferase</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0001260.3">BGC0001260.3</a></td>
+              <td>terpene</td>
+              <td>51.0</td>
+              <td>88.3</td>
+              <td>291.0</td>
+              <td>4e-97</td>
+          </tr>
+    
+          <tr>
+              <td>BBD84645.1</td>
+              <td>putative_prenyltransferase</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0001775.3">BGC0001775.3</a></td>
+              <td>terpene</td>
+              <td>52.0</td>
+              <td>83.5</td>
+              <td>292.0</td>
+              <td>1.91e-92</td>
+          </tr>
+    
+          <tr>
+              <td>UOH28373.1</td>
+              <td>AceG</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0002149.2">BGC0002149.2</a></td>
+              <td>NRPS:Type I+terpene:Diterpene</td>
+              <td>35.0</td>
+              <td>57.5</td>
+              <td>100.0</td>
+              <td>1.34e-23</td>
+          </tr>
+    
+          <tr>
+              <td>EIM84825.1</td>
+              <td>terpenoid_synthase</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0002219.2">BGC0002219.2</a></td>
+              <td>terpene</td>
+              <td>29.0</td>
+              <td>85.0</td>
+              <td>96.0</td>
+              <td>2.88e-22</td>
+          </tr>
+    
+          <tr>
+              <td>KAA1470693.1</td>
+              <td>terpenoid_synthase</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0002218.2">BGC0002218.2</a></td>
+              <td>terpene</td>
+              <td>29.0</td>
+              <td>77.5</td>
+              <td>92.0</td>
+              <td>1.02e-20</td>
+          </tr>
+    
+          <tr>
+              <td>BAT32889.1</td>
+              <td>stellatatriene_synthase</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0002610.3">BGC0002610.3</a></td>
+              <td>terpene</td>
+              <td>31.0</td>
+              <td>66.5</td>
+              <td>91.0</td>
+              <td>1.3e-19</td>
+          </tr>
+    
+          <tr>
+              <td>APY21859.1</td>
+              <td>FmsB</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0001659.3">BGC0001659.3</a></td>
+              <td>terpene</td>
+              <td>27.0</td>
+              <td>65.9</td>
+              <td>81.0</td>
+              <td>2.13e-16</td>
+          </tr>
+    
+          <tr>
+              <td>BAD29970.1</td>
+              <td>geranylgeranyldiphosphate_synthase</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0000676.5">BGC0000676.5</a></td>
+              <td>terpene:Diterpene</td>
+              <td>31.0</td>
+              <td>55.7</td>
+              <td>77.0</td>
+              <td>2.27e-15</td>
+          </tr>
+    
+    </tbody>
+  </table>
+</body>

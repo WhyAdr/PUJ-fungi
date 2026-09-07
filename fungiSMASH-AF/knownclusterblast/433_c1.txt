@@ -1,0 +1,73 @@
+ClusterBlast scores for 433
+
+Table of genes, locations, strands and annotations of query cluster:
+PUJ_003905	4248	4839	+	hypothetical protein	
+PUJ_003906	5479	6543	-	hypothetical protein	
+PUJ_003907	9066	10285	-	hypothetical protein	
+PUJ_003908	12567	12956	-	hypothetical protein	
+PUJ_003909	14875	21156	-	hypothetical protein	
+PUJ_003910	24143	25516	+	hypothetical protein	
+PUJ_003911	26254	30417	+	hypothetical protein	
+PUJ_003912	30476	32719	+	hypothetical protein	
+PUJ_003913	34320	34896	+	hypothetical protein	
+PUJ_003914	35992	36940	-	hypothetical protein	
+PUJ_003915	37713	38779	+	hypothetical protein	
+PUJ_003916	40984	42226	+	hypothetical protein	
+PUJ_003917	42544	44533	-	hypothetical protein	
+PUJ_003918	44857	45332	-	hypothetical protein	
+PUJ_003919	52402	53717	+	hypothetical protein	
+PUJ_003920	54496	55690	-	hypothetical protein	
+PUJ_003921	56887	57988	-	hypothetical protein	
+
+
+Significant hits: 
+1. BGC0002236.2	8-methyldiaporthin
+2. BGC0002175.3	YWA1
+3. BGC0000107.3	naphthopyrone
+
+
+Details:
+
+>>
+1. BGC0002236.2
+Source: 8-methyldiaporthin
+Type: PKS
+Number of proteins with BLAST hits to this cluster: 4
+Cumulative BLAST score: 5042.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_003910	AO090010000047	92	758	107.0886075949367	3.69e-279
+PUJ_003911	AO090010000048	100	2667	99.77761304670126	0.0
+PUJ_003912	AO090010000048	88	1259	113.35356600910471	0.0
+PUJ_003913	AO090010000049	100	358	100.0	3.78e-125
+
+
+
+>>
+2. BGC0002175.3
+Source: YWA1
+Type: PKS
+Number of proteins with BLAST hits to this cluster: 1
+Cumulative BLAST score: 1298.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_003911	AO090102000545	50	1298	101.40845070422534	0.0
+
+
+
+>>
+3. BGC0000107.3
+Source: naphthopyrone
+Type: PKS:Type I
+Number of proteins with BLAST hits to this cluster: 1
+Cumulative BLAST score: 1264.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_003911	ANIA_08209	49	1264	100.74128984432913	0.0
+

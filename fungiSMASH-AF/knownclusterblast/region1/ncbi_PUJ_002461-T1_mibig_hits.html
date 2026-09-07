@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8" />
+<link rel="stylesheet" type="text/css" href="../../css/style.css">
+
+<script type="text/javascript" src="../../js/jquery.js"></script>
+<script type="text/javascript" src="../../js/jquery.tablesorter.min.js"></script>
+
+<script type="text/javascript" >
+var counter = 1;
+function addInput(divName){
+     var newdiv = document.createElement('div');
+     newdiv.innerHTML = "<b>Locus " + (counter + 1) + "</b><br> GenBank accession: <input type='text' required name='myInputs[]'> Start nt: <input type='number' name='myStartCoords[]' placeholder='N/A'> End nt: <input type='number' name='myEndCoords[]' placeholder='N/A'> <br><br>";
+     document.getElementById(divName).appendChild(newdiv);
+     counter++;
+}
+</script>
+
+<script>
+$(document).ready(function()
+    {
+        $("#myTable").tablesorter();
+    }
+);
+
+</script>
+<style>
+table {
+    border-width: thin;
+    border-spacing: 2px;
+    border-style: none;
+    border-color: black;
+}
+</style>
+</head>
+<body>
+    <table id="myTable" class="tablesorter" border=1>
+    <thead>
+    <tr>
+        <th>MIBiG Protein</th>
+        <th>Description</th>
+        <th>MIBiG Cluster</th>
+        <th>MiBiG Product</th>
+        <th>% ID</th>
+        <th>% Coverage</th>
+        <th>BLAST Score</th>
+        <th>E-value</th>
+    </tr>
+    </thead>
+    <tbody>
+    
+          <tr>
+              <td>BDA39134.1</td>
+              <td>cupin_family_protein</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0001398.2">BGC0001398.2</a></td>
+              <td>ribosomal:RiPP</td>
+              <td>45.0</td>
+              <td>95.1</td>
+              <td>150.0</td>
+              <td>2.76e-46</td>
+          </tr>
+    
+          <tr>
+              <td>XP_023094064.1</td>
+              <td></td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0001996.2">BGC0001996.2</a></td>
+              <td>other:other</td>
+              <td>45.0</td>
+              <td>92.9</td>
+              <td>134.0</td>
+              <td>6.75e-40</td>
+          </tr>
+    
+          <tr>
+              <td>EHK18436.1</td>
+              <td>hypothetical_protein</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0002233.3">BGC0002233.3</a></td>
+              <td>PKS</td>
+              <td>40.0</td>
+              <td>88.0</td>
+              <td>127.0</td>
+              <td>5.02e-37</td>
+          </tr>
+    
+          <tr>
+              <td>EHA52503.1</td>
+              <td>cupin_domain-containing_protein</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0001749.3">BGC0001749.3</a></td>
+              <td>PKS</td>
+              <td>40.0</td>
+              <td>91.3</td>
+              <td>122.0</td>
+              <td>8.54e-35</td>
+          </tr>
+    
+          <tr>
+              <td>QOV03407.1</td>
+              <td>SpoI</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0002262.2">BGC0002262.2</a></td>
+              <td>PKS</td>
+              <td>39.0</td>
+              <td>93.4</td>
+              <td>117.0</td>
+              <td>4.34e-33</td>
+          </tr>
+    
+          <tr>
+              <td>EYE95337.1</td>
+              <td>NAD(P)-binding_protein</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0002234.3">BGC0002234.3</a></td>
+              <td>PKS</td>
+              <td>41.0</td>
+              <td>94.0</td>
+              <td>122.0</td>
+              <td>6.47e-33</td>
+          </tr>
+    
+          <tr>
+              <td>EAA36367.1</td>
+              <td>cupin_domain-containing_protein</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0002729.2">BGC0002729.2</a></td>
+              <td>PKS</td>
+              <td>36.0</td>
+              <td>92.3</td>
+              <td>105.0</td>
+              <td>1.82e-28</td>
+          </tr>
+    
+          <tr>
+              <td>EHA52507.1</td>
+              <td>cupin_domain-containing_protein</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0001749.3">BGC0001749.3</a></td>
+              <td>PKS</td>
+              <td>38.0</td>
+              <td>88.5</td>
+              <td>99.0</td>
+              <td>4.62e-26</td>
+          </tr>
+    
+          <tr>
+              <td>EAA36365.1</td>
+              <td>cupin_domain-containing_protein</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0002729.2">BGC0002729.2</a></td>
+              <td>PKS</td>
+              <td>37.0</td>
+              <td>88.0</td>
+              <td>97.0</td>
+              <td>2.43e-25</td>
+          </tr>
+    
+    </tbody>
+  </table>
+</body>

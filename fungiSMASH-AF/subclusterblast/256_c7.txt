@@ -1,0 +1,31 @@
+ClusterBlast scores for 256
+
+Table of genes, locations, strands and annotations of query cluster:
+PUJ_001852	2092305	2094168	+	hypothetical protein	
+PUJ_001853	2095040	2096217	-	hypothetical protein	
+PUJ_001854	2096928	2098044	-	hypothetical protein	
+PUJ_001855	2103008	2104706	-	hypothetical protein	
+PUJ_001856	2107023	2107578	+	hypothetical protein	
+PUJ_001857	2108228	2109551	-	Leucine aminopeptidase 1	
+PUJ_001858	2110618	2111166	-	hypothetical protein	
+PUJ_001859	2113468	2115097	-	hypothetical protein	
+PUJ_001860	2116777	2118013	-	hypothetical protein	
+PUJ_001861	2119049	2124179	-	hypothetical protein	
+PUJ_001862	2124897	2125236	+	Cytochrome P450 monooxygenase akt7	
+PUJ_001863	2125419	2126755	+	hypothetical protein	
+PUJ_001864	2127413	2128762	-	hypothetical protein	
+PUJ_001865	2134970	2154668	+	hypothetical protein	
+PUJ_001866	2157272	2158441	+	hypothetical protein	
+PUJ_001867	2158828	2160203	-	hypothetical protein	
+PUJ_001868	2160715	2167348	+	hypothetical protein	
+PUJ_001869	2167650	2168607	+	hypothetical protein	
+PUJ_001870	2169007	2174484	+	hypothetical protein	
+PUJ_001871	2175817	2177947	+	hypothetical protein	
+PUJ_001872	2178855	2180229	-	hypothetical protein	
+PUJ_001873	2181498	2182451	+	hypothetical protein	
+
+
+Significant hits: 
+
+
+Details:

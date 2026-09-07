@@ -1,0 +1,22 @@
+ClusterBlast scores for 641
+
+Table of genes, locations, strands and annotations of query cluster:
+PUJ_007587	48147	50415	-	hypothetical protein	
+PUJ_007588	50762	54308	-	hypothetical protein	
+PUJ_007589	54955	57098	-	Glutaminyl-tRNA synthetase	
+PUJ_007590	57541	59325	-	hypothetical protein	
+PUJ_007591	60161	60929	-	hypothetical protein	
+PUJ_007592	61982	63423	-	hypothetical protein	
+PUJ_007593	63592	65360	+	hypothetical protein	
+PUJ_007594	65920	68173	+	hypothetical protein	
+PUJ_007595	68662	70066	+	hypothetical protein	
+PUJ_007596	70713	72145	+	hypothetical protein	
+PUJ_007597	72676	73321	-	Suppressor protein stp22 of temperature-sensitive alpha-factor receptor and arginine permease	
+PUJ_007598	74101	74622	-	Suppressor protein stp22 of temperature-sensitive alpha-factor receptor and arginine permease	
+PUJ_007599	74968	76143	-	pheromone alpha factor receptor	
+
+
+Significant hits: 
+
+
+Details:

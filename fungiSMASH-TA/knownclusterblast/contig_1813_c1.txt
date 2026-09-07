@@ -1,0 +1,32 @@
+ClusterBlast scores for contig_1813
+
+Table of genes, locations, strands and annotations of query cluster:
+PUJ_005299	5731	7025	+	hypothetical protein	
+PUJ_005300	10082	11675	+	hypothetical protein	
+PUJ_005301	11953	13395	-	Terpene cyclase 6	
+PUJ_005302	15920	16465	+	Glutathione S-transferase 2	
+PUJ_005304	17932	21012	-	hypothetical protein	
+PUJ_005305	22953	24123	+	hypothetical protein	
+PUJ_005306	24694	25530	+	meiotic recombination	
+PUJ_005307	25832	27085	+	meiotic recombination	
+
+
+Significant hits: 
+1. BGC0002260.3	trichobrasilenol/xylarenic acid B/brasilane A/brasilane F/brasilane E/brasilane D
+
+
+Details:
+
+>>
+1. BGC0002260.3
+Source: trichobrasilenol/xylarenic acid B/brasilane A/brasilane F/brasilane E/brasilane D
+Type: terpene
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 906.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_005301	QOE88883.1	61	454	108.43373493975903	6.83e-161
+PUJ_005304	QOE88884.1	58	452	67.16141001855289	3.71e-156
+

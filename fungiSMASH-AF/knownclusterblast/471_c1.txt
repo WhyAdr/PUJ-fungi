@@ -1,0 +1,24 @@
+ClusterBlast scores for 471
+
+Table of genes, locations, strands and annotations of query cluster:
+PUJ_004414	55276	57419	-	hypothetical protein	
+PUJ_004415	61872	63960	+	hypothetical protein	
+PUJ_004416	65850	66472	+	hypothetical protein	
+PUJ_004417	68128	68980	-	hypothetical protein	
+PUJ_004418	71057	72085	-	hypothetical protein	
+PUJ_004419	72804	76008	+	hypothetical protein	
+PUJ_004420	77083	78112	+	hypothetical protein	
+PUJ_004421	79776	80814	-	hypothetical protein	
+PUJ_004422	83334	87161	+	hypothetical protein	
+PUJ_004423	90313	91943	-	hypothetical protein	
+PUJ_004424	92735	93965	-	F-actin-capping protein subunit alpha	
+PUJ_004425	94525	95885	-	hypothetical protein	
+PUJ_004426	97113	98010	-	hypothetical protein	
+PUJ_004427	99374	102291	-	hypothetical protein	
+PUJ_004428	103388	104756	+	hypothetical protein	
+
+
+Significant hits: 
+
+
+Details:

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8" />
+<link rel="stylesheet" type="text/css" href="../../css/style.css">
+
+<script type="text/javascript" src="../../js/jquery.js"></script>
+<script type="text/javascript" src="../../js/jquery.tablesorter.min.js"></script>
+
+<script type="text/javascript" >
+var counter = 1;
+function addInput(divName){
+     var newdiv = document.createElement('div');
+     newdiv.innerHTML = "<b>Locus " + (counter + 1) + "</b><br> GenBank accession: <input type='text' required name='myInputs[]'> Start nt: <input type='number' name='myStartCoords[]' placeholder='N/A'> End nt: <input type='number' name='myEndCoords[]' placeholder='N/A'> <br><br>";
+     document.getElementById(divName).appendChild(newdiv);
+     counter++;
+}
+</script>
+
+<script>
+$(document).ready(function()
+    {
+        $("#myTable").tablesorter();
+    }
+);
+
+</script>
+<style>
+table {
+    border-width: thin;
+    border-spacing: 2px;
+    border-style: none;
+    border-color: black;
+}
+</style>
+</head>
+<body>
+    <table id="myTable" class="tablesorter" border=1>
+    <thead>
+    <tr>
+        <th>MIBiG Protein</th>
+        <th>Description</th>
+        <th>MIBiG Cluster</th>
+        <th>MiBiG Product</th>
+        <th>% ID</th>
+        <th>% Coverage</th>
+        <th>BLAST Score</th>
+        <th>E-value</th>
+    </tr>
+    </thead>
+    <tbody>
+    
+          <tr>
+              <td>AGO65985.1</td>
+              <td>putative_nucleoside_phosphorylase-like_protein</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0000992.4">BGC0000992.4</a></td>
+              <td>NRPS:Type I+PKS</td>
+              <td>50.0</td>
+              <td>56.5</td>
+              <td>290.0</td>
+              <td>2.28e-90</td>
+          </tr>
+    
+          <tr>
+              <td>AOS89733.1</td>
+              <td>hypothetical_protein</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0002609.2">BGC0002609.2</a></td>
+              <td>NRPS:Type I+PKS</td>
+              <td>52.0</td>
+              <td>52.6</td>
+              <td>288.0</td>
+              <td>1.46e-85</td>
+          </tr>
+    
+          <tr>
+              <td>AGZ20483.1</td>
+              <td>putative_LipA_NB-ARC_domain_protein</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0001776.3">BGC0001776.3</a></td>
+              <td>terpene</td>
+              <td>48.0</td>
+              <td>55.0</td>
+              <td>283.0</td>
+              <td>4.45e-83</td>
+          </tr>
+    
+          <tr>
+              <td>AGC95328.1</td>
+              <td>putative_phosphorylase</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0000045.3">BGC0000045.3</a></td>
+              <td>PKS</td>
+              <td>45.0</td>
+              <td>57.0</td>
+              <td>263.0</td>
+              <td>2.56e-79</td>
+          </tr>
+    
+          <tr>
+              <td>AIA58901.1</td>
+              <td>putative_WD-40_protein</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0001141.4">BGC0001141.4</a></td>
+              <td>PKS:Iterative type I</td>
+              <td>31.0</td>
+              <td>51.5</td>
+              <td>114.0</td>
+              <td>5.66e-26</td>
+          </tr>
+    
+    </tbody>
+  </table>
+</body>

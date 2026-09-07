@@ -1,0 +1,21 @@
+ClusterBlast scores for 256
+
+Table of genes, locations, strands and annotations of query cluster:
+PUJ_001348	230436	231473	+	hypothetical protein	
+PUJ_001349	232179	233948	-	hypothetical protein	
+PUJ_001350	235938	237774	-	hypothetical protein	
+PUJ_001351	238248	239415	-	hypothetical protein	
+PUJ_001352	239777	240413	+	hypothetical protein	
+PUJ_001353	241909	243400	+	hypothetical protein	
+PUJ_001354	244286	245447	+	hypothetical protein	
+PUJ_001355	245997	246866	-	hypothetical protein	
+PUJ_001356	248947	249775	+	hypothetical protein	
+PUJ_001357	250630	251599	-	hypothetical protein	
+PUJ_001358	253016	255079	+	low affinity potassium transporter	
+PUJ_001359	255933	256947	+	low affinity potassium transporter	
+
+
+Significant hits: 
+
+
+Details:

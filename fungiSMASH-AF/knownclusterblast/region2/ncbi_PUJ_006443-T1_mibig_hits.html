@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8" />
+<link rel="stylesheet" type="text/css" href="../../css/style.css">
+
+<script type="text/javascript" src="../../js/jquery.js"></script>
+<script type="text/javascript" src="../../js/jquery.tablesorter.min.js"></script>
+
+<script type="text/javascript" >
+var counter = 1;
+function addInput(divName){
+     var newdiv = document.createElement('div');
+     newdiv.innerHTML = "<b>Locus " + (counter + 1) + "</b><br> GenBank accession: <input type='text' required name='myInputs[]'> Start nt: <input type='number' name='myStartCoords[]' placeholder='N/A'> End nt: <input type='number' name='myEndCoords[]' placeholder='N/A'> <br><br>";
+     document.getElementById(divName).appendChild(newdiv);
+     counter++;
+}
+</script>
+
+<script>
+$(document).ready(function()
+    {
+        $("#myTable").tablesorter();
+    }
+);
+
+</script>
+<style>
+table {
+    border-width: thin;
+    border-spacing: 2px;
+    border-style: none;
+    border-color: black;
+}
+</style>
+</head>
+<body>
+    <table id="myTable" class="tablesorter" border=1>
+    <thead>
+    <tr>
+        <th>MIBiG Protein</th>
+        <th>Description</th>
+        <th>MIBiG Cluster</th>
+        <th>MiBiG Product</th>
+        <th>% ID</th>
+        <th>% Coverage</th>
+        <th>BLAST Score</th>
+        <th>E-value</th>
+    </tr>
+    </thead>
+    <tbody>
+    
+          <tr>
+              <td>QNH68022.1</td>
+              <td>PfpF</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0002268.3">BGC0002268.3</a></td>
+              <td>PKS+NRPS:Type I</td>
+              <td>50.0</td>
+              <td>92.1</td>
+              <td>402.0</td>
+              <td>1.87e-137</td>
+          </tr>
+    
+          <tr>
+              <td>QCO93108.1</td>
+              <td>monocarboxylate_transporter</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0001976.3">BGC0001976.3</a></td>
+              <td>terpene</td>
+              <td>56.0</td>
+              <td>50.8</td>
+              <td>254.0</td>
+              <td>7.41e-82</td>
+          </tr>
+    
+          <tr>
+              <td>EHA19290.1</td>
+              <td>hypothetical_protein</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0001124.4">BGC0001124.4</a></td>
+              <td>PKS</td>
+              <td>37.0</td>
+              <td>86.6</td>
+              <td>228.0</td>
+              <td>2.76e-70</td>
+          </tr>
+    
+          <tr>
+              <td>CCT72380.1</td>
+              <td>related_to_monocarboxylate_transporter_2</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0001305.4">BGC0001305.4</a></td>
+              <td>PKS</td>
+              <td>36.0</td>
+              <td>93.1</td>
+              <td>202.0</td>
+              <td>9.29e-60</td>
+          </tr>
+    
+          <tr>
+              <td>XP_002373816.1</td>
+              <td>MFS_transporter,_putative</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0001516.5">BGC0001516.5</a></td>
+              <td>NRPS:Type I</td>
+              <td>34.0</td>
+              <td>93.5</td>
+              <td>201.0</td>
+              <td>1.5e-59</td>
+          </tr>
+    
+          <tr>
+              <td>AZL87947.1</td>
+              <td>aspergillic_acid_MFS_transporter,_putative_(AsaE)</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0002602.2">BGC0002602.2</a></td>
+              <td>other:other</td>
+              <td>34.0</td>
+              <td>93.1</td>
+              <td>201.0</td>
+              <td>1.5e-59</td>
+          </tr>
+    
+          <tr>
+              <td>EAL92293.2</td>
+              <td>MFS_transporter,_putative</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0000372.5">BGC0000372.5</a></td>
+              <td>NRPS:Type I</td>
+              <td>35.0</td>
+              <td>103.9</td>
+              <td>201.0</td>
+              <td>1.76e-59</td>
+          </tr>
+    
+          <tr>
+              <td>ABB90280.1</td>
+              <td>monocarboxylate_transporter_like-protein</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0001057.4">BGC0001057.4</a></td>
+              <td>NRPS:Type I+PKS</td>
+              <td>32.0</td>
+              <td>78.3</td>
+              <td>193.0</td>
+              <td>4.19e-57</td>
+          </tr>
+    
+          <tr>
+              <td>QBG38876.1</td>
+              <td>MFS_transporter</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0002062.2">BGC0002062.2</a></td>
+              <td>PKS</td>
+              <td>35.0</td>
+              <td>82.2</td>
+              <td>192.0</td>
+              <td>3.91e-56</td>
+          </tr>
+    
+          <tr>
+              <td>EHA53212.1</td>
+              <td>hypothetical_protein</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0002158.2">BGC0002158.2</a></td>
+              <td>NRPS:Type I+PKS</td>
+              <td>33.0</td>
+              <td>98.4</td>
+              <td>185.0</td>
+              <td>1.43e-53</td>
+          </tr>
+    
+          <tr>
+              <td>EED49866.1</td>
+              <td>monocarboxylate_transporter,_putative</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0001445.5">BGC0001445.5</a></td>
+              <td>NRPS:Type I+PKS:Iterative type I</td>
+              <td>33.0</td>
+              <td>76.4</td>
+              <td>148.0</td>
+              <td>1.47e-39</td>
+          </tr>
+    
+          <tr>
+              <td>EAU35435.1</td>
+              <td>predicted_protein</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0002734.2">BGC0002734.2</a></td>
+              <td>PKS</td>
+              <td>35.0</td>
+              <td>44.3</td>
+              <td>124.0</td>
+              <td>3.42e-32</td>
+          </tr>
+    
+          <tr>
+              <td>AWM95790.1</td>
+              <td>transporter</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0001827.3">BGC0001827.3</a></td>
+              <td>PKS</td>
+              <td>31.0</td>
+              <td>52.2</td>
+              <td>107.0</td>
+              <td>9.28e-26</td>
+          </tr>
+    
+    </tbody>
+  </table>
+</body>

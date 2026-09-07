@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8" />
+<link rel="stylesheet" type="text/css" href="../../css/style.css">
+
+<script type="text/javascript" src="../../js/jquery.js"></script>
+<script type="text/javascript" src="../../js/jquery.tablesorter.min.js"></script>
+
+<script type="text/javascript" >
+var counter = 1;
+function addInput(divName){
+     var newdiv = document.createElement('div');
+     newdiv.innerHTML = "<b>Locus " + (counter + 1) + "</b><br> GenBank accession: <input type='text' required name='myInputs[]'> Start nt: <input type='number' name='myStartCoords[]' placeholder='N/A'> End nt: <input type='number' name='myEndCoords[]' placeholder='N/A'> <br><br>";
+     document.getElementById(divName).appendChild(newdiv);
+     counter++;
+}
+</script>
+
+<script>
+$(document).ready(function()
+    {
+        $("#myTable").tablesorter();
+    }
+);
+
+</script>
+<style>
+table {
+    border-width: thin;
+    border-spacing: 2px;
+    border-style: none;
+    border-color: black;
+}
+</style>
+</head>
+<body>
+    <table id="myTable" class="tablesorter" border=1>
+    <thead>
+    <tr>
+        <th>MIBiG Protein</th>
+        <th>Description</th>
+        <th>MIBiG Cluster</th>
+        <th>MiBiG Product</th>
+        <th>% ID</th>
+        <th>% Coverage</th>
+        <th>BLAST Score</th>
+        <th>E-value</th>
+    </tr>
+    </thead>
+    <tbody>
+    
+          <tr>
+              <td>BAD97695.1</td>
+              <td>Aft10-1</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0000003.3">BGC0000003.3</a></td>
+              <td>PKS</td>
+              <td>37.0</td>
+              <td>116.1</td>
+              <td>265.0</td>
+              <td>3.09e-85</td>
+          </tr>
+    
+          <tr>
+              <td>EWG54268.1</td>
+              <td>hypothetical_protein</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0001190.3">BGC0001190.3</a></td>
+              <td>PKS</td>
+              <td>45.0</td>
+              <td>49.9</td>
+              <td>155.0</td>
+              <td>2.67e-43</td>
+          </tr>
+    
+          <tr>
+              <td>CBF80495.1</td>
+              <td>Acyl-CoA_dehydrogenase_(Eurofung)</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0000959.5">BGC0000959.5</a></td>
+              <td>NRPS:Type I+PKS:Iterative type I</td>
+              <td>38.0</td>
+              <td>53.7</td>
+              <td>134.0</td>
+              <td>4.11e-35</td>
+          </tr>
+    
+          <tr>
+              <td>OKJ62003.1</td>
+              <td>acyl-CoA_dehydrogenase</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0002147.2">BGC0002147.2</a></td>
+              <td>NRPS:Type I</td>
+              <td>29.0</td>
+              <td>48.5</td>
+              <td>76.0</td>
+              <td>5.27e-15</td>
+          </tr>
+    
+          <tr>
+              <td>ADC45567.1</td>
+              <td>acyl-CoA_dehydrogenase</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0000093.5">BGC0000093.5</a></td>
+              <td>PKS:Type I</td>
+              <td>29.0</td>
+              <td>36.8</td>
+              <td>65.0</td>
+              <td>2.64e-11</td>
+          </tr>
+    
+          <tr>
+              <td>AFY23017.1</td>
+              <td>isovaleryl-CoA_dehydrogenase</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0000274.5">BGC0000274.5</a></td>
+              <td>PKS:Type II</td>
+              <td>29.0</td>
+              <td>36.8</td>
+              <td>62.0</td>
+              <td>2.64e-10</td>
+          </tr>
+    
+          <tr>
+              <td>RLV64602.1</td>
+              <td>Acyl-CoA_dehydrogenase</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0001845.2">BGC0001845.2</a></td>
+              <td>other:aminocoumarin+PKS+NRPS:Type I</td>
+              <td>25.0</td>
+              <td>46.8</td>
+              <td>55.0</td>
+              <td>6.39e-08</td>
+          </tr>
+    
+          <tr>
+              <td>ABO15870.1</td>
+              <td>acyl-CoA_dehydrogenase</td>
+              <td><a target="_new" href="https://mibig.secondarymetabolites.org/go/BGC0000130.5">BGC0000130.5</a></td>
+              <td>PKS</td>
+              <td>29.0</td>
+              <td>40.4</td>
+              <td>54.0</td>
+              <td>1.48e-07</td>
+          </tr>
+    
+    </tbody>
+  </table>
+</body>

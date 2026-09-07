@@ -1,0 +1,55 @@
+ClusterBlast scores for 826
+
+Table of genes, locations, strands and annotations of query cluster:
+PUJ_008470	307729	308227	-	hypothetical protein	
+PUJ_008471	308828	311409	+	DNA repair helicase RAD25	
+PUJ_008472	315204	318633	+	hypothetical protein	
+PUJ_008473	319027	321949	-	glutamine-dependent NAD(+) synthetase	
+PUJ_008474	322412	323767	+	NADH pyrophosphatase	
+PUJ_008475	324039	327642	-	hypothetical protein	
+PUJ_008476	328986	330514	+	monooxygenase	
+PUJ_008477	332225	334544	+	hypothetical protein	
+PUJ_008478	335152	341803	-	hypothetical protein	
+PUJ_008479	343263	345378	-	hypothetical protein	
+PUJ_008480	348262	351142	+	hypothetical protein	
+PUJ_008481	351752	353141	-	Exopolyphosphatase	
+PUJ_008483	353598	354804	+	hypothetical protein	
+PUJ_008484	355591	361096	-	hypothetical protein	
+PUJ_008485	363886	365016	+	Slx4p interacting protein	
+PUJ_008486	366101	367677	+	hypothetical protein	
+PUJ_008487	368027	369839	-	methylenetetrahydrofolate reductase 1	
+
+
+Significant hits: 
+1. BGC0002175.3	YWA1
+2. BGC0000107.3	naphthopyrone
+
+
+Details:
+
+>>
+1. BGC0002175.3
+Source: YWA1
+Type: PKS
+Number of proteins with BLAST hits to this cluster: 1
+Cumulative BLAST score: 4277.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_008478	AO090102000545	100	4277	100.0	0.0
+
+
+
+>>
+2. BGC0000107.3
+Source: naphthopyrone
+Type: PKS:Type I
+Number of proteins with BLAST hits to this cluster: 1
+Cumulative BLAST score: 3182.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_008478	ANIA_08209	73	3182	100.65390004670715	0.0
+

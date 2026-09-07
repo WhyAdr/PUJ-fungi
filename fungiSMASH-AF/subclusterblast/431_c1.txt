@@ -1,0 +1,32 @@
+ClusterBlast scores for 431
+
+Table of genes, locations, strands and annotations of query cluster:
+PUJ_003339	1444981	1445632	+	hypothetical protein	
+PUJ_003340	1447632	1448634	+	hypothetical protein	
+PUJ_003341	1448762	1450634	-	hypothetical protein	
+PUJ_003342	1451765	1452082	-	hypothetical protein	
+PUJ_003343	1454117	1455154	-	hypothetical protein	
+PUJ_003344	1456193	1458104	-	hypothetical protein	
+PUJ_003345	1459314	1460369	+	hypothetical protein	
+PUJ_003346	1460692	1461949	-	hypothetical protein	
+PUJ_003348	1464394	1465573	-	Homoserine dehydrogenase	
+PUJ_003349	1466281	1467881	+	hypothetical protein	
+PUJ_003350	1468311	1469987	+	hypothetical protein	
+PUJ_003351	1470671	1472399	-	hypothetical protein	
+PUJ_003352	1472852	1474082	+	hypothetical protein	
+PUJ_003353	1474929	1483182	+	hypothetical protein	
+PUJ_003354	1485085	1485596	+	hypothetical protein	
+PUJ_003356	1492341	1494042	-	hypothetical protein	
+PUJ_003357	1495231	1496994	+	hypothetical protein	
+PUJ_003358	1498106	1499156	+	hypothetical protein	
+PUJ_003359	1499666	1501597	+	hypothetical protein	
+PUJ_003360	1501643	1502421	-	hypothetical protein	
+PUJ_003362	1503841	1504171	+	hypothetical protein	
+PUJ_003363	1504350	1506936	-	hypothetical protein	
+PUJ_003364	1507376	1508357	+	hypothetical protein	
+
+
+Significant hits: 
+
+
+Details:

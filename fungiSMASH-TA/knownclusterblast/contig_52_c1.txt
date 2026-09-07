@@ -1,0 +1,34 @@
+ClusterBlast scores for contig_52
+
+Table of genes, locations, strands and annotations of query cluster:
+PUJ_000109	479	1187	+	hypothetical protein	
+PUJ_000110	2625	4329	-	hypothetical protein	
+PUJ_000111	5231	7399	+	hypothetical protein	
+PUJ_000112	10324	11225	+	hypothetical protein	
+PUJ_000113	11771	12887	-	hypothetical protein	
+PUJ_000114	14225	15649	+	hypothetical protein	
+PUJ_000115	23434	24384	+	hypothetical protein	
+PUJ_000116	24799	25957	-	hypothetical protein	
+PUJ_000117	27049	39773	+	hypothetical protein	
+PUJ_000118	44350	45230	+	hypothetical protein	
+
+
+Significant hits: 
+1. BGC0001255.4	equisetin
+
+
+Details:
+
+>>
+1. BGC0001255.4
+Source: equisetin
+Type: NRPS:Type I+PKS
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 765.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PUJ_000110	AGO86666.1	51	452	91.58316633266533	1.42e-155
+PUJ_000116	AGO86659.1	46	313	98.18181818181819	9.69e-105
+
