@@ -1,16 +1,76 @@
 # Comprehensive Agricultural & Biocontrol Genomic Evaluation: Isolate AF-PUJ (*Aspergillus flavus*) vs. TA-PUJ (*Trichoderma asperellum*)
 
-**Document Identifier:** `AGRI-BIOCONTROL-GENOMIC-SCRUTINY-V5` *(Audit-expanded: corrected BGC assignments, added aspirochlorine/aspergillic acid BGCs, 3 new neighborhood tables, MIBiG confidence tiers)*  
-**Date:** September 7, 2026  
-**Workspace:** `D:\\W\\fungi-PUJ`  
-**Computational Pipeline:** Funannotate 1.8.17 (structural & functional annotation) + antiSMASH 8.0.4 (secondary metabolite BGC prediction)  
-**Database Validation:** EBI InterPro (Release 2026), UniProtKB / SwissProt, NCBI Entrez/RefSeq, KEGG Orthology (KO)  
-**Synteny & Neighborhood Window:** $\\pm 3$ to $\\pm 10$ flanking loci investigated across all target scaffolds  
+**Document Identifier:** `AGRI-BIOCONTROL-GENOMIC-SCRUTINY-V6` *(Audit-corrected edition: updated assembly statistics, rigorous evidence-tier classification, complete 74-region AF BGC inventory, corrected locus coordinates, and explicit assembly completeness caveats)*  
+**Date:** September 8, 2026  
+**Workspace:** `D:\W\fungi-PUJ`  
+**Computational Pipeline:** Funannotate functional annotation + antiSMASH 8.0.4 (secondary metabolite BGC prediction)  
+**Database Validation:** EBI InterPro, UniProtKB, NCBI Entrez, MIBiG 3.1 / 4.0  
+**Synteny & Neighborhood Window:** $\pm 3$ to $\pm 10$ flanking loci investigated across all target scaffolds  
 **Target Isolates:**
-1. **Isolate TA-PUJ**: ***Trichoderma asperellum*** (`fungiSMASH-TA`, 21 BGC regions, 1,144 annotated contigs)
-2. **Isolate AF-PUJ**: ***Aspergillus flavus*** (`fungiSMASH-AF`, 74 BGC regions, 27 annotated scaffolds/chromosomes)
+1. **Isolate TA-PUJ**: ***Trichoderma asperellum*** (`fungiSMASH-TA`, 21 BGC regions across 1,376 contigs [1,309 with $\ge$1 annotated CDS], 20.29 Mb, 5,229 predicted CDS)
+2. **Isolate AF-PUJ**: ***Aspergillus flavus*** (`fungiSMASH-AF`, 74 BGC regions across 27 of 97 scaffolds [61 scaffolds carry CDS], 36.79 Mb, 9,792 predicted CDS)
 
 ---
+
+## Evidence Tier Classification Framework
+
+To ensure scientific verifiability and prevent conflation between raw computational outputs and reviewer extrapolation, all claims, counts, and annotations in this review are assigned an explicit evidence tier:
+
+| Tier | Designation | Epistemic Definition | Source Artifact in Repository |
+| :---: | :--- | :--- | :--- |
+| **`T1`** | **Annotation-Supported** | Literal qualifier extracted directly from the GenBank (`.gbk`) files (`EC_number`, `db_xref` Pfam/InterPro, exact product, or literal gene symbol). | `Funannotate-annotated-genome-*.gbk` |
+| **`T2`** | **antiSMASH-Supported** | Secondary metabolite region predictions, cluster boundaries, core synthase types, and KnownClusterBlast MIBiG homology scores. | `fungiSMASH-*/knownclusterblast/` and `*.region*.gbk` |
+| **`T3`** | **Inferred** | Biological synthesis, pathway reconstruction, or homology-based extrapolation derived by the reviewer from external genus literature (e.g., *Trichoderma* auxin physiology). | Scientific literature / reviewer inference |
+| **`T4`** | **Unverifiable / External** | Claims derived from unarchived external pipelines, unverified database web interfaces, or missing tool logs. Explicitly segregated or caveated. | No local artifact (flagged as limitation) |
+
+---
+
+## 0. Data Provenance & Computational Ground Truth
+
+All genome annotations and secondary metabolite cluster predictions analyzed in this document are derived from the following byte-verified artifacts in the repository:
+
+| Artifact Path | SHA-256 (First 16 Hex) | File Size (Bytes) | Biological & Analytical Role | Provenance Status |
+| :--- | :--- | :--- | :--- | :---: |
+| `fungiSMASH-TA/input/Funannotate-annotated-genome-TA.gbk` | `c07f6c6e379fec38` | 45,029,346 | Structural & functional annotation of TA-PUJ (antiSMASH input) | **`T1` Verified** |
+| `fungiSMASH-TA/Funannotate-annotated-genome-TA.gbk` | `b27db6f44d8fe3e7` | 44,880,695 | antiSMASH output annotation for TA-PUJ (contains region features) | **`T1/T2` Verified** |
+| `fungiSMASH-AF/Funannotate-annotated-genome-AF.gbk` | `d3fb74bf367092e66` | 83,318,907 | Merged structural, functional, and antiSMASH region features for AF-PUJ | **`T1/T2` Verified** |
+
+> [!NOTE]
+> **Tool Run Log Status:** antiSMASH 8.0.4 execution is fully confirmed by run logs and HTML index files (`fungiSMASH-TA/index.html` and `fungiSMASH-AF/index.html`). Funannotate 1.8.17 structural annotation pipeline logs are not preserved in the workspace; pipeline version claims are therefore designated **`T4`**.
+
+### Cross-Genome Locus Tag Disambiguation Notice (Audit Finding M9)
+Both fungal genomes in this repository utilize identical numerical prefixes (`PUJ_000001` through `PUJ_010052`). Across the two assemblies, exactly **5,098 locus tags collide**—meaning the same numerical tag denotes entirely different proteins in each isolate (for example, `PUJ_000001` in TA encodes a serine/threonine protein kinase, whereas `PUJ_000001` in AF encodes an uncharacterized protein). 
+
+To prevent cross-contamination of bioinformatic evidence, **all locus references throughout this review are strictly prefixed with their isolate identifier:**
+- **`TA:PUJ_xxxxx`** — *Trichoderma asperellum* isolate TA-PUJ
+- **`AF:PUJ_xxxxx`** — *Aspergillus flavus* isolate AF-PUJ
+
+---
+
+## 0.1. Assembly & Annotation Completeness Assessment (Audit Finding C1)
+
+A critical bioinformatic dimension omitted from initial reviews is the assembly quality and genomic completeness of the two draft genomes:
+
+| Assembly & Annotation Metric | Isolate TA-PUJ (*Trichoderma asperellum*) | Isolate AF-PUJ (*Aspergillus flavus*) | Biological Interpretation & Reference Standard |
+| :--- | :--- | :--- | :--- |
+| **Total Assembly Length** | **20,289,144 bp (~20.29 Mb)** | **36,794,309 bp (~36.79 Mb)** | Reference *T. asperellum* genomes are ~33.5–40 Mb (e.g., CBS 433.97 = 36.3 Mb). Reference *A. flavus* is ~36.9 Mb (NRRL 3357). |
+| **Total Sequence Records** | **1,376 contigs** (1,309 with $\ge$1 CDS) | **97 scaffolds** (61 with CDS) | High fragmentation in TA (1,376 small contigs) vs. chromosome-scale scaffolds in AF. |
+| **Predicted Protein-Coding Genes (CDS)**| **5,229 CDS** | **9,792 CDS** | *T. asperellum* reference proteomes comprise 10,000–12,000 CDS. AF-PUJ is nearly complete; TA-PUJ has ~50–60% gene coverage. |
+| **Scaffolds Bearing BGC Regions** | 21 contigs (100% of 21 regions) | 27 scaffolds (100% of 74 regions) | 27 represents the number of BGC-bearing scaffolds in AF (out of 97 total scaffolds). |
+| **Largest Scaffold / Contig** | 62,752 bp (`contig_1716`) | 2,400,610 bp (`scaffold 1`) | No contig in TA exceeds 63 kb; 39 scaffolds in AF exceed 100 kb. |
+| **GC Content** | 48.68% | 48.15% | Standard for Hypocreales and Eurotiales genomes. |
+| **Transfer RNA Features (tRNA)** | 134 | 259 | Reflects assembly completeness gap between the two isolates. |
+| **Proportion of Hypothetical Proteins**| **70.5%** (3,688 / 5,229 CDS) | **75.6%** (7,399 / 9,792 CDS) | Highlights heavy reliance on domain signatures (Pfam/InterPro) rather than explicit product names. |
+
+> [!WARNING]
+> ### Critical Caveat on TA-PUJ Absence Claims (Audit Finding C1)
+> Because the current TA-PUJ draft assembly captures only **~20.29 Mb (~55–60%)** of an expected ~34–40 Mb *Trichoderma* genome and **5,229 predicted CDS** out of ~11,000 expected:
+> 1. **Absence is not proof of non-existence:** Any finding of "0 hits" or "not present" in TA-PUJ (e.g., missing mycotoxin BGCs, uncharacterized NRPSs, or specific lytic enzymes) is a **lower bound** constrained by incomplete sequence capture.
+> 2. **Cluster edge truncations:** Several multi-modular secondary metabolite synthetases in TA terminate abruptly at contig edges (e.g., `TA:PUJ_003670` on `contig_1419`).
+> 3. **Validation requirement:** Re-sequencing or long-read scaffolding and benchmarking against BUSCO `fungi_odb10` / `hypocreales_odb10` is necessary before declaring absolute gene absence in TA-PUJ.
+
+---
+
 
 ## Executive Summary & Strategic Positioning
 
