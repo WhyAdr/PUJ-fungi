@@ -619,38 +619,247 @@ Target Locus: `AF:PUJ_004419` (+ strand, 797 aa, Pfam `PF02668`, `PF04183`) [T1]
 ## 7. Comprehensive BGC Inventory & MIBiG Evidence Summary
 
 > [!NOTE]
-> **MIBiG Confidence Tiers:** BGC assignments are graded as **HIGH** (≥5 gene hits AND ≥80% max identity), **MEDIUM** (2–4 gene hits OR 50–79% identity), or **LOW** (1 gene hit OR <50% identity). Confidence reflects the strength of the KnownClusterBlast match, not necessarily production capacity, which requires wet-lab verification.
+> **MIBiG Confidence Tiers:** BGC assignments are graded as **HIGH** (>=5 gene hits AND >=80% max identity), **MEDIUM** (2–4 gene hits OR 50–79% identity), **LOW** (1 gene hit OR <50% identity), or **ORPHAN** (0 KnownClusterBlast hits; predicted purely by antiSMASH core profile rules). Confidence reflects the strength of the KnownClusterBlast match, not necessarily physiological production capacity, which requires wet-lab verification.
 
-### A. Isolate TA-PUJ (*Trichoderma asperellum*) — 21 BGC Regions
+### A. Isolate TA-PUJ (*Trichoderma asperellum*) — Full 21 BGC Regions Inventory
 
-| # | Contig | antiSMASH Type | Top MIBiG Hit | Compound | Score | Gene Hits | Max ID | Confidence | Agricultural Function |
-| :---: | :---: | :---: | :---: | :--- | :---: | :---: | :---: | :---: | :--- |
-| 1 | `contig_1342` | NRPS+PKS | `BGC0001358.4` | **Leucinostatin A/B** | 3,862 | 4 | 86% | **HIGH** | Insecticidal linear depsipeptide |
-| 2 | `contig_1419` | NRPS | `BGC0002710.2` | **Metachelin C/A/B** | 2,034 | 2 | 62% | **MEDIUM** | Hydroxamate siderophore (iron competition) |
-| 3 | `contig_1710` | NRPS | `BGC0000342.4` | **Enniatin** | 2,390 | 1 | 54% | **MEDIUM** | Ionophoric antifungal cyclodepsipeptide |
-| 4 | `contig_1813` | Terpene | `BGC0002260.3` | **Trichobrasilenol** | 906 | 2 | 61% | **MEDIUM** | Volatile ISR-inducing sesquiterpene |
-| 5 | `contig_1144` | PKS | `BGC0002063.3` | **Cryptosporioptide** | 2,191 | 2 | 67% | **MEDIUM** | Polyketide (melanin-related) |
-| 6 | `contig_1778` | Terpene | `BGC0001839.3` | **Squalestatin S1** | 863 | 2 | 61% | **MEDIUM** | Squalene synthase inhibitor terpene |
-| 7 | `contig_52` | NRPS+PKS | `BGC0001255.4` | **Equisetin** | 765 | 2 | 51% | **MEDIUM** | Hybrid PKS-NRPS antibiotic |
-| 8 | `contig_697` | NRPS | `BGC0002164.2` | **Peramine** | 80 | 1 | 50% | **LOW** | Insect feeding deterrent (marginal) |
-| 9–21 | Various | Mixed | — | No significant MIBiG hit | — | — | — | — | Orphan / uncharacterized clusters |
+> **Inventory Summary:** 21 antiSMASH BGC regions detected across 21 contigs. Exactly **8 regions** have characterized MIBiG reference matches; **13 regions are uncharacterized orphan BGCs** (highlighting genomic novelty and uncharacterized secondary metabolic potential).
 
-### B. Isolate AF-PUJ (*Aspergillus flavus*) — 74 BGC Regions
-
-| # | Scaffold | antiSMASH Type | Top MIBiG Hit | Compound | Score | Gene Hits | Max ID | Confidence | Agricultural Function / Biosafety |
-| :---: | :---: | :---: | :---: | :--- | :---: | :---: | :---: | :---: | :--- |
-| 1 | `480` | NRPS | `BGC0001123.5` | **Aspirochlorine** | 17,383 | 19 | 100% | **HIGH** | ⚠️ ETP antimicrobial / mycotoxin |
-| 2 | `1340` | PKS | `BGC0000008.3` | **Aflatoxin B1/B2** | 16,592 | 10 | 100% | **HIGH** | ⛔ IARC Group 1 carcinogen |
-| 3 | `1340` | NRPS+PKS | `BGC0000977.4` | **Cyclopiazonic acid** | 9,573 | 4 | 97% | **HIGH** | ⛔ Neurotoxin / smooth muscle disruptor |
-| 4 | `1924` | NRPS | `BGC0001516.5` | **Aspergillic acid** | 6,227 | 6 | 100% | **HIGH** | ⚠️ Hydroxamic acid antimicrobial / hepatotoxin |
-| 5 | `471` | NRPS-like | — | **Aerobactin-like siderophore** | — | 0 | — | **LOW** | Iron chelation (domain prediction only) |
-| 6–74 | Various | Mixed | Various | See full antiSMASH report | — | — | — | — | Includes terpenes, PKS, NRPS, RiPPs |
+| # | Contig | Region ID | antiSMASH Type | Coordinates / Length | Top MIBiG Hit | Compound Annotation | Score | Genes | Identity Range | Confidence Tier | Agricultural Function / Category |
+| :---: | :---: | :---: | :---: | :---: | :---: | :--- | :---: | :---: | :---: | :---: | :--- |
+| 1 | `contig_52` | `contig_52_c1` | `NRPS` | 1..53,953 (53,953 bp) | `BGC0001255.4` | **equisetin** | 765 | 2 | 46–51% | **MEDIUM** | Hybrid PKS-NRPS antibiotic / phytotoxin inhibitor (equisetin-like) [T2] |
+| 2 | `contig_76` | `contig_76_c1` | `terpene` | 1..13,169 (13,169 bp) | `—` | No MIBiG match (Orphan) | — | 0 | — | **ORPHAN** | Novel uncharacterized BGC; requires metabolomic profiling [T2] |
+| 3 | `contig_470` | `contig_470_c1` | `T1PKS` | 1..14,308 (14,308 bp) | `—` | No MIBiG match (Orphan) | — | 0 | — | **ORPHAN** | Novel uncharacterized BGC; requires metabolomic profiling [T2] |
+| 4 | `contig_473` | `contig_473_c1` | `NRPS` | 1..36,496 (36,496 bp) | `—` | No MIBiG match (Orphan) | — | 0 | — | **ORPHAN** | Novel uncharacterized BGC; requires metabolomic profiling [T2] |
+| 5 | `contig_579` | `contig_579_c1` | `NRPS` | 1..12,824 (12,824 bp) | `—` | No MIBiG match (Orphan) | — | 0 | — | **ORPHAN** | Novel uncharacterized BGC; requires metabolomic profiling [T2] |
+| 6 | `contig_599` | `contig_599_c1` | `terpene` | 1..12,643 (12,643 bp) | `—` | No MIBiG match (Orphan) | — | 0 | — | **ORPHAN** | Novel uncharacterized BGC; requires metabolomic profiling [T2] |
+| 7 | `contig_627` | `contig_627_c1` | `NRPS` | 1..19,667 (19,667 bp) | `—` | No MIBiG match (Orphan) | — | 0 | — | **ORPHAN** | Novel uncharacterized BGC; requires metabolomic profiling [T2] |
+| 8 | `contig_675` | `contig_675_c1` | `terpene` | 1..12,073 (12,073 bp) | `—` | No MIBiG match (Orphan) | — | 0 | — | **ORPHAN** | Novel uncharacterized BGC; requires metabolomic profiling [T2] |
+| 9 | `contig_697` | `contig_697_c1` | `NRPS` | 1..17,737 (17,737 bp) | `BGC0002164.2` | **peramine** | 80 | 1 | 50–50% | **MEDIUM** | Putative alkaloid / insect feeding deterrent (peramine-like, low confidence) [T2] |
+| 10 | `contig_703` | `contig_703_c1` | `NRPS` | 1..15,907 (15,907 bp) | `—` | No MIBiG match (Orphan) | — | 0 | — | **ORPHAN** | Novel uncharacterized BGC; requires metabolomic profiling [T2] |
+| 11 | `contig_909` | `contig_909_c1` | `terpene-precursor` | 1..18,863 (18,863 bp) | `—` | No MIBiG match (Orphan) | — | 0 | — | **ORPHAN** | Novel uncharacterized BGC; requires metabolomic profiling [T2] |
+| 12 | `contig_1144` | `contig_1144_c1` | `T1PKS` | 1..18,078 (18,078 bp) | `BGC0002063.3` | **cryptosporioptide B/cryptosporioptide A/cryptosporioptide C** | 2,191 | 2 | 64–67% | **MEDIUM** | Pigment / polyketide derivative (cryptosporioptide-like) [T2] |
+| 13 | `contig_1170` | `contig_1170_c1` | `NRPS-like` | 1..9,540 (9,540 bp) | `—` | No MIBiG match (Orphan) | — | 0 | — | **ORPHAN** | Novel uncharacterized BGC; requires metabolomic profiling [T2] |
+| 14 | `contig_1317` | `contig_1317_c1` | `NRPS-like` | 1..19,051 (19,051 bp) | `—` | No MIBiG match (Orphan) | — | 0 | — | **ORPHAN** | Novel uncharacterized BGC; requires metabolomic profiling [T2] |
+| 15 | `contig_1342` | `contig_1342_c1` | `NRPS` | 1..30,917 (30,917 bp) | `BGC0001358.4` | **leucinostatin A/leucinostatin B** | 3,862 | 4 | 52–86% | **MEDIUM** | Insecticidal linear depsipeptide (leucinostatin family) [T2] |
+| 16 | `contig_1364` | `contig_1364_c1` | `NRPS` | 1..26,911 (26,911 bp) | `—` | No MIBiG match (Orphan) | — | 0 | — | **ORPHAN** | Novel uncharacterized BGC; requires metabolomic profiling [T2] |
+| 17 | `contig_1419` | `contig_1419_c1` | `NRPS` | 1..27,781 (27,781 bp) | `BGC0002710.2` | **metachelin C/metachelin A/metachelin A-CE/metachelin B/dimerumic acid 11-mannoside/dimerumic acid** | 2,034 | 2 | 50–62% | **MEDIUM** | Hydroxamate siderophore (ferric iron competition/uptake) [T2] |
+| 18 | `contig_1710` | `contig_1710_c1` | `NRPS` | 1..48,447 (48,447 bp) | `BGC0000342.4` | **enniatin** | 2,390 | 1 | 54–54% | **MEDIUM** | Ionophoric cyclodepsipeptide (antifungal membrane disruptor) [T2] |
+| 19 | `contig_1778` | `contig_1778_c1` | `terpene` | 1..24,065 (24,065 bp) | `BGC0001839.3` | **squalestatin S1** | 863 | 2 | 60–61% | **MEDIUM** | Squalene synthase inhibitor terpene (squalestatin-like) [T2] |
+| 20 | `contig_1801` | `contig_1801_c1` | `NRPS` | 1..28,608 (28,608 bp) | `—` | No MIBiG match (Orphan) | — | 0 | — | **ORPHAN** | Novel uncharacterized BGC; requires metabolomic profiling [T2] |
+| 21 | `contig_1813` | `contig_1813_c1` | `terpene` | 1..28,395 (28,395 bp) | `BGC0002260.3` | **trichobrasilenol/xylarenic acid B/brasilane A/brasilane F/brasilane E/brasilane D** | 906 | 2 | 58–61% | **MEDIUM** | Volatile brasilane sesquiterpene (plant ISR priming) [T2] |
 
 ---
 
-## 8. Database Attributions & Licensing Notices
+### B. Isolate AF-PUJ (*Aspergillus flavus*) — Full 74 BGC Regions Inventory
 
-As required by scientific reproducibility standards and skill guidelines:
+> [!IMPORTANT]
+> **AF-PUJ Inventory Summary & Audit Finding M1:** 74 antiSMASH BGC regions detected across 27 scaffolds. Exactly **34 regions** have MIBiG KnownClusterBlast matches, whereas **40 of 74 AF regions have zero KnownClusterBlast hits (unassigned orphan BGCs)**. AF-PUJ harbors **5 confirmed toxigenic BGCs** (Aflatoxin B1/G1, CPA, Aspirochlorine, Aspergillic acid, and 3-Nitropropanoic acid).
+
+| # | Scaffold | Region ID | antiSMASH Type | Coordinates / Length | Top MIBiG Hit / Rule | Compound / Category | Score | Genes | Identity Range | Confidence Tier | Biosafety & Functional Impact |
+| :---: | :---: | :---: | :---: | :---: | :---: | :--- | :---: | :---: | :---: | :---: | :--- |
+| 1 | `24` | `24_c1` | `betalactone` | 1..45,805 (45,805 bp) | `—` | No MIBiG match (Orphan) | — | 0 | — | **ORPHAN** | Uncharacterized orphan BGC (zero KnownClusterBlast hits) [T2] |
+| 2 | `24` | `24_c2` | `indole` | 1..31,152 (31,152 bp) | `—` | No MIBiG match (Orphan) | — | 0 | — | **ORPHAN** | Uncharacterized orphan BGC (zero KnownClusterBlast hits) [T2] |
+| 3 | `24` | `24_c3` | `NRPS` | 1..66,363 (66,363 bp) | `—` | No MIBiG match (Orphan) | — | 0 | — | **ORPHAN** | Uncharacterized orphan BGC (zero KnownClusterBlast hits) [T2] |
+| 4 | `24` | `24_c4` | `T1PKS` | 1..98,078 (98,078 bp) | `BGC0001446.5` | **asparasone A** | 5,862 | 5 | 97–100% | **HIGH** | Asparasone A aflatoxin-shunt/pigment polyketide [T2] |
+| 5 | `24` | `24_c5` | `T1PKS` | 1..68,097 (68,097 bp) | `—` | No MIBiG match (Orphan) | — | 0 | — | **ORPHAN** | Uncharacterized orphan BGC (zero KnownClusterBlast hits) [T2] |
+| 6 | `24` | `24_c6` | `NRPS-like` | 1..70,758 (70,758 bp) | `BGC0002276.2` | **choline** | 1,941 | 1 | 77–77% | **MEDIUM** | Secondary metabolite BGC related to choline [T2] |
+| 7 | `256` | `256_c1` | `terpene` | 1..35,670 (35,670 bp) | `BGC0002149.2` | **14-(N,N-dimethylleucyloxy)paspalinine/14-(leucyloxy)paspalinine/14-hydroxypaspalinine** | 1,482 | 3 | 62–72% | **MEDIUM** | Secondary metabolite BGC related to 14-(N,N-dimethylleucyloxy)paspalinine [T2] |
+| 8 | `256` | `256_c2` | `terpene` | 1..31,068 (31,068 bp) | `—` | No MIBiG match (Orphan) | — | 0 | — | **ORPHAN** | Uncharacterized orphan BGC (zero KnownClusterBlast hits) [T2] |
+| 9 | `256` | `256_c3` | `NRPS` | 1..63,562 (63,562 bp) | `BGC0001995.3` | **heptelidic acid** | 2,420 | 4 | 97–99% | **MEDIUM** | Secondary metabolite BGC related to heptelidic acid [T2] |
+| 10 | `256` | `256_c4` | `NRPS-like` | 1..62,688 (62,688 bp) | `—` | No MIBiG match (Orphan) | — | 0 | — | **ORPHAN** | Uncharacterized orphan BGC (zero KnownClusterBlast hits) [T2] |
+| 11 | `256` | `256_c5` | `terpene` | 1..31,631 (31,631 bp) | `—` | No MIBiG match (Orphan) | — | 0 | — | **ORPHAN** | Uncharacterized orphan BGC (zero KnownClusterBlast hits) [T2] |
+| 12 | `256` | `256_c6` | `terpene` | 1..32,530 (32,530 bp) | `—` | No MIBiG match (Orphan) | — | 0 | — | **ORPHAN** | Uncharacterized orphan BGC (zero KnownClusterBlast hits) [T2] |
+| 13 | `256` | `256_c7` | `terpene` | 1..94,533 (94,533 bp) | `BGC0001515.4` | **aspercryptins** | 1,800 | 3 | 47–67% | **MEDIUM** | Secondary metabolite BGC related to aspercryptins [T2] |
+| 14 | `258` | `258_c1` | `T1PKS` | 1..67,340 (67,340 bp) | `—` | No MIBiG match (Orphan) | — | 0 | — | **ORPHAN** | Uncharacterized orphan BGC (zero KnownClusterBlast hits) [T2] |
+| 15 | `258` | `258_c2` | `T1PKS` | 1..68,435 (68,435 bp) | `—` | No MIBiG match (Orphan) | — | 0 | — | **ORPHAN** | Uncharacterized orphan BGC (zero KnownClusterBlast hits) [T2] |
+| 16 | `258` | `258_c3` | `NRPS` | 1..63,216 (63,216 bp) | `BGC0002248.3` | **flavunoidine** | 7,818 | 7 | 93–100% | **HIGH** | Flavunoidine cyclic peptide [T2] |
+| 17 | `258` | `258_c4` | `terpene` | 1..68,868 (68,868 bp) | `BGC0001518.3` | **astellolide A** | 8,724 | 8 | 97–99% | **HIGH** | Astellolide A sesquiterpene lactone [T2] |
+| 18 | `418` | `418_c1` | `terpene-precursor` | 1..33,091 (33,091 bp) | `BGC0002149.2` | **14-(N,N-dimethylleucyloxy)paspalinine/14-(leucyloxy)paspalinine/14-hydroxypaspalinine** | 1,274 | 3 | 52–67% | **MEDIUM** | Secondary metabolite BGC related to 14-(N,N-dimethylleucyloxy)paspalinine [T2] |
+| 19 | `418` | `418_c2` | `fungal-RiPP` | 1..54,988 (54,988 bp) | `BGC0000627.4` | **ustiloxin B** | 7,477 | 13 | 46–100% | **HIGH** | Ustiloxin B fungal RiPP anti-tubulin toxin [T2] |
+| 20 | `418` | `418_c3` | `terpene-precursor` | 1..32,523 (32,523 bp) | `—` | No MIBiG match (Orphan) | — | 0 | — | **ORPHAN** | Uncharacterized orphan BGC (zero KnownClusterBlast hits) [T2] |
+| 21 | `418` | `418_c4` | `NRPS` | 1..65,039 (65,039 bp) | `—` | No MIBiG match (Orphan) | — | 0 | — | **ORPHAN** | Uncharacterized orphan BGC (zero KnownClusterBlast hits) [T2] |
+| 22 | `418` | `418_c5` | `T3PKS` | 1..61,324 (61,324 bp) | `—` | No MIBiG match (Orphan) | — | 0 | — | **ORPHAN** | Uncharacterized orphan BGC (zero KnownClusterBlast hits) [T2] |
+| 23 | `431` | `431_c1` | `T1PKS` | 1..68,253 (68,253 bp) | `BGC0001190.3` | **fusaric acid** | 829 | 2 | 62–72% | **MEDIUM** | Secondary metabolite BGC related to fusaric acid [T2] |
+| 24 | `431` | `431_c2` | `terpene-precursor` | 1..31,251 (31,251 bp) | `—` | No MIBiG match (Orphan) | — | 0 | — | **ORPHAN** | Uncharacterized orphan BGC (zero KnownClusterBlast hits) [T2] |
+| 25 | `431` | `431_c3` | `T1PKS` | 1..117,487 (117,487 bp) | `BGC0002222.2` | **zopfiellin** | 528 | 2 | 54–55% | **MEDIUM** | Secondary metabolite BGC related to zopfiellin [T2] |
+| 26 | `432` | `432_c1` | `NRPS-like` | 1..63,354 (63,354 bp) | `—` | No MIBiG match (Orphan) | — | 0 | — | **ORPHAN** | Uncharacterized orphan BGC (zero KnownClusterBlast hits) [T2] |
+| 27 | `432` | `432_c2` | `terpene-precursor` | 1..31,235 (31,235 bp) | `—` | No MIBiG match (Orphan) | — | 0 | — | **ORPHAN** | Uncharacterized orphan BGC (zero KnownClusterBlast hits) [T2] |
+| 28 | `432` | `432_c3` | `terpene` | 1..31,385 (31,385 bp) | `—` | No MIBiG match (Orphan) | — | 0 | — | **ORPHAN** | Uncharacterized orphan BGC (zero KnownClusterBlast hits) [T2] |
+| 29 | `433` | `433_c1` | `T1PKS` | 1..60,417 (60,417 bp) | `BGC0002236.2` | **8-methyldiaporthin** | 5,042 | 4 | 88–100% | **MEDIUM** | Secondary metabolite BGC related to 8-methyldiaporthin [T2] |
+| 30 | `433` | `433_c2` | `T1PKS` | 1..67,764 (67,764 bp) | `BGC0000027.4` | **ankaflavin/monascin/rubropunctatine/monascorubrin** | 6,652 | 5 | 46–51% | **MEDIUM** | Secondary metabolite BGC related to ankaflavin [T2] |
+| 31 | `433` | `433_c3` | `terpene` | 1..31,610 (31,610 bp) | `—` | No MIBiG match (Orphan) | — | 0 | — | **ORPHAN** | Uncharacterized orphan BGC (zero KnownClusterBlast hits) [T2] |
+| 32 | `433` | `433_c4` | `NRPS-like` | 1..63,304 (63,304 bp) | `—` | No MIBiG match (Orphan) | — | 0 | — | **ORPHAN** | Uncharacterized orphan BGC (zero KnownClusterBlast hits) [T2] |
+| 33 | `433` | `433_c5` | `T1PKS` | 1..119,655 (119,655 bp) | `—` | No MIBiG match (Orphan) | — | 0 | — | **ORPHAN** | Uncharacterized orphan BGC (zero KnownClusterBlast hits) [T2] |
+| 34 | `433` | `433_c6` | `NRPS-like` | 1..63,227 (63,227 bp) | `—` | No MIBiG match (Orphan) | — | 0 | — | **ORPHAN** | Uncharacterized orphan BGC (zero KnownClusterBlast hits) [T2] |
+| 35 | `471` | `471_c1` | `NI-siderophore` | 1..55,139 (55,139 bp) | `—` | No MIBiG match (Orphan) | — | 0 | — | **ORPHAN** | Aerobactin-like NIS siderophore cluster; domain prediction (`IucA/IucC`), 0 MIBiG hits [T1/T2] |
+| 36 | `471` | `471_c2` | `terpene` | 1..30,462 (30,462 bp) | `—` | No MIBiG match (Orphan) | — | 0 | — | **ORPHAN** | Uncharacterized orphan BGC (zero KnownClusterBlast hits) [T2] |
+| 37 | `471` | `471_c3` | `T1PKS` | 1..65,446 (65,446 bp) | `BGC0001304.3` | **aflavarin** | 5,687 | 4 | 94–99% | **MEDIUM** | Aflavarin / aflatrem-related indole diterpene [T2] |
+| 38 | `471` | `471_c4` | `NRPS` | 1..74,341 (74,341 bp) | `BGC0002710.2` | **metachelin C/metachelin A/metachelin A-CE/metachelin B/dimerumic acid 11-mannoside/dimerumic acid** | 1,052 | 2 | 46–59% | **MEDIUM** | Metachelin-type hydroxamate siderophore NRPS [T2] |
+| 39 | `480` | `480_c1` | `NRPS-like` | 1..77,760 (77,760 bp) | `BGC0001621.4` | **imizoquin A/imizoquin B/imizoquin C/imizoquin D/TMC-2A/TMC-2B** | 8,477 | 8 | 85–100% | **HIGH** | Imizoquin alkaloid BGC (protective cell wall pigment/antioxidant) [T2] |
+| 40 | `480` | `480_c2` | `NRPS` | 1..73,234 (73,234 bp) | `BGC0001123.5` | ⚠️ **aspirochlorine** | 17,383 | 19 | 48–100% | **HIGH** | ⚠️ **CYTOTOXIN:** Aspirochlorine epipolythiodioxopiperazine (ETP) cluster; 19 genes with 94–100% identity [T2] |
+| 41 | `480` | `480_c3` | `NRPS` | 1..155,734 (155,734 bp) | `BGC0001445.5` | **leporin B** | 15,512 | 10 | 85–100% | **HIGH** | Leporin B BGC; hybrid PKS-NRPS anti-insectan/antibiotic compound [T2] |
+| 42 | `480` | `480_c4` | `terpene` | 1..30,836 (30,836 bp) | `—` | No MIBiG match (Orphan) | — | 0 | — | **ORPHAN** | Uncharacterized orphan BGC (zero KnownClusterBlast hits) [T2] |
+| 43 | `480` | `480_c5` | `NRPS` | 1..75,407 (75,407 bp) | `BGC0001699.4` | **nidulanin A** | 7,357 | 3 | 47–80% | **MEDIUM** | Secondary metabolite BGC related to nidulanin A [T2] |
+| 44 | `482` | `482_c1` | `NRPS-like` | 1..63,036 (63,036 bp) | `—` | No MIBiG match (Orphan) | — | 0 | — | **ORPHAN** | Uncharacterized orphan BGC (zero KnownClusterBlast hits) [T2] |
+| 45 | `485` | `485_c1` | `isocyanide` | 1..140,412 (140,412 bp) | `BGC0001248.3` | **clavaric acid** | 704 | 1 | 48–48% | **LOW** | Secondary metabolite BGC related to clavaric acid [T2] |
+| 46 | `485` | `485_c2` | `NRPS-like` | 1..63,129 (63,129 bp) | `BGC0002167.2` | **actinopolymorphol C/morpholine containing hemiacetal piperazine compound/piperazine compound 2/piperazine compound 1/3-(p-hydroxyphenyl)-1,2-propanediol/N,N-dioxide containing derivate/O-sulfonated actinopolymorphol C/C-3 sulfonylated derivative** | 6,338 | 6 | 99–100% | **HIGH** | Secondary metabolite BGC related to actinopolymorphol C [T2] |
+| 47 | `485` | `485_c3` | `NRPS` | 1..71,964 (71,964 bp) | `—` | No MIBiG match (Orphan) | — | 0 | — | **ORPHAN** | Uncharacterized orphan BGC (zero KnownClusterBlast hits) [T2] |
+| 48 | `485` | `485_c4` | `indole` | 1..31,128 (31,128 bp) | `—` | No MIBiG match (Orphan) | — | 0 | — | **ORPHAN** | Uncharacterized orphan BGC (zero KnownClusterBlast hits) [T2] |
+| 49 | `486` | `486_c1` | `NRPS-like` | 1..110,461 (110,461 bp) | `—` | No MIBiG match (Orphan) | — | 0 | — | **ORPHAN** | Uncharacterized orphan BGC (zero KnownClusterBlast hits) [T2] |
+| 50 | `486` | `486_c2` | `T1PKS` | 1..67,427 (67,427 bp) | `BGC0000027.4` | **ankaflavin/monascin/rubropunctatine/monascorubrin** | 2,440 | 2 | 47–51% | **MEDIUM** | Secondary metabolite BGC related to ankaflavin [T2] |
+| 51 | `486` | `486_c3` | `T1PKS` | 1..61,151 (61,151 bp) | `—` | No MIBiG match (Orphan) | — | 0 | — | **ORPHAN** | Uncharacterized orphan BGC (zero KnownClusterBlast hits) [T2] |
+| 52 | `497` | `497_c1` | `terpene` | 1..32,296 (32,296 bp) | `—` | No MIBiG match (Orphan) | — | 0 | — | **ORPHAN** | Uncharacterized orphan BGC (zero KnownClusterBlast hits) [T2] |
+| 53 | `614` | `614_c1` | `terpene` | 1..34,444 (34,444 bp) | `—` | No MIBiG match (Orphan) | — | 0 | — | **ORPHAN** | Uncharacterized orphan BGC (zero KnownClusterBlast hits) [T2] |
+| 54 | `614` | `614_c2` | `T1PKS` | 1..67,290 (67,290 bp) | `BGC0002238.3` | **2,4'-dihydroxy-3'-methoxypropiophenone** | 5,797 | 2 | 97–100% | **MEDIUM** | Secondary metabolite BGC related to 2,4'-dihydroxy-3'-methoxypropiophenone [T2] |
+| 55 | `641` | `641_c1` | `indole` | 1..31,441 (31,441 bp) | `—` | No MIBiG match (Orphan) | — | 0 | — | **ORPHAN** | Uncharacterized orphan BGC (zero KnownClusterBlast hits) [T2] |
+| 56 | `641` | `641_c2` | `terpene` | 1..31,302 (31,302 bp) | `—` | No MIBiG match (Orphan) | — | 0 | — | **ORPHAN** | Uncharacterized orphan BGC (zero KnownClusterBlast hits) [T2] |
+| 57 | `641` | `641_c3` | `T1PKS` | 1..83,507 (83,507 bp) | `BGC0002267.2` | **azasperpyranone A/azasperpyranone B/azasperpyranone C/azasperpyranone D/azasperpyranone E/azasperpyranone F/azasperpyranone G/azasperpyranone H** | 2,809 | 3 | 47–49% | **MEDIUM** | Secondary metabolite BGC related to azasperpyranone A [T2] |
+| 58 | `702` | `702_c1` | `NRPS` | 1..76,569 (76,569 bp) | `—` | No MIBiG match (Orphan) | — | 0 | — | **ORPHAN** | Uncharacterized orphan BGC (zero KnownClusterBlast hits) [T2] |
+| 59 | `702` | `702_c2` | `NRPS` | 1..81,035 (81,035 bp) | `—` | No MIBiG match (Orphan) | — | 0 | — | **ORPHAN** | Uncharacterized orphan BGC (zero KnownClusterBlast hits) [T2] |
+| 60 | `703` | `703_c1` | `terpene` | 1..86,011 (86,011 bp) | `BGC0000045.3` | **dehydrocurvularin** | 1,043 | 3 | 47–54% | **MEDIUM** | Secondary metabolite BGC related to dehydrocurvularin [T2] |
+| 61 | `703` | `703_c2` | `nitropropanoic_acid` | 1..17,956 (17,956 bp) | `Rule match `(NpaA & NpaB)`` | ⚠️ **3-Nitropropanoic acid (3-NPA)** | — | 4 | Specific rule | **MEDIUM** | ⚠️ **NEUROTOXIN / MITOCHONDRIAL POISON:** 3-Nitropropanoic acid (3-NPA) BGC matched by rule `(NpaA & NpaB)` (17,956 bp) [T2] |
+| 62 | `815` | `815_c1` | `terpene` | 1..81,698 (81,698 bp) | `—` | No MIBiG match (Orphan) | — | 0 | — | **ORPHAN** | Uncharacterized orphan BGC (zero KnownClusterBlast hits) [T2] |
+| 63 | `826` | `826_c1` | `NRPS` | 1..67,961 (67,961 bp) | `BGC0002157.2` | **(-)-ditryptophenaline** | 6,216 | 3 | 91–99% | **MEDIUM** | Secondary metabolite BGC related to (-)-ditryptophenaline [T2] |
+| 64 | `826` | `826_c2` | `T1PKS` | 1..66,651 (66,651 bp) | `BGC0002175.3` | **YWA1** | 4,277 | 1 | 100–100% | **MEDIUM** | Secondary metabolite BGC related to YWA1 [T2] |
+| 65 | `826` | `826_c3` | `terpene` | 1..32,405 (32,405 bp) | `BGC0001248.3` | **clavaric acid** | 744 | 1 | 51–51% | **MEDIUM** | Secondary metabolite BGC related to clavaric acid [T2] |
+| 66 | `827` | `827_c1` | `NRPS` | 1..100,047 (100,047 bp) | `BGC0002710.2` | **metachelin C/metachelin A/metachelin A-CE/metachelin B/dimerumic acid 11-mannoside/dimerumic acid** | 1,714 | 2 | 46–53% | **MEDIUM** | Metachelin C / dimerumic acid hydroxamate siderophore NRPS [T2] |
+| 67 | `904` | `904_c1` | `NRPS-like` | 1..86,817 (86,817 bp) | `BGC0000404.4` | **penicillin** | 6,518 | 2 | 79–85% | **MEDIUM** | Secondary metabolite BGC related to penicillin [T2] |
+| 68 | `904` | `904_c2` | `terpene` | 1..51,233 (51,233 bp) | `—` | No MIBiG match (Orphan) | — | 0 | — | **ORPHAN** | Uncharacterized orphan BGC (zero KnownClusterBlast hits) [T2] |
+| 69 | `960` | `960_c1` | `T1PKS` | 1..65,347 (65,347 bp) | `BGC0001276.3` | **6-methylsalicyclic acid** | 2,075 | 1 | 60–60% | **MEDIUM** | Secondary metabolite BGC related to 6-methylsalicyclic acid [T2] |
+| 70 | `1334` | `1334_c1` | `NRPS` | 1..76,133 (76,133 bp) | `—` | No MIBiG match (Orphan) | — | 0 | — | **ORPHAN** | Uncharacterized orphan BGC (zero KnownClusterBlast hits) [T2] |
+| 71 | `1340` | `1340_c1` | `T1PKS` | 1..79,127 (79,127 bp) | `BGC0000007.3` | ⛔ **aflatoxin G1/aflatoxin B1** | 16,946 | 11 | 51–97% | **HIGH** | ⛔ **CRITICAL TOXIN:** Intact cluster encoding Aflatoxin B1/G1 and Cyclopiazonic acid (CPA); eliminates live agricultural use [T2] |
+| 72 | `1845` | `1845_c1` | `T1PKS` | 1..66,072 (66,072 bp) | `BGC0002237.3` | **dichlorodiaporthin** | 6,738 | 5 | 96–100% | **HIGH** | Secondary metabolite BGC related to dichlorodiaporthin [T2] |
+| 73 | `1924` | `1924_c1` | `NRPS-like` | 1..63,066 (63,066 bp) | `BGC0001516.5` | ⚠️ **aspergillic acid** | 6,227 | 6 | 75–100% | **HIGH** | ⚠️ **HEPATOTOXIN:** Aspergillic acid pyrazinone cluster; 6 genes with 75–100% identity [T2] |
+| 74 | `2001` | `2001_c1` | `T3PKS` | 1..35,116 (35,116 bp) | `—` | No MIBiG match (Orphan) | — | 0 | — | **ORPHAN** | Uncharacterized orphan BGC (zero KnownClusterBlast hits) [T2] |
+
+---
+
+## 8. Coverage Gaps & Biosynthetic Limitations
+
+#### 8.1 Peptaibol Synthetase Gap Analysis in TA-PUJ (*Trichoderma asperellum*)
+Peptaibols are linear, non-ribosomal peptide antibiotics typically 7 to 20 amino acid residues in length, enriched in the non-proteinogenic amino acid alpha-aminoisobutyric acid (Aib), and characterized by an N-terminal acetyl cap and a C-terminal amino alcohol (such as phenylalaninol, leucinol, or valinol). Within the biocontrol genus *Trichoderma*, 18-to-20-residue peptaibols (including trichorzianines, peptavirins, and alamethicins) serve as powerful membrane-permeabilizing agents. They act synergistically with fungal cell-wall-degrading chitinases and beta-glucanases to perforate and lyse target phytopathogenic fungal hyphae (*Rhizoctonia*, *Fusarium*, *Pythium*).
+
+In isolate TA-PUJ, antiSMASH region `contig_52_c1` encodes the largest non-ribosomal peptide synthetase detected in the entire assembly: locus `TA:PUJ_000117` (spanning coordinates 27,050..39,773 bp on `contig_52`, joining 12 exons, and translating to a 3,931-amino-acid polypeptide containing four complete adenylation modules). Crucially, canonical 18-to-20-residue peptaibol synthetases documented in benchmark *Trichoderma* biocontrol strains—such as *tex1* from *Trichoderma virens* (Gv29-8) or *pps1* from *Trichoderma atroviride*—exceed 6,000 to 7,000 amino acids in length across 18 to 20 catalytic modules. No such megasynthetase of >=6,000 aa was assembled in TA-PUJ.
+
+However, KnownClusterBlast analysis of region `contig_1342_c1` reveals a secondary match to the AbT1 peptaibol BGC (`BGC0000300.5`, score 740, 1 protein hit, 57% identity), and `TA:PUJ_000117` exhibits partial domain architecture homologous to non-ribosomal peptaibol assembly lines. Crucially, as established under **Audit Finding C1**, the TA-PUJ assembly is fragmented into 1,376 contigs and represents only ~55–60% completeness relative to the typical 40-Mb genome size of *T. asperellum*. Highly repetitive multi-modular NRPS condensation and adenylation domains frequently collapse during short-read assembly, breaking megasynthetases across contig boundaries or failing to assemble entirely. Therefore, computational non-detection cannot be interpreted as physiological absence. Direct analytical validation via LC-MS/MS—specifically monitoring for the diagnostic MS/MS neutral loss of aminoisobutyric acid (Aib, 85 Da)—is mandatory in Tier 5 wet-lab screening before declaring TA-PUJ deficient in peptaibol-mediated antagonism.
+
+---
+
+#### 8.2 Auxin (Indole-3-Acetic Acid) Biosynthesis Gap Analysis in TA-PUJ
+Auxin (indole-3-acetic acid, IAA) production is a primary mechanism whereby fungal biocontrol agents stimulate host plant root elongation, enhance lateral root branching, and increase nutrient absorption capacity in the rhizosphere. Previous preliminary reviews of TA-PUJ erroneously attributed definitive autonomous auxin biosynthesis to the isolate under confident tier designations without demonstrating the presence of the terminal enzymatic machinery.
+
+Rigorous re-annotation of the Funannotate gene models reveals that isolate TA-PUJ possesses the conserved upstream shikimate/tryptophan biosynthetic pathway, as evidenced by two co-existing anthranilate synthase components: locus `TA:PUJ_001036` on `contig_356` (719 aa, harboring anthranilate synthase and indole-3-glycerol phosphate synthase domains, Pfam `PF00290` and `PF00291`, EC 4.2.1.20) and locus `TA:PUJ_001836` on `contig_693` (761 aa, harboring Pfam `PF00117`, `PF00218`, and `PF00697`). These loci mediate primary metabolic synthesis of L-tryptophan from chorismate.
+
+However, neither the canonical indole-3-pyruvic acid (IPA) pathway nor the indole-3-acetamide (IAM) pathway could be unequivocally confirmed at the genomic level in TA-PUJ. Specifically, no candidate locus exhibited confident homology to fungal flavin-containing monooxygenases of the *YUCCA* family (EC 1.14.13.168), nor to stereospecific indole-3-pyruvate decarboxylases (*ipdC*, EC 4.1.1.74). Although four nitrilase-family enzymes (`PF02979`, EC 3.5.5.1) are present in TA-PUJ (`TA:PUJ_000676`, `TA:PUJ_002829`, `TA:PUJ_003006`, `TA:PUJ_003664`), their involvement in indole-3-acetonitrile (IAN) hydrolysis remains uncharacterized in this strain.
+
+Consequently, plant growth promotion via auxin synthesis is downgraded to **Tier 3 (Literature & Secondary Inference)**. Autonomous IAA secretion must not be claimed as an established genomic feature. The development team must perform in vitro verification using the Salkowski colorimetric reagent on cell-free supernatants supplemented with 1–5 mM L-tryptophan, followed by confirmatory high-resolution LC-MS/MS quantification ($m/z$ 176.07 $[M+H]^+$) to establish whether TA-PUJ produces functional auxins in the rhizosphere.
+
+---
+
+#### 8.3 Secondary Metabolite Profile Gaps & Trichoderma-Specific Screening Protocol
+While *Trichoderma asperellum* is widely regarded as a beneficial biocontrol agent, species within the genus *Trichoderma* exhibit substantial strain-level divergence in secondary metabolite production. Notably, certain strains produce volatile pyrones (such as 6-pentyl-alpha-pyrone, 6-PP), viridiofungins, trichodermin, or sesquiterpene trichothecenes (e.g., harzianum A). Trichothecenes are ribosome-inactivating mycotoxins whose presence in agricultural inoculants poses ecotoxicological hazards to non-target soil fauna, livestock, and farm workers.
+
+In isolate TA-PUJ, antiSMASH identified 21 biosynthetic gene clusters, 8 of which share similarity with characterized MIBiG references (including leucinostatin, metachelin, enniatin, trichobrasilenol, squalestatin, and equisetin). However, **13 of the 21 BGC regions (61.9%) are uncharacterized orphan clusters** lacking significant similarity to any known secondary metabolite cluster in public databases. Furthermore, due to the ~55–60% assembly completeness of TA-PUJ, an unknown number of secondary metabolic clusters may reside in unassembled genomic regions.
+
+To guarantee agricultural safety and regulatory compliance for field deployment, the development team must execute a rigorous *Trichoderma*-specific metabolomic screening protocol before commercial pilot trials:
+1. **Harzianum Acid & Polyketide Profiling:** Culture TA-PUJ on potato dextrose broth (PDB) and malt extract broth (MEB) for 14 days under light/dark cycling. Extract culture broth and mycelia with ethyl acetate; perform untargeted UHPLC-Q-TOF-MS to screen for harzianum acid ($m/z$ 403.2 $[M-H]^-$), koninginins, and related trichoderma polyketides.
+2. **Trichothecene Pathway Intermediates Screen:** Perform targeted MRM LC-MS/MS against trichothecene standards (harzianum A, trichodermin, and trichodermol). Verify that TA-PUJ does not accumulate epoxytrichothecene intermediates under plant-associated or stressed growth conditions.
+3. **Peptaibol Neutral-Loss MS/MS:** Screen methanolic mycelial extracts on high-resolution Q-Exactive MS/MS for diagnostic neutral loss fragments of 85.05 Da (2-aminoisobutyric acid, Aib) and 99.07 Da (isovaline, Iva), establishing the exact molecular diversity of linear peptaibols produced by this isolate.
+4. **Volatile Compound Profiling:** Utilize solid-phase microextraction gas chromatography-mass spectrometry (SPME-GC-MS) to characterize volatile organic compounds (VOCs), quantifying 6-pentyl-alpha-pyrone (6-PP, $m/z$ 166) and brasilane sesquiterpenes produced during confrontation with soil pathogens.
+
+---
+
+## 9. Comprehensive Methods Appendix & Computational Provenance
+
+### 9.1 Primary Data Payloads & Cryptographic Integrity
+The analyses presented in this document derive directly from the primary annotated genome files and antiSMASH secondary metabolism output records. Cryptographic SHA-256 checksums and exact file sizes are documented below to ensure absolute reproducibility:
+
+| File Role / Description | Repository Path | Exact Size (Bytes) | SHA-256 Checksum |
+| :--- | :--- | :---: | :--- |
+| **TA-PUJ Structural Annotation** | `fungiSMASH-TA/input/Funannotate-annotated-genome-TA.gbk` | 45,029,346 | `c07f6c6e379fec380ce81551c82c8839a427cbdf683a6bd2dc92be52b291964f` |
+| **TA-PUJ antiSMASH BGC Output** | `fungiSMASH-TA/Funannotate-annotated-genome-TA.gbk` | 44,880,695 | `b27db6f44d8fe3e7661558cc97a6ce08358b38d3647f9c3b3a5d91bfde44236f` |
+| **AF-PUJ antiSMASH BGC Output** | `fungiSMASH-AF/Funannotate-annotated-genome-AF.gbk` | 83,318,907 | `d3fb74bf367092e66358abfd09dbdb4a6f44e5e9c1aceddd9e12dc508c106508` |
+
+### 9.2 Software Pipeline & Computational Environment
+- **BGC Prediction:** antiSMASH version 8.0.4 with strict detection rules, KnownClusterBlast against the MIBiG secondary metabolism database, SubClusterBlast, and ActiveSiteFinder enabled.
+- **Structural & Functional Annotation:** Funannotate version 1.8.17 combining Augustus, GeneMark-ES, Pfam-A HMMs, and InterProScan functional domain signatures.
+- **Parsing & Auditing Toolchain:** Biopython version 1.84 and Python 3.12 executed under Windows x86_64 runtime environment.
+- **Automated Verification Suite:** Repository scripts `scripts/recount_families.py` (family recounting and signature verification) and `scripts/extract_bgc_inventory.py` (BGC inventory extraction).
+
+### 9.3 Parsing Workarounds & Pfam Identifier Sensitivity
+During initial data audits, standard automated parsing tools (such as `gbparse/io.py`) failed to detect certain protein families due to a regular expression case-sensitivity constraint:
+```python
+# Legacy parser pattern:
+re.match(r'^(?:Pfam:)?(PF\d+)', val)
+```
+Because Funannotate generates uppercase cross-reference qualifiers formatted as `/db_xref="PFAM:PF00704"`, parsers expecting lowercase `Pfam:` silently omitted valid functional domains. In this revision, the audit pipeline utilizes direct parsing of raw `/db_xref` strings with case-insensitive matching (`PFAM:` and `Pfam:`), resolving all discrepancies and establishing the single source of truth in `scripts/recount_families.py`.
+
+### 9.4 Functional Family Signature Sets
+Enzyme family counts in the Master Validation Matrix (Section 1) are defined by the following signature sets:
+
+| Functional Family | Query Pfam Identifiers | Query EC Numbers | InterPro Signatures | Recount Script Reference |
+| :--- | :--- | :--- | :--- | :--- |
+| **GH18 Chitinases** | `PF00704` | `3.2.1.14` | `IPR001223` | `scripts/recount_families.py` |
+| **GH75 Chitosanases** | `PF03240` | `3.2.1.132` | `IPR004840` | `scripts/recount_families.py` |
+| **Glutathione S-Transferases (GST)**| `PF02798`, `PF00043`, `PF13409`, `PF14497` | `2.5.1.18` | `IPR004045`, `IPR004046`, `IPR010981` | `scripts/recount_families.py` |
+| **Laccases / Multicopper Oxidases** | `PF00394`, `PF07731` | `1.10.3.2` | `IPR001117` | `scripts/recount_families.py` |
+| **Cytochrome P450s** | `PF00067` | — | `IPR001128`, `IPR002401` | `scripts/recount_families.py` |
+| **ACC Deaminase Family** | `PF00291` | `3.5.99.7` | `IPR005965` | `scripts/recount_families.py` |
+| **Terpene Cyclases / Synthases** | `PF19086`, `PF03936` | — | `IPR008949`, `IPR034686` | `scripts/recount_families.py` |
+| **Nitrilase Family** | `PF02979` | `3.5.5.1` | `IPR003010` | `scripts/recount_families.py` |
+
+### 9.5 MIBiG KnownClusterBlast Confidence Tiers
+To prevent over-interpretation of automated database alignments, all BGC assignments are categorized into four standardized confidence tiers:
+- **HIGH CONFIDENCE:** Requires $\ge$5 homologous gene hits in the target cluster AND $\ge$80% maximum amino acid identity to the characterized MIBiG reference. Indicates robust cluster orthology.
+- **MEDIUM CONFIDENCE:** Requires 2 to 4 homologous gene hits OR 50% to 79% maximum amino acid identity. Indicates homologous or related biosynthetic machinery, though end-product structure may vary.
+- **LOW CONFIDENCE:** Exhibits only 1 homologous gene hit OR <50% maximum amino acid identity. Indicates domain-level similarity or shared tailoring enzymes, requiring experimental structural confirmation.
+- **ORPHAN (UNASSIGNED):** Zero significant KnownClusterBlast hits to any characterized MIBiG reference. BGC is predicted solely based on antiSMASH signature profile rules (e.g., presence of core NRPS, PKS, or terpene synthases).
+
+### 9.6 Methodological Boundaries: Analyses NOT Run
+To maintain strict scientific transparency, the following analyses were **not performed** during this review and represent prospective avenues for further investigation:
+1. **De Novo BUSCO Genome Completeness Assessment:** BUSCO was not re-run on the raw FASTA assemblies. The ~55–60% completeness estimate for TA-PUJ is derived by comparing assembly length (23.9 Mb) and gene count (6,009) to reference *T. asperellum* genomes (~40 Mb, ~11,000–12,000 genes).
+2. **Dedicated dbCAN / HMMER CAZy Re-Annotation:** Glycosyl hydrolase and carbohydrate-active enzyme counts were extracted from existing Funannotate Pfam and EC annotations, without a dedicated run of the dbCAN3 meta-server.
+3. **External BLAST Searches Against NCBI nr / Swiss-Prot:** Hypothetical proteins and orphan BGC genes were not subjected to exhaustive remote BLAST searches against the complete NCBI non-redundant database.
+
+---
+
+## 10. Audit Findings & Traceability Change Log (V5 -> V6)
+
+This revision represents a comprehensive overhaul from V5 to **AGRI-BIOCONTROL-GENOMIC-SCRUTINY-V6**, resolving all 24 findings identified during the external genomic audit (`audit-findings-agriculture-support-biocontrol-review.md`):
+
+| Finding ID | Finding Classification | Summary of Issue Identified in V5 | Resolution Implemented in V6 | Review Section(s) |
+| :---: | :---: | :--- | :--- | :---: |
+| **C1** | **Critical** | TA-PUJ assembly is partial (~55–60% completeness), yet absence claims were treated as definitive | Added Assembly Completeness Assessment caveats; restricted negative claims; updated Data Provenance Box | Preamble, §0, §0.1, §5, §8 |
+| **C2** | **Critical** | Absolute claims of complete absence of secondary toxins in TA-PUJ overlooked 13 orphan BGCs | Caveated all absence claims; detailed 13 orphan BGCs; instituted Trichoderma metabolite screening protocol | Exec Summary, §1, §4, §7A, §8.3 |
+| **C3** | **Critical** | 5,098 locus tags collide between TA-PUJ and AF-PUJ (`PUJ_000001`–`PUJ_006009`), causing ambiguity | Mandated strict isolate prefixing (`TA:PUJ_xxxxx` vs. `AF:PUJ_xxxxx`) throughout all text, tables, and gene models | Throughout (§1, §2, §3, §4, §5, §8) |
+| **C4** | **Critical** | 3-Nitropropanoic acid (`703_c2`) toxigenic BGC in AF-PUJ was omitted from biosafety review | Added 3-NPA as 5th toxigenic BGC; incorporated into biosafety alert, comparison table, and LC-MS/MS panel | §4, §5, §6, §7B |
+| **M1** | **Major** | AF BGC inventory was truncated to 5 rows, obscuring 40 orphan BGCs and multiple secondary clusters | Expanded Section 7B to full 74-region inventory; declared 40 unassigned orphan BGCs explicitly | §7B |
+| **M2** | **Major** | TA BGC inventory omitted 13 uncharacterized orphan clusters (rows 9–21 grouped as "Various") | Expanded Section 7A to full 21-region inventory; documented all 13 orphan BGC coordinates and types | §7A |
+| **M3** | **Major** | Enzyme family counts in Section 1 conflicted with signature sets (e.g., GST 34 vs 18; CuOx 2 vs 7) | Re-counted all families using `scripts/recount_families.py`; validated exact counts against `family_counts.json` | §1, §2, §5, §9.4 |
+| **M4** | **Major** | Aflatoxin cluster identity claims (75–100%) were inaccurate; AflR is 94%, PksA is 97% | Updated identity ranges to 51–97% for `BGC0000007.3`; cited secondary hit `BGC0000008.3` (99–100%) | Exec Summary, §3, §4, §7B |
+| **M5** | **Major** | Aflatoxin cluster table contained unverified EC numbers not present in Funannotate records | Verified EC annotations against GBK records; corrected `nor-1` and `aflR` EC assignments | §3 (Aflatoxin Table) |
+| **M6** | **Major** | ACC deaminase table included candidate `AF:PUJ_008483` without InterPro `IPR005965` verification | Explicitly noted `AF:PUJ_008483` lacks `IPR005965` signature; confirmed 0 verified ACC deaminases in AF | §1, §3, §5 |
+| **M7** | **Major** | Siderophore operon locus coordinates and identities were misattributed | Corrected NIS synthetase to `AF:PUJ_004419` (797 aa); noted 0 MIBiG hits (domain prediction only) | §3, §4, §7B |
+| **M8** | **Major** | Peptaibol absence claims failed to evaluate largest NRPS `TA:PUJ_000117` or secondary AbT1 hit | Added Section 8.1 dedicated peptaibol gap analysis; mandated Aib neutral-loss MS/MS screening | §8.1, §6 |
+| **M9** | **Major** | Auxin (IAA) biosynthesis was over-interpreted as proven genomic trait | Re-tiered IAA to T3 literature inference; detailed anthranilate synthases; mandated Salkowski assay | §1, §5, §8.2 |
+| **m1** | **Minor** | Brasilane sesquiterpene synthase locus coordinates were inverted | Corrected `TA:PUJ_005301` coordinates to 11,954..13,395 bp on `contig_1813` | §1, §2, §3, §5 |
+| **m2** | **Minor** | Glucanase counts conflicted between Section 1 (8) and Section 5 (1) | Reconciled glucanase count to 1 EC-annotated glucanase in TA (`TA:PUJ_002476`, EC 3.2.1.39) | §1, §5 |
+| **m3** | **Minor** | Phosphatase count in AF was ambiguous (6 loci in PHO regulon vs. 179 total across genome) | Clarified genome-wide total (179 phosphatases) vs. co-clustered PHO regulon loci (6 loci) | §1, §3, §5 |
+| **m4** | **Minor** | Aflatoxin scaffold 1340 length was inaccurately cited | Corrected scaffold 1340 length to exact 135,160 bp | §3 (Cluster Narrative) |
+| **m5** | **Minor** | CPA cluster reference lacked specific MIBiG identifier and gene count | Updated CPA reference to `BGC0000977.4` (4 gene hits, 90–97% identity, score 9,573) | §3, §4, §7B |
+| **m6** | **Minor** | Aspirochlorine hit metrics lacked exact gene count and identity | Updated to `BGC0001123.5` (19 gene hits, 94–100% identity, score 17,383) | §4, §7B |
+| **m7** | **Minor** | Aspergillic acid hit metrics lacked exact gene count and identity | Updated to `BGC0001516.5` (6 gene hits, 75–100% identity, score 6,227) | §4, §7B |
+| **m8** | **Minor** | Document version header was outdated (V5) | Bumped document header to `AGRI-BIOCONTROL-GENOMIC-SCRUTINY-V6` | Header |
+| **m9** | **Minor** | File provenance, sizes, and file paths were undocumented | Added Data Provenance Box at top of document and Methods Section 9.1 | Preamble, §9.1 |
+| **m10** | **Minor** | Evidence confidence tiers lacked formal operational definitions | Formalized Confidence Tier Legend ([T1] to [T4]) and MIBiG tiers (HIGH/MED/LOW/ORPHAN) | Header, §7, §9.5 |
+| **m11** | **Minor** | Database attributions and licensing notices needed retention and standardization | Retained and expanded comprehensive attribution notices for InterPro, UniProt, NCBI, and MIBiG | §11 |
+
+---
+
+## 11. Database Attributions & Licensing Notices
+
+As required by scientific reproducibility standards, institutional data governance, and skill guidelines:
 - **EBI InterPro Database:** Terms and licensing available at [https://www.ebi.ac.uk/interpro/](https://www.ebi.ac.uk/interpro/) and [https://www.ebi.ac.uk/about/terms-of-use/](https://www.ebi.ac.uk/about/terms-of-use/).
 - **UniProt Knowledgebase (UniProtKB):** Terms and licensing available at [https://www.uniprot.org/help/license](https://www.uniprot.org/help/license).
 - **NCBI Entrez Databases:** Terms and data policies available at [https://www.ncbi.nlm.nih.gov/home/about/policies/](https://www.ncbi.nlm.nih.gov/home/about/policies/).
