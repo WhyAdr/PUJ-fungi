@@ -1,0 +1,1858 @@
+{
+  "TA": [
+    {
+      "region_id": "contig_52_c1",
+      "scaffold": "contig_52",
+      "region_num": 1,
+      "start": 1,
+      "end": 53953,
+      "length": 53953,
+      "type": "NRPS",
+      "top_hit": {
+        "bgc": "BGC0001255.4",
+        "compound": "equisetin",
+        "type": "NRPS:Type I+PKS",
+        "n_prot": 2,
+        "score": 765.0,
+        "id_range": "46\u201351%",
+        "max_id": 51
+      },
+      "secondary_hits": [],
+      "confidence": "MEDIUM"
+    },
+    {
+      "region_id": "contig_76_c1",
+      "scaffold": "contig_76",
+      "region_num": 1,
+      "start": 1,
+      "end": 13169,
+      "length": 13169,
+      "type": "terpene",
+      "top_hit": null,
+      "secondary_hits": [],
+      "confidence": "ORPHAN"
+    },
+    {
+      "region_id": "contig_470_c1",
+      "scaffold": "contig_470",
+      "region_num": 1,
+      "start": 1,
+      "end": 14308,
+      "length": 14308,
+      "type": "T1PKS",
+      "top_hit": null,
+      "secondary_hits": [],
+      "confidence": "ORPHAN"
+    },
+    {
+      "region_id": "contig_473_c1",
+      "scaffold": "contig_473",
+      "region_num": 1,
+      "start": 1,
+      "end": 36496,
+      "length": 36496,
+      "type": "NRPS",
+      "top_hit": null,
+      "secondary_hits": [],
+      "confidence": "ORPHAN"
+    },
+    {
+      "region_id": "contig_579_c1",
+      "scaffold": "contig_579",
+      "region_num": 1,
+      "start": 1,
+      "end": 12824,
+      "length": 12824,
+      "type": "NRPS",
+      "top_hit": null,
+      "secondary_hits": [],
+      "confidence": "ORPHAN"
+    },
+    {
+      "region_id": "contig_599_c1",
+      "scaffold": "contig_599",
+      "region_num": 1,
+      "start": 1,
+      "end": 12643,
+      "length": 12643,
+      "type": "terpene",
+      "top_hit": null,
+      "secondary_hits": [],
+      "confidence": "ORPHAN"
+    },
+    {
+      "region_id": "contig_627_c1",
+      "scaffold": "contig_627",
+      "region_num": 1,
+      "start": 1,
+      "end": 19667,
+      "length": 19667,
+      "type": "NRPS",
+      "top_hit": null,
+      "secondary_hits": [],
+      "confidence": "ORPHAN"
+    },
+    {
+      "region_id": "contig_675_c1",
+      "scaffold": "contig_675",
+      "region_num": 1,
+      "start": 1,
+      "end": 12073,
+      "length": 12073,
+      "type": "terpene",
+      "top_hit": null,
+      "secondary_hits": [],
+      "confidence": "ORPHAN"
+    },
+    {
+      "region_id": "contig_697_c1",
+      "scaffold": "contig_697",
+      "region_num": 1,
+      "start": 1,
+      "end": 17737,
+      "length": 17737,
+      "type": "NRPS",
+      "top_hit": {
+        "bgc": "BGC0002164.2",
+        "compound": "peramine",
+        "type": "NRPS:Type I",
+        "n_prot": 1,
+        "score": 80.0,
+        "id_range": "50\u201350%",
+        "max_id": 50
+      },
+      "secondary_hits": [],
+      "confidence": "MEDIUM"
+    },
+    {
+      "region_id": "contig_703_c1",
+      "scaffold": "contig_703",
+      "region_num": 1,
+      "start": 1,
+      "end": 15907,
+      "length": 15907,
+      "type": "NRPS",
+      "top_hit": null,
+      "secondary_hits": [],
+      "confidence": "ORPHAN"
+    },
+    {
+      "region_id": "contig_909_c1",
+      "scaffold": "contig_909",
+      "region_num": 1,
+      "start": 1,
+      "end": 18863,
+      "length": 18863,
+      "type": "terpene-precursor",
+      "top_hit": null,
+      "secondary_hits": [],
+      "confidence": "ORPHAN"
+    },
+    {
+      "region_id": "contig_1144_c1",
+      "scaffold": "contig_1144",
+      "region_num": 1,
+      "start": 1,
+      "end": 18078,
+      "length": 18078,
+      "type": "T1PKS",
+      "top_hit": {
+        "bgc": "BGC0002063.3",
+        "compound": "cryptosporioptide B/cryptosporioptide A/cryptosporioptide C",
+        "type": "PKS:Iterative type I",
+        "n_prot": 2,
+        "score": 2191.0,
+        "id_range": "64\u201367%",
+        "max_id": 67
+      },
+      "secondary_hits": [
+        {
+          "bgc": "BGC0001284.4",
+          "compound": "alternariol",
+          "type": "PKS",
+          "n_prot": 1,
+          "score": 1256.0,
+          "id_range": "48\u201348%",
+          "max_id": 48
+        },
+        {
+          "bgc": "BGC0001258.3",
+          "compound": "1,3,6,8-tetrahydroxynaphthalene",
+          "type": "PKS",
+          "n_prot": 1,
+          "score": 1184.0,
+          "id_range": "46\u201346%",
+          "max_id": 46
+        }
+      ],
+      "confidence": "MEDIUM"
+    },
+    {
+      "region_id": "contig_1170_c1",
+      "scaffold": "contig_1170",
+      "region_num": 1,
+      "start": 1,
+      "end": 9540,
+      "length": 9540,
+      "type": "NRPS-like",
+      "top_hit": null,
+      "secondary_hits": [],
+      "confidence": "ORPHAN"
+    },
+    {
+      "region_id": "contig_1317_c1",
+      "scaffold": "contig_1317",
+      "region_num": 1,
+      "start": 1,
+      "end": 19051,
+      "length": 19051,
+      "type": "NRPS-like",
+      "top_hit": null,
+      "secondary_hits": [],
+      "confidence": "ORPHAN"
+    },
+    {
+      "region_id": "contig_1342_c1",
+      "scaffold": "contig_1342",
+      "region_num": 1,
+      "start": 1,
+      "end": 30917,
+      "length": 30917,
+      "type": "NRPS",
+      "top_hit": {
+        "bgc": "BGC0001358.4",
+        "compound": "leucinostatin A/leucinostatin B",
+        "type": "NRPS:Type I+PKS",
+        "n_prot": 4,
+        "score": 3862.0,
+        "id_range": "52\u201386%",
+        "max_id": 86
+      },
+      "secondary_hits": [
+        {
+          "bgc": "BGC0000337.4",
+          "compound": "destruxin A",
+          "type": "NRPS:Type I",
+          "n_prot": 3,
+          "score": 1343.0,
+          "id_range": "50\u201371%",
+          "max_id": 71
+        },
+        {
+          "bgc": "BGC0001565.4",
+          "compound": "cyclosporin C",
+          "type": "NRPS:Type I",
+          "n_prot": 3,
+          "score": 2508.0,
+          "id_range": "48\u201362%",
+          "max_id": 62
+        }
+      ],
+      "confidence": "MEDIUM"
+    },
+    {
+      "region_id": "contig_1364_c1",
+      "scaffold": "contig_1364",
+      "region_num": 1,
+      "start": 1,
+      "end": 26911,
+      "length": 26911,
+      "type": "NRPS",
+      "top_hit": null,
+      "secondary_hits": [],
+      "confidence": "ORPHAN"
+    },
+    {
+      "region_id": "contig_1419_c1",
+      "scaffold": "contig_1419",
+      "region_num": 1,
+      "start": 1,
+      "end": 27781,
+      "length": 27781,
+      "type": "NRPS",
+      "top_hit": {
+        "bgc": "BGC0002710.2",
+        "compound": "metachelin C/metachelin A/metachelin A-CE/metachelin B/dimerumic acid 11-mannoside/dimerumic acid",
+        "type": "NRPS:Type I",
+        "n_prot": 2,
+        "score": 2034.0,
+        "id_range": "50\u201362%",
+        "max_id": 62
+      },
+      "secondary_hits": [
+        {
+          "bgc": "BGC0001249.5",
+          "compound": "dimethylcoprogen",
+          "type": "NRPS:Type I",
+          "n_prot": 1,
+          "score": 1165.0,
+          "id_range": "47\u201347%",
+          "max_id": 47
+        }
+      ],
+      "confidence": "MEDIUM"
+    },
+    {
+      "region_id": "contig_1710_c1",
+      "scaffold": "contig_1710",
+      "region_num": 1,
+      "start": 1,
+      "end": 48447,
+      "length": 48447,
+      "type": "NRPS",
+      "top_hit": {
+        "bgc": "BGC0000342.4",
+        "compound": "enniatin",
+        "type": "NRPS:Type I",
+        "n_prot": 1,
+        "score": 2390.0,
+        "id_range": "54\u201354%",
+        "max_id": 54
+      },
+      "secondary_hits": [
+        {
+          "bgc": "BGC0000307.4",
+          "compound": "AbT1",
+          "type": "NRPS:Type I",
+          "n_prot": 1,
+          "score": 2072.0,
+          "id_range": "52\u201352%",
+          "max_id": 52
+        }
+      ],
+      "confidence": "MEDIUM"
+    },
+    {
+      "region_id": "contig_1778_c1",
+      "scaffold": "contig_1778",
+      "region_num": 1,
+      "start": 1,
+      "end": 24065,
+      "length": 24065,
+      "type": "terpene",
+      "top_hit": {
+        "bgc": "BGC0001839.3",
+        "compound": "squalestatin S1",
+        "type": "terpene:Hemiterpene",
+        "n_prot": 2,
+        "score": 863.0,
+        "id_range": "60\u201361%",
+        "max_id": 61
+      },
+      "secondary_hits": [],
+      "confidence": "MEDIUM"
+    },
+    {
+      "region_id": "contig_1801_c1",
+      "scaffold": "contig_1801",
+      "region_num": 1,
+      "start": 1,
+      "end": 28608,
+      "length": 28608,
+      "type": "NRPS",
+      "top_hit": null,
+      "secondary_hits": [],
+      "confidence": "ORPHAN"
+    },
+    {
+      "region_id": "contig_1813_c1",
+      "scaffold": "contig_1813",
+      "region_num": 1,
+      "start": 1,
+      "end": 28395,
+      "length": 28395,
+      "type": "terpene",
+      "top_hit": {
+        "bgc": "BGC0002260.3",
+        "compound": "trichobrasilenol/xylarenic acid B/brasilane A/brasilane F/brasilane E/brasilane D",
+        "type": "terpene",
+        "n_prot": 2,
+        "score": 906.0,
+        "id_range": "58\u201361%",
+        "max_id": 61
+      },
+      "secondary_hits": [],
+      "confidence": "MEDIUM"
+    }
+  ],
+  "AF": [
+    {
+      "region_id": "24_c1",
+      "scaffold": "24",
+      "region_num": 1,
+      "start": 1,
+      "end": 45805,
+      "length": 45805,
+      "type": "betalactone",
+      "top_hit": null,
+      "secondary_hits": [],
+      "confidence": "ORPHAN"
+    },
+    {
+      "region_id": "24_c2",
+      "scaffold": "24",
+      "region_num": 2,
+      "start": 1,
+      "end": 31152,
+      "length": 31152,
+      "type": "indole",
+      "top_hit": null,
+      "secondary_hits": [],
+      "confidence": "ORPHAN"
+    },
+    {
+      "region_id": "24_c3",
+      "scaffold": "24",
+      "region_num": 3,
+      "start": 1,
+      "end": 66363,
+      "length": 66363,
+      "type": "NRPS",
+      "top_hit": null,
+      "secondary_hits": [],
+      "confidence": "ORPHAN"
+    },
+    {
+      "region_id": "24_c4",
+      "scaffold": "24",
+      "region_num": 4,
+      "start": 1,
+      "end": 98078,
+      "length": 98078,
+      "type": "T1PKS",
+      "top_hit": {
+        "bgc": "BGC0001446.5",
+        "compound": "asparasone A",
+        "type": "PKS:Iterative type I",
+        "n_prot": 5,
+        "score": 5862.0,
+        "id_range": "97\u2013100%",
+        "max_id": 100
+      },
+      "secondary_hits": [],
+      "confidence": "HIGH"
+    },
+    {
+      "region_id": "24_c5",
+      "scaffold": "24",
+      "region_num": 5,
+      "start": 1,
+      "end": 68097,
+      "length": 68097,
+      "type": "T1PKS",
+      "top_hit": null,
+      "secondary_hits": [],
+      "confidence": "ORPHAN"
+    },
+    {
+      "region_id": "24_c6",
+      "scaffold": "24",
+      "region_num": 6,
+      "start": 1,
+      "end": 70758,
+      "length": 70758,
+      "type": "NRPS-like",
+      "top_hit": {
+        "bgc": "BGC0002276.2",
+        "compound": "choline",
+        "type": "NRPS:Type I",
+        "n_prot": 1,
+        "score": 1941.0,
+        "id_range": "77\u201377%",
+        "max_id": 77
+      },
+      "secondary_hits": [],
+      "confidence": "MEDIUM"
+    },
+    {
+      "region_id": "256_c1",
+      "scaffold": "256",
+      "region_num": 1,
+      "start": 1,
+      "end": 35670,
+      "length": 35670,
+      "type": "terpene",
+      "top_hit": {
+        "bgc": "BGC0002149.2",
+        "compound": "14-(N,N-dimethylleucyloxy)paspalinine/14-(leucyloxy)paspalinine/14-hydroxypaspalinine",
+        "type": "NRPS:Type I+terpene:Diterpene",
+        "n_prot": 3,
+        "score": 1482.0,
+        "id_range": "62\u201372%",
+        "max_id": 72
+      },
+      "secondary_hits": [
+        {
+          "bgc": "BGC0001776.3",
+          "compound": "shearinine D",
+          "type": "terpene",
+          "n_prot": 3,
+          "score": 1477.0,
+          "id_range": "64\u201373%",
+          "max_id": 73
+        },
+        {
+          "bgc": "BGC0001082.4",
+          "compound": "Paxilline/21,22-diprenylated paxilline",
+          "type": "terpene:Hemiterpene",
+          "n_prot": 3,
+          "score": 1434.0,
+          "id_range": "62\u201367%",
+          "max_id": 67
+        }
+      ],
+      "confidence": "MEDIUM"
+    },
+    {
+      "region_id": "256_c2",
+      "scaffold": "256",
+      "region_num": 2,
+      "start": 1,
+      "end": 31068,
+      "length": 31068,
+      "type": "terpene",
+      "top_hit": null,
+      "secondary_hits": [],
+      "confidence": "ORPHAN"
+    },
+    {
+      "region_id": "256_c3",
+      "scaffold": "256",
+      "region_num": 3,
+      "start": 1,
+      "end": 63562,
+      "length": 63562,
+      "type": "NRPS",
+      "top_hit": {
+        "bgc": "BGC0001995.3",
+        "compound": "heptelidic acid",
+        "type": "terpene",
+        "n_prot": 4,
+        "score": 2420.0,
+        "id_range": "97\u201399%",
+        "max_id": 99
+      },
+      "secondary_hits": [],
+      "confidence": "MEDIUM"
+    },
+    {
+      "region_id": "256_c4",
+      "scaffold": "256",
+      "region_num": 4,
+      "start": 1,
+      "end": 62688,
+      "length": 62688,
+      "type": "NRPS-like",
+      "top_hit": null,
+      "secondary_hits": [],
+      "confidence": "ORPHAN"
+    },
+    {
+      "region_id": "256_c5",
+      "scaffold": "256",
+      "region_num": 5,
+      "start": 1,
+      "end": 31631,
+      "length": 31631,
+      "type": "terpene",
+      "top_hit": null,
+      "secondary_hits": [],
+      "confidence": "ORPHAN"
+    },
+    {
+      "region_id": "256_c6",
+      "scaffold": "256",
+      "region_num": 6,
+      "start": 1,
+      "end": 32530,
+      "length": 32530,
+      "type": "terpene",
+      "top_hit": null,
+      "secondary_hits": [],
+      "confidence": "ORPHAN"
+    },
+    {
+      "region_id": "256_c7",
+      "scaffold": "256",
+      "region_num": 7,
+      "start": 1,
+      "end": 94533,
+      "length": 94533,
+      "type": "terpene",
+      "top_hit": {
+        "bgc": "BGC0001515.4",
+        "compound": "aspercryptins",
+        "type": "NRPS:Type I",
+        "n_prot": 3,
+        "score": 1800.0,
+        "id_range": "47\u201367%",
+        "max_id": 67
+      },
+      "secondary_hits": [
+        {
+          "bgc": "BGC0000304.4",
+          "compound": "apicidin",
+          "type": "NRPS:Type I",
+          "n_prot": 2,
+          "score": 480.0,
+          "id_range": "50\u201361%",
+          "max_id": 61
+        },
+        {
+          "bgc": "BGC0001724.4",
+          "compound": "oxaleimide C",
+          "type": "NRPS:Type I+PKS",
+          "n_prot": 2,
+          "score": 451.0,
+          "id_range": "53\u201360%",
+          "max_id": 60
+        }
+      ],
+      "confidence": "MEDIUM"
+    },
+    {
+      "region_id": "258_c1",
+      "scaffold": "258",
+      "region_num": 1,
+      "start": 1,
+      "end": 67340,
+      "length": 67340,
+      "type": "T1PKS",
+      "top_hit": null,
+      "secondary_hits": [],
+      "confidence": "ORPHAN"
+    },
+    {
+      "region_id": "258_c2",
+      "scaffold": "258",
+      "region_num": 2,
+      "start": 1,
+      "end": 68435,
+      "length": 68435,
+      "type": "T1PKS",
+      "top_hit": null,
+      "secondary_hits": [],
+      "confidence": "ORPHAN"
+    },
+    {
+      "region_id": "258_c3",
+      "scaffold": "258",
+      "region_num": 3,
+      "start": 1,
+      "end": 63216,
+      "length": 63216,
+      "type": "NRPS",
+      "top_hit": {
+        "bgc": "BGC0002248.3",
+        "compound": "flavunoidine",
+        "type": "terpene+NRPS:Type I",
+        "n_prot": 7,
+        "score": 7818.0,
+        "id_range": "93\u2013100%",
+        "max_id": 100
+      },
+      "secondary_hits": [
+        {
+          "bgc": "BGC0001475.4",
+          "compound": "aspterric acid",
+          "type": "terpene",
+          "n_prot": 2,
+          "score": 841.0,
+          "id_range": "46\u201348%",
+          "max_id": 48
+        },
+        {
+          "bgc": "BGC0001278.4",
+          "compound": "T-2 toxin",
+          "type": "terpene",
+          "n_prot": 2,
+          "score": 809.0,
+          "id_range": "46\u201347%",
+          "max_id": 47
+        }
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "region_id": "258_c4",
+      "scaffold": "258",
+      "region_num": 4,
+      "start": 1,
+      "end": 68868,
+      "length": 68868,
+      "type": "terpene",
+      "top_hit": {
+        "bgc": "BGC0001518.3",
+        "compound": "astellolide A",
+        "type": "terpene",
+        "n_prot": 8,
+        "score": 8724.0,
+        "id_range": "97\u201399%",
+        "max_id": 99
+      },
+      "secondary_hits": [],
+      "confidence": "HIGH"
+    },
+    {
+      "region_id": "418_c1",
+      "scaffold": "418",
+      "region_num": 1,
+      "start": 1,
+      "end": 33091,
+      "length": 33091,
+      "type": "terpene-precursor",
+      "top_hit": {
+        "bgc": "BGC0002149.2",
+        "compound": "14-(N,N-dimethylleucyloxy)paspalinine/14-(leucyloxy)paspalinine/14-hydroxypaspalinine",
+        "type": "NRPS:Type I+terpene:Diterpene",
+        "n_prot": 3,
+        "score": 1274.0,
+        "id_range": "52\u201367%",
+        "max_id": 67
+      },
+      "secondary_hits": [
+        {
+          "bgc": "BGC0001776.3",
+          "compound": "shearinine D",
+          "type": "terpene",
+          "n_prot": 3,
+          "score": 1247.0,
+          "id_range": "55\u201366%",
+          "max_id": 66
+        },
+        {
+          "bgc": "BGC0001082.4",
+          "compound": "Paxilline/21,22-diprenylated paxilline",
+          "type": "terpene:Hemiterpene",
+          "n_prot": 3,
+          "score": 1219.0,
+          "id_range": "54\u201362%",
+          "max_id": 62
+        }
+      ],
+      "confidence": "MEDIUM"
+    },
+    {
+      "region_id": "418_c2",
+      "scaffold": "418",
+      "region_num": 2,
+      "start": 1,
+      "end": 54988,
+      "length": 54988,
+      "type": "fungal-RiPP",
+      "top_hit": {
+        "bgc": "BGC0000627.4",
+        "compound": "ustiloxin B",
+        "type": "ribosomal:RiPP:Dikaritin",
+        "n_prot": 13,
+        "score": 7477.0,
+        "id_range": "46\u2013100%",
+        "max_id": 100
+      },
+      "secondary_hits": [
+        {
+          "bgc": "BGC0001398.2",
+          "compound": "phomopsin A/phomopsin B/phomopsin E",
+          "type": "ribosomal:RiPP",
+          "n_prot": 3,
+          "score": 736.0,
+          "id_range": "46\u201362%",
+          "max_id": 62
+        }
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "region_id": "418_c3",
+      "scaffold": "418",
+      "region_num": 3,
+      "start": 1,
+      "end": 32523,
+      "length": 32523,
+      "type": "terpene-precursor",
+      "top_hit": null,
+      "secondary_hits": [],
+      "confidence": "ORPHAN"
+    },
+    {
+      "region_id": "418_c4",
+      "scaffold": "418",
+      "region_num": 4,
+      "start": 1,
+      "end": 65039,
+      "length": 65039,
+      "type": "NRPS",
+      "top_hit": null,
+      "secondary_hits": [],
+      "confidence": "ORPHAN"
+    },
+    {
+      "region_id": "418_c5",
+      "scaffold": "418",
+      "region_num": 5,
+      "start": 1,
+      "end": 61324,
+      "length": 61324,
+      "type": "T3PKS",
+      "top_hit": null,
+      "secondary_hits": [],
+      "confidence": "ORPHAN"
+    },
+    {
+      "region_id": "431_c1",
+      "scaffold": "431",
+      "region_num": 1,
+      "start": 1,
+      "end": 68253,
+      "length": 68253,
+      "type": "T1PKS",
+      "top_hit": {
+        "bgc": "BGC0001190.3",
+        "compound": "fusaric acid",
+        "type": "PKS",
+        "n_prot": 2,
+        "score": 829.0,
+        "id_range": "62\u201372%",
+        "max_id": 72
+      },
+      "secondary_hits": [],
+      "confidence": "MEDIUM"
+    },
+    {
+      "region_id": "431_c2",
+      "scaffold": "431",
+      "region_num": 2,
+      "start": 1,
+      "end": 31251,
+      "length": 31251,
+      "type": "terpene-precursor",
+      "top_hit": null,
+      "secondary_hits": [],
+      "confidence": "ORPHAN"
+    },
+    {
+      "region_id": "431_c3",
+      "scaffold": "431",
+      "region_num": 3,
+      "start": 1,
+      "end": 117487,
+      "length": 117487,
+      "type": "T1PKS",
+      "top_hit": {
+        "bgc": "BGC0002222.2",
+        "compound": "zopfiellin",
+        "type": "PKS",
+        "n_prot": 2,
+        "score": 528.0,
+        "id_range": "54\u201355%",
+        "max_id": 55
+      },
+      "secondary_hits": [
+        {
+          "bgc": "BGC0001340.3",
+          "compound": "byssochlamic acid/agnestadride A/agnestadride B/Triketide maleidride monomer type A",
+          "type": "PKS:Type I",
+          "n_prot": 2,
+          "score": 514.0,
+          "id_range": "53\u201353%",
+          "max_id": 53
+        }
+      ],
+      "confidence": "MEDIUM"
+    },
+    {
+      "region_id": "432_c1",
+      "scaffold": "432",
+      "region_num": 1,
+      "start": 1,
+      "end": 63354,
+      "length": 63354,
+      "type": "NRPS-like",
+      "top_hit": null,
+      "secondary_hits": [],
+      "confidence": "ORPHAN"
+    },
+    {
+      "region_id": "432_c2",
+      "scaffold": "432",
+      "region_num": 2,
+      "start": 1,
+      "end": 31235,
+      "length": 31235,
+      "type": "terpene-precursor",
+      "top_hit": null,
+      "secondary_hits": [],
+      "confidence": "ORPHAN"
+    },
+    {
+      "region_id": "432_c3",
+      "scaffold": "432",
+      "region_num": 3,
+      "start": 1,
+      "end": 31385,
+      "length": 31385,
+      "type": "terpene",
+      "top_hit": null,
+      "secondary_hits": [],
+      "confidence": "ORPHAN"
+    },
+    {
+      "region_id": "433_c1",
+      "scaffold": "433",
+      "region_num": 1,
+      "start": 1,
+      "end": 60417,
+      "length": 60417,
+      "type": "T1PKS",
+      "top_hit": {
+        "bgc": "BGC0002236.2",
+        "compound": "8-methyldiaporthin",
+        "type": "PKS",
+        "n_prot": 4,
+        "score": 5042.0,
+        "id_range": "88\u2013100%",
+        "max_id": 100
+      },
+      "secondary_hits": [
+        {
+          "bgc": "BGC0002175.3",
+          "compound": "YWA1",
+          "type": "PKS",
+          "n_prot": 1,
+          "score": 1298.0,
+          "id_range": "50\u201350%",
+          "max_id": 50
+        },
+        {
+          "bgc": "BGC0000107.3",
+          "compound": "naphthopyrone",
+          "type": "PKS:Type I",
+          "n_prot": 1,
+          "score": 1264.0,
+          "id_range": "49\u201349%",
+          "max_id": 49
+        }
+      ],
+      "confidence": "MEDIUM"
+    },
+    {
+      "region_id": "433_c2",
+      "scaffold": "433",
+      "region_num": 2,
+      "start": 1,
+      "end": 67764,
+      "length": 67764,
+      "type": "T1PKS",
+      "top_hit": {
+        "bgc": "BGC0000027.4",
+        "compound": "ankaflavin/monascin/rubropunctatine/monascorubrin",
+        "type": "PKS:Iterative type I",
+        "n_prot": 5,
+        "score": 6652.0,
+        "id_range": "46\u201351%",
+        "max_id": 51
+      },
+      "secondary_hits": [
+        {
+          "bgc": "BGC0001143.4",
+          "compound": "azanigerone A/azanigerone B/azanigerone C/azanigerone D/azanigerone E/azanigerone F",
+          "type": "PKS",
+          "n_prot": 2,
+          "score": 2640.0,
+          "id_range": "46\u201347%",
+          "max_id": 47
+        }
+      ],
+      "confidence": "MEDIUM"
+    },
+    {
+      "region_id": "433_c3",
+      "scaffold": "433",
+      "region_num": 3,
+      "start": 1,
+      "end": 31610,
+      "length": 31610,
+      "type": "terpene",
+      "top_hit": null,
+      "secondary_hits": [],
+      "confidence": "ORPHAN"
+    },
+    {
+      "region_id": "433_c4",
+      "scaffold": "433",
+      "region_num": 4,
+      "start": 1,
+      "end": 63304,
+      "length": 63304,
+      "type": "NRPS-like",
+      "top_hit": null,
+      "secondary_hits": [],
+      "confidence": "ORPHAN"
+    },
+    {
+      "region_id": "433_c5",
+      "scaffold": "433",
+      "region_num": 5,
+      "start": 1,
+      "end": 119655,
+      "length": 119655,
+      "type": "T1PKS",
+      "top_hit": null,
+      "secondary_hits": [],
+      "confidence": "ORPHAN"
+    },
+    {
+      "region_id": "433_c6",
+      "scaffold": "433",
+      "region_num": 6,
+      "start": 1,
+      "end": 63227,
+      "length": 63227,
+      "type": "NRPS-like",
+      "top_hit": null,
+      "secondary_hits": [],
+      "confidence": "ORPHAN"
+    },
+    {
+      "region_id": "471_c1",
+      "scaffold": "471",
+      "region_num": 1,
+      "start": 1,
+      "end": 55139,
+      "length": 55139,
+      "type": "NI-siderophore",
+      "top_hit": null,
+      "secondary_hits": [],
+      "confidence": "ORPHAN"
+    },
+    {
+      "region_id": "471_c2",
+      "scaffold": "471",
+      "region_num": 2,
+      "start": 1,
+      "end": 30462,
+      "length": 30462,
+      "type": "terpene",
+      "top_hit": null,
+      "secondary_hits": [],
+      "confidence": "ORPHAN"
+    },
+    {
+      "region_id": "471_c3",
+      "scaffold": "471",
+      "region_num": 3,
+      "start": 1,
+      "end": 65446,
+      "length": 65446,
+      "type": "T1PKS",
+      "top_hit": {
+        "bgc": "BGC0001304.3",
+        "compound": "aflavarin",
+        "type": "PKS",
+        "n_prot": 4,
+        "score": 5687.0,
+        "id_range": "94\u201399%",
+        "max_id": 99
+      },
+      "secondary_hits": [],
+      "confidence": "MEDIUM"
+    },
+    {
+      "region_id": "471_c4",
+      "scaffold": "471",
+      "region_num": 4,
+      "start": 1,
+      "end": 74341,
+      "length": 74341,
+      "type": "NRPS",
+      "top_hit": {
+        "bgc": "BGC0002710.2",
+        "compound": "metachelin C/metachelin A/metachelin A-CE/metachelin B/dimerumic acid 11-mannoside/dimerumic acid",
+        "type": "NRPS:Type I",
+        "n_prot": 2,
+        "score": 1052.0,
+        "id_range": "46\u201359%",
+        "max_id": 59
+      },
+      "secondary_hits": [],
+      "confidence": "MEDIUM"
+    },
+    {
+      "region_id": "480_c1",
+      "scaffold": "480",
+      "region_num": 1,
+      "start": 1,
+      "end": 77760,
+      "length": 77760,
+      "type": "NRPS-like",
+      "top_hit": {
+        "bgc": "BGC0001621.4",
+        "compound": "imizoquin A/imizoquin B/imizoquin C/imizoquin D/TMC-2A/TMC-2B",
+        "type": "NRPS:Type I",
+        "n_prot": 8,
+        "score": 8477.0,
+        "id_range": "85\u2013100%",
+        "max_id": 100
+      },
+      "secondary_hits": [],
+      "confidence": "HIGH"
+    },
+    {
+      "region_id": "480_c2",
+      "scaffold": "480",
+      "region_num": 2,
+      "start": 1,
+      "end": 73234,
+      "length": 73234,
+      "type": "NRPS",
+      "top_hit": {
+        "bgc": "BGC0001123.5",
+        "compound": "aspirochlorine",
+        "type": "NRPS:Type I",
+        "n_prot": 19,
+        "score": 17383.0,
+        "id_range": "48\u2013100%",
+        "max_id": 100
+      },
+      "secondary_hits": [
+        {
+          "bgc": "BGC0002501.3",
+          "compound": "penigainamide A/penigainamide B/penigainamide C/adametizine A/FA2097/outovirin A/outovirin C/pretrichodermamide C",
+          "type": "other:other",
+          "n_prot": 9,
+          "score": 3615.0,
+          "id_range": "46\u201371%",
+          "max_id": 71
+        },
+        {
+          "bgc": "BGC0002438.2",
+          "compound": "sporidesmin A",
+          "type": "other:other",
+          "n_prot": 5,
+          "score": 2054.0,
+          "id_range": "46\u201355%",
+          "max_id": 55
+        }
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "region_id": "480_c3",
+      "scaffold": "480",
+      "region_num": 3,
+      "start": 1,
+      "end": 155734,
+      "length": 155734,
+      "type": "NRPS",
+      "top_hit": {
+        "bgc": "BGC0001445.5",
+        "compound": "leporin B",
+        "type": "NRPS:Type I+PKS:Iterative type I",
+        "n_prot": 10,
+        "score": 15512.0,
+        "id_range": "85\u2013100%",
+        "max_id": 100
+      },
+      "secondary_hits": [
+        {
+          "bgc": "BGC0001254.3",
+          "compound": "ACT-Toxin II",
+          "type": "PKS",
+          "n_prot": 1,
+          "score": 2091.0,
+          "id_range": "47\u201347%",
+          "max_id": 47
+        },
+        {
+          "bgc": "BGC0002067.3",
+          "compound": "atpenin B",
+          "type": "NRPS:Type I+PKS:Iterative type I",
+          "n_prot": 2,
+          "score": 865.0,
+          "id_range": "50\u201351%",
+          "max_id": 51
+        }
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "region_id": "480_c4",
+      "scaffold": "480",
+      "region_num": 4,
+      "start": 1,
+      "end": 30836,
+      "length": 30836,
+      "type": "terpene",
+      "top_hit": null,
+      "secondary_hits": [],
+      "confidence": "ORPHAN"
+    },
+    {
+      "region_id": "480_c5",
+      "scaffold": "480",
+      "region_num": 5,
+      "start": 1,
+      "end": 75407,
+      "length": 75407,
+      "type": "NRPS",
+      "top_hit": {
+        "bgc": "BGC0001699.4",
+        "compound": "nidulanin A",
+        "type": "NRPS:Type I",
+        "n_prot": 3,
+        "score": 7357.0,
+        "id_range": "47\u201380%",
+        "max_id": 80
+      },
+      "secondary_hits": [
+        {
+          "bgc": "BGC0000357.5",
+          "compound": "cyclo-(D-Phe-L-Phe-D-Val-L-Val)/cyclo-(D-Tyr-L-Phe-D-Val-L-Val)/cyclo-(D-Tyr-L-Trp-D-Val-L-Val)/cyclo-(D-Phe-L-Trp-D-Val-L-Val)/cyclo-(D-Phe-L-Phe-D-Val-L-Ile)/cyclo-(D-Phe-L-Phe-D-Ile-L-Val)/cyclo-(D-Tyr-L-Trp-D-Val-L-Ile)/cyclo-(D-Tyr-L-Trp-D-Ile-L-Val)/cyclo-(D-Tyr-L-Phe-D-Val-L-Ile)/cyclo-(D-Tyr-L-Phe-D-Ile-L-Val)",
+          "type": "NRPS:Type I",
+          "n_prot": 1,
+          "score": 5649.0,
+          "id_range": "51\u201351%",
+          "max_id": 51
+        }
+      ],
+      "confidence": "MEDIUM"
+    },
+    {
+      "region_id": "482_c1",
+      "scaffold": "482",
+      "region_num": 1,
+      "start": 1,
+      "end": 63036,
+      "length": 63036,
+      "type": "NRPS-like",
+      "top_hit": null,
+      "secondary_hits": [],
+      "confidence": "ORPHAN"
+    },
+    {
+      "region_id": "485_c1",
+      "scaffold": "485",
+      "region_num": 1,
+      "start": 1,
+      "end": 140412,
+      "length": 140412,
+      "type": "isocyanide",
+      "top_hit": {
+        "bgc": "BGC0001248.3",
+        "compound": "clavaric acid",
+        "type": "terpene",
+        "n_prot": 1,
+        "score": 704.0,
+        "id_range": "48\u201348%",
+        "max_id": 48
+      },
+      "secondary_hits": [],
+      "confidence": "LOW"
+    },
+    {
+      "region_id": "485_c2",
+      "scaffold": "485",
+      "region_num": 2,
+      "start": 1,
+      "end": 63129,
+      "length": 63129,
+      "type": "NRPS-like",
+      "top_hit": {
+        "bgc": "BGC0002167.2",
+        "compound": "actinopolymorphol C/morpholine containing hemiacetal piperazine compound/piperazine compound 2/piperazine compound 1/3-(p-hydroxyphenyl)-1,2-propanediol/N,N-dioxide containing derivate/O-sulfonated actinopolymorphol C/C-3 sulfonylated derivative",
+        "type": "NRPS:Type I",
+        "n_prot": 6,
+        "score": 6338.0,
+        "id_range": "99\u2013100%",
+        "max_id": 100
+      },
+      "secondary_hits": [
+        {
+          "bgc": "BGC0002146.2",
+          "compound": "FR901483",
+          "type": "NRPS:Type I",
+          "n_prot": 2,
+          "score": 1643.0,
+          "id_range": "59\u201365%",
+          "max_id": 65
+        },
+        {
+          "bgc": "BGC0002264.3",
+          "compound": "hancockiamide E/hancockiamide B/hancockiamide C/hancockiamide D/hancockiamide A/hancockiamide F",
+          "type": "NRPS:Type I",
+          "n_prot": 2,
+          "score": 1560.0,
+          "id_range": "57\u201361%",
+          "max_id": 61
+        }
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "region_id": "485_c3",
+      "scaffold": "485",
+      "region_num": 3,
+      "start": 1,
+      "end": 71964,
+      "length": 71964,
+      "type": "NRPS",
+      "top_hit": null,
+      "secondary_hits": [],
+      "confidence": "ORPHAN"
+    },
+    {
+      "region_id": "485_c4",
+      "scaffold": "485",
+      "region_num": 4,
+      "start": 1,
+      "end": 31128,
+      "length": 31128,
+      "type": "indole",
+      "top_hit": null,
+      "secondary_hits": [],
+      "confidence": "ORPHAN"
+    },
+    {
+      "region_id": "486_c1",
+      "scaffold": "486",
+      "region_num": 1,
+      "start": 1,
+      "end": 110461,
+      "length": 110461,
+      "type": "NRPS-like",
+      "top_hit": null,
+      "secondary_hits": [],
+      "confidence": "ORPHAN"
+    },
+    {
+      "region_id": "486_c2",
+      "scaffold": "486",
+      "region_num": 2,
+      "start": 1,
+      "end": 67427,
+      "length": 67427,
+      "type": "T1PKS",
+      "top_hit": {
+        "bgc": "BGC0000027.4",
+        "compound": "ankaflavin/monascin/rubropunctatine/monascorubrin",
+        "type": "PKS:Iterative type I",
+        "n_prot": 2,
+        "score": 2440.0,
+        "id_range": "47\u201351%",
+        "max_id": 51
+      },
+      "secondary_hits": [
+        {
+          "bgc": "BGC0001338.4",
+          "compound": "citrinin",
+          "type": "PKS:Iterative type I",
+          "n_prot": 2,
+          "score": 2428.0,
+          "id_range": "47\u201349%",
+          "max_id": 49
+        },
+        {
+          "bgc": "BGC0002196.2",
+          "compound": "clavatol",
+          "type": "PKS",
+          "n_prot": 2,
+          "score": 2359.0,
+          "id_range": "46\u201347%",
+          "max_id": 47
+        }
+      ],
+      "confidence": "MEDIUM"
+    },
+    {
+      "region_id": "486_c3",
+      "scaffold": "486",
+      "region_num": 3,
+      "start": 1,
+      "end": 61151,
+      "length": 61151,
+      "type": "T1PKS",
+      "top_hit": null,
+      "secondary_hits": [],
+      "confidence": "ORPHAN"
+    },
+    {
+      "region_id": "497_c1",
+      "scaffold": "497",
+      "region_num": 1,
+      "start": 1,
+      "end": 32296,
+      "length": 32296,
+      "type": "terpene",
+      "top_hit": null,
+      "secondary_hits": [],
+      "confidence": "ORPHAN"
+    },
+    {
+      "region_id": "614_c1",
+      "scaffold": "614",
+      "region_num": 1,
+      "start": 1,
+      "end": 34444,
+      "length": 34444,
+      "type": "terpene",
+      "top_hit": null,
+      "secondary_hits": [],
+      "confidence": "ORPHAN"
+    },
+    {
+      "region_id": "614_c2",
+      "scaffold": "614",
+      "region_num": 2,
+      "start": 1,
+      "end": 67290,
+      "length": 67290,
+      "type": "T1PKS",
+      "top_hit": {
+        "bgc": "BGC0002238.3",
+        "compound": "2,4'-dihydroxy-3'-methoxypropiophenone",
+        "type": "PKS",
+        "n_prot": 2,
+        "score": 5797.0,
+        "id_range": "97\u2013100%",
+        "max_id": 100
+      },
+      "secondary_hits": [],
+      "confidence": "MEDIUM"
+    },
+    {
+      "region_id": "641_c1",
+      "scaffold": "641",
+      "region_num": 1,
+      "start": 1,
+      "end": 31441,
+      "length": 31441,
+      "type": "indole",
+      "top_hit": null,
+      "secondary_hits": [],
+      "confidence": "ORPHAN"
+    },
+    {
+      "region_id": "641_c2",
+      "scaffold": "641",
+      "region_num": 2,
+      "start": 1,
+      "end": 31302,
+      "length": 31302,
+      "type": "terpene",
+      "top_hit": null,
+      "secondary_hits": [],
+      "confidence": "ORPHAN"
+    },
+    {
+      "region_id": "641_c3",
+      "scaffold": "641",
+      "region_num": 3,
+      "start": 1,
+      "end": 83507,
+      "length": 83507,
+      "type": "T1PKS",
+      "top_hit": {
+        "bgc": "BGC0002267.2",
+        "compound": "azasperpyranone A/azasperpyranone B/azasperpyranone C/azasperpyranone D/azasperpyranone E/azasperpyranone F/azasperpyranone G/azasperpyranone H",
+        "type": "PKS",
+        "n_prot": 3,
+        "score": 2809.0,
+        "id_range": "47\u201349%",
+        "max_id": 49
+      },
+      "secondary_hits": [
+        {
+          "bgc": "BGC0001405.4",
+          "compound": "chaetoviridin E/11-epichaetomugilin A",
+          "type": "PKS",
+          "n_prot": 2,
+          "score": 1505.0,
+          "id_range": "48\u201351%",
+          "max_id": 51
+        }
+      ],
+      "confidence": "MEDIUM"
+    },
+    {
+      "region_id": "702_c1",
+      "scaffold": "702",
+      "region_num": 1,
+      "start": 1,
+      "end": 76569,
+      "length": 76569,
+      "type": "NRPS",
+      "top_hit": null,
+      "secondary_hits": [],
+      "confidence": "ORPHAN"
+    },
+    {
+      "region_id": "702_c2",
+      "scaffold": "702",
+      "region_num": 2,
+      "start": 1,
+      "end": 81035,
+      "length": 81035,
+      "type": "NRPS",
+      "top_hit": null,
+      "secondary_hits": [],
+      "confidence": "ORPHAN"
+    },
+    {
+      "region_id": "703_c1",
+      "scaffold": "703",
+      "region_num": 1,
+      "start": 1,
+      "end": 86011,
+      "length": 86011,
+      "type": "terpene",
+      "top_hit": {
+        "bgc": "BGC0000045.3",
+        "compound": "dehydrocurvularin",
+        "type": "PKS",
+        "n_prot": 3,
+        "score": 1043.0,
+        "id_range": "47\u201354%",
+        "max_id": 54
+      },
+      "secondary_hits": [
+        {
+          "bgc": "BGC0001246.3",
+          "compound": "trans-resorcylide",
+          "type": "PKS",
+          "n_prot": 3,
+          "score": 958.0,
+          "id_range": "47\u201355%",
+          "max_id": 55
+        }
+      ],
+      "confidence": "MEDIUM"
+    },
+    {
+      "region_id": "703_c2",
+      "scaffold": "703",
+      "region_num": 2,
+      "start": 1,
+      "end": 17956,
+      "length": 17956,
+      "type": "nitropropanoic_acid",
+      "top_hit": null,
+      "secondary_hits": [],
+      "confidence": "ORPHAN"
+    },
+    {
+      "region_id": "815_c1",
+      "scaffold": "815",
+      "region_num": 1,
+      "start": 1,
+      "end": 81698,
+      "length": 81698,
+      "type": "terpene",
+      "top_hit": null,
+      "secondary_hits": [],
+      "confidence": "ORPHAN"
+    },
+    {
+      "region_id": "826_c1",
+      "scaffold": "826",
+      "region_num": 1,
+      "start": 1,
+      "end": 67961,
+      "length": 67961,
+      "type": "NRPS",
+      "top_hit": {
+        "bgc": "BGC0002157.2",
+        "compound": "(-)-ditryptophenaline",
+        "type": "NRPS:Type I+other:other",
+        "n_prot": 3,
+        "score": 6216.0,
+        "id_range": "91\u201399%",
+        "max_id": 99
+      },
+      "secondary_hits": [],
+      "confidence": "MEDIUM"
+    },
+    {
+      "region_id": "826_c2",
+      "scaffold": "826",
+      "region_num": 2,
+      "start": 1,
+      "end": 66651,
+      "length": 66651,
+      "type": "T1PKS",
+      "top_hit": {
+        "bgc": "BGC0002175.3",
+        "compound": "YWA1",
+        "type": "PKS",
+        "n_prot": 1,
+        "score": 4277.0,
+        "id_range": "100\u2013100%",
+        "max_id": 100
+      },
+      "secondary_hits": [
+        {
+          "bgc": "BGC0000107.3",
+          "compound": "naphthopyrone",
+          "type": "PKS:Type I",
+          "n_prot": 1,
+          "score": 3182.0,
+          "id_range": "73\u201373%",
+          "max_id": 73
+        }
+      ],
+      "confidence": "MEDIUM"
+    },
+    {
+      "region_id": "826_c3",
+      "scaffold": "826",
+      "region_num": 3,
+      "start": 1,
+      "end": 32405,
+      "length": 32405,
+      "type": "terpene",
+      "top_hit": {
+        "bgc": "BGC0001248.3",
+        "compound": "clavaric acid",
+        "type": "terpene",
+        "n_prot": 1,
+        "score": 744.0,
+        "id_range": "51\u201351%",
+        "max_id": 51
+      },
+      "secondary_hits": [],
+      "confidence": "MEDIUM"
+    },
+    {
+      "region_id": "827_c1",
+      "scaffold": "827",
+      "region_num": 1,
+      "start": 1,
+      "end": 100047,
+      "length": 100047,
+      "type": "NRPS",
+      "top_hit": {
+        "bgc": "BGC0002710.2",
+        "compound": "metachelin C/metachelin A/metachelin A-CE/metachelin B/dimerumic acid 11-mannoside/dimerumic acid",
+        "type": "NRPS:Type I",
+        "n_prot": 2,
+        "score": 1714.0,
+        "id_range": "46\u201353%",
+        "max_id": 53
+      },
+      "secondary_hits": [],
+      "confidence": "MEDIUM"
+    },
+    {
+      "region_id": "904_c1",
+      "scaffold": "904",
+      "region_num": 1,
+      "start": 1,
+      "end": 86817,
+      "length": 86817,
+      "type": "NRPS-like",
+      "top_hit": {
+        "bgc": "BGC0000404.4",
+        "compound": "penicillin",
+        "type": "NRPS:Type I",
+        "n_prot": 2,
+        "score": 6518.0,
+        "id_range": "79\u201385%",
+        "max_id": 85
+      },
+      "secondary_hits": [
+        {
+          "bgc": "BGC0000405.5",
+          "compound": "\u03b4-(L-\u03b1-aminoadipyl)-L-cysteine-D-valine/isopenicillin N/benzylpenicillin/phenoxymethylpenicillin",
+          "type": "NRPS:Type I",
+          "n_prot": 2,
+          "score": 6444.0,
+          "id_range": "79\u201385%",
+          "max_id": 85
+        }
+      ],
+      "confidence": "MEDIUM"
+    },
+    {
+      "region_id": "904_c2",
+      "scaffold": "904",
+      "region_num": 2,
+      "start": 1,
+      "end": 51233,
+      "length": 51233,
+      "type": "terpene",
+      "top_hit": null,
+      "secondary_hits": [],
+      "confidence": "ORPHAN"
+    },
+    {
+      "region_id": "960_c1",
+      "scaffold": "960",
+      "region_num": 1,
+      "start": 1,
+      "end": 65347,
+      "length": 65347,
+      "type": "T1PKS",
+      "top_hit": {
+        "bgc": "BGC0001276.3",
+        "compound": "6-methylsalicyclic acid",
+        "type": "PKS",
+        "n_prot": 1,
+        "score": 2075.0,
+        "id_range": "60\u201360%",
+        "max_id": 60
+      },
+      "secondary_hits": [
+        {
+          "bgc": "BGC0001275.3",
+          "compound": "6-methylsalicyclic acid",
+          "type": "PKS",
+          "n_prot": 1,
+          "score": 1670.0,
+          "id_range": "50\u201350%",
+          "max_id": 50
+        },
+        {
+          "bgc": "BGC0001244.3",
+          "compound": "(-)-Mellein",
+          "type": "PKS",
+          "n_prot": 1,
+          "score": 1660.0,
+          "id_range": "49\u201349%",
+          "max_id": 49
+        }
+      ],
+      "confidence": "MEDIUM"
+    },
+    {
+      "region_id": "1334_c1",
+      "scaffold": "1334",
+      "region_num": 1,
+      "start": 1,
+      "end": 76133,
+      "length": 76133,
+      "type": "NRPS",
+      "top_hit": null,
+      "secondary_hits": [],
+      "confidence": "ORPHAN"
+    },
+    {
+      "region_id": "1340_c1",
+      "scaffold": "1340",
+      "region_num": 1,
+      "start": 1,
+      "end": 79127,
+      "length": 79127,
+      "type": "T1PKS",
+      "top_hit": {
+        "bgc": "BGC0000007.3",
+        "compound": "aflatoxin G1/aflatoxin B1",
+        "type": "PKS",
+        "n_prot": 11,
+        "score": 16946.0,
+        "id_range": "51\u201397%",
+        "max_id": 97
+      },
+      "secondary_hits": [
+        {
+          "bgc": "BGC0000009.3",
+          "compound": "aflatoxin B1/aflatoxin G1",
+          "type": "PKS",
+          "n_prot": 11,
+          "score": 16191.0,
+          "id_range": "51\u201395%",
+          "max_id": 95
+        },
+        {
+          "bgc": "BGC0000008.3",
+          "compound": "aflatoxin B1/aflatoxin B2",
+          "type": "PKS",
+          "n_prot": 10,
+          "score": 16592.0,
+          "id_range": "99\u2013100%",
+          "max_id": 100
+        }
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "region_id": "1845_c1",
+      "scaffold": "1845",
+      "region_num": 1,
+      "start": 1,
+      "end": 66072,
+      "length": 66072,
+      "type": "T1PKS",
+      "top_hit": {
+        "bgc": "BGC0002237.3",
+        "compound": "dichlorodiaporthin",
+        "type": "PKS",
+        "n_prot": 5,
+        "score": 6738.0,
+        "id_range": "96\u2013100%",
+        "max_id": 100
+      },
+      "secondary_hits": [
+        {
+          "bgc": "BGC0000013.3",
+          "compound": "alternariol",
+          "type": "PKS",
+          "n_prot": 2,
+          "score": 3355.0,
+          "id_range": "75\u201378%",
+          "max_id": 78
+        },
+        {
+          "bgc": "BGC0000684.4",
+          "compound": "asperthecin",
+          "type": "PKS",
+          "n_prot": 2,
+          "score": 1781.0,
+          "id_range": "46\u201355%",
+          "max_id": 55
+        }
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "region_id": "1924_c1",
+      "scaffold": "1924",
+      "region_num": 1,
+      "start": 1,
+      "end": 63066,
+      "length": 63066,
+      "type": "NRPS-like",
+      "top_hit": {
+        "bgc": "BGC0001516.5",
+        "compound": "aspergillic acid",
+        "type": "NRPS:Type I",
+        "n_prot": 6,
+        "score": 6227.0,
+        "id_range": "75\u2013100%",
+        "max_id": 100
+      },
+      "secondary_hits": [
+        {
+          "bgc": "BGC0002602.2",
+          "compound": "aspergillic acid",
+          "type": "other:other",
+          "n_prot": 6,
+          "score": 6208.0,
+          "id_range": "95\u201399%",
+          "max_id": 99
+        }
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "region_id": "2001_c1",
+      "scaffold": "2001",
+      "region_num": 1,
+      "start": 1,
+      "end": 35116,
+      "length": 35116,
+      "type": "T3PKS",
+      "top_hit": null,
+      "secondary_hits": [],
+      "confidence": "ORPHAN"
+    }
+  ]
+}
