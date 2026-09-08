@@ -544,23 +544,24 @@ Target Locus: `AF:PUJ_004419` (+ strand, 797 aa, Pfam `PF02668`, `PF04183`) [T1]
 
 > [!CAUTION]
 > ### Critical Biosafety Conclusion: AF-PUJ is a Toxigenic-Type Strain
-> Scrutiny of the scaffold 1340 locus confirms that **AF-PUJ is NOT a non-aflatoxigenic deletion mutant.**  
+> Scrutiny of the scaffold 1340 locus confirms that **AF-PUJ is NOT an atoxigenic biocontrol strain.**  
 > - **Commercial atoxigenic biocontrol strains (such as *Aflasafe* or *Afla-Guard* / NRRL 21882)** carry a documented **28-kb to 32-kb chromosomal deletion** that eliminates *nor-1*, *pksA*, and *aflR*.  
-> - **In AF-PUJ, all core enzymatic and regulatory genes (*aflR*, *pksA*, *hexA*, *hexB*, *nor-1*, *ver-1*, *omtA*, *ordA*, *cypX*, *cpaA*, *cpaD*, *cpaM*, *cpaT*) are fully present with 90% to 100% amino acid identity.**  
-> - **Regulatory Directive:** Isolate AF-PUJ must **not** be introduced into agricultural soils as a live field inoculant. Its utility is restricted to **closed-vessel industrial enzyme fermentations** (cellulases, amylases, phosphatases) where live mycelia are removed, or **sterile non-food bioremediation matrices**.
+> - **In AF-PUJ, all core enzymatic and regulatory genes (*aflR*, *pksA*, *fas-1*, *fas-2*, *nor-1*, *ver-1*, *cypX*, *cpaA*, *cpaD*, *cpaM*, *cpaT*) are fully present with 51% to 97% identity to reference `BGC0000007.3` (AflR 94%, PksA 97%) and 90% to 97% to CPA reference `BGC0000977.4`.**  
+> - **Regulatory Directive:** Isolate AF-PUJ must **not** be introduced into agricultural soils as a live field inoculant. Its utility is strictly restricted to **closed-vessel industrial enzyme fermentations** (cellulases, amylases, phosphatases) where live mycelia and filtrate are detoxified, or **sterile non-food bioremediation matrices**.
 
 > [!WARNING]
-> ### Expanded Mycotoxin Profile: Beyond Aflatoxins & CPA
-> Cross-referencing the complete antiSMASH KnownClusterBlast output reveals **two additional toxigenic BGCs** not covered in the initial assessment:
+> ### Expanded Mycotoxin Profile: Five Confirmed Toxigenic BGCs (Audit Finding C4)
+> Cross-referencing the complete antiSMASH KnownClusterBlast and region rule outputs reveals that AF-PUJ harbors **five confirmed toxigenic BGCs**, including an acute mitochondrial toxin missed in initial evaluations:
 >
-> | Mycotoxin | BGC Scaffold | MIBiG Reference | Gene Hits | Cumulative BLAST Score | Max Identity | Toxicity Profile |
+> | Mycotoxin / Toxin Class | BGC Scaffold (Region ID) | MIBiG Reference / Rule | Gene Hits | Cumulative BLAST Score | Identity Range (Max) | Toxicity Profile & Biosafety Impact |
 > | :--- | :---: | :---: | :---: | :---: | :---: | :--- |
-> | **Aflatoxin B1/G1** | 1340 | `BGC0000007.3` | 11 | 16,946 | 100% | Potent hepatocarcinogen; IARC Group 1 |
-> | **Cyclopiazonic Acid** | 1340 | `BGC0000977.4` | 4 | 9,573 | 97% | Neurotoxin; smooth muscle disruptor |
-> | **Aspirochlorine** | 480 | `BGC0001123.5` | 19 | 17,383 | 100% | ETP-class; thiol-reactive cytotoxin |
-> | **Aspergillic Acid** | 1924 | `BGC0001516.5` | 6 | 6,227 | 100% | Hydroxamic acid; hepatotoxic in animals |
+> | **Aflatoxin B1/G1** | Scaffold 1340 (`1340_c1`) | `BGC0000007.3` | 11 | 16,946 | 51–97% (97%) | Potent hepatocarcinogen; IARC Group 1 human carcinogen [T2] |
+> | **Cyclopiazonic Acid (CPA)**| Scaffold 1340 (`1340_c1`) | `BGC0000977.4` | 4 | 9,573 | 90–97% (97%) | Neurotoxin; specific sarcoplasmic Ca²⁺-ATPase inhibitor [T2] |
+> | **Aspirochlorine** | Scaffold 480 (`480_c2`) | `BGC0001123.5` | 19 | 17,383 | 94–100% (100%)| Epipolythiodioxopiperazine (ETP); thiol-reactive cytotoxic factor [T2] |
+> | **Aspergillic Acid** | Scaffold 1924 (`1924_c1`) | `BGC0001516.5` | 6 | 6,227 | 75–100% (100%)| Hydroxamic acid pyrazinone; acute hepatotoxin in animals [T2] |
+> | **3-Nitropropanoic Acid (3-NPA)**| Scaffold 703 (`703_c2`) | Rule: `(NpaA & NpaB)` | 4 | Region: 17,956 bp | Specific rule match | Acute mitochondrial mycotoxin; irreversible inhibitor of succinate dehydrogenase [T2] |
 >
-> All four compounds must be screened in the LC-MS/MS biosafety verification (Tier 5, Section 6). The aspirochlorine cluster is particularly significant as it carries the **second-highest MIBiG match score** (17,383) in the entire AF-PUJ genome, exceeding even the aflatoxin cluster (16,946).
+> All five toxic metabolite classes must be screened in the LC-MS/MS biosafety verification (Tier 5, Section 6). In particular, `703_c2` encodes the biosynthetic machinery for **3-nitropropanoic acid (3-NPA)**, a potent fungal neurotoxin and mitochondrial poison that represents an immediate biosafety hazard upon field application.
 
 ---
 
@@ -568,16 +569,16 @@ Target Locus: `AF:PUJ_004419` (+ strand, 797 aa, Pfam `PF02668`, `PF04183`) [T1]
 
 | Agricultural Trait / Application | Isolate TA-PUJ (*Trichoderma asperellum*) | Isolate AF-PUJ (*Aspergillus flavus*) | Practical Deployment Recommendation |
 | :--- | :--- | :--- | :--- |
-| **Primary Agricultural Classification** | **Direct Soil & Seed Bio-inoculant / BCA** | **Enzyme Production & Closed Bioremediation** | Field formulation vs. Industrial bioprocess |
-| **Plant Ethylene Relief** | **Active (`PUJ_004816`, *Tas-acdS*)** | Not present | Overcomes drought, waterlogging, and soil salinity |
-| **Fungal Mycoparasitism** | **18 Chitinases, 8 Glucanases, 2 Chitosanases** | 21 Chitinases, 5 Glucanases | Rapid biocontrol of *Rhizoctonia*, *Fusarium*, *Pythium* |
-| **Rhizosphere Iron Dynamics** | **Metachelin BGC + `FET3-FTR1` permeases** | Aerobactin (IucA) + Ferricrocin BGC | Dual iron competition and bio-available nutrition |
-| **Insect & Nematode Control** | **Leucinostatin-like BGC, Peramine (low-conf.), Pr1 proteases** | Indole-diterpenoids (paspalinine, paxilline) | IPM bio-insecticide; leucinostatin experimentally validated |
-| **Antifungal Ionophore** | **Enniatin-like cyclodepsipeptide (`PUJ_004657`)** | Aspirochlorine ETP (Scaffold 480) | Membrane-disrupting antifungal metabolites |
-| **Volatile Signaling (ISR)** | **Brasilane VOCs via *TATC6* (`PUJ_005301`)** | Broad volatile aldehydes | Systemic plant defense priming prior to infection |
-| **Phosphate Solubilization** | `PHO5` acid phosphatase + organic acids | Canonical `PHO` regulon (6 loci) + organic acids | High-capacity rock phosphate mobilization |
-| **Phase II Agrochemical Detox**| 34 GSTs | 65 GSTs | Remediation of pesticide-contaminated soils |
-| **Mycotoxin Risk Profile** | **None detected (GRAS standard BCA)** | **4 confirmed BGCs:** Aflatoxin, CPA, Aspirochlorine, Aspergillic acid | TA-PUJ safe for field release; AF-PUJ strictly gated |
+| **Primary Agricultural Classification** | **Direct Soil & Seed Bio-inoculant / BCA [T3]** | **Enzyme Production & Closed Bioremediation [T3]** | Field formulation vs. Industrial bioprocess |
+| **Plant Ethylene Stress Relief** | **Active (`TA:PUJ_004816`, *Tas-acdS*) [T1]** | 0 counted (unverified candidate `AF:PUJ_008483` lacks IPR005965) | Overcomes drought, waterlogging, and soil salinity |
+| **Fungal Mycoparasitism** | **14 Chitinases (GH18), 1 Glucanase (EC), 7 Chitosanases [T1]** | 17 Chitinases, 0 Glucanases (EC), 18 Chitosanases [T1] | Rapid contact biocontrol of *Rhizoctonia*, *Fusarium*, *Pythium* |
+| **Rhizosphere Iron Dynamics** | **Metachelin NRPS (`TA:PUJ_003670`) + `FET3-FTR1` [T1/T2]** | Aerobactin NIS (`AF:PUJ_004419`) + Metachelin-type NRPS (`827_c1`, `471_c4`) [T1/T2] | TA picomolar iron starvation vs. AF multi-chelator repertoire |
+| **Insect & Nematode Control** | **Leucinostatin-like BGC (`BGC0001358.4`), Peramine (low), S8 proteases [T1/T2]** | Indole-diterpenoids (paspalinine, paxilline), Leporin B (`480_c3`), Ustiloxin B (`418_c2`) [T2] | IPM bio-insecticide; leucinostatin validated in *T. asperellum* |
+| **Antifungal Ionophore** | **Enniatin-like cyclodepsipeptide (`TA:PUJ_004657`) [T2]** | Aspirochlorine ETP (`BGC0001123.5`, 19 hits) [T2] | Membrane-disrupting antifungal metabolites |
+| **Volatile Signaling (ISR)** | **Brasilane VOCs via *TATC6* (`TA:PUJ_005301`) [T1/T2]** | Volatile aldehydes / alcohols | Systemic plant defense priming prior to infection |
+| **Phosphate Solubilization** | `PHO5` acid phosphatase (`TA:PUJ_003432`) + organic acids [T1] | Canonical `PHO` regulon (6 loci) + 179 phosphatases + organic acids [T1] | High-capacity rock phosphate mobilization |
+| **Phase II Agrochemical Detox**| **18 GSTs [T1]** | **24 GSTs, 154 Cytochrome P450s [T1]** | Remediation of pesticide-contaminated soils |
+| **Mycotoxin Risk Profile (Audit Finding C2)**| **No known mycotoxin BGC match among 8 characterized regions [T2]**; evaluation constrained by partial assembly (~55–60%) [T1]; 13 uncharacterized orphan BGCs present; wet-lab screen must include Trichoderma-typical metabolites [T3]. | **5 confirmed toxigenic BGCs:** Aflatoxins (B1/G1), CPA, Aspirochlorine, Aspergillic acid, and 3-Nitropropanoic acid (3-NPA) [T2]. | **TA-PUJ field release supported with metabolite screening; AF-PUJ strictly gated from open environments.** |
 
 ---
 
@@ -590,7 +591,7 @@ Target Locus: `AF:PUJ_004419` (+ strand, 797 aa, Pfam `PF02668`, `PF04183`) [T1]
   [Tier 2: Plant Stress (ACC Deaminase)] ──► Dworkin-Foster (DF) minimal salts + 3 mM ACC as sole N source
   [Tier 3: Siderophore Chrome Azurol S]   ──► Modified CAS agar plate (blue-to-orange halo zone measurement)
   [Tier 4: Phosphate Solubilization]      ──► Pikovskaya tricalcium phosphate agar clearing zone index
-  [Tier 5: Biosafety LC-MS/MS Screen]     ──► YES/Czapek Dox extraction for Aflatoxin B1/G1, CPA, Aspirochlorine, Aspergillic acid (AF)
+  [Tier 5: Biosafety LC-MS/MS Screen]     ──► High-resolution multi-toxin panel (Aflatoxins, CPA, 3-NPA, ETPs, peptaibols)
 ```
 
 1. **Dual-Culture Antagonism Assay (TA-PUJ):**
@@ -600,14 +601,18 @@ Target Locus: `AF:PUJ_004419` (+ strand, 797 aa, Pfam `PF02668`, `PF04183`) [T1]
 3. **Chrome Azurol S (CAS) Siderophore Assay:**
    - Spot-inoculate both fungi on CAS agar plates. Measure the diameter of the orange-yellow halo surrounding colonies after 72 h at 28°C to determine ferric chelation efficiency.
 4. **Pikovskaya Phosphate Solubilization Test:**
-   - Inoculate isolates on Pikovskaya agar containing 0.5% insoluble $Ca_3(PO_4)_2$. Calculate the Solubilization Index ($SI = \\text{colony diameter} + \\text{halo diameter} / \\text{colony diameter}$).
-5. **LC-MS/MS Biosafety Verification (AF-PUJ) — Expanded Panel:**
-   - Grow AF-PUJ in yeast extract-sucrose (YES) liquid media for 7 days at 28°C. Perform chloroform/methanol extraction and analyze via LC-MS/MS against the **complete mycotoxin panel:**
-     - **Aflatoxins:** B1, B2, G1, G2 analytical standards (LOD ≤ 0.1 µg/kg)
-     - **Cyclopiazonic acid (CPA):** analytical standard (LOD ≤ 5 µg/kg)
-     - **Aspirochlorine:** ETP-class standard or high-resolution MS fragmentation matching (m/z 337.0 [M+H]⁺)
-     - **Aspergillic acid:** hydroxamic acid standard (m/z 225.1 [M+H]⁺)
-   - *Rationale:* The audit revealed 4 intact toxigenic BGCs (not 2), necessitating expanded screening beyond the original aflatoxin + CPA panel.
+   - Inoculate isolates on Pikovskaya agar containing 0.5% insoluble $Ca_3(PO_4)_2$. Calculate the Solubilization Index ($SI = \text{colony diameter} + \text{halo diameter} / \text{colony diameter}$).
+5. **LC-MS/MS Biosafety Verification Panel (Audit Finding C2 & C4):**
+   - **For AF-PUJ (Exclusion Screen):** Grow AF-PUJ in yeast extract-sucrose (YES) liquid media for 7 days at 28°C. Perform chloroform/methanol extraction and analyze via LC-MS/MS against the **5-toxin biosafety panel:**
+     - **Aflatoxins:** B1, B2, G1, G2 analytical standards (LOD $\le$ 0.1 µg/kg)
+     - **Cyclopiazonic acid (CPA):** analytical standard (LOD $\le$ 5 µg/kg)
+     - **3-Nitropropanoic acid (3-NPA):** ion-pairing LC-MS/MS or direct negative electrospray ($m/z$ 118.0 $[M-H]^-$)
+     - **Aspirochlorine:** high-resolution MS fragmentation matching ($m/z$ 337.0 $[M+H]^+$)
+     - **Aspergillic acid:** hydroxamic acid standard ($m/z$ 225.1 $[M+H]^+$)
+   - **For TA-PUJ (Metabolite Safety Screen):** To address the 13 uncharacterized orphan BGCs and assembly incompleteness, culture TA-PUJ on potato dextrose broth (PDB) and Czapek Dox broth; screen extracts for *Trichoderma*-typical secondary metabolites:
+     - **Harzianum acid & trichothecene-related intermediates:** ($m/z$ scanning)
+     - **Peptaibols:** diagnostic MS/MS neutral loss of aminoisobutyric acid (Aib, 85 Da) to verify lack of broad cytotoxicity.
+
 
 ---
 
