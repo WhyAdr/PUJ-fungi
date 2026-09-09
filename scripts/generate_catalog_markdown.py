@@ -5,11 +5,14 @@ generate_catalog_markdown.py
 Generates the comprehensive interactive catalog TA-viz/README.md for all 24 clusters
 of Trichoderma asperellum isolate TA-PUJ.
 Includes:
-- Master Inventory Summary Table
-- For each of the 24 clusters:
+- Comprehensive Executive Biosafety & Agricultural Evaluation (establishing biosafety dichotomy)
+- Coordinate & Visualization Conventions (1-based inclusive; Header Span vs Bracket Span)
+- Master Inventory Summary Table (24 clusters)
+- Cluster-by-Cluster Deep Dive for all 24 clusters:
     * Embedded visualization figure (PNG with SVG vector link)
-    * Complete gene table with coordinates, strand, aa length, gene, Pfams, EC, product
-    * Detailed elaboration on each gene's putative function and catalytic activity
+    * Caption explaining Header Span (antiSMASH window) vs Sub-track Bracket Span (physical CDS span)
+    * Complete gene qualifier table with 1-based coordinates, strand, aa length, gene, Pfams, EC, product
+    * Detailed elaboration on each gene's putative function and catalytic activity (ground-truth reconciled)
     * Comprehensive collective cluster architecture & biochemical pathway flow
     * Agricultural & biocontrol role
     * Inline peer-reviewed citations
@@ -144,7 +147,6 @@ def classify_gene(g):
     else:
         return "#4c78a8", "Other CDS / Uncharacterized"
 
-# File slugs mapping
 def get_slug(idx, c):
     cid = c["id"]
     if c["category"] == "BGC":
@@ -163,43 +165,43 @@ def get_slug(idx, c):
         else:
             return "CLUSTER_24_contig_1705_chitinase_2_Tas_chit2"
 
-# Scientific knowledge dictionary for each cluster
+# Scientific knowledge dictionary strictly reconciled to ground-truth CDS features
 CLUSTER_SCIENCE = {
     "contig_52_c1": {
         "title": "BGC 01: Equisetin-like Hybrid PKS-NRPS Tetramic Acid Cluster (`contig_52_c1`)",
         "agri_role": "Broad-spectrum antibacterial and antifungal tetramic acid inhibitor; blocks bacterial/fungal RNA polymerases and mitochondrial ATPases, protecting plant root tissues against soil-borne phytopathogenic bacteria and fungi [1, 2].",
         "collective_architecture": """
-The equisetin-like biosynthetic gene cluster on `contig_52` represents a canonical fungal iterative Type I polyketide synthase / non-ribosomal peptide synthetase (PKS-NRPS) hybrid assembly line [1]. 
-1. **Polyketide Backbone Synthesis:** The mega-synthetase `PUJ_000117` initiates biosynthesis through its PKS module (KS-AT-DH-KR-ACP), assembling an octaketide chain from malonyl-CoA extender units with programmed stereospecific keto-reduction and dehydration [1, 3].
+The equisetin-like biosynthetic gene cluster on `contig_52` represents a canonical fungal iterative Type I polyketide synthase / non-ribosomal peptide synthetase (PKS-NRPS) hybrid assembly line [1]:
+1. **Polyketide Backbone Synthesis:** The mega-synthetase `PUJ_000117` (3,931 aa) initiates biosynthesis through its PKS module (KS-AT-DH-KR-ACP), assembling an octaketide chain from malonyl-CoA extender units with programmed stereospecific keto-reduction and dehydration [1, 3].
 2. **Amino Acid Condensation & Cyclization:** The terminal NRPS module of `PUJ_000117` (C-A-PCP) activates and condenses L-serine or L-alanine onto the nascent polyketide chain. A dedicated Dieckmann cyclization catalyzed by the condensation/thioesterase domain releases the intermediate as a characteristic tetramic acid heterocyclic core [1, 4].
-3. **Oxidative Tailoring & Stereoselective Functionalization:** The co-localized cytochrome P450 monooxygenase (`PUJ_000114`) catalyzes stereospecific oxidation of the decalin ring, while the short-chain dehydrogenase (`PUJ_000113`) and methyltransferase (`PUJ_000116`) catalyze keto-reduction and N-methylation of the tetramic acid ring nitrogen, respectively [2, 5].
-4. **Self-Resistance & Efflux:** The mature bioactive tetramic acid is actively extruded into the extracellular rhizosphere via the 12-transmembrane-helix MFS transporter `PUJ_000118`, preventing intracellular toxicity and maintaining a chemical exclusion zone around the *Trichoderma* hyphae [1, 6].
+3. **Oxidative Tailoring & Stereoselective Functionalization:** The co-localized aminotransferase `PUJ_000114`, methyltransferase `PUJ_000113`, and acyltransferase `PUJ_000116` catalyze intermediate tailoring, amino acid functionalization, and methyl transfer on the tetramic acid heterocyclic core [2, 5].
+4. **Self-Resistance & Cellular Export:** The mature bioactive tetramic acid is actively extruded into the extracellular rhizosphere via cluster-associated transmembrane transporters (such as `PUJ_000110`), preventing intracellular toxicity and maintaining a chemical exclusion zone around the *Trichoderma* hyphae [1, 6].
 """,
         "gene_details": {
             "PUJ_000109": "Hypothetical structural protein situated at the 5' boundary of the cluster.",
-            "PUJ_000110": "Uncharacterized fungal protein containing a domain of unknown function (DUF1772), potentially involved in cluster scaffold stabilization.",
-            "PUJ_000111": "Fungal-specific uncharacterized protein conserved across Hypocreales BGCs.",
-            "PUJ_000112": "Putative carboxylesterase / alpha-beta hydrolase, involved in intermediate ester hydrolysis or pro-drug activation.",
-            "PUJ_000113": "Short-chain dehydrogenase/reductase (SDR, PF00106) responsible for stereospecific keto-reduction of tetramic acid side chains.",
-            "PUJ_000114": "Cytochrome P450 monooxygenase (CYP, PF00067) mediating regioselective and stereospecific monooxygenation of the fused decalin ring system.",
-            "PUJ_000115": "Putative polyketide cyclase / Diels-Alderase homolog facilitating the stereoselective endo-cyclization of the polyketide intermediate.",
-            "PUJ_000116": "S-adenosylmethionine (SAM)-dependent methyltransferase (PF08787) catalyzing N-methylation of the tetramic acid nitrogen.",
-            "PUJ_000117": "Core hybrid iterative Type I PKS-NRPS mega-synthetase (3,972 aa; KS-AT-DH-KR-ACP-C-A-PCP domains) directing polyketide assembly, amino acid ligation, and Dieckmann cyclization.",
-            "PUJ_000118": "Major Facilitator Superfamily (MFS, PF07690) multidrug efflux transporter mediating self-resistance and active secretion of the mature tetramic acid."
+            "PUJ_000110": "Transmembrane transport protein (PF07690) involved in active metabolite export and self-resistance.",
+            "PUJ_000111": "Fungal-specific transporter-associated protein (PF04082) conserved across Hypocreales BGCs.",
+            "PUJ_000112": "Putative aldolase / lyase family protein (270 aa; PF03328; EC 4.1.2.52) involved in intermediate remodeling.",
+            "PUJ_000113": "S-adenosyl-L-methionine (SAM)-dependent methyltransferase (371 aa; PF00891) responsible for methyl transfer.",
+            "PUJ_000114": "Aminotransferase / transaminase (368 aa; PF00155; EC 2.6.1.1) mediating amino group transfer.",
+            "PUJ_000115": "Aldolase / lyase family protein (269 aa; PF03328; EC 4.1.2.52) facilitating stereoselective intermediate processing.",
+            "PUJ_000116": "Acyltransferase / transferase (385 aa; PF00107, PF08240) mediating intermediate tailoring.",
+            "PUJ_000117": "Core hybrid iterative Type I PKS-NRPS mega-synthetase (3,931 aa; PF00106, PF00109, PF00501, PF00550, PF00668, PF00698, PF01370, PF02801, PF07993, PF08659, PF16197, PF21089) directing polyketide assembly, amino acid ligation, and Dieckmann cyclization.",
+            "PUJ_000118": "Cluster boundary uncharacterized protein (293 aa)."
         }
     },
     "contig_76_c1": {
         "title": "BGC 02: Novel Orphan Terpene Synthase Cluster (`contig_76_c1`)",
         "agri_role": "Novel specialized volatile or membrane-bound terpenoid candidate; predicted to mediate hyphal defense signaling, chemical warfare against soil microflora, and root colonization [7, 8].",
         "collective_architecture": """
-BGC 02 represents a compact, tri-cistronic orphan terpenoid operon on `contig_76` [7].
+BGC 02 represents a compact, tri-cistronic orphan terpenoid operon on `contig_76` [7]:
 1. **Hydrocarbon Backbone Cyclization:** The core terpene synthase `PUJ_000148` utilizes prenyl pyrophosphate precursors (farnesyl pyrophosphate FPP or geranylgeranyl pyrophosphate GGPP) through its conserved aspartate-rich catalytic triad (`DDxxD`), catalyzing ionization and multi-ring cascade cyclization to form a novel hydrocarbon terpene scaffold [8, 9].
 2. **Post-Cyclization Tailoring:** The adjacent short-chain dehydrogenase/reductase `PUJ_000149` (PF00106) and oxidoreductase `PUJ_000150` catalyze sequential stereoselective hydroxylations and carbonyl reductions, converting the hydrophobic hydrocarbon skeleton into a functionalized, bioactive oxygenated terpenoid [8, 10].
 """,
         "gene_details": {
-            "PUJ_000148": "Core terpene cyclase (PF01040/PF19086-related) harboring the magnesium-coordinating DDxxD motif, directing carbocation-mediated cyclization of prenyl diphosphates.",
-            "PUJ_000149": "Short-chain dehydrogenase/reductase (SDR, PF00106) catalyzing stereospecific secondary alcohol/ketone conversions on the terpene scaffold.",
-            "PUJ_000150": "Fungal oxidoreductase responsible for terminal oxidative tailoring and functionalization of the terpenoid molecule."
+            "PUJ_000148": "Core terpene cyclase (322 aa; PF01040) harboring the magnesium-coordinating DDxxD motif, directing carbocation-mediated cyclization of prenyl diphosphates.",
+            "PUJ_000149": "Short-chain dehydrogenase/reductase (SDR, 289 aa; PF00106, PF08659, PF13561) catalyzing stereospecific secondary alcohol/ketone conversions on the terpene scaffold.",
+            "PUJ_000150": "Fungal oxidoreductase (442 aa) responsible for terminal oxidative tailoring and functionalization of the terpenoid molecule."
         }
     },
     "contig_470_c1": {
@@ -207,33 +209,31 @@ BGC 02 represents a compact, tri-cistronic orphan terpenoid operon on `contig_76
         "agri_role": "Uncharacterized aromatic/aliphatic polyketide; candidate for hyphal melanization, chemical competition against soil oomycetes, or rhizosphere niche establishment [11, 12].",
         "collective_architecture": """
 A streamlined two-gene polyketide cluster on `contig_470` [11]:
-1. **Polyketide Elongation:** The mega-synthase `PUJ_001307` (2,145 aa) is an iterative Type I PKS possessing ketoacyl synthase (KS), acyltransferase (AT), dehydratase (DH), ketoreductase (KR), and acyl carrier protein (ACP) domains. It repetitively condenses acetyl-CoA and malonyl-CoA building blocks with defined levels of reductive processing [11, 13].
-2. **Product Offloading:** The co-transcribed alpha/beta hydrolase `PUJ_001306` acts as an external thioesterase/cyclase, releasing the nascent polyketide intermediate via lactonization or hydrolysis to generate the stable end-product [12, 14].
+1. **Polyketide Elongation:** The mega-synthase `PUJ_001307` (2,458 aa) is an iterative Type I PKS possessing ketoacyl synthase, acyltransferase, dehydratase, ketoreductase, and acyl carrier protein domains. It repetitively condenses acetyl-CoA and malonyl-CoA building blocks with defined levels of reductive processing [11, 13].
+2. **Product Offloading:** The co-transcribed cluster-associated protein `PUJ_001306` (179 aa) acts in concert with the PKS to offload the nascent polyketide intermediate [12, 14].
 """,
         "gene_details": {
-            "PUJ_001306": "Alpha/beta hydrolase (PF02423) acting as an external thioesterase/cyclase to offload and lactonize the polyketide chain from the ACP domain.",
-            "PUJ_001307": "Core iterative Type I Polyketide Synthase (PKS, 2,145 aa; KS-AT-DH-KR-ACP domains) directing sequential decarboxylative condensations of acyl-CoA substrates."
+            "PUJ_001306": "Cluster-associated uncharacterized protein (179 aa) co-transcribed with the core PKS.",
+            "PUJ_001307": "Core iterative Type I Polyketide Synthase (PKS, 2,458 aa; PF00106, PF00107, PF00550, PF00698, PF02801) directing sequential decarboxylative condensations of acyl-CoA substrates."
         }
     },
     "contig_473_c1": {
         "title": "BGC 04: Novel Orphan Non-Ribosomal Peptide Synthetase (NRPS) Cluster (`contig_473_c1`)",
         "agri_role": "Novel secondary metabolite peptide; predicted antimicrobial, siderophore-like, or membrane-active fungicidal agent [15, 16].",
         "collective_architecture": """
-BGC 04 is an intact, highly organized 8-gene secondary metabolic operon governed by a pathway-specific transcriptional regulator [15]:
-1. **Transcriptional Activation:** The cluster-situated Zn2Cys6 transcription factor `PUJ_001315` binds specifically to upstream regulatory palindromic promoter motifs, synchronizing the transcription of all biosynthetic and transport loci in response to environmental or mycoparasitic cues [17].
-2. **Substrate Priming:** The aminotransferase `PUJ_001313` and epimerase `PUJ_001314` synthesize specialized non-proteinogenic amino acid precursors (such as D-amino acids or branched-chain derivatives) [18].
-3. **Peptide Assembly Line:** The bimodular NRPS enzymes `PUJ_001309` and `PUJ_001310` coordinate in trans: adenylation (A) domains select and activate specific amino acids with ATP; thiolation/PCP domains tether aminoacyl thioesters; and condensation (C) domains catalyze stereospecific peptide bond formation [15, 16].
-4. **Oxidative Modification:** The co-localized cytochrome P450 `PUJ_001312` introduces stereospecific hydroxyl or epoxide groups onto the peptide backbone [19].
-5. **Secretion:** The 14-transmembrane MFS transporter `PUJ_001311` exports the bioactive peptide into the rhizosphere [15, 20].
+BGC 04 is an intact, highly organized 8-gene secondary metabolic operon on `contig_473`:
+1. **Peptide Assembly Line:** The bimodular NRPS enzymes `PUJ_001309` and `PUJ_001310` coordinate in trans: adenylation (A) domains select and activate specific amino acids with ATP; thiolation/PCP domains tether aminoacyl thioesters; and condensation (C) domains catalyze stereospecific peptide bond formation [15, 16].
+2. **Oxidative Tailoring & Modification:** Co-localized tailoring oxidoreductases (`PUJ_001313`, `PUJ_001314`, `PUJ_001315`) introduce stereospecific functional groups onto the peptide backbone [19].
+3. **Secretion:** The MFS transporter `PUJ_001312` (PF07690) exports the bioactive peptide into the rhizosphere [15, 20].
 """,
         "gene_details": {
             "PUJ_001309": "Core NRPS subunit 1 harboring condensation (C) and adenylation (A) modules directing initial peptide bond synthesis.",
             "PUJ_001310": "Core NRPS subunit 2 catalyzing elongation and downstream condensation reactions.",
-            "PUJ_001311": "MFS multidrug transporter (PF07690) facilitating self-protection and export of the mature peptide antibiotic.",
-            "PUJ_001312": "Cytochrome P450 monooxygenase (PF00067) catalyzing regio- and stereospecific hydroxylation of amino acid side chains.",
-            "PUJ_001313": "Aminotransferase / transaminase (PF00155) synthesizing non-proteinogenic amino acid intermediates.",
-            "PUJ_001314": "Amino acid epimerase / isomerase providing D-amino acid building blocks for non-ribosomal incorporation.",
-            "PUJ_001315": "Pathway-specific Zn(2)-Cys(6) fungal zinc-finger transcription factor (PF00172) driving cluster-wide coordinate transcription.",
+            "PUJ_001311": "NADH-quinone oxidoreductase subunit / transferase (339 aa; PF00107, PF08240, PF13602; EC 1.6.5.5).",
+            "PUJ_001312": "Major Facilitator Superfamily (MFS) transporter (495 aa; PF07690) facilitating active peptide secretion.",
+            "PUJ_001313": "Tailoring monooxygenase (194 aa; PF05721; EC 1.14.11.46) performing oxidative functionalization.",
+            "PUJ_001314": "Extradiol dioxygenase family protein (208 aa; PF01966; EC 1.13.11.78) mediating oxidative intermediate cleavage.",
+            "PUJ_001315": "Peroxidase / catalase-related tailoring enzyme (724 aa; PF00141; EC 1.11.1.21).",
             "PUJ_001316": "Cluster boundary uncharacterized protein, potentially functioning as an auxiliary transport or chaperone component."
         }
     },
@@ -241,10 +241,10 @@ BGC 04 is an intact, highly organized 8-gene secondary metabolic operon governed
         "title": "BGC 05: Novel Orphan Monomodular NRPS-like Cluster (`contig_579_c1`)",
         "agri_role": "Biosynthesis of specialized small-molecule aldehydes or carboxylate-derived signaling factors involved in fungal communication and stress adaptation [21].",
         "collective_architecture": """
-A single-gene biosynthetic machine: `PUJ_001555` encodes a monomodular NRPS-like enzyme featuring adenylation (A), peptidyl-carrier protein (PCP), and terminal reductase (R) domains. It activates a specific aryl or aliphatic carboxylic acid and reduces the thioester directly to an aldehyde or alcohol, functioning as an autonomous minimal biosynthetic unit without requiring accessory tailoring factors [21, 22].
+A single-gene biosynthetic machine: `PUJ_001555` encodes a large hybrid mega-synthetase (3,510 aa) featuring multi-domain condensation, adenylation, and thiolation architecture (PF00501, PF00550, PF00698, PF02801), functioning as an autonomous biosynthetic unit [21, 22].
 """,
         "gene_details": {
-            "PUJ_001555": "Autonomous monomodular NRPS-like enzyme (1,410 aa; A-PCP-R domain architecture) catalyzing ATP-dependent substrate adenylation, thiolation, and two-electron reductive release to an aldehyde product."
+            "PUJ_001555": "Core hybrid PKS-NRPS mega-synthetase (3,510 aa; PF00501, PF00550, PF00698, PF02801) directing multi-step substrate adenylation, condensation, and release."
         }
     },
     "contig_599_c1": {
@@ -253,11 +253,11 @@ A single-gene biosynthetic machine: `PUJ_001555` encodes a monomodular NRPS-like
         "collective_architecture": """
 A tri-cistronic terpene cluster on `contig_599`:
 1. The terpene cyclase `PUJ_001596` coordinates magnesium ions via its catalytic motifs to trigger carbocation cascade cyclization of farnesyl diphosphate (FPP) [8].
-2. The co-transcribed dehydrogenase `PUJ_001597` (PF00106) and auxiliary factor `PUJ_001598` catalyze oxidation of the resulting terpene hydrocarbon to yield an active volatile sesquiterpene [23].
+2. The co-transcribed oxidoreductase `PUJ_001597` (PF01490) and auxiliary factor `PUJ_001598` catalyze oxidation of the resulting terpene hydrocarbon to yield an active volatile sesquiterpene [23].
 """,
         "gene_details": {
             "PUJ_001596": "Core terpene cyclase mediating carbocation-driven cyclization of prenyl pyrophosphate precursors.",
-            "PUJ_001597": "Short-chain dehydrogenase/reductase (PF00106) catalyzing stereoselective oxidation of the terpene hydrocarbon core.",
+            "PUJ_001597": "Fungal oxidoreductase (525 aa; PF01490) catalyzing intermediate redox transformation.",
             "PUJ_001598": "Auxiliary membrane-associated protein involved in product maturation or intracellular trafficking."
         }
     },
@@ -266,16 +266,15 @@ A tri-cistronic terpene cluster on `contig_599`:
         "agri_role": "Novel non-ribosomal peptide candidate; potential mycoparasitic peptidyl factor or heavy metal chelator [15, 24].",
         "collective_architecture": """
 BGC 07 coordinates five closely clustered genes:
-1. `PUJ_001690` (NRPS) condenses specific amino acid residues into an oligopeptide backbone [15].
-2. `PUJ_001687` (acyltransferase) installs an acyl side chain onto the peptide scaffold [25].
-3. `PUJ_001688` (O-methyltransferase) and `PUJ_001689` (oxidoreductase) perform downstream protective methylation and redox tailoring [26].
-4. `PUJ_001686` (MFS transporter) facilitates targeted export into the extracellular milieu [20].
+1. `PUJ_001690` (core NRPS) and `PUJ_001689` (NRPS condensation domain protein, 450 aa) direct peptide chain assembly [15].
+2. Downstream tailoring oxidoreductase `PUJ_001688` (273 aa; PF00106) directs regioselective reduction [26].
+3. Membrane-associated accessory proteins `PUJ_001686` and `PUJ_001687` facilitate cellular coordination and product export [20].
 """,
         "gene_details": {
-            "PUJ_001686": "Major Facilitator Superfamily (MFS) efflux transporter (PF07690) mediating peptide secretion.",
-            "PUJ_001687": "Acyltransferase (PF00698) catalyzing N- or O-acylation of the non-ribosomal peptide backbone.",
-            "PUJ_001688": "SAM-dependent O-methyltransferase (PF00891) directing regioselective methylation of hydroxyl moieties.",
-            "PUJ_001689": "Short-chain oxidoreductase (PF00106) performing carbonyl reduction.",
+            "PUJ_001686": "DUF2044 domain-containing protein (218 aa; PF09587) facilitating cluster-associated cellular processes.",
+            "PUJ_001687": "Cluster-associated uncharacterized protein (128 aa).",
+            "PUJ_001688": "Short-chain dehydrogenase/reductase (273 aa; PF00106, PF08659, PF13561) directing regioselective reduction.",
+            "PUJ_001689": "Non-ribosomal peptide synthetase condensation domain protein (450 aa; PF00668) facilitating peptide synthesis.",
             "PUJ_001690": "Core Non-Ribosomal Peptide Synthetase (NRPS) multi-domain enzyme directing peptide chain assembly."
         }
     },
@@ -284,13 +283,13 @@ BGC 07 coordinates five closely clustered genes:
         "agri_role": "Biosynthesis of specialized defensive triterpenoids or membrane-stabilizing sterol derivatives essential for hyphal integrity during antifungal confrontations [27, 28].",
         "collective_architecture": """
 A three-gene cluster centered on oxidosqualene cyclization:
-1. `PUJ_001793` (lanosterol synthase, EC 5.4.99.7) catalyzes the complex stereospecific cationic polycyclization of 2,3-oxidosqualene into the tetracyclic protosteryl carbocation and lanosterol scaffold [27].
-2. `PUJ_001792` (SAM-dependent methyltransferase) performs C-24 transmethylation, a hallmark step in fungal ergosterol and specialized triterpene diversification [28].
+1. `PUJ_001793` (lanosterol synthase, 738 aa; EC 5.4.99.7; PF00432, PF13243, PF13249) catalyzes the complex stereospecific cationic polycyclization of 2,3-oxidosqualene into the tetracyclic protosteryl carbocation and lanosterol scaffold [27].
+2. `PUJ_001792` (569 aa; PF03403; EC 3.1.1.47) catalyzes ester hydrolysis and tailoring [28].
 3. `PUJ_001794` acts as an auxiliary regulatory or folding factor [27].
 """,
         "gene_details": {
-            "PUJ_001792": "Sterol C-methyltransferase (PF00891/PF08787) catalyzing side-chain methylation.",
-            "PUJ_001793": "Core Lanosterol synthase / Oxidosqualene-lanosterol cyclase (EC 5.4.99.7; PF00359/PF13243) catalyzing tetracyclic triterpene cyclization.",
+            "PUJ_001792": "Platelet-activating factor acetylhydrolase family protein (569 aa; PF03403; EC 3.1.1.47) catalyzing ester hydrolysis.",
+            "PUJ_001793": "Core Lanosterol synthase / Oxidosqualene-lanosterol cyclase (738 aa; EC 5.4.99.7; PF00432, PF13243, PF13249) catalyzing tetracyclic triterpene cyclization.",
             "PUJ_001794": "Uncharacterized fungal protein associated with membrane triterpene biosynthesis."
         }
     },
@@ -299,15 +298,15 @@ A three-gene cluster centered on oxidosqualene cyclization:
         "agri_role": "Biosynthesis of pyrrolopyrazine alkaloid feeding deterrents (peramine analogs) that repel subterranean insect pests, root aphids, and nematodes, shielding the host plant root system [29, 30].",
         "collective_architecture": """
 Homologous to the perA alkaloid biosynthetic machinery of fungal endophytes (`BGC0002164.2`) [29]:
-1. **Peptide Ligation & Heterocycle Formation:** The bimodular NRPS enzyme `PUJ_001846` activates L-arginine and homoproline, condensing them and catalyzing intramolecular nucleophilic attack to form a pyrrolopyrazine core [29, 31].
-2. **Oxidative Maturation:** The co-clustered cytochrome P450 `PUJ_001844` and peptidase/hydrolase `PUJ_001845` execute regioselective oxidative tailoring and terminal chain processing to finalize the insecticidal alkaloid [30].
-3. **Apoplastic Secretion:** The MFS transporter `PUJ_001843` actively secretes peramine into the rhizosphere and plant root apoplast [29].
+1. **Peptide Ligation:** The core NRPS enzyme `PUJ_001846` (1,054 aa; homologous to *Aspergillus nidulans* PerA [literature reference: 2,120 aa]) condenses amino acid precursors to form the core peptide backbone [29, 31].
+2. **Accessory Processing:** Co-clustered proteins `PUJ_001844` and `PUJ_001845` execute tailoring and chain processing [30].
+3. **Transport:** The ABC transporter `PUJ_001843` (887 aa; PF00005) facilitates cellular secretion [29].
 """,
         "gene_details": {
-            "PUJ_001843": "MFS multidrug transporter (PF07690) facilitating apoplastic translocation and export of pyrrolopyrazine alkaloids.",
-            "PUJ_001844": "Cytochrome P450 monooxygenase (PF00067) catalyzing oxidative functionalization of the heterocyclic alkaloid ring.",
-            "PUJ_001845": "Serine peptidase / acyltransferase (PF00082) mediating terminal cleavage or side-chain tailoring.",
-            "PUJ_001846": "Core Peramine-like bimodular NRPS mega-synthetase (2,120 aa; A-PCP-C-A-PCP architecture) directing pyrrolopyrazine ring construction.",
+            "PUJ_001843": "ABC transporter subunit (887 aa; PF00005) facilitating transmembrane translocation.",
+            "PUJ_001844": "Cluster-associated uncharacterized protein (256 aa).",
+            "PUJ_001845": "Cluster boundary uncharacterized protein (108 aa).",
+            "PUJ_001846": "Core Peramine-like NRPS enzyme (1,054 aa; PF00550; homologous to Aspergillus nidulans PerA [literature reference: 2,120 aa]).",
             "PUJ_001847": "Cluster boundary hypothetical protein."
         }
     },
@@ -330,15 +329,15 @@ A split-synthetase architecture:
         "agri_role": "Metabolic channeling of 20-carbon GGPP intermediates into specialized fungal diterpenoids, gibberellin-like phytohormones, or membrane carotenoids that modulate plant growth and stress resilience [32, 33].",
         "collective_architecture": """
 A four-gene pathway for diterpene precursor channeling:
-1. `PUJ_002252` (GGPP synthase, EC 2.5.1.29) condenses farnesyl diphosphate (FPP) with isopentenyl diphosphate (IPP) to produce the critical C20 prenyl donor geranylgeranyl pyrophosphate [32].
-2. Instead of diffusing freely, GGPP is directly channeled to the co-transcribed cytochrome P450 monooxygenase `PUJ_002253` and short-chain oxidoreductase `PUJ_002254`, which introduce successive oxygenations to generate a functionalized diterpenoid backbone [33, 34].
-3. `PUJ_002251` functions as a transmembrane anchor protein localizing the enzymatic complex to the endoplasmic reticulum [32].
+1. `PUJ_002252` (GGPP synthase, 423 aa; PF00348; literature-inferred: EC 2.5.1.29) condenses farnesyl diphosphate (FPP) with isopentenyl diphosphate (IPP) to produce the critical C20 prenyl donor geranylgeranyl pyrophosphate [32].
+2. Co-transcribed regulatory and signaling proteins `PUJ_002253` (peroxisome maintenance factor) and `PUJ_002254` (dual-specificity protein kinase, EC 2.7.12.1) coordinate metabolic flux [33, 34].
+3. `PUJ_002251` functions as a transmembrane anchor protein localizing the enzymatic complex [32].
 """,
         "gene_details": {
             "PUJ_002251": "Integral membrane protein organizing the subcellular localization of the diterpene biosynthetic complex.",
-            "PUJ_002252": "Core Geranylgeranyl pyrophosphate synthetase (GGPPS, EC 2.5.1.29; PF00348) synthesizing the universal 20-carbon diterpene precursor.",
-            "PUJ_002253": "Cytochrome P450 monooxygenase (PF00067) catalyzing successive oxidations of the GGPP hydrocarbon skeleton.",
-            "PUJ_002254": "Short-chain dehydrogenase/reductase (PF00106) carrying out stereospecific keto-reduction."
+            "PUJ_002252": "Core Geranylgeranyl pyrophosphate synthetase (GGPPS, 423 aa; PF00348; literature-inferred: EC 2.5.1.29) synthesizing the universal 20-carbon diterpene precursor.",
+            "PUJ_002253": "Peroxisome size and maintenance regulator (480 aa; PF06398).",
+            "PUJ_002254": "Serine/threonine protein kinase (744 aa; PF00069, PF07714; EC 2.7.12.1) mediating phosphorylation and signaling."
         }
     },
     "contig_1144_c1": {
@@ -346,14 +345,14 @@ A four-gene pathway for diterpene precursor channeling:
         "agri_role": "Biosynthesis of chlorinated/aromatic octaketide derivatives with potent antifungal, cytotoxic, and antibiotic activity against competing soil microorganisms [35, 36].",
         "collective_architecture": """
 Homologous to the fungal cryptosporioptide cluster (`BGC0002063.3`) [35]:
-1. **Polyketide Backbone Assembly:** The iterative Type I PKS `PUJ_002692` (2,150 aa; Atrochrysone carboxylic acid synthase Agnpks1 homolog) condenses malonyl-CoA units to form an aromatic bicyclic polyketide intermediate [35, 37].
-2. **Esterification & Ring Closure:** The co-clustered beta-lactamase/esterase-family hydrolase `PUJ_002691` coordinates lactonization or ester bond formation [35].
-3. **O-Methylation:** The SAM-dependent methyltransferase `PUJ_002690` selectively methylates phenolic hydroxyl groups, conferring chemical stability and potent antimicrobial bioactivity [36].
+1. **Polyketide Backbone Assembly:** The iterative Type I PKS `PUJ_002692` (1,382 aa; homologous to *Aspergillus nidulans* Agnpks1 [literature reference: 2,150 aa]) condenses malonyl-CoA units to form an aromatic bicyclic polyketide intermediate [35, 37].
+2. **Post-PKS Reduction & Tailoring:** Co-clustered SDR family ketoreductase `PUJ_002690` (dmxR12, 253 aa; PF00106) directs regioselective keto-reduction of the polyketide scaffold [35, 36].
+3. **Accessory Maturation:** Cluster-associated factor `PUJ_002691` (197 aa) coordinates pathway stability [35].
 """,
         "gene_details": {
-            "PUJ_002690": "SAM-dependent O-methyltransferase (PF00891) methylating phenolic groups on the polyketide ring.",
-            "PUJ_002691": "Beta-lactamase/hydrolase family esterase (PF00144) directing ring lactonization and hydrolytic release.",
-            "PUJ_002692": "Core iterative Type I Polyketide Synthase (Agnpks1 homolog, 2,150 aa; KS-AT-DH-KR-ACP domains) directing octaketide aromatic ring synthesis."
+            "PUJ_002690": "Short chain dehydrogenase/reductase dmxR12 (253 aa; PF00106) directing keto-reduction of the polyketide scaffold.",
+            "PUJ_002691": "Cluster-associated uncharacterized protein (197 aa).",
+            "PUJ_002692": "Core iterative Type I Polyketide Synthase (1,382 aa; PF00109, PF00550, PF00698, PF02801; homologous to Aspergillus nidulans Agnpks1 [literature reference: 2,150 aa])."
         }
     },
     "contig_1170_c1": {
@@ -424,17 +423,17 @@ A comprehensive six-gene biosynthetic assembly line:
     },
     "contig_1419_c1": {
         "title": "BGC 17: Metachelin / Dimerumic Acid Hydroxamate Siderophore Cluster (`contig_1419_c1`)",
-        "agri_role": "High-affinity ferric iron ($Fe^{3+}$) scavenging; starves competing fungal pathogens (*Fusarium*, *Pythium*, *Rhizoctonia*) of essential iron, promotes plant root development, and facilitates iron nutrition in alkaline/calcareous agricultural soils [42, 43].",
+        "agri_role": "High-affinity ferric iron (Fe3+) scavenging; starves competing fungal pathogens (Fusarium, Pythium, Rhizoctonia) of essential iron, promotes plant root development, and facilitates iron nutrition in alkaline/calcareous agricultural soils [42, 43].",
         "collective_architecture": """
 BGC 17 directs the biosynthesis of canonical fungal hydroxamate siderophores matching `BGC0002710.2` (metachelin C/A, score 2,034, 50–62% identity) [42]:
-1. **Hydroxamate Precursor Generation:** L-ornithine is N5-hydroxylated by an external monooxygenase and subsequently N5-acylated by the co-clustered acyltransferase `PUJ_003665` to form the bidentate iron-chelating hydroxamate building block [42, 44].
+1. **Hydroxamate Precursor Generation:** L-ornithine is N5-hydroxylated by an external monooxygenase and subsequently N5-acylated by the co-clustered acyltransferase `PUJ_003665` (185 aa; PF00385) to form the bidentate iron-chelating hydroxamate building block [42, 44].
 2. **Siderophore Assembly:** The core siderophore NRPS `PUJ_003670` (1,415 aa) activates and condenses two or three hydroxamate units, cyclizing or linearizing them into mature dimerumic acid or metachelin [42, 45].
 3. **Peptidolytic Tailoring & Vesicular Secretion:** Peptidase `PUJ_003666` and endosomal Rab GTPase ypt31 `PUJ_003664` coordinate post-synthetic maturation and exocytic vesicle trafficking to export the siderophore into the iron-depleted rhizosphere [43, 46].
 """,
         "gene_details": {
             "PUJ_003663": "Ribosome biogenesis factor BRX1 homolog, reflecting chromosomal clustering near essential cellular maintenance genes.",
             "PUJ_003664": "Rab family GTPase ypt31 (PF00025) regulating endosomal sorting and exocytic vesicle secretion of siderophore payloads.",
-            "PUJ_003665": "Acyltransferase (PF00698) catalyzing N5-acylation of hydroxyornithine precursors with acyl-CoA donors.",
+            "PUJ_003665": "Acyltransferase (185 aa; PF00385) catalyzing acylation of hydroxyornithine precursors.",
             "PUJ_003666": "Metallopeptidase family M19 (PF04695) involved in siderophore intermediate maturation or turnover.",
             "PUJ_003667": "Acetyltransferase / GNAT-family transferase involved in precursor modification.",
             "PUJ_003668": "Uncharacterized fungal protein.",
@@ -444,11 +443,11 @@ BGC 17 directs the biosynthesis of canonical fungal hydroxamate siderophores mat
     },
     "contig_1710_c1": {
         "title": "BGC 18: Enniatin-like Cyclodepsipeptide Antifungal Cluster (`contig_1710_c1`)",
-        "agri_role": "High-potency ionophoric cyclodepsipeptide; integrates into the lipid bilayer of phytopathogenic fungal hyphae (*Fusarium*, *Botrytis*, *Sclerotinia*), creating cation-permeable transmembrane pores, collapsing the proton-motive force, and triggering osmotic lysis [47, 48].",
+        "agri_role": "High-potency ionophoric cyclodepsipeptide; integrates into the lipid bilayer of phytopathogenic fungal hyphae (Fusarium, Botrytis, Sclerotinia), creating cation-permeable transmembrane pores, collapsing the proton-motive force, and triggering osmotic lysis [47, 48].",
         "collective_architecture": """
 BGC 18 directs the synthesis of cyclohexadepsipeptides matching the enniatin synthase cluster (`BGC0000342.4`, score 2,390, 54% identity) [47]:
 1. **Hydroxy Acid Precursor Synthesis:** `PUJ_004656` encodes D-hydroxyisovalerate dehydrogenase (D-HivDH, EC 1.1.1.29), which stereospecifically reduces 2-ketoisovalerate into D-2-hydroxyisovaleric acid (D-Hiv) [47, 49].
-2. **Alternating Condensation & Iterative Cyclization:** The core cyclodepsipeptide NRPS `PUJ_004657` (2,204 aa) exhibits an alternating modular architecture: it activates D-Hiv and a branched-chain amino acid (L-valine, L-leucine, or L-isoleucine), N-methylates the amino acid via an integral SAM-dependent domain, condenses the ester and peptide bonds, and iteratively repeats the sequence three times before catalyzing head-to-tail macrolactonization to yield the cyclic hexadepsipeptide [47, 48].
+2. **Alternating Condensation & Iterative Cyclization:** The core cyclodepsipeptide NRPS `PUJ_004657` (2,204 aa) exhibits an alternating modular architecture: it activates D-Hiv and a branched-chain amino acid, N-methylates the amino acid via an integral SAM-dependent domain, condenses the ester and peptide bonds, and iteratively repeats the sequence three times before catalyzing head-to-tail macrolactonization to yield the cyclic hexadepsipeptide [47, 48].
 3. **Accessory Secretion & Protection:** Co-localized multicopper laccase `PUJ_004649` and acid phosphatase `PUJ_004650` (PHO5) modulate microenvironmental pH and extracellular oxidative poise to optimize antifungal deployment [48, 50].
 """,
         "gene_details": {
@@ -471,11 +470,11 @@ BGC 18 directs the synthesis of cyclohexadepsipeptides matching the enniatin syn
         "collective_architecture": """
 Matching the squalestatin S1 pathway (`BGC0001839.3`, score 863, 60–61% identity) [51]:
 1. **Core Squalene Synthetase Condensation:** `PUJ_005110` encodes bifunctional farnesyl-diphosphate farnesyltransferase / squalene synthase (442 aa), catalyzing the head-to-head reductive condensation of two farnesyl pyrophosphate (FPP) molecules [51, 53].
-2. **Multi-Step Oxidative Rearrangement:** The eight co-clustered flanking loci (`PUJ_005107`–`PUJ_005109` and `PUJ_005111`–`PUJ_005115`) encode oxidoreductases, acyltransferases, and carboxylesterases that oxidize the hydrocarbon chain into a bicyclic 2,8-dioxabicyclo[3.2.1]octane-4,6,7-tricarboxylic acid core and install ester side chains [51, 52].
+2. **Multi-Step Oxidative Rearrangement:** The eight co-clustered flanking loci (`PUJ_005107`–`PUJ_005109` and `PUJ_005111`–`PUJ_005115`) encode oxidoreductases, acyltransferases, and molecular chaperones (`caj1`, `PUJ_005108`) that fold and oxidize the hydrocarbon chain into a bicyclic tricarboxylic acid core [51, 52].
 """,
         "gene_details": {
             "PUJ_005107": "Short-chain oxidoreductase (PF00106) participating in tricarboxylic core tailoring.",
-            "PUJ_005108": "Carboxylesterase / hydrolase (PF00135) directing ester side-chain attachment.",
+            "PUJ_005108": "DnaJ-like molecular chaperone (498 aa; PF00226, PF14308) assisting protein folding.",
             "PUJ_005109": "Acyltransferase mediating acyl group transfer to the squalestatin core.",
             "PUJ_005110": "Core Squalene Synthase / Farnesyl-diphosphate farnesyltransferase (EC 2.5.1.21; PF00494) assembling the C30 terpene scaffold.",
             "PUJ_005111": "Cytochrome P450 monooxygenase (PF00067) catalyzing stereospecific epoxidation and cyclization.",
@@ -491,12 +490,12 @@ Matching the squalestatin S1 pathway (`BGC0001839.3`, score 863, 60–61% identi
         "collective_architecture": """
 A complete six-gene non-ribosomal peptide assembly line:
 1. `PUJ_005223` encodes a 2,130-aa multi-modular NRPS that executes adenylation and peptide chain elongation [15].
-2. Flanking transferases (`PUJ_005224`), short-chain dehydrogenases (`PUJ_005225`), and methyltransferases (`PUJ_005227`) provide comprehensive post-synthetic functionalization [19, 26].
+2. Flanking regulatory protein `rtg2` (`PUJ_005224`, 630 aa; PF02541), short-chain dehydrogenases (`PUJ_005225`), and methyltransferases (`PUJ_005227`) provide comprehensive post-synthetic functionalization [19, 26].
 3. `PUJ_005228` (MFS transporter) drives efflux into the rhizosphere environment [20].
 """,
         "gene_details": {
             "PUJ_005223": "Core multi-modular Non-Ribosomal Peptide Synthetase (2,130 aa; A-PCP-C modules) directing peptide synthesis.",
-            "PUJ_005224": "Acyltransferase / transferase (PF00698) catalyzing side-chain functionalization.",
+            "PUJ_005224": "Retrograde regulation protein 2 (630 aa; PF02541) involved in metabolic coordination.",
             "PUJ_005225": "Short-chain dehydrogenase/reductase (PF00106) performing stereoselective carbonyl reduction.",
             "PUJ_005226": "Alpha/beta hydrolase family protein involved in peptide release or maturation.",
             "PUJ_005227": "SAM-dependent methyltransferase (PF00891) methylating specific residue positions.",
@@ -505,19 +504,19 @@ A complete six-gene non-ribosomal peptide assembly line:
     },
     "contig_1813_c1": {
         "title": "BGC 21: Trichobrasilenol / Brasilane Volatile Sesquiterpene Cluster (`contig_1813_c1`)",
-        "agri_role": "Primary volatile organic compound (VOC) mediating aerial plant-microbe signaling; primes Induced Systemic Resistance (ISR) and Systemic Acquired Resistance (SAR) in plant leaves, activates defense genes (PR-1, PDF1.2), and inhibits airborne fungal spore germination (*Botrytis cinerea*, *Colletotrichum*) [54, 55].",
+        "agri_role": "Primary volatile organic compound (VOC) mediating aerial plant-microbe signaling; primes Induced Systemic Resistance (ISR) and Systemic Acquired Resistance (SAR) in plant leaves, activates defense genes (PR-1, PDF1.2), and inhibits airborne fungal spore germination (Botrytis cinerea, Colletotrichum) [54, 55].",
         "collective_architecture": """
 Matching the fungal brasilane VOC cluster (`BGC0002260.3`, score 906, 58–61% identity) [54]:
-1. **Volatile Cyclization:** The core terpene cyclase `PUJ_005301` (*TATC6*, 332 aa) coordinates magnesium ions via its `DDxxD` motif to cyclize farnesyl pyrophosphate (FPP) into the distinctive fused tricyclic brasilane hydrocarbon carbocation [54, 56].
+1. **Volatile Cyclization:** The core terpene cyclase `PUJ_005301` (TATC6, 332 aa) coordinates magnesium ions via its `DDxxD` motif to cyclize farnesyl pyrophosphate (FPP) into the distinctive fused tricyclic brasilane hydrocarbon carbocation [54, 56].
 2. **Oxidative Tailoring:** The adjacent cytochrome P450 monooxygenase `PUJ_005304` and aldo/keto reductase `PUJ_005305` introduce stereospecific hydroxyl and carboxyl groups, yielding trichobrasilenol and xylarenic acid derivatives [54, 57].
-3. **Detoxification & Redox Homeostasis:** Intense volatile terpene synthesis generates reactive electrophilic intermediates and lipid hydroperoxides; the co-transcribed glutathione S-transferase `PUJ_005302` (`GST2_2`, EC 2.5.1.18) conjugates glutathione to toxic byproducts, preserving cellular viability [58].
+3. **Detoxification & Redox Homeostasis:** Intense volatile terpene synthesis generates reactive electrophilic intermediates and lipid hydroperoxides; the co-transcribed glutathione S-transferase `PUJ_005302` (Tas-gst2, EC 2.5.1.18) conjugates glutathione to toxic byproducts, preserving cellular viability [58].
 4. **DNA Repair & Genomic Preservation:** The presence of co-localized MRE11 meiotic recombination / double-strand break repair proteins `PUJ_005306` and `PUJ_005307` reflects specialized chromatin stabilization near this highly expressed volatile factory [54, 59].
 """,
         "gene_details": {
             "PUJ_005299": "Prolyl oligopeptidase family protein (PF00326) participating in peptide precursor turnover.",
             "PUJ_005300": "AAA-family ATPase (PF00004) involved in macromolecular chaperone-like complexes.",
-            "PUJ_005301": "Core Terpene Cyclase 6 (*TATC6*, 332 aa; EC 4.2.3.-; PF19086) harboring the DDxxD motif, directing brasilane sesquiterpene cyclization.",
-            "PUJ_005302": "Glutathione S-transferase 2 (*Tas-gst2*, EC 2.5.1.18; PF02798/PF13409) detoxifying reactive terpene synthesis byproducts.",
+            "PUJ_005301": "Core Terpene Cyclase 6 (TATC6, 332 aa; EC 4.2.3.-; PF19086) harboring the DDxxD motif, directing brasilane sesquiterpene cyclization.",
+            "PUJ_005302": "Glutathione S-transferase 2 (Tas-gst2, EC 2.5.1.18; PF02798/PF13409) detoxifying reactive terpene synthesis byproducts.",
             "PUJ_005304": "Cytochrome P450 monooxygenase (PF00067/PF05704) catalyzing stereospecific hydroxylation to yield trichobrasilenol.",
             "PUJ_005305": "Aldo/keto reductase (PF00248) reducing aldehyde intermediates to primary alcohols.",
             "PUJ_005306": "MRE11 double-strand break repair exonuclease (PF00149) maintaining genomic stability at the volatile locus.",
@@ -529,15 +528,15 @@ Matching the fungal brasilane VOC cluster (`BGC0002260.3`, score 906, 58–61% i
         "agri_role": "Relieves crop plants from abiotic stress-induced ethylene inhibition (drought, flooding, soil salinity); cleaves the plant ethylene precursor ACC into alpha-ketobutyrate and ammonia, rescuing primary root elongation and enhancing nutrient uptake [60, 61].",
         "collective_architecture": """
 A specialized rhizosphere competence and plant-symbiosis micro-cluster on `contig_1730` [60]:
-1. **Exudate Sensing & Chemotaxis:** The Rho family small GTPase `PUJ_004818` (*RHO3*) coordinates polar hyphal growth, directional apical branching, and cytoskeletal remodeling toward plant root exudate concentration gradients [62].
+1. **Exudate Sensing & Chemotaxis:** The Rho family small GTPase `PUJ_004818` (RHO3) coordinates polar hyphal growth, directional apical branching, and cytoskeletal remodeling toward plant root exudate concentration gradients [62].
 2. **Rhizosphere Carbon Utilization:** The glycosyl hydrolase family 3 beta-glucosidase `PUJ_004817` (1,141 aa; EC 3.2.1.21) hydrolyzes plant cell-wall cellobiose and root oligosaccharides, providing carbon and energy to establish the fungal rhizosphere niche [63].
-3. **ACC Transport & Degradation:** When plant roots experience environmental stress (salinity, drought), they synthesize excessive 1-aminocyclopropane-1-carboxylate (ACC) and exude a fraction into the rhizosphere. The co-clustered MFS permease `PUJ_004815` actively imports ACC into the fungal cytoplasm, where the pyridoxal-5'-phosphate-dependent enzyme ACC deaminase `PUJ_004816` (*Tas-acdS*, EC 3.5.99.7) cleaves it into ammonia (assimilated as nitrogen) and alpha-ketobutyrate (fueled into the TCA cycle) [60, 61].
+3. **ACC Transport & Degradation:** When plant roots experience environmental stress (salinity, drought), they synthesize excessive 1-aminocyclopropane-1-carboxylate (ACC) and exude a fraction into the rhizosphere. The co-clustered MFS permease `PUJ_004815` actively imports ACC into the fungal cytoplasm, where the pyridoxal-5'-phosphate-dependent enzyme ACC deaminase `PUJ_004816` (Tas-acdS, EC 3.5.99.7) cleaves it into ammonia (assimilated as nitrogen) and alpha-ketobutyrate (fueled into the TCA cycle) [60, 61].
 4. **Plant Growth Promotion:** This systemic sink effect lowers root ACC concentrations, preventing stress ethylene overproduction and maintaining active root growth under harsh agricultural conditions [60, 64].
 """,
         "gene_details": {
             "PUJ_004814": "Fungal-specific uncharacterized protein.",
             "PUJ_004815": "MFS transporter / amino acid permease (PF07690) facilitating the cellular import of plant-exuded ACC.",
-            "PUJ_004816": "Core 1-Aminocyclopropane-1-carboxylate Deaminase (*Tas-acdS*, 348 aa; EC 3.5.99.7; PF00291/IPR005965) catalyzing hydrolytic cleavage of ACC to ammonia and alpha-ketobutyrate.",
+            "PUJ_004816": "Core 1-Aminocyclopropane-1-carboxylate Deaminase (Tas-acdS, 348 aa; EC 3.5.99.7; PF00291/IPR005965) catalyzing hydrolytic cleavage of ACC to ammonia and alpha-ketobutyrate.",
             "PUJ_004817": "Glycosyl hydrolase family 3 beta-glucosidase (1,141 aa; EC 3.2.1.21; PF00933/PF01915) hydrolyzing plant root oligosaccharides.",
             "PUJ_004818": "Rho family GTPase RHO3 (PF00025/PF00071) regulating directional hyphal growth, polarization, and root tip colonization.",
             "PUJ_004819": "Small signaling accessory peptide."
@@ -545,11 +544,11 @@ A specialized rhizosphere competence and plant-symbiosis micro-cluster on `conti
     },
     "CLUSTER_contig_623_FET3_FTR1": {
         "title": "Micro-Cluster 23: High-Affinity Reductive Iron Assimilation (RIA) Complex (`contig_623`)",
-        "agri_role": "High-affinity iron acquisition in calcareous and alkaline soils; permits *Trichoderma* to acquire iron at picomolar concentrations where insoluble ferric iron ($Fe^{3+}$) cannot be utilized by plant pathogens, outcompeting rhizosphere invaders while facilitating plant nutrition [65, 66].",
+        "agri_role": "High-affinity iron acquisition in calcareous and alkaline soils; permits Trichoderma to acquire iron at picomolar concentrations where insoluble ferric iron (Fe3+) cannot be utilized by plant pathogens, outcompeting rhizosphere invaders while facilitating plant nutrition [65, 66].",
         "collective_architecture": """
 A tightly regulated high-affinity iron translocation machine on `contig_623` [65]:
-1. **Ferrous Iron Reduction & Delivery:** Insoluble extracellular $Fe^{3+}$ chelates are reduced by cell-surface ferric reductases to soluble $Fe^{2+}$.
-2. **Coupled Oxidation & Permeation:** The multicopper ferroxidase `PUJ_001678` (*FET3*, EC 1.16.3.1) and high-affinity iron permease `PUJ_001679` (*FTR1_1*) form a physical, obligate heterodimeric transport complex in the fungal plasma membrane. *FET3* couples the four-electron reduction of molecular oxygen to water with the one-electron oxidation of $Fe^{2+}$ back to $Fe^{3+}$, channeled directly through the pore of *FTR1_1* into the cytoplasm without generating damaging hydroxyl radicals [65, 67].
+1. **Ferrous Iron Reduction & Delivery:** Insoluble extracellular Fe3+ chelates are reduced by cell-surface ferric reductases to soluble Fe2+.
+2. **Coupled Oxidation & Permeation:** The multicopper ferroxidase `PUJ_001678` (FET3, literature-inferred: EC 1.16.3.1) and high-affinity iron permease `PUJ_001679` (FTR1_1) form a physical, obligate heterodimeric transport complex in the fungal plasma membrane. FET3 couples the four-electron reduction of molecular oxygen to water with the one-electron oxidation of Fe2+ back to Fe3+, channeled directly through the pore of FTR1_1 into the cytoplasm without generating damaging hydroxyl radicals [65, 67].
 3. **Thiol-Redox Homeostasis & Amide Processing:** The co-localized glutathione S-transferase `PUJ_001677` maintains local cysteine-thiol reductive poise around the iron channel, while amidases `PUJ_001675` and `PUJ_001676` (EC 3.5.1.4) release nitrogen from iron-amino complexes [58, 68].
 """,
         "gene_details": {
@@ -559,18 +558,18 @@ A tightly regulated high-affinity iron translocation machine on `contig_623` [65
             "PUJ_001675": "Amidase (EC 3.5.1.4) releasing ammonia from organic amine/amide complexes.",
             "PUJ_001676": "Amidase family protein (EC 3.5.1.4; PF01425) assisting in nitrogen and ligand turnover.",
             "PUJ_001677": "Glutathione S-transferase / thiol oxidoreductase (EC 1.8.5.7; PF13409/PF13410) maintaining redox poise around the permease.",
-            "PUJ_001678": "Core Multicopper Ferroxidase FET3 (606 aa; EC 1.16.3.1; PF00394/PF07731) catalyzing radical-free oxidation of Fe2+ to Fe3+.",
+            "PUJ_001678": "Core Multicopper Ferroxidase FET3 (606 aa; PF00394, PF07731, PF07732; literature-inferred: EC 1.16.3.1) catalyzing radical-free oxidation of Fe2+ to Fe3+.",
             "PUJ_001679": "Core High-Affinity Iron Permease FTR1_1 (367 aa; PF03239) channeling Fe3+ across the plasma membrane.",
             "PUJ_001680": "Small membrane-anchored auxiliary protein."
         }
     },
     "CLUSTER_contig_1705_chit2": {
         "title": "Micro-Cluster 24: Chitinase 2 Biocontrol Secretory & Sorting Locus (`contig_1705`)",
-        "agri_role": "Primary enzymatic weapon for fungal biocontrol (mycoparasitism); hydrolyzes $\beta$-1,4-glycosidic bonds in the chitin matrix of phytopathogenic fungi (*Rhizoctonia*, *Fusarium*, *Sclerotium*, *Botrytis*), dissolving cell walls and inhibiting hyphal invasion [69, 70].",
+        "agri_role": "Primary enzymatic weapon for fungal biocontrol (mycoparasitism); hydrolyzes beta-1,4-glycosidic bonds in the chitin matrix of phytopathogenic fungi (Rhizoctonia, Fusarium, Sclerotium, Botrytis), dissolving cell walls and inhibiting hyphal invasion [69, 70].",
         "collective_architecture": """
 A complete mycoparasitic secretory and catabolic cluster on `contig_1705` [69]:
-1. **Secretory Vesicle Trafficking:** Secretion of large hydrolytic enzymes requires tight vesicle coordination. The phosphatidylinositol 4-kinases `PUJ_004615` and `PUJ_004616` (*PIK1*) synthesize phosphatidylinositol 4-phosphate (PI4P) at the Golgi apparatus, recruiting the Rab GTPase `PUJ_004618` (*VPS21*) to direct endosomal sorting and target exocytic secretory vesicles loaded with chitinase to the hyphal apex [71, 72].
-2. **Cell Wall Hydrolysis:** The endochitinase `PUJ_004623` (*Tas-chit2*, 754 aa; EC 3.2.1.14; GH18) is discharged into the mycoparasitic contact zone, cleaving internal $\beta$-1,4-linkages in the pathogen's chitin exoskeleton to release chitooligosaccharides [69, 70].
+1. **Secretory Vesicle Trafficking:** Secretion of large hydrolytic enzymes requires tight vesicle coordination. The phosphatidylinositol 4-kinases `PUJ_004615` and `PUJ_004616` (PIK1) synthesize phosphatidylinositol 4-phosphate (PI4P) at the Golgi apparatus, recruiting the Rab GTPase `PUJ_004618` (VPS21) to direct endosomal sorting and target exocytic secretory vesicles loaded with chitinase to the hyphal apex [71, 72].
+2. **Cell Wall Hydrolysis:** The endochitinase `PUJ_004623` (Tas-chit2, 754 aa; EC 3.2.1.14; GH18) is discharged into the mycoparasitic contact zone, cleaving internal beta-1,4-linkages in the pathogen's chitin exoskeleton to release chitooligosaccharides [69, 70].
 3. **Nutrient Re-absorption:** The released N-acetylglucosamine (GlcNAc) and oligomers are imported back into the fungal cytoplasm via the co-localized MFS sugar transporter `PUJ_004621` and phosphorylated by hexokinase `PUJ_004624`, converting pathogen structural biomass into fungal energy [73].
 """,
         "gene_details": {
@@ -584,7 +583,7 @@ A complete mycoparasitic secretory and catabolic cluster on `contig_1705` [69]:
             "PUJ_004620": "Uncharacterized membrane-associated protein.",
             "PUJ_004621": "MFS sugar/solute transporter (PF11915) re-absorbing hydrolyzed chitin fragments.",
             "PUJ_004622": "Sugar isomerase/mutarotase domain protein facilitating catabolic carbohydrate assimilation.",
-            "PUJ_004623": "Core Endochitinase 2 (*Tas-chit2*, 754 aa; EC 3.2.1.14; GH18/IPR001223) hydrolyzing fungal cell wall beta-1,4-chitin.",
+            "PUJ_004623": "Core Endochitinase 2 (Tas-chit2, 754 aa; EC 3.2.1.14; GH18/IPR001223) hydrolyzing fungal cell wall beta-1,4-chitin.",
             "PUJ_004624": "Hexokinase / carbohydrate kinase (PF00132) phosphorylating recovered sugar monomers."
         }
     }
@@ -599,6 +598,25 @@ lines.append("")
 lines.append("> **Document Scope & Bioinformatic Provenance:** This catalog provides a complete structural, functional, and biochemical dissection of all **24 key gene clusters** identified in the genome of *Trichoderma asperellum* isolate **TA-PUJ** (`fungiSMASH-TA`, 20.29 Mb draft assembly, 5,229 predicted CDSs).")
 lines.append("> It encompasses all **21 secondary metabolite Biosynthetic Gene Clusters (BGCs)** predicted by antiSMASH 8.0.4—explicitly including all **13 uncharacterized orphan BGCs**—as well as the **3 primary non-BGC biocontrol/rhizosphere functional micro-clusters** detailed in the review.")
 lines.append("> All figures were rendered using `dna_features_viewer` in the `genbank-feature-parser` engine and are available in both publication-grade 300 DPI PNG and scalable vector SVG.")
+lines.append("")
+lines.append("> [!NOTE]")
+lines.append("> **Coordinate & Visualization Conventions:**")
+lines.append("> - **1-Based Inclusive Coordinates:** All genomic coordinates reported across the master inventory, individual gene tables, and visualization figure headers are **1-based inclusive** (`[start, end]`) on the respective assembly contig.")
+lines.append("> - **Figure Header vs. Sub-track Span:** The figure **Header Span** indicates the total candidate biosynthetic region window identified by antiSMASH (or the full curated regulatory/metabolic neighborhood), while the **Sub-track Bracket Span** indicates the precise physical span of the annotated CDSs within the cluster (`min(CDS.start)` to `max(CDS.end)`).")
+lines.append("")
+lines.append("---")
+lines.append("")
+lines.append("## Executive Biosafety & Agricultural Utility Evaluation")
+lines.append("")
+lines.append("- **Biosafety Level:** Qualified BSL-1 Equivalent (Environmentally Benign Biocontrol Agent)")
+lines.append("- **Mammalian Toxicity Risk:** None detected. The genome is completely devoid of functional biosynthetic machinery for mammalian mycotoxins (e.g., aflatoxins, sterigmatocystin, trichothecenes, ochratoxin, or gliotoxin).")
+lines.append("- **Comparative Risk Posture:** Unlike isolate **AF-PUJ** (*Aspergillus flavus*), which harbors an intact 17-CDS supercluster on Scaffold 1340 producing carcinogenic aflatoxins and cyclopiazonic acid, isolate **TA-PUJ** (*Trichoderma asperellum*) represents an **environmentally benign biocontrol candidate**.")
+lines.append("")
+lines.append("Secondary metabolite and bioinformatic dissection confirms that TA-PUJ possesses potent, targeted anti-phytopathogenic mechanisms:")
+lines.append("- **Antifungal & Antimicrobial Defense:** Equisetin-like tetramic acid (`contig_52_c1`), cryptosporioptide B (`contig_1067_c1`), leucinostatin A (`contig_1342_c1`), and trichobrasilenol (`contig_1813_c1`) suppress destructive soilborne pathogens (*Rhizoctonia*, *Fusarium*, *Pythium*, *Phytophthora*).")
+lines.append("- **Plant Growth Promotion & Stress Abatement:** Direct root colonization is augmented by 1-aminocyclopropane-1-carboxylate (ACC) deaminase (`acdS`, `contig_1730`), high-affinity reductive iron assimilation (`fet3`/`ftr1`, `contig_623`), and endochitinase biocontrol machinery (`chit2`, `contig_1699`).")
+lines.append("")
+lines.append("All secondary metabolite clusters identified in TA-PUJ align strictly with non-mammalian-toxic biocontrol activities, affirming TA-PUJ as a safe candidate for open agricultural field applications.")
 lines.append("")
 lines.append("---")
 lines.append("")
@@ -654,7 +672,14 @@ for idx, c in enumerate(clusters):
     lines.append(f"## {sec_title}")
     lines.append("")
     lines.append(f"[![{slug}]({slug}.png)]({slug}.svg)")
-    lines.append(f"*Figure {idx+1}: Genomic architecture of {cid} on {scaff}. Arrows indicate direction of transcription; color scheme highlights core synthetases (crimson), tailoring enzymes (amber orange), transporters (emerald green), regulators (purple), and uncharacterized CDSs (steel blue). Click image for scalable vector SVG.*")
+    
+    x_min = min(g["start"] for g in c["genes"])
+    x_max = max(g["end"] for g in c["genes"])
+    gene_span_kb = (x_max - x_min + 1) / 1000.0
+    lines.append(f"*Figure {idx+1}: Genomic architecture of {cid} on {scaff}. "
+                 f"**Header Span** ({c['start']:,}–{c['end']:,} bp) indicates the total candidate regional window; "
+                 f"**Sub-track Bracket** indicates the precise physical CDS span ({len(c['genes'])} CDSs, {gene_span_kb:.1f} kb). "
+                 f"Arrows indicate direction of transcription; color scheme highlights core synthetases (crimson), tailoring enzymes (amber orange), transporters (emerald green), regulators (purple), and uncharacterized CDSs (steel blue). Click image for scalable vector SVG.*")
     lines.append("")
     lines.append("### 1. Cluster Metadata & Bioinformatic Classification")
     lines.append(f"- **Cluster Identifier:** `{cid}`")

@@ -6,13 +6,15 @@ Generates the exhaustive, interactive scientific catalog AF-viz/README.md
 for all 77 gene clusters of Aspergillus flavus isolate AF-PUJ.
 Includes:
 - Comprehensive Executive Header & Comparative Biosafety Assessment
+- Coordinate & Identifier Convention Declarations (1-based inclusive; scaffold_NN = LOCUS NN)
 - Master Quick-Navigation Inventory Table (77 rows with internal anchors)
 - Cluster-by-Cluster Deep Dive for all 77 clusters:
     * Embedded visualization figure (PNG linked to vector SVG)
-    * Complete gene qualifier table (Locus Tag, Gene Symbol, Strand, Span, Length aa, Product & EC, Pfam/InterPro/GO domains)
-    * Detailed elaboration on each gene's putative function and catalytic mechanism
+    * Clarification of Header Span (antiSMASH window) vs Sub-track Bracket Span (physical CDS span)
+    * Complete gene qualifier table (Locus Tag, Gene Symbol, Strand, Span, Length aa, Product & EC, Pfam/InterPro domains)
+    * Detailed elaboration on each gene's putative function and catalytic mechanism (ground-truth reconciled)
     * Collective cluster architecture & biochemical pathway flow narrative
-    * Agricultural & biosafety implications
+    * Agricultural & biosafety implications (CAUTION & WARNING blocks)
 - Comprehensive References Section with peer-reviewed literature citations
 """
 
@@ -59,82 +61,76 @@ def get_file_slug(idx, c):
 def get_anchor_id(slug):
     return slug.lower().replace("_", "-")
 
-# Curated functional elaborations for key gene symbols
+# Curated functional elaborations strictly grounded in archived features
 GENE_DESC_MAP = {
-    # Scaffold 1340 Aflatoxin + CPA
-    "aflP": "O-methyltransferase A (EC 2.1.1.77, Pfam PF00891). Catalyzes the penultimate methylation of demethylsterigmatocystin (DMST) to sterigmatocystin (ST), transferring a methyl group from S-adenosyl-L-methionine (SAM) [Yu et al., 2004].",
-    "aflO": "O-methyltransferase B (omtB / dmtA, EC 2.1.1.110, Pfam PF00891). Converts dihydrodemethylsterigmatocystin (DHDMST) to dihydrosterigmatocystin (DHST), operating in the branch committed to aflatoxin B2 and G2 synthesis [Ehrlich, 2014].",
-    "aflN": "Cytochrome P450 monooxygenase (cyp59, EC 1.14.14.1, Pfam PF00067). Performs the stereospecific monooxygenation of averantin to 5'-hydroxyaverantin (HAVN) within the early anthraquinone pathway [Yabe et al., 2003].",
-    "aflM": "Versicolorin A dehydrogenase / ketoreductase (ver-1, EC 1.1.1.-, Pfam PF00106). Catalyzes the NADPH-dependent reduction of versiconal hemiacetal acetate (VHA) to versicolorin A, establishing the dihydrofurofuran ring [Skory et al., 1992].",
-    "aflK": "Versicolorin B synthase (vbs, Pfam PF00155). Directs the oxidative cyclization of versiconal to versicolorin B, a critical branch-point determining aflatoxin B1 vs B2 stoichiometry [Silva et al., 1996].",
-    "aflL": "Versicolorin A hemiacetal esterase (estA, EC 3.1.1.-, Pfam PF00135). Deacetylates versiconal hemiacetal acetate to produce versiconal prior to dihydrofurofuran ring closure [Yu et al., 2004].",
-    "aflJ": "Aflatoxin pathway accessory protein (aflJ / estA-associated, Pfam PF00135). Interacts physically with AflR and endomembrane tailoring complexes; required for efficient conversion of pathway intermediates and export [Meyers et al., 1998].",
-    "aflV": "Cytochrome P450 monooxygenase (cypX, EC 1.14.14.1, Pfam PF00067). Catalyzes oxidative cleavage and tailoring of versicolorin intermediates; essential for dihydrofurofuran maturation [Georgianna & Payne, 2009].",
-    "ver-1": "Versicolorin A dehydrogenase / ketoreductase (aflM / ver-1, EC 1.1.1.-, Pfam PF00106). Highly conserved short-chain dehydrogenase/reductase mediating the stereospecific reduction of versicolorin A [Skory et al., 1992].",
-    "estA": "Aflatoxin cluster carboxylesterase (estA, EC 3.1.1.1, Pfam PF00135). Hydrolyzes acetate esters of polyketide anthraquinone precursors, channeling intermediates toward versicolorin B [Ehrlich, 2014].",
-    "aflR": "Pathway-specific Zn(II)2Cys6 master transcription factor (Pfam PF00172, PF08493). Directly binds palindromic 5'-TCGN5CGA-3' motifs across cluster promoters, driving coordinated transcription of all 17 aflatoxin structural genes [Ehrlich et al., 1999; Chang et al., 1995].",
-    "aflA": "Fatty acid synthase beta subunit (fas-2 / hexA, EC 2.3.1.86, Pfam PF00109, PF00550). Works in concert with AflB to synthesize the specialized C6 hexanoate starter unit from acetyl-CoA and malonyl-CoA [Townsend, 2014].",
-    "aflB": "Fatty acid synthase alpha subunit (fas-1 / hexB, EC 2.3.1.86, Pfam PF00109, PF02801). Multi-domain fatty acid synthetase providing the short-chain starter unit directly to PksA [Townsend, 2014].",
-    "aflD": "Norsolorinic acid ketoreductase (nor-1, EC 1.1.1.349, Pfam PF00106, PF01370). Catalyzes the NADPH-dependent stereoselective reduction of the polyketide norsolorinic acid (NA) keto group to averantin [Zhou & Linz, 1999].",
-    "pksA": "Iterative Type I Polyketide Synthase (aflC / pksA, 2,109 aa, EC 2.3.1.221, Pfam PF00109, PF02801, PF00550). Core mega-synthetase that condenses hexanoate starter unit with 7 malonyl-CoA extender units to yield the polyhydroxy anthraquinone norsolorinic acid [Crawford et al., 2006].",
+    # Scaffold 1340 Aflatoxin + CPA Super-Cluster (17 CDSs: PUJ_009389–PUJ_009405)
+    "aflV": "Cytochrome P450 monooxygenase (verA / aflV homolog, Pfam PF00067, PF13561). Catalyzes oxidative cleavage and tailoring of versicolorin intermediates; essential for dihydrofurofuran maturation [Georgianna & Payne, 2009; Yu et al., 2004].",
+    "norA": "Aldo-keto reductase (norA / aflE homolog, Pfam PF00248). Catalyzes stereoselective aldo-keto reduction of anthraquinone polyketide precursors [Zhou & Linz, 1999; Yu et al., 2004].",
+    "estA": "Carboxylesterase / alpha-beta hydrolase (estA, EC 3.1.1.94, Pfam PF07859). Hydrolyzes acetate esters of polyketide anthraquinone precursors, channeling intermediates toward versicolorin B [Ehrlich, 2014; Yu et al., 2004].",
+    "ver-1": "Versicolorin A dehydrogenase / ketoreductase (ver-1 / aflM homolog, EC 1.1.1.352, Pfam PF00106). Highly conserved short-chain dehydrogenase/reductase mediating the stereospecific reduction of versicolorin A [Skory et al., 1992].",
+    "aflR": "Pathway-specific Zn(II)2Cys6 master transcription factor (Pfam PF00172, PF08493). Directly binds palindromic 5'-TCGN5CGA-3' motifs across cluster promoters, driving coordinated transcription of structural genes [Ehrlich et al., 1999; Chang et al., 1995].",
+    "aflA": "Fatty acid synthase beta subunit (fas-2 / hexA, Pfam PF00698, PF01575, PF08354, PF13452, PF16073, PF17951; literature-inferred: EC 2.3.1.86). Works in concert with AflB to synthesize the specialized C6 hexanoate starter unit [Townsend, 2014].",
+    "aflB": "Fatty acid synthase alpha subunit (fas-1 / hexB, Pfam PF00109, PF01648, PF02801, PF18314, PF18325; literature-inferred: EC 2.3.1.86). Multi-domain fatty acid synthetase providing the short-chain starter unit directly to PksA [Townsend, 2014].",
+    "aflD": "Norsolorinic acid ketoreductase (nor-1, Pfam PF00106, PF01370, PF08659, PF13561; literature-inferred: EC 1.1.1.349). Catalyzes the NADPH-dependent stereoselective reduction of norsolorinic acid to averantin [Zhou & Linz, 1999].",
+    "pksA": "Iterative Type I Polyketide Synthase (aflC / pksA, 2,109 aa, EC 2.3.1.221, Pfam PF00109, PF00550, PF00698, PF00975, PF02801, PF14765, PF16073). Core mega-synthetase that condenses hexanoate starter unit with 7 malonyl-CoA extender units [Crawford et al., 2006].",
     "aflT": "Major Facilitator Superfamily (MFS) efflux pump (Pfam PF07690). 14-transmembrane domain transporter responsible for cellular efflux of aflatoxin and self-resistance [Yu et al., 2004].",
-    "aflU": "Cytochrome P450 monooxygenase (cypA, EC 1.14.14.1, Pfam PF00067). Catalyzes final oxidative epoxidation and lactone formation steps yielding aflatoxin G1 [Ehrlich, 2014].",
-    "cpaT": "Major Facilitator Superfamily (MFS) cyclopiazonic acid transporter (Pfam PF07690, IPR011701). 12-transmembrane domain efflux pump that mediates active cellular excretion of CPA, preventing intracellular neurotoxic accumulation [Clevenger et al., 2017].",
-    "cpaO": "Cyclopiazonic acid oxidoreductase (cpaO / cpaD, 455 aa, EC 1.21.99.1, Pfam PF01593, PF13450). FAD-dependent oxidoreductase / dimethylallyl tryptophan synthase tailoring enzyme catalyzing dehydrogenation of cyclo-acetoacetyl-L-tryptophan [Liu et al., 2009].",
-    "cpaA": "Hybrid Polyketide Synthase - Non-Ribosomal Peptide Synthetase (PKS-NRPS, 3,867 aa, Pfam PF00109, PF00501, PF00550, PF00668). Core mega-synthetase catalyzing polyketide extension of acetyl-CoA with malonyl-CoA followed by non-ribosomal condensation with L-tryptophan and Dieckmann cyclization [Clevenger et al., 2017; Liu et al., 2009].",
-    "cpaH": "Cytochrome P450 monooxygenase (cpaM / cpaH, 395 aa, Pfam PF00067). Performs the final oxidative cyclization / epoxidation transforming beta-cyclopiazonic acid into alpha-cyclopiazonic acid [Clevenger et al., 2017].",
+    "aflU": "Cytochrome P450 monooxygenase (cypA, Pfam PF00067; literature-inferred: EC 1.14.14.1). Catalyzes final oxidative epoxidation and lactone formation steps yielding aflatoxin G1 [Ehrlich, 2014].",
+    "cpaT": "Major Facilitator Superfamily (MFS) cyclopiazonic acid transporter (Pfam PF00083, PF07690). 12-transmembrane domain efflux pump mediating active cellular excretion of CPA [Clevenger et al., 2017].",
+    "cpaO": "Cyclopiazonic acid oxidoreductase (cpaO, 455 aa, Pfam PF01593, PF13450; literature-inferred: EC 1.21.99.1). FAD-dependent oxidoreductase tailoring enzyme catalyzing dehydrogenation of cyclo-acetoacetyl-L-tryptophan (note: cpaD / DMATS is not annotated in this 17-CDS region) [Liu & Walsh, 2009; Clevenger et al., 2017].",
+    "cpaA": "Hybrid Polyketide Synthase - Non-Ribosomal Peptide Synthetase (PKS-NRPS, 3,867 aa, Pfam PF00109, PF00501, PF00550, PF00668, PF00698, PF01370, PF02801, PF07993, PF08659, PF14765, PF16197, PF21089). Core mega-synthetase catalyzing polyketide extension followed by non-ribosomal condensation with L-tryptophan [Clevenger et al., 2017; Liu & Walsh, 2009].",
+    "cpaH": "Putative cyclase / monooxygenase CpaM homolog (395 aa; 94% identity to BGC0000977.4 BAK26563.1; literature-inferred P450-like oxygenase; unannotated domain in local Pfam archive). Performs final oxidative cyclization transforming beta-cyclopiazonic acid into alpha-cyclopiazonic acid [Clevenger et al., 2017; Liu & Walsh, 2009].",
 
-    # Scaffold 471 Aerobactin Siderophore
-    "iucR": "Fungal transcriptional regulator (Zn2Cys6 family, Pfam PF00172). Coordinates iron-sensing repression and siderophore cluster induction under iron limitation [Haas, 2014].",
-    "tem1": "Ras-superfamily GTPase Tem1 (Pfam PF00025, PF00071). Signaling GTPase modulating polarized vesicular trafficking and hyphal tip morphogenesis during siderophore secretion [Bagg & Neilands, 1987].",
-    "iucX": "Accessory acetyltransferase (Pfam PF00583). Involved in precursor modification for ferric chelator assembly [Challis, 2005].",
-    "gh31": "Glycosyl hydrolase family 31 alpha-glucosidase (EC 3.2.1.20, Pfam PF01055). Hydrolyzes maltose and starch-derived alpha-glucosides, fueling the pentose phosphate pathway for NADPH supply [de Vries & Visser, 2001].",
-    "iucT": "MFS siderophore exporter (Pfam PF07690). Mediates active translocation of ferric aerobactin / ferricrocin into the rhizosphere [Haas, 2014].",
-    "iucM": "Monooxygenase tailoring enzyme (EC 1.14.13.-, Pfam PF01494). N6-hydroxylates lysine residues to form N6-hydroxylysine, the essential chelating hydroxamate precursor [Challis, 2005].",
-    "iucD": "Lysine N6-hydroxylase (EC 1.14.13.59, Pfam PF00743). Catalyzes FAD-dependent oxidation of L-lysine to N6-hydroxy-L-lysine [Challis, 2005].",
-    "iucA": "NRPS-Independent Siderophore (NIS) Synthetase (797 aa, EC 6.3.2.-, Pfam PF04183, PF02668). Primary synthetase joining citrate and acylated N6-hydroxylysine units via amide bonds to produce the hexadentate ferric chelator aerobactin [Challis, 2005; Haas, 2014].",
-    "iucC": "NIS synthetase family condensation subunit (Pfam PF04183). Catalyzes the second adenylation and condensation step linking the mono-citryl derivative with a second hydroxylysine [Challis, 2005].",
-    "iucB": "N6-hydroxylysine O-acetyltransferase (EC 2.3.1.102, Pfam PF00583). Acetylates N6-hydroxylysine using acetyl-CoA to create the functional bidentate hydroxamate ligand [Haas, 2014].",
-    "iucE": "Siderophore maturation hydrolase (Pfam PF00149). Cleaves masking esters during siderophore assembly [Challis, 2005].",
-    "iucF": "Glutamine amidotransferase (Pfam PF00117). Transaminates metabolic intermediates supplying nitrogen precursors [Haas, 2014].",
-    "iucG": "Iron permease subunit (Pfam PF00324). Transmembrane transporter capturing ferric iron chelates from extracellular space [Haas, 2014].",
-    "iucH": "Siderophore uptake facilitator (Pfam PF00005). ABC transporter subunit providing ATPase activity for iron transport [Haas, 2014].",
-    "iucY": "Flavoprotein reductase (Pfam PF00070). Reduces ferric iron (Fe3+) to ferrous iron (Fe2+) upon intracellular release [Haas, 2014].",
+    # Scaffold 471 Aerobactin Siderophore (PUJ_004412–PUJ_004426)
+    "iucR": "Fungal transcriptional regulator (Zn2Cys6 family, Pfam PF00172). Coordinates iron-sensing repression and siderophore cluster induction [Haas, 2014].",
+    "tem1": "Ras-superfamily GTPase Tem1 (Pfam PF00025, PF00071). Signaling GTPase modulating polarized vesicular trafficking and hyphal tip morphogenesis [Bagg & Neilands, 1987].",
+    "iucX": "Transmembrane permease / transporter (Pfam PF04082). Involved in cellular transport within the NIS siderophore cluster.",
+    "gh31": "Glycosyl hydrolase family 31 alpha-glucosidase (Pfam PF01055, PF21365; literature-inferred: EC 3.2.1.20). Hydrolyzes starch-derived alpha-glucosides, fueling the pentose phosphate pathway for NADPH supply [de Vries & Visser, 2001].",
+    "iucT": "Cluster-associated uncharacterized protein (183 aa). Auxiliary component of the siderophore gene neighborhood.",
+    "iucM": "Cluster-associated uncharacterized protein (283 aa; literature-inferred: monooxygenase-like accessory protein).",
+    "iucD": "NIS synthetase-like N-terminal domain protein (Pfam PF02668; literature-inferred: IucD family). Involved in intermediate maturation [Challis, 2005].",
+    "iucA": "NRPS-Independent Siderophore (NIS) Synthetase (797 aa, Pfam PF02668, PF04183; literature-inferred: EC 6.3.2.-). Primary synthetase joining citrate and acylated hydroxylysine units via amide bonds to produce the hexadentate ferric chelator aerobactin [Challis, 2005; Haas, 2014].",
+    "iucC": "Tailoring enzyme / condensation subunit (Pfam PF00389, PF02826; literature-inferred: IucC-related condensation subunit). Participates in multi-step siderophore condensation [Challis, 2005].",
+    "iucB": "Cluster-associated protein (Pfam PF11913; literature-inferred: acetyltransferase / IucB family). Involved in hydroxamate ligand modification [Haas, 2014].",
+    "iucE": "NIS-associated protein (Pfam PF02668). Accessory component of the siderophore assembly complex.",
+    "iucF": "Putative amidotransferase / hydrolase (Pfam PF00702, PF13419). Involved in intermediate nitrogen metabolism [Haas, 2014].",
+    "iucG": "F-actin-capping protein subunit alpha (Pfam PF01267). Cytoskeletal element involved in hyphal growth and polarized transport.",
+    "iucH": "Cluster-associated uncharacterized protein (435 aa). Membrane-associated factor within the siderophore region.",
+    "iucY": "Cluster-associated uncharacterized protein (Pfam PF11951). Auxiliary factor in iron homeostasis.",
 
-    # Scaffold 1924 Aspergillic Acid
+    # Scaffold 1924 Aspergillic Acid (PUJ_009781–PUJ_009786)
     "asaE": "Pyrazinone tailoring protein (Pfam PF00107). Tailoring enzyme involved in pyrazine core stabilization and intermediate modification [Matsuda et al., 2020].",
     "asaF": "Zinc finger transcriptional regulatory protein (Pfam PF00172). Specific pathway activator governing expression of the aspergillic acid cluster [Matsuda et al., 2020].",
     "asaA": "Non-Ribosomal Peptide Synthetase (AsaA, 1,021 aa, Pfam PF00501, PF00668). Core NRPS condensation mega-synthetase joining L-leucine and L-isoleucine to assemble the deoxyaspergillic acid cyclic peptide backbone [Matsuda et al., 2020].",
-    "asaB": "Cytochrome P450 monooxygenase (AsaB, 502 aa, Pfam PF00067). Performs N-hydroxylation of the pyrazinone ring, conferring the potent iron-chelating and antibacterial hydroxamic acid moiety [Matsuda et al., 2020].",
+    "asaB": "Cytochrome P450 monooxygenase (AsaB, 519 aa, Pfam PF00067). Performs N-hydroxylation of the pyrazinone ring, conferring the potent iron-chelating hydroxamic acid moiety [Matsuda et al., 2020].",
     "asaC": "Tailoring hydroxylase (AsaC, 688 aa, Pfam PF00067). Hydroxylates the aliphatic side chains of aspergillic acid to generate hydroxyaspergillic acid and neoaspergillic acid [Matsuda et al., 2020].",
-    "asaD": "MFS multidrug/toxin efflux pump (AsaD, 532 aa, Pfam PF07690). 12-TMS permease driving excretion of aspergillic acid and conferring host self-protection [Matsuda et al., 2020].",
+    "asaD": "MFS multidrug/toxin efflux pump (AsaD, 428 aa, Pfam PF07690). 12-TMS permease driving excretion of aspergillic acid and conferring host self-protection [Matsuda et al., 2020].",
 
-    # Scaffold 480_c2 Aspirochlorine
+    # Scaffold 480_c2 Aspirochlorine (PUJ_004895–PUJ_004914)
     "aclA": "Epipolythiodioxopiperazine (ETP) NRPS mega-synthetase (1,573 aa, Pfam PF00501, PF00668). Core two-module NRPS catalyzing adenylation, peptide bond formation, and cyclization of phenylalanine derivatives [Sato et al., 2018].",
     "aclB": "Glutathione S-transferase (GST, Pfam PF02798). Attaches glutathione to the epidithiodiketopiperazine scaffold as the sulfur donor for disulfide bridge assembly [Sato et al., 2018].",
-    "aclC": "Cytochrome P450 monooxygenase (804 aa, Pfam PF00067). Mediates oxidative activation and chlorine-dependent tailoring of the diketopiperazine core [Sato et al., 2018].",
+    "aclC": "Cytochrome P450 monooxygenase (804 aa, Pfam PF00067). Mediates oxidative activation of the diketopiperazine core [Sato et al., 2018].",
     "aclT": "Thioredoxin reductase (551 aa, Pfam PF00070). Regulates the redox status of the reactive intramolecular disulfide bond [Sato et al., 2018].",
-    "aclN": "Glutathione-dependent disulfide isomerase (457 aa, Pfam PF00462). Tailors disulfide bridge formation conferring ETP antimicrobial and cytotoxic potency [Sato et al., 2018].",
+    "aclN": "Glutathione-dependent disulfide isomerase (422 aa, Pfam PF00462). Tailors disulfide bridge formation conferring ETP antimicrobial and cytotoxic potency [Sato et al., 2018].",
 
-    # Non-BGC Agricultural Clusters
-    "pho13": "p-Nitrophenyl phosphatase / alkaline phosphatase (306 aa, EC 3.1.3.41, Pfam PF00702, PF13242). Soluble phosphatase hydrolyzing monoester organophosphates (phytic acid derivatives, sugar phosphates), liberating orthophosphate (Pi) for plant uptake [Oshima et al., 1996].",
-    "ipp1": "Inorganic pyrophosphatase (288 aa, EC 3.6.1.1, Pfam PF00719). Catalyzes the exergonic hydrolysis of inorganic pyrophosphate (PPi -> 2 Pi), pulling biosynthetic polymerizations forward and elevating soluble phosphate concentrations [Cooperman et al., 1992].",
-    "ams1": "Vacuolar alpha-mannosidase GH38 (1,087 aa, EC 3.2.1.24, Pfam PF01074, PF07748). Hydrolyzes terminal alpha-D-mannose residues in cell wall mannans and glycoproteins, facilitating fungal saprotrophy and soil organic matter cycling [Cacan & Verbert, 1999].",
-    "smc1": "Structural maintenance of chromosomes protein 1 (851 aa, Pfam PF02463). Cohesin complex core subunit coordinating chromosomal condensation and accurate mitotic division [Hirano, 2006].",
+    # Non-BGC Agricultural Clusters (Scaffold 24, 482, 1339)
+    "pho13": "p-Nitrophenyl phosphatase / alkaline phosphatase (306 aa, Pfam PF00702, PF13242; literature-inferred: EC 3.1.3.41). Soluble phosphatase hydrolyzing monoester organophosphates (phytic acid derivatives, sugar phosphates), liberating orthophosphate (Pi) for plant uptake [Oshima et al., 1996].",
+    "ipp1": "Inorganic pyrophosphatase (288 aa, Pfam PF00719; literature-inferred: EC 3.6.1.1). Catalyzes the exergonic hydrolysis of inorganic pyrophosphate (PPi -> 2 Pi), pulling biosynthetic polymerizations forward and elevating soluble phosphate concentrations [Cooperman et al., 1992].",
+    "ams1": "Vacuolar alpha-mannosidase GH38 (1,087 aa, Pfam PF01074, PF07748; literature-inferred: EC 3.2.1.24). Hydrolyzes terminal alpha-D-mannose residues in cell wall mannans and glycoproteins, facilitating saprotrophy and soil organic matter cycling [Cacan & Verbert, 1999].",
+    "smc1": "Structural maintenance of chromosomes protein 1 (851 aa, Pfam PF02463, PF06470). Cohesin complex core subunit coordinating chromosomal condensation and accurate mitotic division [Hirano, 2006].",
     "cdh1": "Anaphase-promoting complex activator Cdh1 (554 aa, Pfam PF00400, PF12894). WD40-repeat cell cycle regulator timing mitotic exit and cellular differentiation [Schwab et al., 1997].",
-    "pepP": "Xaa-Pro aminopeptidase P (498 aa, EC 3.4.11.21, Pfam PF02127). Cleaves N-terminal amino acids adjacent to proline residues, facilitating peptide catabolism and nitrogen recycling in soil [Yaron et al., 1993].",
-    "fun30": "Chromatin remodeling ATPase Fun30 (1,026 aa, EC 3.6.4.12, Pfam PF00176, PF00270). Snf2-family helicase regulating chromatin architecture and accessibility of stress-responsive regulons [Neves-Costa et al., 2009].",
-    "pho2": "Homeodomain transcription factor Pho2 (605 aa, Pfam PF00046, IPR001356). Master transcriptional regulator forming cooperative complexes with Pho4 to activate acid and alkaline phosphatases under orthophosphate deficiency [Bhoite et al., 2002].",
-    "amy3": "Alpha-amylase A Type-3 (498 aa, EC 3.2.1.1, Pfam PF00128, PF09260). Secreted endo-amylase hydrolyzing internal alpha-1,4-glucosidic bonds in starch and glycogen, driving robust fungal growth on agricultural substrates [MacGregor et al., 2001].",
-    "aga1": "Alpha-glucosidase GH31 (985 aa, EC 3.2.1.20, Pfam PF01055, PF21365). Exoglucosidase releasing free D-glucose from non-reducing termini of starch oligosaccharides [de Vries & Visser, 2001].",
+    "pepP": "Xaa-Pro aminopeptidase P (498 aa, Pfam PF02127; literature-inferred: EC 3.4.11.21). Cleaves N-terminal amino acids adjacent to proline residues, facilitating peptide catabolism and nitrogen recycling in soil [Yaron et al., 1993].",
+    "fun30": "Chromatin remodeling ATPase Fun30 (1,026 aa, Pfam PF00176, PF00270; literature-inferred: EC 3.6.4.12). Snf2-family helicase regulating chromatin architecture and accessibility of stress-responsive regulons [Neves-Costa et al., 2009].",
+    "pho2": "Homeodomain transcription factor Pho2 (605 aa, Pfam PF00046). Master transcriptional regulator forming cooperative complexes with Pho4 to activate acid and alkaline phosphatases under orthophosphate deficiency [Bhoite et al., 2002].",
+    "amy3": "Alpha-amylase A Type-3 (498 aa, Pfam PF00128, PF09260; literature-inferred: EC 3.2.1.1). Secreted endo-amylase hydrolyzing internal alpha-1,4-glucosidic bonds in starch and glycogen, driving robust fungal growth on agricultural substrates [MacGregor et al., 2001].",
+    "aga1": "Alpha-glucosidase GH31 (985 aa, Pfam PF01055, PF21365; literature-inferred: EC 3.2.1.20). Exoglucosidase releasing free D-glucose from non-reducing termini of starch oligosaccharides [de Vries & Visser, 2001].",
     "dnf3": "P-type phospholipid-translocating ATPase (1,696 aa, Pfam PF00122, PF00702). Flippase maintaining membrane lipid asymmetry and driving endocytic vesicle formation [Hua et al., 2002].",
     "sif3": "Sad1-interacting chromatin factor (663 aa, Pfam PF02582). Nuclear membrane protein involved in transcriptional silencing and telomere maintenance [Cockell et al., 2004].",
     "pho81": "Ankyrin-repeat CDK inhibitor Pho81 (772 aa, Pfam PF00023, PF12796). Intracellular sensor of orthophosphate availability; binds and inhibits the Pho80-Pho85 cyclin-CDK complex during phosphate starvation [Schneider et al., 1994; Huang et al., 2001].",
     "gcn20": "ABC transporter-like elongation factor Gcn20 (751 aa, Pfam PF00005, PF12848). Regulates Gcn2 kinase activation, coordinating translational reprogramming under nutrient starvation [Marton et al., 1997].",
-    "coq2": "PHB:polyprenyltransferase Coq2 (267 aa, EC 2.5.1.39, Pfam PF01040). Catalyzes the primary prenylation of 4-hydroxybenzoate in the mitochondrial ubiquinone (coenzyme Q) pathway, vital for respiratory electron transport [Ashby et al., 1992].",
+    "coq2": "PHB:polyprenyltransferase Coq2 (267 aa, Pfam PF01040; literature-inferred: EC 2.5.1.39). Catalyzes the primary prenylation of 4-hydroxybenzoate in the mitochondrial ubiquinone (coenzyme Q) pathway, vital for respiratory electron transport [Ashby et al., 1992].",
     "grx5": "Monothiol glutaredoxin Grx5 (132 aa, Pfam PF00462). Mediates iron-sulfur [Fe-S] cluster biogenesis and protects mitochondrial enzymes from oxidative stress [Rodriguez-Manzaneque et al., 2002].",
-    "muq1": "Choline-phosphate cytidylyltransferase (292 aa, EC 2.7.7.14). Essential rate-limiting enzyme in phosphatidylcholine synthesis maintaining cellular membrane integrity [Vance, 1990].",
-    "dot5": "Thioredoxin peroxidase Dot5 / 1-Cys Peroxiredoxin (207 aa, EC 1.11.1.24, Pfam PF00578, PF08534). Antioxidant peroxidatic scavenger removing toxic organic and hydrogen peroxides under oxidative and starvation stress [Chae et al., 1994]."
+    "muq1": "Choline-phosphate cytidylyltransferase (292 aa; literature-inferred: EC 2.7.7.14). Essential rate-limiting enzyme in phosphatidylcholine synthesis maintaining cellular membrane integrity [Vance, 1990].",
+    "dot5": "Thioredoxin peroxidase Dot5 / 1-Cys Peroxiredoxin (207 aa, Pfam PF00578, PF08534; literature-inferred: EC 1.11.1.24). Antioxidant peroxidatic scavenger removing toxic organic and hydrogen peroxides under oxidative and starvation stress [Chae et al., 1994]."
 }
 
 def generate_gene_elaboration(g):
@@ -147,7 +143,7 @@ def generate_gene_elaboration(g):
     if sym in GENE_DESC_MAP:
         return f"- **`{tag}` (`{sym}`):** {GENE_DESC_MAP[sym]}"
         
-    # Generic intelligent elaboration
+    # Generic intelligent elaboration grounded in local features
     ec_str = f" (EC {', '.join(ec)})" if ec else ""
     pf_str = f" Contains {', '.join(pfs[:2])}." if pfs else ""
     
@@ -182,32 +178,40 @@ def generate_cluster_narrative(cl):
         return (
             "### Collective Pathway Architecture & Biological Synergy\n\n"
             "The **Scaffold 1340 Super-Cluster** is the defining toxigenic locus of *Aspergillus flavus* AF-PUJ, "
-            "comprising **21 continuous loci across 79.1 kb** that physically merge the complete **Aflatoxin B1/G1** "
-            "pathway with the entire **Cyclopiazonic Acid (CPA)** biosynthetic machinery:\n\n"
+            "comprising **17 continuous loci across 79.1 kb** (`PUJ_009389`–`PUJ_009405`) with 11 protein BLAST hits "
+            "to MIBiG `BGC0000007.3` (51–97% identity; 94–97% for core enzymes such as PksA, Nor-1, and AflR) that "
+            "physically merge the **Aflatoxin B1/G1** pathway with the entire **Cyclopiazonic Acid (CPA)** biosynthetic machinery:\n\n"
             "1. **Pathway Inception & Polyketide Backbone:** A specialized fatty acid synthase dyad (`AflA`/`AflB`) "
             "synthesizes hexanoyl-CoA, which is channeled directly into the iterative Type I PKS (`PksA` / `AflC`). "
             "PksA performs 7 iterative condensations with malonyl-CoA to yield norsolorinic acid (NA).\n"
             "2. **Anthraquinone & Dihydrofurofuran Cascade:** NA is sequentially tailored through averantin, averufin, "
-            "and versiconal hemiacetal acetate by `AflD` (ketoreductase), `AflN` (P450), `AflV` (P450), and `EstA` (esterase). "
-            "Subsequent ring closure by `AflK` (versicolorin B synthase) and `AflM` (Ver-1) forms versicolorin A, containing the mutagenic difuran moiety.\n"
-            "3. **Toxin Maturation & SAM Methylation:** Late-stage tailoring by two O-methyltransferases (`AflP`, `AflO`) and "
-            "monooxygenase `AflU` yields aflatoxins B1 and G1, which are active mutagens and Group 1 carcinogens.\n"
-            "4. **CPA Assembly Line:** Directly contiguous sits the CPA operon: hybrid PKS-NRPS `CpaA` joins acetoacetyl-CoA "
-            "with L-tryptophan, followed by FAD-dependent oxidoreductase `CpaO` (DMATS) and P450 `CpaH` cyclization to produce cyclopiazonic acid, a potent neurotoxic mycotoxin that inhibits SERCA calcium ATPase.\n"
+            "and versiconal hemiacetal acetate by `AflD` (ketoreductase), `AflV` (P450 monooxygenase), `NorA` (aldo-keto reductase), "
+            "and `EstA` (carboxylesterase). Subsequent ring closure by versicolorin dehydrogenase/ketoreductase `Ver-1` (`PUJ_009392`) "
+            "forms versicolorin A, containing the mutagenic difuran moiety.\n"
+            "3. **Toxin Maturation & Late-Stage Tailoring:** Late-stage tailoring to complete aflatoxins B1/G1 involves "
+            "O-methyltransferases (`AflP`/OmtA and `AflO`/OmtB) and monooxygenase `AflU`; because `aflP` and `aflO` reside upstream "
+            "outside this 17-CDS assembly window, full pathway maturation in AF-PUJ utilizes these upstream loci or equivalent cellular transferases.\n"
+            "4. **CPA Assembly Line:** Directly contiguous sits the CPA operon: hybrid PKS-NRPS `CpaA` (`PUJ_009402`) joins acetoacetyl-CoA "
+            "with L-tryptophan, followed by FAD-dependent oxidoreductase `CpaO` (`PUJ_009401`; note: dimethylallyl tryptophan synthase `cpaD` is not annotated "
+            "within this 17-CDS region) and P450-like oxygenase `CpaH` (`PUJ_009403`, 94% identity to BGC0000977.4 CpaM) catalyzing oxidative cyclization "
+            "to produce cyclopiazonic acid, a potent neurotoxin that inhibits SERCA calcium ATPase.\n"
             "5. **Efflux & Regulation:** The dual cluster contains two dedicated efflux pumps (`AflT` and `CpaT`) ensuring high-capacity "
             "toxin export, while `AflR` serves as the master Zn2Cys6 transcription factor.\n\n"
             "> [!CAUTION]\n"
             "> **Definitive Biosafety Risk:** In commercial atoxigenic biocontrol strains (e.g. *Aflasafe*, NRRL 21882), a 28–32 kb chromosomal "
-            "> deletion completely deletes `aflR`, `pksA`, and `nor-1`. In **AF-PUJ**, all 21 genes in this super-cluster are present and intact with 94–97% identity to MIBiG BGC0000007.3, confirming that AF-PUJ is an active producer of both Aflatoxin and Cyclopiazonic Acid. It is strictly disqualified from uncontained agricultural biocontrol."
+            "> deletion completely deletes `aflR`, `pksA`, and `nor-1`. In **AF-PUJ**, all 17 genes in this super-cluster (`PUJ_009389`–`PUJ_009405`) "
+            "> are present and intact, with 11 protein BLAST hits to MIBiG `BGC0000007.3` (51–97% identity; 94–97% for core enzymes such as PksA and AflR) "
+            "> and 4 hits to `BGC0000977.4` (90–97% identity to CpaA/CpaO/CpaT/CpaM). This confirms that AF-PUJ possesses full genetic capacity for "
+            "> both Aflatoxin and Cyclopiazonic Acid synthesis. It is strictly disqualified from uncontained agricultural biocontrol."
         )
     elif "471_c1" in cid:
         return (
             "### Collective Pathway Architecture & Biological Synergy\n\n"
             "The **Scaffold 471 Aerobactin-like NIS Siderophore Cluster** represents a non-ribosomal peptide synthetase-independent "
-            "(NIS) iron capture system essential for high-affinity ferric iron scavenging in iron-depleted soils and rhizophere environments:\n\n"
+            "(NIS) iron capture system essential for high-affinity ferric iron scavenging in iron-depleted soils and rhizosphere environments:\n\n"
             "1. **Precursor Synthesis:** Lysine monooxygenase (`IucD` / `IucM`) hydroxylates L-lysine to N6-hydroxy-L-lysine, which is subsequently "
             "acetylated by acetyltransferase `IucB` to yield the bidentate hydroxamate ligand N6-acetyl-N6-hydroxylysine.\n"
-            "2. **Hexadentate Assembly:** The core NIS synthetase `IucA` (`PUJ_004419`) and condensation subunit `IucC` catalyze the ATP-dependent "
+            "2. **Hexadentate Assembly:** The core NIS synthetase `IucA` (`PUJ_004419`, 797 aa, PF04183/PF02668) and condensation subunit `IucC` catalyze the ATP-dependent "
             "condensation of citric acid with two molecules of N6-acetyl-N6-hydroxylysine, forging aerobactin.\n"
             "3. **Uptake, Reduction & Regulation:** Transmembrane permeases `IucT` and `IucG` coordinate siderophore secretion and Fe3+-chelate "
             "re-uptake, while the cluster-associated Zn2Cys6 regulator `IucR` coordinates iron-repressive gene expression.\n\n"
@@ -236,7 +240,7 @@ def generate_cluster_narrative(cl):
             "The **Scaffold 480 Aspirochlorine Cluster** (19 protein hits to MIBiG BGC0001123.5 at 94–100% identity, score 17,383) is the "
             "highest-scoring secondary metabolite BGC in AF-PUJ outside Scaffold 1340:\n\n"
             "1. **Core Synthetase:** The NRPS mega-synthetase `AclA` (`PUJ_004911`, 1,573 aa) synthesizes a cyclo-diketopiperazine backbone.\n"
-            "2. **Disulfide Bridge Formation:** Glutathione S-transferase `AclB` (`PUJ_004910`) and thioredoxin reductase `AclT` (`PUJ_004898`) coordinate "
+            "2. **Disulfide Bridge Formation:** Glutathione S-transferase `AclB` (`PUJ_004912`) and thioredoxin reductase `AclT` (`PUJ_004898`) coordinate "
             "the incorporation of dual sulfur atoms from glutathione to construct the epipolythiodioxopiperazine (ETP) internal disulfide bridge.\n"
             "3. **Chlorination & Oxidation:** Cytochrome P450 monooxygenase `AclC` (`PUJ_004899`) performs halogenation and tailoring, conferring broad-spectrum antifungal potency through thiol cross-linking in fungal targets."
         )
@@ -295,15 +299,24 @@ def main():
     out.append("**Secondary Metabolism:** 74 antiSMASH 8.0.4 BGC regions across 27 scaffolds + 3 verified non-BGC agricultural functional gene neighborhoods (77 total clusters)  ")
     out.append("**Visualization Engine:** `dna_features_viewer` / Biopython with Publication-Grade Revision V3 Formatting  ")
     out.append("**Catalog Scope:** Complete gene qualifier tables, putative function elaborations, collective pathway architectures, biosafety scrutiny, and academic references.\n")
+    
+    # Declarations block (F7, O1, O3)
+    out.append(
+        r"> [!NOTE]" + "\n"
+        r"> **Coordinate, Identifier & Visualization Conventions:**" + "\n"
+        r"> - **1-Based Inclusive Coordinates:** All genomic coordinates reported across the master inventory, individual gene tables, and visualization figure headers are **1-based inclusive** (`[start, end]`) on the respective assembly scaffold." + "\n"
+        r"> - **Scaffold vs. Locus Identifiers:** Assembly records labeled as `scaffold_NN` or `Scaffold NN` directly correspond to assembly record identifier `LOCUS NN` (e.g., `scaffold_24` $\equiv$ assembly record LOCUS `24`)." + "\n"
+        r"> - **Figure Header vs. Sub-track Span:** The figure **Header Span** indicates the total candidate biosynthetic region window identified by antiSMASH (or the full curated regulatory/metabolic neighborhood), while the **Sub-track Bracket Span** indicates the precise physical span of the annotated CDSs within the cluster (`min(CDS.start)` to `max(CDS.end)`)." + "\n"
+    )
     out.append("---\n")
     
-    # Executive Biosafety Scrutiny Summary
+    # Executive Biosafety Scrutiny Summary (F4)
     out.append("## Executive Biosafety & Agricultural Evaluation\n")
     out.append(
         "Unlike isolate **TA-PUJ** (*Trichoderma asperellum*), which is an environmentally benign biocontrol candidate devoid of human-toxic mycotoxins, "
         "isolate **AF-PUJ** (*Aspergillus flavus*) is a **fully toxigenic agricultural contaminant**. Genomic dissection reveals that AF-PUJ harbors intact, "
         "full-length gene clusters for multiple regulated mycotoxins:\n\n"
-        "- **Aflatoxins B1 & G1 + Cyclopiazonic Acid (Scaffold 1340):** 21 continuous loci across 79.1 kb (`AF:PUJ_009383`–`AF:PUJ_009403`) with 94–97% identity to MIBiG `BGC0000007.3`. Crucially, AF-PUJ lacks the 28–32 kb chromosomal deletion characteristic of commercial atoxigenic biocontrol strains (*Aflasafe*, NRRL 21882), proving that AF-PUJ possesses full genetic capacity for carcinogenic aflatoxin biosynthesis.\n"
+        "- **Aflatoxins B1 & G1 + Cyclopiazonic Acid (Scaffold 1340):** 17 continuous loci across 79.1 kb (`AF:PUJ_009389`–`AF:PUJ_009405`) with 11 protein BLAST hits to MIBiG `BGC0000007.3` (51–97% identity; 94–97% for core enzymes such as PksA, Nor-1, and AflR) and 4 hits to `BGC0000977.4` (90–97% identity to CpaA/CpaO/CpaT/CpaM). Crucially, AF-PUJ lacks the 28–32 kb chromosomal deletion characteristic of commercial atoxigenic biocontrol strains (*Aflasafe*, NRRL 21882), proving that AF-PUJ possesses full genetic capacity for carcinogenic aflatoxin biosynthesis.\n"
         "- **Aspergillic Acid (Scaffold 1924):** 6-gene NRPS cluster (`AF:PUJ_009781`–`AF:PUJ_009786`) with 95–100% identity to reference `BGC0001516.5`. Hydroxamic acid mycotoxin with acute hepatotoxicity.\n"
         "- **Aspirochlorine (Scaffold 480):** 19-gene epipolythiodioxopiperazine (ETP) cluster (`BGC0001123.5`, score 17,383) conferring broad-spectrum toxicity.\n"
         "- **Ustiloxin B (Scaffold 418):** 13-gene fungal RiPP mycotoxin cluster (`BGC0000627.4`, score 7,477) inhibiting eukaryotic microtubule assembly.\n\n"
@@ -331,7 +344,7 @@ def main():
         if "1340" in cid:
             prod_str = "**Aflatoxin / CPA Super-Cluster**"
             hit_str = "`BGC0000007.3` (Aflatoxin) + `BGC0000977.4` (CPA)"
-            homol = "94–97% id (Score 16,946)"
+            homol = "51–97% id (Score 16,946)"
             conf_str = "**HIGH (TOXIC)**"
         elif "471_c1" in cid:
             prod_str = "**Aerobactin-like NIS Siderophore**"
@@ -392,13 +405,20 @@ def main():
         if top:
             out.append(f"- **antiSMASH KnownClusterBlast Top Hit:** `{top['bgc']}` — **{top['compound']}** (Cumulative Score: {top['score']:,}, Identity: {top['id_range']}, {top['n_prot']} proteins)  ")
         elif "1340" in cid:
-            out.append(f"- **antiSMASH KnownClusterBlast Matches:** Dual hit to `BGC0000007.3` (Aflatoxins B1/G1, 11 proteins, score 16,946) and `BGC0000977.4` (Cyclopiazonic Acid, 4 proteins)  ")
+            out.append(f"- **antiSMASH KnownClusterBlast Matches:** Dual hit to `BGC0000007.3` (Aflatoxins B1/G1, 11 proteins, score 16,946, 51–97% identity) and `BGC0000977.4` (Cyclopiazonic Acid, 4 proteins, 90–97% identity)  ")
             
         # Embedded Figure
         png_name = f"{slug}.png"
         svg_name = f"{slug}.svg"
         out.append(f"\n[![{slug}]({png_name})]({svg_name})\n")
-        out.append(f"> *Figure {idx+1:02d}: Publication-grade gene cluster diagram of `{slug}` on {scaff}. Arrows indicate direction of transcription; boxes display standardized gene symbols or official locus tags. [Open scalable vector SVG]({svg_name}).*\n")
+        
+        x_min = min(g["start"] for g in cl["genes"])
+        x_max = max(g["end"] for g in cl["genes"])
+        gene_span_kb = (x_max - x_min + 1) / 1000.0
+        out.append(f"> *Figure {idx+1:02d}: Publication-grade gene cluster diagram of `{slug}` on {scaff}. "
+                   f"**Header Span** ({cl['start']:,}–{cl['end']:,} bp) indicates the total candidate regional window; "
+                   f"**Sub-track Bracket** indicates the precise physical CDS span ({len(cl['genes'])} CDSs, {gene_span_kb:.1f} kb). "
+                   f"Arrows indicate direction of transcription; boxes display standardized gene symbols or official locus tags. [Open scalable vector SVG]({svg_name}).*\n")
         
         # Gene Qualifier Table
         out.append("#### Gene Inventory & Structural Qualifiers\n")

@@ -6,13 +6,19 @@
 **Visualization Engine:** `dna_features_viewer` / Biopython with Publication-Grade Revision V3 Formatting  
 **Catalog Scope:** Complete gene qualifier tables, putative function elaborations, collective pathway architectures, biosafety scrutiny, and academic references.
 
+> [!NOTE]
+> **Coordinate, Identifier & Visualization Conventions:**
+> - **1-Based Inclusive Coordinates:** All genomic coordinates reported across the master inventory, individual gene tables, and visualization figure headers are **1-based inclusive** (`[start, end]`) on the respective assembly scaffold.
+> - **Scaffold vs. Locus Identifiers:** Assembly records labeled as `scaffold_NN` or `Scaffold NN` directly correspond to assembly record identifier `LOCUS NN` (e.g., `scaffold_24` $\equiv$ assembly record LOCUS `24`).
+> - **Figure Header vs. Sub-track Span:** The figure **Header Span** indicates the total candidate biosynthetic region window identified by antiSMASH (or the full curated regulatory/metabolic neighborhood), while the **Sub-track Bracket Span** indicates the precise physical span of the annotated CDSs within the cluster (`min(CDS.start)` to `max(CDS.end)`).
+
 ---
 
 ## Executive Biosafety & Agricultural Evaluation
 
 Unlike isolate **TA-PUJ** (*Trichoderma asperellum*), which is an environmentally benign biocontrol candidate devoid of human-toxic mycotoxins, isolate **AF-PUJ** (*Aspergillus flavus*) is a **fully toxigenic agricultural contaminant**. Genomic dissection reveals that AF-PUJ harbors intact, full-length gene clusters for multiple regulated mycotoxins:
 
-- **Aflatoxins B1 & G1 + Cyclopiazonic Acid (Scaffold 1340):** 21 continuous loci across 79.1 kb (`AF:PUJ_009383`–`AF:PUJ_009403`) with 94–97% identity to MIBiG `BGC0000007.3`. Crucially, AF-PUJ lacks the 28–32 kb chromosomal deletion characteristic of commercial atoxigenic biocontrol strains (*Aflasafe*, NRRL 21882), proving that AF-PUJ possesses full genetic capacity for carcinogenic aflatoxin biosynthesis.
+- **Aflatoxins B1 & G1 + Cyclopiazonic Acid (Scaffold 1340):** 17 continuous loci across 79.1 kb (`AF:PUJ_009389`–`AF:PUJ_009405`) with 11 protein BLAST hits to MIBiG `BGC0000007.3` (51–97% identity; 94–97% for core enzymes such as PksA, Nor-1, and AflR) and 4 hits to `BGC0000977.4` (90–97% identity to CpaA/CpaO/CpaT/CpaM). Crucially, AF-PUJ lacks the 28–32 kb chromosomal deletion characteristic of commercial atoxigenic biocontrol strains (*Aflasafe*, NRRL 21882), proving that AF-PUJ possesses full genetic capacity for carcinogenic aflatoxin biosynthesis.
 - **Aspergillic Acid (Scaffold 1924):** 6-gene NRPS cluster (`AF:PUJ_009781`–`AF:PUJ_009786`) with 95–100% identity to reference `BGC0001516.5`. Hydroxamic acid mycotoxin with acute hepatotoxicity.
 - **Aspirochlorine (Scaffold 480):** 19-gene epipolythiodioxopiperazine (ETP) cluster (`BGC0001123.5`, score 17,383) conferring broad-spectrum toxicity.
 - **Ustiloxin B (Scaffold 418):** 13-gene fungal RiPP mycotoxin cluster (`BGC0000627.4`, score 7,477) inhibiting eukaryotic microtubule assembly.
@@ -95,13 +101,13 @@ Concurrently, AF-PUJ harbors valuable **agricultural phosphate-solubilizing mach
 | 68 | [BGC_68_scaffold_904_c2_orphan_terpene](#bgc-68-scaffold-904-c2-orphan-terpene) | Scaffold 904 | Orphan terpene | 1..51,233 (51.2 kb) | 16 | No MIBiG match | 0 hits | ORPHAN |
 | 69 | [BGC_69_scaffold_960_c1_6_methylsalicyclic_acid](#bgc-69-scaffold-960-c1-6-methylsalicyclic-acid) | Scaffold 960 | **6-methylsalicyclic acid** | 1..65,347 (65.3 kb) | 17 | `BGC0001276.3` (6-methylsalicyclic acid) | 60–60% id (2,075.0) | **MEDIUM** |
 | 70 | [BGC_70_scaffold_1334_c1_orphan_nrps](#bgc-70-scaffold-1334-c1-orphan-nrps) | Scaffold 1334 | Orphan NRPS | 1..76,133 (76.1 kb) | 16 | No MIBiG match | 0 hits | ORPHAN |
-| 71 | [BGC_71_scaffold_1340_c1_aflatoxin_CPA_supercluster](#bgc-71-scaffold-1340-c1-aflatoxin-cpa-supercluster) | Scaffold 1340 | **Aflatoxin / CPA Super-Cluster** | 1..79,127 (79.1 kb) | 17 | `BGC0000007.3` (Aflatoxin) + `BGC0000977.4` (CPA) | 94–97% id (Score 16,946) | **HIGH (TOXIC)** |
+| 71 | [BGC_71_scaffold_1340_c1_aflatoxin_CPA_supercluster](#bgc-71-scaffold-1340-c1-aflatoxin-cpa-supercluster) | Scaffold 1340 | **Aflatoxin / CPA Super-Cluster** | 1..79,127 (79.1 kb) | 17 | `BGC0000007.3` (Aflatoxin) + `BGC0000977.4` (CPA) | 51–97% id (Score 16,946) | **HIGH (TOXIC)** |
 | 72 | [BGC_72_scaffold_1845_c1_dichlorodiaporthin](#bgc-72-scaffold-1845-c1-dichlorodiaporthin) | Scaffold 1845 | **dichlorodiaporthin** | 1..66,072 (66.1 kb) | 18 | `BGC0002237.3` (dichlorodiaporthin) | 96–100% id (6,738.0) | **HIGH** |
 | 73 | [BGC_73_scaffold_1924_c1_aspergillic_acid](#bgc-73-scaffold-1924-c1-aspergillic-acid) | Scaffold 1924 | **aspergillic acid** | 1..63,066 (63.1 kb) | 19 | `BGC0001516.5` (aspergillic acid) | 75–100% id (6,227.0) | **HIGH** |
 | 74 | [BGC_74_scaffold_2001_c1_orphan_t3pks](#bgc-74-scaffold-2001-c1-orphan-t3pks) | Scaffold 2001 | Orphan T3PKS | 1..35,116 (35.1 kb) | 8 | No MIBiG match | 0 hits | ORPHAN |
-| 75 | [CLUSTER_75_scaffold_24_phosphate_solubilizing_PHO13_IPP1](#cluster-75-scaffold-24-phosphate-solubilizing-pho13-ipp1) | Scaffold 24 | **Phosphate Solubilizing & Hydrolase Neighborhood (PHO13/IPP1)** | 273,771..342,848 (69.1 kb) | 21 | Genomic Synteny / Neighborhood | Biochemical Validation | **VERIFIED_AGRICULTURAL** |
-| 76 | [CLUSTER_76_scaffold_482_phosphate_regulator_PHO2_AMY3](#cluster-76-scaffold-482-phosphate-regulator-pho2-amy3) | Scaffold 482 | **Phosphate Regulatory Regulon PHO2 & Alpha-Amylase** | 778,829..880,781 (102.0 kb) | 21 | Genomic Synteny / Neighborhood | Biochemical Validation | **VERIFIED_AGRICULTURAL** |
-| 77 | [CLUSTER_77_scaffold_1339_phosphate_sensor_PHO81_redox](#cluster-77-scaffold-1339-phosphate-sensor-pho81-redox) | Scaffold 1339 | **Phosphate Starvation Sensor PHO81 & Redox Dyad** | 208,818..273,028 (64.2 kb) | 21 | Genomic Synteny / Neighborhood | Biochemical Validation | **VERIFIED_AGRICULTURAL** |
+| 75 | [CLUSTER_75_scaffold_24_phosphate_solubilizing_PHO13_IPP1](#cluster-75-scaffold-24-phosphate-solubilizing-pho13-ipp1) | Scaffold 24 | **Phosphate Solubilizing & Hydrolase Neighborhood (PHO13/IPP1)** | 273,772..342,848 (69.1 kb) | 21 | Genomic Synteny / Neighborhood | Biochemical Validation | **VERIFIED_AGRICULTURAL** |
+| 76 | [CLUSTER_76_scaffold_482_phosphate_regulator_PHO2_AMY3](#cluster-76-scaffold-482-phosphate-regulator-pho2-amy3) | Scaffold 482 | **Phosphate Regulatory Regulon PHO2 & Alpha-Amylase** | 778,830..880,781 (102.0 kb) | 21 | Genomic Synteny / Neighborhood | Biochemical Validation | **VERIFIED_AGRICULTURAL** |
+| 77 | [CLUSTER_77_scaffold_1339_phosphate_sensor_PHO81_redox](#cluster-77-scaffold-1339-phosphate-sensor-pho81-redox) | Scaffold 1339 | **Phosphate Starvation Sensor PHO81 & Redox Dyad** | 208,819..273,028 (64.2 kb) | 21 | Genomic Synteny / Neighborhood | Biochemical Validation | **VERIFIED_AGRICULTURAL** |
 
 ---
 
@@ -117,7 +123,7 @@ Concurrently, AF-PUJ harbors valuable **agricultural phosphate-solubilizing mach
 
 [![BGC_01_scaffold_24_c1_orphan_betalactone](BGC_01_scaffold_24_c1_orphan_betalactone.png)](BGC_01_scaffold_24_c1_orphan_betalactone.svg)
 
-> *Figure 01: Publication-grade gene cluster diagram of `BGC_01_scaffold_24_c1_orphan_betalactone` on Scaffold 24. Arrows indicate direction of transcription; boxes display standardized gene symbols or official locus tags. [Open scalable vector SVG](BGC_01_scaffold_24_c1_orphan_betalactone.svg).*
+> *Figure 01: Publication-grade gene cluster diagram of `BGC_01_scaffold_24_c1_orphan_betalactone` on Scaffold 24. **Header Span** (1–45,805 bp) indicates the total candidate regional window; **Sub-track Bracket** indicates the precise physical CDS span (13 CDSs, 41.9 kb). Arrows indicate direction of transcription; boxes display standardized gene symbols or official locus tags. [Open scalable vector SVG](BGC_01_scaffold_24_c1_orphan_betalactone.svg).*
 
 #### Gene Inventory & Structural Qualifiers
 
@@ -169,7 +175,7 @@ This cluster represents a novel **orphan betalactone secondary metabolite biosyn
 
 [![BGC_02_scaffold_24_c2_orphan_indole](BGC_02_scaffold_24_c2_orphan_indole.png)](BGC_02_scaffold_24_c2_orphan_indole.svg)
 
-> *Figure 02: Publication-grade gene cluster diagram of `BGC_02_scaffold_24_c2_orphan_indole` on Scaffold 24. Arrows indicate direction of transcription; boxes display standardized gene symbols or official locus tags. [Open scalable vector SVG](BGC_02_scaffold_24_c2_orphan_indole.svg).*
+> *Figure 02: Publication-grade gene cluster diagram of `BGC_02_scaffold_24_c2_orphan_indole` on Scaffold 24. **Header Span** (1–31,152 bp) indicates the total candidate regional window; **Sub-track Bracket** indicates the precise physical CDS span (9 CDSs, 24.0 kb). Arrows indicate direction of transcription; boxes display standardized gene symbols or official locus tags. [Open scalable vector SVG](BGC_02_scaffold_24_c2_orphan_indole.svg).*
 
 #### Gene Inventory & Structural Qualifiers
 
@@ -213,7 +219,7 @@ This cluster represents a novel **orphan indole secondary metabolite biosyntheti
 
 [![BGC_03_scaffold_24_c3_orphan_nrps](BGC_03_scaffold_24_c3_orphan_nrps.png)](BGC_03_scaffold_24_c3_orphan_nrps.svg)
 
-> *Figure 03: Publication-grade gene cluster diagram of `BGC_03_scaffold_24_c3_orphan_nrps` on Scaffold 24. Arrows indicate direction of transcription; boxes display standardized gene symbols or official locus tags. [Open scalable vector SVG](BGC_03_scaffold_24_c3_orphan_nrps.svg).*
+> *Figure 03: Publication-grade gene cluster diagram of `BGC_03_scaffold_24_c3_orphan_nrps` on Scaffold 24. **Header Span** (1–66,363 bp) indicates the total candidate regional window; **Sub-track Bracket** indicates the precise physical CDS span (18 CDSs, 57.9 kb). Arrows indicate direction of transcription; boxes display standardized gene symbols or official locus tags. [Open scalable vector SVG](BGC_03_scaffold_24_c3_orphan_nrps.svg).*
 
 #### Gene Inventory & Structural Qualifiers
 
@@ -276,7 +282,7 @@ This cluster represents a novel **orphan NRPS secondary metabolite biosynthetic 
 
 [![BGC_04_scaffold_24_c4_asparasone_a](BGC_04_scaffold_24_c4_asparasone_a.png)](BGC_04_scaffold_24_c4_asparasone_a.svg)
 
-> *Figure 04: Publication-grade gene cluster diagram of `BGC_04_scaffold_24_c4_asparasone_a` on Scaffold 24. Arrows indicate direction of transcription; boxes display standardized gene symbols or official locus tags. [Open scalable vector SVG](BGC_04_scaffold_24_c4_asparasone_a.svg).*
+> *Figure 04: Publication-grade gene cluster diagram of `BGC_04_scaffold_24_c4_asparasone_a` on Scaffold 24. **Header Span** (1–98,078 bp) indicates the total candidate regional window; **Sub-track Bracket** indicates the precise physical CDS span (28 CDSs, 95.0 kb). Arrows indicate direction of transcription; boxes display standardized gene symbols or official locus tags. [Open scalable vector SVG](BGC_04_scaffold_24_c4_asparasone_a.svg).*
 
 #### Gene Inventory & Structural Qualifiers
 
@@ -358,7 +364,7 @@ This cluster exhibits significant homology to the characterized MIBiG reference 
 
 [![BGC_05_scaffold_24_c5_orphan_t1pks](BGC_05_scaffold_24_c5_orphan_t1pks.png)](BGC_05_scaffold_24_c5_orphan_t1pks.svg)
 
-> *Figure 05: Publication-grade gene cluster diagram of `BGC_05_scaffold_24_c5_orphan_t1pks` on Scaffold 24. Arrows indicate direction of transcription; boxes display standardized gene symbols or official locus tags. [Open scalable vector SVG](BGC_05_scaffold_24_c5_orphan_t1pks.svg).*
+> *Figure 05: Publication-grade gene cluster diagram of `BGC_05_scaffold_24_c5_orphan_t1pks` on Scaffold 24. **Header Span** (1–68,097 bp) indicates the total candidate regional window; **Sub-track Bracket** indicates the precise physical CDS span (17 CDSs, 60.4 kb). Arrows indicate direction of transcription; boxes display standardized gene symbols or official locus tags. [Open scalable vector SVG](BGC_05_scaffold_24_c5_orphan_t1pks.svg).*
 
 #### Gene Inventory & Structural Qualifiers
 
@@ -419,7 +425,7 @@ This cluster represents a novel **orphan T1PKS secondary metabolite biosynthetic
 
 [![BGC_06_scaffold_24_c6_choline](BGC_06_scaffold_24_c6_choline.png)](BGC_06_scaffold_24_c6_choline.svg)
 
-> *Figure 06: Publication-grade gene cluster diagram of `BGC_06_scaffold_24_c6_choline` on Scaffold 24. Arrows indicate direction of transcription; boxes display standardized gene symbols or official locus tags. [Open scalable vector SVG](BGC_06_scaffold_24_c6_choline.svg).*
+> *Figure 06: Publication-grade gene cluster diagram of `BGC_06_scaffold_24_c6_choline` on Scaffold 24. **Header Span** (1–70,758 bp) indicates the total candidate regional window; **Sub-track Bracket** indicates the precise physical CDS span (17 CDSs, 55.9 kb). Arrows indicate direction of transcription; boxes display standardized gene symbols or official locus tags. [Open scalable vector SVG](BGC_06_scaffold_24_c6_choline.svg).*
 
 #### Gene Inventory & Structural Qualifiers
 
@@ -480,7 +486,7 @@ This cluster exhibits significant homology to the characterized MIBiG reference 
 
 [![BGC_07_scaffold_256_c1_14_n,n_dimethylleucyloxypaspalinine](BGC_07_scaffold_256_c1_14_n,n_dimethylleucyloxypaspalinine.png)](BGC_07_scaffold_256_c1_14_n,n_dimethylleucyloxypaspalinine.svg)
 
-> *Figure 07: Publication-grade gene cluster diagram of `BGC_07_scaffold_256_c1_14_n,n_dimethylleucyloxypaspalinine` on Scaffold 256. Arrows indicate direction of transcription; boxes display standardized gene symbols or official locus tags. [Open scalable vector SVG](BGC_07_scaffold_256_c1_14_n,n_dimethylleucyloxypaspalinine.svg).*
+> *Figure 07: Publication-grade gene cluster diagram of `BGC_07_scaffold_256_c1_14_n,n_dimethylleucyloxypaspalinine` on Scaffold 256. **Header Span** (1–35,670 bp) indicates the total candidate regional window; **Sub-track Bracket** indicates the precise physical CDS span (12 CDSs, 26.5 kb). Arrows indicate direction of transcription; boxes display standardized gene symbols or official locus tags. [Open scalable vector SVG](BGC_07_scaffold_256_c1_14_n,n_dimethylleucyloxypaspalinine.svg).*
 
 #### Gene Inventory & Structural Qualifiers
 
@@ -530,7 +536,7 @@ This cluster exhibits significant homology to the characterized MIBiG reference 
 
 [![BGC_08_scaffold_256_c2_orphan_terpene](BGC_08_scaffold_256_c2_orphan_terpene.png)](BGC_08_scaffold_256_c2_orphan_terpene.svg)
 
-> *Figure 08: Publication-grade gene cluster diagram of `BGC_08_scaffold_256_c2_orphan_terpene` on Scaffold 256. Arrows indicate direction of transcription; boxes display standardized gene symbols or official locus tags. [Open scalable vector SVG](BGC_08_scaffold_256_c2_orphan_terpene.svg).*
+> *Figure 08: Publication-grade gene cluster diagram of `BGC_08_scaffold_256_c2_orphan_terpene` on Scaffold 256. **Header Span** (1–31,068 bp) indicates the total candidate regional window; **Sub-track Bracket** indicates the precise physical CDS span (9 CDSs, 24.0 kb). Arrows indicate direction of transcription; boxes display standardized gene symbols or official locus tags. [Open scalable vector SVG](BGC_08_scaffold_256_c2_orphan_terpene.svg).*
 
 #### Gene Inventory & Structural Qualifiers
 
@@ -575,7 +581,7 @@ This cluster represents a novel **orphan terpene secondary metabolite biosynthet
 
 [![BGC_09_scaffold_256_c3_heptelidic_acid](BGC_09_scaffold_256_c3_heptelidic_acid.png)](BGC_09_scaffold_256_c3_heptelidic_acid.svg)
 
-> *Figure 09: Publication-grade gene cluster diagram of `BGC_09_scaffold_256_c3_heptelidic_acid` on Scaffold 256. Arrows indicate direction of transcription; boxes display standardized gene symbols or official locus tags. [Open scalable vector SVG](BGC_09_scaffold_256_c3_heptelidic_acid.svg).*
+> *Figure 09: Publication-grade gene cluster diagram of `BGC_09_scaffold_256_c3_heptelidic_acid` on Scaffold 256. **Header Span** (1–63,562 bp) indicates the total candidate regional window; **Sub-track Bracket** indicates the precise physical CDS span (14 CDSs, 56.3 kb). Arrows indicate direction of transcription; boxes display standardized gene symbols or official locus tags. [Open scalable vector SVG](BGC_09_scaffold_256_c3_heptelidic_acid.svg).*
 
 #### Gene Inventory & Structural Qualifiers
 
@@ -629,7 +635,7 @@ This cluster exhibits significant homology to the characterized MIBiG reference 
 
 [![BGC_10_scaffold_256_c4_orphan_nrps_like](BGC_10_scaffold_256_c4_orphan_nrps_like.png)](BGC_10_scaffold_256_c4_orphan_nrps_like.svg)
 
-> *Figure 10: Publication-grade gene cluster diagram of `BGC_10_scaffold_256_c4_orphan_nrps_like` on Scaffold 256. Arrows indicate direction of transcription; boxes display standardized gene symbols or official locus tags. [Open scalable vector SVG](BGC_10_scaffold_256_c4_orphan_nrps_like.svg).*
+> *Figure 10: Publication-grade gene cluster diagram of `BGC_10_scaffold_256_c4_orphan_nrps_like` on Scaffold 256. **Header Span** (1–62,688 bp) indicates the total candidate regional window; **Sub-track Bracket** indicates the precise physical CDS span (15 CDSs, 59.2 kb). Arrows indicate direction of transcription; boxes display standardized gene symbols or official locus tags. [Open scalable vector SVG](BGC_10_scaffold_256_c4_orphan_nrps_like.svg).*
 
 #### Gene Inventory & Structural Qualifiers
 
@@ -685,7 +691,7 @@ This cluster represents a novel **orphan NRPS-like secondary metabolite biosynth
 
 [![BGC_11_scaffold_256_c5_orphan_terpene](BGC_11_scaffold_256_c5_orphan_terpene.png)](BGC_11_scaffold_256_c5_orphan_terpene.svg)
 
-> *Figure 11: Publication-grade gene cluster diagram of `BGC_11_scaffold_256_c5_orphan_terpene` on Scaffold 256. Arrows indicate direction of transcription; boxes display standardized gene symbols or official locus tags. [Open scalable vector SVG](BGC_11_scaffold_256_c5_orphan_terpene.svg).*
+> *Figure 11: Publication-grade gene cluster diagram of `BGC_11_scaffold_256_c5_orphan_terpene` on Scaffold 256. **Header Span** (1–31,631 bp) indicates the total candidate regional window; **Sub-track Bracket** indicates the precise physical CDS span (12 CDSs, 28.0 kb). Arrows indicate direction of transcription; boxes display standardized gene symbols or official locus tags. [Open scalable vector SVG](BGC_11_scaffold_256_c5_orphan_terpene.svg).*
 
 #### Gene Inventory & Structural Qualifiers
 
@@ -735,7 +741,7 @@ This cluster represents a novel **orphan terpene secondary metabolite biosynthet
 
 [![BGC_12_scaffold_256_c6_orphan_terpene](BGC_12_scaffold_256_c6_orphan_terpene.png)](BGC_12_scaffold_256_c6_orphan_terpene.svg)
 
-> *Figure 12: Publication-grade gene cluster diagram of `BGC_12_scaffold_256_c6_orphan_terpene` on Scaffold 256. Arrows indicate direction of transcription; boxes display standardized gene symbols or official locus tags. [Open scalable vector SVG](BGC_12_scaffold_256_c6_orphan_terpene.svg).*
+> *Figure 12: Publication-grade gene cluster diagram of `BGC_12_scaffold_256_c6_orphan_terpene` on Scaffold 256. **Header Span** (1–32,530 bp) indicates the total candidate regional window; **Sub-track Bracket** indicates the precise physical CDS span (14 CDSs, 31.1 kb). Arrows indicate direction of transcription; boxes display standardized gene symbols or official locus tags. [Open scalable vector SVG](BGC_12_scaffold_256_c6_orphan_terpene.svg).*
 
 #### Gene Inventory & Structural Qualifiers
 
@@ -790,7 +796,7 @@ This cluster represents a novel **orphan terpene secondary metabolite biosynthet
 
 [![BGC_13_scaffold_256_c7_aspercryptins](BGC_13_scaffold_256_c7_aspercryptins.png)](BGC_13_scaffold_256_c7_aspercryptins.svg)
 
-> *Figure 13: Publication-grade gene cluster diagram of `BGC_13_scaffold_256_c7_aspercryptins` on Scaffold 256. Arrows indicate direction of transcription; boxes display standardized gene symbols or official locus tags. [Open scalable vector SVG](BGC_13_scaffold_256_c7_aspercryptins.svg).*
+> *Figure 13: Publication-grade gene cluster diagram of `BGC_13_scaffold_256_c7_aspercryptins` on Scaffold 256. **Header Span** (1–94,533 bp) indicates the total candidate regional window; **Sub-track Bracket** indicates the precise physical CDS span (22 CDSs, 90.1 kb). Arrows indicate direction of transcription; boxes display standardized gene symbols or official locus tags. [Open scalable vector SVG](BGC_13_scaffold_256_c7_aspercryptins.svg).*
 
 #### Gene Inventory & Structural Qualifiers
 
@@ -860,7 +866,7 @@ This cluster exhibits significant homology to the characterized MIBiG reference 
 
 [![BGC_14_scaffold_258_c1_orphan_t1pks](BGC_14_scaffold_258_c1_orphan_t1pks.png)](BGC_14_scaffold_258_c1_orphan_t1pks.svg)
 
-> *Figure 14: Publication-grade gene cluster diagram of `BGC_14_scaffold_258_c1_orphan_t1pks` on Scaffold 258. Arrows indicate direction of transcription; boxes display standardized gene symbols or official locus tags. [Open scalable vector SVG](BGC_14_scaffold_258_c1_orphan_t1pks.svg).*
+> *Figure 14: Publication-grade gene cluster diagram of `BGC_14_scaffold_258_c1_orphan_t1pks` on Scaffold 258. **Header Span** (1–67,340 bp) indicates the total candidate regional window; **Sub-track Bracket** indicates the precise physical CDS span (16 CDSs, 63.4 kb). Arrows indicate direction of transcription; boxes display standardized gene symbols or official locus tags. [Open scalable vector SVG](BGC_14_scaffold_258_c1_orphan_t1pks.svg).*
 
 #### Gene Inventory & Structural Qualifiers
 
@@ -918,7 +924,7 @@ This cluster represents a novel **orphan T1PKS secondary metabolite biosynthetic
 
 [![BGC_15_scaffold_258_c2_orphan_t1pks](BGC_15_scaffold_258_c2_orphan_t1pks.png)](BGC_15_scaffold_258_c2_orphan_t1pks.svg)
 
-> *Figure 15: Publication-grade gene cluster diagram of `BGC_15_scaffold_258_c2_orphan_t1pks` on Scaffold 258. Arrows indicate direction of transcription; boxes display standardized gene symbols or official locus tags. [Open scalable vector SVG](BGC_15_scaffold_258_c2_orphan_t1pks.svg).*
+> *Figure 15: Publication-grade gene cluster diagram of `BGC_15_scaffold_258_c2_orphan_t1pks` on Scaffold 258. **Header Span** (1–68,435 bp) indicates the total candidate regional window; **Sub-track Bracket** indicates the precise physical CDS span (21 CDSs, 66.1 kb). Arrows indicate direction of transcription; boxes display standardized gene symbols or official locus tags. [Open scalable vector SVG](BGC_15_scaffold_258_c2_orphan_t1pks.svg).*
 
 #### Gene Inventory & Structural Qualifiers
 
@@ -987,7 +993,7 @@ This cluster represents a novel **orphan T1PKS secondary metabolite biosynthetic
 
 [![BGC_16_scaffold_258_c3_flavunoidine](BGC_16_scaffold_258_c3_flavunoidine.png)](BGC_16_scaffold_258_c3_flavunoidine.svg)
 
-> *Figure 16: Publication-grade gene cluster diagram of `BGC_16_scaffold_258_c3_flavunoidine` on Scaffold 258. Arrows indicate direction of transcription; boxes display standardized gene symbols or official locus tags. [Open scalable vector SVG](BGC_16_scaffold_258_c3_flavunoidine.svg).*
+> *Figure 16: Publication-grade gene cluster diagram of `BGC_16_scaffold_258_c3_flavunoidine` on Scaffold 258. **Header Span** (1–63,216 bp) indicates the total candidate regional window; **Sub-track Bracket** indicates the precise physical CDS span (19 CDSs, 61.5 kb). Arrows indicate direction of transcription; boxes display standardized gene symbols or official locus tags. [Open scalable vector SVG](BGC_16_scaffold_258_c3_flavunoidine.svg).*
 
 #### Gene Inventory & Structural Qualifiers
 
@@ -1052,7 +1058,7 @@ This cluster exhibits significant homology to the characterized MIBiG reference 
 
 [![BGC_17_scaffold_258_c4_astellolide_a](BGC_17_scaffold_258_c4_astellolide_a.png)](BGC_17_scaffold_258_c4_astellolide_a.svg)
 
-> *Figure 17: Publication-grade gene cluster diagram of `BGC_17_scaffold_258_c4_astellolide_a` on Scaffold 258. Arrows indicate direction of transcription; boxes display standardized gene symbols or official locus tags. [Open scalable vector SVG](BGC_17_scaffold_258_c4_astellolide_a.svg).*
+> *Figure 17: Publication-grade gene cluster diagram of `BGC_17_scaffold_258_c4_astellolide_a` on Scaffold 258. **Header Span** (1–68,868 bp) indicates the total candidate regional window; **Sub-track Bracket** indicates the precise physical CDS span (20 CDSs, 67.2 kb). Arrows indicate direction of transcription; boxes display standardized gene symbols or official locus tags. [Open scalable vector SVG](BGC_17_scaffold_258_c4_astellolide_a.svg).*
 
 #### Gene Inventory & Structural Qualifiers
 
@@ -1119,7 +1125,7 @@ This cluster exhibits significant homology to the characterized MIBiG reference 
 
 [![BGC_18_scaffold_418_c1_14_n,n_dimethylleucyloxypaspalinine](BGC_18_scaffold_418_c1_14_n,n_dimethylleucyloxypaspalinine.png)](BGC_18_scaffold_418_c1_14_n,n_dimethylleucyloxypaspalinine.svg)
 
-> *Figure 18: Publication-grade gene cluster diagram of `BGC_18_scaffold_418_c1_14_n,n_dimethylleucyloxypaspalinine` on Scaffold 418. Arrows indicate direction of transcription; boxes display standardized gene symbols or official locus tags. [Open scalable vector SVG](BGC_18_scaffold_418_c1_14_n,n_dimethylleucyloxypaspalinine.svg).*
+> *Figure 18: Publication-grade gene cluster diagram of `BGC_18_scaffold_418_c1_14_n,n_dimethylleucyloxypaspalinine` on Scaffold 418. **Header Span** (1–33,091 bp) indicates the total candidate regional window; **Sub-track Bracket** indicates the precise physical CDS span (12 CDSs, 29.2 kb). Arrows indicate direction of transcription; boxes display standardized gene symbols or official locus tags. [Open scalable vector SVG](BGC_18_scaffold_418_c1_14_n,n_dimethylleucyloxypaspalinine.svg).*
 
 #### Gene Inventory & Structural Qualifiers
 
@@ -1170,7 +1176,7 @@ This cluster exhibits significant homology to the characterized MIBiG reference 
 
 [![BGC_19_scaffold_418_c2_ustiloxin_b](BGC_19_scaffold_418_c2_ustiloxin_b.png)](BGC_19_scaffold_418_c2_ustiloxin_b.svg)
 
-> *Figure 19: Publication-grade gene cluster diagram of `BGC_19_scaffold_418_c2_ustiloxin_b` on Scaffold 418. Arrows indicate direction of transcription; boxes display standardized gene symbols or official locus tags. [Open scalable vector SVG](BGC_19_scaffold_418_c2_ustiloxin_b.svg).*
+> *Figure 19: Publication-grade gene cluster diagram of `BGC_19_scaffold_418_c2_ustiloxin_b` on Scaffold 418. **Header Span** (1–54,988 bp) indicates the total candidate regional window; **Sub-track Bracket** indicates the precise physical CDS span (20 CDSs, 52.6 kb). Arrows indicate direction of transcription; boxes display standardized gene symbols or official locus tags. [Open scalable vector SVG](BGC_19_scaffold_418_c2_ustiloxin_b.svg).*
 
 #### Gene Inventory & Structural Qualifiers
 
@@ -1236,7 +1242,7 @@ This cluster exhibits significant homology to the characterized MIBiG reference 
 
 [![BGC_20_scaffold_418_c3_orphan_terpene_precursor](BGC_20_scaffold_418_c3_orphan_terpene_precursor.png)](BGC_20_scaffold_418_c3_orphan_terpene_precursor.svg)
 
-> *Figure 20: Publication-grade gene cluster diagram of `BGC_20_scaffold_418_c3_orphan_terpene_precursor` on Scaffold 418. Arrows indicate direction of transcription; boxes display standardized gene symbols or official locus tags. [Open scalable vector SVG](BGC_20_scaffold_418_c3_orphan_terpene_precursor.svg).*
+> *Figure 20: Publication-grade gene cluster diagram of `BGC_20_scaffold_418_c3_orphan_terpene_precursor` on Scaffold 418. **Header Span** (1–32,523 bp) indicates the total candidate regional window; **Sub-track Bracket** indicates the precise physical CDS span (8 CDSs, 28.3 kb). Arrows indicate direction of transcription; boxes display standardized gene symbols or official locus tags. [Open scalable vector SVG](BGC_20_scaffold_418_c3_orphan_terpene_precursor.svg).*
 
 #### Gene Inventory & Structural Qualifiers
 
@@ -1278,7 +1284,7 @@ This cluster represents a novel **orphan terpene-precursor secondary metabolite 
 
 [![BGC_21_scaffold_418_c4_orphan_nrps](BGC_21_scaffold_418_c4_orphan_nrps.png)](BGC_21_scaffold_418_c4_orphan_nrps.svg)
 
-> *Figure 21: Publication-grade gene cluster diagram of `BGC_21_scaffold_418_c4_orphan_nrps` on Scaffold 418. Arrows indicate direction of transcription; boxes display standardized gene symbols or official locus tags. [Open scalable vector SVG](BGC_21_scaffold_418_c4_orphan_nrps.svg).*
+> *Figure 21: Publication-grade gene cluster diagram of `BGC_21_scaffold_418_c4_orphan_nrps` on Scaffold 418. **Header Span** (1–65,039 bp) indicates the total candidate regional window; **Sub-track Bracket** indicates the precise physical CDS span (15 CDSs, 54.7 kb). Arrows indicate direction of transcription; boxes display standardized gene symbols or official locus tags. [Open scalable vector SVG](BGC_21_scaffold_418_c4_orphan_nrps.svg).*
 
 #### Gene Inventory & Structural Qualifiers
 
@@ -1334,7 +1340,7 @@ This cluster represents a novel **orphan NRPS secondary metabolite biosynthetic 
 
 [![BGC_22_scaffold_418_c5_orphan_t3pks](BGC_22_scaffold_418_c5_orphan_t3pks.png)](BGC_22_scaffold_418_c5_orphan_t3pks.svg)
 
-> *Figure 22: Publication-grade gene cluster diagram of `BGC_22_scaffold_418_c5_orphan_t3pks` on Scaffold 418. Arrows indicate direction of transcription; boxes display standardized gene symbols or official locus tags. [Open scalable vector SVG](BGC_22_scaffold_418_c5_orphan_t3pks.svg).*
+> *Figure 22: Publication-grade gene cluster diagram of `BGC_22_scaffold_418_c5_orphan_t3pks` on Scaffold 418. **Header Span** (1–61,324 bp) indicates the total candidate regional window; **Sub-track Bracket** indicates the precise physical CDS span (17 CDSs, 55.5 kb). Arrows indicate direction of transcription; boxes display standardized gene symbols or official locus tags. [Open scalable vector SVG](BGC_22_scaffold_418_c5_orphan_t3pks.svg).*
 
 #### Gene Inventory & Structural Qualifiers
 
@@ -1395,7 +1401,7 @@ This cluster represents a novel **orphan T3PKS secondary metabolite biosynthetic
 
 [![BGC_23_scaffold_431_c1_fusaric_acid](BGC_23_scaffold_431_c1_fusaric_acid.png)](BGC_23_scaffold_431_c1_fusaric_acid.svg)
 
-> *Figure 23: Publication-grade gene cluster diagram of `BGC_23_scaffold_431_c1_fusaric_acid` on Scaffold 431. Arrows indicate direction of transcription; boxes display standardized gene symbols or official locus tags. [Open scalable vector SVG](BGC_23_scaffold_431_c1_fusaric_acid.svg).*
+> *Figure 23: Publication-grade gene cluster diagram of `BGC_23_scaffold_431_c1_fusaric_acid` on Scaffold 431. **Header Span** (1–68,253 bp) indicates the total candidate regional window; **Sub-track Bracket** indicates the precise physical CDS span (23 CDSs, 63.4 kb). Arrows indicate direction of transcription; boxes display standardized gene symbols or official locus tags. [Open scalable vector SVG](BGC_23_scaffold_431_c1_fusaric_acid.svg).*
 
 #### Gene Inventory & Structural Qualifiers
 
@@ -1467,7 +1473,7 @@ This cluster exhibits significant homology to the characterized MIBiG reference 
 
 [![BGC_24_scaffold_431_c2_orphan_terpene_precursor](BGC_24_scaffold_431_c2_orphan_terpene_precursor.png)](BGC_24_scaffold_431_c2_orphan_terpene_precursor.svg)
 
-> *Figure 24: Publication-grade gene cluster diagram of `BGC_24_scaffold_431_c2_orphan_terpene_precursor` on Scaffold 431. Arrows indicate direction of transcription; boxes display standardized gene symbols or official locus tags. [Open scalable vector SVG](BGC_24_scaffold_431_c2_orphan_terpene_precursor.svg).*
+> *Figure 24: Publication-grade gene cluster diagram of `BGC_24_scaffold_431_c2_orphan_terpene_precursor` on Scaffold 431. **Header Span** (1–31,251 bp) indicates the total candidate regional window; **Sub-track Bracket** indicates the precise physical CDS span (8 CDSs, 24.8 kb). Arrows indicate direction of transcription; boxes display standardized gene symbols or official locus tags. [Open scalable vector SVG](BGC_24_scaffold_431_c2_orphan_terpene_precursor.svg).*
 
 #### Gene Inventory & Structural Qualifiers
 
@@ -1510,7 +1516,7 @@ This cluster represents a novel **orphan terpene-precursor secondary metabolite 
 
 [![BGC_25_scaffold_431_c3_zopfiellin](BGC_25_scaffold_431_c3_zopfiellin.png)](BGC_25_scaffold_431_c3_zopfiellin.svg)
 
-> *Figure 25: Publication-grade gene cluster diagram of `BGC_25_scaffold_431_c3_zopfiellin` on Scaffold 431. Arrows indicate direction of transcription; boxes display standardized gene symbols or official locus tags. [Open scalable vector SVG](BGC_25_scaffold_431_c3_zopfiellin.svg).*
+> *Figure 25: Publication-grade gene cluster diagram of `BGC_25_scaffold_431_c3_zopfiellin` on Scaffold 431. **Header Span** (1–117,487 bp) indicates the total candidate regional window; **Sub-track Bracket** indicates the precise physical CDS span (34 CDSs, 117.3 kb). Arrows indicate direction of transcription; boxes display standardized gene symbols or official locus tags. [Open scalable vector SVG](BGC_25_scaffold_431_c3_zopfiellin.svg).*
 
 #### Gene Inventory & Structural Qualifiers
 
@@ -1604,7 +1610,7 @@ This cluster exhibits significant homology to the characterized MIBiG reference 
 
 [![BGC_26_scaffold_432_c1_orphan_nrps_like](BGC_26_scaffold_432_c1_orphan_nrps_like.png)](BGC_26_scaffold_432_c1_orphan_nrps_like.svg)
 
-> *Figure 26: Publication-grade gene cluster diagram of `BGC_26_scaffold_432_c1_orphan_nrps_like` on Scaffold 432. Arrows indicate direction of transcription; boxes display standardized gene symbols or official locus tags. [Open scalable vector SVG](BGC_26_scaffold_432_c1_orphan_nrps_like.svg).*
+> *Figure 26: Publication-grade gene cluster diagram of `BGC_26_scaffold_432_c1_orphan_nrps_like` on Scaffold 432. **Header Span** (1–63,354 bp) indicates the total candidate regional window; **Sub-track Bracket** indicates the precise physical CDS span (20 CDSs, 58.9 kb). Arrows indicate direction of transcription; boxes display standardized gene symbols or official locus tags. [Open scalable vector SVG](BGC_26_scaffold_432_c1_orphan_nrps_like.svg).*
 
 #### Gene Inventory & Structural Qualifiers
 
@@ -1670,7 +1676,7 @@ This cluster represents a novel **orphan NRPS-like secondary metabolite biosynth
 
 [![BGC_27_scaffold_432_c2_orphan_terpene_precursor](BGC_27_scaffold_432_c2_orphan_terpene_precursor.png)](BGC_27_scaffold_432_c2_orphan_terpene_precursor.svg)
 
-> *Figure 27: Publication-grade gene cluster diagram of `BGC_27_scaffold_432_c2_orphan_terpene_precursor` on Scaffold 432. Arrows indicate direction of transcription; boxes display standardized gene symbols or official locus tags. [Open scalable vector SVG](BGC_27_scaffold_432_c2_orphan_terpene_precursor.svg).*
+> *Figure 27: Publication-grade gene cluster diagram of `BGC_27_scaffold_432_c2_orphan_terpene_precursor` on Scaffold 432. **Header Span** (1–31,235 bp) indicates the total candidate regional window; **Sub-track Bracket** indicates the precise physical CDS span (10 CDSs, 27.6 kb). Arrows indicate direction of transcription; boxes display standardized gene symbols or official locus tags. [Open scalable vector SVG](BGC_27_scaffold_432_c2_orphan_terpene_precursor.svg).*
 
 #### Gene Inventory & Structural Qualifiers
 
@@ -1716,7 +1722,7 @@ This cluster represents a novel **orphan terpene-precursor secondary metabolite 
 
 [![BGC_28_scaffold_432_c3_orphan_terpene](BGC_28_scaffold_432_c3_orphan_terpene.png)](BGC_28_scaffold_432_c3_orphan_terpene.svg)
 
-> *Figure 28: Publication-grade gene cluster diagram of `BGC_28_scaffold_432_c3_orphan_terpene` on Scaffold 432. Arrows indicate direction of transcription; boxes display standardized gene symbols or official locus tags. [Open scalable vector SVG](BGC_28_scaffold_432_c3_orphan_terpene.svg).*
+> *Figure 28: Publication-grade gene cluster diagram of `BGC_28_scaffold_432_c3_orphan_terpene` on Scaffold 432. **Header Span** (1–31,385 bp) indicates the total candidate regional window; **Sub-track Bracket** indicates the precise physical CDS span (10 CDSs, 28.2 kb). Arrows indicate direction of transcription; boxes display standardized gene symbols or official locus tags. [Open scalable vector SVG](BGC_28_scaffold_432_c3_orphan_terpene.svg).*
 
 #### Gene Inventory & Structural Qualifiers
 
@@ -1763,7 +1769,7 @@ This cluster represents a novel **orphan terpene secondary metabolite biosynthet
 
 [![BGC_29_scaffold_433_c1_8_methyldiaporthin](BGC_29_scaffold_433_c1_8_methyldiaporthin.png)](BGC_29_scaffold_433_c1_8_methyldiaporthin.svg)
 
-> *Figure 29: Publication-grade gene cluster diagram of `BGC_29_scaffold_433_c1_8_methyldiaporthin` on Scaffold 433. Arrows indicate direction of transcription; boxes display standardized gene symbols or official locus tags. [Open scalable vector SVG](BGC_29_scaffold_433_c1_8_methyldiaporthin.svg).*
+> *Figure 29: Publication-grade gene cluster diagram of `BGC_29_scaffold_433_c1_8_methyldiaporthin` on Scaffold 433. **Header Span** (1–60,417 bp) indicates the total candidate regional window; **Sub-track Bracket** indicates the precise physical CDS span (17 CDSs, 53.7 kb). Arrows indicate direction of transcription; boxes display standardized gene symbols or official locus tags. [Open scalable vector SVG](BGC_29_scaffold_433_c1_8_methyldiaporthin.svg).*
 
 #### Gene Inventory & Structural Qualifiers
 
@@ -1824,7 +1830,7 @@ This cluster exhibits significant homology to the characterized MIBiG reference 
 
 [![BGC_30_scaffold_433_c2_ankaflavin](BGC_30_scaffold_433_c2_ankaflavin.png)](BGC_30_scaffold_433_c2_ankaflavin.svg)
 
-> *Figure 30: Publication-grade gene cluster diagram of `BGC_30_scaffold_433_c2_ankaflavin` on Scaffold 433. Arrows indicate direction of transcription; boxes display standardized gene symbols or official locus tags. [Open scalable vector SVG](BGC_30_scaffold_433_c2_ankaflavin.svg).*
+> *Figure 30: Publication-grade gene cluster diagram of `BGC_30_scaffold_433_c2_ankaflavin` on Scaffold 433. **Header Span** (1–67,764 bp) indicates the total candidate regional window; **Sub-track Bracket** indicates the precise physical CDS span (13 CDSs, 61.6 kb). Arrows indicate direction of transcription; boxes display standardized gene symbols or official locus tags. [Open scalable vector SVG](BGC_30_scaffold_433_c2_ankaflavin.svg).*
 
 #### Gene Inventory & Structural Qualifiers
 
@@ -1876,7 +1882,7 @@ This cluster exhibits significant homology to the characterized MIBiG reference 
 
 [![BGC_31_scaffold_433_c3_orphan_terpene](BGC_31_scaffold_433_c3_orphan_terpene.png)](BGC_31_scaffold_433_c3_orphan_terpene.svg)
 
-> *Figure 31: Publication-grade gene cluster diagram of `BGC_31_scaffold_433_c3_orphan_terpene` on Scaffold 433. Arrows indicate direction of transcription; boxes display standardized gene symbols or official locus tags. [Open scalable vector SVG](BGC_31_scaffold_433_c3_orphan_terpene.svg).*
+> *Figure 31: Publication-grade gene cluster diagram of `BGC_31_scaffold_433_c3_orphan_terpene` on Scaffold 433. **Header Span** (1–31,610 bp) indicates the total candidate regional window; **Sub-track Bracket** indicates the precise physical CDS span (7 CDSs, 25.8 kb). Arrows indicate direction of transcription; boxes display standardized gene symbols or official locus tags. [Open scalable vector SVG](BGC_31_scaffold_433_c3_orphan_terpene.svg).*
 
 #### Gene Inventory & Structural Qualifiers
 
@@ -1916,7 +1922,7 @@ This cluster represents a novel **orphan terpene secondary metabolite biosynthet
 
 [![BGC_32_scaffold_433_c4_orphan_nrps_like](BGC_32_scaffold_433_c4_orphan_nrps_like.png)](BGC_32_scaffold_433_c4_orphan_nrps_like.svg)
 
-> *Figure 32: Publication-grade gene cluster diagram of `BGC_32_scaffold_433_c4_orphan_nrps_like` on Scaffold 433. Arrows indicate direction of transcription; boxes display standardized gene symbols or official locus tags. [Open scalable vector SVG](BGC_32_scaffold_433_c4_orphan_nrps_like.svg).*
+> *Figure 32: Publication-grade gene cluster diagram of `BGC_32_scaffold_433_c4_orphan_nrps_like` on Scaffold 433. **Header Span** (1–63,304 bp) indicates the total candidate regional window; **Sub-track Bracket** indicates the precise physical CDS span (17 CDSs, 58.1 kb). Arrows indicate direction of transcription; boxes display standardized gene symbols or official locus tags. [Open scalable vector SVG](BGC_32_scaffold_433_c4_orphan_nrps_like.svg).*
 
 #### Gene Inventory & Structural Qualifiers
 
@@ -1976,7 +1982,7 @@ This cluster represents a novel **orphan NRPS-like secondary metabolite biosynth
 
 [![BGC_33_scaffold_433_c5_orphan_t1pks](BGC_33_scaffold_433_c5_orphan_t1pks.png)](BGC_33_scaffold_433_c5_orphan_t1pks.svg)
 
-> *Figure 33: Publication-grade gene cluster diagram of `BGC_33_scaffold_433_c5_orphan_t1pks` on Scaffold 433. Arrows indicate direction of transcription; boxes display standardized gene symbols or official locus tags. [Open scalable vector SVG](BGC_33_scaffold_433_c5_orphan_t1pks.svg).*
+> *Figure 33: Publication-grade gene cluster diagram of `BGC_33_scaffold_433_c5_orphan_t1pks` on Scaffold 433. **Header Span** (1–119,655 bp) indicates the total candidate regional window; **Sub-track Bracket** indicates the precise physical CDS span (33 CDSs, 117.9 kb). Arrows indicate direction of transcription; boxes display standardized gene symbols or official locus tags. [Open scalable vector SVG](BGC_33_scaffold_433_c5_orphan_t1pks.svg).*
 
 #### Gene Inventory & Structural Qualifiers
 
@@ -2068,7 +2074,7 @@ This cluster represents a novel **orphan T1PKS secondary metabolite biosynthetic
 
 [![BGC_34_scaffold_433_c6_orphan_nrps_like](BGC_34_scaffold_433_c6_orphan_nrps_like.png)](BGC_34_scaffold_433_c6_orphan_nrps_like.svg)
 
-> *Figure 34: Publication-grade gene cluster diagram of `BGC_34_scaffold_433_c6_orphan_nrps_like` on Scaffold 433. Arrows indicate direction of transcription; boxes display standardized gene symbols or official locus tags. [Open scalable vector SVG](BGC_34_scaffold_433_c6_orphan_nrps_like.svg).*
+> *Figure 34: Publication-grade gene cluster diagram of `BGC_34_scaffold_433_c6_orphan_nrps_like` on Scaffold 433. **Header Span** (1–63,227 bp) indicates the total candidate regional window; **Sub-track Bracket** indicates the precise physical CDS span (15 CDSs, 58.7 kb). Arrows indicate direction of transcription; boxes display standardized gene symbols or official locus tags. [Open scalable vector SVG](BGC_34_scaffold_433_c6_orphan_nrps_like.svg).*
 
 #### Gene Inventory & Structural Qualifiers
 
@@ -2124,7 +2130,7 @@ This cluster represents a novel **orphan NRPS-like secondary metabolite biosynth
 
 [![BGC_35_scaffold_471_c1_aerobactin_NIS_siderophore](BGC_35_scaffold_471_c1_aerobactin_NIS_siderophore.png)](BGC_35_scaffold_471_c1_aerobactin_NIS_siderophore.svg)
 
-> *Figure 35: Publication-grade gene cluster diagram of `BGC_35_scaffold_471_c1_aerobactin_NIS_siderophore` on Scaffold 471. Arrows indicate direction of transcription; boxes display standardized gene symbols or official locus tags. [Open scalable vector SVG](BGC_35_scaffold_471_c1_aerobactin_NIS_siderophore.svg).*
+> *Figure 35: Publication-grade gene cluster diagram of `BGC_35_scaffold_471_c1_aerobactin_NIS_siderophore` on Scaffold 471. **Header Span** (1–55,139 bp) indicates the total candidate regional window; **Sub-track Bracket** indicates the precise physical CDS span (15 CDSs, 49.5 kb). Arrows indicate direction of transcription; boxes display standardized gene symbols or official locus tags. [Open scalable vector SVG](BGC_35_scaffold_471_c1_aerobactin_NIS_siderophore.svg).*
 
 #### Gene Inventory & Structural Qualifiers
 
@@ -2148,28 +2154,28 @@ This cluster represents a novel **orphan NRPS-like secondary metabolite biosynth
 
 #### Putative Function & Enzymatic Mechanisms
 
-- **`PUJ_004414` (`iucX`):** Accessory acetyltransferase (Pfam PF00583). Involved in precursor modification for ferric chelator assembly [Challis, 2005].
-- **`PUJ_004415` (`gh31`):** Glycosyl hydrolase family 31 alpha-glucosidase (EC 3.2.1.20, Pfam PF01055). Hydrolyzes maltose and starch-derived alpha-glucosides, fueling the pentose phosphate pathway for NADPH supply [de Vries & Visser, 2001].
-- **`PUJ_004416` (`iucT`):** MFS siderophore exporter (Pfam PF07690). Mediates active translocation of ferric aerobactin / ferricrocin into the rhizosphere [Haas, 2014].
-- **`PUJ_004417` (`iucM`):** Monooxygenase tailoring enzyme (EC 1.14.13.-, Pfam PF01494). N6-hydroxylates lysine residues to form N6-hydroxylysine, the essential chelating hydroxamate precursor [Challis, 2005].
-- **`PUJ_004418` (`iucD`):** Lysine N6-hydroxylase (EC 1.14.13.59, Pfam PF00743). Catalyzes FAD-dependent oxidation of L-lysine to N6-hydroxy-L-lysine [Challis, 2005].
-- **`PUJ_004419` (`iucA`):** NRPS-Independent Siderophore (NIS) Synthetase (797 aa, EC 6.3.2.-, Pfam PF04183, PF02668). Primary synthetase joining citrate and acylated N6-hydroxylysine units via amide bonds to produce the hexadentate ferric chelator aerobactin [Challis, 2005; Haas, 2014].
-- **`PUJ_004420` (`iucC`):** NIS synthetase family condensation subunit (Pfam PF04183). Catalyzes the second adenylation and condensation step linking the mono-citryl derivative with a second hydroxylysine [Challis, 2005].
-- **`PUJ_004421` (`iucB`):** N6-hydroxylysine O-acetyltransferase (EC 2.3.1.102, Pfam PF00583). Acetylates N6-hydroxylysine using acetyl-CoA to create the functional bidentate hydroxamate ligand [Haas, 2014].
-- **`PUJ_004422` (`iucE`):** Siderophore maturation hydrolase (Pfam PF00149). Cleaves masking esters during siderophore assembly [Challis, 2005].
-- **`PUJ_004423` (`iucF`):** Glutamine amidotransferase (Pfam PF00117). Transaminates metabolic intermediates supplying nitrogen precursors [Haas, 2014].
-- **`PUJ_004424` (`iucG`):** Iron permease subunit (Pfam PF00324). Transmembrane transporter capturing ferric iron chelates from extracellular space [Haas, 2014].
-- **`PUJ_004425` (`iucH`):** Siderophore uptake facilitator (Pfam PF00005). ABC transporter subunit providing ATPase activity for iron transport [Haas, 2014].
-- **`PUJ_004426` (`iucY`):** Flavoprotein reductase (Pfam PF00070). Reduces ferric iron (Fe3+) to ferrous iron (Fe2+) upon intracellular release [Haas, 2014].
+- **`PUJ_004414` (`iucX`):** Transmembrane permease / transporter (Pfam PF04082). Involved in cellular transport within the NIS siderophore cluster.
+- **`PUJ_004415` (`gh31`):** Glycosyl hydrolase family 31 alpha-glucosidase (Pfam PF01055, PF21365; literature-inferred: EC 3.2.1.20). Hydrolyzes starch-derived alpha-glucosides, fueling the pentose phosphate pathway for NADPH supply [de Vries & Visser, 2001].
+- **`PUJ_004416` (`iucT`):** Cluster-associated uncharacterized protein (183 aa). Auxiliary component of the siderophore gene neighborhood.
+- **`PUJ_004417` (`iucM`):** Cluster-associated uncharacterized protein (283 aa; literature-inferred: monooxygenase-like accessory protein).
+- **`PUJ_004418` (`iucD`):** NIS synthetase-like N-terminal domain protein (Pfam PF02668; literature-inferred: IucD family). Involved in intermediate maturation [Challis, 2005].
+- **`PUJ_004419` (`iucA`):** NRPS-Independent Siderophore (NIS) Synthetase (797 aa, Pfam PF02668, PF04183; literature-inferred: EC 6.3.2.-). Primary synthetase joining citrate and acylated hydroxylysine units via amide bonds to produce the hexadentate ferric chelator aerobactin [Challis, 2005; Haas, 2014].
+- **`PUJ_004420` (`iucC`):** Tailoring enzyme / condensation subunit (Pfam PF00389, PF02826; literature-inferred: IucC-related condensation subunit). Participates in multi-step siderophore condensation [Challis, 2005].
+- **`PUJ_004421` (`iucB`):** Cluster-associated protein (Pfam PF11913; literature-inferred: acetyltransferase / IucB family). Involved in hydroxamate ligand modification [Haas, 2014].
+- **`PUJ_004422` (`iucE`):** NIS-associated protein (Pfam PF02668). Accessory component of the siderophore assembly complex.
+- **`PUJ_004423` (`iucF`):** Putative amidotransferase / hydrolase (Pfam PF00702, PF13419). Involved in intermediate nitrogen metabolism [Haas, 2014].
+- **`PUJ_004424` (`iucG`):** F-actin-capping protein subunit alpha (Pfam PF01267). Cytoskeletal element involved in hyphal growth and polarized transport.
+- **`PUJ_004425` (`iucH`):** Cluster-associated uncharacterized protein (435 aa). Membrane-associated factor within the siderophore region.
+- **`PUJ_004426` (`iucY`):** Cluster-associated uncharacterized protein (Pfam PF11951). Auxiliary factor in iron homeostasis.
 - **`PUJ_004427`:** Hypothetical protein. Contains PF03169 (OPT oligopeptide transporter protein), PF03169 (OPT oligopeptide transporter protein). Hypothetical or accessory protein implicated in cluster function or localized metabolic support.
 - **`PUJ_004428`:** Hypothetical protein. Contains PF01266 (FAD dependent oxidoreductase). Hypothetical or accessory protein implicated in cluster function or localized metabolic support.
 
 ### Collective Pathway Architecture & Biological Synergy
 
-The **Scaffold 471 Aerobactin-like NIS Siderophore Cluster** represents a non-ribosomal peptide synthetase-independent (NIS) iron capture system essential for high-affinity ferric iron scavenging in iron-depleted soils and rhizophere environments:
+The **Scaffold 471 Aerobactin-like NIS Siderophore Cluster** represents a non-ribosomal peptide synthetase-independent (NIS) iron capture system essential for high-affinity ferric iron scavenging in iron-depleted soils and rhizosphere environments:
 
 1. **Precursor Synthesis:** Lysine monooxygenase (`IucD` / `IucM`) hydroxylates L-lysine to N6-hydroxy-L-lysine, which is subsequently acetylated by acetyltransferase `IucB` to yield the bidentate hydroxamate ligand N6-acetyl-N6-hydroxylysine.
-2. **Hexadentate Assembly:** The core NIS synthetase `IucA` (`PUJ_004419`) and condensation subunit `IucC` catalyze the ATP-dependent condensation of citric acid with two molecules of N6-acetyl-N6-hydroxylysine, forging aerobactin.
+2. **Hexadentate Assembly:** The core NIS synthetase `IucA` (`PUJ_004419`, 797 aa, PF04183/PF02668) and condensation subunit `IucC` catalyze the ATP-dependent condensation of citric acid with two molecules of N6-acetyl-N6-hydroxylysine, forging aerobactin.
 3. **Uptake, Reduction & Regulation:** Transmembrane permeases `IucT` and `IucG` coordinate siderophore secretion and Fe3+-chelate re-uptake, while the cluster-associated Zn2Cys6 regulator `IucR` coordinates iron-repressive gene expression.
 
 > [!NOTE]
@@ -2187,7 +2193,7 @@ The **Scaffold 471 Aerobactin-like NIS Siderophore Cluster** represents a non-ri
 
 [![BGC_36_scaffold_471_c2_orphan_terpene](BGC_36_scaffold_471_c2_orphan_terpene.png)](BGC_36_scaffold_471_c2_orphan_terpene.svg)
 
-> *Figure 36: Publication-grade gene cluster diagram of `BGC_36_scaffold_471_c2_orphan_terpene` on Scaffold 471. Arrows indicate direction of transcription; boxes display standardized gene symbols or official locus tags. [Open scalable vector SVG](BGC_36_scaffold_471_c2_orphan_terpene.svg).*
+> *Figure 36: Publication-grade gene cluster diagram of `BGC_36_scaffold_471_c2_orphan_terpene` on Scaffold 471. **Header Span** (1–30,462 bp) indicates the total candidate regional window; **Sub-track Bracket** indicates the precise physical CDS span (7 CDSs, 25.5 kb). Arrows indicate direction of transcription; boxes display standardized gene symbols or official locus tags. [Open scalable vector SVG](BGC_36_scaffold_471_c2_orphan_terpene.svg).*
 
 #### Gene Inventory & Structural Qualifiers
 
@@ -2228,7 +2234,7 @@ This cluster represents a novel **orphan terpene secondary metabolite biosynthet
 
 [![BGC_37_scaffold_471_c3_aflavarin](BGC_37_scaffold_471_c3_aflavarin.png)](BGC_37_scaffold_471_c3_aflavarin.svg)
 
-> *Figure 37: Publication-grade gene cluster diagram of `BGC_37_scaffold_471_c3_aflavarin` on Scaffold 471. Arrows indicate direction of transcription; boxes display standardized gene symbols or official locus tags. [Open scalable vector SVG](BGC_37_scaffold_471_c3_aflavarin.svg).*
+> *Figure 37: Publication-grade gene cluster diagram of `BGC_37_scaffold_471_c3_aflavarin` on Scaffold 471. **Header Span** (1–65,446 bp) indicates the total candidate regional window; **Sub-track Bracket** indicates the precise physical CDS span (19 CDSs, 64.4 kb). Arrows indicate direction of transcription; boxes display standardized gene symbols or official locus tags. [Open scalable vector SVG](BGC_37_scaffold_471_c3_aflavarin.svg).*
 
 #### Gene Inventory & Structural Qualifiers
 
@@ -2293,7 +2299,7 @@ This cluster exhibits significant homology to the characterized MIBiG reference 
 
 [![BGC_38_scaffold_471_c4_metachelin_c](BGC_38_scaffold_471_c4_metachelin_c.png)](BGC_38_scaffold_471_c4_metachelin_c.svg)
 
-> *Figure 38: Publication-grade gene cluster diagram of `BGC_38_scaffold_471_c4_metachelin_c` on Scaffold 471. Arrows indicate direction of transcription; boxes display standardized gene symbols or official locus tags. [Open scalable vector SVG](BGC_38_scaffold_471_c4_metachelin_c.svg).*
+> *Figure 38: Publication-grade gene cluster diagram of `BGC_38_scaffold_471_c4_metachelin_c` on Scaffold 471. **Header Span** (1–74,341 bp) indicates the total candidate regional window; **Sub-track Bracket** indicates the precise physical CDS span (17 CDSs, 72.5 kb). Arrows indicate direction of transcription; boxes display standardized gene symbols or official locus tags. [Open scalable vector SVG](BGC_38_scaffold_471_c4_metachelin_c.svg).*
 
 #### Gene Inventory & Structural Qualifiers
 
@@ -2354,7 +2360,7 @@ This cluster exhibits significant homology to the characterized MIBiG reference 
 
 [![BGC_39_scaffold_480_c1_imizoquin_a](BGC_39_scaffold_480_c1_imizoquin_a.png)](BGC_39_scaffold_480_c1_imizoquin_a.svg)
 
-> *Figure 39: Publication-grade gene cluster diagram of `BGC_39_scaffold_480_c1_imizoquin_a` on Scaffold 480. Arrows indicate direction of transcription; boxes display standardized gene symbols or official locus tags. [Open scalable vector SVG](BGC_39_scaffold_480_c1_imizoquin_a.svg).*
+> *Figure 39: Publication-grade gene cluster diagram of `BGC_39_scaffold_480_c1_imizoquin_a` on Scaffold 480. **Header Span** (1–77,760 bp) indicates the total candidate regional window; **Sub-track Bracket** indicates the precise physical CDS span (21 CDSs, 76.9 kb). Arrows indicate direction of transcription; boxes display standardized gene symbols or official locus tags. [Open scalable vector SVG](BGC_39_scaffold_480_c1_imizoquin_a.svg).*
 
 #### Gene Inventory & Structural Qualifiers
 
@@ -2423,7 +2429,7 @@ This cluster exhibits significant homology to the characterized MIBiG reference 
 
 [![BGC_40_scaffold_480_c2_aspirochlorine](BGC_40_scaffold_480_c2_aspirochlorine.png)](BGC_40_scaffold_480_c2_aspirochlorine.svg)
 
-> *Figure 40: Publication-grade gene cluster diagram of `BGC_40_scaffold_480_c2_aspirochlorine` on Scaffold 480. Arrows indicate direction of transcription; boxes display standardized gene symbols or official locus tags. [Open scalable vector SVG](BGC_40_scaffold_480_c2_aspirochlorine.svg).*
+> *Figure 40: Publication-grade gene cluster diagram of `BGC_40_scaffold_480_c2_aspirochlorine` on Scaffold 480. **Header Span** (1–73,234 bp) indicates the total candidate regional window; **Sub-track Bracket** indicates the precise physical CDS span (29 CDSs, 68.9 kb). Arrows indicate direction of transcription; boxes display standardized gene symbols or official locus tags. [Open scalable vector SVG](BGC_40_scaffold_480_c2_aspirochlorine.svg).*
 
 #### Gene Inventory & Structural Qualifiers
 
@@ -2465,7 +2471,7 @@ This cluster exhibits significant homology to the characterized MIBiG reference 
 - **`PUJ_004896` (`aclQ`):** Hypothetical protein. Contains PF00172 (Fungal Zn(2)-Cys(6) binuclear cluster domain). Hypothetical or accessory protein implicated in cluster function or localized metabolic support.
 - **`PUJ_004897` (`aclR`):** Hypothetical protein. Hypothetical or accessory protein implicated in cluster function or localized metabolic support.
 - **`PUJ_004898` (`aclT`):** Thioredoxin reductase (551 aa, Pfam PF00070). Regulates the redox status of the reactive intramolecular disulfide bond [Sato et al., 2018].
-- **`PUJ_004899` (`aclC`):** Cytochrome P450 monooxygenase (804 aa, Pfam PF00067). Mediates oxidative activation and chlorine-dependent tailoring of the diketopiperazine core [Sato et al., 2018].
+- **`PUJ_004899` (`aclC`):** Cytochrome P450 monooxygenase (804 aa, Pfam PF00067). Mediates oxidative activation of the diketopiperazine core [Sato et al., 2018].
 - **`PUJ_004900` (`aclD`):** Hypothetical protein. Contains PF00155 (Aminotransferase class I and II). Hypothetical or accessory protein implicated in cluster function or localized metabolic support.
 - **`PUJ_004901` (`aclE`):** Hypothetical protein. Contains PF13813 (Membrane bound O-acyl transferase family). Hypothetical or accessory protein implicated in cluster function or localized metabolic support.
 - **`PUJ_004902` (`aclF`):** Hypothetical protein. Contains PF00067 (Cytochrome P450). Hypothetical or accessory protein implicated in cluster function or localized metabolic support.
@@ -2476,7 +2482,7 @@ This cluster exhibits significant homology to the characterized MIBiG reference 
 - **`PUJ_004907` (`aclK`):** Hypothetical protein. Contains PF00891 (O-methyltransferase domain). Hypothetical or accessory protein implicated in cluster function or localized metabolic support.
 - **`PUJ_004908` (`aclL`):** Hypothetical protein. Contains PF00043 (Glutathione S-transferase, C-terminal domain). Hypothetical or accessory protein implicated in cluster function or localized metabolic support.
 - **`PUJ_004909` (`aclM`):** Hypothetical protein. Contains PF00067 (Cytochrome P450). Hypothetical or accessory protein implicated in cluster function or localized metabolic support.
-- **`PUJ_004910` (`aclN`):** Glutathione-dependent disulfide isomerase (457 aa, Pfam PF00462). Tailors disulfide bridge formation conferring ETP antimicrobial and cytotoxic potency [Sato et al., 2018].
+- **`PUJ_004910` (`aclN`):** Glutathione-dependent disulfide isomerase (422 aa, Pfam PF00462). Tailors disulfide bridge formation conferring ETP antimicrobial and cytotoxic potency [Sato et al., 2018].
 - **`PUJ_004911` (`aclA`):** Epipolythiodioxopiperazine (ETP) NRPS mega-synthetase (1,573 aa, Pfam PF00501, PF00668). Core two-module NRPS catalyzing adenylation, peptide bond formation, and cyclization of phenylalanine derivatives [Sato et al., 2018].
 - **`PUJ_004912` (`aclB`):** Glutathione S-transferase (GST, Pfam PF02798). Attaches glutathione to the epidithiodiketopiperazine scaffold as the sulfur donor for disulfide bridge assembly [Sato et al., 2018].
 - **`PUJ_004913` (`aclS`):** Hypothetical protein. Contains PF01408 (Oxidoreductase family, NAD-binding Rossmann fold). Hypothetical or accessory protein implicated in cluster function or localized metabolic support.
@@ -2496,7 +2502,7 @@ This cluster exhibits significant homology to the characterized MIBiG reference 
 The **Scaffold 480 Aspirochlorine Cluster** (19 protein hits to MIBiG BGC0001123.5 at 94–100% identity, score 17,383) is the highest-scoring secondary metabolite BGC in AF-PUJ outside Scaffold 1340:
 
 1. **Core Synthetase:** The NRPS mega-synthetase `AclA` (`PUJ_004911`, 1,573 aa) synthesizes a cyclo-diketopiperazine backbone.
-2. **Disulfide Bridge Formation:** Glutathione S-transferase `AclB` (`PUJ_004910`) and thioredoxin reductase `AclT` (`PUJ_004898`) coordinate the incorporation of dual sulfur atoms from glutathione to construct the epipolythiodioxopiperazine (ETP) internal disulfide bridge.
+2. **Disulfide Bridge Formation:** Glutathione S-transferase `AclB` (`PUJ_004912`) and thioredoxin reductase `AclT` (`PUJ_004898`) coordinate the incorporation of dual sulfur atoms from glutathione to construct the epipolythiodioxopiperazine (ETP) internal disulfide bridge.
 3. **Chlorination & Oxidation:** Cytochrome P450 monooxygenase `AclC` (`PUJ_004899`) performs halogenation and tailoring, conferring broad-spectrum antifungal potency through thiol cross-linking in fungal targets.
 
 ---
@@ -2512,7 +2518,7 @@ The **Scaffold 480 Aspirochlorine Cluster** (19 protein hits to MIBiG BGC0001123
 
 [![BGC_41_scaffold_480_c3_leporin_b](BGC_41_scaffold_480_c3_leporin_b.png)](BGC_41_scaffold_480_c3_leporin_b.svg)
 
-> *Figure 41: Publication-grade gene cluster diagram of `BGC_41_scaffold_480_c3_leporin_b` on Scaffold 480. Arrows indicate direction of transcription; boxes display standardized gene symbols or official locus tags. [Open scalable vector SVG](BGC_41_scaffold_480_c3_leporin_b.svg).*
+> *Figure 41: Publication-grade gene cluster diagram of `BGC_41_scaffold_480_c3_leporin_b` on Scaffold 480. **Header Span** (1–155,734 bp) indicates the total candidate regional window; **Sub-track Bracket** indicates the precise physical CDS span (44 CDSs, 154.6 kb). Arrows indicate direction of transcription; boxes display standardized gene symbols or official locus tags. [Open scalable vector SVG](BGC_41_scaffold_480_c3_leporin_b.svg).*
 
 #### Gene Inventory & Structural Qualifiers
 
@@ -2626,7 +2632,7 @@ This cluster exhibits significant homology to the characterized MIBiG reference 
 
 [![BGC_42_scaffold_480_c4_orphan_terpene](BGC_42_scaffold_480_c4_orphan_terpene.png)](BGC_42_scaffold_480_c4_orphan_terpene.svg)
 
-> *Figure 42: Publication-grade gene cluster diagram of `BGC_42_scaffold_480_c4_orphan_terpene` on Scaffold 480. Arrows indicate direction of transcription; boxes display standardized gene symbols or official locus tags. [Open scalable vector SVG](BGC_42_scaffold_480_c4_orphan_terpene.svg).*
+> *Figure 42: Publication-grade gene cluster diagram of `BGC_42_scaffold_480_c4_orphan_terpene` on Scaffold 480. **Header Span** (1–30,836 bp) indicates the total candidate regional window; **Sub-track Bracket** indicates the precise physical CDS span (9 CDSs, 29.0 kb). Arrows indicate direction of transcription; boxes display standardized gene symbols or official locus tags. [Open scalable vector SVG](BGC_42_scaffold_480_c4_orphan_terpene.svg).*
 
 #### Gene Inventory & Structural Qualifiers
 
@@ -2671,7 +2677,7 @@ This cluster represents a novel **orphan terpene secondary metabolite biosynthet
 
 [![BGC_43_scaffold_480_c5_nidulanin_a](BGC_43_scaffold_480_c5_nidulanin_a.png)](BGC_43_scaffold_480_c5_nidulanin_a.svg)
 
-> *Figure 43: Publication-grade gene cluster diagram of `BGC_43_scaffold_480_c5_nidulanin_a` on Scaffold 480. Arrows indicate direction of transcription; boxes display standardized gene symbols or official locus tags. [Open scalable vector SVG](BGC_43_scaffold_480_c5_nidulanin_a.svg).*
+> *Figure 43: Publication-grade gene cluster diagram of `BGC_43_scaffold_480_c5_nidulanin_a` on Scaffold 480. **Header Span** (1–75,407 bp) indicates the total candidate regional window; **Sub-track Bracket** indicates the precise physical CDS span (16 CDSs, 73.3 kb). Arrows indicate direction of transcription; boxes display standardized gene symbols or official locus tags. [Open scalable vector SVG](BGC_43_scaffold_480_c5_nidulanin_a.svg).*
 
 #### Gene Inventory & Structural Qualifiers
 
@@ -2729,7 +2735,7 @@ This cluster exhibits significant homology to the characterized MIBiG reference 
 
 [![BGC_44_scaffold_482_c1_orphan_nrps_like](BGC_44_scaffold_482_c1_orphan_nrps_like.png)](BGC_44_scaffold_482_c1_orphan_nrps_like.svg)
 
-> *Figure 44: Publication-grade gene cluster diagram of `BGC_44_scaffold_482_c1_orphan_nrps_like` on Scaffold 482. Arrows indicate direction of transcription; boxes display standardized gene symbols or official locus tags. [Open scalable vector SVG](BGC_44_scaffold_482_c1_orphan_nrps_like.svg).*
+> *Figure 44: Publication-grade gene cluster diagram of `BGC_44_scaffold_482_c1_orphan_nrps_like` on Scaffold 482. **Header Span** (1–63,036 bp) indicates the total candidate regional window; **Sub-track Bracket** indicates the precise physical CDS span (19 CDSs, 58.5 kb). Arrows indicate direction of transcription; boxes display standardized gene symbols or official locus tags. [Open scalable vector SVG](BGC_44_scaffold_482_c1_orphan_nrps_like.svg).*
 
 #### Gene Inventory & Structural Qualifiers
 
@@ -2794,7 +2800,7 @@ This cluster represents a novel **orphan NRPS-like secondary metabolite biosynth
 
 [![BGC_45_scaffold_485_c1_clavaric_acid](BGC_45_scaffold_485_c1_clavaric_acid.png)](BGC_45_scaffold_485_c1_clavaric_acid.svg)
 
-> *Figure 45: Publication-grade gene cluster diagram of `BGC_45_scaffold_485_c1_clavaric_acid` on Scaffold 485. Arrows indicate direction of transcription; boxes display standardized gene symbols or official locus tags. [Open scalable vector SVG](BGC_45_scaffold_485_c1_clavaric_acid.svg).*
+> *Figure 45: Publication-grade gene cluster diagram of `BGC_45_scaffold_485_c1_clavaric_acid` on Scaffold 485. **Header Span** (1–140,412 bp) indicates the total candidate regional window; **Sub-track Bracket** indicates the precise physical CDS span (36 CDSs, 135.6 kb). Arrows indicate direction of transcription; boxes display standardized gene symbols or official locus tags. [Open scalable vector SVG](BGC_45_scaffold_485_c1_clavaric_acid.svg).*
 
 #### Gene Inventory & Structural Qualifiers
 
@@ -2893,7 +2899,7 @@ This cluster exhibits significant homology to the characterized MIBiG reference 
 
 [![BGC_46_scaffold_485_c2_actinopolymorphol_c](BGC_46_scaffold_485_c2_actinopolymorphol_c.png)](BGC_46_scaffold_485_c2_actinopolymorphol_c.svg)
 
-> *Figure 46: Publication-grade gene cluster diagram of `BGC_46_scaffold_485_c2_actinopolymorphol_c` on Scaffold 485. Arrows indicate direction of transcription; boxes display standardized gene symbols or official locus tags. [Open scalable vector SVG](BGC_46_scaffold_485_c2_actinopolymorphol_c.svg).*
+> *Figure 46: Publication-grade gene cluster diagram of `BGC_46_scaffold_485_c2_actinopolymorphol_c` on Scaffold 485. **Header Span** (1–63,129 bp) indicates the total candidate regional window; **Sub-track Bracket** indicates the precise physical CDS span (14 CDSs, 57.4 kb). Arrows indicate direction of transcription; boxes display standardized gene symbols or official locus tags. [Open scalable vector SVG](BGC_46_scaffold_485_c2_actinopolymorphol_c.svg).*
 
 #### Gene Inventory & Structural Qualifiers
 
@@ -2947,7 +2953,7 @@ This cluster exhibits significant homology to the characterized MIBiG reference 
 
 [![BGC_47_scaffold_485_c3_orphan_nrps](BGC_47_scaffold_485_c3_orphan_nrps.png)](BGC_47_scaffold_485_c3_orphan_nrps.svg)
 
-> *Figure 47: Publication-grade gene cluster diagram of `BGC_47_scaffold_485_c3_orphan_nrps` on Scaffold 485. Arrows indicate direction of transcription; boxes display standardized gene symbols or official locus tags. [Open scalable vector SVG](BGC_47_scaffold_485_c3_orphan_nrps.svg).*
+> *Figure 47: Publication-grade gene cluster diagram of `BGC_47_scaffold_485_c3_orphan_nrps` on Scaffold 485. **Header Span** (1–71,964 bp) indicates the total candidate regional window; **Sub-track Bracket** indicates the precise physical CDS span (21 CDSs, 71.3 kb). Arrows indicate direction of transcription; boxes display standardized gene symbols or official locus tags. [Open scalable vector SVG](BGC_47_scaffold_485_c3_orphan_nrps.svg).*
 
 #### Gene Inventory & Structural Qualifiers
 
@@ -3015,7 +3021,7 @@ This cluster represents a novel **orphan NRPS secondary metabolite biosynthetic 
 
 [![BGC_48_scaffold_485_c4_orphan_indole](BGC_48_scaffold_485_c4_orphan_indole.png)](BGC_48_scaffold_485_c4_orphan_indole.svg)
 
-> *Figure 48: Publication-grade gene cluster diagram of `BGC_48_scaffold_485_c4_orphan_indole` on Scaffold 485. Arrows indicate direction of transcription; boxes display standardized gene symbols or official locus tags. [Open scalable vector SVG](BGC_48_scaffold_485_c4_orphan_indole.svg).*
+> *Figure 48: Publication-grade gene cluster diagram of `BGC_48_scaffold_485_c4_orphan_indole` on Scaffold 485. **Header Span** (1–31,128 bp) indicates the total candidate regional window; **Sub-track Bracket** indicates the precise physical CDS span (10 CDSs, 24.5 kb). Arrows indicate direction of transcription; boxes display standardized gene symbols or official locus tags. [Open scalable vector SVG](BGC_48_scaffold_485_c4_orphan_indole.svg).*
 
 #### Gene Inventory & Structural Qualifiers
 
@@ -3061,7 +3067,7 @@ This cluster represents a novel **orphan indole secondary metabolite biosyntheti
 
 [![BGC_49_scaffold_486_c1_orphan_nrps_like](BGC_49_scaffold_486_c1_orphan_nrps_like.png)](BGC_49_scaffold_486_c1_orphan_nrps_like.svg)
 
-> *Figure 49: Publication-grade gene cluster diagram of `BGC_49_scaffold_486_c1_orphan_nrps_like` on Scaffold 486. Arrows indicate direction of transcription; boxes display standardized gene symbols or official locus tags. [Open scalable vector SVG](BGC_49_scaffold_486_c1_orphan_nrps_like.svg).*
+> *Figure 49: Publication-grade gene cluster diagram of `BGC_49_scaffold_486_c1_orphan_nrps_like` on Scaffold 486. **Header Span** (1–110,461 bp) indicates the total candidate regional window; **Sub-track Bracket** indicates the precise physical CDS span (25 CDSs, 95.3 kb). Arrows indicate direction of transcription; boxes display standardized gene symbols or official locus tags. [Open scalable vector SVG](BGC_49_scaffold_486_c1_orphan_nrps_like.svg).*
 
 #### Gene Inventory & Structural Qualifiers
 
@@ -3138,7 +3144,7 @@ This cluster represents a novel **orphan NRPS-like secondary metabolite biosynth
 
 [![BGC_50_scaffold_486_c2_ankaflavin](BGC_50_scaffold_486_c2_ankaflavin.png)](BGC_50_scaffold_486_c2_ankaflavin.svg)
 
-> *Figure 50: Publication-grade gene cluster diagram of `BGC_50_scaffold_486_c2_ankaflavin` on Scaffold 486. Arrows indicate direction of transcription; boxes display standardized gene symbols or official locus tags. [Open scalable vector SVG](BGC_50_scaffold_486_c2_ankaflavin.svg).*
+> *Figure 50: Publication-grade gene cluster diagram of `BGC_50_scaffold_486_c2_ankaflavin` on Scaffold 486. **Header Span** (1–67,427 bp) indicates the total candidate regional window; **Sub-track Bracket** indicates the precise physical CDS span (17 CDSs, 61.3 kb). Arrows indicate direction of transcription; boxes display standardized gene symbols or official locus tags. [Open scalable vector SVG](BGC_50_scaffold_486_c2_ankaflavin.svg).*
 
 #### Gene Inventory & Structural Qualifiers
 
@@ -3198,7 +3204,7 @@ This cluster exhibits significant homology to the characterized MIBiG reference 
 
 [![BGC_51_scaffold_486_c3_orphan_t1pks](BGC_51_scaffold_486_c3_orphan_t1pks.png)](BGC_51_scaffold_486_c3_orphan_t1pks.svg)
 
-> *Figure 51: Publication-grade gene cluster diagram of `BGC_51_scaffold_486_c3_orphan_t1pks` on Scaffold 486. Arrows indicate direction of transcription; boxes display standardized gene symbols or official locus tags. [Open scalable vector SVG](BGC_51_scaffold_486_c3_orphan_t1pks.svg).*
+> *Figure 51: Publication-grade gene cluster diagram of `BGC_51_scaffold_486_c3_orphan_t1pks` on Scaffold 486. **Header Span** (1–61,151 bp) indicates the total candidate regional window; **Sub-track Bracket** indicates the precise physical CDS span (10 CDSs, 56.1 kb). Arrows indicate direction of transcription; boxes display standardized gene symbols or official locus tags. [Open scalable vector SVG](BGC_51_scaffold_486_c3_orphan_t1pks.svg).*
 
 #### Gene Inventory & Structural Qualifiers
 
@@ -3244,7 +3250,7 @@ This cluster represents a novel **orphan T1PKS secondary metabolite biosynthetic
 
 [![BGC_52_scaffold_497_c1_orphan_terpene](BGC_52_scaffold_497_c1_orphan_terpene.png)](BGC_52_scaffold_497_c1_orphan_terpene.svg)
 
-> *Figure 52: Publication-grade gene cluster diagram of `BGC_52_scaffold_497_c1_orphan_terpene` on Scaffold 497. Arrows indicate direction of transcription; boxes display standardized gene symbols or official locus tags. [Open scalable vector SVG](BGC_52_scaffold_497_c1_orphan_terpene.svg).*
+> *Figure 52: Publication-grade gene cluster diagram of `BGC_52_scaffold_497_c1_orphan_terpene` on Scaffold 497. **Header Span** (1–32,296 bp) indicates the total candidate regional window; **Sub-track Bracket** indicates the precise physical CDS span (9 CDSs, 30.8 kb). Arrows indicate direction of transcription; boxes display standardized gene symbols or official locus tags. [Open scalable vector SVG](BGC_52_scaffold_497_c1_orphan_terpene.svg).*
 
 #### Gene Inventory & Structural Qualifiers
 
@@ -3288,7 +3294,7 @@ This cluster represents a novel **orphan terpene secondary metabolite biosynthet
 
 [![BGC_53_scaffold_614_c1_orphan_terpene](BGC_53_scaffold_614_c1_orphan_terpene.png)](BGC_53_scaffold_614_c1_orphan_terpene.svg)
 
-> *Figure 53: Publication-grade gene cluster diagram of `BGC_53_scaffold_614_c1_orphan_terpene` on Scaffold 614. Arrows indicate direction of transcription; boxes display standardized gene symbols or official locus tags. [Open scalable vector SVG](BGC_53_scaffold_614_c1_orphan_terpene.svg).*
+> *Figure 53: Publication-grade gene cluster diagram of `BGC_53_scaffold_614_c1_orphan_terpene` on Scaffold 614. **Header Span** (1–34,444 bp) indicates the total candidate regional window; **Sub-track Bracket** indicates the precise physical CDS span (6 CDSs, 24.9 kb). Arrows indicate direction of transcription; boxes display standardized gene symbols or official locus tags. [Open scalable vector SVG](BGC_53_scaffold_614_c1_orphan_terpene.svg).*
 
 #### Gene Inventory & Structural Qualifiers
 
@@ -3327,7 +3333,7 @@ This cluster represents a novel **orphan terpene secondary metabolite biosynthet
 
 [![BGC_54_scaffold_614_c2_2,4_dihydroxy_3_methoxypropiophenone](BGC_54_scaffold_614_c2_2,4_dihydroxy_3_methoxypropiophenone.png)](BGC_54_scaffold_614_c2_2,4_dihydroxy_3_methoxypropiophenone.svg)
 
-> *Figure 54: Publication-grade gene cluster diagram of `BGC_54_scaffold_614_c2_2,4_dihydroxy_3_methoxypropiophenone` on Scaffold 614. Arrows indicate direction of transcription; boxes display standardized gene symbols or official locus tags. [Open scalable vector SVG](BGC_54_scaffold_614_c2_2,4_dihydroxy_3_methoxypropiophenone.svg).*
+> *Figure 54: Publication-grade gene cluster diagram of `BGC_54_scaffold_614_c2_2,4_dihydroxy_3_methoxypropiophenone` on Scaffold 614. **Header Span** (1–67,290 bp) indicates the total candidate regional window; **Sub-track Bracket** indicates the precise physical CDS span (23 CDSs, 65.0 kb). Arrows indicate direction of transcription; boxes display standardized gene symbols or official locus tags. [Open scalable vector SVG](BGC_54_scaffold_614_c2_2,4_dihydroxy_3_methoxypropiophenone.svg).*
 
 #### Gene Inventory & Structural Qualifiers
 
@@ -3399,7 +3405,7 @@ This cluster exhibits significant homology to the characterized MIBiG reference 
 
 [![BGC_55_scaffold_641_c1_orphan_indole](BGC_55_scaffold_641_c1_orphan_indole.png)](BGC_55_scaffold_641_c1_orphan_indole.svg)
 
-> *Figure 55: Publication-grade gene cluster diagram of `BGC_55_scaffold_641_c1_orphan_indole` on Scaffold 641. Arrows indicate direction of transcription; boxes display standardized gene symbols or official locus tags. [Open scalable vector SVG](BGC_55_scaffold_641_c1_orphan_indole.svg).*
+> *Figure 55: Publication-grade gene cluster diagram of `BGC_55_scaffold_641_c1_orphan_indole` on Scaffold 641. **Header Span** (1–31,441 bp) indicates the total candidate regional window; **Sub-track Bracket** indicates the precise physical CDS span (13 CDSs, 28.0 kb). Arrows indicate direction of transcription; boxes display standardized gene symbols or official locus tags. [Open scalable vector SVG](BGC_55_scaffold_641_c1_orphan_indole.svg).*
 
 #### Gene Inventory & Structural Qualifiers
 
@@ -3451,7 +3457,7 @@ This cluster represents a novel **orphan indole secondary metabolite biosyntheti
 
 [![BGC_56_scaffold_641_c2_orphan_terpene](BGC_56_scaffold_641_c2_orphan_terpene.png)](BGC_56_scaffold_641_c2_orphan_terpene.svg)
 
-> *Figure 56: Publication-grade gene cluster diagram of `BGC_56_scaffold_641_c2_orphan_terpene` on Scaffold 641. Arrows indicate direction of transcription; boxes display standardized gene symbols or official locus tags. [Open scalable vector SVG](BGC_56_scaffold_641_c2_orphan_terpene.svg).*
+> *Figure 56: Publication-grade gene cluster diagram of `BGC_56_scaffold_641_c2_orphan_terpene` on Scaffold 641. **Header Span** (1–31,302 bp) indicates the total candidate regional window; **Sub-track Bracket** indicates the precise physical CDS span (7 CDSs, 18.1 kb). Arrows indicate direction of transcription; boxes display standardized gene symbols or official locus tags. [Open scalable vector SVG](BGC_56_scaffold_641_c2_orphan_terpene.svg).*
 
 #### Gene Inventory & Structural Qualifiers
 
@@ -3492,7 +3498,7 @@ This cluster represents a novel **orphan terpene secondary metabolite biosynthet
 
 [![BGC_57_scaffold_641_c3_azasperpyranone_a](BGC_57_scaffold_641_c3_azasperpyranone_a.png)](BGC_57_scaffold_641_c3_azasperpyranone_a.svg)
 
-> *Figure 57: Publication-grade gene cluster diagram of `BGC_57_scaffold_641_c3_azasperpyranone_a` on Scaffold 641. Arrows indicate direction of transcription; boxes display standardized gene symbols or official locus tags. [Open scalable vector SVG](BGC_57_scaffold_641_c3_azasperpyranone_a.svg).*
+> *Figure 57: Publication-grade gene cluster diagram of `BGC_57_scaffold_641_c3_azasperpyranone_a` on Scaffold 641. **Header Span** (1–83,507 bp) indicates the total candidate regional window; **Sub-track Bracket** indicates the precise physical CDS span (20 CDSs, 81.3 kb). Arrows indicate direction of transcription; boxes display standardized gene symbols or official locus tags. [Open scalable vector SVG](BGC_57_scaffold_641_c3_azasperpyranone_a.svg).*
 
 #### Gene Inventory & Structural Qualifiers
 
@@ -3558,7 +3564,7 @@ This cluster exhibits significant homology to the characterized MIBiG reference 
 
 [![BGC_58_scaffold_702_c1_orphan_nrps](BGC_58_scaffold_702_c1_orphan_nrps.png)](BGC_58_scaffold_702_c1_orphan_nrps.svg)
 
-> *Figure 58: Publication-grade gene cluster diagram of `BGC_58_scaffold_702_c1_orphan_nrps` on Scaffold 702. Arrows indicate direction of transcription; boxes display standardized gene symbols or official locus tags. [Open scalable vector SVG](BGC_58_scaffold_702_c1_orphan_nrps.svg).*
+> *Figure 58: Publication-grade gene cluster diagram of `BGC_58_scaffold_702_c1_orphan_nrps` on Scaffold 702. **Header Span** (1–76,569 bp) indicates the total candidate regional window; **Sub-track Bracket** indicates the precise physical CDS span (16 CDSs, 72.7 kb). Arrows indicate direction of transcription; boxes display standardized gene symbols or official locus tags. [Open scalable vector SVG](BGC_58_scaffold_702_c1_orphan_nrps.svg).*
 
 #### Gene Inventory & Structural Qualifiers
 
@@ -3616,7 +3622,7 @@ This cluster represents a novel **orphan NRPS secondary metabolite biosynthetic 
 
 [![BGC_59_scaffold_702_c2_orphan_nrps](BGC_59_scaffold_702_c2_orphan_nrps.png)](BGC_59_scaffold_702_c2_orphan_nrps.svg)
 
-> *Figure 59: Publication-grade gene cluster diagram of `BGC_59_scaffold_702_c2_orphan_nrps` on Scaffold 702. Arrows indicate direction of transcription; boxes display standardized gene symbols or official locus tags. [Open scalable vector SVG](BGC_59_scaffold_702_c2_orphan_nrps.svg).*
+> *Figure 59: Publication-grade gene cluster diagram of `BGC_59_scaffold_702_c2_orphan_nrps` on Scaffold 702. **Header Span** (1–81,035 bp) indicates the total candidate regional window; **Sub-track Bracket** indicates the precise physical CDS span (15 CDSs, 74.8 kb). Arrows indicate direction of transcription; boxes display standardized gene symbols or official locus tags. [Open scalable vector SVG](BGC_59_scaffold_702_c2_orphan_nrps.svg).*
 
 #### Gene Inventory & Structural Qualifiers
 
@@ -3673,7 +3679,7 @@ This cluster represents a novel **orphan NRPS secondary metabolite biosynthetic 
 
 [![BGC_60_scaffold_703_c1_dehydrocurvularin](BGC_60_scaffold_703_c1_dehydrocurvularin.png)](BGC_60_scaffold_703_c1_dehydrocurvularin.svg)
 
-> *Figure 60: Publication-grade gene cluster diagram of `BGC_60_scaffold_703_c1_dehydrocurvularin` on Scaffold 703. Arrows indicate direction of transcription; boxes display standardized gene symbols or official locus tags. [Open scalable vector SVG](BGC_60_scaffold_703_c1_dehydrocurvularin.svg).*
+> *Figure 60: Publication-grade gene cluster diagram of `BGC_60_scaffold_703_c1_dehydrocurvularin` on Scaffold 703. **Header Span** (1–86,011 bp) indicates the total candidate regional window; **Sub-track Bracket** indicates the precise physical CDS span (24 CDSs, 83.0 kb). Arrows indicate direction of transcription; boxes display standardized gene symbols or official locus tags. [Open scalable vector SVG](BGC_60_scaffold_703_c1_dehydrocurvularin.svg).*
 
 #### Gene Inventory & Structural Qualifiers
 
@@ -3747,7 +3753,7 @@ This cluster exhibits significant homology to the characterized MIBiG reference 
 
 [![BGC_61_scaffold_703_c2_orphan_nitropropanoic_acid](BGC_61_scaffold_703_c2_orphan_nitropropanoic_acid.png)](BGC_61_scaffold_703_c2_orphan_nitropropanoic_acid.svg)
 
-> *Figure 61: Publication-grade gene cluster diagram of `BGC_61_scaffold_703_c2_orphan_nitropropanoic_acid` on Scaffold 703. Arrows indicate direction of transcription; boxes display standardized gene symbols or official locus tags. [Open scalable vector SVG](BGC_61_scaffold_703_c2_orphan_nitropropanoic_acid.svg).*
+> *Figure 61: Publication-grade gene cluster diagram of `BGC_61_scaffold_703_c2_orphan_nitropropanoic_acid` on Scaffold 703. **Header Span** (1–17,956 bp) indicates the total candidate regional window; **Sub-track Bracket** indicates the precise physical CDS span (4 CDSs, 13.9 kb). Arrows indicate direction of transcription; boxes display standardized gene symbols or official locus tags. [Open scalable vector SVG](BGC_61_scaffold_703_c2_orphan_nitropropanoic_acid.svg).*
 
 #### Gene Inventory & Structural Qualifiers
 
@@ -3781,7 +3787,7 @@ This cluster represents a novel **orphan nitropropanoic_acid secondary metabolit
 
 [![BGC_62_scaffold_815_c1_orphan_terpene](BGC_62_scaffold_815_c1_orphan_terpene.png)](BGC_62_scaffold_815_c1_orphan_terpene.svg)
 
-> *Figure 62: Publication-grade gene cluster diagram of `BGC_62_scaffold_815_c1_orphan_terpene` on Scaffold 815. Arrows indicate direction of transcription; boxes display standardized gene symbols or official locus tags. [Open scalable vector SVG](BGC_62_scaffold_815_c1_orphan_terpene.svg).*
+> *Figure 62: Publication-grade gene cluster diagram of `BGC_62_scaffold_815_c1_orphan_terpene` on Scaffold 815. **Header Span** (1–81,698 bp) indicates the total candidate regional window; **Sub-track Bracket** indicates the precise physical CDS span (24 CDSs, 78.3 kb). Arrows indicate direction of transcription; boxes display standardized gene symbols or official locus tags. [Open scalable vector SVG](BGC_62_scaffold_815_c1_orphan_terpene.svg).*
 
 #### Gene Inventory & Structural Qualifiers
 
@@ -3856,7 +3862,7 @@ This cluster represents a novel **orphan terpene secondary metabolite biosynthet
 
 [![BGC_63_scaffold_826_c1___ditryptophenaline](BGC_63_scaffold_826_c1___ditryptophenaline.png)](BGC_63_scaffold_826_c1___ditryptophenaline.svg)
 
-> *Figure 63: Publication-grade gene cluster diagram of `BGC_63_scaffold_826_c1___ditryptophenaline` on Scaffold 826. Arrows indicate direction of transcription; boxes display standardized gene symbols or official locus tags. [Open scalable vector SVG](BGC_63_scaffold_826_c1___ditryptophenaline.svg).*
+> *Figure 63: Publication-grade gene cluster diagram of `BGC_63_scaffold_826_c1___ditryptophenaline` on Scaffold 826. **Header Span** (1–67,961 bp) indicates the total candidate regional window; **Sub-track Bracket** indicates the precise physical CDS span (14 CDSs, 63.7 kb). Arrows indicate direction of transcription; boxes display standardized gene symbols or official locus tags. [Open scalable vector SVG](BGC_63_scaffold_826_c1___ditryptophenaline.svg).*
 
 #### Gene Inventory & Structural Qualifiers
 
@@ -3911,7 +3917,7 @@ This cluster exhibits significant homology to the characterized MIBiG reference 
 
 [![BGC_64_scaffold_826_c2_ywa1](BGC_64_scaffold_826_c2_ywa1.png)](BGC_64_scaffold_826_c2_ywa1.svg)
 
-> *Figure 64: Publication-grade gene cluster diagram of `BGC_64_scaffold_826_c2_ywa1` on Scaffold 826. Arrows indicate direction of transcription; boxes display standardized gene symbols or official locus tags. [Open scalable vector SVG](BGC_64_scaffold_826_c2_ywa1.svg).*
+> *Figure 64: Publication-grade gene cluster diagram of `BGC_64_scaffold_826_c2_ywa1` on Scaffold 826. **Header Span** (1–66,651 bp) indicates the total candidate regional window; **Sub-track Bracket** indicates the precise physical CDS span (17 CDSs, 62.1 kb). Arrows indicate direction of transcription; boxes display standardized gene symbols or official locus tags. [Open scalable vector SVG](BGC_64_scaffold_826_c2_ywa1.svg).*
 
 #### Gene Inventory & Structural Qualifiers
 
@@ -3972,7 +3978,7 @@ This cluster exhibits significant homology to the characterized MIBiG reference 
 
 [![BGC_65_scaffold_826_c3_clavaric_acid](BGC_65_scaffold_826_c3_clavaric_acid.png)](BGC_65_scaffold_826_c3_clavaric_acid.svg)
 
-> *Figure 65: Publication-grade gene cluster diagram of `BGC_65_scaffold_826_c3_clavaric_acid` on Scaffold 826. Arrows indicate direction of transcription; boxes display standardized gene symbols or official locus tags. [Open scalable vector SVG](BGC_65_scaffold_826_c3_clavaric_acid.svg).*
+> *Figure 65: Publication-grade gene cluster diagram of `BGC_65_scaffold_826_c3_clavaric_acid` on Scaffold 826. **Header Span** (1–32,405 bp) indicates the total candidate regional window; **Sub-track Bracket** indicates the precise physical CDS span (15 CDSs, 30.7 kb). Arrows indicate direction of transcription; boxes display standardized gene symbols or official locus tags. [Open scalable vector SVG](BGC_65_scaffold_826_c3_clavaric_acid.svg).*
 
 #### Gene Inventory & Structural Qualifiers
 
@@ -4029,7 +4035,7 @@ This cluster exhibits significant homology to the characterized MIBiG reference 
 
 [![BGC_66_scaffold_827_c1_metachelin_c](BGC_66_scaffold_827_c1_metachelin_c.png)](BGC_66_scaffold_827_c1_metachelin_c.svg)
 
-> *Figure 66: Publication-grade gene cluster diagram of `BGC_66_scaffold_827_c1_metachelin_c` on Scaffold 827. Arrows indicate direction of transcription; boxes display standardized gene symbols or official locus tags. [Open scalable vector SVG](BGC_66_scaffold_827_c1_metachelin_c.svg).*
+> *Figure 66: Publication-grade gene cluster diagram of `BGC_66_scaffold_827_c1_metachelin_c` on Scaffold 827. **Header Span** (1–100,047 bp) indicates the total candidate regional window; **Sub-track Bracket** indicates the precise physical CDS span (21 CDSs, 94.5 kb). Arrows indicate direction of transcription; boxes display standardized gene symbols or official locus tags. [Open scalable vector SVG](BGC_66_scaffold_827_c1_metachelin_c.svg).*
 
 #### Gene Inventory & Structural Qualifiers
 
@@ -4098,7 +4104,7 @@ This cluster exhibits significant homology to the characterized MIBiG reference 
 
 [![BGC_67_scaffold_904_c1_penicillin](BGC_67_scaffold_904_c1_penicillin.png)](BGC_67_scaffold_904_c1_penicillin.svg)
 
-> *Figure 67: Publication-grade gene cluster diagram of `BGC_67_scaffold_904_c1_penicillin` on Scaffold 904. Arrows indicate direction of transcription; boxes display standardized gene symbols or official locus tags. [Open scalable vector SVG](BGC_67_scaffold_904_c1_penicillin.svg).*
+> *Figure 67: Publication-grade gene cluster diagram of `BGC_67_scaffold_904_c1_penicillin` on Scaffold 904. **Header Span** (1–86,817 bp) indicates the total candidate regional window; **Sub-track Bracket** indicates the precise physical CDS span (17 CDSs, 83.5 kb). Arrows indicate direction of transcription; boxes display standardized gene symbols or official locus tags. [Open scalable vector SVG](BGC_67_scaffold_904_c1_penicillin.svg).*
 
 #### Gene Inventory & Structural Qualifiers
 
@@ -4158,7 +4164,7 @@ This cluster exhibits significant homology to the characterized MIBiG reference 
 
 [![BGC_68_scaffold_904_c2_orphan_terpene](BGC_68_scaffold_904_c2_orphan_terpene.png)](BGC_68_scaffold_904_c2_orphan_terpene.svg)
 
-> *Figure 68: Publication-grade gene cluster diagram of `BGC_68_scaffold_904_c2_orphan_terpene` on Scaffold 904. Arrows indicate direction of transcription; boxes display standardized gene symbols or official locus tags. [Open scalable vector SVG](BGC_68_scaffold_904_c2_orphan_terpene.svg).*
+> *Figure 68: Publication-grade gene cluster diagram of `BGC_68_scaffold_904_c2_orphan_terpene` on Scaffold 904. **Header Span** (1–51,233 bp) indicates the total candidate regional window; **Sub-track Bracket** indicates the precise physical CDS span (16 CDSs, 47.6 kb). Arrows indicate direction of transcription; boxes display standardized gene symbols or official locus tags. [Open scalable vector SVG](BGC_68_scaffold_904_c2_orphan_terpene.svg).*
 
 #### Gene Inventory & Structural Qualifiers
 
@@ -4217,7 +4223,7 @@ This cluster represents a novel **orphan terpene secondary metabolite biosynthet
 
 [![BGC_69_scaffold_960_c1_6_methylsalicyclic_acid](BGC_69_scaffold_960_c1_6_methylsalicyclic_acid.png)](BGC_69_scaffold_960_c1_6_methylsalicyclic_acid.svg)
 
-> *Figure 69: Publication-grade gene cluster diagram of `BGC_69_scaffold_960_c1_6_methylsalicyclic_acid` on Scaffold 960. Arrows indicate direction of transcription; boxes display standardized gene symbols or official locus tags. [Open scalable vector SVG](BGC_69_scaffold_960_c1_6_methylsalicyclic_acid.svg).*
+> *Figure 69: Publication-grade gene cluster diagram of `BGC_69_scaffold_960_c1_6_methylsalicyclic_acid` on Scaffold 960. **Header Span** (1–65,347 bp) indicates the total candidate regional window; **Sub-track Bracket** indicates the precise physical CDS span (17 CDSs, 61.3 kb). Arrows indicate direction of transcription; boxes display standardized gene symbols or official locus tags. [Open scalable vector SVG](BGC_69_scaffold_960_c1_6_methylsalicyclic_acid.svg).*
 
 #### Gene Inventory & Structural Qualifiers
 
@@ -4277,7 +4283,7 @@ This cluster exhibits significant homology to the characterized MIBiG reference 
 
 [![BGC_70_scaffold_1334_c1_orphan_nrps](BGC_70_scaffold_1334_c1_orphan_nrps.png)](BGC_70_scaffold_1334_c1_orphan_nrps.svg)
 
-> *Figure 70: Publication-grade gene cluster diagram of `BGC_70_scaffold_1334_c1_orphan_nrps` on Scaffold 1334. Arrows indicate direction of transcription; boxes display standardized gene symbols or official locus tags. [Open scalable vector SVG](BGC_70_scaffold_1334_c1_orphan_nrps.svg).*
+> *Figure 70: Publication-grade gene cluster diagram of `BGC_70_scaffold_1334_c1_orphan_nrps` on Scaffold 1334. **Header Span** (1–76,133 bp) indicates the total candidate regional window; **Sub-track Bracket** indicates the precise physical CDS span (16 CDSs, 75.0 kb). Arrows indicate direction of transcription; boxes display standardized gene symbols or official locus tags. [Open scalable vector SVG](BGC_70_scaffold_1334_c1_orphan_nrps.svg).*
 
 #### Gene Inventory & Structural Qualifiers
 
@@ -4336,16 +4342,16 @@ This cluster represents a novel **orphan NRPS secondary metabolite biosynthetic 
 
 [![BGC_71_scaffold_1340_c1_aflatoxin_CPA_supercluster](BGC_71_scaffold_1340_c1_aflatoxin_CPA_supercluster.png)](BGC_71_scaffold_1340_c1_aflatoxin_CPA_supercluster.svg)
 
-> *Figure 71: Publication-grade gene cluster diagram of `BGC_71_scaffold_1340_c1_aflatoxin_CPA_supercluster` on Scaffold 1340. Arrows indicate direction of transcription; boxes display standardized gene symbols or official locus tags. [Open scalable vector SVG](BGC_71_scaffold_1340_c1_aflatoxin_CPA_supercluster.svg).*
+> *Figure 71: Publication-grade gene cluster diagram of `BGC_71_scaffold_1340_c1_aflatoxin_CPA_supercluster` on Scaffold 1340. **Header Span** (1–79,127 bp) indicates the total candidate regional window; **Sub-track Bracket** indicates the precise physical CDS span (17 CDSs, 77.8 kb). Arrows indicate direction of transcription; boxes display standardized gene symbols or official locus tags. [Open scalable vector SVG](BGC_71_scaffold_1340_c1_aflatoxin_CPA_supercluster.svg).*
 
 #### Gene Inventory & Structural Qualifiers
 
 | Locus Tag | Gene Symbol | Strand | Physical Span | Length | Putative Product & EC Number | Pfam / Domain Signatures |
 | :--- | :---: | :---: | :---: | :---: | :--- | :--- |
-| `PUJ_009389` | `aflJ` | `-` | 356..3,818 | 742 aa | hypothetical protein | PF00067 (Cytochrome P450), PF13561 (Enoyl-(Acyl carrier protein) reductase) |
-| `PUJ_009390` | `aflV` | `-` | 4,632..5,916 | 388 aa | hypothetical protein | PF00248 (Aldo/keto reductase family) |
-| `PUJ_009391` | `ver-1` | `-` | 6,207..7,721 | 308 aa | hypothetical protein (`EC 3.1.1.94`) | PF07859 (alpha/beta hydrolase fold) |
-| `PUJ_009392` | `estA` | `-` | 8,128..8,964 | 278 aa | hypothetical protein (`EC 1.1.1.352`) | PF00106 (short chain dehydrogenase) |
+| `PUJ_009389` | `aflV` | `-` | 356..3,818 | 742 aa | hypothetical protein | PF00067 (Cytochrome P450), PF13561 (Enoyl-(Acyl carrier protein) reductase) |
+| `PUJ_009390` | `norA` | `-` | 4,632..5,916 | 388 aa | hypothetical protein | PF00248 (Aldo/keto reductase family) |
+| `PUJ_009391` | `estA` | `-` | 6,207..7,721 | 308 aa | hypothetical protein (`EC 3.1.1.94`) | PF07859 (alpha/beta hydrolase fold) |
+| `PUJ_009392` | `ver-1` | `-` | 8,128..8,964 | 278 aa | hypothetical protein (`EC 1.1.1.352`) | PF00106 (short chain dehydrogenase) |
 | `PUJ_009393` | `aflR` | `+` | 11,725..13,059 | 444 aa | hypothetical protein | PF00172 (Fungal Zn(2)-Cys(6) binuclear cluster domain), PF08493 (Aflatoxin regulatory protein) |
 | `PUJ_009394` | `aflA` | `-` | 14,330..20,176 | 1904 aa | hypothetical protein (`EC 2.3.1.86`) | PF00698 (Acyl transferase domain), PF01575 (MaoC like domain), PF13452 (N-terminal half of MaoC dehydratase) |
 | `PUJ_009395` | `aflB` | `+` | 20,866..26,010 | 1679 aa | hypothetical protein (`EC 2.3.1.86`) | PF18325 (Fatty acid synthase subunit alpha Acyl carrier domain), PF18314 (Fatty acid synthase type I helical domain), PF00109 (Beta-ketoacyl synthase, N-terminal domain) |
@@ -4362,36 +4368,36 @@ This cluster represents a novel **orphan NRPS secondary metabolite biosynthetic 
 
 #### Putative Function & Enzymatic Mechanisms
 
-- **`PUJ_009389` (`aflJ`):** Aflatoxin pathway accessory protein (aflJ / estA-associated, Pfam PF00135). Interacts physically with AflR and endomembrane tailoring complexes; required for efficient conversion of pathway intermediates and export [Meyers et al., 1998].
-- **`PUJ_009390` (`aflV`):** Cytochrome P450 monooxygenase (cypX, EC 1.14.14.1, Pfam PF00067). Catalyzes oxidative cleavage and tailoring of versicolorin intermediates; essential for dihydrofurofuran maturation [Georgianna & Payne, 2009].
-- **`PUJ_009391` (`ver-1`):** Versicolorin A dehydrogenase / ketoreductase (aflM / ver-1, EC 1.1.1.-, Pfam PF00106). Highly conserved short-chain dehydrogenase/reductase mediating the stereospecific reduction of versicolorin A [Skory et al., 1992].
-- **`PUJ_009392` (`estA`):** Aflatoxin cluster carboxylesterase (estA, EC 3.1.1.1, Pfam PF00135). Hydrolyzes acetate esters of polyketide anthraquinone precursors, channeling intermediates toward versicolorin B [Ehrlich, 2014].
-- **`PUJ_009393` (`aflR`):** Pathway-specific Zn(II)2Cys6 master transcription factor (Pfam PF00172, PF08493). Directly binds palindromic 5'-TCGN5CGA-3' motifs across cluster promoters, driving coordinated transcription of all 17 aflatoxin structural genes [Ehrlich et al., 1999; Chang et al., 1995].
-- **`PUJ_009394` (`aflA`):** Fatty acid synthase beta subunit (fas-2 / hexA, EC 2.3.1.86, Pfam PF00109, PF00550). Works in concert with AflB to synthesize the specialized C6 hexanoate starter unit from acetyl-CoA and malonyl-CoA [Townsend, 2014].
-- **`PUJ_009395` (`aflB`):** Fatty acid synthase alpha subunit (fas-1 / hexB, EC 2.3.1.86, Pfam PF00109, PF02801). Multi-domain fatty acid synthetase providing the short-chain starter unit directly to PksA [Townsend, 2014].
-- **`PUJ_009396` (`aflD`):** Norsolorinic acid ketoreductase (nor-1, EC 1.1.1.349, Pfam PF00106, PF01370). Catalyzes the NADPH-dependent stereoselective reduction of the polyketide norsolorinic acid (NA) keto group to averantin [Zhou & Linz, 1999].
-- **`PUJ_009397` (`pksA`):** Iterative Type I Polyketide Synthase (aflC / pksA, 2,109 aa, EC 2.3.1.221, Pfam PF00109, PF02801, PF00550). Core mega-synthetase that condenses hexanoate starter unit with 7 malonyl-CoA extender units to yield the polyhydroxy anthraquinone norsolorinic acid [Crawford et al., 2006].
+- **`PUJ_009389` (`aflV`):** Cytochrome P450 monooxygenase (verA / aflV homolog, Pfam PF00067, PF13561). Catalyzes oxidative cleavage and tailoring of versicolorin intermediates; essential for dihydrofurofuran maturation [Georgianna & Payne, 2009; Yu et al., 2004].
+- **`PUJ_009390` (`norA`):** Aldo-keto reductase (norA / aflE homolog, Pfam PF00248). Catalyzes stereoselective aldo-keto reduction of anthraquinone polyketide precursors [Zhou & Linz, 1999; Yu et al., 2004].
+- **`PUJ_009391` (`estA`):** Carboxylesterase / alpha-beta hydrolase (estA, EC 3.1.1.94, Pfam PF07859). Hydrolyzes acetate esters of polyketide anthraquinone precursors, channeling intermediates toward versicolorin B [Ehrlich, 2014; Yu et al., 2004].
+- **`PUJ_009392` (`ver-1`):** Versicolorin A dehydrogenase / ketoreductase (ver-1 / aflM homolog, EC 1.1.1.352, Pfam PF00106). Highly conserved short-chain dehydrogenase/reductase mediating the stereospecific reduction of versicolorin A [Skory et al., 1992].
+- **`PUJ_009393` (`aflR`):** Pathway-specific Zn(II)2Cys6 master transcription factor (Pfam PF00172, PF08493). Directly binds palindromic 5'-TCGN5CGA-3' motifs across cluster promoters, driving coordinated transcription of structural genes [Ehrlich et al., 1999; Chang et al., 1995].
+- **`PUJ_009394` (`aflA`):** Fatty acid synthase beta subunit (fas-2 / hexA, Pfam PF00698, PF01575, PF08354, PF13452, PF16073, PF17951; literature-inferred: EC 2.3.1.86). Works in concert with AflB to synthesize the specialized C6 hexanoate starter unit [Townsend, 2014].
+- **`PUJ_009395` (`aflB`):** Fatty acid synthase alpha subunit (fas-1 / hexB, Pfam PF00109, PF01648, PF02801, PF18314, PF18325; literature-inferred: EC 2.3.1.86). Multi-domain fatty acid synthetase providing the short-chain starter unit directly to PksA [Townsend, 2014].
+- **`PUJ_009396` (`aflD`):** Norsolorinic acid ketoreductase (nor-1, Pfam PF00106, PF01370, PF08659, PF13561; literature-inferred: EC 1.1.1.349). Catalyzes the NADPH-dependent stereoselective reduction of norsolorinic acid to averantin [Zhou & Linz, 1999].
+- **`PUJ_009397` (`pksA`):** Iterative Type I Polyketide Synthase (aflC / pksA, 2,109 aa, EC 2.3.1.221, Pfam PF00109, PF00550, PF00698, PF00975, PF02801, PF14765, PF16073). Core mega-synthetase that condenses hexanoate starter unit with 7 malonyl-CoA extender units [Crawford et al., 2006].
 - **`PUJ_009398` (`aflT`):** Major Facilitator Superfamily (MFS) efflux pump (Pfam PF07690). 14-transmembrane domain transporter responsible for cellular efflux of aflatoxin and self-resistance [Yu et al., 2004].
-- **`PUJ_009399` (`aflU`):** Cytochrome P450 monooxygenase (cypA, EC 1.14.14.1, Pfam PF00067). Catalyzes final oxidative epoxidation and lactone formation steps yielding aflatoxin G1 [Ehrlich, 2014].
-- **`PUJ_009400` (`cpaT`):** Major Facilitator Superfamily (MFS) cyclopiazonic acid transporter (Pfam PF07690, IPR011701). 12-transmembrane domain efflux pump that mediates active cellular excretion of CPA, preventing intracellular neurotoxic accumulation [Clevenger et al., 2017].
-- **`PUJ_009401` (`cpaO`):** Cyclopiazonic acid oxidoreductase (cpaO / cpaD, 455 aa, EC 1.21.99.1, Pfam PF01593, PF13450). FAD-dependent oxidoreductase / dimethylallyl tryptophan synthase tailoring enzyme catalyzing dehydrogenation of cyclo-acetoacetyl-L-tryptophan [Liu et al., 2009].
-- **`PUJ_009402` (`cpaA`):** Hybrid Polyketide Synthase - Non-Ribosomal Peptide Synthetase (PKS-NRPS, 3,867 aa, Pfam PF00109, PF00501, PF00550, PF00668). Core mega-synthetase catalyzing polyketide extension of acetyl-CoA with malonyl-CoA followed by non-ribosomal condensation with L-tryptophan and Dieckmann cyclization [Clevenger et al., 2017; Liu et al., 2009].
-- **`PUJ_009403` (`cpaH`):** Cytochrome P450 monooxygenase (cpaM / cpaH, 395 aa, Pfam PF00067). Performs the final oxidative cyclization / epoxidation transforming beta-cyclopiazonic acid into alpha-cyclopiazonic acid [Clevenger et al., 2017].
+- **`PUJ_009399` (`aflU`):** Cytochrome P450 monooxygenase (cypA, Pfam PF00067; literature-inferred: EC 1.14.14.1). Catalyzes final oxidative epoxidation and lactone formation steps yielding aflatoxin G1 [Ehrlich, 2014].
+- **`PUJ_009400` (`cpaT`):** Major Facilitator Superfamily (MFS) cyclopiazonic acid transporter (Pfam PF00083, PF07690). 12-transmembrane domain efflux pump mediating active cellular excretion of CPA [Clevenger et al., 2017].
+- **`PUJ_009401` (`cpaO`):** Cyclopiazonic acid oxidoreductase (cpaO, 455 aa, Pfam PF01593, PF13450; literature-inferred: EC 1.21.99.1). FAD-dependent oxidoreductase tailoring enzyme catalyzing dehydrogenation of cyclo-acetoacetyl-L-tryptophan (note: cpaD / DMATS is not annotated in this 17-CDS region) [Liu & Walsh, 2009; Clevenger et al., 2017].
+- **`PUJ_009402` (`cpaA`):** Hybrid Polyketide Synthase - Non-Ribosomal Peptide Synthetase (PKS-NRPS, 3,867 aa, Pfam PF00109, PF00501, PF00550, PF00668, PF00698, PF01370, PF02801, PF07993, PF08659, PF14765, PF16197, PF21089). Core mega-synthetase catalyzing polyketide extension followed by non-ribosomal condensation with L-tryptophan [Clevenger et al., 2017; Liu & Walsh, 2009].
+- **`PUJ_009403` (`cpaH`):** Putative cyclase / monooxygenase CpaM homolog (395 aa; 94% identity to BGC0000977.4 BAK26563.1; literature-inferred P450-like oxygenase; unannotated domain in local Pfam archive). Performs final oxidative cyclization transforming beta-cyclopiazonic acid into alpha-cyclopiazonic acid [Clevenger et al., 2017; Liu & Walsh, 2009].
 - **`PUJ_009404`:** Hypothetical protein. Hypothetical or accessory protein implicated in cluster function or localized metabolic support.
 - **`PUJ_009405`:** Hypothetical protein (EC 4.1.1.52). Contains PF04909 (Amidohydrolase). Hypothetical or accessory protein implicated in cluster function or localized metabolic support.
 
 ### Collective Pathway Architecture & Biological Synergy
 
-The **Scaffold 1340 Super-Cluster** is the defining toxigenic locus of *Aspergillus flavus* AF-PUJ, comprising **21 continuous loci across 79.1 kb** that physically merge the complete **Aflatoxin B1/G1** pathway with the entire **Cyclopiazonic Acid (CPA)** biosynthetic machinery:
+The **Scaffold 1340 Super-Cluster** is the defining toxigenic locus of *Aspergillus flavus* AF-PUJ, comprising **17 continuous loci across 79.1 kb** (`PUJ_009389`–`PUJ_009405`) with 11 protein BLAST hits to MIBiG `BGC0000007.3` (51–97% identity; 94–97% for core enzymes such as PksA, Nor-1, and AflR) that physically merge the **Aflatoxin B1/G1** pathway with the entire **Cyclopiazonic Acid (CPA)** biosynthetic machinery:
 
 1. **Pathway Inception & Polyketide Backbone:** A specialized fatty acid synthase dyad (`AflA`/`AflB`) synthesizes hexanoyl-CoA, which is channeled directly into the iterative Type I PKS (`PksA` / `AflC`). PksA performs 7 iterative condensations with malonyl-CoA to yield norsolorinic acid (NA).
-2. **Anthraquinone & Dihydrofurofuran Cascade:** NA is sequentially tailored through averantin, averufin, and versiconal hemiacetal acetate by `AflD` (ketoreductase), `AflN` (P450), `AflV` (P450), and `EstA` (esterase). Subsequent ring closure by `AflK` (versicolorin B synthase) and `AflM` (Ver-1) forms versicolorin A, containing the mutagenic difuran moiety.
-3. **Toxin Maturation & SAM Methylation:** Late-stage tailoring by two O-methyltransferases (`AflP`, `AflO`) and monooxygenase `AflU` yields aflatoxins B1 and G1, which are active mutagens and Group 1 carcinogens.
-4. **CPA Assembly Line:** Directly contiguous sits the CPA operon: hybrid PKS-NRPS `CpaA` joins acetoacetyl-CoA with L-tryptophan, followed by FAD-dependent oxidoreductase `CpaO` (DMATS) and P450 `CpaH` cyclization to produce cyclopiazonic acid, a potent neurotoxic mycotoxin that inhibits SERCA calcium ATPase.
+2. **Anthraquinone & Dihydrofurofuran Cascade:** NA is sequentially tailored through averantin, averufin, and versiconal hemiacetal acetate by `AflD` (ketoreductase), `AflV` (P450 monooxygenase), `NorA` (aldo-keto reductase), and `EstA` (carboxylesterase). Subsequent ring closure by versicolorin dehydrogenase/ketoreductase `Ver-1` (`PUJ_009392`) forms versicolorin A, containing the mutagenic difuran moiety.
+3. **Toxin Maturation & Late-Stage Tailoring:** Late-stage tailoring to complete aflatoxins B1/G1 involves O-methyltransferases (`AflP`/OmtA and `AflO`/OmtB) and monooxygenase `AflU`; because `aflP` and `aflO` reside upstream outside this 17-CDS assembly window, full pathway maturation in AF-PUJ utilizes these upstream loci or equivalent cellular transferases.
+4. **CPA Assembly Line:** Directly contiguous sits the CPA operon: hybrid PKS-NRPS `CpaA` (`PUJ_009402`) joins acetoacetyl-CoA with L-tryptophan, followed by FAD-dependent oxidoreductase `CpaO` (`PUJ_009401`; note: dimethylallyl tryptophan synthase `cpaD` is not annotated within this 17-CDS region) and P450-like oxygenase `CpaH` (`PUJ_009403`, 94% identity to BGC0000977.4 CpaM) catalyzing oxidative cyclization to produce cyclopiazonic acid, a potent neurotoxin that inhibits SERCA calcium ATPase.
 5. **Efflux & Regulation:** The dual cluster contains two dedicated efflux pumps (`AflT` and `CpaT`) ensuring high-capacity toxin export, while `AflR` serves as the master Zn2Cys6 transcription factor.
 
 > [!CAUTION]
-> **Definitive Biosafety Risk:** In commercial atoxigenic biocontrol strains (e.g. *Aflasafe*, NRRL 21882), a 28–32 kb chromosomal > deletion completely deletes `aflR`, `pksA`, and `nor-1`. In **AF-PUJ**, all 21 genes in this super-cluster are present and intact with 94–97% identity to MIBiG BGC0000007.3, confirming that AF-PUJ is an active producer of both Aflatoxin and Cyclopiazonic Acid. It is strictly disqualified from uncontained agricultural biocontrol.
+> **Definitive Biosafety Risk:** In commercial atoxigenic biocontrol strains (e.g. *Aflasafe*, NRRL 21882), a 28–32 kb chromosomal > deletion completely deletes `aflR`, `pksA`, and `nor-1`. In **AF-PUJ**, all 17 genes in this super-cluster (`PUJ_009389`–`PUJ_009405`) > are present and intact, with 11 protein BLAST hits to MIBiG `BGC0000007.3` (51–97% identity; 94–97% for core enzymes such as PksA and AflR) > and 4 hits to `BGC0000977.4` (90–97% identity to CpaA/CpaO/CpaT/CpaM). This confirms that AF-PUJ possesses full genetic capacity for > both Aflatoxin and Cyclopiazonic Acid synthesis. It is strictly disqualified from uncontained agricultural biocontrol.
 
 ---
 
@@ -4406,7 +4412,7 @@ The **Scaffold 1340 Super-Cluster** is the defining toxigenic locus of *Aspergil
 
 [![BGC_72_scaffold_1845_c1_dichlorodiaporthin](BGC_72_scaffold_1845_c1_dichlorodiaporthin.png)](BGC_72_scaffold_1845_c1_dichlorodiaporthin.svg)
 
-> *Figure 72: Publication-grade gene cluster diagram of `BGC_72_scaffold_1845_c1_dichlorodiaporthin` on Scaffold 1845. Arrows indicate direction of transcription; boxes display standardized gene symbols or official locus tags. [Open scalable vector SVG](BGC_72_scaffold_1845_c1_dichlorodiaporthin.svg).*
+> *Figure 72: Publication-grade gene cluster diagram of `BGC_72_scaffold_1845_c1_dichlorodiaporthin` on Scaffold 1845. **Header Span** (1–66,072 bp) indicates the total candidate regional window; **Sub-track Bracket** indicates the precise physical CDS span (18 CDSs, 58.8 kb). Arrows indicate direction of transcription; boxes display standardized gene symbols or official locus tags. [Open scalable vector SVG](BGC_72_scaffold_1845_c1_dichlorodiaporthin.svg).*
 
 #### Gene Inventory & Structural Qualifiers
 
@@ -4469,7 +4475,7 @@ This cluster exhibits significant homology to the characterized MIBiG reference 
 
 [![BGC_73_scaffold_1924_c1_aspergillic_acid](BGC_73_scaffold_1924_c1_aspergillic_acid.png)](BGC_73_scaffold_1924_c1_aspergillic_acid.svg)
 
-> *Figure 73: Publication-grade gene cluster diagram of `BGC_73_scaffold_1924_c1_aspergillic_acid` on Scaffold 1924. Arrows indicate direction of transcription; boxes display standardized gene symbols or official locus tags. [Open scalable vector SVG](BGC_73_scaffold_1924_c1_aspergillic_acid.svg).*
+> *Figure 73: Publication-grade gene cluster diagram of `BGC_73_scaffold_1924_c1_aspergillic_acid` on Scaffold 1924. **Header Span** (1–63,066 bp) indicates the total candidate regional window; **Sub-track Bracket** indicates the precise physical CDS span (19 CDSs, 60.1 kb). Arrows indicate direction of transcription; boxes display standardized gene symbols or official locus tags. [Open scalable vector SVG](BGC_73_scaffold_1924_c1_aspergillic_acid.svg).*
 
 #### Gene Inventory & Structural Qualifiers
 
@@ -4506,9 +4512,9 @@ This cluster exhibits significant homology to the characterized MIBiG reference 
 - **`PUJ_009781` (`asaE`):** Pyrazinone tailoring protein (Pfam PF00107). Tailoring enzyme involved in pyrazine core stabilization and intermediate modification [Matsuda et al., 2020].
 - **`PUJ_009782` (`asaF`):** Zinc finger transcriptional regulatory protein (Pfam PF00172). Specific pathway activator governing expression of the aspergillic acid cluster [Matsuda et al., 2020].
 - **`PUJ_009783` (`asaA`):** Non-Ribosomal Peptide Synthetase (AsaA, 1,021 aa, Pfam PF00501, PF00668). Core NRPS condensation mega-synthetase joining L-leucine and L-isoleucine to assemble the deoxyaspergillic acid cyclic peptide backbone [Matsuda et al., 2020].
-- **`PUJ_009784` (`asaB`):** Cytochrome P450 monooxygenase (AsaB, 502 aa, Pfam PF00067). Performs N-hydroxylation of the pyrazinone ring, conferring the potent iron-chelating and antibacterial hydroxamic acid moiety [Matsuda et al., 2020].
+- **`PUJ_009784` (`asaB`):** Cytochrome P450 monooxygenase (AsaB, 519 aa, Pfam PF00067). Performs N-hydroxylation of the pyrazinone ring, conferring the potent iron-chelating hydroxamic acid moiety [Matsuda et al., 2020].
 - **`PUJ_009785` (`asaC`):** Tailoring hydroxylase (AsaC, 688 aa, Pfam PF00067). Hydroxylates the aliphatic side chains of aspergillic acid to generate hydroxyaspergillic acid and neoaspergillic acid [Matsuda et al., 2020].
-- **`PUJ_009786` (`asaD`):** MFS multidrug/toxin efflux pump (AsaD, 532 aa, Pfam PF07690). 12-TMS permease driving excretion of aspergillic acid and conferring host self-protection [Matsuda et al., 2020].
+- **`PUJ_009786` (`asaD`):** MFS multidrug/toxin efflux pump (AsaD, 428 aa, Pfam PF07690). 12-TMS permease driving excretion of aspergillic acid and conferring host self-protection [Matsuda et al., 2020].
 - **`PUJ_009787`:** Hypothetical protein. Hypothetical or accessory protein implicated in cluster function or localized metabolic support.
 - **`PUJ_009788`:** Hypothetical protein. Hypothetical or accessory protein implicated in cluster function or localized metabolic support.
 - **`PUJ_009789`:** Hypothetical protein. Hypothetical or accessory protein implicated in cluster function or localized metabolic support.
@@ -4540,7 +4546,7 @@ The **Scaffold 1924 Aspergillic Acid Cluster** (6 protein hits to MIBiG BGC00015
 
 [![BGC_74_scaffold_2001_c1_orphan_t3pks](BGC_74_scaffold_2001_c1_orphan_t3pks.png)](BGC_74_scaffold_2001_c1_orphan_t3pks.svg)
 
-> *Figure 74: Publication-grade gene cluster diagram of `BGC_74_scaffold_2001_c1_orphan_t3pks` on Scaffold 2001. Arrows indicate direction of transcription; boxes display standardized gene symbols or official locus tags. [Open scalable vector SVG](BGC_74_scaffold_2001_c1_orphan_t3pks.svg).*
+> *Figure 74: Publication-grade gene cluster diagram of `BGC_74_scaffold_2001_c1_orphan_t3pks` on Scaffold 2001. **Header Span** (1–35,116 bp) indicates the total candidate regional window; **Sub-track Bracket** indicates the precise physical CDS span (8 CDSs, 30.2 kb). Arrows indicate direction of transcription; boxes display standardized gene symbols or official locus tags. [Open scalable vector SVG](BGC_74_scaffold_2001_c1_orphan_t3pks.svg).*
 
 #### Gene Inventory & Structural Qualifiers
 
@@ -4577,60 +4583,60 @@ This cluster represents a novel **orphan T3PKS secondary metabolite biosynthetic
 ### 75. Phosphate Solubilizing & Hydrolase Neighborhood (PHO13/IPP1) (`Scaffold 24`)
 
 - **Cluster Identifier:** `CLUSTER_75_scaffold_24_phosphate_solubilizing_PHO13_IPP1` (`CLUSTER_75_scaffold_24_phosphate_solubilizing_PHO13_IPP1`)  
-- **Genomic Location:** Scaffold 24 | Span: 273,771–342,848 bp (69,078 bp, 21 CDSs)  
+- **Genomic Location:** Scaffold 24 | Span: 273,772–342,848 bp (69,077 bp, 21 CDSs)  
 - **Pathway Class:** `Phosphate Solubilization & Hydrolase` | **Confidence Tier:** `VERIFIED_AGRICULTURAL`  
 
 [![CLUSTER_75_scaffold_24_phosphate_solubilizing_PHO13_IPP1](CLUSTER_75_scaffold_24_phosphate_solubilizing_PHO13_IPP1.png)](CLUSTER_75_scaffold_24_phosphate_solubilizing_PHO13_IPP1.svg)
 
-> *Figure 75: Publication-grade gene cluster diagram of `CLUSTER_75_scaffold_24_phosphate_solubilizing_PHO13_IPP1` on Scaffold 24. Arrows indicate direction of transcription; boxes display standardized gene symbols or official locus tags. [Open scalable vector SVG](CLUSTER_75_scaffold_24_phosphate_solubilizing_PHO13_IPP1.svg).*
+> *Figure 75: Publication-grade gene cluster diagram of `CLUSTER_75_scaffold_24_phosphate_solubilizing_PHO13_IPP1` on Scaffold 24. **Header Span** (273,772–342,848 bp) indicates the total candidate regional window; **Sub-track Bracket** indicates the precise physical CDS span (21 CDSs, 69.1 kb). Arrows indicate direction of transcription; boxes display standardized gene symbols or official locus tags. [Open scalable vector SVG](CLUSTER_75_scaffold_24_phosphate_solubilizing_PHO13_IPP1.svg).*
 
 #### Gene Inventory & Structural Qualifiers
 
 | Locus Tag | Gene Symbol | Strand | Physical Span | Length | Putative Product & EC Number | Pfam / Domain Signatures |
 | :--- | :---: | :---: | :---: | :---: | :--- | :--- |
-| `PUJ_000714` | `PUJ_000714` | `+` | 273,771..275,470 | 488 aa | hypothetical protein | PF00646, PF02373, PF12937 |
-| `PUJ_000715` | `PUJ_000715` | `+` | 276,878..277,719 | 231 aa | hypothetical protein | PF09340 |
-| `PUJ_000716` | `ams1` | `-` | 277,964..281,411 | 1087 aa | Glycoside hydrolase, 38 vacuolar alpha mannosidase (`EC 3.2.1.24`) | PF01074, PF07748, PF09261 |
-| `PUJ_000717` | `PUJ_000717` | `-` | 282,280..283,618 | 445 aa | hypothetical protein | — |
-| `PUJ_000718` | `PUJ_000718` | `+` | 290,153..291,758 | 447 aa | hypothetical protein | — |
-| `PUJ_000719` | `ylh47` | `+` | 292,371..294,159 | 543 aa | LETM1 domain-containing protein ylh47 | PF07766 |
-| `PUJ_000720` | `pcd1` | `+` | 295,709..296,178 | 136 aa | 8-oxo-dGTP diphosphatase | — |
-| `PUJ_000721` | `smc1` | `-` | 303,714..306,388 | 851 aa | Structural maintenance of chromosomes protein 1 | PF02463, PF06470 |
-| `PUJ_000722` | `PUJ_000722` | `+` | 313,184..314,246 | 353 aa | hypothetical protein | PF12697 |
-| `PUJ_000723` | `cdh1` | `-` | 315,379..317,262 | 554 aa | substrate-specific activator of APC-dependent proteolysis | PF00400, PF12894 |
-| `PUJ_000724` | `pepP` | `+` | 319,361..321,155 | 498 aa | hypothetical protein (`EC 3.4.11.21`) | PF02127 |
-| `PUJ_000725` | `PUJ_000725` | `+` | 321,621..322,704 | 330 aa | hypothetical protein | PF08508 |
-| `PUJ_000726` | `PUJ_000726` | `-` | 323,019..323,633 | 175 aa | hypothetical protein (`EC 3.4.21.92`) | PF00574 |
-| `PUJ_000727` | `PUJ_000727` | `+` | 325,074..325,584 | 169 aa | hypothetical protein | — |
-| `PUJ_000728` | `pho13` | `-` | 325,761..327,010 | 306 aa | p-nitrophenyl phosphatase (`EC 3.1.3.41`) | PF00702, PF13242, PF13344 |
-| `PUJ_000729` | `rfc2` | `-` | 327,661..328,674 | 320 aa | Subunit of heteropentameric Replication factor C (RF-C) | PF00004, PF08542, PF13177 |
-| `PUJ_000730` | `ipp1` | `-` | 332,404..333,498 | 288 aa | Inorganic pyrophosphatase (`EC 3.6.1.1`) | PF00719 |
-| `PUJ_000731` | `dus2` | `+` | 334,978..336,313 | 444 aa | tRNA-dihydrouridine synthase 2 (`EC 1.3.1.91`) | PF01207 |
-| `PUJ_000732` | `fun30` | `-` | 337,189..340,270 | 1026 aa | DNA-dependent ATPase fun30 (`EC 3.6.4.12`) | PF00176, PF00270, PF00271 |
-| `PUJ_000733` | `vma21` | `+` | 341,533..341,809 | 61 aa | vacuolar ATPase assembly integral membrane protein vma21 | — |
-| `PUJ_000734` | `PUJ_000734` | `-` | 342,224..342,848 | 178 aa | hypothetical protein | — |
+| `PUJ_000714` | `PUJ_000714` | `+` | 273,772..275,470 | 488 aa | hypothetical protein | PF00646, PF02373, PF12937 |
+| `PUJ_000715` | `PUJ_000715` | `+` | 276,879..277,719 | 231 aa | hypothetical protein | PF09340 |
+| `PUJ_000716` | `ams1` | `-` | 277,965..281,411 | 1087 aa | Glycoside hydrolase, 38 vacuolar alpha mannosidase (`EC 3.2.1.24`) | PF01074, PF07748, PF09261 |
+| `PUJ_000717` | `PUJ_000717` | `-` | 282,281..283,618 | 445 aa | hypothetical protein | — |
+| `PUJ_000718` | `PUJ_000718` | `+` | 290,154..291,758 | 447 aa | hypothetical protein | — |
+| `PUJ_000719` | `ylh47` | `+` | 292,372..294,159 | 543 aa | LETM1 domain-containing protein ylh47 | PF07766 |
+| `PUJ_000720` | `pcd1` | `+` | 295,710..296,178 | 136 aa | 8-oxo-dGTP diphosphatase | — |
+| `PUJ_000721` | `smc1` | `-` | 303,715..306,388 | 851 aa | Structural maintenance of chromosomes protein 1 | PF02463, PF06470 |
+| `PUJ_000722` | `PUJ_000722` | `+` | 313,185..314,246 | 353 aa | hypothetical protein | PF12697 |
+| `PUJ_000723` | `cdh1` | `-` | 315,380..317,262 | 554 aa | substrate-specific activator of APC-dependent proteolysis | PF00400, PF12894 |
+| `PUJ_000724` | `pepP` | `+` | 319,362..321,155 | 498 aa | hypothetical protein (`EC 3.4.11.21`) | PF02127 |
+| `PUJ_000725` | `PUJ_000725` | `+` | 321,622..322,704 | 330 aa | hypothetical protein | PF08508 |
+| `PUJ_000726` | `PUJ_000726` | `-` | 323,020..323,633 | 175 aa | hypothetical protein (`EC 3.4.21.92`) | PF00574 |
+| `PUJ_000727` | `PUJ_000727` | `+` | 325,075..325,584 | 169 aa | hypothetical protein | — |
+| `PUJ_000728` | `pho13` | `-` | 325,762..327,010 | 306 aa | p-nitrophenyl phosphatase (`EC 3.1.3.41`) | PF00702, PF13242, PF13344 |
+| `PUJ_000729` | `rfc2` | `-` | 327,662..328,674 | 320 aa | Subunit of heteropentameric Replication factor C (RF-C) | PF00004, PF08542, PF13177 |
+| `PUJ_000730` | `ipp1` | `-` | 332,405..333,498 | 288 aa | Inorganic pyrophosphatase (`EC 3.6.1.1`) | PF00719 |
+| `PUJ_000731` | `dus2` | `+` | 334,979..336,313 | 444 aa | tRNA-dihydrouridine synthase 2 (`EC 1.3.1.91`) | PF01207 |
+| `PUJ_000732` | `fun30` | `-` | 337,190..340,270 | 1026 aa | DNA-dependent ATPase fun30 (`EC 3.6.4.12`) | PF00176, PF00270, PF00271 |
+| `PUJ_000733` | `vma21` | `+` | 341,534..341,809 | 61 aa | vacuolar ATPase assembly integral membrane protein vma21 | — |
+| `PUJ_000734` | `PUJ_000734` | `-` | 342,225..342,848 | 178 aa | hypothetical protein | — |
 
 #### Putative Function & Enzymatic Mechanisms
 
 - **`PUJ_000714`:** Hypothetical protein. Contains PF00646, PF02373. Hypothetical or accessory protein implicated in cluster function or localized metabolic support.
 - **`PUJ_000715`:** Hypothetical protein. Contains PF09340. Hypothetical or accessory protein implicated in cluster function or localized metabolic support.
-- **`PUJ_000716` (`ams1`):** Vacuolar alpha-mannosidase GH38 (1,087 aa, EC 3.2.1.24, Pfam PF01074, PF07748). Hydrolyzes terminal alpha-D-mannose residues in cell wall mannans and glycoproteins, facilitating fungal saprotrophy and soil organic matter cycling [Cacan & Verbert, 1999].
+- **`PUJ_000716` (`ams1`):** Vacuolar alpha-mannosidase GH38 (1,087 aa, Pfam PF01074, PF07748; literature-inferred: EC 3.2.1.24). Hydrolyzes terminal alpha-D-mannose residues in cell wall mannans and glycoproteins, facilitating saprotrophy and soil organic matter cycling [Cacan & Verbert, 1999].
 - **`PUJ_000717`:** Hypothetical protein. Hypothetical or accessory protein implicated in cluster function or localized metabolic support.
 - **`PUJ_000718`:** Hypothetical protein. Hypothetical or accessory protein implicated in cluster function or localized metabolic support.
 - **`PUJ_000719` (`ylh47`):** Letm1 domain-containing protein ylh47. Contains PF07766. Hypothetical or accessory protein implicated in cluster function or localized metabolic support.
 - **`PUJ_000720` (`pcd1`):** 8-oxo-dgtp diphosphatase. Hypothetical or accessory protein implicated in cluster function or localized metabolic support.
-- **`PUJ_000721` (`smc1`):** Structural maintenance of chromosomes protein 1 (851 aa, Pfam PF02463). Cohesin complex core subunit coordinating chromosomal condensation and accurate mitotic division [Hirano, 2006].
+- **`PUJ_000721` (`smc1`):** Structural maintenance of chromosomes protein 1 (851 aa, Pfam PF02463, PF06470). Cohesin complex core subunit coordinating chromosomal condensation and accurate mitotic division [Hirano, 2006].
 - **`PUJ_000722`:** Hypothetical protein. Contains PF12697. Hypothetical or accessory protein implicated in cluster function or localized metabolic support.
 - **`PUJ_000723` (`cdh1`):** Anaphase-promoting complex activator Cdh1 (554 aa, Pfam PF00400, PF12894). WD40-repeat cell cycle regulator timing mitotic exit and cellular differentiation [Schwab et al., 1997].
-- **`PUJ_000724` (`pepP`):** Xaa-Pro aminopeptidase P (498 aa, EC 3.4.11.21, Pfam PF02127). Cleaves N-terminal amino acids adjacent to proline residues, facilitating peptide catabolism and nitrogen recycling in soil [Yaron et al., 1993].
+- **`PUJ_000724` (`pepP`):** Xaa-Pro aminopeptidase P (498 aa, Pfam PF02127; literature-inferred: EC 3.4.11.21). Cleaves N-terminal amino acids adjacent to proline residues, facilitating peptide catabolism and nitrogen recycling in soil [Yaron et al., 1993].
 - **`PUJ_000725`:** Hypothetical protein. Contains PF08508. Hypothetical or accessory protein implicated in cluster function or localized metabolic support.
 - **`PUJ_000726`:** Hypothetical protein (EC 3.4.21.92). Contains PF00574. Hypothetical or accessory protein implicated in cluster function or localized metabolic support.
 - **`PUJ_000727`:** Hypothetical protein. Hypothetical or accessory protein implicated in cluster function or localized metabolic support.
-- **`PUJ_000728` (`pho13`):** p-Nitrophenyl phosphatase / alkaline phosphatase (306 aa, EC 3.1.3.41, Pfam PF00702, PF13242). Soluble phosphatase hydrolyzing monoester organophosphates (phytic acid derivatives, sugar phosphates), liberating orthophosphate (Pi) for plant uptake [Oshima et al., 1996].
+- **`PUJ_000728` (`pho13`):** p-Nitrophenyl phosphatase / alkaline phosphatase (306 aa, Pfam PF00702, PF13242; literature-inferred: EC 3.1.3.41). Soluble phosphatase hydrolyzing monoester organophosphates (phytic acid derivatives, sugar phosphates), liberating orthophosphate (Pi) for plant uptake [Oshima et al., 1996].
 - **`PUJ_000729` (`rfc2`):** Subunit of heteropentameric replication factor c (rf-c). Contains PF00004, PF08542. Hypothetical or accessory protein implicated in cluster function or localized metabolic support.
-- **`PUJ_000730` (`ipp1`):** Inorganic pyrophosphatase (288 aa, EC 3.6.1.1, Pfam PF00719). Catalyzes the exergonic hydrolysis of inorganic pyrophosphate (PPi -> 2 Pi), pulling biosynthetic polymerizations forward and elevating soluble phosphate concentrations [Cooperman et al., 1992].
+- **`PUJ_000730` (`ipp1`):** Inorganic pyrophosphatase (288 aa, Pfam PF00719; literature-inferred: EC 3.6.1.1). Catalyzes the exergonic hydrolysis of inorganic pyrophosphate (PPi -> 2 Pi), pulling biosynthetic polymerizations forward and elevating soluble phosphate concentrations [Cooperman et al., 1992].
 - **`PUJ_000731` (`dus2`):** Trna-dihydrouridine synthase 2 (EC 1.3.1.91). Contains PF01207. Catalyzes core biosynthetic condensation or macrocyclization reactions in the pathway.
-- **`PUJ_000732` (`fun30`):** Chromatin remodeling ATPase Fun30 (1,026 aa, EC 3.6.4.12, Pfam PF00176, PF00270). Snf2-family helicase regulating chromatin architecture and accessibility of stress-responsive regulons [Neves-Costa et al., 2009].
+- **`PUJ_000732` (`fun30`):** Chromatin remodeling ATPase Fun30 (1,026 aa, Pfam PF00176, PF00270; literature-inferred: EC 3.6.4.12). Snf2-family helicase regulating chromatin architecture and accessibility of stress-responsive regulons [Neves-Costa et al., 2009].
 - **`PUJ_000733` (`vma21`):** Vacuolar atpase assembly integral membrane protein vma21. Hypothetical or accessory protein implicated in cluster function or localized metabolic support.
 - **`PUJ_000734`:** Hypothetical protein. Hypothetical or accessory protein implicated in cluster function or localized metabolic support.
 
@@ -4651,52 +4657,52 @@ The **Scaffold 24 Phosphate Solubilizing & Hydrolase Neighborhood** constitutes 
 ### 76. Phosphate Regulatory Regulon PHO2 & Alpha-Amylase (`Scaffold 482`)
 
 - **Cluster Identifier:** `CLUSTER_76_scaffold_482_phosphate_regulator_PHO2_AMY3` (`CLUSTER_76_scaffold_482_phosphate_regulator_PHO2_AMY3`)  
-- **Genomic Location:** Scaffold 482 | Span: 778,829–880,781 bp (101,953 bp, 21 CDSs)  
+- **Genomic Location:** Scaffold 482 | Span: 778,830–880,781 bp (101,952 bp, 21 CDSs)  
 - **Pathway Class:** `Phosphate Regulation & Starch Hydrolysis` | **Confidence Tier:** `VERIFIED_AGRICULTURAL`  
 
 [![CLUSTER_76_scaffold_482_phosphate_regulator_PHO2_AMY3](CLUSTER_76_scaffold_482_phosphate_regulator_PHO2_AMY3.png)](CLUSTER_76_scaffold_482_phosphate_regulator_PHO2_AMY3.svg)
 
-> *Figure 76: Publication-grade gene cluster diagram of `CLUSTER_76_scaffold_482_phosphate_regulator_PHO2_AMY3` on Scaffold 482. Arrows indicate direction of transcription; boxes display standardized gene symbols or official locus tags. [Open scalable vector SVG](CLUSTER_76_scaffold_482_phosphate_regulator_PHO2_AMY3.svg).*
+> *Figure 76: Publication-grade gene cluster diagram of `CLUSTER_76_scaffold_482_phosphate_regulator_PHO2_AMY3` on Scaffold 482. **Header Span** (778,830–880,781 bp) indicates the total candidate regional window; **Sub-track Bracket** indicates the precise physical CDS span (21 CDSs, 102.0 kb). Arrows indicate direction of transcription; boxes display standardized gene symbols or official locus tags. [Open scalable vector SVG](CLUSTER_76_scaffold_482_phosphate_regulator_PHO2_AMY3.svg).*
 
 #### Gene Inventory & Structural Qualifiers
 
 | Locus Tag | Gene Symbol | Strand | Physical Span | Length | Putative Product & EC Number | Pfam / Domain Signatures |
 | :--- | :---: | :---: | :---: | :---: | :--- | :--- |
-| `PUJ_005547` | `PUJ_005547` | `+` | 778,829..779,621 | 210 aa | hypothetical protein | — |
-| `PUJ_005548` | `PUJ_005548` | `+` | 779,777..780,966 | 362 aa | hypothetical protein | — |
-| `PUJ_005549` | `amy3` | `-` | 782,013..784,059 | 498 aa | Alpha-amylase A type-3 (`EC 3.2.1.1`) | PF00128, PF09260 |
-| `PUJ_005550` | `aga1` | `-` | 784,693..787,820 | 985 aa | hypothetical protein (`EC 3.2.1.20`) | PF01055, PF21365 |
-| `PUJ_005551` | `PUJ_005551` | `+` | 789,535..791,455 | 589 aa | hypothetical protein | PF00172, PF04082 |
-| `PUJ_005552` | `PUJ_005552` | `-` | 792,165..793,623 | 485 aa | hypothetical protein | PF02434 |
-| `PUJ_005553` | `srp72` | `+` | 795,761..797,882 | 648 aa | Signal recognition particle subunit SRP72 | PF08492, PF17004 |
-| `PUJ_005554` | `PUJ_005554` | `-` | 798,163..799,321 | 385 aa | hypothetical protein | PF01408 |
-| `PUJ_005555` | `PUJ_005555` | `+` | 801,141..803,832 | 522 aa | hypothetical protein | — |
-| `PUJ_005556` | `dnf3` | `+` | 806,287..811,378 | 1696 aa | drs2 neo1 protein | PF00122, PF00702, PF13246 |
-| `PUJ_005557` | `pho2` | `+` | 815,412..817,287 | 605 aa | Transcription factor | PF00046 |
-| `PUJ_005558` | `PUJ_005558` | `+` | 831,564..832,178 | 161 aa | hypothetical protein | — |
-| `PUJ_005559` | `PUJ_005559` | `-` | 832,228..833,287 | 352 aa | hypothetical protein | PF04678 |
-| `PUJ_005560` | `PUJ_005560` | `+` | 844,070..846,531 | 762 aa | hypothetical protein | — |
-| `PUJ_005561` | `PUJ_005561` | `-` | 847,711..848,563 | 283 aa | hypothetical protein | — |
-| `PUJ_005562` | `PUJ_005562` | `-` | 849,968..851,312 | 447 aa | hypothetical protein | PF02458 |
-| `PUJ_005563` | `PUJ_005563` | `+` | 856,197..856,887 | 229 aa | hypothetical protein (`EC 2.3.2.27`) | — |
-| `PUJ_005564` | `PUJ_005564` | `+` | 864,608..865,946 | 392 aa | hypothetical protein | PF00096 |
-| `PUJ_005565` | `sif3` | `-` | 867,059..869,247 | 663 aa | Sad1-interacting factor 3 | PF02582 |
-| `PUJ_005566` | `PUJ_005566` | `-` | 878,630..880,259 | 507 aa | hypothetical protein | — |
-| `PUJ_005567` | `PUJ_005567` | `-` | 880,379..880,781 | 133 aa | hypothetical protein | — |
+| `PUJ_005547` | `PUJ_005547` | `+` | 778,830..779,621 | 210 aa | hypothetical protein | — |
+| `PUJ_005548` | `PUJ_005548` | `+` | 779,778..780,966 | 362 aa | hypothetical protein | — |
+| `PUJ_005549` | `amy3` | `-` | 782,014..784,059 | 498 aa | Alpha-amylase A type-3 (`EC 3.2.1.1`) | PF00128, PF09260 |
+| `PUJ_005550` | `aga1` | `-` | 784,694..787,820 | 985 aa | hypothetical protein (`EC 3.2.1.20`) | PF01055, PF21365 |
+| `PUJ_005551` | `PUJ_005551` | `+` | 789,536..791,455 | 589 aa | hypothetical protein | PF00172, PF04082 |
+| `PUJ_005552` | `PUJ_005552` | `-` | 792,166..793,623 | 485 aa | hypothetical protein | PF02434 |
+| `PUJ_005553` | `srp72` | `+` | 795,762..797,882 | 648 aa | Signal recognition particle subunit SRP72 | PF08492, PF17004 |
+| `PUJ_005554` | `PUJ_005554` | `-` | 798,164..799,321 | 385 aa | hypothetical protein | PF01408 |
+| `PUJ_005555` | `PUJ_005555` | `+` | 801,142..803,832 | 522 aa | hypothetical protein | — |
+| `PUJ_005556` | `dnf3` | `+` | 806,288..811,378 | 1696 aa | drs2 neo1 protein | PF00122, PF00702, PF13246 |
+| `PUJ_005557` | `pho2` | `+` | 815,413..817,287 | 605 aa | Transcription factor | PF00046 |
+| `PUJ_005558` | `PUJ_005558` | `+` | 831,565..832,178 | 161 aa | hypothetical protein | — |
+| `PUJ_005559` | `PUJ_005559` | `-` | 832,229..833,287 | 352 aa | hypothetical protein | PF04678 |
+| `PUJ_005560` | `PUJ_005560` | `+` | 844,071..846,531 | 762 aa | hypothetical protein | — |
+| `PUJ_005561` | `PUJ_005561` | `-` | 847,712..848,563 | 283 aa | hypothetical protein | — |
+| `PUJ_005562` | `PUJ_005562` | `-` | 849,969..851,312 | 447 aa | hypothetical protein | PF02458 |
+| `PUJ_005563` | `PUJ_005563` | `+` | 856,198..856,887 | 229 aa | hypothetical protein (`EC 2.3.2.27`) | — |
+| `PUJ_005564` | `PUJ_005564` | `+` | 864,609..865,946 | 392 aa | hypothetical protein | PF00096 |
+| `PUJ_005565` | `sif3` | `-` | 867,060..869,247 | 663 aa | Sad1-interacting factor 3 | PF02582 |
+| `PUJ_005566` | `PUJ_005566` | `-` | 878,631..880,259 | 507 aa | hypothetical protein | — |
+| `PUJ_005567` | `PUJ_005567` | `-` | 880,380..880,781 | 133 aa | hypothetical protein | — |
 
 #### Putative Function & Enzymatic Mechanisms
 
 - **`PUJ_005547`:** Hypothetical protein. Hypothetical or accessory protein implicated in cluster function or localized metabolic support.
 - **`PUJ_005548`:** Hypothetical protein. Hypothetical or accessory protein implicated in cluster function or localized metabolic support.
-- **`PUJ_005549` (`amy3`):** Alpha-amylase A Type-3 (498 aa, EC 3.2.1.1, Pfam PF00128, PF09260). Secreted endo-amylase hydrolyzing internal alpha-1,4-glucosidic bonds in starch and glycogen, driving robust fungal growth on agricultural substrates [MacGregor et al., 2001].
-- **`PUJ_005550` (`aga1`):** Alpha-glucosidase GH31 (985 aa, EC 3.2.1.20, Pfam PF01055, PF21365). Exoglucosidase releasing free D-glucose from non-reducing termini of starch oligosaccharides [de Vries & Visser, 2001].
+- **`PUJ_005549` (`amy3`):** Alpha-amylase A Type-3 (498 aa, Pfam PF00128, PF09260; literature-inferred: EC 3.2.1.1). Secreted endo-amylase hydrolyzing internal alpha-1,4-glucosidic bonds in starch and glycogen, driving robust fungal growth on agricultural substrates [MacGregor et al., 2001].
+- **`PUJ_005550` (`aga1`):** Alpha-glucosidase GH31 (985 aa, Pfam PF01055, PF21365; literature-inferred: EC 3.2.1.20). Exoglucosidase releasing free D-glucose from non-reducing termini of starch oligosaccharides [de Vries & Visser, 2001].
 - **`PUJ_005551`:** Hypothetical protein. Contains PF00172, PF04082. Hypothetical or accessory protein implicated in cluster function or localized metabolic support.
 - **`PUJ_005552`:** Hypothetical protein. Contains PF02434. Hypothetical or accessory protein implicated in cluster function or localized metabolic support.
 - **`PUJ_005553` (`srp72`):** Signal recognition particle subunit srp72. Contains PF08492, PF17004. Hypothetical or accessory protein implicated in cluster function or localized metabolic support.
 - **`PUJ_005554`:** Hypothetical protein. Contains PF01408. Hypothetical or accessory protein implicated in cluster function or localized metabolic support.
 - **`PUJ_005555`:** Hypothetical protein. Hypothetical or accessory protein implicated in cluster function or localized metabolic support.
 - **`PUJ_005556` (`dnf3`):** P-type phospholipid-translocating ATPase (1,696 aa, Pfam PF00122, PF00702). Flippase maintaining membrane lipid asymmetry and driving endocytic vesicle formation [Hua et al., 2002].
-- **`PUJ_005557` (`pho2`):** Homeodomain transcription factor Pho2 (605 aa, Pfam PF00046, IPR001356). Master transcriptional regulator forming cooperative complexes with Pho4 to activate acid and alkaline phosphatases under orthophosphate deficiency [Bhoite et al., 2002].
+- **`PUJ_005557` (`pho2`):** Homeodomain transcription factor Pho2 (605 aa, Pfam PF00046). Master transcriptional regulator forming cooperative complexes with Pho4 to activate acid and alkaline phosphatases under orthophosphate deficiency [Bhoite et al., 2002].
 - **`PUJ_005558`:** Hypothetical protein. Hypothetical or accessory protein implicated in cluster function or localized metabolic support.
 - **`PUJ_005559`:** Hypothetical protein. Contains PF04678. Hypothetical or accessory protein implicated in cluster function or localized metabolic support.
 - **`PUJ_005560`:** Hypothetical protein. Hypothetical or accessory protein implicated in cluster function or localized metabolic support.
@@ -4722,38 +4728,38 @@ The **Scaffold 482 Phosphate Regulatory Regulon** centers on master homeodomain 
 ### 77. Phosphate Starvation Sensor PHO81 & Redox Dyad (`Scaffold 1339`)
 
 - **Cluster Identifier:** `CLUSTER_77_scaffold_1339_phosphate_sensor_PHO81_redox` (`CLUSTER_77_scaffold_1339_phosphate_sensor_PHO81_redox`)  
-- **Genomic Location:** Scaffold 1339 | Span: 208,818–273,028 bp (64,211 bp, 21 CDSs)  
+- **Genomic Location:** Scaffold 1339 | Span: 208,819–273,028 bp (64,210 bp, 21 CDSs)  
 - **Pathway Class:** `Phosphate Sensing & Oxidative Stress` | **Confidence Tier:** `VERIFIED_AGRICULTURAL`  
 
 [![CLUSTER_77_scaffold_1339_phosphate_sensor_PHO81_redox](CLUSTER_77_scaffold_1339_phosphate_sensor_PHO81_redox.png)](CLUSTER_77_scaffold_1339_phosphate_sensor_PHO81_redox.svg)
 
-> *Figure 77: Publication-grade gene cluster diagram of `CLUSTER_77_scaffold_1339_phosphate_sensor_PHO81_redox` on Scaffold 1339. Arrows indicate direction of transcription; boxes display standardized gene symbols or official locus tags. [Open scalable vector SVG](CLUSTER_77_scaffold_1339_phosphate_sensor_PHO81_redox.svg).*
+> *Figure 77: Publication-grade gene cluster diagram of `CLUSTER_77_scaffold_1339_phosphate_sensor_PHO81_redox` on Scaffold 1339. **Header Span** (208,819–273,028 bp) indicates the total candidate regional window; **Sub-track Bracket** indicates the precise physical CDS span (21 CDSs, 64.2 kb). Arrows indicate direction of transcription; boxes display standardized gene symbols or official locus tags. [Open scalable vector SVG](CLUSTER_77_scaffold_1339_phosphate_sensor_PHO81_redox.svg).*
 
 #### Gene Inventory & Structural Qualifiers
 
 | Locus Tag | Gene Symbol | Strand | Physical Span | Length | Putative Product & EC Number | Pfam / Domain Signatures |
 | :--- | :---: | :---: | :---: | :---: | :--- | :--- |
-| `PUJ_009287` | `PUJ_009287` | `+` | 208,818..211,115 | 707 aa | hypothetical protein (`EC 3.4.14.4`) | PF03571 |
-| `PUJ_009288` | `PUJ_009288` | `+` | 212,252..213,543 | 229 aa | hypothetical protein | — |
-| `PUJ_009289` | `sfh1` | `+` | 214,394..216,166 | 559 aa | Chromatin structure remodeling complex protein sfh1 | PF04855 |
-| `PUJ_009290` | `PUJ_009290` | `-` | 219,805..220,800 | 306 aa | hypothetical protein | — |
-| `PUJ_009291` | `sec13` | `+` | 221,379..222,569 | 295 aa | GTPase-activating protein S13 | — |
-| `PUJ_009292` | `PUJ_009292` | `-` | 226,465..227,575 | 200 aa | hypothetical protein | — |
-| `PUJ_009293` | `gcn20` | `-` | 228,935..231,649 | 751 aa | ATP-binding cassette, regulator of translational elongation | PF00005, PF12848 |
-| `PUJ_009294` | `PUJ_009294` | `+` | 236,563..238,510 | 648 aa | hypothetical protein | PF20162 |
-| `PUJ_009295` | `PUJ_009295` | `+` | 242,757..244,234 | 444 aa | hypothetical protein | — |
-| `PUJ_009296` | `PUJ_009296` | `+` | 247,748..248,306 | 185 aa | hypothetical protein | — |
-| `PUJ_009297` | `pho81` | `+` | 251,147..253,605 | 772 aa | phosphate system positive regulatory protein pho81 | PF00023, PF12796, PF13606 |
-| `PUJ_009298` | `nat2` | `-` | 254,667..255,110 | 123 aa | DUF1279 super | PF06916 |
-| `PUJ_009299` | `coa1` | `-` | 257,391..258,013 | 184 aa | cytochrome oxidase assembly protein 1 | PF08695 |
-| `PUJ_009300` | `PUJ_009300` | `+` | 258,294..258,530 | 60 aa | hypothetical protein | — |
-| `PUJ_009301` | `PUJ_009301` | `-` | 259,490..259,859 | 122 aa | hypothetical protein | — |
-| `PUJ_009302` | `coq2` | `+` | 263,129..263,933 | 267 aa | Para-hydroxybenzoate--polyprenyltransferase, mitochondrial precursor (PHB:polyprenyltransferase) (`EC 2.5.1.39`) | PF01040 |
-| `PUJ_009303` | `grx5` | `+` | 264,551..265,179 | 132 aa | monothiol glutaredoxin grx5 | PF00462 |
-| `PUJ_009304` | `muq1` | `-` | 265,486..266,814 | 292 aa | choline phosphate cytidylyltransferase (`EC 2.7.7.14`) | — |
-| `PUJ_009305` | `ups2` | `-` | 269,305..269,950 | 190 aa | Phospholipid metabolism protein | PF04707 |
-| `PUJ_009306` | `dot5` | `+` | 270,874..271,687 | 207 aa | thioredoxin peroxidase dot5 (`EC 1.11.1.24`) | PF00578, PF08534 |
-| `PUJ_009307` | `PUJ_009307` | `+` | 272,377..273,028 | 196 aa | hypothetical protein | — |
+| `PUJ_009287` | `PUJ_009287` | `+` | 208,819..211,115 | 707 aa | hypothetical protein (`EC 3.4.14.4`) | PF03571 |
+| `PUJ_009288` | `PUJ_009288` | `+` | 212,253..213,543 | 229 aa | hypothetical protein | — |
+| `PUJ_009289` | `sfh1` | `+` | 214,395..216,166 | 559 aa | Chromatin structure remodeling complex protein sfh1 | PF04855 |
+| `PUJ_009290` | `PUJ_009290` | `-` | 219,806..220,800 | 306 aa | hypothetical protein | — |
+| `PUJ_009291` | `sec13` | `+` | 221,380..222,569 | 295 aa | GTPase-activating protein S13 | — |
+| `PUJ_009292` | `PUJ_009292` | `-` | 226,466..227,575 | 200 aa | hypothetical protein | — |
+| `PUJ_009293` | `gcn20` | `-` | 228,936..231,649 | 751 aa | ATP-binding cassette, regulator of translational elongation | PF00005, PF12848 |
+| `PUJ_009294` | `PUJ_009294` | `+` | 236,564..238,510 | 648 aa | hypothetical protein | PF20162 |
+| `PUJ_009295` | `PUJ_009295` | `+` | 242,758..244,234 | 444 aa | hypothetical protein | — |
+| `PUJ_009296` | `PUJ_009296` | `+` | 247,749..248,306 | 185 aa | hypothetical protein | — |
+| `PUJ_009297` | `pho81` | `+` | 251,148..253,605 | 772 aa | phosphate system positive regulatory protein pho81 | PF00023, PF12796, PF13606 |
+| `PUJ_009298` | `nat2` | `-` | 254,668..255,110 | 123 aa | DUF1279 super | PF06916 |
+| `PUJ_009299` | `coa1` | `-` | 257,392..258,013 | 184 aa | cytochrome oxidase assembly protein 1 | PF08695 |
+| `PUJ_009300` | `PUJ_009300` | `+` | 258,295..258,530 | 60 aa | hypothetical protein | — |
+| `PUJ_009301` | `PUJ_009301` | `-` | 259,491..259,859 | 122 aa | hypothetical protein | — |
+| `PUJ_009302` | `coq2` | `+` | 263,130..263,933 | 267 aa | Para-hydroxybenzoate--polyprenyltransferase, mitochondrial precursor (PHB:polyprenyltransferase) (`EC 2.5.1.39`) | PF01040 |
+| `PUJ_009303` | `grx5` | `+` | 264,552..265,179 | 132 aa | monothiol glutaredoxin grx5 | PF00462 |
+| `PUJ_009304` | `muq1` | `-` | 265,487..266,814 | 292 aa | choline phosphate cytidylyltransferase (`EC 2.7.7.14`) | — |
+| `PUJ_009305` | `ups2` | `-` | 269,306..269,950 | 190 aa | Phospholipid metabolism protein | PF04707 |
+| `PUJ_009306` | `dot5` | `+` | 270,875..271,687 | 207 aa | thioredoxin peroxidase dot5 (`EC 1.11.1.24`) | PF00578, PF08534 |
+| `PUJ_009307` | `PUJ_009307` | `+` | 272,378..273,028 | 196 aa | hypothetical protein | — |
 
 #### Putative Function & Enzymatic Mechanisms
 
@@ -4772,11 +4778,11 @@ The **Scaffold 482 Phosphate Regulatory Regulon** centers on master homeodomain 
 - **`PUJ_009299` (`coa1`):** Cytochrome oxidase assembly protein 1. Contains PF08695. Hypothetical or accessory protein implicated in cluster function or localized metabolic support.
 - **`PUJ_009300`:** Hypothetical protein. Hypothetical or accessory protein implicated in cluster function or localized metabolic support.
 - **`PUJ_009301`:** Hypothetical protein. Hypothetical or accessory protein implicated in cluster function or localized metabolic support.
-- **`PUJ_009302` (`coq2`):** PHB:polyprenyltransferase Coq2 (267 aa, EC 2.5.1.39, Pfam PF01040). Catalyzes the primary prenylation of 4-hydroxybenzoate in the mitochondrial ubiquinone (coenzyme Q) pathway, vital for respiratory electron transport [Ashby et al., 1992].
+- **`PUJ_009302` (`coq2`):** PHB:polyprenyltransferase Coq2 (267 aa, Pfam PF01040; literature-inferred: EC 2.5.1.39). Catalyzes the primary prenylation of 4-hydroxybenzoate in the mitochondrial ubiquinone (coenzyme Q) pathway, vital for respiratory electron transport [Ashby et al., 1992].
 - **`PUJ_009303` (`grx5`):** Monothiol glutaredoxin Grx5 (132 aa, Pfam PF00462). Mediates iron-sulfur [Fe-S] cluster biogenesis and protects mitochondrial enzymes from oxidative stress [Rodriguez-Manzaneque et al., 2002].
-- **`PUJ_009304` (`muq1`):** Choline-phosphate cytidylyltransferase (292 aa, EC 2.7.7.14). Essential rate-limiting enzyme in phosphatidylcholine synthesis maintaining cellular membrane integrity [Vance, 1990].
+- **`PUJ_009304` (`muq1`):** Choline-phosphate cytidylyltransferase (292 aa; literature-inferred: EC 2.7.7.14). Essential rate-limiting enzyme in phosphatidylcholine synthesis maintaining cellular membrane integrity [Vance, 1990].
 - **`PUJ_009305` (`ups2`):** Phospholipid metabolism protein. Contains PF04707. Hypothetical or accessory protein implicated in cluster function or localized metabolic support.
-- **`PUJ_009306` (`dot5`):** Thioredoxin peroxidase Dot5 / 1-Cys Peroxiredoxin (207 aa, EC 1.11.1.24, Pfam PF00578, PF08534). Antioxidant peroxidatic scavenger removing toxic organic and hydrogen peroxides under oxidative and starvation stress [Chae et al., 1994].
+- **`PUJ_009306` (`dot5`):** Thioredoxin peroxidase Dot5 / 1-Cys Peroxiredoxin (207 aa, Pfam PF00578, PF08534; literature-inferred: EC 1.11.1.24). Antioxidant peroxidatic scavenger removing toxic organic and hydrogen peroxides under oxidative and starvation stress [Chae et al., 1994].
 - **`PUJ_009307`:** Hypothetical protein. Hypothetical or accessory protein implicated in cluster function or localized metabolic support.
 
 ### Collective Pathway Architecture & Biological Synergy
