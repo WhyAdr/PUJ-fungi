@@ -78,7 +78,7 @@ Pada contig 909, isolat mengodekan klaster penyaluran prekursor diterpene khusus
 
 ---
 
-### 4. Klaster Gen yang Mendukung Kelangsungan Hidup dalam Pengaturan/Lingkungan Fermentasi Biogas
+### 4. Klaster Gen yang Mendukung Kelangsungan Hidup dalam Lingkungan Fermentasi Biogas
 
 Reaktor biogas (*anaerobic digesters*), *slurry* anaerobik, dan fermenter limbah organik menghadirkan cekaman lingkungan multifaktorial yang ekstrem, yang ditandai oleh penurunan kadar oksigen akut (kondisi hipoksia hingga anoksia), suhu tinggi, akumulasi asam lemak volatil (*volatile fatty acids*, VFA), serta produk perombakan fenolik yang toksik. *Trichoderma asperellum* TA-PUJ memperlihatkan ketahanan metabolik yang mendalam terhadap kondisi-kondisi tersebut, yang dimediasi oleh klaster gen lignoselulolitik, glikolitik, dan pelindung stres spesifik:
 
