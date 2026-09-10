@@ -41,10 +41,10 @@ Terhadap serangga herbivora, kutu akar, dan nematoda parasit tanaman, AF-PUJ mem
 
 ### 3. Klaster Gen yang Berhubungan dengan Biosintesis Fitohormon
 
-Stimulasi dan modulasi fitohormon pada pertumbuhan tanaman merupakan mekanisme sentral dari fungi berfilamen yang berasosiasi dengan tanaman. Meskipun AF-PUJ tidak memiliki sistem 1-aminocyclopropane-1-carboxylate (ACC) deaminase standar seperti pada endofit lainnya (tidak memiliki lokus terverifikasi dengan tanda kanonikal `IPR005965`), genomnya mengodekan mesin enzimatik alternatif yang mampu mensintesis dan menyalurkan molekul pensinyalan mirip auxin, gibberellin, dan sitokinin:
+Stimulasi dan modulasi fitohormon pada pertumbuhan tanaman merupakan mekanisme sentral dari fungi berfilamen yang berasosiasi dengan tanaman. Meskipun AF-PUJ tidak memiliki sistem 1-aminocyclopropane-1-carboxylate (ACC) deaminase standar seperti pada endofit lainnya (tidak memiliki lokus terverifikasi dengan tanda kanonikal `IPR005965`), genomnya mengodekan perangkat enzimatik alternatif yang mampu memproduksi dan menyalurkan molekul pensinyalan mirip auxin, gibberellin, dan sitokinin:
 
 #### Jalur Produksi Indole-3-Acetic Acid (IAA / Auxin)
-Rute utama untuk sintesis auxin fungal berasal dari jalur aromatik shikimate. Genom AF-PUJ memiliki mesin otonom lengkap untuk sintesis L-triptofan dari chorismate. Lebih lanjut, AF-PUJ mengodekan **tiga klaster metabolit sekunder indole *orphan* terdedikasi**:
+Rute utama untuk sintesis auxin fungal berasal dari jalur aromatik shikimate. Genom AF-PUJ memiliki perangkat metabolik otonom yang lengkap untuk biosintesis L-triptofan dari chorismate. Lebih lanjut, AF-PUJ mengodekan **tiga klaster metabolit sekunder indole *orphan* terdedikasi**:
 - `BGC_02_scaffold_24_c2_orphan_indole` (1..31.152 bp, 9 CDS)
 - `BGC_48_scaffold_485_c4_orphan_indole` (1..31.128 bp, 10 CDS)
 - `BGC_55_scaffold_641_c1_orphan_indole` (1..31.441 bp, 13 CDS)
@@ -52,7 +52,7 @@ Rute utama untuk sintesis auxin fungal berasal dari jalur aromatik shikimate. Ge
 Lokus-lokus ini menaungi aromatic tryptophan decarboxylase, monooxygenase, dan transferase khusus yang mampu merombak kerangka indole. Yang paling signifikan, anotasi genomik mengidentifikasi **7 enzim famili nitrilase fungsional** (Pfam PF02979 / InterPro IPR003010, EC 3.5.5.1) yang tersebar di seluruh perakitan genom. Pada fungi yang berasosiasi dengan tanaman, nitrilase mengarahkan jalur auxin indole-3-acetonitrile (IAN), membelah IAN langsung menjadi *indole-3-acetic acid* (IAA) yang aktif secara biologis tanpa mengakumulasi senyawa antara indole-3-acetamide yang menghambat. Kapasitas katalitik ini memungkinkan AF-PUJ melepaskan auxin aktif yang mendorong percabangan akar lateral dan pemanjangan permukaan akar saat menerima eksudat akar.
 
 #### Cadangan Saluran Diterpene Mirip-Gibberellin
-AF-PUJ mempertahankan mesin terpenoid yang luas, mencakup **21 terpene cyclase** dan beberapa klaster penyalur prekursor terpena terdedikasi:
+AF-PUJ memiliki perangkat biosintesis terpenoid yang luas, mencakup **21 terpene cyclase** dan sejumlah klaster penyalur prekursor terpena terdedikasi:
 - `BGC_20_scaffold_418_c3_orphan_terpene_precursor` (1..32.523 bp, 8 CDS)
 - `BGC_24_scaffold_431_c2_orphan_terpene_precursor` (1..31.251 bp, 8 CDS)
 - `BGC_27_scaffold_432_c2_orphan_terpene_precursor` (1..31.235 bp, 10 CDS)
@@ -60,7 +60,7 @@ AF-PUJ mempertahankan mesin terpenoid yang luas, mencakup **21 terpene cyclase**
 Klaster-klaster ini mengekspresikan geranylgeranyl pyrophosphate (GGPP) synthase (homolog `bts1`, Pfam PF00348, EC 2.5.1.29) dan *short-chain dehydrogenase* yang menyalurkan prekursor isoprenoid 20-karbon ke dalam kerangka hidrokarbon diterpene. Pada fungi berfilamen, jalur ini memasok *ent-kaurene* dan kerangka fitohormon mirip-gibberellin yang meregulasi pertumbuhan vegetatif tanaman inang, pemanjangan buku batang, serta respons perkecambahan benih.
 
 #### Modul Translokasi Sitokinin dan Pensinyalan
-Melengkapi jalur auxin dan diterpene, Scaffold 24 mengodekan klaster metabolit sekunder *quaternary amine / choline* khusus (`BGC_06_scaffold_24_c6_choline`, 1..70.758 bp, 17 CDS; identitas 77% terhadap MIBiG `BGC0002276.2`). Keberadaan methyltransferase, acetyltransferase, dan domain terkait *tRNA-isopentenyltransferase* di dalam klaster menunjukkan bahwa AF-PUJ memiliki mesin metabolisme untuk memprenilasi nukleotida adenin, menghasilkan prekursor sitokinin mirip-zeatin dan isopentenyladenine yang merangsang pembelahan sel tanaman serta menunda penuaan jaringan.
+Melengkapi jalur auxin dan diterpene, Scaffold 24 mengodekan klaster metabolit sekunder *quaternary amine / choline* khusus (`BGC_06_scaffold_24_c6_choline`, 1..70.758 bp, 17 CDS; identitas 77% terhadap MIBiG `BGC0002276.2`). Keberadaan methyltransferase, acetyltransferase, dan domain terkait *tRNA-isopentenyltransferase* di dalam klaster menunjukkan bahwa AF-PUJ memiliki perangkat metabolik untuk memprenilasi nukleotida adenin, menghasilkan prekursor sitokinin mirip-zeatin dan isopentenyladenine yang merangsang pembelahan sel tanaman serta menunda penuaan jaringan.
 
 ---
 
